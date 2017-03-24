@@ -1,0 +1,21 @@
+<map id="vtkSlicerVolumeRenderingLogic" name="vtkSlicerVolumeRenderingLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="126,256,321,296"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerModuleLogic.html" title=" " alt="" coords="60,168,221,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,202,209,254,205,258,158,206"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="5,80,177,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,116,136,166,131,169,102,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="281,5,366,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="268,37,197,57,123,82,122,77,196,52,266,32"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo." alt="" coords="262,168,385,193"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="286,39,262,57,243,81,239,94,241,106,255,129,278,150,302,166,300,170,275,154,251,133,236,107,234,93,238,79,258,53,283,35"/>
+<area shape="rect" id="Node000006" href="$classvtkCacheManager.html" title=" " alt="" coords="253,80,393,105"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="326,45,326,80,321,80,321,45"/>
+<area shape="rect" id="Node000007" href="$classvtkDataIOManager.html" title=" " alt="" coords="417,80,563,105"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="363,34,465,78,463,82,361,39"/>
+<area shape="rect" id="Node000008" href="$classvtkTagTable.html" title=" " alt="" coords="587,80,686,105"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="380,30,588,77,586,83,379,35"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="303,205,245,258,242,254,299,201"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="326,119,326,167,321,167,321,119"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="471,117,431,146,401,160,371,171,369,165,399,155,429,142,468,113"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="614,116,591,133,564,146,519,161,471,171,385,181,385,175,471,166,517,156,562,142,588,128,611,112"/>
+</map>

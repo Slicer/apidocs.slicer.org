@@ -1,0 +1,10 @@
+<map id="vtkMRMLHierarchyNode" name="vtkMRMLHierarchyNode">
+<area shape="rect" id="Node000001" title="Abstract class representing a hierarchy member." alt="" coords="5,243,185,268"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="37,168,154,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,208,98,242,93,242,93,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="47,5,133,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,44,98,168,92,168,88,45"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="112,80,271,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="119,37,176,77,173,82,116,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="170,116,110,169,107,165,167,112"/>
+</map>

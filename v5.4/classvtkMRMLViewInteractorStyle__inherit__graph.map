@@ -1,0 +1,9 @@
+<map id="vtkMRMLViewInteractorStyle" name="vtkMRMLViewInteractorStyle">
+<area shape="rect" id="Node000001" title="Common base class for processing interaction events in MRML views." alt="" coords="125,79,335,104"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLSliceViewInteractorStyle.html" title="Provides customizable interaction routines." alt="" coords="5,152,215,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,114,140,154,137,150,199,109"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLThreeDViewInteractorStyle.html" title="Interactive manipulation of the camera." alt="" coords="239,152,463,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,109,324,150,321,154,258,114"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="151,5,309,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,44,233,79,227,79,227,44"/>
+</map>

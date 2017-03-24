@@ -1,0 +1,5 @@
+<map id="vtkMRMLFreeSurferModelStorageNode" name="vtkMRMLFreeSurferModelStorageNode">
+<area shape="rect" id="node2" href="$classvtkMRMLModelStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="38,229,239,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLStorageNode.html" title="A supercalss for other storage nodes. " alt="" coords="57,155,220,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="83,80,195,107"/>
+</map>
