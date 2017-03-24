@@ -1,0 +1,11 @@
+<map id="Libs/vtkSegmentationCore/vtkSegmentationConverter.h" name="Libs/vtkSegmentationCore/vtkSegmentationConverter.h">
+<area shape="rect" id="node2" href="$vtkBinaryLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkBinaryLabelmapToClosedSurface\lConversionRule.h" alt="" coords="5,95,259,151"/>
+<area shape="rect" id="node3" href="$vtkFractionalLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkFractionalLabelmapToClosed\lSurfaceConversionRule.h" alt="" coords="46,199,271,255"/>
+<area shape="rect" id="node4" href="$vtkClosedSurfaceToBinaryLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToBinaryLabelmap\lConversionRule.h" alt="" coords="333,95,587,151"/>
+<area shape="rect" id="node5" href="$vtkClosedSurfaceToFractionalLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToFractionalLabelmap\lConversionRule.h" alt="" coords="323,199,597,255"/>
+<area shape="rect" id="node6" href="$vtkSegmentation_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentation.h" alt="" coords="662,102,853,143"/>
+<area shape="rect" id="node10" href="$qMRMLSegmentationConversionParametersWidget_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentationConversion\lParametersWidget.h" alt="" coords="877,95,1163,151"/>
+<area shape="rect" id="node7" href="$vtkMRMLSegmentationNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lNode.h" alt="" coords="622,206,895,247"/>
+<area shape="rect" id="node8" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="483,303,744,359"/>
+<area shape="rect" id="node9" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="769,310,1037,351"/>
+</map>

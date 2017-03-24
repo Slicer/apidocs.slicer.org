@@ -1,0 +1,21 @@
+<map id="Modules/CLI/ExtractSkeleton/SkelGraph.h" name="Modules/CLI/ExtractSkeleton/SkelGraph.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,5,215,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,98,67,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,53,61,88,56,85,93,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="91,98,133,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,48,115,83,109,82,111,53"/>
+<area shape="rect" id="Node000004" href="$coordTypes_8h.html" title=" " alt="" coords="156,98,262,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,48,185,87,180,89,137,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="130,174,198,201"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,124,182,162,178,159,199,128"/>
+<area shape="rect" id="Node000006" href="$misc_8h.html" title=" " alt="" coords="221,174,286,201"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="218,124,240,161,235,160,216,129"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="92,249,156,277"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="233,201,161,244,159,239,228,202"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="180,249,241,277"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="248,201,228,238,224,234,243,203"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="265,249,327,277"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="262,200,283,237,278,235,260,204"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="351,249,446,277"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="280,199,362,242,357,242,279,204"/>
+</map>

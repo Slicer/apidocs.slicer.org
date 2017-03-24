@@ -1,0 +1,15 @@
+<map id="Libs/MRML/IDImageIO/itkMRMLIDImageIOFactory.h" name="Libs/MRML/IDImageIO/itkMRMLIDImageIOFactory.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="168,5,376,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,98,177,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,52,135,94,133,89,226,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="118,174,256,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,49,203,161,199,158,258,51"/>
+<area shape="rect" id="Node000004" href="$itkMRMLIDImageIO_8h.html" title=" " alt="" coords="251,98,411,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="289,48,315,85,310,85,287,53"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="407,174,567,201"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="338,48,383,69,425,96,454,127,475,161,470,159,449,130,421,100,380,73,338,53"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="308,126,227,169,225,164,303,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="280,174,382,201"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="333,124,333,160,329,156,329,128"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="359,124,448,167,443,167,358,129"/>
+</map>

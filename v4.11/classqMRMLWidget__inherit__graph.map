@@ -1,0 +1,42 @@
+<map id="qMRMLWidget" name="qMRMLWidget">
+<area shape="rect" id="node3" href="$classqMRMLAnnotationDisplayNodePropertyWidget.html" title="qMRMLAnnotationDisplayNode\lPropertyWidget" alt="" coords="311,5,536,47"/>
+<area shape="rect" id="node5" href="$classqMRMLAnnotationFiducialProjectionPropertyWidget.html" title="qMRMLAnnotationFiducialProjection\lPropertyWidget" alt="" coords="295,71,552,112"/>
+<area shape="rect" id="node6" href="$classqMRMLAnnotationRulerProjectionPropertyWidget.html" title="qMRMLAnnotationRulerProjection\lPropertyWidget" alt="" coords="303,136,544,177"/>
+<area shape="rect" id="node7" href="$classqMRMLChartWidget.html" title="qMRMLChartWidget is the toplevel charting widget that can be packed in a layout. " alt="" coords="348,202,499,229"/>
+<area shape="rect" id="node8" href="$classqMRMLColorPickerWidget.html" title="qMRMLColorPickerWidget" alt="" coords="329,253,518,279"/>
+<area shape="rect" id="node9" href="$classqMRMLLabelComboBox.html" title="qMRMLLabelComboBox" alt="" coords="335,303,511,330"/>
+<area shape="rect" id="node10" href="$classqMRMLMarkupsDisplayNodeWidget.html" title="qMRMLMarkupsDisplayNodeWidget" alt="" coords="296,354,551,381"/>
+<area shape="rect" id="node11" href="$classqMRMLMarkupsFiducialProjectionPropertyWidget.html" title="qMRMLMarkupsFiducialProjection\lPropertyWidget" alt="" coords="303,405,543,447"/>
+<area shape="rect" id="node12" href="$classqMRMLMarkupsInteractionHandleWidget.html" title="qMRMLMarkupsInteractionHandle\lWidget" alt="" coords="303,471,544,512"/>
+<area shape="rect" id="node13" href="$classqMRMLModelDisplayNodeWidget.html" title="qMRMLModelDisplayNodeWidget" alt="" coords="304,537,543,563"/>
+<area shape="rect" id="node14" href="$classqMRMLPlotChartPropertiesWidget.html" title="qMRMLPlotChartProperties\lWidget" alt="" coords="325,588,521,629"/>
+<area shape="rect" id="node15" href="$classqMRMLPlotSeriesPropertiesWidget.html" title="qMRMLPlotSeriesProperties\lWidget" alt="" coords="323,653,524,695"/>
+<area shape="rect" id="node16" href="$classqMRMLPlotWidget.html" title="qMRMLPlotWidget is the toplevel Plotting widget that can be packed in a layout. " alt="" coords="353,719,494,746"/>
+<area shape="rect" id="node17" href="$classqMRMLScalarsDisplayWidget.html" title="qMRMLScalarsDisplayWidget" alt="" coords="317,770,529,797"/>
+<area shape="rect" id="node18" href="$classqMRMLSegmentationDisplayNodeWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed..." alt="" coords="318,821,529,863"/>
+<area shape="rect" id="node19" href="$classqMRMLSegmentationFileExportWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed..." alt="" coords="310,887,537,928"/>
+<area shape="rect" id="node20" href="$classqMRMLSegmentationGeometryWidget.html" title="qMRMLSegmentationGeometry\lWidget" alt="" coords="310,952,537,993"/>
+<area shape="rect" id="node21" href="$classqMRMLSegmentEditorWidget.html" title="Qt widget for editing a segment from a segmentation using Editor effects.Widget for editing segmentat..." alt="" coords="317,1018,529,1045"/>
+<area shape="rect" id="node22" href="$classqMRMLSegmentSelectorWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed..." alt="" coords="310,1069,537,1095"/>
+<area shape="rect" id="node23" href="$classqMRMLSegmentsTableView.html" title="qMRMLSegmentsTableView" alt="" coords="323,1119,524,1146"/>
+<area shape="rect" id="node24" href="$classqMRMLSequenceBrowserPlayWidget.html" title="qMRMLSequenceBrowserPlay\lWidget" alt="" coords="316,1171,531,1212"/>
+<area shape="rect" id="node25" href="$classqMRMLSequenceBrowserSeekWidget.html" title="qMRMLSequenceBrowserSeek\lWidget" alt="" coords="314,1236,533,1277"/>
+<area shape="rect" id="node26" href="$classqMRMLSliceInformationWidget.html" title="qMRMLSliceInformationWidget" alt="" coords="312,1302,535,1329"/>
+<area shape="rect" id="node27" href="$classqMRMLSliceWidget.html" title="qMRMLSliceWidget" alt="" coords="350,1353,497,1379"/>
+<area shape="rect" id="node28" href="$classqMRMLTableWidget.html" title="qMRMLTableWidget is the toplevel table widget that can be packed in a layout. " alt="" coords="349,1403,498,1430"/>
+<area shape="rect" id="node29" href="$classqMRMLThreeDViewInformationWidget.html" title="qMRMLThreeDViewInformation\lWidget" alt="" coords="311,1455,535,1496"/>
+<area shape="rect" id="node30" href="$classqMRMLThreeDWidget.html" title="qMRMLThreeDWidget" alt="" coords="342,1521,505,1547"/>
+<area shape="rect" id="node31" href="$classqMRMLTransformDisplayNodeWidget.html" title="qMRMLTransformDisplayNode\lWidget" alt="" coords="315,1572,532,1613"/>
+<area shape="rect" id="node32" href="$classqMRMLTransformInfoWidget.html" title="qMRMLTransformInfoWidget" alt="" coords="321,1638,526,1665"/>
+<area shape="rect" id="node33" href="$classqMRMLTransformSliders.html" title="qMRMLTransformSliders" alt="" coords="334,1689,513,1715"/>
+<area shape="rect" id="node34" href="$classqMRMLUnitWidget.html" title="qMRMLUnitWidget" alt="" coords="352,1739,495,1766"/>
+<area shape="rect" id="node35" href="$classqMRMLViewControllerBar.html" title="qMRMLViewControllerBar" alt="" coords="330,1790,517,1817"/>
+<area shape="rect" id="node41" href="$classqMRMLVolumeInfoWidget.html" title="qMRMLVolumeInfoWidget" alt="" coords="329,1841,518,1867"/>
+<area shape="rect" id="node42" href="$classqSlicerTerminologyNavigatorWidget.html" title="Qt widget for browsing a terminology dictionary. DICOM properties of the selected entry can also be s..." alt="" coords="318,1892,529,1933"/>
+<area shape="rect" id="node4" href="$classqMRMLAnnotationDisplayNodePointPropertyWidget.html" title="qMRMLAnnotationDisplayNode\lPointPropertyWidget" alt="" coords="606,5,831,47"/>
+<area shape="rect" id="node36" href="$classqMRMLChartViewControllerWidget.html" title="qMRMLChartViewController\lWidget" alt="" coords="618,1673,819,1715"/>
+<area shape="rect" id="node37" href="$classqMRMLPlotViewControllerWidget.html" title="qMRMLPlotViewControllerWidget" alt="" coords="600,1739,837,1766"/>
+<area shape="rect" id="node38" href="$classqMRMLSliceControllerWidget.html" title="qMRMLSliceControllerWidget" alt="" coords="613,1790,824,1817"/>
+<area shape="rect" id="node39" href="$classqMRMLTableViewControllerWidget.html" title="qMRMLTableViewController\lWidget" alt="" coords="619,1841,818,1883"/>
+<area shape="rect" id="node40" href="$classqMRMLThreeDViewControllerWidget.html" title="qMRMLThreeDViewController\lWidget" alt="" coords="613,1907,825,1948"/>
+</map>

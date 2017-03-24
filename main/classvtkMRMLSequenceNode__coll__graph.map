@@ -1,0 +1,25 @@
+<map id="vtkMRMLSequenceNode" name="vtkMRMLSequenceNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a sequence of MRML nodes." alt="" coords="230,329,409,357"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="158,252,329,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,288,309,329,304,328,267,293"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,175,122,203"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,206,214,250,210,253,109,212"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="309,5,394,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="292,25,226,33,152,44,86,61,63,71,47,84,38,105,40,130,48,154,58,174,53,175,43,156,35,131,33,105,43,81,60,67,85,56,151,38,225,27,296,22"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="56,82,215,110"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="297,41,175,84,172,79,301,36"/>
+<area shape="rect" id="Node000006" href="$classvtkTagTable.html" title=" " alt="" coords="238,82,337,110"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="332,43,300,84,297,80,329,47"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo." alt="" coords="358,175,479,203"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="364,46,416,175,410,174,361,50"/>
+<area shape="rect" id="Node000008" href="$classvtkCacheManager.html" title="Manages the on&#45;disk remote cache used by MRML storage." alt="" coords="411,82,550,110"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="387,38,461,81,455,82,387,44"/>
+<area shape="rect" id="Node000009" href="$classvtkDataIOManager.html" title=" " alt="" coords="574,82,718,110"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="408,32,597,81,592,83,409,38"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="79,121,67,135,62,155,63,175,58,174,56,154,63,133,81,116"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="276,122,257,176,250,217,246,253,242,250,244,216,252,174,273,126"/>
+<area shape="poly" id="edge14_Node000007_Node000006" title=" " alt="" coords="283,123,286,138,292,149,301,157,317,163,359,177,354,178,315,168,298,161,287,153,281,140,281,128"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="404,215,330,331,326,327,399,216"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="465,121,429,177,425,173,461,124"/>
+<area shape="poly" id="edge12_Node000007_Node000009" title=" " alt="" coords="620,118,562,153,521,168,480,179,478,174,519,163,560,149,615,120"/>
+</map>

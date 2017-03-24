@@ -1,0 +1,13 @@
+<map id="Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingPresetComboBoxPlugin.h" name="Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingPresetComboBoxPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,290,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="24,124,98,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,70,84,114,80,110,122,65"/>
+<area shape="rect" id="Node000003" href="$qSlicerVolumeRenderingModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="121,115,350,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,65,209,103,204,103,174,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="27,216,105,244"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="198,160,105,211,103,206,192,160"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="129,208,342,252"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="237,158,238,194,233,191,234,162"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="365,208,594,252"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="294,158,410,202,405,202,293,163"/>
+</map>

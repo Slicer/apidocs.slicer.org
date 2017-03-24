@@ -1,0 +1,11 @@
+<map id="vtkMRMLModelSliceDisplayableManager" name="vtkMRMLModelSliceDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager for slice (2D) views." alt="" coords="5,342,236,387"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractSliceViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="20,249,221,294"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,308,123,343,118,341,119,312"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="13,157,228,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,214,123,250,118,248,119,219"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="35,81,206,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,122,123,157,118,156,120,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="78,5,163,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="121,46,123,81,118,80,120,51"/>
+</map>

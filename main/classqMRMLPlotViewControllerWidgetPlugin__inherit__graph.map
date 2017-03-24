@@ -1,0 +1,9 @@
+<map id="qMRMLPlotViewControllerWidgetPlugin" name="qMRMLPlotViewControllerWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="8,157,244,201"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,79,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,117,106,155,101,157,65,122"/>
+<area shape="rect" id="Node000003" href="$classqMRMLWidgetsAbstractPlugin.html" title=" " alt="" coords="102,81,318,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,119,150,158,147,154,183,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="88,5,332,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,47,212,82,208,79,209,51"/>
+</map>

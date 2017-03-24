@@ -1,0 +1,17 @@
+<map id="qSlicerFileDialog" name="qSlicerFileDialog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="127,109,257,137"/>
+<area shape="rect" id="Node000003" href="$classqSlicerDataDialog.html" title=" " alt="" coords="330,5,468,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,98,258,70,304,43,339,32,334,35,306,48,261,74,223,102"/>
+<area shape="rect" id="Node000004" href="$classqSlicerExportNodeDialog.html" title=" " alt="" coords="308,57,491,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,102,343,85,338,87,266,107"/>
+<area shape="rect" id="Node000005" href="$classqSlicerModelsDialog.html" title=" " alt="" coords="322,109,476,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="272,121,324,123,319,124,273,126"/>
+<area shape="rect" id="Node000006" href="$classqSlicerSaveDataDialog.html" title=" " alt="" coords="314,161,484,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="265,139,343,160,338,161,265,144"/>
+<area shape="rect" id="Node000007" href="$classqSlicerStandardFileDialog.html" title=" " alt="" coords="305,213,493,241"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="222,144,261,172,306,198,340,213,334,213,304,203,258,177,221,149"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,109,79,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,121,129,122,124,125,95,126"/>
+<area shape="rect" id="Node000008" href="$classqSlicerScriptedFileDialog.html" title=" " alt="" coords="541,213,725,241"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="509,225,544,227,538,227,509,230"/>
+</map>

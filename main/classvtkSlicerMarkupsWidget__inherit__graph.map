@@ -1,0 +1,19 @@
+<map id="vtkSlicerMarkupsWidget" name="vtkSlicerMarkupsWidget">
+<area shape="rect" id="Node000001" title="Process interaction events to update state of markup widget nodes." alt="" coords="369,136,548,164"/>
+<area shape="rect" id="Node000004" href="$classvtkSlicerAngleWidget.html" title="create an angle with a set of 3 points" alt="" coords="598,5,759,33"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="485,123,534,83,595,43,622,35,627,33,598,48,537,87,488,128"/>
+<area shape="rect" id="Node000005" href="$classvtkSlicerCurveWidget.html" title="create a curve with a set of N points" alt="" coords="597,57,760,85"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="509,128,595,95,630,86,635,85,597,100,511,133"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerLineWidget.html" title="create a line with a set of 2 points" alt="" coords="603,109,754,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="564,134,605,132,600,133,565,140"/>
+<area shape="rect" id="Node000007" href="$classvtkSlicerPlaneWidget.html" title="create a plane with a set of 3 points" alt="" coords="598,161,759,189"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="564,159,600,166,595,166,564,165"/>
+<area shape="rect" id="Node000008" href="$classvtkSlicerPointsWidget.html" title="Widget to display a set of interactive points." alt="" coords="596,213,761,241"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="512,167,597,198,635,213,630,213,595,203,511,172"/>
+<area shape="rect" id="Node000009" href="$classvtkSlicerROIWidget.html" title="Create an ROI representation." alt="" coords="605,265,752,293"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="487,171,537,211,598,250,627,265,622,264,595,255,534,216,486,176"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidget.html" title="Process interaction events to update state of MRML widget nodes." alt="" coords="138,136,321,164"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="336,147,371,149,366,150,337,152"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,136,90,164"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,147,139,148,135,151,106,152"/>
+</map>

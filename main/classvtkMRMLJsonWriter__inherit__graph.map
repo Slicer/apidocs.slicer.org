@@ -1,0 +1,7 @@
+<map id="vtkMRMLJsonWriter" name="vtkMRMLJsonWriter">
+<area shape="rect" id="Node000001" title="Writes properties into a JSON stream." alt="" coords="33,81,182,109"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLMarkupsJsonWriter.html" title="Writes JSON data to file." alt="" coords="5,157,210,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,123,110,157,105,155,106,126"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="65,5,150,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,46,110,81,105,80,106,51"/>
+</map>

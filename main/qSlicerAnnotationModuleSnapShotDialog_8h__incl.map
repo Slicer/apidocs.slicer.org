@@ -1,0 +1,28 @@
+<map id="Modules/Loadable/Annotations/GUI/qSlicerAnnotationModuleSnapShotDialog.h" name="Modules/Loadable/Annotations/GUI/qSlicerAnnotationModuleSnapShotDialog.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,5,380,67"/>
+<area shape="rect" id="Node000002" href="$qMRMLScreenShotDialog_8h.html" title=" " alt="" coords="157,115,354,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,65,258,100,253,98,254,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="6,191,79,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,146,95,188,92,183,219,141"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="103,191,197,218"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="235,145,183,184,179,180,239,141"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="221,191,290,218"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="257,141,258,176,253,174,254,146"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="465,342,640,370"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="353,141,446,160,484,173,509,189,533,221,546,258,554,295,555,328,551,325,548,295,541,259,528,223,506,193,481,178,444,165,353,146"/>
+<area shape="rect" id="Node000007" href="$qMRMLLayoutManager_8h.html" title=" " alt="" coords="314,191,496,218"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="282,141,367,183,362,184,282,146"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="427,216,458,238,489,264,517,296,539,330,534,328,513,299,486,268,455,242,426,222"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,342,98,370"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="315,221,181,245,126,258,97,269,84,281,74,296,61,328,56,326,70,294,80,278,94,264,125,253,180,240,319,217"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="334,266,476,294"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="407,217,407,252,403,249,403,221"/>
+<area shape="rect" id="Node000010" href="$qMRMLLayoutViewFactory_8h.html" title=" " alt="" coords="108,266,310,294"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="367,220,259,263,257,258,372,218"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="271,292,478,337,474,339,270,297"/>
+<area shape="poly" id="edge11_Node000010_Node000008" title=" " alt="" coords="183,296,94,338,92,333,178,293"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="122,342,296,370"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="211,293,211,328,207,325,207,296"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="321,342,441,370"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="240,292,339,335,334,336,239,297"/>
+</map>

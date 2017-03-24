@@ -1,0 +1,26 @@
+<map id="Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorEraseEffect.h" name="Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorEraseEffect.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,5,274,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,372,208,412"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,62,119,84,109,109,98,177,95,246,99,309,104,358,99,359,93,309,90,246,92,177,104,107,114,82,127,59"/>
+<area shape="rect" id="Node000003" href="$qSlicerSegmentEditorPaintEffect_8h.html" title=" " alt="" coords="119,108,313,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,59,196,95,192,98,165,62"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="197,150,177,172,160,197,141,239,128,283,113,359,108,358,123,282,136,237,155,195,173,168,193,147"/>
+<area shape="rect" id="Node000004" href="$qSlicerSegmentEditorAbstractLabelEffect_8h.html" title=" " alt="" coords="169,196,385,236"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="232,147,258,183,254,186,227,150"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="261,238,137,364,133,360,257,234"/>
+<area shape="rect" id="Node000005" href="$qSlicerSegmentEditorAbstractEffect_8h.html" title=" " alt="" coords="291,284,507,324"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="306,234,362,274,359,278,303,238"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="335,327,184,371,183,366,334,322"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="232,379,307,405"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="371,326,300,374,297,369,368,322"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="331,379,389,405"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="393,325,373,367,369,365,388,323"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="414,379,479,405"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="412,323,436,366,431,368,407,326"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="503,379,558,405"/>
+<area shape="poly" id="edge11_Node000005_Node000009" title=" " alt="" coords="429,322,503,370,500,374,427,327"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="583,379,673,405"/>
+<area shape="poly" id="edge12_Node000005_Node000010" title=" " alt="" coords="450,322,586,372,584,377,448,327"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="697,379,833,405"/>
+<area shape="poly" id="edge13_Node000005_Node000011" title=" " alt="" coords="480,322,686,369,704,374,703,379,685,375,479,327"/>
+</map>

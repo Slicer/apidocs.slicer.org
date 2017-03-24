@@ -1,0 +1,9 @@
+<map id="vtkMRMLModelStorageNode" name="vtkMRMLModelStorageNode">
+<area shape="rect" id="Node000001" title="MRML node for model storage on disk." alt="" coords="5,225,212,251"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="25,152,192,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,191,111,225,106,225,106,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="50,79,167,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,118,111,152,106,152,106,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="66,5,151,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+</map>

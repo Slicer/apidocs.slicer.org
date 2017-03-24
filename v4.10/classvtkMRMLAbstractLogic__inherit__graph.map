@@ -1,0 +1,49 @@
+<map id="vtkMRMLAbstractLogic" name="vtkMRMLAbstractLogic">
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="370,235,575,276"/>
+<area shape="rect" id="node12" href="$classvtkMRMLApplicationLogic.html" title="vtkMRMLApplicationLogic" alt="" coords="382,418,563,445"/>
+<area shape="rect" id="node14" href="$classvtkMRMLColorLogic.html" title="MRML logic class for color manipulation. " alt="" coords="401,469,545,495"/>
+<area shape="rect" id="node16" href="$classvtkMRMLDisplayableHierarchyLogic.html" title="Slicer logic class for hierarchy manipulation. " alt="" coords="367,520,579,561"/>
+<area shape="rect" id="node17" href="$classvtkMRMLLayoutLogic.html" title="MRML logic class for layout manipulation. " alt="" coords="395,586,550,613"/>
+<area shape="rect" id="node18" href="$classvtkMRMLLightBoxRendererManagerProxy.html" title="Proxy class to provide mechanisms for a displayable manager to communicate with 3rd party renderer ma..." alt="" coords="349,637,596,679"/>
+<area shape="rect" id="node19" href="$classvtkMRMLModelHierarchyLogic.html" title="Slicer logic class for volumes manipulation. " alt="" coords="367,703,578,730"/>
+<area shape="rect" id="node20" href="$classvtkMRMLRemoteIOLogic.html" title="vtkMRMLRemoteIOLogic" alt="" coords="386,754,559,781"/>
+<area shape="rect" id="node21" href="$classvtkMRMLSliceLayerLogic.html" title="vtkMRMLSliceLayerLogic" alt="" coords="385,805,561,831"/>
+<area shape="rect" id="node22" href="$classvtkMRMLSliceLinkLogic.html" title="vtkMRMLSliceLinkLogic" alt="" coords="389,855,556,882"/>
+<area shape="rect" id="node23" href="$classvtkMRMLSliceLogic.html" title="Slicer logic class for slice manipulation. " alt="" coords="402,906,543,933"/>
+<area shape="rect" id="node24" href="$classvtkMRMLViewLinkLogic.html" title="vtkMRMLViewLinkLogic" alt="" coords="391,957,555,983"/>
+<area shape="rect" id="node25" href="$classvtkMRMLViewLogic.html" title="Slicer logic class for view manipulation. " alt="" coords="403,1007,542,1034"/>
+<area shape="rect" id="node26" href="$classvtkSlicerFiducialsLogic.html" title="vtkSlicerFiducialsLogic" alt="" coords="391,1058,554,1085"/>
+<area shape="rect" id="node27" href="$classvtkSlicerModuleLogic.html" title="vtkSlicerModuleLogic" alt="" coords="395,1109,550,1135"/>
+<area shape="rect" id="node48" href="$classvtkSlicerTransformLogic.html" title="vtkSlicerTransformLogic" alt="" coords="387,1159,559,1186"/>
+<area shape="rect" id="node49" href="$classvtkSlicerUnitsLogic.html" title="Slicer logic for unit manipulation. " alt="" coords="401,1210,544,1237"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAbstractSliceViewDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="668,39,859,80"/>
+<area shape="rect" id="node7" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="660,104,867,145"/>
+<area shape="rect" id="node8" href="$classvtkMRMLAnnotationDisplayableManager.html" title="vtkMRMLAnnotationDisplayable\lManager" alt="" coords="653,169,874,211"/>
+<area shape="rect" id="node9" href="$classvtkMRMLOrientationMarkerDisplayableManager.html" title="Displayable manager that displays orienatation marker in a slice or 3D view. " alt="" coords="667,235,860,276"/>
+<area shape="rect" id="node10" href="$classvtkMRMLRulerDisplayableManager.html" title="Displayable manager that displays orienatation marker in a slice or 3D view. " alt="" coords="644,301,883,327"/>
+<area shape="rect" id="node11" href="$classvtkMRMLScriptedDisplayableManager.html" title="vtkMRMLScriptedDisplayable\lManager" alt="" coords="661,352,865,393"/>
+<area shape="rect" id="node5" href="$classvtkMRMLCrosshairDisplayableManager.html" title="Displayable manager for the crosshair on slice (2D) views. " alt="" coords="931,5,1141,47"/>
+<area shape="rect" id="node6" href="$classvtkMRMLMarkupsDisplayableManager2D.html" title="vtkMRMLMarkupsDisplayable\lManager2D" alt="" coords="933,71,1139,112"/>
+<area shape="rect" id="node13" href="$classvtkSlicerApplicationLogic.html" title="vtkSlicerApplicationLogic" alt="" coords="674,418,853,445"/>
+<area shape="rect" id="node15" href="$classvtkSlicerColorLogic.html" title="vtkSlicerColorLogic" alt="" coords="692,469,835,495"/>
+<area shape="rect" id="node28" href="$classvtkDataIOManagerLogic.html" title="vtkDataIOManagerLogic" alt="" coords="676,611,851,638"/>
+<area shape="rect" id="node29" href="$classvtkSlicerAnnotationModuleLogic.html" title="vtkSlicerAnnotationModule\lLogic" alt="" coords="667,663,859,704"/>
+<area shape="rect" id="node30" href="$classvtkSlicerCamerasModuleLogic.html" title="vtkSlicerCamerasModuleLogic" alt="" coords="657,729,870,755"/>
+<area shape="rect" id="node31" href="$classvtkSlicerCLIModuleLogic.html" title="Logic for running CLI. " alt="" coords="676,779,851,806"/>
+<area shape="rect" id="node32" href="$classvtkSlicerCropVolumeLogic.html" title="Crop a volume to the specified region of interest. " alt="" coords="670,830,857,857"/>
+<area shape="rect" id="node33" href="$classvtkSlicerDataModuleLogic.html" title="vtkSlicerDataModuleLogic" alt="" coords="670,881,857,907"/>
+<area shape="rect" id="node34" href="$classvtkSlicerDoubleArraysLogic.html" title="Slicer logic class for double array manipulation This class manages the logic associated with reading..." alt="" coords="666,931,861,958"/>
+<area shape="rect" id="node35" href="$classvtkSlicerMarkupsLogic.html" title="vtkSlicerMarkupsLogic" alt="" coords="682,982,845,1009"/>
+<area shape="rect" id="node36" href="$classvtkSlicerModelsLogic.html" title="vtkSlicerModelsLogic" alt="" coords="686,1033,841,1059"/>
+<area shape="rect" id="node37" href="$classvtkSlicerPlotsLogic.html" title="Slicer logic class for double array manipulation This class manages the logic associated with reading..." alt="" coords="693,1083,833,1110"/>
+<area shape="rect" id="node38" href="$classvtkSlicerReformatLogic.html" title="vtkSlicerReformatLogic" alt="" coords="680,1134,847,1161"/>
+<area shape="rect" id="node39" href="$classvtkSlicerSceneViewsModuleLogic.html" title="vtkSlicerSceneViewsModule\lLogic" alt="" coords="664,1185,863,1227"/>
+<area shape="rect" id="node40" href="$classvtkSlicerScriptedLoadableModuleLogic.html" title="vtkSlicerScriptedLoadable\lModuleLogic" alt="" coords="670,1251,857,1292"/>
+<area shape="rect" id="node41" href="$classvtkSlicerSegmentationsModuleLogic.html" title="vtkSlicerSegmentationsModule\lLogic" alt="" coords="653,1316,873,1357"/>
+<area shape="rect" id="node42" href="$classvtkSlicerSubjectHierarchyModuleLogic.html" title="vtkSlicerSubjectHierarchy\lModuleLogic" alt="" coords="671,1381,856,1423"/>
+<area shape="rect" id="node43" href="$classvtkSlicerTablesLogic.html" title="Slicer logic class for double array manipulation This class manages the logic associated with reading..." alt="" coords="689,1447,837,1474"/>
+<area shape="rect" id="node44" href="$classvtkSlicerTerminologiesModuleLogic.html" title="vtkSlicerTerminologiesModule\lLogic" alt="" coords="659,1499,868,1540"/>
+<area shape="rect" id="node45" href="$classvtkSlicerViewControllersLogic.html" title="vtkSlicerViewControllers\lLogic" alt="" coords="676,1564,851,1605"/>
+<area shape="rect" id="node46" href="$classvtkSlicerVolumeRenderingLogic.html" title="vtkSlicerVolumeRendering\lLogic" alt="" coords="670,1629,857,1671"/>
+<area shape="rect" id="node47" href="$classvtkSlicerVolumesLogic.html" title="vtkSlicerVolumesLogic" alt="" coords="681,1695,845,1722"/>
+</map>

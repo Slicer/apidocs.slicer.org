@@ -1,0 +1,13 @@
+<map id="Libs/MRML/Widgets/qMRMLTransformSliders.h" name="Libs/MRML/Widgets/qMRMLTransformSliders.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,5,277,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,98,61,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,53,65,91,61,87,117,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="85,98,205,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,48,148,83,142,82,144,53"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidget_8h.html" title=" " alt="" coords="230,98,356,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,48,258,89,253,91,184,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="178,174,256,201"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="282,125,243,165,240,161,277,127"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="280,174,455,201"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="307,124,346,163,341,162,305,129"/>
+</map>

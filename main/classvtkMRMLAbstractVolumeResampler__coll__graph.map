@@ -1,0 +1,10 @@
+<map id="vtkMRMLAbstractVolumeResampler" name="vtkMRMLAbstractVolumeResampler">
+<area shape="rect" id="Node000001" title="Base class for volume resampler." alt="" coords="5,252,262,280"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="86,5,170,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,48,136,252,131,252,126,50"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="153,82,324,110"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="160,39,222,81,217,83,160,44"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLApplicationLogic.html" title=" " alt="" coords="149,159,339,187"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,196,151,254,148,249,214,197"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="242,123,246,160,241,158,239,128"/>
+</map>

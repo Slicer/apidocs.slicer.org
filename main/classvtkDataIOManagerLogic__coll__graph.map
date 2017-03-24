@@ -1,0 +1,14 @@
+<map id="vtkDataIOManagerLogic" name="vtkDataIOManagerLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,355,243,383"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerModuleLogic.html" title=" " alt="" coords="15,278,175,306"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,316,146,355,141,355,113,321"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLModuleLogic.html" title="Superclass for logic classes of modules." alt="" coords="10,186,174,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,226,97,278,92,277,92,231"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="5,82,177,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,123,95,186,90,185,91,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="110,5,194,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="131,48,104,83,99,81,133,43"/>
+<area shape="rect" id="Node000006" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="133,134,292,162"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="169,44,191,81,211,134,206,133,186,83,168,49"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="212,175,206,238,190,307,164,356,160,353,184,305,201,237,209,179"/>
+</map>

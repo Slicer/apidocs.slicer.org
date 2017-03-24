@@ -1,0 +1,49 @@
+<map id="vtkMRMLStorableNode" name="vtkMRMLStorableNode">
+<area shape="rect" id="node4" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="557,79,708,106"/>
+<area shape="rect" id="node10" href="$classvtkMRMLSceneViewNode.html" title="vtkMRMLSceneViewNode" alt="" coords="539,134,727,161"/>
+<area shape="rect" id="node11" href="$classvtkMRMLSequenceNode.html" title="MRML node for representing a sequence of MRML nodes. " alt="" coords="543,185,723,211"/>
+<area shape="rect" id="node12" href="$classvtkMRMLShaderPropertyNode.html" title="vtkMRMLShaderPropertyNode volume shader custom code and custom uniform variables defined by users or ..." alt="" coords="524,235,741,262"/>
+<area shape="rect" id="node13" href="$classvtkMRMLTableNode.html" title="MRML node to represent a table object. " alt="" coords="557,286,708,313"/>
+<area shape="rect" id="node14" href="$classvtkMRMLTextNode.html" title="vtkMRMLTextNode" alt="" coords="561,337,704,363"/>
+<area shape="rect" id="node15" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="528,387,737,414"/>
+<area shape="rect" id="node49" href="$classvtkMRMLVolumePropertyNode.html" title="vtkMRMLVolumePropertyNode contains the transfer functions (scalar opacity, color and gradient opacity..." alt="" coords="523,438,743,465"/>
+<area shape="rect" id="node2" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="139,261,256,287"/>
+<area shape="rect" id="node5" href="$classvtkMRMLColorTableNode.html" title="MRML node to represent discrete color information. " alt="" coords="808,22,993,49"/>
+<area shape="rect" id="node7" href="$classvtkMRMLProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="791,79,1011,106"/>
+<area shape="rect" id="node6" href="$classvtkMRMLDiffusionTensorDisplayPropertiesNode.html" title="MRML node for display of a diffusion tensor. " alt="" coords="1065,5,1297,47"/>
+<area shape="rect" id="node8" href="$classvtkMRMLdGEMRICProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="1075,71,1287,112"/>
+<area shape="rect" id="node9" href="$classvtkMRMLPETProceduralColorNode.html" title="vtkMRMLPETProceduralColorNode" alt="" coords="1059,137,1303,163"/>
+<area shape="rect" id="node16" href="$classvtkMRMLCameraNode.html" title="MRML node to represent camera node. " alt="" coords="817,338,985,365"/>
+<area shape="rect" id="node17" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="803,389,998,415"/>
+<area shape="rect" id="node48" href="$classvtkMRMLROINode.html" title="MRML node to represent a 3D ROI. " alt="" coords="831,439,971,466"/>
+<area shape="rect" id="node18" href="$classvtkMRMLMarkupsNode.html" title="vtkMRMLMarkupsNode" alt="" coords="1095,187,1267,214"/>
+<area shape="rect" id="node26" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="1102,338,1259,365"/>
+<area shape="rect" id="node35" href="$classvtkMRMLSegmentationNode.html" title="MRML node containing segmentationsSegmentation node stores a set of segments (also known as contours ..." alt="" coords="1077,389,1285,415"/>
+<area shape="rect" id="node36" href="$classvtkMRMLTransformNode.html" title="MRML node for representing a transformation between this node space and a parent node space..." alt="" coords="1090,439,1271,466"/>
+<area shape="rect" id="node40" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1098,515,1263,542"/>
+<area shape="rect" id="node19" href="$classvtkMRMLMarkupsAngleNode.html" title="MRML node to represent an angle markup Angle Markups nodes contain three control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1361,34,1571,61"/>
+<area shape="rect" id="node20" href="$classvtkMRMLMarkupsCurveNode.html" title="MRML node to represent a curve markup Curve Markups nodes contain N control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1361,85,1571,111"/>
+<area shape="rect" id="node22" href="$classvtkMRMLMarkupsFiducialNode.html" title="MRML node to represent a fiducial markup Fiducial Markups nodes contain a list of control points..." alt="" coords="1355,135,1577,162"/>
+<area shape="rect" id="node23" href="$classvtkMRMLMarkupsLineNode.html" title="MRML node to represent a line markup Line Markups nodes contain two control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1367,186,1565,213"/>
+<area shape="rect" id="node24" href="$classvtkMRMLMarkupsPlaneNode.html" title="MRML node to represent a plane markup Plane Markups nodes contain three control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1362,237,1570,263"/>
+<area shape="rect" id="node25" href="$classvtkMRMLMarkupsROINode.html" title="MRML node to represent an ROI markup. " alt="" coords="1369,287,1563,314"/>
+<area shape="rect" id="node21" href="$classvtkMRMLMarkupsClosedCurveNode.html" title="MRML node to represent a closed curve markup Closed Curve Markups nodes contain N control points..." alt="" coords="1629,85,1884,111"/>
+<area shape="rect" id="node27" href="$classvtkMRMLAnnotationNode.html" title="vtkMRMLAnnotationNode" alt="" coords="1371,338,1561,365"/>
+<area shape="rect" id="node28" href="$classvtkMRMLAnnotationControlPointsNode.html" title="vtkMRMLAnnotationControl\lPointsNode" alt="" coords="1655,301,1858,343"/>
+<area shape="rect" id="node34" href="$classvtkMRMLAnnotationSnapshotNode.html" title="vtkMRMLAnnotationSnapshotNode" alt="" coords="1632,367,1881,394"/>
+<area shape="rect" id="node29" href="$classvtkMRMLAnnotationFiducialNode.html" title="MRML node to represent a fiducial in the Annotations module &#45; deprecated. " alt="" coords="1945,258,2184,285"/>
+<area shape="rect" id="node30" href="$classvtkMRMLAnnotationLinesNode.html" title="vtkMRMLAnnotationLinesNode" alt="" coords="1953,309,2176,335"/>
+<area shape="rect" id="node33" href="$classvtkMRMLAnnotationTextNode.html" title="vtkMRMLAnnotationTextNode" alt="" coords="1957,359,2173,386"/>
+<area shape="rect" id="node31" href="$classvtkMRMLAnnotationROINode.html" title="vtkMRMLAnnotationROINode" alt="" coords="2273,283,2485,310"/>
+<area shape="rect" id="node32" href="$classvtkMRMLAnnotationRulerNode.html" title="vtkMRMLAnnotationRulerNode" alt="" coords="2267,334,2490,361"/>
+<area shape="rect" id="node37" href="$classvtkMRMLBSplineTransformNode.html" title="MRML node for representing a nonlinear transformation to the parent node using a bspline transform..." alt="" coords="1351,389,1581,415"/>
+<area shape="rect" id="node38" href="$classvtkMRMLGridTransformNode.html" title="MRML node for representing a nonlinear transformation to the parent node using a grid transform..." alt="" coords="1361,439,1571,466"/>
+<area shape="rect" id="node39" href="$classvtkMRMLLinearTransformNode.html" title="MRML node for representing a linear transformation. " alt="" coords="1355,490,1577,517"/>
+<area shape="rect" id="node41" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1363,541,1569,567"/>
+<area shape="rect" id="node42" href="$classvtkMRMLDiffusionWeightedVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="1655,475,1858,516"/>
+<area shape="rect" id="node43" href="$classvtkMRMLLabelMapVolumeNode.html" title="MRML node for representing a label map volume. " alt="" coords="1642,541,1871,567"/>
+<area shape="rect" id="node44" href="$classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="1653,591,1860,618"/>
+<area shape="rect" id="node45" href="$classvtkMRMLDiffusionImageVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="1932,566,2197,593"/>
+<area shape="rect" id="node47" href="$classvtkMRMLVectorVolumeNode.html" title="MRML node for representing a vector volume (image stack). " alt="" coords="1961,617,2168,643"/>
+<area shape="rect" id="node46" href="$classvtkMRMLDiffusionTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="2245,566,2512,593"/>
+</map>

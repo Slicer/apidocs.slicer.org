@@ -1,0 +1,11 @@
+<map id="vtkMRMLCameraDisplayableManager" name="vtkMRMLCameraDisplayableManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="8,342,219,387"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="5,249,222,294"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,308,116,343,111,341,112,312"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="6,157,221,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,214,116,250,111,249,112,219"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="28,81,199,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,122,116,156,111,156,113,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="71,5,156,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="114,46,116,81,111,80,113,51"/>
+</map>

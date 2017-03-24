@@ -1,0 +1,21 @@
+<map id="Libs/MRML/Core/vtkMRMLVolumeDisplayNode.h" name="Libs/MRML/Core/vtkMRMLVolumeDisplayNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="286,5,525,50"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLLabelMapVolumeDisplayNode_8h.html" title=" " alt="" coords="41,98,266,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="329,58,215,100,212,95,333,54"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLScalarVolumeDisplayNode_8h.html" title=" " alt="" coords="290,98,521,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="407,63,408,99,403,97,404,68"/>
+<area shape="rect" id="Node000010" href="$vtkSlicerVolumesLogic_8h.html" title=" " alt="" coords="545,98,767,143"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="480,53,599,97,594,98,480,58"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLDiffusionWeightedVolumeDisplayNode_8h.html" title=" " alt="" coords="5,199,254,244"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="329,150,191,201,189,196,333,146"/>
+<area shape="rect" id="Node000005" href="$vtkMRMLGlyphableVolumeDisplayNode_8h.html" title=" " alt="" coords="277,199,534,244"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="407,156,408,200,403,198,404,160"/>
+<area shape="rect" id="Node000009" href="$vtkMRMLMultiVolumeDisplayNode_8h.html" title=" " alt="" coords="558,191,824,252"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="483,146,606,189,601,191,482,151"/>
+<area shape="rect" id="Node000006" href="$vtkMRMLDiffusionTensorVolumeDisplayNode_8h.html" title=" " alt="" coords="149,300,398,345"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="367,252,304,302,301,298,362,255"/>
+<area shape="rect" id="Node000007" href="$vtkMRMLVectorVolumeDisplayNode_8h.html" title=" " alt="" coords="422,300,653,345"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="447,251,512,300,506,300,446,256"/>
+<area shape="rect" id="Node000008" href="$vtkMRMLStreamingVolumeNode_8h.html" title=" " alt="" coords="409,393,666,438"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="539,359,540,395,535,391,536,362"/>
+</map>

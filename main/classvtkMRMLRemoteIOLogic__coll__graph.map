@@ -1,0 +1,13 @@
+<map id="vtkMRMLRemoteIOLogic" name="vtkMRMLRemoteIOLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="180,175,362,203"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="5,82,177,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,115,247,173,242,176,130,120"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="229,5,313,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="224,41,124,84,121,79,227,37"/>
+<area shape="rect" id="Node000004" href="$classvtkCacheManager.html" title="Manages the on&#45;disk remote cache used by MRML storage." alt="" coords="201,82,341,110"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="273,46,273,83,269,81,269,51"/>
+<area shape="rect" id="Node000005" href="$classvtkDataIOManager.html" title=" " alt="" coords="364,82,508,110"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="314,37,410,81,405,82,313,42"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,123,273,176,269,173,269,127"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="417,120,379,153,324,177,322,172,376,149,412,122"/>
+</map>

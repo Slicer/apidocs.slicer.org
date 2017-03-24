@@ -1,0 +1,18 @@
+<map id="Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qSlicerSubjectHierarchyModuleWidgetsPlugin.h" name="Modules/Loadable/SubjectHierarchy/Widgets/DesignerPlugins/qSlicerSubjectHierarchyModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="178,5,512,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,218,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,70,178,111,175,106,275,66"/>
+<area shape="rect" id="Node000003" href="$qMRMLSubjectHierarchyTreeViewPlugin_8h.html" title=" " alt="" coords="241,115,448,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="346,65,347,101,342,98,344,70"/>
+<area shape="rect" id="Node000008" href="$qMRMLSubjectHierarchyComboBoxPlugin_8h.html" title=" " alt="" coords="473,115,699,160"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="419,65,522,108,517,109,418,70"/>
+<area shape="rect" id="Node000004" href="$qSlicerSubjectHierarchyModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="353,208,577,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="374,157,427,198,421,198,373,163"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="256,309,335,336"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="427,252,334,304,332,299,422,254"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="359,300,571,345"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="467,251,467,287,463,283,463,255"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="595,300,820,345"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="523,250,638,295,632,294,523,256"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="560,159,507,201,504,196,555,161"/>
+</map>

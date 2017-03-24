@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsPlugin.h" name="Modules/Loadable/Tables/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="98,5,362,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,218,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,70,151,107,147,103,196,65"/>
+<area shape="rect" id="Node000003" href="$qSlicerTableColumnPropertiesWidgetPlugin_8h.html" title=" " alt="" coords="241,115,456,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,65,314,105,309,105,266,70"/>
+<area shape="rect" id="Node000004" href="$qSlicerTablesModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="245,208,452,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="350,158,351,194,346,191,347,162"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="140,309,219,336"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,252,218,304,216,299,306,253"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="243,300,455,345"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="351,251,351,286,347,283,347,255"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="478,300,686,345"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="405,250,515,294,509,294,404,256"/>
+</map>

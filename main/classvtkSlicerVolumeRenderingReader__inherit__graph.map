@@ -1,0 +1,9 @@
+<map id="vtkSlicerVolumeRenderingReader" name="vtkSlicerVolumeRenderingReader">
+<area shape="rect" id="Node000001" title="Reader of volume property (transfer function) files." alt="" coords="5,232,199,277"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLFileReader.html" title=" " alt="" coords="26,157,178,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,198,104,233,100,231,100,202"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLFileIOHandler.html" title=" " alt="" coords="17,81,187,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,122,105,157,99,156,101,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="60,5,144,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,46,105,81,99,80,101,51"/>
+</map>

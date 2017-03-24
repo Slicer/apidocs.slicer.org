@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,134,173,162"/>
+<area shape="rect" id="Node000001" href="$classqMRMLSortFilterColorProxyModel.html" title=" " alt="" coords="241,5,440,50"/>
+<area shape="poly" id="edge603_Node000000_Node000001" title=" " alt="" coords="119,122,165,90,220,60,252,49,248,52,222,65,168,95,122,126"/>
+<area shape="rect" id="Node000002" href="$classqMRMLSortFilterProxyModel.html" title=" " alt="" coords="238,74,443,102"/>
+<area shape="poly" id="edge604_Node000000_Node000002" title=" " alt="" coords="155,127,220,110,271,101,266,103,221,116,158,132"/>
+<area shape="rect" id="Node000004" href="$classqMRMLSortFilterSegmentsProxyModel.html" title=" " alt="" coords="225,125,456,170"/>
+<area shape="poly" id="edge606_Node000000_Node000004" title=" " alt="" coords="187,145,227,147,222,149,189,150"/>
+<area shape="rect" id="Node000005" href="$classqMRMLSortFilterSubjectHierarchyProxyModel.html" title=" " alt="" coords="221,195,460,239"/>
+<area shape="poly" id="edge607_Node000000_Node000005" title=" " alt="" coords="156,163,259,193,254,195,156,169"/>
+<area shape="rect" id="Node000006" href="$classqSlicerModuleFactoryFilterModel.html" title=" " alt="" coords="244,264,437,309"/>
+<area shape="poly" id="edge608_Node000000_Node000006" title=" " alt="" coords="116,170,164,211,222,249,250,264,245,263,219,254,160,215,115,175"/>
+<area shape="rect" id="Node000003" href="$classqMRMLSortFilterHierarchyProxyModel.html" title=" " alt="" coords="508,65,699,110"/>
+<area shape="poly" id="edge605_Node000002_Node000003" title=" " alt="" coords="458,85,510,87,505,88,459,90"/>
+</map>

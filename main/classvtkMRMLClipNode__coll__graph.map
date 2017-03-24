@@ -1,0 +1,10 @@
+<map id="vtkMRMLClipNode" name="vtkMRMLClipNode">
+<area shape="rect" id="Node000001" title="MRML node to represent three clipping planes." alt="" coords="5,252,147,280"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="18,175,134,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,216,79,253,73,251,74,220"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="28,5,113,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,47,78,175,73,174,69,50"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="92,82,250,110"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="100,40,156,81,151,83,100,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="145,123,91,177,88,173,148,119"/>
+</map>

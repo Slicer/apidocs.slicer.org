@@ -1,0 +1,13 @@
+<map id="vtkMRMLNodeWriter" name="vtkMRMLNodeWriter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="122,232,278,260"/>
+<area shape="rect" id="Node000005" href="$classvtkSlicerMarkupsWriter.html" title="Writer of markups nodes. Markups can be written in json (.mrk.json) or fiducial CSV (...." alt="" coords="5,316,179,344"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="173,269,111,318,108,314,168,270"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerSegmentationsNodeWriter.html" title=" " alt="" coords="203,308,413,353"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="230,267,282,307,277,307,229,272"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLFileWriter.html" title=" " alt="" coords="127,157,273,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,198,202,233,198,231,199,202"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLFileIOHandler.html" title=" " alt="" coords="115,81,285,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,122,203,157,197,155,199,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="158,5,242,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,46,203,81,197,80,199,51"/>
+</map>

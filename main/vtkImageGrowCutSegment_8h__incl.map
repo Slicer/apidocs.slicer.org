@@ -1,0 +1,11 @@
+<map id="Modules/Loadable/Segmentations/Logic/vtkImageGrowCutSegment.h" name="Modules/Loadable/Segmentations/Logic/vtkImageGrowCutSegment.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="290,5,542,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,98,230,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="347,50,204,96,202,91,342,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="254,106,413,134"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="399,49,357,97,354,93,394,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="437,106,563,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="437,48,480,95,475,94,435,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="587,106,717,134"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="473,48,606,100,601,100,472,53"/>
+</map>

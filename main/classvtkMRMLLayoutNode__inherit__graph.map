@@ -1,0 +1,9 @@
+<map id="vtkMRMLLayoutNode" name="vtkMRMLLayoutNode">
+<area shape="rect" id="Node000001" title="Node that describes the view layout of the application." alt="" coords="33,232,193,260"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractLayoutNode.html" title="Node that describes the view layout of the application." alt="" coords="5,157,221,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,198,115,233,111,231,111,202"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="55,81,171,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,122,116,157,110,155,112,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="71,5,155,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,46,116,81,110,80,112,51"/>
+</map>

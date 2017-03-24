@@ -1,0 +1,13 @@
+<map id="vtkMRMLColorTableNode" name="vtkMRMLColorTableNode">
+<area shape="rect" id="Node000001" title="MRML node to represent discrete color information." alt="" coords="29,308,213,336"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLDiffusionTensorDisplayPropertiesNode.html" title="MRML node for display of a diffusion tensor." alt="" coords="5,384,237,428"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="123,350,123,384,119,382,119,354"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="46,232,196,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,273,124,308,118,307,120,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="36,157,206,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,198,124,232,118,231,120,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="63,81,179,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="122,122,124,157,118,156,120,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="79,5,163,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="121,46,124,81,118,80,121,51"/>
+</map>

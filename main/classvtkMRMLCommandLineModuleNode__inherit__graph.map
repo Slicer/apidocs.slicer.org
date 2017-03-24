@@ -1,0 +1,7 @@
+<map id="vtkMRMLCommandLineModuleNode" name="vtkMRMLCommandLineModuleNode">
+<area shape="rect" id="Node000001" title="MRML node for representing the parameters allowing to run a command line interface module (CLI)...." alt="" coords="5,157,264,184"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="76,81,193,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,123,137,157,132,155,133,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="92,5,177,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="136,47,137,81,132,80,133,51"/>
+</map>

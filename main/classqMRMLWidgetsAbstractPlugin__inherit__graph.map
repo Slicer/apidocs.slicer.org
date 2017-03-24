@@ -1,0 +1,91 @@
+<map id="qMRMLWidgetsAbstractPlugin" name="qMRMLWidgetsAbstractPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="297,1204,512,1232"/>
+<area shape="rect" id="Node000003" href="$classqMRMLCaptureToolBarPlugin.html" title=" " alt="" coords="580,5,788,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="402,1188,403,965,408,800,419,619,437,439,465,272,483,199,505,136,529,83,558,43,581,28,578,32,562,46,534,85,510,138,488,201,470,274,442,439,424,620,413,800,408,965,408,1189"/>
+<area shape="rect" id="Node000004" href="$classqMRMLCheckableNodeComboBoxPlugin.html" title=" " alt="" coords="564,57,805,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="403,1188,407,977,414,823,426,654,445,485,472,329,489,261,509,200,532,150,558,112,575,100,572,104,562,116,537,153,514,202,494,262,477,330,450,486,431,655,419,823,412,977,408,1189"/>
+<area shape="rect" id="Node000005" href="$classqMRMLClipNodeDisplayWidgetPlugin.html" title=" " alt="" coords="572,126,796,171"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="403,1188,409,989,417,844,430,687,449,529,476,384,493,320,512,264,533,217,558,181,575,169,572,174,562,185,538,220,517,266,498,321,481,385,454,530,435,687,422,845,414,989,409,1189"/>
+<area shape="rect" id="Node000006" href="$classqMRMLClipNodeWidgetPlugin.html" title=" " alt="" coords="577,195,791,222"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="403,1188,409,997,418,859,431,709,450,560,477,423,493,363,512,310,534,266,558,233,578,220,575,224,562,237,538,269,517,312,499,364,482,424,455,561,436,710,423,859,415,997,409,1189"/>
+<area shape="rect" id="Node000007" href="$classqMRMLCollapsibleButtonPlugin.html" title=" " alt="" coords="572,247,796,274"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="404,1188,411,1006,420,876,434,734,454,593,480,464,496,407,514,358,535,316,558,285,577,272,574,277,562,289,540,319,519,360,501,409,485,465,459,594,439,735,425,876,416,1006,409,1189"/>
+<area shape="rect" id="Node000008" href="$classqMRMLColorTableComboBoxPlugin.html" title=" " alt="" coords="560,299,808,326"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="404,1188,413,1015,423,892,437,759,457,626,483,505,499,452,516,405,536,367,558,337,577,325,574,329,562,341,541,369,521,407,504,453,488,506,462,627,442,760,428,892,418,1015,409,1189"/>
+<area shape="rect" id="Node000009" href="$classqMRMLCoordinatesWidgetPlugin.html" title=" " alt="" coords="568,351,801,378"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="404,1188,415,1024,425,908,440,783,460,659,486,545,518,451,537,415,558,388,575,377,572,381,562,392,542,418,523,453,491,546,465,660,445,784,430,909,420,1025,410,1189"/>
+<area shape="rect" id="Node000010" href="$classqMRMLDisplayNodeViewComboBoxPlugin.html" title=" " alt="" coords="569,402,799,447"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="405,1188,418,1036,446,817,467,704,492,601,522,516,539,483,558,457,576,445,573,449,562,461,544,485,527,518,497,602,472,705,452,818,424,1037,410,1189"/>
+<area shape="rect" id="Node000011" href="$classqMRMLDisplayNodeWidgetPlugin.html" title=" " alt="" coords="565,471,803,498"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="405,1188,419,1045,448,841,469,736,494,641,523,562,540,532,558,509,578,496,575,501,562,513,544,535,528,565,499,642,474,738,453,842,425,1046,411,1189"/>
+<area shape="rect" id="Node000012" href="$classqMRMLEventBrokerWidgetPlugin.html" title=" " alt="" coords="567,523,801,550"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="406,1188,421,1055,452,866,472,770,497,682,525,610,541,582,558,561,578,549,575,553,562,565,545,585,530,612,502,684,477,771,457,867,427,1055,411,1189"/>
+<area shape="rect" id="Node000013" href="$classqMRMLExpandingWebViewPlugin.html" title=" " alt="" coords="566,575,803,602"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="406,1188,424,1064,455,891,476,803,500,723,527,658,542,632,558,613,578,601,575,605,562,617,547,635,532,660,505,725,481,804,460,892,429,1065,412,1189"/>
+<area shape="rect" id="Node000014" href="$classqMRMLLabelComboBoxPlugin.html" title=" " alt="" coords="576,627,792,654"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="407,1188,426,1073,459,916,480,837,503,764,529,705,558,665,579,653,576,657,562,669,534,708,508,766,485,838,464,917,431,1074,412,1189"/>
+<area shape="rect" id="Node000015" href="$classqMRMLLayoutWidgetPlugin.html" title=" " alt="" coords="584,679,784,706"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="403,1188,407,1097,414,1035,427,969,446,900,474,832,510,770,558,716,586,700,583,705,562,720,515,773,478,835,451,902,432,970,419,1036,412,1097,408,1189"/>
+<area shape="rect" id="Node000016" href="$classqMRMLLinearTransformSliderPlugin.html" title=" " alt="" coords="578,730,790,775"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="405,1188,414,1108,438,1000,458,942,484,885,517,832,558,785,580,772,577,776,562,789,521,835,489,887,463,944,444,1001,419,1109,410,1189"/>
+<area shape="rect" id="Node000017" href="$classqMRMLListWidgetPlugin.html" title=" " alt="" coords="595,799,773,826"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="406,1188,418,1116,443,1021,463,971,489,922,520,876,558,837,575,826,597,819,593,823,578,831,562,841,524,880,493,924,468,973,448,1023,423,1117,411,1189"/>
+<area shape="rect" id="Node000018" href="$classqMRMLMatrixWidgetPlugin.html" title=" " alt="" coords="586,851,783,878"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="408,1188,423,1125,451,1044,471,1001,495,960,524,922,558,889,587,875,583,879,562,893,528,925,499,963,475,1004,456,1046,428,1127,413,1189"/>
+<area shape="rect" id="Node000019" href="$classqMRMLModelInfoWidgetPlugin.html" title=" " alt="" coords="574,903,794,930"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="411,1188,429,1135,458,1067,501,999,528,968,558,941,584,929,580,933,562,945,532,971,505,1002,463,1070,434,1137,416,1190"/>
+<area shape="rect" id="Node000020" href="$classqMRMLNavigationViewPlugin.html" title=" " alt="" coords="578,955,790,982"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="414,1189,435,1144,466,1091,507,1037,532,1012,559,992,583,981,579,985,561,996,535,1016,511,1040,470,1094,440,1147,419,1191"/>
+<area shape="rect" id="Node000021" href="$classqMRMLNodeAttributeTableViewPlugin.html" title=" " alt="" coords="571,1006,797,1051"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="423,1190,479,1125,517,1091,559,1061,586,1049,583,1053,561,1065,520,1095,483,1129,427,1193"/>
+<area shape="rect" id="Node000022" href="$classqMRMLNodeAttributeTableWidgetPlugin.html" title=" " alt="" coords="564,1076,804,1120"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="439,1194,495,1161,559,1130,595,1119,591,1123,561,1135,497,1166,443,1197"/>
+<area shape="rect" id="Node000023" href="$classqMRMLNodeComboBoxPlugin.html" title=" " alt="" coords="577,1144,791,1172"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="482,1198,559,1181,614,1171,610,1174,561,1186,485,1202"/>
+<area shape="rect" id="Node000024" href="$classqMRMLPlotViewControllerWidgetPlugin.html" title=" " alt="" coords="566,1196,802,1240"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="526,1216,568,1216,563,1219,529,1220"/>
+<area shape="rect" id="Node000025" href="$classqMRMLPlotWidgetPlugin.html" title=" " alt="" coords="594,1264,774,1292"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="482,1233,561,1250,614,1262,610,1265,559,1255,485,1238"/>
+<area shape="rect" id="Node000026" href="$classqMRMLROIWidgetPlugin.html" title=" " alt="" coords="595,1316,773,1344"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="439,1238,496,1270,561,1301,603,1314,598,1317,559,1306,493,1275,440,1243"/>
+<area shape="rect" id="Node000027" href="$classqMRMLRangeWidgetPlugin.html" title=" " alt="" coords="586,1368,782,1396"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="426,1241,485,1299,521,1328,561,1353,594,1366,589,1368,559,1358,518,1332,481,1303,427,1246"/>
+<area shape="rect" id="Node000028" href="$classqMRMLScalarInvariantComboBoxPlugin.html" title=" " alt="" coords="578,1420,791,1464"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="420,1243,446,1281,477,1324,516,1368,561,1405,585,1418,579,1420,559,1409,512,1372,473,1327,441,1283,421,1248"/>
+<area shape="rect" id="Node000029" href="$classqMRMLScalarsDisplayWidgetPlugin.html" title=" " alt="" coords="578,1489,790,1534"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="415,1244,437,1296,467,1357,508,1421,534,1449,562,1474,581,1488,576,1489,558,1479,530,1453,504,1424,462,1360,432,1298,415,1249"/>
+<area shape="rect" id="Node000030" href="$classqMRMLSceneFactoryWidgetPlugin.html" title=" " alt="" coords="564,1557,805,1585"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="411,1245,428,1310,455,1391,475,1433,499,1474,528,1512,562,1544,580,1556,575,1557,558,1548,524,1515,494,1477,470,1436,450,1393,423,1311,410,1250"/>
+<area shape="rect" id="Node000031" href="$classqMRMLSliceControllerWidgetPlugin.html" title=" " alt="" coords="579,1609,789,1654"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="409,1245,424,1318,450,1412,470,1461,495,1510,525,1555,562,1594,581,1609,576,1610,558,1599,521,1558,490,1513,465,1464,445,1413,419,1319,409,1250"/>
+<area shape="rect" id="Node000032" href="$classqMRMLSliceInformationWidgetPlugin.html" title=" " alt="" coords="573,1678,795,1723"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="407,1244,418,1329,427,1383,441,1442,461,1502,487,1561,520,1616,562,1664,579,1677,573,1678,558,1668,516,1619,482,1563,456,1504,436,1443,422,1384,413,1330,406,1250"/>
+<area shape="rect" id="Node000033" href="$classqMRMLSliceVerticalControllerWidgetPlugin.html" title=" " alt="" coords="578,1748,791,1792"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="406,1245,412,1341,420,1403,433,1472,452,1542,479,1612,515,1676,562,1733,580,1748,574,1748,558,1737,511,1679,474,1614,447,1544,427,1473,415,1404,407,1341,405,1250"/>
+<area shape="rect" id="Node000034" href="$classqMRMLSliceWidgetPlugin.html" title=" " alt="" coords="591,1816,777,1844"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="410,1244,430,1368,461,1536,482,1621,506,1698,533,1761,547,1785,562,1802,593,1822,588,1823,558,1807,543,1788,528,1763,501,1700,477,1622,456,1537,424,1369,409,1250"/>
+<area shape="rect" id="Node000035" href="$classqMRMLSliderWidgetPlugin.html" title=" " alt="" coords="588,1868,780,1896"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="409,1245,428,1378,458,1561,479,1654,503,1738,531,1807,546,1834,562,1853,590,1872,585,1873,558,1857,541,1837,526,1810,498,1740,473,1655,453,1562,422,1378,408,1250"/>
+<area shape="rect" id="Node000036" href="$classqMRMLSpinBoxPlugin.html" title=" " alt="" coords="603,1920,765,1948"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="409,1245,425,1387,455,1586,475,1687,500,1780,529,1855,545,1884,562,1905,581,1919,605,1929,600,1931,579,1924,558,1909,540,1887,524,1857,495,1781,470,1689,449,1587,420,1388,408,1250"/>
+<area shape="rect" id="Node000037" href="$classqMRMLTableViewPlugin.html" title=" " alt="" coords="597,1972,771,2000"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="408,1245,423,1396,451,1611,471,1721,497,1821,527,1903,544,1934,562,1957,578,1970,599,1980,594,1981,576,1974,558,1961,539,1937,522,1905,491,1822,466,1722,446,1611,418,1397,407,1250"/>
+<area shape="rect" id="Node000038" href="$classqMRMLThreeDViewInformationWidgetPlugin.html" title=" " alt="" coords="572,2024,796,2068"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="408,1244,422,1404,449,1634,470,1752,495,1860,526,1949,543,1984,562,2009,577,2023,571,2023,558,2013,539,1986,521,1952,490,1862,464,1753,444,1635,417,1405,407,1250"/>
+<area shape="rect" id="Node000039" href="$classqMRMLThreeDViewPlugin.html" title=" " alt="" coords="590,2092,778,2120"/>
+<area shape="poly" id="edge38_Node000001_Node000039" title=" " alt="" coords="407,1244,419,1417,429,1538,443,1668,463,1798,489,1917,504,1969,522,2014,541,2051,562,2079,575,2089,593,2099,587,2100,573,2094,558,2082,536,2054,517,2016,499,1970,484,1918,458,1799,438,1669,423,1538,413,1417,406,1249"/>
+<area shape="rect" id="Node000040" href="$classqMRMLTransformSlidersPlugin.html" title=" " alt="" coords="576,2144,793,2172"/>
+<area shape="poly" id="edge39_Node000001_Node000040" title=" " alt="" coords="407,1245,417,1427,426,1555,440,1693,460,1831,486,1957,502,2012,520,2060,540,2100,562,2129,578,2144,573,2143,558,2133,535,2103,515,2062,497,2014,481,1958,455,1832,435,1694,421,1555,412,1427,406,1250"/>
+<area shape="rect" id="Node000041" href="$classqMRMLTreeViewPlugin.html" title=" " alt="" coords="600,2196,768,2224"/>
+<area shape="poly" id="edge40_Node000001_Node000041" title=" " alt="" coords="407,1245,415,1436,424,1571,437,1717,456,1864,483,1998,499,2057,518,2108,539,2150,562,2181,580,2195,603,2206,598,2206,577,2200,558,2185,534,2153,513,2110,494,2058,478,1999,451,1865,432,1718,418,1571,410,1436,406,1250"/>
+<area shape="rect" id="Node000042" href="$classqMRMLVolumeInfoWidgetPlugin.html" title=" " alt="" coords="570,2248,798,2276"/>
+<area shape="poly" id="edge41_Node000001_Node000042" title=" " alt="" coords="406,1245,414,1445,421,1587,434,1742,453,1897,480,2039,497,2101,516,2155,538,2200,562,2233,578,2248,573,2247,558,2237,533,2203,511,2157,492,2103,475,2040,448,1898,429,1743,416,1588,408,1445,405,1250"/>
+<area shape="rect" id="Node000043" href="$classqMRMLVolumeThresholdWidgetPlugin.html" title=" " alt="" coords="570,2300,798,2344"/>
+<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="406,1245,413,1453,420,1602,433,1765,452,1928,479,2078,496,2144,515,2202,537,2249,562,2285,576,2300,571,2298,558,2289,533,2252,510,2204,491,2145,474,2079,447,1929,428,1765,415,1602,408,1453,405,1250"/>
+<area shape="rect" id="Node000044" href="$classqMRMLWidgetPlugin.html" title=" " alt="" coords="607,2368,761,2396"/>
+<area shape="poly" id="edge43_Node000001_Node000044" title=" " alt="" coords="406,1245,409,1465,415,1625,426,1800,445,1974,472,2135,490,2205,511,2267,535,2317,562,2355,583,2370,609,2381,604,2380,580,2374,558,2358,530,2320,506,2269,485,2207,467,2136,439,1975,421,1800,410,1625,404,1465,405,1250"/>
+<area shape="rect" id="Node000045" href="$classqMRMLWindowLevelWidgetPlugin.html" title=" " alt="" coords="564,2420,805,2448"/>
+<area shape="poly" id="edge44_Node000001_Node000045" title=" " alt="" coords="406,1245,408,1474,413,1641,424,1824,442,2006,470,2175,488,2248,509,2313,534,2366,562,2405,578,2420,572,2419,558,2409,529,2368,504,2315,483,2250,465,2176,437,2007,418,1824,408,1641,403,1474,404,1250"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1204,249,1232"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,1216,298,1216,294,1220,266,1220"/>
+</map>

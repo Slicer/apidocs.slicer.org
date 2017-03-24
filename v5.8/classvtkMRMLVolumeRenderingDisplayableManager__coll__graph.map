@@ -1,0 +1,28 @@
+<map id="vtkMRMLVolumeRenderingDisplayableManager" name="vtkMRMLVolumeRenderingDisplayableManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,373,366,413"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="5,271,223,311"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,318,209,371,205,375,144,322"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="7,168,221,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,222,117,271,111,271,111,222"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="105,80,277,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="175,117,132,170,128,166,171,114"/>
+<area shape="rect" id="Node000007" href="$classvtkSlicerModuleLogic.html" title=" " alt="" coords="245,175,407,201"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="220,111,311,173,308,177,217,115"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="381,5,466,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="368,37,297,57,223,82,222,77,296,52,366,32"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo." alt="" coords="431,175,554,201"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="387,39,365,53,348,69,339,86,343,104,363,129,389,148,418,162,446,173,444,178,416,167,387,152,360,132,338,106,334,85,344,66,362,49,384,35"/>
+<area shape="rect" id="Node000009" href="$classvtkCacheManager.html" title=" " alt="" coords="353,80,493,105"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="426,45,426,80,421,80,421,45"/>
+<area shape="rect" id="Node000010" href="$classvtkDataIOManager.html" title=" " alt="" coords="517,80,663,105"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="463,34,565,78,563,82,461,39"/>
+<area shape="rect" id="Node000011" href="$classvtkTagTable.html" title=" " alt="" coords="687,80,786,105"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="480,30,688,77,686,83,479,35"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerVolumeRenderingLogic.html" title=" " alt="" coords="247,271,442,311"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="314,322,252,375,249,371,311,318"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="333,214,344,270,339,271,328,215"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="466,211,374,273,371,268,463,206"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="425,119,432,143,448,160,468,173,465,177,445,164,428,145,420,120"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="570,117,507,177,503,173,566,113"/>
+<area shape="poly" id="edge14_Node000008_Node000011" title=" " alt="" coords="713,116,663,146,608,166,555,179,554,174,607,161,661,142,711,111"/>
+</map>

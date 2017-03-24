@@ -1,0 +1,17 @@
+<map id="qSlicerMarkupsModuleWidgetsAbstractPlugin" name="qSlicerMarkupsModuleWidgetsAbstractPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="297,175,518,219"/>
+<area shape="rect" id="Node000003" href="$classqMRMLMarkupsDisplayNodeWidgetPlugin.html" title=" " alt="" coords="566,5,819,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,161,493,109,528,83,565,60,595,49,590,52,567,65,531,87,497,113,441,166"/>
+<area shape="rect" id="Node000004" href="$classqMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.html" title=" " alt="" coords="573,75,812,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="472,166,565,129,605,119,600,121,567,134,474,171"/>
+<area shape="rect" id="Node000005" href="$classqMRMLMarkupsInteractionHandleWidgetPlugin.html" title=" " alt="" coords="572,144,813,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="533,181,574,179,569,180,534,186"/>
+<area shape="rect" id="Node000006" href="$classqMRMLMarkupsROIWidgetPlugin.html" title=" " alt="" coords="576,212,809,240"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="533,207,578,214,573,215,534,213"/>
+<area shape="rect" id="Node000007" href="$classqSlicerMarkupsPlaceWidgetPlugin.html" title=" " alt="" coords="592,264,793,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="486,222,567,249,608,263,603,263,565,254,485,228"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSimpleMarkupsWidgetPlugin.html" title=" " alt="" coords="587,333,798,378"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="443,227,499,275,532,298,567,319,596,333,591,332,565,323,530,303,496,279,441,233"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,183,249,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,194,299,196,294,198,265,200"/>
+</map>

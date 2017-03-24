@@ -1,0 +1,10 @@
+<map id="vtkMRMLSnapshotClipNode" name="vtkMRMLSnapshotClipNode">
+<area shape="rect" id="Node000001" title="Abstract class representing a hierarchy member." alt="" coords="5,252,207,280"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="48,175,164,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,216,108,253,104,251,104,220"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="58,5,143,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,47,108,175,103,174,100,51"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="122,82,280,110"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="130,40,186,81,181,83,130,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="178,119,121,177,118,173,174,123"/>
+</map>

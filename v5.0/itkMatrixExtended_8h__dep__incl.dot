@@ -1,0 +1,25 @@
+digraph "Modules/CLI/ResampleDTIVolume/itkMatrixExtended.h"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="Modules/CLI/ResampleDTIVolume\l/itkMatrixExtended.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DTransform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DTransform_8h.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DMatrix3x3Transform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DMatrix3x3Transform_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DAffineTransform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DAffineTransform_8h.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DFSAffineTransform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DFSAffineTransform_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DNonRigidTransform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DNonRigidTransform_8h.html"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DPPDAffineTransform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DPPDAffineTransform_8h.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DRigidTransform.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DRigidTransform_8h.html"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Modules/CLI/ResampleDTIVolume\l/itkDiffusionTensor3DResample.h",height=0.2,width=0.4,color="black",URL="$itkDiffusionTensor3DResample_8h.html"];
+}

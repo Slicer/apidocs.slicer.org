@@ -1,0 +1,27 @@
+<map id="Libs/MRML/Logic/vtkMRMLViewLogic.h" name="Libs/MRML/Logic/vtkMRMLViewLogic.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="662,5,888,50"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAbstractLogic_8h.html" title=" " alt="" coords="286,98,469,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="667,52,457,97,455,92,672,49"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="231,249,327,277"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="747,49,721,74,697,100,682,128,676,154,667,179,646,203,623,216,591,227,511,243,422,254,343,261,342,256,422,249,510,238,590,221,621,211,643,199,663,177,671,153,677,126,693,96,717,70,742,52"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="707,98,842,126"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="776,48,777,84,773,81,773,53"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="866,98,929,126"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="808,48,868,89,862,89,807,53"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="952,98,1014,126"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="830,48,940,93,935,93,830,53"/>
+<area shape="rect" id="Node000003" href="$vtkObserverManager_8h.html" title=" " alt="" coords="71,174,241,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,128,211,171,209,166,340,125"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="359,125,332,148,308,175,294,205,285,236,281,232,289,203,303,172,328,145,354,128"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="317,174,438,201"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="379,124,380,159,375,157,376,128"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="462,174,632,201"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="408,124,506,167,500,168,408,129"/>
+<area shape="rect" id="Node000004" href="$vtkMRML_8h.html" title=" " alt="" coords="26,249,121,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,204,101,241,98,237,143,200"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="179,199,247,240,241,242,178,205"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="144,249,195,277"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="160,199,167,235,162,233,157,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,325,142,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="75,276,76,310,71,309,72,280"/>
+</map>

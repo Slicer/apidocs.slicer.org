@@ -1,0 +1,17 @@
+<map id="Libs/MRML/Widgets/qMRMLThreeDViewControllerWidget.h" name="Libs/MRML/Widgets/qMRMLThreeDViewControllerWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,5,292,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,136,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,48,98,87,95,83,147,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="110,167,231,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,46,174,153,168,153,170,46"/>
+<area shape="rect" id="Node000004" href="$qMRMLViewControllerBar_8h.html" title=" " alt="" coords="215,93,414,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,43,283,84,280,89,206,48"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="293,121,208,163,205,158,290,116"/>
+<area shape="rect" id="Node000005" href="$qMRMLWidget_8h.html" title=" " alt="" coords="255,167,382,192"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="318,119,320,153,315,153,313,119"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="332,240,508,265"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="339,116,369,137,397,165,412,196,419,226,414,227,407,198,392,168,365,141,336,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="229,240,307,265"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="312,194,286,230,282,227,308,191"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="336,190,394,230,391,234,333,194"/>
+</map>

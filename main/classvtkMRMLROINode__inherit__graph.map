@@ -1,0 +1,11 @@
+<map id="vtkMRMLROINode" name="vtkMRMLROINode">
+<area shape="rect" id="Node000001" title="MRML node to represent a 3D ROI." alt="" coords="40,308,179,336"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="5,232,214,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,274,112,309,107,306,108,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="24,157,195,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,198,112,233,107,231,108,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="51,81,168,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,122,112,157,107,156,109,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="67,5,152,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="110,46,112,81,107,80,109,51"/>
+</map>

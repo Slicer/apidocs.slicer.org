@@ -1,0 +1,26 @@
+<map id="Libs/MRML/Widgets/qMRMLScreenShotDialog.h" name="Libs/MRML/Widgets/qMRMLScreenShotDialog.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,5,378,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="6,98,79,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,53,92,94,89,90,200,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="103,98,197,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,52,181,90,177,86,230,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="221,98,290,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,48,258,83,253,81,254,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="465,249,640,277"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="378,35,414,43,448,56,481,73,509,96,532,128,546,165,553,202,555,236,551,233,548,203,541,167,528,131,506,100,478,78,446,61,412,48,378,40"/>
+<area shape="rect" id="Node000006" href="$qMRMLLayoutManager_8h.html" title=" " alt="" coords="314,98,496,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="295,48,371,90,365,91,295,53"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="427,124,458,145,489,172,517,204,539,237,534,235,513,207,486,176,455,149,426,129"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,249,98,277"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="315,128,181,153,126,165,97,176,84,188,74,203,61,236,56,233,70,201,80,185,94,171,125,160,180,147,319,125"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="334,174,476,201"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="407,124,407,159,403,157,403,128"/>
+<area shape="rect" id="Node000009" href="$qMRMLLayoutViewFactory_8h.html" title=" " alt="" coords="108,174,310,201"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="367,127,259,170,257,165,372,125"/>
+<area shape="poly" id="edge13_Node000009_Node000005" title=" " alt="" coords="271,199,478,244,474,247,270,205"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="183,203,94,245,92,240,178,200"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="122,249,296,277"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="211,200,211,235,207,232,207,204"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="321,249,441,277"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="240,199,339,243,334,243,239,204"/>
+</map>

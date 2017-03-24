@@ -1,0 +1,11 @@
+<map id="vtkMRMLMarkupsFiducialDisplayNode" name="vtkMRMLMarkupsFiducialDisplayNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,276,336"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsDisplayNode.html" title=" " alt="" coords="30,232,251,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,274,143,309,138,306,139,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="58,157,223,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="142,198,143,233,138,231,139,202"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="82,81,199,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,122,143,157,138,156,140,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="98,5,183,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,46,143,81,138,80,140,51"/>
+</map>

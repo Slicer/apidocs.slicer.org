@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="itk::TimeSeriesDatabaseHelper\l::counted_ptr\< ElementType \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1TimeSeriesDatabaseHelper_1_1counted__ptr.html",tooltip="Some useful classes. "];
+}

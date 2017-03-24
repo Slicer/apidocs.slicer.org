@@ -1,0 +1,28 @@
+<map id="vtkMRMLDiffusionWeightedVolumeDisplayNode" name="vtkMRMLDiffusionWeightedVolumeDisplayNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a volume (image stack)." alt="" coords="129,713,330,758"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLScalarVolumeDisplayNode.html" title="MRML node for representing a volume display attributes." alt="" coords="102,636,356,664"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,677,232,714,227,711,227,681"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLVolumeDisplayNode.html" title="MRML node for representing a volume display attributes." alt="" coords="5,535,219,562"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,570,217,635,211,636,138,575"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="29,441,195,468"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,482,115,535,109,534,111,487"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="32,186,149,213"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,226,114,440,108,440,92,231"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="128,263,298,290"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="124,219,194,261,189,263,125,224"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="120,5,205,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="114,43,93,60,74,84,67,110,70,138,77,164,86,185,81,186,72,165,64,139,62,109,70,81,89,57,117,38"/>
+<area shape="rect" id="Node000007" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="84,82,242,110"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="163,46,165,82,160,82,162,51"/>
+<area shape="rect" id="Node000010" href="$classvtkTagTable.html" title=" " alt="" coords="258,134,356,162"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="197,39,255,80,280,107,300,133,295,134,276,111,252,84,199,44"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="100,121,88,135,83,147,82,160,88,185,83,185,77,160,78,146,83,133,102,116"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="133,340,283,367"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="184,381,126,442,122,439,186,376"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="212,303,212,340,206,339,211,308"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="287,177,225,263,221,261,289,172"/>
+<area shape="rect" id="Node000011" href="$classvtkImageMapToWindowLevelAddon.html" title="Subclass of vtkImageMapToWindowLevelColors that adds the option to compress values within the window ..." alt="" coords="243,526,456,571"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="314,580,247,638,243,633,309,582"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="243,432,456,477"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="351,490,352,527,347,525,348,495"/>
+</map>

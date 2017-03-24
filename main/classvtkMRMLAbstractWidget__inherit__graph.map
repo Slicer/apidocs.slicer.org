@@ -1,0 +1,33 @@
+<map id="vtkMRMLAbstractWidget" name="vtkMRMLAbstractWidget">
+<area shape="rect" id="Node000001" title="Process interaction events to update state of MRML widget nodes." alt="" coords="138,152,321,180"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLCameraWidget.html" title="Process camera manipulation events." alt="" coords="404,5,583,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,138,301,90,333,64,368,43,406,31,401,34,370,48,336,69,304,94,255,142"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLInteractionWidget.html" title="Process interaction events to update state of interaction widgets." alt="" coords="394,57,592,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,142,314,117,368,94,409,84,405,87,370,99,316,122,269,146"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLSliceIntersectionWidget.html" title="Show slice intersection lines." alt="" coords="398,109,588,154"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="336,149,400,142,395,145,338,154"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLVolumeRenderingWindowLevelWidget.html" title="Adjust volume rendering transfer functions with mouse interactions." alt="" coords="369,178,617,223"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="336,177,371,183,366,185,337,183"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLWindowLevelWidget.html" title="Show slice intersection lines." alt="" coords="386,247,600,274"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="267,185,316,210,370,233,410,246,404,247,368,238,314,215,268,190"/>
+<area shape="rect" id="Node000010" href="$classvtkSlicerMarkupsWidget.html" title="Process interaction events to update state of markup widget nodes." alt="" coords="404,299,583,326"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="253,189,304,238,336,263,370,283,406,299,401,299,368,288,333,267,301,242,252,194"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,90,180"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,164,139,164,135,167,107,168"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformHandleWidget.html" title="Process interaction events to update state of interaction widgets." alt="" coords="665,23,904,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="607,55,667,50,662,52,608,60"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerMarkupsInteractionWidget.html" title="Process interaction events to update state of interaction widgets." alt="" coords="683,74,886,119"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="607,78,685,87,680,88,608,84"/>
+<area shape="rect" id="Node000011" href="$classvtkSlicerAngleWidget.html" title="create an angle with a set of 3 points" alt="" coords="704,168,865,196"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="596,295,616,284,632,266,639,246,646,226,664,206,701,192,706,190,667,211,651,229,644,248,636,269,619,288,598,299"/>
+<area shape="rect" id="Node000012" href="$classvtkSlicerCurveWidget.html" title="create a curve with a set of N points" alt="" coords="703,220,866,248"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="590,292,616,283,640,271,664,258,703,249,708,248,666,263,643,276,618,288,591,297"/>
+<area shape="rect" id="Node000013" href="$classvtkSlicerLineWidget.html" title="create a line with a set of 2 points" alt="" coords="709,272,860,300"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="598,300,711,292,706,293,599,306"/>
+<area shape="rect" id="Node000014" href="$classvtkSlicerPlaneWidget.html" title="create a plane with a set of 3 points" alt="" coords="704,324,865,352"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="599,319,706,331,701,331,599,324"/>
+<area shape="rect" id="Node000015" href="$classvtkSlicerPointsWidget.html" title="Widget to display a set of interactive points." alt="" coords="702,376,867,404"/>
+<area shape="poly" id="edge14_Node000010_Node000015" title=" " alt="" coords="555,329,666,361,718,375,713,375,665,366,554,334"/>
+<area shape="rect" id="Node000016" href="$classvtkSlicerROIWidget.html" title="Create an ROI representation." alt="" coords="711,428,858,456"/>
+<area shape="poly" id="edge15_Node000010_Node000016" title=" " alt="" coords="526,333,590,374,666,413,713,429,708,429,664,418,587,379,525,338"/>
+</map>

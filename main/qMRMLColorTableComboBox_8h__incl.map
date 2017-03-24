@@ -1,0 +1,22 @@
+<map id="Libs/MRML/Widgets/qMRMLColorTableComboBox.h" name="Libs/MRML/Widgets/qMRMLColorTableComboBox.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="230,5,465,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="140,98,230,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="302,52,226,93,223,88,306,49"/>
+<area shape="rect" id="Node000003" href="$qMRMLNodeComboBox_8h.html" title=" " alt="" coords="254,98,441,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="349,48,350,84,345,81,346,53"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="457,249,632,277"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="389,48,423,70,455,96,483,130,506,167,537,236,533,234,501,170,479,133,451,100,420,74,388,53"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="62,174,164,201"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="304,128,170,171,168,166,308,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,249,98,277"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="324,125,229,176,177,204,94,245,91,240,174,199,226,171,319,127"/>
+<area shape="rect" id="Node000006" href="$qMRMLSortFilterProxyModel_8h.html" title=" " alt="" coords="239,174,456,201"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="349,124,350,159,345,157,346,128"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="383,124,427,144,470,172,504,203,530,238,525,236,500,207,467,176,424,149,382,129"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="295,205,113,249,112,244,294,199"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="121,249,288,277"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="325,201,245,245,243,240,319,202"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="313,249,433,277"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="354,200,366,236,361,233,351,204"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="383,199,498,244,493,244,382,205"/>
+</map>

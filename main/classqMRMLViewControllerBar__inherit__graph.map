@@ -1,0 +1,15 @@
+<map id="qMRMLViewControllerBar" name="qMRMLViewControllerBar">
+<area shape="rect" id="Node000001" title=" " alt="" coords="293,88,479,116"/>
+<area shape="rect" id="Node000004" href="$classqMRMLPlotViewControllerWidget.html" title=" " alt="" coords="527,5,764,33"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="432,79,527,43,575,33,570,34,528,48,434,84"/>
+<area shape="rect" id="Node000005" href="$classqMRMLSliceControllerWidget.html" title=" " alt="" coords="540,57,751,85"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="494,86,543,83,537,84,495,92"/>
+<area shape="rect" id="Node000006" href="$classqMRMLTableViewControllerWidget.html" title=" " alt="" coords="546,109,745,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="494,111,548,120,543,120,495,117"/>
+<area shape="rect" id="Node000007" href="$classqMRMLThreeDViewControllerWidget.html" title=" " alt="" coords="540,178,751,223"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="430,120,528,163,564,178,559,177,526,168,429,125"/>
+<area shape="rect" id="Node000002" href="$classqMRMLWidget.html" title="Base class for any widget that requires a MRML Scene." alt="" coords="131,88,245,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,99,295,101,290,102,261,104"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,88,83,116"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,99,133,100,128,103,99,104"/>
+</map>

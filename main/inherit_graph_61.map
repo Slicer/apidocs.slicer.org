@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,118,69,146"/>
+<area shape="rect" id="Node000001" href="$classitk_1_1DiffusionTensor3DRead.html" title=" " alt="" coords="133,40,330,85"/>
+<area shape="poly" id="edge88_Node000000_Node000001" title=" " alt="" coords="81,109,116,95,153,84,149,87,118,99,84,113"/>
+<area shape="rect" id="Node000002" href="$classitk_1_1DiffusionTensor3DTransform.html" title=" " alt="" coords="117,109,346,154"/>
+<area shape="poly" id="edge89_Node000000_Node000002" title=" " alt="" coords="84,129,119,130,114,133,85,134"/>
+<area shape="rect" id="Node000009" href="$classitk_1_1DiffusionTensor3DWrite.html" title=" " alt="" coords="132,179,331,223"/>
+<area shape="poly" id="edge96_Node000000_Node000009" title=" " alt="" coords="83,150,118,164,154,178,148,179,116,169,82,155"/>
+<area shape="rect" id="Node000003" href="$classitk_1_1DiffusionTensor3DMatrix3x3Transform.html" title=" " alt="" coords="394,75,624,119"/>
+<area shape="poly" id="edge90_Node000002_Node000003" title=" " alt="" coords="361,113,396,111,391,112,362,118"/>
+<area shape="rect" id="Node000008" href="$classitk_1_1DiffusionTensor3DNonRigidTransform.html" title=" " alt="" coords="414,144,604,189"/>
+<area shape="poly" id="edge95_Node000002_Node000008" title=" " alt="" coords="361,145,416,154,411,155,361,151"/>
+<area shape="rect" id="Node000004" href="$classitk_1_1DiffusionTensor3DAffineTransform.html" title=" " alt="" coords="672,40,875,85"/>
+<area shape="poly" id="edge91_Node000003_Node000004" title=" " alt="" coords="640,77,675,75,669,76,640,82"/>
+<area shape="rect" id="Node000007" href="$classitk_1_1DiffusionTensor3DRigidTransform.html" title=" " alt="" coords="675,109,872,154"/>
+<area shape="poly" id="edge94_Node000003_Node000007" title=" " alt="" coords="640,111,677,119,672,119,640,117"/>
+<area shape="rect" id="Node000005" href="$classitk_1_1DiffusionTensor3DFSAffineTransform.html" title=" " alt="" coords="928,5,1146,50"/>
+<area shape="poly" id="edge92_Node000004_Node000005" title=" " alt="" coords="890,44,930,42,925,42,891,50"/>
+<area shape="rect" id="Node000006" href="$classitk_1_1DiffusionTensor3DPPDAffineTransform.html" title=" " alt="" coords="923,75,1151,119"/>
+<area shape="poly" id="edge93_Node000004_Node000006" title=" " alt="" coords="890,75,925,82,919,82,890,80"/>
+</map>

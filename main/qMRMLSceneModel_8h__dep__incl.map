@@ -1,0 +1,15 @@
+<map id="Libs/MRML/Widgets/qMRMLSceneModel.h" name="Libs/MRML/Widgets/qMRMLSceneModel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="401,5,641,50"/>
+<area shape="rect" id="Node000002" href="$qMRMLSceneCategoryModel_8h.html" title=" " alt="" coords="5,98,245,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,56,221,100,219,95,413,52"/>
+<area shape="rect" id="Node000004" href="$qMRMLSceneHierarchyModel_8h.html" title=" " alt="" coords="269,98,509,143"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="479,58,422,100,419,95,475,60"/>
+<area shape="rect" id="Node000006" href="$qMRMLSceneTransformModel_8h.html" title=" " alt="" coords="533,98,773,143"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="566,56,624,98,619,97,564,62"/>
+<area shape="rect" id="Node000007" href="$qMRMLTreeView_8h.html" title=" " alt="" coords="797,98,1024,143"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="629,51,819,97,814,98,629,57"/>
+<area shape="rect" id="Node000003" href="$qMRMLSceneColorTableModel_8h.html" title=" " alt="" coords="5,191,245,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,156,127,192,123,189,123,160"/>
+<area shape="rect" id="Node000005" href="$qMRMLSceneDisplayableModel_8h.html" title=" " alt="" coords="269,191,509,235"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="391,156,391,192,387,189,387,160"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="vtkMRMLColorTableStorageNode" name="vtkMRMLColorTableStorageNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a volume storage." alt="" coords="5,232,240,260"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="39,157,206,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,198,125,233,120,231,121,202"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="64,81,181,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,122,125,157,120,155,121,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="80,5,165,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,46,125,81,120,80,122,51"/>
+</map>

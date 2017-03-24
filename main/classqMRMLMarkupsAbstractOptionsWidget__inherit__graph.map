@@ -1,0 +1,13 @@
+<map id="qMRMLMarkupsAbstractOptionsWidget" name="qMRMLMarkupsAbstractOptionsWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,105,359,150"/>
+<area shape="rect" id="Node000003" href="$classqMRMLMarkupsAngleMeasurementsWidget.html" title=" " alt="" coords="407,5,665,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="311,96,406,60,447,50,442,52,408,65,313,101"/>
+<area shape="rect" id="Node000004" href="$classqMRMLMarkupsCurveSettingsWidget.html" title=" " alt="" coords="428,75,644,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="374,111,431,108,425,109,375,117"/>
+<area shape="rect" id="Node000005" href="$classqMRMLMarkupsPlaneWidget.html" title=" " alt="" coords="433,143,639,171"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="374,138,435,146,430,147,374,143"/>
+<area shape="rect" id="Node000006" href="$classqMRMLMarkupsROIWidget.html" title=" " alt="" coords="440,195,633,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="323,153,408,180,460,195,455,194,406,185,322,158"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,114,83,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,125,133,126,128,129,99,130"/>
+</map>

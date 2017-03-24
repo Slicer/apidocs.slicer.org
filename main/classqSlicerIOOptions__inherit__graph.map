@@ -1,0 +1,23 @@
+<map id="qSlicerIOOptions" name="qSlicerIOOptions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,187,135,215"/>
+<area shape="rect" id="Node000002" href="$classqSlicerIOOptionsWidget.html" title=" " alt="" coords="183,187,358,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,198,184,200,180,202,151,204"/>
+<area shape="rect" id="Node000003" href="$classqSlicerFileWriterOptionsWidget.html" title="Base class for all the Writer Options widget." alt="" coords="406,179,584,223"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,198,408,200,403,202,374,204"/>
+<area shape="rect" id="Node000004" href="$classqSlicerGenericIOOptionsWidget.html" title=" " alt="" coords="632,156,858,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="599,186,634,184,629,185,600,191"/>
+<area shape="rect" id="Node000011" href="$classqSlicerNodeWriterOptionsWidget.html" title=" " alt="" coords="650,208,840,253"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="600,211,653,219,647,219,600,216"/>
+<area shape="rect" id="Node000005" href="$classqSlicerAnnotationsIOOptionsWidget.html" title=" " alt="" coords="918,5,1125,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="774,144,832,102,904,60,932,52,937,50,907,65,835,106,777,149"/>
+<area shape="rect" id="Node000006" href="$classqSlicerModelsIOOptionsWidget.html" title=" " alt="" coords="910,74,1132,102"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="797,148,905,112,950,103,955,101,906,117,798,153"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSceneIOOptionsWidget.html" title=" " alt="" coords="914,126,1128,154"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="873,153,916,151,911,152,874,159"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSegmentationsIOOptionsWidget.html" title=" " alt="" coords="908,177,1135,222"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="873,181,910,187,905,188,873,187"/>
+<area shape="rect" id="Node000009" href="$classqSlicerSegmentationsNodeWriterOptionsWidget.html" title=" " alt="" coords="923,247,1120,291"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="844,187,859,193,874,203,884,213,893,223,907,232,934,246,929,246,904,237,890,227,880,217,870,207,856,198,843,192"/>
+<area shape="rect" id="Node000010" href="$classqSlicerVolumesIOOptionsWidget.html" title=" " alt="" coords="906,315,1137,343"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="854,190,859,194,872,207,879,221,884,249,889,277,896,289,907,302,926,315,921,314,904,306,891,292,884,278,879,250,874,223,868,210,856,198,853,195"/>
+</map>

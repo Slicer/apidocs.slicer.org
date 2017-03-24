@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsPlugin.h" name="Modules/Loadable/Terminologies/Widgets/DesignerPlugins/qSlicerTerminologiesModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="66,5,392,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,218,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,70,150,107,147,103,195,65"/>
+<area shape="rect" id="Node000003" href="$qSlicerTerminologyNavigatorWidgetPlugin_8h.html" title=" " alt="" coords="242,115,451,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,65,312,105,307,105,264,70"/>
+<area shape="rect" id="Node000004" href="$qSlicerTerminologiesModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="244,208,448,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="348,158,349,194,344,191,345,162"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="138,309,216,336"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="308,252,216,304,213,299,303,253"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="240,300,452,345"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="348,251,348,286,344,283,344,255"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="476,300,680,345"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="402,250,511,294,506,294,401,256"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="qSlicerSubjectHierarchyPluginHandler" name="qSlicerSubjectHierarchyPluginHandler">
+<area shape="rect" id="node4" href="$classqSlicerSubjectHierarchyAbstractPlugin.html" title="Abstract plugin for handling Subject Hierarchy items. " alt="" coords="163,48,393,89"/>
+<area shape="rect" id="node7" href="$classqSlicerSubjectHierarchyPluginLogic.html" title="Qt&#45;based logic class to exercise Qt&#45;related logic functions. The Subject hierarchy plugin mechanism a..." alt="" coords="169,113,387,155"/>
+<area shape="rect" id="node3" href="$classqSlicerSubjectHierarchyDefaultPlugin.html" title="Default Subject Hierarchy plugin to exercise features of the abstract plugin. This plugin must not be..." alt="" coords="616,48,841,89"/>
+<area shape="rect" id="node5" href="$classQList.html" title="QList\&lt; qSlicerSubjectHierarchy\lAbstractPlugin *\&gt;" alt="" coords="616,177,841,219"/>
+<area shape="rect" id="node6" href="$classQList.html" title="QList\&lt; T \&gt;" alt="" coords="231,215,325,242"/>
+<area shape="rect" id="node9" href="$classQList.html" title="QList\&lt; vtkIdType \&gt;" alt="" coords="655,243,803,270"/>
+<area shape="rect" id="node8" href="$classqSlicerObject.html" title="qSlicerObject" alt="" coords="5,122,113,149"/>
+</map>

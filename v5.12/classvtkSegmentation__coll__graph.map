@@ -1,0 +1,8 @@
+<map id="vtkSegmentation" name="vtkSegmentation">
+<area shape="rect" id="Node000001" title="This class encapsulates a segmentation that can contain multiple segments and multiple representation..." alt="" coords="5,168,140,193"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,5,110,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,44,75,168,70,168,66,45"/>
+<area shape="rect" id="Node000003" href="$classvtkSegmentationConverter.html" title="Class that can convert between different representations of a segment." alt="" coords="88,80,287,105"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="99,35,169,78,167,82,97,40"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,116,90,170,87,166,159,111"/>
+</map>

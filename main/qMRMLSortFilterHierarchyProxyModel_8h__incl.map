@@ -1,0 +1,14 @@
+<map id="Libs/MRML/Widgets/qMRMLSortFilterHierarchyProxyModel.h" name="Libs/MRML/Widgets/qMRMLSortFilterHierarchyProxyModel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="78,5,305,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,174,181,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,50,111,162,107,159,176,50"/>
+<area shape="rect" id="Node000003" href="$qMRMLSortFilterProxyModel_8h.html" title=" " alt="" coords="180,98,398,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,48,265,88,259,88,217,53"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="257,126,143,170,141,165,251,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="205,174,373,201"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="291,124,291,159,287,156,287,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="396,174,488,201"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="317,124,404,167,399,167,316,129"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="513,174,633,201"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="340,124,510,169,505,170,339,129"/>
+</map>

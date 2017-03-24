@@ -1,0 +1,17 @@
+<map id="Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractEffect.h" name="Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorAbstractEffect.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="556,5,807,67"/>
+<area shape="rect" id="Node000002" href="$qSlicerSegmentEditorAbstractLabelEffect_8h.html" title=" " alt="" coords="419,115,670,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="633,75,584,117,581,112,629,78"/>
+<area shape="rect" id="Node000008" href="$qSlicerSegmentEditorScriptedEffect_8h.html" title=" " alt="" coords="695,115,946,177"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="733,74,784,115,779,114,732,79"/>
+<area shape="rect" id="Node000003" href="$qSlicerSegmentEditorPaintEffect_8h.html" title=" " alt="" coords="143,225,394,286"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="450,184,347,227,345,222,455,182"/>
+<area shape="rect" id="Node000006" href="$qSlicerSegmentEditorScissorsEffect_8h.html" title=" " alt="" coords="419,225,670,286"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="546,190,547,226,542,223,543,194"/>
+<area shape="rect" id="Node000007" href="$qSlicerSegmentEditorScriptedLabelEffect_8h.html" title=" " alt="" coords="695,225,946,286"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="636,180,745,224,740,224,636,185"/>
+<area shape="rect" id="Node000004" href="$qSlicerSegmentEditorEraseEffect_8h.html" title=" " alt="" coords="5,334,257,396"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="220,295,171,336,168,332,215,297"/>
+<area shape="rect" id="Node000005" href="$qSlicerSegmentEditorScriptedPaintEffect_8h.html" title=" " alt="" coords="281,334,533,396"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="320,294,371,334,366,334,319,299"/>
+</map>

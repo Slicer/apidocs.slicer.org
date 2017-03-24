@@ -1,0 +1,9 @@
+<map id="qMRMLTransformDisplayNodeWidgetPlugin" name="qMRMLTransformDisplayNodeWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,174,240,218"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,90,79,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,126,112,172,107,174,64,131"/>
+<area shape="rect" id="Node000003" href="$classqSlicerTransformsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="103,81,341,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,136,154,176,151,171,187,138"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="100,5,344,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="223,47,224,81,220,79,221,51"/>
+</map>

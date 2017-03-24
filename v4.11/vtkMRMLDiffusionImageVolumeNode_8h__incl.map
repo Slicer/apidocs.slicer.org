@@ -1,0 +1,12 @@
+<map id="Libs/MRML/Core/vtkMRMLDiffusionImageVolumeNode.h" name="Libs/MRML/Core/vtkMRMLDiffusionImageVolumeNode.h">
+<area shape="rect" id="node2" href="$vtkMRMLTensorVolumeNode_8h.html" title="vtkMRMLTensorVolumeNode.h" alt="" coords="109,95,327,121"/>
+<area shape="rect" id="node3" href="$vtkMRMLScalarVolumeNode_8h.html" title="vtkMRMLScalarVolumeNode.h" alt="" coords="109,169,327,196"/>
+<area shape="rect" id="node4" href="$vtkMRMLVolumeNode_8h.html" title="vtkMRMLVolumeNode.h" alt="" coords="129,244,307,271"/>
+<area shape="rect" id="node5" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="7,319,213,345"/>
+<area shape="rect" id="node6" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="74,393,295,420"/>
+<area shape="rect" id="node7" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="84,468,267,495"/>
+<area shape="rect" id="node8" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="605,543,735,569"/>
+<area shape="rect" id="node9" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="787,692,881,719"/>
+<area shape="rect" id="node11" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="194,617,365,644"/>
+<area shape="rect" id="node19" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="1376,617,1607,644"/>
+</map>

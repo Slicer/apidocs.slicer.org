@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Sequences/Logic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6ff3b501f1839603ea5ebc3f58bd5b37 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Sequences" fontname="Helvetica", fontsize="10", URL="dir_6ff3b501f1839603ea5ebc3f58bd5b37.html"]
+  dir_2cf8b723e60f29d1303162c68fcd4078 [shape=box, label="Logic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2cf8b723e60f29d1303162c68fcd4078.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_2cf8b723e60f29d1303162c68fcd4078->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000102_000002.html"];
+}

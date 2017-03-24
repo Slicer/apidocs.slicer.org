@@ -1,0 +1,32 @@
+<map id="Libs/vtkITK/vtkITKImageSequenceReader.h" name="Libs/vtkITK/vtkITKImageSequenceReader.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,5,395,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="10,98,210,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,53,152,93,148,88,232,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,174,237,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,48,225,127,199,163,195,160,220,124,261,52"/>
+<area shape="rect" id="Node000004" href="$vtkITK_8h.html" title=" " alt="" coords="261,174,336,201"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,48,296,159,291,157,275,52"/>
+<area shape="rect" id="Node000010" href="$vtkITKImageWriter_8h.html" title=" " alt="" coords="353,98,508,126"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="315,48,394,90,389,91,315,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,249,133,277"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="259,203,125,247,123,242,262,199"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="157,249,274,277"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="286,200,243,241,240,237,281,203"/>
+<area shape="rect" id="Node000007" href="$vtkITKNumericTraits_8h.html" title=" " alt="" coords="298,249,464,277"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="307,199,350,240,345,240,305,204"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="371,249,331,214,333,209,376,249"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="216,325,373,353"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="368,277,322,317,320,313,363,278"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="398,325,538,353"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="397,275,444,315,438,314,396,280"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="383,128,238,171,236,166,387,125"/>
+<area shape="poly" id="edge15_Node000010_Node000004" title=" " alt="" coords="404,128,336,168,334,164,409,125"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="687,174,846,201"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="491,124,694,169,688,171,491,129"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="870,174,996,201"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="509,121,857,172,852,174,508,126"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="360,174,501,201"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="432,124,433,159,428,157,429,128"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="526,174,663,201"/>
+<area shape="poly" id="edge16_Node000010_Node000014" title=" " alt="" coords="460,124,554,167,549,167,459,129"/>
+</map>

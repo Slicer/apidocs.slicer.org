@@ -1,0 +1,19 @@
+digraph "Libs/MRML/DisplayableManager" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf88b8eb9079642a844821688c9bd6e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MRML" fontname="Helvetica", fontsize="10", URL="dir_bf88b8eb9079642a844821688c9bd6e7.html"]
+  subgraph clusterdir_399ce510ec115d7054757a088079b19e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_399ce510ec115d7054757a088079b19e.html"];
+    dir_399ce510ec115d7054757a088079b19e [shape=plaintext label="DisplayableManager"];
+    dir_3051561d9310e3a2bf986986aa8d0d0e [shape=box label="Python" color="red" fillcolor="white" style="filled" URL="dir_3051561d9310e3a2bf986986aa8d0d0e.html"];
+  }
+  }
+  dir_2fe74bebaba38f05ce30e159f3341963 [shape=box label="Logic" URL="dir_2fe74bebaba38f05ce30e159f3341963.html"];
+  dir_4aaa3159dc61d8dcfd3044c605667d3e [shape=box label="Core" color="red" URL="dir_4aaa3159dc61d8dcfd3044c605667d3e.html"];
+  dir_2fe74bebaba38f05ce30e159f3341963->dir_4aaa3159dc61d8dcfd3044c605667d3e [headlabel="8", labeldistance=1.5 headhref="dir_000024_000018.html"];
+  dir_399ce510ec115d7054757a088079b19e->dir_2fe74bebaba38f05ce30e159f3341963 [headlabel="4", labeldistance=1.5 headhref="dir_000020_000024.html"];
+  dir_399ce510ec115d7054757a088079b19e->dir_4aaa3159dc61d8dcfd3044c605667d3e [headlabel="10", labeldistance=1.5 headhref="dir_000020_000018.html"];
+}

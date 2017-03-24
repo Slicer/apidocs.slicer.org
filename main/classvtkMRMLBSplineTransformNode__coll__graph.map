@@ -1,0 +1,21 @@
+<map id="vtkMRMLBSplineTransformNode" name="vtkMRMLBSplineTransformNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a nonlinear transformation to the parent node using a bspline transform." alt="" coords="28,571,259,598"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLTransformNode.html" title="MRML node for representing a transformation between this node space and a parent node space." alt="" coords="53,494,234,521"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,535,146,572,141,569,142,539"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="47,417,240,444"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,457,146,494,141,492,142,462"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="39,340,248,367"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,380,146,417,141,416,143,385"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="58,263,229,290"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="144,303,146,340,141,339,143,308"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,186,122,213"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="88,221,132,261,127,263,89,227"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="93,5,178,33"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="87,43,66,60,47,84,40,110,42,138,50,164,59,185,54,186,45,165,37,139,35,109,42,81,62,57,90,38"/>
+<area shape="rect" id="Node000008" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="56,82,215,110"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="136,46,138,82,133,82,135,51"/>
+<area shape="rect" id="Node000009" href="$classvtkTagTable.html" title=" " alt="" coords="230,134,329,162"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="170,39,228,80,253,107,273,133,268,134,249,111,224,84,171,44"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="72,121,60,135,56,147,55,160,61,185,55,185,50,160,51,146,56,133,75,116"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="253,175,160,264,156,260,256,170"/>
+</map>

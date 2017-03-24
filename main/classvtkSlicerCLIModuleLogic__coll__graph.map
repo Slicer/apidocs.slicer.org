@@ -1,0 +1,11 @@
+<map id="vtkSlicerCLIModuleLogic" name="vtkSlicerCLIModuleLogic">
+<area shape="rect" id="Node000001" title="Logic for running CLI." alt="" coords="5,308,186,336"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerModuleLogic.html" title=" " alt="" coords="15,232,176,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,274,98,309,93,307,94,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLModuleLogic.html" title="Superclass for logic classes of modules." alt="" coords="13,157,178,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,198,98,233,93,231,94,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="10,81,181,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,122,98,157,93,156,95,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="53,5,138,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="96,46,98,81,93,80,95,51"/>
+</map>

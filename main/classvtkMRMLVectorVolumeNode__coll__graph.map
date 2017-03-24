@@ -1,0 +1,28 @@
+<map id="vtkMRMLVectorVolumeNode" name="vtkMRMLVectorVolumeNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a vector volume (image stack)." alt="" coords="184,784,389,811"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume." alt="" coords="183,707,389,734"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,748,288,785,284,782,284,752"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="184,630,389,657"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,671,288,708,284,705,285,675"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="143,553,307,580"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="246,590,278,629,273,629,245,595"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="116,476,310,503"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="218,516,225,553,220,552,217,521"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="103,366,312,394"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="210,406,215,476,210,475,208,412"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="122,289,293,317"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="208,329,210,366,205,365,207,335"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,186,122,213"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="94,220,191,287,186,290,95,225"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="204,5,288,33"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="187,26,156,33,121,44,88,61,60,84,48,102,44,119,50,161,59,185,54,185,45,162,39,119,43,100,56,81,85,56,119,39,155,28,191,22"/>
+<area shape="rect" id="Node000010" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="70,82,228,110"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="216,45,168,84,163,80,219,40"/>
+<area shape="rect" id="Node000011" href="$classvtkTagTable.html" title=" " alt="" coords="230,134,329,162"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="254,45,279,133,273,133,253,51"/>
+<area shape="rect" id="Node000012" href="$classvtkCodedEntry.html" title="Simple class for storing standard coded entries (coding scheme, value, meaning triplets)" alt="" coords="290,237,408,265"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="268,41,304,82,333,133,342,161,347,190,351,237,346,236,342,191,337,162,328,135,299,85,269,46"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="73,120,60,135,56,147,55,160,61,185,55,185,50,160,51,146,56,133,76,115"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="249,175,242,187,229,214,220,242,211,289,206,288,215,241,225,212,238,184,252,170"/>
+<area shape="poly" id="edge13_Node000003_Node000012" title=" " alt="" coords="350,278,352,341,351,568,347,588,337,605,309,631,306,627,333,602,342,586,346,568,346,341,348,283"/>
+</map>

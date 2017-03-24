@@ -1,0 +1,10 @@
+<map id="vtkMRMLPlotSeriesNode" name="vtkMRMLPlotSeriesNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a vtkPlot object." alt="" coords="5,252,187,280"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="38,175,154,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,216,98,253,94,251,94,220"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="48,5,133,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,47,98,175,93,174,90,51"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="112,82,270,110"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="120,40,176,81,171,83,120,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="164,123,111,177,108,173,168,119"/>
+</map>

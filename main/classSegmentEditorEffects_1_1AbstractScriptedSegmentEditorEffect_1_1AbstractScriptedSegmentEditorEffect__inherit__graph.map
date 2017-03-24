@@ -1,0 +1,31 @@
+<map id="SegmentEditorEffects.AbstractScriptedSegmentEditorEffect.AbstractScriptedSegmentEditorEffect" name="SegmentEditorEffects.AbstractScriptedSegmentEditorEffect.AbstractScriptedSegmentEditorEffect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,479,271,540"/>
+<area shape="rect" id="Node000002" href="$classSegmentEditorEffects_1_1AbstractScriptedSegmentEditorAutoCompleteEffect_1_1AbstractScriptedSegmentEditorAutoCompleteEffect.html" title=" " alt="" coords="319,82,614,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,463,182,408,218,341,263,272,317,209,348,182,386,159,382,163,352,186,321,213,268,275,223,344,187,410,161,465"/>
+<area shape="rect" id="Node000005" href="$classSegmentEditorEffects_1_1AbstractScriptedSegmentEditorLabelEffect_1_1AbstractScriptedSegmentEditorLabelEffect.html" title=" " alt="" coords="319,223,615,284"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="163,464,190,423,226,377,269,332,317,294,341,283,337,287,320,298,272,336,230,381,195,426,167,467"/>
+<area shape="rect" id="Node000008" href="$classSegmentEditorEffects_1_1AbstractScriptedSegmentEditorPaintEffect_1_1AbstractScriptedSegmentEditorPaintEffect.html" title=" " alt="" coords="320,308,614,370"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="185,467,246,421,317,379,347,369,343,372,320,384,249,426,189,470"/>
+<area shape="rect" id="Node000010" href="$classSegmentEditorEffects_1_1SegmentEditorHollowEffect_1_1SegmentEditorHollowEffect.html" title=" " alt="" coords="346,393,588,455"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="273,472,348,454,344,457,275,477"/>
+<area shape="rect" id="Node000011" href="$classSegmentEditorEffects_1_1SegmentEditorIslandsEffect_1_1SegmentEditorIslandsEffect.html" title=" " alt="" coords="346,479,588,540"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="285,507,348,508,343,511,287,512"/>
+<area shape="rect" id="Node000012" href="$classSegmentEditorEffects_1_1SegmentEditorLogicalEffect_1_1SegmentEditorLogicalEffect.html" title=" " alt="" coords="346,564,588,626"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="273,542,348,562,343,564,274,547"/>
+<area shape="rect" id="Node000013" href="$classSegmentEditorEffects_1_1SegmentEditorMarginEffect_1_1SegmentEditorMarginEffect.html" title=" " alt="" coords="346,649,588,711"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="187,548,249,593,320,635,348,649,343,649,317,640,246,598,187,553"/>
+<area shape="rect" id="Node000014" href="$classSegmentEditorEffects_1_1SegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html" title=" " alt="" coords="327,735,607,796"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="165,551,195,593,230,638,272,683,320,721,341,734,336,734,317,725,269,687,226,642,190,596,165,556"/>
+<area shape="rect" id="Node000015" href="$classSegmentEditorEffects_1_1SegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html" title=" " alt="" coords="337,820,597,882"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="155,553,181,612,216,680,262,748,290,779,320,806,339,820,334,819,317,810,286,783,258,752,211,683,176,614,154,558"/>
+<area shape="rect" id="Node000003" href="$classSegmentEditorEffects_1_1SegmentEditorFillBetweenSlicesEffect_1_1SegmentEditorFillBetweenSlicesEffect.html" title=" " alt="" coords="663,5,935,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="628,77,679,66,674,69,631,82"/>
+<area shape="rect" id="Node000004" href="$classSegmentEditorEffects_1_1SegmentEditorGrowFromSeedsEffect_1_1SegmentEditorGrowFromSeedsEffect.html" title=" " alt="" coords="667,91,931,152"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="629,119,669,120,664,123,632,124"/>
+<area shape="rect" id="Node000006" href="$classSegmentEditorEffects_1_1SegmentEditorDrawEffect_1_1SegmentEditorDrawEffect.html" title=" " alt="" coords="667,176,931,238"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="630,228,669,224,664,227,632,233"/>
+<area shape="rect" id="Node000007" href="$classSegmentEditorEffects_1_1SegmentEditorLevelTracingEffect_1_1SegmentEditorLevelTracingEffect.html" title=" " alt="" coords="680,261,919,323"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="630,270,682,277,677,279,631,275"/>
+<area shape="rect" id="Node000009" href="$classSegmentEditorEffects_1_1SegmentEditorSmoothingEffect_1_1SegmentEditorSmoothingEffect.html" title=" " alt="" coords="666,347,932,408"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="628,355,668,361,663,363,629,360"/>
+</map>

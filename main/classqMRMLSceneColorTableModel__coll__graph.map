@@ -1,0 +1,9 @@
+<map id="qMRMLSceneColorTableModel" name="qMRMLSceneColorTableModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,222,260"/>
+<area shape="rect" id="Node000002" href="$classqMRMLSceneCategoryModel.html" title=" " alt="" coords="10,157,217,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,198,116,233,111,231,112,202"/>
+<area shape="rect" id="Node000003" href="$classqMRMLSceneModel.html" title=" " alt="" coords="39,81,188,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,122,116,157,111,155,112,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="34,5,193,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,46,116,81,111,80,113,51"/>
+</map>

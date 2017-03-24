@@ -1,0 +1,22 @@
+<map id="vtkMRMLMarkupsPlaneJsonStorageNode" name="vtkMRMLMarkupsPlaneJsonStorageNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="148,477,433,503"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsJsonStorageNode.html" title=" " alt="" coords="166,403,415,428"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,442,293,477,288,477,288,442"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLMarkupsStorageNode.html" title=" " alt="" coords="179,328,402,353"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="293,368,293,402,288,402,288,368"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="207,253,374,279"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="293,293,293,328,288,328,288,293"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,179,123,204"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="114,206,256,251,254,256,112,211"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="204,5,289,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="191,27,159,33,125,44,93,60,65,82,52,99,46,114,47,132,51,154,60,178,55,180,45,155,41,133,41,114,47,96,61,78,90,55,123,39,157,28,190,22"/>
+<area shape="rect" id="Node000007" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="75,80,234,105"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="223,41,171,82,168,77,220,37"/>
+<area shape="rect" id="Node000008" href="$classvtkURIHandler.html" title=" " alt="" coords="232,129,349,155"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="258,43,289,128,284,130,253,45"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLMessageCollection.html" title=" " alt="" coords="357,129,563,155"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="280,35,441,127,439,132,278,40"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="80,114,61,131,56,142,56,154,62,178,56,179,50,155,51,141,56,128,76,110"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="293,168,293,253,288,253,288,168"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="434,165,308,255,305,251,431,161"/>
+</map>
