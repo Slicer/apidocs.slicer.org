@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    working_directory: /unused/path
+    machine:
+      enabled: true
+    branches:
+      only:
+        - master

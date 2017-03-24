@@ -1,0 +1,5 @@
+<map id="vtkMRMLRemoteIOLogic" name="vtkMRMLRemoteIOLogic">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="5,81,171,108"/>
+<area shape="rect" id="node4" href="$classvtkDataIOManager.html" title="vtkDataIOManager" alt="" coords="195,81,336,108"/>
+<area shape="rect" id="node5" href="$classvtkCacheManager.html" title="vtkCacheManager" alt="" coords="361,81,498,108"/>
+</map>

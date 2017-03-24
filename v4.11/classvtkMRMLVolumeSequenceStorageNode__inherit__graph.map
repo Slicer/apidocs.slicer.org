@@ -1,0 +1,5 @@
+<map id="vtkMRMLVolumeSequenceStorageNode" name="vtkMRMLVolumeSequenceStorageNode">
+<area shape="rect" id="node2" href="$classvtkMRMLNRRDStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="42,229,247,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes. " alt="" coords="61,155,228,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="86,80,203,107"/>
+</map>

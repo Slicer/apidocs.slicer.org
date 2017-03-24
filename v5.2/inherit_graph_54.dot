@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node555 [label="QStyledItemDelegate",height=0.2,width=0.4,color="grey75"];
+  Node555 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="qMRMLDoubleSpinBoxDelegate",height=0.2,width=0.4,color="black",URL="$classqMRMLDoubleSpinBoxDelegate.html"];
+  Node555 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node557 [label="qMRMLItemDelegate",height=0.2,width=0.4,color="black",URL="$classqMRMLItemDelegate.html",tooltip="Item Delegate for MRML properties Use custom widgets for properties such as colors, opacities... If an index has Qt::DecorationRole set to a QColor, its editor will then be a ctkColorPickerButton linked to a color picker dialog on click If an index has a Qt::EditRole set to a QString that exactly is on the form X.YY where X is 0 or 1 and Y is a digit (0 to 9), then the editor will be a ctkDoubleSpinBox with a slider popping up on mouse hover. "];
+  Node555 -> Node558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node558 [label="qSlicerTerminologyItemDelegate",height=0.2,width=0.4,color="black",URL="$classqSlicerTerminologyItemDelegate.html"];
+}
