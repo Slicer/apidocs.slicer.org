@@ -1,0 +1,17 @@
+digraph "Modules/Loadable/Measurements" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d01fdafe93af837a1755aeb3a6390699 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Loadable" fontname="Helvetica", fontsize="10", URL="dir_d01fdafe93af837a1755aeb3a6390699.html"]
+  subgraph clusterdir_db2cf7b47613cd0e149449b2f463ea33 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_db2cf7b47613cd0e149449b2f463ea33.html"];
+    dir_db2cf7b47613cd0e149449b2f463ea33 [shape=plaintext label="Measurements"];
+    dir_955adbc4b0de083ad82c38164734b79f [shape=box label="Widgets" color="black" fillcolor="white" style="filled" URL="dir_955adbc4b0de083ad82c38164734b79f.html"];
+  }
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_955adbc4b0de083ad82c38164734b79f->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="2", labeldistance=1.5 headhref="dir_000081_000002.html"];
+  dir_db2cf7b47613cd0e149449b2f463ea33->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="4", labeldistance=1.5 headhref="dir_000080_000002.html"];
+}

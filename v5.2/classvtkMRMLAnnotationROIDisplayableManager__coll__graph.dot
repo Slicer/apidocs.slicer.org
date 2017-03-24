@@ -1,0 +1,22 @@
+digraph "vtkMRMLAnnotationROIDisplayableManager"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="vtkMRMLAnnotationROIDisplayable\lManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vtkMRMLAnnotationDisplayable\lManager",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAnnotationDisplayableManager.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vtkMRMLAbstractDisplayable\lManager",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAbstractDisplayableManager.html",tooltip="Superclass for displayable manager classes. "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vtkMRMLAbstractLogic",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAbstractLogic.html",tooltip="Superclass for MRML logic classes. "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ClickCounter" ,fontname="Helvetica"];
+  Node10 [label="vtkMRMLAnnotationClickCounter",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAnnotationClickCounter.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Helper" ,fontname="Helvetica"];
+  Node11 [label="vtkMRMLAnnotationDisplayable\lManagerHelper",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAnnotationDisplayableManagerHelper.html"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

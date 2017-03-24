@@ -1,0 +1,9 @@
+<map id="qMRMLSegmentsTableViewPlugin" name="qMRMLSegmentsTableViewPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,167,247,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="6,86,81,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,119,116,165,112,168,64,123"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSegmentationsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="104,79,316,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,130,140,168,137,164,178,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="88,5,332,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="213,44,213,79,207,79,207,44"/>
+</map>

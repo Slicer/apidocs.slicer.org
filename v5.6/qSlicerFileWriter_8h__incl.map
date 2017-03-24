@@ -1,0 +1,24 @@
+<map id="Base/QTCore/qSlicerFileWriter.h" name="Base/QTCore/qSlicerFileWriter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="283,5,510,31"/>
+<area shape="rect" id="Node000002" href="$qSlicerIO_8h.html" title=" " alt="" coords="351,79,443,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="399,31,399,65,394,65,394,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,65,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="351,103,232,123,79,154,78,149,231,118,350,97"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="89,152,184,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="356,107,193,151,191,146,354,101"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="209,152,283,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="374,106,284,148,282,144,371,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="308,152,379,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="390,106,362,143,358,140,386,103"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="403,152,497,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="408,103,435,140,431,143,403,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="521,152,600,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="424,102,523,144,520,149,422,106"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="539,225,737,251"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="443,90,484,94,530,104,575,122,615,150,625,164,632,180,639,211,634,212,627,181,621,167,611,154,573,127,528,109,483,100,443,96"/>
+<area shape="rect" id="Node000010" href="$qSlicerObject_8h.html" title=" " alt="" coords="675,152,795,177"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="443,100,668,147,667,152,442,105"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="721,180,667,219,664,215,718,175"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="762,225,887,251"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="751,175,801,214,798,219,748,179"/>
+</map>

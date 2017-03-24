@@ -1,0 +1,16 @@
+<map id="vtkMRMLSliceIntersectionInteractionRepresentation" name="vtkMRMLSliceIntersectionInteractionRepresentation">
+<area shape="rect" id="Node000001" title="represent intersections of other slice views in the current slice view" alt="" coords="908,38,1099,78"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="140,5,423,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="436,13,649,18,767,24,884,35,908,38,907,44,884,41,767,30,649,23,436,19"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLSliceIntersectionInteractionRepresentationHelper.html" title="represent intersections of other slice views in the current slice view" alt="" coords="472,38,707,78"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="393,30,472,40,472,45,393,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="12,5,84,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,15,140,15,140,21,98,21"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLApplicationLogic.html" title=" " alt="" coords="494,103,685,128"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="698,100,884,75,907,72,908,77,884,81,699,105"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="195,103,367,128"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="381,113,494,113,494,118,381,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,103,91,128"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="105,113,195,113,195,118,105,118"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="720,55,908,55,908,61,720,61"/>
+</map>

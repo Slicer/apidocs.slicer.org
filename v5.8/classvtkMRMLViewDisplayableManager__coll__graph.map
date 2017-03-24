@@ -1,0 +1,11 @@
+<map id="vtkMRMLViewDisplayableManager" name="vtkMRMLViewDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager that configures a vtkRenderer from a vtkMRMLViewNode and its associated active vt..." alt="" coords="5,328,253,353"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="21,240,238,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,294,132,328,127,328,127,294"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="22,152,237,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,206,132,240,127,240,127,206"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="43,79,215,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="132,118,132,152,127,152,127,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="87,5,172,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="132,44,132,79,127,79,127,44"/>
+</map>

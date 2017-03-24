@@ -1,0 +1,30 @@
+<map id="Base/QTGUI/qSlicerScriptedLoadableModuleWidget.h" name="Base/QTGUI/qSlicerScriptedLoadableModuleWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="408,5,609,45"/>
+<area shape="rect" id="Node000002" href="$qSlicerAbstractModuleWidget_8h.html" title=" " alt="" coords="321,93,547,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="493,47,457,85,453,81,489,44"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="659,240,854,265"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="531,43,735,228,732,232,528,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="151,240,242,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="426,121,393,156,346,194,298,220,250,238,248,233,296,215,343,190,389,152,422,117"/>
+<area shape="rect" id="Node000004" href="$qSlicerAbstractModuleRepresentation_8h.html" title=" " alt="" coords="55,167,333,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="396,121,247,165,245,160,395,116"/>
+<area shape="rect" id="Node000009" href="$qSlicerWidget_8h.html" title=" " alt="" coords="409,167,533,192"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="443,118,461,153,457,156,438,120"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="197,192,198,226,193,227,192,192"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,240,76,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="170,194,79,237,77,232,168,190"/>
+<area shape="rect" id="Node000006" href="$qSlicerObject_8h.html" title=" " alt="" coords="266,240,386,265"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="216,190,294,231,291,236,214,194"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="28,313,227,339"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="181,194,160,215,142,241,133,271,130,300,124,299,128,270,137,239,156,211,177,190"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="263,313,389,339"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="329,266,329,300,323,300,323,266"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="295,268,174,311,172,306,293,263"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="428,195,255,239,254,234,427,189"/>
+<area shape="poly" id="edge14_Node000009_Node000006" title=" " alt="" coords="449,194,363,236,361,232,447,190"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="556,240,635,265"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="493,190,565,231,562,235,490,194"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="411,240,532,265"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="474,192,474,226,469,226,469,192"/>
+<area shape="poly" id="edge15_Node000009_Node000012" title=" " alt="" coords="518,189,698,234,697,239,517,195"/>
+</map>

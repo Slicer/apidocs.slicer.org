@@ -1,0 +1,10 @@
+<map id="Modules/CLI/ExpertAutomatedRegistration/ITKRegistrationHelper/itkImageToImageRegistrationHelper.h" name="Modules/CLI/ExpertAutomatedRegistration/ITKRegistrationHelper/itkImageToImageRegistrationHelper.h">
+<area shape="rect" id="node4" href="$itkImageToImageRegistrationMethod_8h.html" title="itkImageToImageRegistration\lMethod.h" alt="" coords="1342,332,1557,373"/>
+<area shape="rect" id="node8" href="$itkInitialImageToImageRegistrationMethod_8h.html" title="itkInitialImageToImageRegistration\lMethod.h" alt="" coords="577,131,828,173"/>
+<area shape="rect" id="node16" href="$itkOptimizedImageToImageRegistrationMethod_8h.html" title="itkOptimizedImageToImage\lRegistrationMethod.h" alt="" coords="1560,243,1763,284"/>
+<area shape="rect" id="node18" href="$itkRigidImageToImageRegistrationMethod_8h.html" title="itkRigidImageToImageRegistration\lMethod.h" alt="" coords="1189,131,1435,173"/>
+<area shape="rect" id="node21" href="$itkAffineImageToImageRegistrationMethod_8h.html" title="itkAffineImageToImageRegistration\lMethod.h" alt="" coords="3429,131,3681,173"/>
+<area shape="rect" id="node39" href="$itkBSplineImageToImageRegistrationMethod_8h.html" title="itkBSplineImageToImageRegistration\lMethod.h" alt="" coords="3781,131,4043,173"/>
+<area shape="rect" id="node10" href="$itkAnisotropicSimilarity3DTransform_8h.html" title="itkAnisotropicSimilarity3\lDTransform.h" alt="" coords="67,332,250,373"/>
+<area shape="rect" id="node12" href="$itkAnisotropicSimilarityLandmarkBasedTransformInitializer_8h.html" title="itkAnisotropicSimilarity\lLandmarkBasedTransformInitializer.h" alt="" coords="27,243,291,284"/>
+</map>

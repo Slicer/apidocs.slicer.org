@@ -1,0 +1,10 @@
+<map id="Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsAbstractPlugin.h" name="Modules/Loadable/Plots/Widgets/DesignerPlugins/qSlicerPlotsModuleWidgetsAbstractPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="136,5,393,75"/>
+<area shape="rect" id="Node000002" href="$qMRMLPlotChartPropertiesWidgetPlugin_8h.html" title=" " alt="" coords="5,123,252,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,85,170,124,167,120,213,81"/>
+<area shape="rect" id="Node000004" href="$qMRMLPlotSeriesPropertiesWidgetPlugin_8h.html" title=" " alt="" coords="277,123,527,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="317,81,363,120,360,124,313,86"/>
+<area shape="rect" id="Node000003" href="$qSlicerPlotsModuleWidgetsPlugin_8h.html" title=" " alt="" coords="137,240,392,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="183,198,233,238,230,242,180,203"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="350,203,300,242,297,238,347,198"/>
+</map>

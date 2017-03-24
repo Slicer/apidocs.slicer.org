@@ -1,0 +1,27 @@
+<map id="qSlicerLoadableModule" name="qSlicerLoadableModule">
+<area shape="rect" id="node5" href="$classqSlicerAnnotationsModule.html" title="qSlicerAnnotationsModule" alt="" coords="831,5,1023,32"/>
+<area shape="rect" id="node6" href="$classqSlicerCamerasModule.html" title="qSlicerCamerasModule" alt="" coords="841,56,1013,83"/>
+<area shape="rect" id="node7" href="$classqSlicerColorsModule.html" title="qSlicerColorsModule" alt="" coords="849,107,1004,133"/>
+<area shape="rect" id="node8" href="$classqSlicerCropVolumeModule.html" title="qSlicerCropVolumeModule" alt="" coords="830,157,1023,184"/>
+<area shape="rect" id="node9" href="$classqSlicerDataModule.html" title="qSlicerDataModule" alt="" coords="854,208,999,235"/>
+<area shape="rect" id="node10" href="$classqSlicerMarkupsModule.html" title="qSlicerMarkupsModule" alt="" coords="842,259,1011,285"/>
+<area shape="rect" id="node11" href="$classqSlicerModelsModule.html" title="qSlicerModelsModule" alt="" coords="846,309,1007,336"/>
+<area shape="rect" id="node12" href="$classqSlicerPlotsModule.html" title="qSlicerPlotsModule" alt="" coords="853,360,1000,387"/>
+<area shape="rect" id="node13" href="$classqSlicerReformatModule.html" title="qSlicerReformatModule" alt="" coords="839,411,1014,437"/>
+<area shape="rect" id="node14" href="$classqSlicerSceneViewsModule.html" title="qSlicerSceneViewsModule" alt="" coords="831,461,1023,488"/>
+<area shape="rect" id="node15" href="$classqSlicerScriptedLoadableModule.html" title="qSlicerScriptedLoadableModule" alt="" coords="813,512,1040,539"/>
+<area shape="rect" id="node16" href="$classqSlicerSegmentationsModule.html" title="qSlicerSegmentationsModule" alt="" coords="821,563,1033,589"/>
+<area shape="rect" id="node17" href="$classqSlicerSequencesModule.html" title="qSlicerSequencesModule" alt="" coords="835,613,1019,640"/>
+<area shape="rect" id="node18" href="$classqSlicerSubjectHierarchyModule.html" title="qSlicerSubjectHierarchyModule" alt="" coords="814,664,1039,691"/>
+<area shape="rect" id="node19" href="$classqSlicerTablesModule.html" title="qSlicerTablesModule" alt="" coords="849,715,1004,741"/>
+<area shape="rect" id="node20" href="$classqSlicerTerminologiesModule.html" title="qSlicerTerminologiesModule" alt="" coords="824,765,1029,792"/>
+<area shape="rect" id="node21" href="$classqSlicerTextsModule.html" title="qSlicerTextsModule" alt="" coords="853,816,1001,843"/>
+<area shape="rect" id="node22" href="$classqSlicerTransformsModule.html" title="qSlicerTransformsModule" alt="" coords="833,867,1020,893"/>
+<area shape="rect" id="node23" href="$classqSlicerUnitsModule.html" title="qSlicerUnitsModule" alt="" coords="853,917,1001,944"/>
+<area shape="rect" id="node24" href="$classqSlicerViewControllersModule.html" title="qSlicerViewControllersModule" alt="" coords="818,968,1035,995"/>
+<area shape="rect" id="node25" href="$classqSlicerVolumeRenderingModule.html" title="qSlicerVolumeRenderingModule" alt="" coords="812,1019,1041,1045"/>
+<area shape="rect" id="node26" href="$classqSlicerVolumesModule.html" title="qSlicerVolumesModule" alt="" coords="841,1069,1012,1096"/>
+<area shape="rect" id="node27" href="$classqSlicerWelcomeModule.html" title="qSlicerWelcomeModule" alt="" coords="839,1120,1014,1147"/>
+<area shape="rect" id="node2" href="$classqSlicerAbstractModule.html" title="qSlicerAbstractModule" alt="" coords="375,563,543,589"/>
+<area shape="rect" id="node3" href="$classqSlicerAbstractCoreModule.html" title="qSlicerAbstractCoreModule is the base class of any module in Slicer. " alt="" coords="128,563,327,589"/>
+</map>

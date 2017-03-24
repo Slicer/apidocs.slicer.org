@@ -1,0 +1,7 @@
+<map id="vtkMRMLAnnotationDisplayableManager" name="vtkMRMLAnnotationDisplayableManager">
+<area shape="rect" id="node5" href="$classvtkMRMLAnnotationFiducialDisplayableManager.html" title="vtkMRMLAnnotationFiducial\lDisplayableManager" alt="" coords="932,5,1137,47"/>
+<area shape="rect" id="node6" href="$classvtkMRMLAnnotationROIDisplayableManager.html" title="vtkMRMLAnnotationROIDisplayable\lManager" alt="" coords="907,71,1162,112"/>
+<area shape="rect" id="node7" href="$classvtkMRMLAnnotationRulerDisplayableManager.html" title="vtkMRMLAnnotationRulerDisplayable\lManager" alt="" coords="901,136,1168,177"/>
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="359,71,573,112"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="139,78,311,105"/>
+</map>

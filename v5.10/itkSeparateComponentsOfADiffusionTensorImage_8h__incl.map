@@ -1,0 +1,15 @@
+<map id="Modules/CLI/ResampleDTIVolume/itkSeparateComponentsOfADiffusionTensorImage.h" name="Modules/CLI/ResampleDTIVolume/itkSeparateComponentsOfADiffusionTensorImage.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="377,5,642,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,184,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="393,63,159,115,158,110,392,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="209,115,301,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="439,63,299,113,298,108,437,58"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="325,115,494,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="483,62,434,108,430,104,479,58"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="519,115,703,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="540,58,589,104,586,108,536,62"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="727,115,948,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="602,57,785,109,783,114,601,63"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="972,108,1233,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="643,52,970,103,969,108,642,57"/>
+</map>

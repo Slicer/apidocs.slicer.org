@@ -1,0 +1,14 @@
+<map id="Libs/MRML/Widgets/qMRMLColorPickerWidget.h" name="Libs/MRML/Widgets/qMRMLColorPickerWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="134,5,369,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,113,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,48,101,91,99,86,204,43"/>
+<area shape="rect" id="Node000003" href="$qMRMLWidget_8h.html" title=" " alt="" coords="137,93,264,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,47,218,83,213,80,237,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="214,167,390,192"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="262,45,279,92,298,152,293,154,274,94,257,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="340,93,461,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="288,43,368,84,365,89,286,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,167,189,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,121,168,157,164,154,190,117"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="218,116,276,156,273,161,215,121"/>
+</map>

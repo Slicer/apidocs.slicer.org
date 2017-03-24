@@ -1,0 +1,13 @@
+<map id="vtkITKArchetypeImageSeriesReader" name="vtkITKArchetypeImageSeriesReader">
+<area shape="rect" id="Node000001" title="Read a series of files that have a common naming convention." alt="" coords="201,101,412,141"/>
+<area shape="rect" id="Node000003" href="$classvtkITKArchetypeDiffusionTensorImageReaderFile.html" title=" " alt="" coords="471,5,659,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="364,93,459,55,495,43,496,48,461,60,366,98"/>
+<area shape="rect" id="Node000004" href="$classvtkITKArchetypeImageSeriesScalarReader.html" title=" " alt="" coords="460,69,671,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="425,104,460,100,460,105,426,109"/>
+<area shape="rect" id="Node000005" href="$classvtkITKArchetypeImageSeriesVectorReaderFile.html" title=" " alt="" coords="460,133,671,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="426,133,460,138,460,143,425,139"/>
+<area shape="rect" id="Node000006" href="$classvtkITKArchetypeImageSeriesVectorReaderSeries.html" title=" " alt="" coords="460,197,671,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="366,145,461,183,496,195,495,200,459,188,364,150"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,109,153,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,119,201,119,201,124,167,124"/>
+</map>

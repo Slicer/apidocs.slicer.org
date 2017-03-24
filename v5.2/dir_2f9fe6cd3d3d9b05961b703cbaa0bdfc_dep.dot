@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Plots/Logic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f58a126368aaa89a5668c0363c66e20a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Plots" fontname="Helvetica", fontsize="10", URL="dir_f58a126368aaa89a5668c0363c66e20a.html"]
+  dir_2f9fe6cd3d3d9b05961b703cbaa0bdfc [shape=box, label="Logic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2f9fe6cd3d3d9b05961b703cbaa0bdfc.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_2f9fe6cd3d3d9b05961b703cbaa0bdfc->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000082_000002.html"];
+}

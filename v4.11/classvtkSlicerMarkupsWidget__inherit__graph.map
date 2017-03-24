@@ -1,0 +1,10 @@
+<map id="vtkSlicerMarkupsWidget" name="vtkSlicerMarkupsWidget">
+<area shape="rect" id="node4" href="$classvtkSlicerAngleWidget.html" title="create an angle with a set of 3 points " alt="" coords="621,5,783,32"/>
+<area shape="rect" id="node5" href="$classvtkSlicerClosedCurveWidget.html" title="create a curve with a set of N points " alt="" coords="599,56,805,83"/>
+<area shape="rect" id="node6" href="$classvtkSlicerCurveWidget.html" title="create a curve with a set of N points " alt="" coords="621,107,783,133"/>
+<area shape="rect" id="node7" href="$classvtkSlicerLineWidget.html" title="create a line with a set of 2 points " alt="" coords="626,157,778,184"/>
+<area shape="rect" id="node8" href="$classvtkSlicerPlaneWidget.html" title="create a plane with a set of 3 points " alt="" coords="621,208,783,235"/>
+<area shape="rect" id="node9" href="$classvtkSlicerPointsWidget.html" title="Widget to display a set of interactive points. " alt="" coords="619,259,785,285"/>
+<area shape="rect" id="node10" href="$classvtkSlicerROIWidget.html" title="Create an ROI representation. " alt="" coords="628,309,776,336"/>
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractWidget.html" title="Process interaction events to update state of MRML widget nodes. " alt="" coords="139,157,323,184"/>
+</map>

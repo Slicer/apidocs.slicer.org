@@ -1,0 +1,7 @@
+<map id="vtkSlicerUnitsLogic" name="vtkSlicerUnitsLogic">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="5,132,177,159"/>
+<area shape="rect" id="node4" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo. " alt="" coords="247,183,370,209"/>
+<area shape="rect" id="node5" href="$classvtkDataIOManager.html" title="vtkDataIOManager" alt="" coords="236,81,381,108"/>
+<area shape="rect" id="node6" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="406,81,505,108"/>
+<area shape="rect" id="node7" href="$classvtkCacheManager.html" title="vtkCacheManager" alt="" coords="529,81,669,108"/>
+</map>

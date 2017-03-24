@@ -1,0 +1,16 @@
+<map id="Modules/Loadable/Colors/Widgets/qMRMLColorLegendDisplayNodeWidget.h" name="Modules/Loadable/Colors/Widgets/qMRMLColorLegendDisplayNodeWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="149,5,410,60"/>
+<area shape="rect" id="Node000002" href="$qMRMLWidget_8h.html" title=" " alt="" coords="83,115,209,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,62,175,110,172,105,240,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,196,84,221"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="150,61,108,81,72,110,61,126,53,145,47,183,42,182,48,144,56,124,68,106,105,76,147,56"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="234,115,325,141"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="282,60,282,101,277,101,277,60"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="349,115,471,141"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="318,58,385,105,381,110,315,62"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="495,108,703,148"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="370,57,522,102,521,107,369,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,143,72,189,69,185,129,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="109,196,285,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="156,139,184,183,179,186,151,142"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="Slicer Qt Loadable Modules" name="Slicer Qt Loadable Modules">
+<area shape="rect" id="node1" href="$group__Slicer__QtModules__Cameras.html" title="Cameras" alt="" coords="222,5,302,32"/>
+<area shape="rect" id="node2" href="$group__Slicer__QtModules__Models.html" title="Models" alt="" coords="227,56,297,83"/>
+<area shape="rect" id="node3" href="$group__Slicer__QtModules__Annotation.html" title="Annotation" alt="" coords="215,107,309,133"/>
+<area shape="rect" id="node4" href="$group__Slicer__QtModules__EventBroker.html" title="EventBroker" alt="" coords="211,157,313,184"/>
+<area shape="rect" id="node6" href="$group__Slicer__QtModules__CropVolume.html" title="CropVolume" alt="" coords="211,208,313,235"/>
+<area shape="rect" id="node7" href="$group__Slicer__QtModules__Tables.html" title="Tables" alt="" coords="231,259,293,285"/>
+<area shape="rect" id="node8" href="$group__Slicer__QtModules__Plots.html" title="Plots" alt="" coords="235,309,289,336"/>
+<area shape="rect" id="node9" href="$group__Slicer__QtModules__VolumeRendering.html" title="VolumeRendering" alt="" coords="193,360,331,387"/>
+<area shape="rect" id="node10" href="$group__Slicer__QtModules__SlicerWelcome.html" title="SlicerWelcome" alt="" coords="203,411,321,437"/>
+<area shape="rect" id="node11" href="$group__Slicer__QtModules__Transforms.html" title="Transforms" alt="" coords="215,461,309,488"/>
+<area shape="rect" id="node12" href="$group__Slicer__QtModules__SceneViews.html" title="SceneViews" alt="" coords="212,512,312,539"/>
+<area shape="rect" id="node13" href="$group__Slicer__QtModules__Reformat.html" title="Reformat" alt="" coords="221,563,303,589"/>
+<area shape="rect" id="node14" href="$group__Slicer__QtModules__Markups.html" title="Markups" alt="" coords="223,613,301,640"/>
+<area shape="rect" id="node15" href="$group__Slicer__QtModules__Volumes.html" title="Volumes" alt="" coords="223,664,301,691"/>
+</map>

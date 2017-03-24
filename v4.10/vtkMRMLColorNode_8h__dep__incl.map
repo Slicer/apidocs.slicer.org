@@ -1,0 +1,13 @@
+<map id="Libs/MRML/Core/vtkMRMLColorNode.h" name="Libs/MRML/Core/vtkMRMLColorNode.h">
+<area shape="rect" id="node2" href="$vtkMRMLColorTableNode_8h.html" title="Libs/MRML/Core/vtkMRMLColor\lTableNode.h" alt="" coords="441,95,655,136"/>
+<area shape="rect" id="node9" href="$vtkMRMLProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLProcedural\lColorNode.h" alt="" coords="877,95,1128,136"/>
+<area shape="rect" id="node3" href="$vtkMRMLDiffusionTensorDisplayPropertiesNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lTensorDisplayPropertiesNode.h" alt="" coords="151,184,388,225"/>
+<area shape="rect" id="node5" href="$vtkMRMLSegmentationNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lNode.h" alt="" coords="411,184,685,225"/>
+<area shape="rect" id="node4" href="$vtkMRMLDiffusionTensorVolumeDisplayNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lTensorVolumeDisplayNode.h" alt="" coords="5,281,243,322"/>
+<area shape="rect" id="node6" href="$vtkSlicerSegmentationGeometryLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationGeometry\lLogic.h" alt="" coords="267,273,539,329"/>
+<area shape="rect" id="node7" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="563,273,824,329"/>
+<area shape="rect" id="node8" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="849,281,1117,322"/>
+<area shape="rect" id="node10" href="$vtkMRMLdGEMRICProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLdGEMRICProcedural\lColorNode.h" alt="" coords="708,184,1015,225"/>
+<area shape="rect" id="node11" href="$vtkMRMLFreeSurferProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLFree\lSurferProceduralColorNode.h" alt="" coords="1039,184,1249,225"/>
+<area shape="rect" id="node12" href="$vtkMRMLPETProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLPETProcedural\lColorNode.h" alt="" coords="1273,184,1546,225"/>
+</map>

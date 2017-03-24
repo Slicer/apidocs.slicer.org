@@ -1,0 +1,6 @@
+<map id="vtkMRMLDiffusionWeightedVolumeDisplayNode" name="vtkMRMLDiffusionWeightedVolumeDisplayNode">
+<area shape="rect" id="node2" href="$classvtkMRMLScalarVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="5,304,260,331"/>
+<area shape="rect" id="node3" href="$classvtkMRMLVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="25,229,240,256"/>
+<area shape="rect" id="node4" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="49,155,216,181"/>
+<area shape="rect" id="node5" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="74,80,191,107"/>
+</map>

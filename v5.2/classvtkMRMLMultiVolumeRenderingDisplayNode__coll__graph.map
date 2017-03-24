@@ -1,0 +1,9 @@
+<map id="vtkMRMLMultiVolumeRenderingDisplayNode" name="vtkMRMLMultiVolumeRenderingDisplayNode">
+<area shape="rect" id="node2" href="$classvtkMRMLVolumeRenderingDisplayNode.html" title="vtkMRMLVolumeRenderingDisplayNode" alt="" coords="5,500,285,527"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="62,424,229,451"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="65,183,183,209"/>
+<area shape="rect" id="node8" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="161,259,332,285"/>
+<area shape="rect" id="node6" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="118,81,277,108"/>
+<area shape="rect" id="node9" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="292,132,391,159"/>
+<area shape="rect" id="node7" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="166,335,317,361"/>
+</map>

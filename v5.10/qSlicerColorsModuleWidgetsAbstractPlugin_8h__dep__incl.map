@@ -1,0 +1,13 @@
+<map id="Modules/Loadable/Colors/Widgets/DesignerPlugins/qSlicerColorsModuleWidgetsAbstractPlugin.h" name="Modules/Loadable/Colors/Widgets/DesignerPlugins/qSlicerColorsModuleWidgetsAbstractPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="287,5,554,75"/>
+<area shape="rect" id="Node000002" href="$qMRMLColorLegendDisplayNodeWidgetPlugin_8h.html" title=" " alt="" coords="5,123,289,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="330,82,228,125,226,120,327,78"/>
+<area shape="rect" id="Node000004" href="$qMRMLColorListViewPlugin_8h.html" title=" " alt="" coords="313,130,528,185"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="423,89,423,130,418,130,418,89"/>
+<area shape="rect" id="Node000005" href="$qMRMLColorTableViewPlugin_8h.html" title=" " alt="" coords="553,130,779,185"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="506,78,611,128,609,132,503,83"/>
+<area shape="rect" id="Node000003" href="$qSlicerColorsModuleWidgetsPlugin_8h.html" title=" " alt="" coords="289,240,553,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,195,355,237,353,242,244,199"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="423,199,423,240,418,240,418,199"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="595,193,482,242,479,237,592,188"/>
+</map>

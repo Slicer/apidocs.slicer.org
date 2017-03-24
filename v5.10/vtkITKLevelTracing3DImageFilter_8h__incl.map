@@ -1,0 +1,20 @@
+<map id="Libs/vtkITK/vtkITKLevelTracing3DImageFilter.h" name="Libs/vtkITK/vtkITKLevelTracing3DImageFilter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="328,5,557,45"/>
+<area shape="rect" id="Node000002" href="$vtkITK_8h.html" title=" " alt="" coords="262,93,338,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="410,48,334,89,332,84,407,43"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="363,93,523,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="445,46,445,79,440,79,440,46"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="547,93,690,119"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="486,43,581,85,579,90,484,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,133,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="264,121,120,165,119,160,262,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="158,167,277,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="288,121,243,160,240,155,285,117"/>
+<area shape="rect" id="Node000005" href="$vtkITKNumericTraits_8h.html" title=" " alt="" coords="301,167,467,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="309,117,354,156,351,160,305,121"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="375,168,330,129,333,125,379,164"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="217,240,375,265"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="372,194,323,233,319,229,368,190"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="400,240,541,265"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="400,190,448,229,444,233,396,194"/>
+</map>

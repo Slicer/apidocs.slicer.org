@@ -1,0 +1,14 @@
+<map id="vtkMRMLScene" name="vtkMRMLScene">
+<area shape="rect" id="Node000001" title="A set of MRML Nodes that supports serialization and undo/redo." alt="" coords="114,168,237,193"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="101,5,186,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,35,54,47,25,63,15,72,9,82,9,92,13,104,33,127,59,144,86,157,114,166,113,171,84,162,56,149,30,131,9,107,3,93,4,80,11,68,22,58,52,42,86,30"/>
+<area shape="rect" id="Node000003" href="$classvtkCacheManager.html" title=" " alt="" coords="24,80,164,105"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="129,44,104,81,100,78,125,41"/>
+<area shape="rect" id="Node000004" href="$classvtkDataIOManager.html" title=" " alt="" coords="188,80,333,105"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="175,36,243,78,240,82,172,40"/>
+<area shape="rect" id="Node000005" href="$classvtkTagTable.html" title=" " alt="" coords="358,80,457,105"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="199,32,366,77,365,83,198,37"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,117,121,142,152,166,149,170,117,146,101,120"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="246,118,222,146,194,170,190,166,219,142,242,115"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="388,117,369,133,347,146,292,166,237,176,236,171,290,161,345,142,366,128,385,113"/>
+</map>

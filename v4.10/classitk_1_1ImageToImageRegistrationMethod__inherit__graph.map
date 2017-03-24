@@ -1,0 +1,7 @@
+<map id="itk::ImageToImageRegistrationMethod&lt; TImage &gt;" name="itk::ImageToImageRegistrationMethod&lt; TImage &gt;">
+<area shape="rect" id="node3" href="$classitk_1_1InitialImageToImageRegistrationMethod.html" title="itk::InitialImageToImage\lRegistrationMethod\&lt; TImage \&gt;" alt="" coords="428,5,651,47"/>
+<area shape="rect" id="node4" href="$classitk_1_1OptimizedImageToImageRegistrationMethod.html" title="itk::OptimizedImageToImage\lRegistrationMethod\&lt; TImage \&gt;" alt="" coords="428,71,651,112"/>
+<area shape="rect" id="node5" href="$classitk_1_1AffineImageToImageRegistrationMethod.html" title="itk::AffineImageToImageRegistration\lMethod\&lt; TImage \&gt;" alt="" coords="699,5,948,47"/>
+<area shape="rect" id="node6" href="$classitk_1_1BSplineImageToImageRegistrationMethod.html" title="itk::BSplineImageToImage\lRegistrationMethod\&lt; TImage \&gt;" alt="" coords="712,71,935,112"/>
+<area shape="rect" id="node7" href="$classitk_1_1RigidImageToImageRegistrationMethod.html" title="itk::RigidImageToImageRegistration\lMethod\&lt; TImage \&gt;" alt="" coords="702,136,945,177"/>
+</map>

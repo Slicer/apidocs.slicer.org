@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Widgets/qMRMLThreeDWidget.h" name="Libs/MRML/Widgets/qMRMLThreeDWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,243,45"/>
+<area shape="rect" id="Node000002" href="$qMRMLAbstractViewWidget_8h.html" title=" " alt="" coords="17,93,231,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,46,127,79,121,79,121,46"/>
+<area shape="rect" id="Node000003" href="$qMRMLWidget_8h.html" title=" " alt="" coords="61,167,187,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,119,127,153,121,153,121,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="9,240,87,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,194,72,232,69,229,110,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="112,240,288,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="138,190,179,229,176,232,134,194"/>
+</map>

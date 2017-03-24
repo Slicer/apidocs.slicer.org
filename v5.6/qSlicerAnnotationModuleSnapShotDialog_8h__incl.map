@@ -1,0 +1,20 @@
+<map id="Modules/Loadable/Annotations/GUI/qSlicerAnnotationModuleSnapShotDialog.h" name="Modules/Loadable/Annotations/GUI/qSlicerAnnotationModuleSnapShotDialog.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="134,5,383,60"/>
+<area shape="rect" id="Node000002" href="$qMRMLScreenShotDialog_8h.html" title=" " alt="" coords="160,108,357,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,60,261,94,256,94,256,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,80,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,136,91,179,90,174,223,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="105,181,199,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="243,136,182,176,179,171,240,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="223,181,294,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="261,134,261,168,256,168,256,134"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="236,255,412,280"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="272,132,291,153,308,180,318,211,324,241,319,242,313,212,303,182,286,156,268,135"/>
+<area shape="rect" id="Node000007" href="$qMRMLLayoutManager_8h.html" title=" " alt="" coords="385,181,567,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="294,131,429,174,427,180,293,136"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="453,209,362,251,360,246,450,204"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="436,255,529,280"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="480,207,483,241,478,241,474,207"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="554,255,697,280"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="501,204,590,246,587,251,499,209"/>
+</map>

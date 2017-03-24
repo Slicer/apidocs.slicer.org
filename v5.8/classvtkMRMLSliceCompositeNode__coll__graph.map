@@ -1,0 +1,10 @@
+<map id="vtkMRMLSliceCompositeNode" name="vtkMRMLSliceCompositeNode">
+<area shape="rect" id="Node000001" title="MRML node for storing a slice through RAS space." alt="" coords="5,243,224,268"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="56,168,173,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,208,117,242,112,242,112,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="67,5,152,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,44,117,168,112,168,108,45"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="131,80,290,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="138,37,196,77,193,82,135,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="189,116,130,169,126,165,186,112"/>
+</map>
