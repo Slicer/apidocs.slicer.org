@@ -12,10 +12,10 @@ jobs:
       - run:
           name: Display Environment Variables
           command: |
-            echo "SLICER_REPO ...........: ${SLICER_REPO}"
-            echo "SLICER_BRANCH .........: ${SLICER_BRANCH}"
-            echo "SLICER_TAG: ...........: ${SLICER_TAG}"
-            echo "PUBLISH_GITHUB_REPO ...: ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}"
+            echo "SLICER_REPO_NAME ...........: ${SLICER_REPO_NAME}"
+            echo "SLICER_REPO_BRANCH .........: ${SLICER_REPO_BRANCH}"
+            echo "SLICER_REPO_TAG: ...........: ${SLICER_REPO_TAG}"
+            echo "PUBLISH_GITHUB_REPO_NAME ...: ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}"
       - run:
           name: Install Dependencies
           command: |
@@ -27,17 +27,14 @@ jobs:
           name: Generate Documentation
           command: |
             slicer-apidocs-builder \
-              --repo ${SLICER_REPO} \
-              --branch ${SLICER_BRANCH} \
-              --tag "${SLICER_TAG}"
+              --slicer-repo-name ${SLICER_REPO_NAME} \
+              --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+              --slicer-repo-tag "${SLICER_REPO_TAG}"
       - deploy:
           name: Publish documentation
           command: |
-            if [ "${PUBLISH_GITHUB_TOKEN}" != "" ]; then
-              slicer-apidocs-builder \
-                --skip-build \
-                --publish-github-repo "${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}" \
-                --publish-github-branch gh-pages \
-                --publish-github-token ${PUBLISH_GITHUB_TOKEN}
-            fi
+            slicer-apidocs-builder \
+              --skip-build \
+              --publish-github-repo-name "${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}" \
+              --publish-github-repo-branch gh-pages
 
