@@ -1,0 +1,11 @@
+<map id="Modules/Loadable/GeneralizedReformat/Logic/vtkMRMLScalarVectorDWIVolumeResampler.h" name="Modules/Loadable/GeneralizedReformat/Logic/vtkMRMLScalarVectorDWIVolumeResampler.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="205,5,472,60"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAbstractVolumeResampler_8h.html" title=" " alt="" coords="71,115,339,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,62,234,110,231,105,300,58"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="364,108,583,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="378,58,436,98,433,102,375,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,196,224,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,143,146,189,143,185,191,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="249,203,346,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="220,139,276,191,273,195,216,143"/>
+</map>

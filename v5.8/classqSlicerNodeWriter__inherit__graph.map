@@ -1,0 +1,15 @@
+<map id="qSlicerNodeWriter" name="qSlicerNodeWriter">
+<area shape="rect" id="Node000001" title="Utility class that is ready to use for most of the nodes." alt="" coords="117,225,257,251"/>
+<area shape="rect" id="Node000006" href="$classqSlicerMarkupsWriter.html" title="Utility class that offers writing of markups in both json format, regardless of the current storage n..." alt="" coords="5,306,167,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="163,261,103,308,99,304,160,257"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSegmentationsNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="191,299,389,339"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="215,257,267,296,264,301,212,261"/>
+<area shape="rect" id="Node000002" href="$classqSlicerFileWriter.html" title=" " alt="" coords="123,152,252,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,191,190,225,185,225,185,191"/>
+<area shape="rect" id="Node000003" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="147,79,227,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,118,190,152,185,152,185,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="93,5,167,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="150,40,180,77,176,80,146,43"/>
+<area shape="rect" id="Node000005" href="$classqSlicerObject.html" title=" " alt="" coords="192,5,300,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="230,43,199,80,195,77,226,40"/>
+</map>

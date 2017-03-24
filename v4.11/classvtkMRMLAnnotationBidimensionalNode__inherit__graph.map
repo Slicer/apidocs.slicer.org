@@ -1,0 +1,10 @@
+<map id="vtkMRMLAnnotationBidimensionalNode" name="vtkMRMLAnnotationBidimensionalNode">
+<area shape="rect" id="node2" href="$classvtkMRMLAnnotationLinesNode.html" title="vtkMRMLAnnotationLinesNode" alt="" coords="35,617,258,644"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAnnotationControlPointsNode.html" title="vtkMRMLAnnotationControl\lPointsNode" alt="" coords="45,528,248,569"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAnnotationNode.html" title="vtkMRMLAnnotationNode" alt="" coords="52,453,241,480"/>
+<area shape="rect" id="node5" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="68,379,225,405"/>
+<area shape="rect" id="node6" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="49,304,244,331"/>
+<area shape="rect" id="node7" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="42,229,251,256"/>
+<area shape="rect" id="node8" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="61,155,232,181"/>
+<area shape="rect" id="node9" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="88,80,205,107"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="vtkMRMLMarkupsFiducialNode" name="vtkMRMLMarkupsFiducialNode">
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsNode.html" title="MRML node to represent a list of markups Markups nodes contains a list of markups that each contain a..." alt="" coords="28,379,195,405"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="19,304,204,331"/>
+<area shape="rect" id="node4" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a tranform. " alt="" coords="11,229,211,256"/>
+<area shape="rect" id="node5" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="28,155,195,181"/>
+<area shape="rect" id="node6" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="55,80,167,107"/>
+</map>

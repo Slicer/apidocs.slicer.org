@@ -1,0 +1,5 @@
+<map id="vtkMRMLSegmentationsDisplayableManager2D" name="vtkMRMLSegmentationsDisplayableManager2D">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractSliceViewDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="34,244,235,285"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="27,155,242,196"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="49,80,221,107"/>
+</map>

@@ -1,0 +1,36 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node885 [label="ctkSettingsPanel",height=0.2,width=0.4,color="grey75"];
+  Node885 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="qSlicerMarkupsSettingsPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerMarkupsSettingsPanel.html"];
+  Node885 -> Node887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node887 [label="qSlicerSegmentationsSettings\lPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSegmentationsSettingsPanel.html"];
+  Node885 -> Node888 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node888 [label="qSlicerSettingsCachePanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsCachePanel.html"];
+  Node885 -> Node889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node889 [label="qSlicerSettingsDeveloper\lPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsDeveloperPanel.html"];
+  Node885 -> Node890 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node890 [label="qSlicerSettingsExtensions\lPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsExtensionsPanel.html"];
+  Node885 -> Node891 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node891 [label="qSlicerSettingsGeneralPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsGeneralPanel.html"];
+  Node885 -> Node892 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node892 [label="qSlicerSettingsInternationalization\lPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsInternationalizationPanel.html"];
+  Node885 -> Node893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node893 [label="qSlicerSettingsModulesPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsModulesPanel.html"];
+  Node885 -> Node894 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node894 [label="qSlicerSettingsPythonPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsPythonPanel.html"];
+  Node885 -> Node895 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node895 [label="qSlicerSettingsStylesPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsStylesPanel.html"];
+  Node885 -> Node896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node896 [label="qSlicerSettingsViewsPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSettingsViewsPanel.html"];
+  Node885 -> Node897 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node897 [label="qSlicerSubjectHierarchySettings\lPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerSubjectHierarchySettingsPanel.html"];
+  Node885 -> Node898 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node898 [label="qSlicerUnitsSettingsPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerUnitsSettingsPanel.html"];
+  Node885 -> Node899 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node899 [label="qSlicerVolumeRenderingSettings\lPanel",height=0.2,width=0.4,color="black",URL="$classqSlicerVolumeRenderingSettingsPanel.html"];
+}

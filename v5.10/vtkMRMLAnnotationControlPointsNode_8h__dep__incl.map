@@ -1,0 +1,13 @@
+<map id="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationControlPointsNode.h" name="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationControlPointsNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="324,5,615,60"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAnnotationFiducialNode_8h.html" title=" " alt="" coords="5,108,304,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="369,66,219,111,217,105,367,61"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLAnnotationLinesNode_8h.html" title=" " alt="" coords="328,108,611,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="472,74,472,108,467,108,467,74"/>
+<area shape="rect" id="Node000006" href="$vtkMRMLAnnotationSnapshotNode_8h.html" title=" " alt="" coords="635,108,944,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="573,61,726,105,724,111,572,66"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLAnnotationROINode_8h.html" title=" " alt="" coords="183,196,455,236"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="426,157,353,198,350,194,423,152"/>
+<area shape="rect" id="Node000005" href="$vtkMRMLAnnotationRulerNode_8h.html" title=" " alt="" coords="479,196,761,236"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="515,152,588,194,586,198,513,157"/>
+</map>

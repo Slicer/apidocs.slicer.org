@@ -1,0 +1,13 @@
+<map id="vtkSlicerROIRepresentation3D" name="vtkSlicerROIRepresentation3D">
+<area shape="rect" id="Node000001" title="Default representation for the plane widget." alt="" coords="1224,45,1443,71"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerMarkupsWidgetRepresentation3D.html" title="Default representation for the markups widget in 3D views." alt="" coords="877,45,1175,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1188,55,1224,55,1224,61,1188,61"/>
+<area shape="rect" id="Node000003" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="549,45,828,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="841,55,877,55,877,61,841,61"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="127,5,409,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="416,29,555,43,555,48,415,35"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,77,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="91,15,127,15,127,21,91,21"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerMarkupsWidgetRepresentation_1_1ControlPointsPipeline.html" title=" " alt="" coords="129,55,407,95"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="421,66,549,61,549,66,421,72"/>
+</map>

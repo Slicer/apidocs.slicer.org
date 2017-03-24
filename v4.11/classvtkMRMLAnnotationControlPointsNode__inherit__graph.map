@@ -1,0 +1,17 @@
+<map id="vtkMRMLAnnotationControlPointsNode" name="vtkMRMLAnnotationControlPointsNode">
+<area shape="rect" id="node9" href="$classvtkMRMLAnnotationFiducialNode.html" title="MRML node to represent a fiducial in the Annotations module &#45; deprecated. " alt="" coords="1716,56,1955,83"/>
+<area shape="rect" id="node10" href="$classvtkMRMLAnnotationLinesNode.html" title="vtkMRMLAnnotationLinesNode" alt="" coords="1724,107,1947,133"/>
+<area shape="rect" id="node16" href="$classvtkMRMLAnnotationStickyNode.html" title="vtkMRMLAnnotationStickyNode" alt="" coords="1721,157,1949,184"/>
+<area shape="rect" id="node17" href="$classvtkMRMLAnnotationTextNode.html" title="vtkMRMLAnnotationTextNode" alt="" coords="1727,208,1943,235"/>
+<area shape="rect" id="node2" href="$classvtkMRMLAnnotationNode.html" title="vtkMRMLAnnotationNode" alt="" coords="1228,132,1417,159"/>
+<area shape="rect" id="node3" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="1023,132,1180,159"/>
+<area shape="rect" id="node4" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="780,132,975,159"/>
+<area shape="rect" id="node5" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="523,132,732,159"/>
+<area shape="rect" id="node6" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="304,132,475,159"/>
+<area shape="rect" id="node7" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="139,132,256,159"/>
+<area shape="rect" id="node11" href="$classvtkMRMLAnnotationAngleNode.html" title="vtkMRMLAnnotationAngleNode" alt="" coords="2031,5,2257,32"/>
+<area shape="rect" id="node12" href="$classvtkMRMLAnnotationBidimensionalNode.html" title="vtkMRMLAnnotationBidimensionalNode" alt="" coords="2003,56,2285,83"/>
+<area shape="rect" id="node13" href="$classvtkMRMLAnnotationROINode.html" title="vtkMRMLAnnotationROINode" alt="" coords="2038,107,2250,133"/>
+<area shape="rect" id="node14" href="$classvtkMRMLAnnotationRulerNode.html" title="vtkMRMLAnnotationRulerNode" alt="" coords="2033,157,2255,184"/>
+<area shape="rect" id="node15" href="$classvtkMRMLAnnotationSplineNode.html" title="vtkMRMLAnnotationSplineNode" alt="" coords="2029,208,2259,235"/>
+</map>

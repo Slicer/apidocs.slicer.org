@@ -1,0 +1,18 @@
+<map id="Modules/Loadable/Transforms/Widgets/DesignerPlugins/qSlicerTransformsModuleWidgetsPlugin.h" name="Modules/Loadable/Transforms/Widgets/DesignerPlugins/qSlicerTransformsModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="205,5,499,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,219,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,63,174,106,172,101,284,58"/>
+<area shape="rect" id="Node000003" href="$qMRMLTransformDisplayNodeWidgetPlugin_8h.html" title=" " alt="" coords="243,108,461,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="355,60,355,94,349,94,349,60"/>
+<area shape="rect" id="Node000008" href="$qMRMLTransformInfoWidgetPlugin_8h.html" title=" " alt="" coords="485,108,691,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="419,58,529,100,527,105,417,63"/>
+<area shape="rect" id="Node000004" href="$qSlicerTransformsModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="350,196,589,236"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="380,146,434,186,431,190,376,150"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="259,291,338,317"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="433,238,335,288,332,283,431,234"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="363,284,576,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="472,236,472,270,467,270,467,236"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="601,284,839,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="525,234,653,277,652,282,523,239"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="563,150,508,190,505,186,560,146"/>
+</map>

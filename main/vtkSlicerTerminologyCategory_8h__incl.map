@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Terminologies/Logic/vtkSlicerTerminologyCategory.h" name="Modules/Loadable/Terminologies/Logic/vtkSlicerTerminologyCategory.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,5,428,45"/>
+<area shape="rect" id="Node000002" href="$vtkCodedEntry_8h.html" title=" " alt="" coords="130,101,258,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,48,220,93,216,89,269,44"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="282,93,501,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="316,44,361,82,358,86,313,48"/>
+<area shape="rect" id="Node000003" href="$vtkMRML_8h.html" title=" " alt="" coords="27,181,121,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,128,105,176,102,171,175,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="145,181,243,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="197,126,197,167,191,167,191,126"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="267,181,329,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="211,124,273,171,270,175,208,128"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,255,143,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="77,207,77,241,71,241,71,207"/>
+</map>

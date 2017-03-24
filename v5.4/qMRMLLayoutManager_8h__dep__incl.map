@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Widgets/qMRMLLayoutManager.h" name="Libs/MRML/Widgets/qMRMLLayoutManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,5,345,45"/>
+<area shape="rect" id="Node000002" href="$qSlicerLayoutManager_8h.html" title=" " alt="" coords="5,93,197,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,55,130,95,127,91,183,51"/>
+<area shape="rect" id="Node000003" href="$qMRMLScreenShotDialog_8h.html" title=" " alt="" coords="221,93,467,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,51,319,91,316,95,259,55"/>
+<area shape="rect" id="Node000004" href="$qSlicerAnnotationModuleSnapShotDialog_8h.html" title=" " alt="" coords="75,181,325,236"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="305,143,242,183,239,179,302,139"/>
+<area shape="rect" id="Node000005" href="$qSlicerSceneViewsModuleDialog_8h.html" title=" " alt="" coords="349,189,627,229"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="386,139,460,186,457,191,383,143"/>
+</map>

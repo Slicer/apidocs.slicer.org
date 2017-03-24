@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Segmentations/MRMLDM" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_187d697300c25905e127e5518a1a6fd6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Segmentations" fontname="Helvetica", fontsize="10", URL="dir_187d697300c25905e127e5518a1a6fd6.html"]
+  dir_3adcc5c4d9b6cbdb6619695976a7f7ea [shape=box, label="MRMLDM", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3adcc5c4d9b6cbdb6619695976a7f7ea.html"];
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_3adcc5c4d9b6cbdb6619695976a7f7ea->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="2", labeldistance=1.5 headhref="dir_000097_000012.html"];
+}

@@ -1,0 +1,26 @@
+<map id="vtkMRMLSegmentationDisplayNode" name="vtkMRMLSegmentationDisplayNode">
+<area shape="rect" id="Node000001" title="MRML node for representing segmentation display attributes." alt="" coords="134,491,391,516"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="103,416,270,441"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,449,252,488,248,492,207,453"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,179,123,204"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,217,75,281,85,318,101,352,115,371,133,388,168,414,165,418,129,392,111,375,96,355,80,320,70,282,62,218"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="101,253,272,279"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="97,209,168,251,166,255,94,213"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="239,5,324,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="225,22,184,26,139,36,97,54,61,82,49,98,45,114,51,154,60,178,55,180,45,155,39,114,44,96,57,78,94,50,138,31,183,21,224,17"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="71,80,230,105"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="250,40,173,82,170,77,247,35"/>
+<area shape="rect" id="Node000008" href="$classvtkTagTable.html" title=" " alt="" coords="232,129,331,155"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="284,44,284,129,279,129,279,44"/>
+<area shape="rect" id="Node000009" href="$classvtkSegmentation.html" title="This class encapsulates a segmentation that can contain multiple segments and multiple representation..." alt="" coords="302,179,437,204"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="296,42,302,53,366,177,361,180,298,56,291,44"/>
+<area shape="rect" id="Node000010" href="$classvtkSegmentationConverter.html" title="Class that can convert between different representations of a segment." alt="" coords="387,80,586,105"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="328,33,455,77,453,82,326,38"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="80,113,61,131,56,142,56,154,62,178,56,179,51,155,51,141,56,128,77,109"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="111,328,262,353"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="189,367,189,415,184,415,184,367"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="189,293,189,328,184,328,184,293"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="222,163,201,180,192,198,187,218,188,253,182,253,182,217,187,196,197,177,218,159"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="357,217,347,240,343,265,343,430,338,451,325,468,291,493,288,488,321,465,333,449,337,430,337,264,342,238,352,215"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="464,116,385,181,382,177,460,112"/>
+</map>

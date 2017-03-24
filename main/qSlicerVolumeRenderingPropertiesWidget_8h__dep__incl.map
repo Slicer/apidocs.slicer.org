@@ -1,0 +1,9 @@
+<map id="Modules/Loadable/VolumeRendering/Widgets/qSlicerVolumeRenderingPropertiesWidget.h" name="Modules/Loadable/VolumeRendering/Widgets/qSlicerVolumeRenderingPropertiesWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="361,5,669,60"/>
+<area shape="rect" id="Node000002" href="$qSlicerCPURayCastVolumeRenderingPropertiesWidget_8h.html" title=" " alt="" coords="5,108,328,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="412,66,258,111,257,105,411,61"/>
+<area shape="rect" id="Node000003" href="$qSlicerGPURayCastVolumeRenderingPropertiesWidget_8h.html" title=" " alt="" coords="353,108,677,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="517,74,517,108,512,108,512,74"/>
+<area shape="rect" id="Node000004" href="$qSlicerMultiVolumeRenderingPropertiesWidget_8h.html" title=" " alt="" coords="701,108,976,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="613,62,755,105,753,110,611,67"/>
+</map>

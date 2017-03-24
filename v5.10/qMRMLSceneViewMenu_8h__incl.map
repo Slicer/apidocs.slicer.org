@@ -1,0 +1,9 @@
+<map id="Modules/Loadable/SceneViews/GUI/qMRMLSceneViewMenu.h" name="Modules/Loadable/SceneViews/GUI/qMRMLSceneViewMenu.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="199,5,421,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,252,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,48,169,90,167,85,266,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="276,93,344,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="313,46,313,79,307,79,307,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="368,93,489,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,43,401,84,398,88,337,48"/>
+</map>

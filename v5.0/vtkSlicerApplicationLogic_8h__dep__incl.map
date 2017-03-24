@@ -1,0 +1,26 @@
+<map id="Base/Logic/vtkSlicerApplicationLogic.h" name="Base/Logic/vtkSlicerApplicationLogic.h">
+<area shape="rect" id="node2" href="$vtkSlicerModuleLogic_8h.html" title="Base/Logic/vtkSlicerModule\lLogic.h" alt="" coords="2315,95,2517,136"/>
+<area shape="rect" id="node3" href="$vtkDataIOManagerLogic_8h.html" title="Base/Logic/vtkDataIOManager\lLogic.h" alt="" coords="5,191,224,233"/>
+<area shape="rect" id="node4" href="$vtkSlicerScriptedLoadableModuleLogic_8h.html" title="Base/Logic/vtkSlicerScripted\lLoadableModuleLogic.h" alt="" coords="249,191,455,233"/>
+<area shape="rect" id="node5" href="$vtkSlicerCLIModuleLogic_8h.html" title="Base/QTCLI/vtkSlicerCLIModule\lLogic.h" alt="" coords="480,191,704,233"/>
+<area shape="rect" id="node6" href="$vtkSlicerAnnotationModuleLogic_8h.html" title="Modules/Loadable/Annotations\l/Logic/vtkSlicerAnnotationModule\lLogic.h" alt="" coords="728,184,968,240"/>
+<area shape="rect" id="node8" href="$vtkSlicerCamerasModuleLogic_8h.html" title="Modules/Loadable/Cameras\l/Logic/vtkSlicerCamerasModuleLogic.h" alt="" coords="993,191,1266,233"/>
+<area shape="rect" id="node9" href="$vtkSlicerCropVolumeLogic_8h.html" title="Modules/Loadable/CropVolume\l/Logic/vtkSlicerCropVolumeLogic.h" alt="" coords="1290,191,1537,233"/>
+<area shape="rect" id="node10" href="$vtkSlicerDataModuleLogic_8h.html" title="Modules/Loadable/Data\l/Logic/vtkSlicerDataModuleLogic.h" alt="" coords="1561,191,1807,233"/>
+<area shape="rect" id="node11" href="$vtkSlicerMarkupsLogic_8h.html" title="Modules/Loadable/Markups\l/Logic/vtkSlicerMarkupsLogic.h" alt="" coords="1831,191,2054,233"/>
+<area shape="rect" id="node13" href="$vtkSlicerModelsLogic_8h.html" title="Modules/Loadable/Models\l/Logic/vtkSlicerModelsLogic.h" alt="" coords="2078,191,2293,233"/>
+<area shape="rect" id="node14" href="$vtkSlicerPlotsLogic_8h.html" title="Modules/Loadable/Plots\l/Logic/vtkSlicerPlotsLogic.h" alt="" coords="2317,191,2515,233"/>
+<area shape="rect" id="node15" href="$vtkSlicerReformatLogic_8h.html" title="Modules/Loadable/Reformat\l/Logic/vtkSlicerReformatLogic.h" alt="" coords="2539,191,2767,233"/>
+<area shape="rect" id="node16" href="$vtkSlicerSceneViewsModuleLogic_8h.html" title="Modules/Loadable/SceneViews\l/Logic/vtkSlicerSceneViewsModule\lLogic.h" alt="" coords="2791,184,3038,240"/>
+<area shape="rect" id="node18" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="3063,184,3329,240"/>
+<area shape="rect" id="node19" href="$vtkSlicerSequencesLogic_8h.html" title="Modules/Loadable/Sequences\l/Logic/vtkSlicerSequencesLogic.h" alt="" coords="3353,191,3591,233"/>
+<area shape="rect" id="node20" href="$vtkSlicerSubjectHierarchyModuleLogic_8h.html" title="Modules/Loadable/Subject\lHierarchy/Logic/vtkSlicerSubject\lHierarchyModuleLogic.h" alt="" coords="3615,184,3847,240"/>
+<area shape="rect" id="node21" href="$vtkSlicerTablesLogic_8h.html" title="Modules/Loadable/Tables\l/Logic/vtkSlicerTablesLogic.h" alt="" coords="3871,191,4079,233"/>
+<area shape="rect" id="node22" href="$vtkSlicerTerminologiesModuleLogic_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologiesModule\lLogic.h" alt="" coords="4103,184,4363,240"/>
+<area shape="rect" id="node23" href="$vtkSlicerViewControllersLogic_8h.html" title="Modules/Loadable/ViewControllers\l/Logic/vtkSlicerViewControllersLogic.h" alt="" coords="4387,191,4658,233"/>
+<area shape="rect" id="node24" href="$vtkSlicerVolumeRenderingLogic_8h.html" title="Modules/Loadable/VolumeRendering\l/Logic/vtkSlicerVolumeRenderingLogic.h" alt="" coords="4681,191,4964,233"/>
+<area shape="rect" id="node25" href="$vtkSlicerVolumesLogic_8h.html" title="Modules/Loadable/Volumes\l/Logic/vtkSlicerVolumesLogic.h" alt="" coords="4987,191,5210,233"/>
+<area shape="rect" id="node7" href="$qSlicerAnnotationModuleReportDialog_8h.html" title="Modules/Loadable/Annotations\l/GUI/qSlicerAnnotationModuleReport\lDialog.h" alt="" coords="718,288,978,344"/>
+<area shape="rect" id="node12" href="$qMRMLMarkupsToolBar_8h.html" title="Modules/Loadable/Markups\l/Widgets/qMRMLMarkupsToolBar.h" alt="" coords="1820,295,2065,337"/>
+<area shape="rect" id="node17" href="$qSlicerSceneViewsModuleDialog_8h.html" title="Modules/Loadable/SceneViews\l/GUI/qSlicerSceneViewsModuleDialog.h" alt="" coords="2775,295,3054,337"/>
+</map>

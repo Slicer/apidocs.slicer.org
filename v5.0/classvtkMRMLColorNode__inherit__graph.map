@@ -1,0 +1,9 @@
+<map id="vtkMRMLColorNode" name="vtkMRMLColorNode">
+<area shape="rect" id="node5" href="$classvtkMRMLColorTableNode.html" title="MRML node to represent discrete color information. " alt="" coords="739,21,924,47"/>
+<area shape="rect" id="node7" href="$classvtkMRMLProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="721,78,941,105"/>
+<area shape="rect" id="node2" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="304,53,475,79"/>
+<area shape="rect" id="node3" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="139,53,256,79"/>
+<area shape="rect" id="node6" href="$classvtkMRMLDiffusionTensorDisplayPropertiesNode.html" title="MRML node for display of a diffusion tensor. " alt="" coords="995,5,1227,47"/>
+<area shape="rect" id="node8" href="$classvtkMRMLdGEMRICProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="1005,71,1217,112"/>
+<area shape="rect" id="node9" href="$classvtkMRMLPETProceduralColorNode.html" title="vtkMRMLPETProceduralColorNode" alt="" coords="989,137,1233,163"/>
+</map>

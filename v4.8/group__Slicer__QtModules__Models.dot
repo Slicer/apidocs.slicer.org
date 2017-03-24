@@ -1,0 +1,10 @@
+digraph "Models"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node0 [label="Models",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="Slicer Qt Loadable\l Modules",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+}

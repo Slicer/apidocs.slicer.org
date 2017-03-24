@@ -1,0 +1,11 @@
+<map id="qSlicerIOOptionsWidget" name="qSlicerIOOptionsWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,152,263,177"/>
+<area shape="rect" id="Node000002" href="$classqSlicerWidget.html" title=" " alt="" coords="47,79,159,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,112,166,150,162,154,123,116"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,84,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="65,40,96,77,92,80,61,43"/>
+<area shape="rect" id="Node000004" href="$classqSlicerObject.html" title=" " alt="" coords="108,5,216,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="146,43,115,80,111,77,142,40"/>
+<area shape="rect" id="Node000005" href="$classqSlicerIOOptions.html" title=" " alt="" coords="183,79,314,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="229,116,189,154,185,150,225,112"/>
+</map>

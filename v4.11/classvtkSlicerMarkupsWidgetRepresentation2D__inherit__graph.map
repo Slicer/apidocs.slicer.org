@@ -1,0 +1,10 @@
+<map id="vtkSlicerMarkupsWidgetRepresentation2D" name="vtkSlicerMarkupsWidgetRepresentation2D">
+<area shape="rect" id="node5" href="$classvtkSlicerAngleRepresentation2D.html" title="Default representation for the line widget. " alt="" coords="1129,5,1363,32"/>
+<area shape="rect" id="node6" href="$classvtkSlicerCurveRepresentation2D.html" title="Default representation for the line widget. " alt="" coords="1129,56,1363,83"/>
+<area shape="rect" id="node7" href="$classvtkSlicerLineRepresentation2D.html" title="Default representation for the line widget. " alt="" coords="1135,107,1357,133"/>
+<area shape="rect" id="node8" href="$classvtkSlicerPlaneRepresentation2D.html" title="Default representation for the plane widget. " alt="" coords="1130,157,1362,184"/>
+<area shape="rect" id="node9" href="$classvtkSlicerPointsRepresentation2D.html" title="Default representation for the points widget. " alt="" coords="1128,208,1364,235"/>
+<area shape="rect" id="node10" href="$classvtkSlicerROIRepresentation2D.html" title="Default representation for the plane widget. " alt="" coords="1137,259,1355,285"/>
+<area shape="rect" id="node2" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="456,132,735,159"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="125,132,408,159"/>
+</map>

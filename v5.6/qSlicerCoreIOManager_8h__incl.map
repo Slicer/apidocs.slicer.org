@@ -1,0 +1,38 @@
+<map id="Base/QTCore/qSlicerCoreIOManager.h" name="Base/QTCore/qSlicerCoreIOManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="243,5,509,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,85,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,33,99,81,98,76,321,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="110,79,183,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="340,33,197,77,196,72,338,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="207,79,262,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="354,33,271,75,269,70,352,28"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="81,152,141,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="366,33,327,69,275,106,222,129,155,152,153,147,220,124,272,102,324,64,363,29"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="165,152,240,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="373,32,353,68,320,106,286,131,249,149,247,144,283,126,317,102,348,65,368,30"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="265,152,335,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="380,31,381,65,379,86,372,105,355,128,334,146,330,142,351,125,367,103,373,84,376,65,375,31"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="947,79,1053,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="498,28,700,49,928,76,933,77,933,82,928,81,699,54,498,33"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1077,79,1168,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="509,24,762,43,912,57,1064,76,1063,81,911,62,762,48,509,29"/>
+<area shape="rect" id="Node000010" href="$qSlicerIO_8h.html" title=" " alt="" coords="439,79,531,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="395,28,457,69,454,73,392,33"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="759,225,958,251"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="464,28,573,46,692,72,748,88,797,107,836,127,862,150,870,165,872,181,869,212,864,211,867,181,864,167,858,154,833,132,795,112,746,93,691,77,572,51,464,33"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="439,102,315,123,155,155,154,149,314,118,438,97"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="441,107,254,153,253,148,439,101"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="457,107,344,149,342,145,455,102"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="505,152,599,177"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="498,103,534,140,530,144,494,106"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="624,152,717,177"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="516,102,629,145,627,149,514,107"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="742,152,821,177"/>
+<area shape="poly" id="edge15_Node000010_Node000013" title=" " alt="" coords="532,101,729,148,728,153,531,106"/>
+<area shape="poly" id="edge16_Node000010_Node000014" title=" " alt="" coords="532,92,608,97,698,108,780,125,812,136,835,150,846,163,854,179,861,211,855,212,849,181,842,166,832,154,810,141,779,130,697,113,608,103,531,97"/>
+<area shape="rect" id="Node000015" href="$qSlicerObject_8h.html" title=" " alt="" coords="360,152,480,177"/>
+<area shape="poly" id="edge17_Node000010_Node000015" title=" " alt="" coords="477,106,442,144,438,140,473,103"/>
+<area shape="poly" id="edge19_Node000015_Node000014" title=" " alt="" coords="480,173,775,220,774,226,480,178"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="357,225,483,251"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="423,178,423,212,417,212,417,178"/>
+</map>

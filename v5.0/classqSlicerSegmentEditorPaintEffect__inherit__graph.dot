@@ -1,0 +1,17 @@
+digraph "qSlicerSegmentEditorPaintEffect"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="qSlicerSegmentEditorPaint\lEffect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="qSlicerSegmentEditorAbstract\lLabelEffect",height=0.2,width=0.4,color="black",URL="$classqSlicerSegmentEditorAbstractLabelEffect.html",tooltip="Base class for all \"label\" effects. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="qSlicerSegmentEditorAbstract\lEffect",height=0.2,width=0.4,color="black",URL="$classqSlicerSegmentEditorAbstractEffect.html",tooltip="Abstract class for segment editor effects. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QObject",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="qSlicerSegmentEditorErase\lEffect",height=0.2,width=0.4,color="black",URL="$classqSlicerSegmentEditorEraseEffect.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="qSlicerSegmentEditorScripted\lPaintEffect",height=0.2,width=0.4,color="black",URL="$classqSlicerSegmentEditorScriptedPaintEffect.html",tooltip="Scripted abstract effect for implementing paint effects in python. "];
+}

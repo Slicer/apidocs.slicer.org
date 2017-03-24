@@ -1,0 +1,8 @@
+<map id="qMRMLViewControllerBar" name="qMRMLViewControllerBar">
+<area shape="rect" id="node4" href="$classqMRMLChartViewControllerWidget.html" title="qMRMLChartViewController\lWidget" alt="" coords="547,5,749,47"/>
+<area shape="rect" id="node5" href="$classqMRMLPlotViewControllerWidget.html" title="qMRMLPlotViewControllerWidget" alt="" coords="529,71,767,98"/>
+<area shape="rect" id="node6" href="$classqMRMLSliceControllerWidget.html" title="qMRMLSliceControllerWidget" alt="" coords="543,122,753,149"/>
+<area shape="rect" id="node7" href="$classqMRMLTableViewControllerWidget.html" title="qMRMLTableViewController\lWidget" alt="" coords="549,173,747,215"/>
+<area shape="rect" id="node8" href="$classqMRMLThreeDViewControllerWidget.html" title="qMRMLThreeDViewController\lWidget" alt="" coords="542,239,754,280"/>
+<area shape="rect" id="node2" href="$classqMRMLWidget.html" title="Base class for any widget that requires a MRML Scene. " alt="" coords="132,122,247,149"/>
+</map>

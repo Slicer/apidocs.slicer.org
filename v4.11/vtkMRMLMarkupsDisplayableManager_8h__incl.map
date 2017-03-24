@@ -1,0 +1,20 @@
+<map id="Modules/Loadable/Markups/MRMLDM/vtkMRMLMarkupsDisplayableManager.h" name="Modules/Loadable/Markups/MRMLDM/vtkMRMLMarkupsDisplayableManager.h">
+<area shape="rect" id="node3" href="$vtkMRMLMarkupsDisplayableManagerHelper_8h.html" title="vtkMRMLMarkupsDisplayable\lManagerHelper.h" alt="" coords="893,109,1107,151"/>
+<area shape="rect" id="node36" href="$vtkSlicerMarkupsWidget_8h.html" title="vtkSlicerMarkupsWidget.h" alt="" coords="2424,206,2616,233"/>
+<area shape="rect" id="node43" href="$vtkMRMLAbstractDisplayableManager_8h.html" title="vtkMRMLAbstractDisplayable\lManager.h" alt="" coords="2475,527,2690,568"/>
+<area shape="rect" id="node4" href="$vtkMRMLMarkupsNode_8h.html" title="vtkMRMLMarkupsNode.h" alt="" coords="1151,295,1335,322"/>
+<area shape="rect" id="node41" href="$vtkMRMLSliceNode_8h.html" title="vtkMRMLSliceNode.h" alt="" coords="779,206,939,233"/>
+<area shape="rect" id="node5" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="890,377,1097,404"/>
+<area shape="rect" id="node26" href="$vtkCurveGenerator_8h.html" title="vtkCurveGenerator.h" alt="" coords="1604,377,1761,404"/>
+<area shape="rect" id="node33" href="$vtkMRMLMeasurement_8h.html" title="vtkMRMLMeasurement.h" alt="" coords="1275,534,1461,561"/>
+<area shape="rect" id="node6" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="883,452,1104,479"/>
+<area shape="rect" id="node7" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="922,534,1105,561"/>
+<area shape="rect" id="node8" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="717,616,846,643"/>
+<area shape="rect" id="node9" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="1310,780,1405,807"/>
+<area shape="rect" id="node11" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1272,698,1443,725"/>
+<area shape="rect" id="node19" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="379,698,610,725"/>
+<area shape="rect" id="node34" href="$vtkCodedEntry_8h.html" title="vtkCodedEntry.h" alt="" coords="1467,698,1595,725"/>
+<area shape="rect" id="node38" href="$vtkMRMLAbstractWidget_8h.html" title="vtkMRMLAbstractWidget.h" alt="" coords="2086,616,2282,643"/>
+<area shape="rect" id="node42" href="$vtkMRMLAbstractViewNode_8h.html" title="vtkMRMLAbstractViewNode.h" alt="" coords="631,534,847,561"/>
+<area shape="rect" id="node44" href="$vtkMRMLAbstractLogic_8h.html" title="vtkMRMLAbstractLogic.h" alt="" coords="2433,616,2617,643"/>
+</map>

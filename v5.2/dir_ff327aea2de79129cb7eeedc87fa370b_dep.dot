@@ -1,0 +1,15 @@
+digraph "Base/QTApp" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_628593db0cdce5a76fb85526ae5aa762 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Base" fontname="Helvetica", fontsize="10", URL="dir_628593db0cdce5a76fb85526ae5aa762.html"]
+  dir_ff327aea2de79129cb7eeedc87fa370b [shape=box, label="QTApp", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ff327aea2de79129cb7eeedc87fa370b.html"];
+  }
+  dir_9718928f87c021db5ebd1f98e375ffac [shape=box label="QTCore" URL="dir_9718928f87c021db5ebd1f98e375ffac.html"];
+  dir_54b25a5fd332978cfbdf7fd43b95686b [shape=box label="QTGUI" color="red" URL="dir_54b25a5fd332978cfbdf7fd43b95686b.html"];
+  dir_ff327aea2de79129cb7eeedc87fa370b->dir_9718928f87c021db5ebd1f98e375ffac [headlabel="1", labeldistance=1.5 headhref="dir_000005_000008.html"];
+  dir_ff327aea2de79129cb7eeedc87fa370b->dir_54b25a5fd332978cfbdf7fd43b95686b [headlabel="1", labeldistance=1.5 headhref="dir_000005_000009.html"];
+  dir_54b25a5fd332978cfbdf7fd43b95686b->dir_9718928f87c021db5ebd1f98e375ffac [headlabel="12", labeldistance=1.5 headhref="dir_000009_000008.html"];
+}

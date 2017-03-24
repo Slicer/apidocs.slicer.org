@@ -1,0 +1,13 @@
+<map id="MarkupsLib.parameterNodeWrapper.guiConnectors.qSlicerSimpleMarkupsWidgetToNodeConnector" name="MarkupsLib.parameterNodeWrapper.guiConnectors.qSlicerSimpleMarkupsWidgetToNodeConnector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,243,288,297"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="34,155,145,180"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,191,134,241,129,244,100,193"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSimpleMarkupsWidget.html" title=" " alt="" coords="169,155,381,180"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,191,182,244,179,240,248,186"/>
+<area shape="rect" id="Node000004" href="$classqSlicerWidget.html" title=" " alt="" coords="219,80,331,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="277,120,277,154,272,154,272,120"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="177,5,255,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,40,267,78,263,81,232,43"/>
+<area shape="rect" id="Node000006" href="$classqSlicerObject.html" title=" " alt="" coords="279,5,387,31"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="317,43,286,81,282,78,313,40"/>
+</map>

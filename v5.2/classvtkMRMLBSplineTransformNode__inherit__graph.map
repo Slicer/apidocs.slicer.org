@@ -1,0 +1,7 @@
+<map id="vtkMRMLBSplineTransformNode" name="vtkMRMLBSplineTransformNode">
+<area shape="rect" id="node2" href="$classvtkMRMLTransformNode.html" title="MRML node for representing a transformation between this node space and a parent node space..." alt="" coords="30,379,211,405"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="23,304,218,331"/>
+<area shape="rect" id="node4" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="16,229,225,256"/>
+<area shape="rect" id="node5" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="35,155,206,181"/>
+<area shape="rect" id="node6" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="62,80,179,107"/>
+</map>

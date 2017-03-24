@@ -1,0 +1,6 @@
+<map id="vtkMRMLdGEMRICProceduralColorNode" name="vtkMRMLdGEMRICProceduralColorNode">
+<area shape="rect" id="node2" href="$classvtkMRMLProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="5,304,225,331"/>
+<area shape="rect" id="node3" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="40,229,191,256"/>
+<area shape="rect" id="node4" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="30,155,201,181"/>
+<area shape="rect" id="node5" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="57,80,174,107"/>
+</map>

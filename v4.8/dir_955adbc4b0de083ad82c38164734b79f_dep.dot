@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Measurements/Widgets" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_db2cf7b47613cd0e149449b2f463ea33 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Measurements" fontname="Helvetica", fontsize="10", URL="dir_db2cf7b47613cd0e149449b2f463ea33.html"]
+  dir_955adbc4b0de083ad82c38164734b79f [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_955adbc4b0de083ad82c38164734b79f.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_955adbc4b0de083ad82c38164734b79f->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="2", labeldistance=1.5 headhref="dir_000081_000002.html"];
+}

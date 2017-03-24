@@ -1,0 +1,21 @@
+<map id="Modules/Loadable/VolumeRendering/MRMLDM/vtkMRMLVolumeRenderingWindowLevelWidget.h" name="Modules/Loadable/VolumeRendering/MRMLDM/vtkMRMLVolumeRenderingWindowLevelWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="376,5,695,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,108,277,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="437,63,268,107,267,102,436,57"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLAbstractWidget_8h.html" title=" " alt="" coords="301,123,497,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="502,62,427,117,424,112,498,58"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="455,218,594,243"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="537,60,529,204,523,204,531,60"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="618,218,754,243"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="550,59,577,108,613,161,661,207,658,211,609,164,572,111,545,61"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="623,123,802,148"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="583,58,682,114,679,118,580,62"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,211,223,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="365,151,185,209,184,204,364,145"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="247,218,344,243"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="388,150,320,211,316,207,385,146"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="416,146,500,208,497,212,413,150"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="435,145,639,211,637,216,434,151"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="368,218,431,243"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="402,148,402,204,397,204,397,148"/>
+</map>

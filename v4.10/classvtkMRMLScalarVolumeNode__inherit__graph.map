@@ -1,0 +1,14 @@
+<map id="vtkMRMLScalarVolumeNode" name="vtkMRMLScalarVolumeNode">
+<area shape="rect" id="node8" href="$classvtkMRMLDiffusionWeightedVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="1462,5,1653,47"/>
+<area shape="rect" id="node9" href="$classvtkMRMLLabelMapVolumeNode.html" title="MRML node for representing a label map volume. " alt="" coords="1447,71,1668,98"/>
+<area shape="rect" id="node10" href="$classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="1458,122,1657,149"/>
+<area shape="rect" id="node2" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="992,71,1151,98"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="759,71,944,98"/>
+<area shape="rect" id="node4" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="511,71,711,98"/>
+<area shape="rect" id="node5" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="296,71,463,98"/>
+<area shape="rect" id="node6" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="136,71,248,98"/>
+<area shape="rect" id="node11" href="$classvtkMRMLDiffusionImageVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="1716,97,1971,123"/>
+<area shape="rect" id="node13" href="$classvtkMRMLVectorVolumeNode.html" title="MRML node for representing a vector volume (image stack). " alt="" coords="1743,147,1943,174"/>
+<area shape="rect" id="node12" href="$classvtkMRMLDiffusionTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="2019,97,2275,123"/>
+<area shape="rect" id="node14" href="$classvtkMRMLStreamingVolumeNode.html" title="MRML node for representing a single compressed video frame that can be decoded to an image representa..." alt="" coords="2033,147,2260,174"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node536 [label="QTreeView",height=0.2,width=0.4,color="grey75"];
+  Node536 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="qMRMLSubjectHierarchyTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLSubjectHierarchyTreeView.html"];
+  Node536 -> Node538 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node538 [label="qMRMLTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLTreeView.html"];
+  Node538 -> Node539 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node539 [label="qMRMLAnnotationTreeView",height=0.2,width=0.4,color="black",URL="$classqMRMLAnnotationTreeView.html"];
+}

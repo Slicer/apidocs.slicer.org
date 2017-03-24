@@ -1,0 +1,10 @@
+<map id="vtkMRMLUnitNode" name="vtkMRMLUnitNode">
+<area shape="rect" id="Node000001" title="Node that holds the information about a unit." alt="" coords="5,243,149,268"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="19,168,136,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,208,80,242,75,242,75,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="29,5,115,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,44,80,168,74,168,70,45"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="94,80,253,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="101,37,158,77,155,82,98,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="152,116,92,169,89,165,149,112"/>
+</map>
