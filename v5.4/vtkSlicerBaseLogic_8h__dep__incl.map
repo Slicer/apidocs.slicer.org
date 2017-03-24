@@ -1,0 +1,102 @@
+<map id="Base/Logic/vtkSlicerBaseLogic.h" name="Base/Logic/vtkSlicerBaseLogic.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3092,5,3277,45"/>
+<area shape="rect" id="Node000002" href="$vtkImageFillROI_8h.html" title=" " alt="" coords="2292,101,2504,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3078,38,2822,62,2516,96,2465,103,2465,98,2515,91,2821,56,3078,33"/>
+<area shape="rect" id="Node000003" href="$vtkImageRectangularSource_8h.html" title=" " alt="" coords="2528,93,2764,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="3078,46,2764,96,2764,91,3077,41"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerApplicationLogic_8h.html" title=" " alt="" coords="2838,93,3065,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="3122,53,3003,96,3002,91,3120,48"/>
+<area shape="rect" id="Node000018" href="$vtkSlicerSceneViewsModuleLogic_8h.html" title=" " alt="" coords="21,284,268,339"/>
+<area shape="poly" id="edge50_Node000001_Node000018" title=" " alt="" coords="3079,36,3020,43,2955,55,2890,72,2827,96,2813,105,2803,116,2793,127,2776,136,2668,169,2542,196,2400,217,2244,233,2078,245,1903,252,1539,259,829,262,524,268,393,276,280,287,269,288,268,283,279,281,392,270,523,263,829,256,1539,254,1903,247,2077,239,2244,228,2399,212,2541,191,2667,164,2774,131,2789,122,2799,112,2809,101,2825,91,2888,67,2954,50,3019,38,3078,30"/>
+<area shape="rect" id="Node000028" href="$vtkSlicerTask_8h.html" title=" " alt="" coords="4493,196,4687,221"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="3154,57,3137,75,3125,95,3121,114,3129,131,3180,140,3305,151,3698,171,4493,202,4492,207,3697,177,3305,156,3179,146,3126,135,3116,115,3120,93,3133,72,3150,53"/>
+<area shape="rect" id="Node000029" href="$vtkSystemInformation_8h.html" title=" " alt="" coords="3140,101,3395,126"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="3214,53,3258,98,3254,102,3210,57"/>
+<area shape="rect" id="Node000030" href="$vtkTransformVisualizerGlyph3D_8h.html" title=" " alt="" coords="3419,93,3665,133"/>
+<area shape="poly" id="edge31_Node000001_Node000030" title=" " alt="" coords="3277,46,3464,91,3463,96,3276,51"/>
+<area shape="rect" id="Node000031" href="$vtkMarkupsGlyphSource2D_8h.html" title=" " alt="" coords="3689,93,3985,133"/>
+<area shape="poly" id="edge32_Node000001_Node000031" title=" " alt="" coords="3291,38,3694,91,3694,96,3290,43"/>
+<area shape="rect" id="Node000047" href="$vtkSlicerTextsLogic_8h.html" title=" " alt="" coords="4009,93,4211,133"/>
+<area shape="poly" id="edge51_Node000001_Node000047" title=" " alt="" coords="3291,30,3608,52,3802,69,3997,91,4009,92,4008,98,3996,96,3802,75,3607,58,3291,35"/>
+<area shape="rect" id="Node000048" href="$vtkSlicerTransformLogic_8h.html" title=" " alt="" coords="4235,93,4467,133"/>
+<area shape="poly" id="edge52_Node000001_Node000048" title=" " alt="" coords="3291,28,3700,49,3960,67,4222,91,4235,92,4235,97,4222,96,3960,72,3700,54,3291,33"/>
+<area shape="rect" id="Node000005" href="$vtkDataIOManagerLogic_8h.html" title=" " alt="" coords="5007,291,5226,331"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="3079,127,3114,131,4055,202,4642,248,4994,281,5036,289,5035,294,4994,287,4642,253,4054,208,3114,136,3078,132"/>
+<area shape="rect" id="Node000006" href="$vtkSlicerModuleLogic_8h.html" title=" " alt="" coords="2839,189,3040,229"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="2950,147,2944,189,2939,188,2945,147"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="3054,212,3599,233,3812,239,3992,240,4298,238,4446,239,4604,245,4783,259,4994,281,5039,289,5038,294,4994,287,4782,264,4603,251,4446,244,4298,243,3992,245,3812,244,3599,239,3054,217"/>
+<area shape="rect" id="Node000007" href="$vtkSlicerScriptedLoadableModuleLogic_8h.html" title=" " alt="" coords="2716,291,2923,331"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="2908,240,2844,293,2840,289,2904,236"/>
+<area shape="rect" id="Node000008" href="$vtkSlicerCLIModuleLogic_8h.html" title=" " alt="" coords="2947,291,3171,331"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="2974,236,3039,289,3035,293,2971,240"/>
+<area shape="rect" id="Node000009" href="$vtkSlicerAnnotationModuleLogic_8h.html" title=" " alt="" coords="3195,284,3435,339"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="3023,230,3218,281,3217,287,3022,235"/>
+<area shape="rect" id="Node000010" href="$vtkSlicerCamerasModuleLogic_8h.html" title=" " alt="" coords="3460,291,3733,331"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="3054,223,3448,281,3492,289,3491,294,3447,287,3053,228"/>
+<area shape="rect" id="Node000011" href="$vtkSlicerCropVolumeLogic_8h.html" title=" " alt="" coords="3757,291,4004,331"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="3054,214,3366,239,3556,258,3745,281,3790,289,3789,294,3744,287,3555,263,3366,244,3053,220"/>
+<area shape="rect" id="Node000012" href="$vtkSlicerDataModuleLogic_8h.html" title=" " alt="" coords="4028,291,4275,331"/>
+<area shape="poly" id="edge12_Node000006_Node000012" title=" " alt="" coords="3054,211,3478,232,3746,252,4016,281,4062,289,4062,294,4015,287,3746,258,3478,237,3054,216"/>
+<area shape="rect" id="Node000013" href="$vtkSlicerMarkupsLogic_8h.html" title=" " alt="" coords="4299,291,4521,331"/>
+<area shape="poly" id="edge13_Node000006_Node000013" title=" " alt="" coords="3054,211,3686,239,4033,259,4286,281,4330,289,4329,294,4286,287,4033,264,3686,244,3053,217"/>
+<area shape="rect" id="Node000015" href="$vtkSlicerModelsLogic_8h.html" title=" " alt="" coords="4545,291,4760,331"/>
+<area shape="poly" id="edge15_Node000006_Node000015" title=" " alt="" coords="3054,212,3899,249,4321,269,4533,281,4576,289,4575,294,4532,287,4320,274,3898,254,3054,217"/>
+<area shape="rect" id="Node000016" href="$vtkSlicerPlotsLogic_8h.html" title=" " alt="" coords="4784,291,4983,331"/>
+<area shape="poly" id="edge16_Node000006_Node000016" title=" " alt="" coords="3054,212,4772,281,4812,289,4811,294,4771,287,3054,217"/>
+<area shape="rect" id="Node000017" href="$vtkSlicerReformatLogic_8h.html" title=" " alt="" coords="292,291,520,331"/>
+<area shape="poly" id="edge17_Node000006_Node000017" title=" " alt="" coords="2851,234,2820,239,2639,258,2473,270,2320,278,2178,280,1918,276,1676,265,1434,253,1174,248,1032,250,880,257,714,269,533,287,486,294,486,289,532,281,714,263,879,252,1032,245,1174,243,1434,248,1676,259,1919,271,2178,275,2320,272,2472,265,2638,252,2819,233,2850,229"/>
+<area shape="poly" id="edge18_Node000006_Node000018" title=" " alt="" coords="2851,234,2820,239,2619,259,2434,273,2265,282,2107,285,1819,280,1550,267,1281,254,992,248,835,250,665,256,481,268,280,287,269,288,268,283,279,281,480,263,665,251,835,244,992,242,1281,249,1550,262,1819,275,2107,279,2265,276,2434,268,2618,254,2819,233,2850,229"/>
+<area shape="rect" id="Node000020" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title=" " alt="" coords="545,284,811,339"/>
+<area shape="poly" id="edge20_Node000006_Node000020" title=" " alt="" coords="2851,234,2820,239,2662,256,2517,267,2260,278,2033,277,1822,269,1610,260,1384,256,1127,263,824,287,812,288,811,283,823,281,1126,258,1384,251,1611,255,1822,263,2033,271,2260,273,2517,262,2661,250,2819,233,2850,229"/>
+<area shape="rect" id="Node000021" href="$vtkSlicerSequencesLogic_8h.html" title=" " alt="" coords="835,291,1073,331"/>
+<area shape="poly" id="edge21_Node000006_Node000021" title=" " alt="" coords="2850,234,2820,239,2557,264,2333,273,2136,272,1952,265,1768,258,1571,256,1348,264,1085,287,1037,294,1037,289,1084,281,1348,258,1571,250,1769,253,1952,260,2136,267,2333,268,2556,258,2819,233,2849,229"/>
+<area shape="rect" id="Node000022" href="$vtkSlicerSubjectHierarchyModuleLogic_8h.html" title=" " alt="" coords="1097,284,1329,339"/>
+<area shape="poly" id="edge22_Node000006_Node000022" title=" " alt="" coords="2850,234,2820,239,2595,261,2405,269,2237,269,2080,264,1923,259,1756,258,1565,266,1341,287,1329,288,1328,283,1340,281,1565,261,1755,253,1924,254,2080,259,2237,264,2405,264,2595,255,2819,233,2849,229"/>
+<area shape="rect" id="Node000023" href="$vtkSlicerTablesLogic_8h.html" title=" " alt="" coords="1353,291,1561,331"/>
+<area shape="poly" id="edge23_Node000006_Node000023" title=" " alt="" coords="2849,234,2820,239,2631,258,2470,265,2328,266,2196,262,2064,258,1922,259,1762,267,1573,287,1531,294,1530,289,1572,281,1761,262,1922,253,2064,253,2196,257,2328,260,2470,260,2630,252,2819,233,2848,229"/>
+<area shape="rect" id="Node000024" href="$vtkSlicerTerminologiesModuleLogic_8h.html" title=" " alt="" coords="1585,284,1845,339"/>
+<area shape="poly" id="edge24_Node000006_Node000024" title=" " alt="" coords="2849,234,2820,239,2674,255,2550,263,2338,265,2127,266,2003,273,1857,287,1846,288,1845,283,1856,281,2003,267,2127,261,2338,260,2549,258,2673,250,2819,233,2848,229"/>
+<area shape="rect" id="Node000025" href="$vtkSlicerViewControllersLogic_8h.html" title=" " alt="" coords="1869,291,2140,331"/>
+<area shape="poly" id="edge25_Node000006_Node000025" title=" " alt="" coords="2848,234,2820,239,2632,259,2486,265,2339,270,2152,287,2102,294,2101,289,2151,281,2339,264,2486,259,2632,254,2819,233,2847,229"/>
+<area shape="rect" id="Node000026" href="$vtkSlicerVolumeRenderingLogic_8h.html" title=" " alt="" coords="2163,291,2446,331"/>
+<area shape="poly" id="edge26_Node000006_Node000026" title=" " alt="" coords="2844,234,2820,239,2718,254,2639,264,2457,287,2411,294,2410,289,2456,281,2638,259,2717,249,2819,233,2843,229"/>
+<area shape="rect" id="Node000027" href="$vtkSlicerVolumesLogic_8h.html" title=" " alt="" coords="2469,291,2692,331"/>
+<area shape="poly" id="edge27_Node000006_Node000027" title=" " alt="" coords="2860,235,2649,294,2647,289,2858,230"/>
+<area shape="rect" id="Node000014" href="$qMRMLMarkupsToolBar_8h.html" title=" " alt="" coords="4287,394,4533,434"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="4413,345,4413,394,4407,394,4407,345"/>
+<area shape="rect" id="Node000019" href="$qSlicerSceneViewsModuleDialog_8h.html" title=" " alt="" coords="5,394,284,434"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="147,353,147,394,142,394,142,353"/>
+<area shape="poly" id="edge29_Node000028_Node000005" title=" " alt="" coords="4669,221,4995,281,5030,289,5029,294,4993,287,4668,226"/>
+<area shape="rect" id="Node000032" href="$vtkSlicerMarkupsWidgetRepresentation_8h.html" title=" " alt="" coords="5130,181,5397,236"/>
+<area shape="poly" id="edge33_Node000031_Node000032" title=" " alt="" coords="3999,131,4551,167,5130,198,5129,203,4551,172,3998,136"/>
+<area shape="rect" id="Node000033" href="$vtkSlicerMarkupsWidgetRepresentation2D_8h.html" title=" " alt="" coords="4843,387,5110,441"/>
+<area shape="poly" id="edge34_Node000032_Node000033" title=" " alt="" coords="5268,250,5263,296,5254,320,5240,341,5219,355,5189,369,5111,391,5109,386,5187,364,5217,351,5236,337,5249,317,5257,295,5263,249"/>
+<area shape="rect" id="Node000040" href="$vtkSlicerMarkupsWidgetRepresentation3D_8h.html" title=" " alt="" coords="5874,284,6141,339"/>
+<area shape="poly" id="edge41_Node000032_Node000040" title=" " alt="" coords="5410,227,5874,289,5873,295,5410,232"/>
+<area shape="rect" id="Node000034" href="$vtkSlicerAngleRepresentation2D_8h.html" title=" " alt="" coords="4538,489,4869,529"/>
+<area shape="poly" id="edge35_Node000033_Node000034" title=" " alt="" coords="4888,448,4759,492,4758,487,4886,443"/>
+<area shape="rect" id="Node000035" href="$vtkSlicerCurveRepresentation2D_8h.html" title=" " alt="" coords="4893,489,5225,529"/>
+<area shape="poly" id="edge36_Node000033_Node000035" title=" " alt="" coords="5011,450,5045,488,5041,491,5007,453"/>
+<area shape="rect" id="Node000036" href="$vtkSlicerLineRepresentation2D_8h.html" title=" " alt="" coords="3833,489,4155,529"/>
+<area shape="poly" id="edge37_Node000033_Node000036" title=" " alt="" coords="4830,431,4166,492,4155,493,4154,488,4166,487,4830,425"/>
+<area shape="rect" id="Node000037" href="$vtkSlicerPlaneRepresentation2D_8h.html" title=" " alt="" coords="5250,489,5581,529"/>
+<area shape="poly" id="edge38_Node000033_Node000037" title=" " alt="" coords="5114,442,5327,487,5326,492,5113,447"/>
+<area shape="rect" id="Node000038" href="$vtkSlicerPointsRepresentation2D_8h.html" title=" " alt="" coords="4179,489,4513,529"/>
+<area shape="poly" id="edge39_Node000033_Node000038" title=" " alt="" coords="4830,440,4474,492,4473,487,4829,434"/>
+<area shape="rect" id="Node000039" href="$vtkSlicerROIRepresentation2D_8h.html" title=" " alt="" coords="5767,489,6085,529"/>
+<area shape="poly" id="edge40_Node000033_Node000039" title=" " alt="" coords="5124,439,5300,459,5473,475,5767,497,5767,502,5472,480,5299,464,5123,444"/>
+<area shape="rect" id="Node000041" href="$vtkSlicerAngleRepresentation3D_8h.html" title=" " alt="" coords="6190,394,6521,434"/>
+<area shape="poly" id="edge42_Node000040_Node000041" title=" " alt="" coords="6112,340,6291,391,6289,396,6110,345"/>
+<area shape="rect" id="Node000042" href="$vtkSlicerCurveRepresentation3D_8h.html" title=" " alt="" coords="6545,394,6877,434"/>
+<area shape="poly" id="edge43_Node000040_Node000042" title=" " alt="" coords="6154,331,6533,384,6584,391,6583,397,6532,389,6154,336"/>
+<area shape="rect" id="Node000043" href="$vtkSlicerLineRepresentation3D_8h.html" title=" " alt="" coords="6901,394,7223,434"/>
+<area shape="poly" id="edge44_Node000040_Node000043" title=" " alt="" coords="6154,319,6491,345,6890,384,6946,391,6945,397,6890,389,6491,350,6154,325"/>
+<area shape="rect" id="Node000044" href="$vtkSlicerPlaneRepresentation3D_8h.html" title=" " alt="" coords="5134,394,5465,434"/>
+<area shape="poly" id="edge45_Node000040_Node000044" title=" " alt="" coords="5861,336,5477,389,5427,397,5426,391,5476,384,5860,330"/>
+<area shape="rect" id="Node000045" href="$vtkSlicerPointsRepresentation3D_8h.html" title=" " alt="" coords="5489,394,5824,434"/>
+<area shape="poly" id="edge47_Node000040_Node000045" title=" " alt="" coords="5904,345,5723,396,5722,391,5902,340"/>
+<area shape="rect" id="Node000046" href="$vtkSlicerROIRepresentation3D_8h.html" title=" " alt="" coords="5849,394,6166,434"/>
+<area shape="poly" id="edge48_Node000040_Node000046" title=" " alt="" coords="6010,353,6010,394,6005,394,6005,353"/>
+<area shape="poly" id="edge46_Node000044_Node000037" title=" " alt="" coords="5335,440,5394,487,5390,491,5332,445"/>
+<area shape="poly" id="edge49_Node000046_Node000039" title=" " alt="" coords="5984,446,5944,491,5940,488,5980,442"/>
+</map>

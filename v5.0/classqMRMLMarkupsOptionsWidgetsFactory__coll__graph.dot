@@ -1,0 +1,13 @@
+digraph "qMRMLMarkupsOptionsWidgetsFactory"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="qMRMLMarkupsOptionsWidgets\lFactory",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QObject",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" RegisteredWidgets" ,fontname="Helvetica"];
+  Node4 [label="QMap\< QString, QPointer\l\< qMRMLMarkupsAbstractOptions\lWidget \> \>",height=0.2,width=0.4,color="black",URL="$classQMap.html"];
+  Node5 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< QString, QPointer\l\< qMRMLMarkupsAbstractOptions\lWidget \> \>" ,fontname="Helvetica"];
+  Node5 [label="QMap\< Key, T \>",height=0.2,width=0.4,color="black",URL="$classQMap.html"];
+}

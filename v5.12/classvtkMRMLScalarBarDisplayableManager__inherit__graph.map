@@ -1,0 +1,11 @@
+<map id="vtkMRMLScalarBarDisplayableManager" name="vtkMRMLScalarBarDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager for window/level adjustment of volumes." alt="" coords="5,328,228,368"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractSliceViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="16,240,217,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,294,119,328,114,328,114,294"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="9,152,224,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,206,119,240,114,240,114,206"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="31,79,203,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,118,119,152,114,152,114,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="74,5,159,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="119,44,119,79,114,79,114,44"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Modules/Loadable/Segmentations/Widgets/qMRMLSegmentsTableView.h" name="Modules/Loadable/Segmentations/Widgets/qMRMLSegmentsTableView.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="301,5,575,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,217,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="367,48,197,92,195,87,366,43"/>
+<area shape="rect" id="Node000003" href="$qMRMLWidget_8h.html" title=" " alt="" coords="241,101,368,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="410,48,335,95,333,91,407,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="393,101,483,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="441,46,441,87,435,87,435,46"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="508,101,629,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="468,43,541,91,538,95,466,48"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="654,101,747,126"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="496,43,654,94,652,99,495,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="189,181,268,207"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,128,251,173,247,170,292,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="293,181,469,207"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="318,124,362,170,358,173,314,128"/>
+</map>

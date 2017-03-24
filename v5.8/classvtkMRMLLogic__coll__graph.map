@@ -1,0 +1,17 @@
+<map id="vtkMRMLLogic" name="vtkMRMLLogic">
+<area shape="rect" id="Node000001" title="Class that manages adding and deleting of observers with events." alt="" coords="5,256,123,281"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="159,5,244,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,39,132,57,112,81,91,130,78,180,67,256,62,255,73,178,86,128,107,79,129,53,156,35"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo." alt="" coords="140,168,263,193"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="164,39,140,57,121,81,117,94,119,106,133,129,156,150,180,166,178,170,153,154,129,133,114,107,112,93,116,79,136,53,161,35"/>
+<area shape="rect" id="Node000004" href="$classvtkCacheManager.html" title=" " alt="" coords="131,80,271,105"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="204,45,204,80,199,80,199,45"/>
+<area shape="rect" id="Node000005" href="$classvtkDataIOManager.html" title=" " alt="" coords="295,80,441,105"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="241,34,343,78,341,82,239,39"/>
+<area shape="rect" id="Node000006" href="$classvtkTagTable.html" title=" " alt="" coords="465,80,564,105"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="258,30,466,77,464,83,257,35"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,203,84,258,81,253,170,198"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="204,119,204,167,199,167,199,119"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="349,117,309,146,279,160,249,171,247,165,277,155,307,142,346,113"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="492,116,469,133,442,146,397,161,349,171,263,181,263,175,349,166,395,156,440,142,466,128,489,112"/>
+</map>

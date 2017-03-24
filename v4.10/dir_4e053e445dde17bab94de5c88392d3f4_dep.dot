@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/SlicerWelcome" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d01fdafe93af837a1755aeb3a6390699 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Loadable" fontname="Helvetica", fontsize="10", URL="dir_d01fdafe93af837a1755aeb3a6390699.html"]
+  dir_4e053e445dde17bab94de5c88392d3f4 [shape=box, label="SlicerWelcome", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4e053e445dde17bab94de5c88392d3f4.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_4e053e445dde17bab94de5c88392d3f4->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="2", labeldistance=1.5 headhref="dir_000101_000002.html"];
+}

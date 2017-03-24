@@ -1,0 +1,19 @@
+<map id="Base/QTGUI/DesignerPlugins/qSlicerQTGUIAbstractPlugin.h" name="Base/QTGUI/DesignerPlugins/qSlicerQTGUIAbstractPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="508,5,727,45"/>
+<area shape="rect" id="Node000002" href="$qSlicerDirectoryListViewPlugin_8h.html" title=" " alt="" coords="5,93,243,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="496,50,232,96,232,91,495,45"/>
+<area shape="rect" id="Node000004" href="$qSlicerModulePanelPlugin_8h.html" title=" " alt="" coords="267,93,477,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="551,52,427,96,425,91,550,47"/>
+<area shape="rect" id="Node000005" href="$qSlicerModulesListViewPlugin_8h.html" title=" " alt="" coords="501,93,733,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="620,59,620,93,615,93,615,59"/>
+<area shape="rect" id="Node000006" href="$qSlicerMouseModeToolBarPlugin_8h.html" title=" " alt="" coords="758,93,1007,133"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="689,47,825,91,824,96,688,52"/>
+<area shape="rect" id="Node000007" href="$qSlicerWidgetPlugin_8h.html" title=" " alt="" coords="1031,93,1241,133"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="741,44,1032,92,1031,97,740,49"/>
+<area shape="rect" id="Node000003" href="$qSlicerQTGUIPlugins_8h.html" title=" " alt="" coords="513,181,722,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,133,513,179,512,184,245,138"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="440,135,564,179,563,184,438,140"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="620,147,620,181,615,181,615,147"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="812,140,676,184,675,179,811,135"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="1018,137,723,185,722,180,1017,132"/>
+</map>

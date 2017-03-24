@@ -1,0 +1,11 @@
+<map id="vtkMRMLViewLogic" name="vtkMRMLViewLogic">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="5,132,171,159"/>
+<area shape="rect" id="node7" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="177,183,289,209"/>
+<area shape="rect" id="node8" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="228,81,383,108"/>
+<area shape="rect" id="node9" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="398,132,493,159"/>
+<area shape="rect" id="node4" href="$classvtkMRMLCameraNode.html" title="MRML node to represent camera node. " alt="" coords="323,436,485,463"/>
+<area shape="rect" id="node5" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="316,335,516,361"/>
+<area shape="rect" id="node6" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="351,259,518,285"/>
+<area shape="rect" id="node11" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D..." alt="" coords="132,259,327,285"/>
+<area shape="rect" id="node10" href="$classvtkMRMLViewNode.html" title="MRML node to represent a 3D view. " alt="" coords="159,385,299,412"/>
+</map>

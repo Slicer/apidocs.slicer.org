@@ -1,0 +1,12 @@
+<map id="Libs/vtkSegmentationCore/vtkSegmentationConverter.h" name="Libs/vtkSegmentationCore/vtkSegmentationConverter.h">
+<area shape="rect" id="node2" href="$vtkBinaryLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkBinaryLabelmapToClosedSurface\lConversionRule.h" alt="" coords="5,95,265,151"/>
+<area shape="rect" id="node3" href="$vtkFractionalLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkFractionalLabelmapToClosed\lSurfaceConversionRule.h" alt="" coords="44,199,277,255"/>
+<area shape="rect" id="node4" href="$vtkClosedSurfaceToBinaryLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToBinaryLabelmap\lConversionRule.h" alt="" coords="339,95,599,151"/>
+<area shape="rect" id="node5" href="$vtkClosedSurfaceToFractionalLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToFractionalLabelmap\lConversionRule.h" alt="" coords="327,199,610,255"/>
+<area shape="rect" id="node6" href="$vtkSegmentation_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentation.h" alt="" coords="673,102,867,143"/>
+<area shape="rect" id="node11" href="$qMRMLSegmentationConversionParametersWidget_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentationConversion\lParametersWidget.h" alt="" coords="892,95,1187,151"/>
+<area shape="rect" id="node7" href="$vtkMRMLSegmentationNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lNode.h" alt="" coords="634,206,917,247"/>
+<area shape="rect" id="node8" href="$vtkSlicerSegmentationGeometryLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationGeometry\lLogic.h" alt="" coords="341,303,618,359"/>
+<area shape="rect" id="node9" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="642,303,909,359"/>
+<area shape="rect" id="node10" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="933,310,1207,351"/>
+</map>

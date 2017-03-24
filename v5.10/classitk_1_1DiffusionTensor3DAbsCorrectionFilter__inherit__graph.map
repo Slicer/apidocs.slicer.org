@@ -1,0 +1,5 @@
+<map id="itk::DiffusionTensor3DAbsCorrectionFilter&lt; TInputImage, TOutputImage &gt;" name="itk::DiffusionTensor3DAbsCorrectionFilter&lt; TInputImage, TOutputImage &gt;">
+<area shape="rect" id="Node000001" title="Computes pixel&#45;wise the absolute value of the diffusion tensor eigenvalues." alt="" coords="384,20,607,75"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,336,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,45,384,45,384,50,350,50"/>
+</map>

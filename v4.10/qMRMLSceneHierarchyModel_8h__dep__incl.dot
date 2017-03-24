@@ -1,0 +1,13 @@
+digraph "Libs/MRML/Widgets/qMRMLSceneHierarchyModel.h"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node6 [label="Libs/MRML/Widgets/qMRMLScene\lHierarchyModel.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Libs/MRML/Widgets/qMRMLScene\lDisplayableModel.h",height=0.2,width=0.4,color="black",URL="$qMRMLSceneDisplayableModel_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Libs/MRML/Widgets/qMRMLScene\lModelHierarchyModel.h",height=0.2,width=0.4,color="black",URL="$qMRMLSceneModelHierarchyModel_8h.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Modules/Loadable/Annotations\l/Widgets/qMRMLSceneAnnotationModel.h",height=0.2,width=0.4,color="black",URL="$qMRMLSceneAnnotationModel_8h.html"];
+}

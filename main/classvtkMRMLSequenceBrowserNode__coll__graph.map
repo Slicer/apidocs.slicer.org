@@ -1,0 +1,10 @@
+<map id="vtkMRMLSequenceBrowserNode" name="vtkMRMLSequenceBrowserNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,243,239,268"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="63,168,181,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,208,125,242,119,242,119,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="74,5,159,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,44,124,168,119,168,115,45"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="139,80,297,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="146,37,203,77,200,82,143,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,116,137,169,134,165,193,112"/>
+</map>

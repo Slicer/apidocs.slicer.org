@@ -1,0 +1,15 @@
+<map id="Base/QTCore/qSlicerCoreApplication.h" name="Base/QTCore/qSlicerCoreApplication.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,5,383,31"/>
+<area shape="rect" id="Node000002" href="$qSlicerBaseQTCorePythonQtDecorators_8h.html" title=" " alt="" coords="5,79,237,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,40,154,81,151,76,217,36"/>
+<area shape="rect" id="Node000003" href="$qSlicerApplication_8h.html" title=" " alt="" coords="262,86,495,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="281,36,361,83,358,88,279,40"/>
+<area shape="rect" id="Node000004" href="$qSlicerApplicationHelper_8h.html" title=" " alt="" coords="140,167,361,207"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,121,280,169,277,164,348,117"/>
+<area shape="rect" id="Node000006" href="$qSlicerIOManager_8h.html" title=" " alt="" coords="390,174,621,199"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="409,117,490,172,487,176,406,121"/>
+<area shape="rect" id="Node000005" href="$qSlicerBaseQTAppPythonQtDecorators_8h.html" title=" " alt="" coords="130,255,353,295"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="250,221,246,255,241,254,244,220"/>
+<area shape="rect" id="Node000007" href="$qSlicerBaseQTGUIPythonQtDecorators_8h.html" title=" " alt="" coords="377,255,644,295"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="510,213,512,254,507,254,504,213"/>
+</map>
