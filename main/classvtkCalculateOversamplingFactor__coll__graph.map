@@ -1,0 +1,9 @@
+<map id="vtkCalculateOversamplingFactor" name="vtkCalculateOversamplingFactor">
+<area shape="rect" id="Node000001" title="Calculate oversampling factor based on model properties using fuzzy logics." alt="" coords="5,168,200,208"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,80,97,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,116,95,167,91,169,65,119"/>
+<area shape="rect" id="Node000003" href="$classvtkOrientedImageData.html" title="Image data containing orientation information." alt="" coords="121,80,292,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,116,126,170,122,166,182,112"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="149,5,264,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="209,45,209,80,204,80,204,45"/>
+</map>

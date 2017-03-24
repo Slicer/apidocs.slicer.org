@@ -1,0 +1,17 @@
+<map id="qSlicerSegmentEditorAbstractLabelEffect" name="qSlicerSegmentEditorAbstractLabelEffect">
+<area shape="rect" id="Node000001" title="Base class for all &quot;label&quot; effects." alt="" coords="392,101,608,141"/>
+<area shape="rect" id="Node000004" href="$classqSlicerSegmentEditorPaintEffect.html" title=" " alt="" coords="666,37,861,77"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="595,95,680,75,681,80,597,101"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSegmentEditorScissorsEffect.html" title=" " alt="" coords="656,101,871,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="621,119,656,119,656,124,621,124"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSegmentEditorScriptedLabelEffect.html" title="Scripted abstract effect for implementing label effects in python." alt="" coords="656,165,871,205"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="597,142,681,163,680,168,595,147"/>
+<area shape="rect" id="Node000002" href="$classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects." alt="" coords="128,101,344,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,119,392,119,392,124,357,124"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,109,80,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,119,128,119,128,124,94,124"/>
+<area shape="rect" id="Node000005" href="$classqSlicerSegmentEditorEraseEffect.html" title=" " alt="" coords="927,5,1125,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="874,41,926,35,927,40,875,46"/>
+<area shape="rect" id="Node000006" href="$classqSlicerSegmentEditorScriptedPaintEffect.html" title="Scripted abstract effect for implementing paint effects in python." alt="" coords="919,69,1133,109"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="874,68,919,74,918,79,874,73"/>
+</map>

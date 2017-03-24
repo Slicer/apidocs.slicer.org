@@ -1,0 +1,10 @@
+<map id="Modules/Loadable/Volumes/SubjectHierarchyPlugins/qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.h" name="Modules/Loadable/Volumes/SubjectHierarchyPlugins/qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.h">
+<area shape="rect" id="node2" href="$qSlicerSubjectHierarchyAbstractPlugin_8h.html" title="qSlicerSubjectHierarchyAbstract\lPlugin.h" alt="" coords="168,124,396,165"/>
+<area shape="rect" id="node7" href="$vtkMRMLSubjectHierarchyNode_8h.html" title="vtkMRMLSubjectHierarchyNode.h" alt="" coords="387,221,620,247"/>
+<area shape="rect" id="node8" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="621,303,745,329"/>
+<area shape="rect" id="node24" href="$vtkMRMLSubjectHierarchyConstants_8h.html" title="vtkMRMLSubjectHierarchyConstants.h" alt="" coords="131,303,395,329"/>
+<area shape="rect" id="node9" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="373,452,463,479"/>
+<area shape="rect" id="node11" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="661,377,828,404"/>
+<area shape="rect" id="node18" href="$vtkLoggingMacros_8h.html" title="vtkLoggingMacros.h" alt="" coords="903,377,1053,404"/>
+<area shape="rect" id="node19" href="$vtkAddon_8h.html" title="vtkAddon.h" alt="" coords="931,452,1025,479"/>
+</map>

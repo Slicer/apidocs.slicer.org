@@ -1,0 +1,10 @@
+<map id="qSlicerSegmentationsModuleWidgetsAbstractPlugin" name="qSlicerSegmentationsModuleWidgetsAbstractPlugin">
+<area shape="rect" id="node3" href="$classqMRMLSegmentationConversionParametersWidgetPlugin.html" title="qMRMLSegmentationConversion\lParametersWidgetPlugin" alt="" coords="573,5,808,47"/>
+<area shape="rect" id="node4" href="$classqMRMLSegmentationDisplayNodeWidgetPlugin.html" title="qMRMLSegmentationDisplay\lNodeWidgetPlugin" alt="" coords="585,71,796,112"/>
+<area shape="rect" id="node5" href="$classqMRMLSegmentationFileExportWidgetPlugin.html" title="qMRMLSegmentationFileExport\lWidgetPlugin" alt="" coords="577,136,804,177"/>
+<area shape="rect" id="node6" href="$classqMRMLSegmentationRepresentationsListViewPlugin.html" title="qMRMLSegmentationRepresentations\lListViewPlugin" alt="" coords="557,201,824,243"/>
+<area shape="rect" id="node7" href="$classqMRMLSegmentationShow3DButtonPlugin.html" title="qMRMLSegmentationShow3DButton\lPlugin" alt="" coords="562,267,819,308"/>
+<area shape="rect" id="node8" href="$classqMRMLSegmentEditorWidgetPlugin.html" title="qMRMLSegmentEditorWidget\lPlugin" alt="" coords="585,332,797,373"/>
+<area shape="rect" id="node9" href="$classqMRMLSegmentSelectorWidgetPlugin.html" title="qMRMLSegmentSelectorWidget\lPlugin" alt="" coords="577,397,804,439"/>
+<area shape="rect" id="node10" href="$classqMRMLSegmentsTableViewPlugin.html" title="qMRMLSegmentsTableViewPlugin" alt="" coords="570,463,811,490"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classvtkITKDistanceTransform.html" title="Wrapper class around itk::SignedMaurerDistanceMapImageFilter. " alt="" coords="271,5,450,32"/>
+<area shape="rect" id="node3" href="$classvtkITKIslandMath.html" title="ITK&#45;based utilities for manipulating connected regions in label maps. Limitation: The filter does not..." alt="" coords="297,56,425,83"/>
+<area shape="rect" id="node4" href="$classvtkITKMorphologicalContourInterpolator.html" title="Wrapper class around itk::MorphologicalContourInterpolator. " alt="" coords="261,107,460,149"/>
+<area shape="rect" id="node5" href="$classvtkITKWandImageFilter.html" title="Wand tool implemented using connected threshold. " alt="" coords="279,173,442,200"/>
+</map>

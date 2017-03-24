@@ -1,0 +1,13 @@
+<map id="Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentSelectorWidgetPlugin.h" name="Modules/Loadable/Segmentations/Widgets/DesignerPlugins/qMRMLSegmentSelectorWidgetPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,304,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="35,115,109,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,62,94,107,90,103,129,59"/>
+<area shape="rect" id="Node000003" href="$qSlicerSegmentationsModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="133,108,345,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,59,215,96,211,100,177,62"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="29,203,107,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,150,104,200,102,195,200,146"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="132,196,345,236"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="241,148,241,182,236,182,236,148"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="370,196,582,236"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="292,146,412,189,410,194,290,151"/>
+</map>

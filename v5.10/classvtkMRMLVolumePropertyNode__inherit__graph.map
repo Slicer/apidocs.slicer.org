@@ -1,0 +1,9 @@
+<map id="vtkMRMLVolumePropertyNode" name="vtkMRMLVolumePropertyNode">
+<area shape="rect" id="Node000001" title="vtkMRMLVolumePropertyNode contains the transfer functions (scalar opacity, color and gradient opacity..." alt="" coords="5,225,225,251"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="30,152,201,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,191,118,225,113,225,113,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="57,79,174,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,118,118,152,113,152,113,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="73,5,158,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,44,118,79,113,79,113,44"/>
+</map>

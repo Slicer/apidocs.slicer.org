@@ -1,0 +1,9 @@
+<map id="qMRMLMarkupsDisplayNodeWidgetPlugin" name="qMRMLMarkupsDisplayNodeWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,167,260,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,86,83,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,119,115,164,111,168,66,123"/>
+<area shape="rect" id="Node000003" href="$classqSlicerMarkupsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="108,79,331,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,130,154,168,150,165,189,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="97,5,341,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,44,222,79,217,79,217,44"/>
+</map>

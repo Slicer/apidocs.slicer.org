@@ -1,0 +1,11 @@
+<map id="vtkMRMLThreeDSliceEdgeDisplayableManager" name="vtkMRMLThreeDSliceEdgeDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager for showing slice edges in 3D views." alt="" coords="5,328,275,368"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="31,240,249,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,294,143,328,137,328,137,294"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="33,152,247,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,206,143,240,137,240,137,206"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="54,79,226,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="143,118,143,152,137,152,137,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="97,5,183,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="143,44,143,79,137,79,137,44"/>
+</map>

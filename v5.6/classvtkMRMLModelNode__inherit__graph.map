@@ -1,0 +1,27 @@
+<map id="vtkMRMLModelNode" name="vtkMRMLModelNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a 3D surface model." alt="" coords="298,372,455,397"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLAnnotationNode.html" title=" " alt="" coords="282,445,471,471"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="379,411,379,445,374,445,374,411"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="279,299,474,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="379,338,379,372,374,372,374,338"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="272,225,481,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,264,379,299,374,299,374,264"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="291,152,462,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="379,191,379,225,374,225,374,191"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="318,79,435,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="379,118,379,152,374,152,374,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="334,5,419,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="379,44,379,79,374,79,374,44"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLAnnotationControlPointsNode.html" title=" " alt="" coords="150,519,353,559"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="348,480,283,521,280,516,345,476"/>
+<area shape="rect" id="Node000013" href="$classvtkMRMLAnnotationSnapshotNode.html" title=" " alt="" coords="377,526,627,551"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="408,476,485,524,482,528,405,480"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLAnnotationFiducialNode.html" title="MRML node to represent a fiducial in the Annotations module &#45; deprecated." alt="" coords="5,607,244,632"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="210,568,145,609,142,604,207,564"/>
+<area shape="rect" id="Node000010" href="$classvtkMRMLAnnotationLinesNode.html" title=" " alt="" coords="268,607,491,632"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="295,564,362,604,359,609,292,568"/>
+<area shape="rect" id="Node000011" href="$classvtkMRMLAnnotationROINode.html" title=" " alt="" coords="153,680,365,705"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="349,641,280,682,278,677,347,637"/>
+<area shape="rect" id="Node000012" href="$classvtkMRMLAnnotationRulerNode.html" title=" " alt="" coords="389,680,612,705"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="412,637,482,677,479,682,410,641"/>
+</map>

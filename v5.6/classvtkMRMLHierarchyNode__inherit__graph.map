@@ -1,0 +1,15 @@
+<map id="vtkMRMLHierarchyNode" name="vtkMRMLHierarchyNode">
+<area shape="rect" id="Node000001" title="Abstract class representing a hierarchy member." alt="" coords="316,152,496,177"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayableHierarchyNode.html" title="MRML node to represent a hierarchy of displayable nodes." alt="" coords="132,225,389,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="372,186,286,228,283,223,369,181"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLSubjectHierarchyLegacyNode.html" title="Legacy subject hierarchy node to allow loading older MRML scenes." alt="" coords="414,225,689,251"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="443,181,529,223,526,228,440,186"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="347,79,465,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,118,409,152,403,152,403,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="363,5,449,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,44,409,79,403,79,403,44"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLAnnotationHierarchyNode.html" title=" " alt="" coords="5,299,257,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,260,154,301,151,296,226,255"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLModelHierarchyNode.html" title="MRML node to represent a hierarchy of models." alt="" coords="281,299,501,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="295,255,371,296,369,301,293,260"/>
+</map>

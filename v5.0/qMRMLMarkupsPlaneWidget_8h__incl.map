@@ -1,0 +1,17 @@
+<map id="Modules/Loadable/Markups/Widgets/qMRMLMarkupsPlaneWidget.h" name="Modules/Loadable/Markups/Widgets/qMRMLMarkupsPlaneWidget.h">
+<area shape="rect" id="node3" href="$qMRMLMarkupsAbstractOptionsWidget_8h.html" title="qMRMLMarkupsAbstractOptions\lWidget.h" alt="" coords="222,95,451,136"/>
+<area shape="rect" id="node5" href="$vtkMRMLScene_8h.html" title="vtkMRMLScene.h" alt="" coords="456,497,591,524"/>
+<area shape="rect" id="node17" href="$vtkMRMLMarkupsNode_8h.html" title="vtkMRMLMarkupsNode.h" alt="" coords="778,191,962,218"/>
+<area shape="rect" id="node6" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="972,647,1067,673"/>
+<area shape="rect" id="node18" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="441,273,648,300"/>
+<area shape="rect" id="node32" href="$vtkCurveGenerator_8h.html" title="vtkCurveGenerator.h" alt="" coords="1161,273,1318,300"/>
+<area shape="rect" id="node39" href="$vtkMRMLMeasurement_8h.html" title="vtkMRMLMeasurement.h" alt="" coords="1679,423,1864,449"/>
+<area shape="rect" id="node42" href="$vtkMRMLSelectionNode_8h.html" title="vtkMRMLSelectionNode.h" alt="" coords="731,423,921,449"/>
+<area shape="rect" id="node19" href="$vtkMRMLStorageNode_8h.html" title="vtkMRMLStorageNode.h" alt="" coords="945,423,1123,449"/>
+<area shape="rect" id="node29" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="405,348,626,375"/>
+<area shape="rect" id="node20" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="969,497,1099,524"/>
+<area shape="rect" id="node21" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="971,572,1142,599"/>
+<area shape="rect" id="node25" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="2096,572,2327,599"/>
+<area shape="rect" id="node30" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="405,423,588,449"/>
+<area shape="rect" id="node40" href="$vtkCodedEntry_8h.html" title="vtkCodedEntry.h" alt="" coords="1893,572,2021,599"/>
+</map>

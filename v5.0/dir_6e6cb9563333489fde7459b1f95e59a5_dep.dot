@@ -1,0 +1,18 @@
+digraph "Libs" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6e6cb9563333489fde7459b1f95e59a5 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+    dir_6e6cb9563333489fde7459b1f95e59a5 [shape=plaintext label="Libs"];
+    dir_8fdf0652ef7182f369513f9d37e0e19e [shape=box label="ITKFactoryRegistration" color="black" fillcolor="white" style="filled" URL="dir_8fdf0652ef7182f369513f9d37e0e19e.html"];
+    dir_bf88b8eb9079642a844821688c9bd6e7 [shape=box label="MRML" color="red" fillcolor="white" style="filled" URL="dir_bf88b8eb9079642a844821688c9bd6e7.html"];
+    dir_b3f8f97276a91399800852bec615224b [shape=box label="RemoteIO" color="black" fillcolor="white" style="filled" URL="dir_b3f8f97276a91399800852bec615224b.html"];
+    dir_eae80bbb96fa0b5ba292e64e02d2adf4 [shape=box label="vtkITK" color="black" fillcolor="white" style="filled" URL="dir_eae80bbb96fa0b5ba292e64e02d2adf4.html"];
+    dir_b13f4b7672840242e703bff5c70e0c1a [shape=box label="vtkSegmentationCore" color="black" fillcolor="white" style="filled" URL="dir_b13f4b7672840242e703bff5c70e0c1a.html"];
+    dir_1eb827ca506e84f887b5a6fbdc8a24ae [shape=box label="vtkTeem" color="black" fillcolor="white" style="filled" URL="dir_1eb827ca506e84f887b5a6fbdc8a24ae.html"];
+  }
+  dir_bf88b8eb9079642a844821688c9bd6e7->dir_b13f4b7672840242e703bff5c70e0c1a [headlabel="1", labeldistance=1.5 headhref="dir_000016_000034.html"];
+  dir_b3f8f97276a91399800852bec615224b->dir_bf88b8eb9079642a844821688c9bd6e7 [headlabel="1", labeldistance=1.5 headhref="dir_000032_000016.html"];
+}

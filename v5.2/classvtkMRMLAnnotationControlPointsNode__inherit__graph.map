@@ -1,0 +1,13 @@
+<map id="vtkMRMLAnnotationControlPointsNode" name="vtkMRMLAnnotationControlPointsNode">
+<area shape="rect" id="node9" href="$classvtkMRMLAnnotationFiducialNode.html" title="MRML node to represent a fiducial in the Annotations module &#45; deprecated. " alt="" coords="5,617,244,644"/>
+<area shape="rect" id="node10" href="$classvtkMRMLAnnotationLinesNode.html" title="vtkMRMLAnnotationLinesNode" alt="" coords="268,617,491,644"/>
+<area shape="rect" id="node13" href="$classvtkMRMLAnnotationTextNode.html" title="vtkMRMLAnnotationTextNode" alt="" coords="515,617,731,644"/>
+<area shape="rect" id="node2" href="$classvtkMRMLAnnotationNode.html" title="vtkMRMLAnnotationNode" alt="" coords="285,453,474,480"/>
+<area shape="rect" id="node3" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="301,379,458,405"/>
+<area shape="rect" id="node4" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="282,304,477,331"/>
+<area shape="rect" id="node5" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="275,229,484,256"/>
+<area shape="rect" id="node6" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="294,155,465,181"/>
+<area shape="rect" id="node7" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="321,80,438,107"/>
+<area shape="rect" id="node11" href="$classvtkMRMLAnnotationROINode.html" title="vtkMRMLAnnotationROINode" alt="" coords="153,692,365,719"/>
+<area shape="rect" id="node12" href="$classvtkMRMLAnnotationRulerNode.html" title="vtkMRMLAnnotationRulerNode" alt="" coords="389,692,612,719"/>
+</map>

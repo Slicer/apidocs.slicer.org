@@ -1,0 +1,9 @@
+<map id="qSlicerLabelMapVolumeDisplayWidget" name="qSlicerLabelMapVolumeDisplayWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,232,192"/>
+<area shape="rect" id="Node000002" href="$classqSlicerWidget.html" title=" " alt="" coords="63,79,175,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,118,121,152,116,152,116,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="21,5,99,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,40,111,77,107,80,76,43"/>
+<area shape="rect" id="Node000004" href="$classqSlicerObject.html" title=" " alt="" coords="123,5,231,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="161,43,130,80,126,77,157,40"/>
+</map>

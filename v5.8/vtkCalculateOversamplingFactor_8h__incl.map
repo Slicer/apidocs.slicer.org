@@ -1,0 +1,16 @@
+<map id="Libs/vtkSegmentationCore/vtkCalculateOversamplingFactor.h" name="Libs/vtkSegmentationCore/vtkCalculateOversamplingFactor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="239,5,488,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,103,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,48,113,92,112,87,289,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,93,282,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="327,48,241,90,239,85,324,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="306,93,421,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="366,46,366,79,361,79,361,46"/>
+<area shape="rect" id="Node000005" href="$vtkOrientedImageData_8h.html" title=" " alt="" coords="496,93,679,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="418,43,543,86,541,91,416,48"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="339,167,577,192"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="390,44,414,65,435,92,449,123,457,152,451,154,444,124,430,95,410,69,387,47"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="568,121,493,162,490,157,565,116"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="601,167,728,192"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="602,117,644,155,640,159,598,121"/>
+</map>

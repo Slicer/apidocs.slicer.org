@@ -1,0 +1,13 @@
+<map id="itk::DiffusionTensor3DAffineTransform&lt; TData &gt;" name="itk::DiffusionTensor3DAffineTransform&lt; TData &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="675,37,877,77"/>
+<area shape="rect" id="Node000005" href="$classitk_1_1DiffusionTensor3DFSAffineTransform.html" title=" " alt="" coords="931,5,1149,45"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="891,41,930,36,931,41,891,46"/>
+<area shape="rect" id="Node000006" href="$classitk_1_1DiffusionTensor3DPPDAffineTransform.html" title=" " alt="" coords="925,69,1155,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="891,69,925,73,925,78,891,74"/>
+<area shape="rect" id="Node000002" href="$classitk_1_1DiffusionTensor3DMatrix3x3Transform.html" title=" " alt="" coords="396,37,627,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="640,55,674,55,674,60,640,60"/>
+<area shape="rect" id="Node000003" href="$classitk_1_1DiffusionTensor3DTransform.html" title=" " alt="" coords="117,37,348,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,55,396,55,396,60,362,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,45,69,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,55,117,55,117,60,83,60"/>
+</map>

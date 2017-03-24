@@ -1,0 +1,9 @@
+<map id="qMRMLVolumeWidget" name="qMRMLVolumeWidget">
+<area shape="rect" id="Node000001" title="Abstract widget to represent and control the properties of a scalar volume node." alt="" coords="157,79,321,104"/>
+<area shape="rect" id="Node000003" href="$classqMRMLVolumeThresholdWidget.html" title=" " alt="" coords="5,152,233,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,113,140,154,138,149,207,109"/>
+<area shape="rect" id="Node000004" href="$classqMRMLWindowLevelWidget.html" title=" " alt="" coords="258,152,461,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="272,109,341,149,338,154,269,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="200,5,279,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,44,242,79,237,79,237,44"/>
+</map>

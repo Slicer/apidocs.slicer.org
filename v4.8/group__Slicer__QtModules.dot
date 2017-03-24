@@ -1,0 +1,38 @@
+digraph "Slicer Qt Loadable Modules"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node3 [label="Cameras",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Cameras.html"];
+  Node8 [label="Models",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Models.html"];
+  Node2 [label="Annotation",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Annotation.html"];
+  Node1 [label="EventBroker",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__EventBroker.html"];
+  Node0 [label="Slicer Qt Loadable\l Modules",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 [label="CropVolume",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__CropVolume.html"];
+  Node12 [label="Tables",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Tables.html"];
+  Node14 [label="VolumeRendering",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__VolumeRendering.html"];
+  Node11 [label="SlicerWelcome",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__SlicerWelcome.html"];
+  Node13 [label="Transforms",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Transforms.html"];
+  Node7 [label="Measurements",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Measurements.html"];
+  Node10 [label="SceneViews",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__SceneViews.html"];
+  Node9 [label="Reformat",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Reformat.html"];
+  Node6 [label="Markups",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Markups.html"];
+  Node15 [label="Volumes",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__Volumes.html"];
+  Node5 [label="DoubleArrays",height=0.2,width=0.4,color="black",URL="$group__Slicer__QtModules__DoubleArrays.html"];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node8 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node9 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node10 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node11 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node12 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node13 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node14 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node15 [shape=plaintext, dir="back", style="solid"];
+}

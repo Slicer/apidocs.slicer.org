@@ -1,0 +1,6 @@
+<map id="vtkSegmentationConverterRule" name="vtkSegmentationConverterRule">
+<area shape="rect" id="node3" href="$classvtkBinaryLabelmapToClosedSurfaceConversionRule.html" title="Convert binary labelmap representation (vtkOrientedImageData type) to closed surface representation (..." alt="" coords="405,5,605,47"/>
+<area shape="rect" id="node5" href="$classvtkClosedSurfaceToBinaryLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to binary labelmap representation (vtkOrient..." alt="" coords="412,71,599,112"/>
+<area shape="rect" id="node4" href="$classvtkFractionalLabelmapToClosedSurfaceConversionRule.html" title="Convert Fractional labelmap representation (vtkOrientedImageData type) to closed surface representati..." alt="" coords="653,5,875,47"/>
+<area shape="rect" id="node6" href="$classvtkClosedSurfaceToFractionalLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to fractional labelmap representation (vtkOr..." alt="" coords="661,71,867,112"/>
+</map>

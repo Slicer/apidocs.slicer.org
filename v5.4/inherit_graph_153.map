@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classvtkSlicerMarkupsWidgetRepresentation_1_1MarkupsInteractionPipeline.html" title=" " alt="" coords="5,69,284,109"/>
+<area shape="rect" id="Node000001" href="$classvtkSlicerMarkupsWidgetRepresentation2D_1_1MarkupsInteractionPipeline2D.html" title=" " alt="" coords="332,5,619,45"/>
+<area shape="poly" id="edge986_Node000000_Node000001" title=" " alt="" coords="262,64,371,43,372,48,263,69"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerPlaneRepresentation3D_1_1MarkupsInteractionPipelinePlane.html" title=" " alt="" coords="349,69,602,109"/>
+<area shape="poly" id="edge987_Node000000_Node000002" title=" " alt="" coords="298,87,349,87,349,92,298,92"/>
+<area shape="rect" id="Node000004" href="$classvtkSlicerROIRepresentation3D_1_1MarkupsInteractionPipelineROI.html" title=" " alt="" coords="355,133,595,173"/>
+<area shape="poly" id="edge989_Node000000_Node000004" title=" " alt="" coords="263,109,372,131,371,136,262,115"/>
+<area shape="rect" id="Node000003" href="$classvtkSlicerPlaneRepresentation2D_1_1MarkupsInteractionPipelinePlane2D.html" title=" " alt="" coords="667,69,937,109"/>
+<area shape="poly" id="edge988_Node000002_Node000003" title=" " alt="" coords="616,87,666,87,666,92,616,92"/>
+<area shape="rect" id="Node000005" href="$classvtkSlicerROIRepresentation2D_1_1MarkupsInteractionPipelineROI2D.html" title=" " alt="" coords="673,133,931,173"/>
+<area shape="poly" id="edge990_Node000004_Node000005" title=" " alt="" coords="609,151,673,151,673,156,609,156"/>
+</map>

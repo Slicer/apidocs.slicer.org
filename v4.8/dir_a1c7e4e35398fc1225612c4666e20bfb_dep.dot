@@ -1,0 +1,19 @@
+digraph "Modules/Loadable/VolumeRendering/Widgets" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c12f7f1f51823e34c0f7350e4103bbbd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="VolumeRendering" fontname="Helvetica", fontsize="10", URL="dir_c12f7f1f51823e34c0f7350e4103bbbd.html"]
+  subgraph clusterdir_a1c7e4e35398fc1225612c4666e20bfb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a1c7e4e35398fc1225612c4666e20bfb.html"];
+    dir_a1c7e4e35398fc1225612c4666e20bfb [shape=plaintext label="Widgets"];
+    dir_6926e17124a0a67f38e5bc944fb8e285 [shape=box label="DesignerPlugins" color="black" fillcolor="white" style="filled" URL="dir_6926e17124a0a67f38e5bc944fb8e285.html"];
+  }
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_a1c7e4e35398fc1225612c4666e20bfb->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="1", labeldistance=1.5 headhref="dir_000134_000012.html"];
+  dir_a1c7e4e35398fc1225612c4666e20bfb->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000134_000002.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="12", labeldistance=1.5 headhref="dir_000002_000012.html"];
+}

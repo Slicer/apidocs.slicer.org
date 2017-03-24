@@ -1,0 +1,17 @@
+<map id="vtkMRMLLabelMapVolumeNode" name="vtkMRMLLabelMapVolumeNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a label map volume." alt="" coords="5,519,235,544"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="17,445,223,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,484,123,519,117,519,117,484"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="37,372,203,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,411,123,445,117,445,117,411"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="23,299,217,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,338,123,372,117,372,117,338"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="15,225,225,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="123,264,123,299,117,299,117,264"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="35,152,205,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="123,191,123,225,117,225,117,191"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="61,79,179,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="123,118,123,152,117,152,117,118"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="77,5,163,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="123,44,123,79,117,79,117,44"/>
+</map>

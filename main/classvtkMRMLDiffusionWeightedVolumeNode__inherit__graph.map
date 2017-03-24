@@ -1,0 +1,17 @@
+<map id="vtkMRMLDiffusionWeightedVolumeNode" name="vtkMRMLDiffusionWeightedVolumeNode">
+<area shape="rect" id="Node000001" title="MRML node for representing diffusion weighted MRI volume." alt="" coords="9,519,211,559"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="7,445,213,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,484,113,519,107,519,107,484"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="27,372,193,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,411,113,445,107,445,107,411"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="13,299,207,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,338,113,372,107,372,107,338"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="5,225,215,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,264,113,299,107,299,107,264"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="25,152,195,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="113,191,113,225,107,225,107,191"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="51,79,169,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="113,118,113,152,107,152,107,118"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="67,5,153,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="113,44,113,79,107,79,107,44"/>
+</map>

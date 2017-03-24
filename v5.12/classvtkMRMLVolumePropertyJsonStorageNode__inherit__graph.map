@@ -1,0 +1,9 @@
+<map id="vtkMRMLVolumePropertyJsonStorageNode" name="vtkMRMLVolumePropertyJsonStorageNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,219,265"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="29,152,195,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,191,115,225,109,225,109,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="53,79,171,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,118,115,152,109,152,109,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="69,5,155,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="115,44,115,79,109,79,109,44"/>
+</map>

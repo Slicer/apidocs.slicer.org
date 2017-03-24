@@ -1,0 +1,6 @@
+<map id="vtkMRMLMarkupsFiducialDisplayableManager3D" name="vtkMRMLMarkupsFiducialDisplayableManager3D">
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsDisplayableManager3D.html" title="vtkMRMLMarkupsDisplayable\lManager3D" alt="" coords="28,333,233,375"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="27,244,234,285"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="28,155,233,196"/>
+<area shape="rect" id="node5" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="48,80,213,107"/>
+</map>

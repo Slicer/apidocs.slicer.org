@@ -1,0 +1,9 @@
+<map id="vtkSlicerMarkupsInteractionWidgetRepresentation" name="vtkSlicerMarkupsInteractionWidgetRepresentation">
+<area shape="rect" id="Node000001" title="Abstract representation for the transform handle widgets." alt="" coords="45,240,249,280"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLInteractionWidgetRepresentation.html" title="Class for rendering interaction handles." alt="" coords="47,152,246,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,206,149,240,144,240,144,206"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="5,79,288,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,118,149,152,144,152,144,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,5,183,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="149,44,149,79,144,79,144,44"/>
+</map>

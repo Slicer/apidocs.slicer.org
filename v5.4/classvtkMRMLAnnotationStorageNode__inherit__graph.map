@@ -1,0 +1,17 @@
+<map id="vtkMRMLAnnotationStorageNode" name="vtkMRMLAnnotationStorageNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,225,364,251"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLAnnotationControlPointsStorageNode.html" title=" " alt="" coords="143,299,346,339"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="247,264,247,299,242,299,242,264"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="161,152,328,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,191,247,225,242,225,242,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="186,79,303,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="247,118,247,152,242,152,242,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="202,5,287,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,44,247,79,242,79,242,44"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLAnnotationFiducialsStorageNode.html" title=" " alt="" coords="5,387,217,427"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="205,349,142,389,139,384,202,344"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLAnnotationLinesStorageNode.html" title=" " alt="" coords="241,394,515,419"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="287,344,361,392,359,396,284,348"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLAnnotationRulerStorageNode.html" title=" " alt="" coords="241,475,515,500"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="381,433,381,474,375,474,375,433"/>
+</map>

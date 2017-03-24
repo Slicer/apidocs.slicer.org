@@ -1,0 +1,14 @@
+<map id="Libs/MRML/Widgets/qMRMLVolumeInfoWidget.h" name="Libs/MRML/Widgets/qMRMLVolumeInfoWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,5,390,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,107,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,48,101,91,99,86,214,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="131,93,253,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,47,214,85,210,81,246,44"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidget_8h.html" title=" " alt="" coords="277,93,403,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="285,44,321,81,317,85,281,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="353,167,529,192"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="341,43,382,62,418,92,435,121,442,152,437,153,430,123,414,95,379,67,339,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="250,167,329,192"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="334,121,308,157,303,154,329,117"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="358,116,415,156,412,161,355,121"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Libs/vtkSegmentationCore/vtkSegment.h" name="Libs/vtkSegmentationCore/vtkSegment.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="489,5,684,45"/>
+<area shape="rect" id="Node000002" href="$vtkSegmentation_8h.html" title=" " alt="" coords="489,93,684,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="589,59,589,93,584,93,584,59"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLSegmentationNode_8h.html" title=" " alt="" coords="445,181,728,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="589,147,589,181,584,181,584,147"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerSegmentationGeometryLogic_8h.html" title=" " alt="" coords="5,269,283,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="484,227,269,272,268,267,483,222"/>
+<area shape="rect" id="Node000005" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title=" " alt="" coords="307,269,573,324"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="547,231,483,271,480,267,544,226"/>
+<area shape="rect" id="Node000006" href="$vtkMRMLSegmentEditorNode_8h.html" title=" " alt="" coords="598,277,871,317"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="629,226,706,274,703,279,627,231"/>
+<area shape="rect" id="Node000007" href="$qSlicerSegmentationsModuleWidget_8h.html" title=" " alt="" coords="896,277,1171,317"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="691,222,944,274,943,279,690,227"/>
+</map>

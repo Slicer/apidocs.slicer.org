@@ -1,0 +1,7 @@
+<map id="vtkMRMLMeasurement" name="vtkMRMLMeasurement">
+<area shape="rect" id="node3" href="$classvtkMRMLMeasurementAngle.html" title="Measurement class calculating angle. " alt="" coords="366,5,577,32"/>
+<area shape="rect" id="node4" href="$classvtkMRMLMeasurementArea.html" title="Measurement class calculating area of a plane or enclosed by a closed curve. " alt="" coords="370,56,573,83"/>
+<area shape="rect" id="node5" href="$classvtkMRMLMeasurementLength.html" title="Measurement class calculating curve length. " alt="" coords="363,107,580,133"/>
+<area shape="rect" id="node6" href="$classvtkMRMLMeasurementVolume.html" title="Measurement class calculating Volume enclosed in a ROI. " alt="" coords="360,157,583,184"/>
+<area shape="rect" id="node7" href="$classvtkMRMLStaticMeasurement.html" title="Measurement class storing a constant measurement. " alt="" coords="366,208,577,235"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="qSlicerVolumesModuleWidgetsAbstractPlugin" name="qSlicerVolumesModuleWidgetsAbstractPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="297,165,520,205"/>
+<area shape="rect" id="Node000003" href="$classqSlicerDTISliceDisplayWidgetPlugin.html" title=" " alt="" coords="574,5,789,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,153,494,103,530,77,567,55,594,43,596,48,569,60,533,82,498,107,441,157"/>
+<area shape="rect" id="Node000004" href="$classqSlicerDiffusionTensorVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="574,69,789,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="467,157,567,119,605,107,606,112,569,124,469,162"/>
+<area shape="rect" id="Node000005" href="$classqSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="578,133,785,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="533,168,578,163,578,168,534,173"/>
+<area shape="rect" id="Node000006" href="$classqSlicerLabelMapVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="568,197,795,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="534,197,568,201,568,207,533,203"/>
+<area shape="rect" id="Node000007" href="$classqSlicerScalarVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="579,261,783,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="469,208,569,247,606,259,605,264,567,252,467,213"/>
+<area shape="rect" id="Node000008" href="$classqSlicerVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="576,325,787,365"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="441,213,498,263,533,289,569,311,596,323,594,328,567,316,530,293,494,268,438,217"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,173,249,198"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,183,297,183,297,188,263,188"/>
+</map>

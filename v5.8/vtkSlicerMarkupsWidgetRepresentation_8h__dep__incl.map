@@ -1,0 +1,33 @@
+<map id="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidgetRepresentation.h" name="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidgetRepresentation.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1213,5,1479,60"/>
+<area shape="rect" id="Node000002" href="$vtkSlicerMarkupsWidgetRepresentation2D_8h.html" title=" " alt="" coords="702,211,969,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1269,68,902,213,900,208,1267,63"/>
+<area shape="rect" id="Node000009" href="$vtkSlicerMarkupsWidgetRepresentation3D_8h.html" title=" " alt="" coords="1723,108,1990,163"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1493,60,1724,105,1723,111,1492,65"/>
+<area shape="rect" id="Node000003" href="$vtkSlicerAngleRepresentation2D_8h.html" title=" " alt="" coords="710,313,1041,353"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="854,277,870,312,865,314,850,279"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerCurveRepresentation2D_8h.html" title=" " alt="" coords="1065,313,1397,353"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="960,266,1152,311,1151,316,959,271"/>
+<area shape="rect" id="Node000005" href="$vtkSlicerLineRepresentation2D_8h.html" title=" " alt="" coords="5,313,327,353"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="689,262,301,316,301,311,688,257"/>
+<area shape="rect" id="Node000006" href="$vtkSlicerPlaneRepresentation2D_8h.html" title=" " alt="" coords="1999,313,2330,353"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="982,263,982,263,1242,286,1445,295,1648,299,1909,311,1999,317,1999,322,1909,316,1648,304,1445,300,1242,292,982,268,981,268"/>
+<area shape="rect" id="Node000007" href="$vtkSlicerPointsRepresentation2D_8h.html" title=" " alt="" coords="351,313,685,353"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="734,272,583,316,581,311,732,267"/>
+<area shape="rect" id="Node000008" href="$vtkSlicerROIRepresentation2D_8h.html" title=" " alt="" coords="1579,313,1897,353"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="982,263,982,263,1300,297,1579,319,1579,325,1300,303,982,268,981,268"/>
+<area shape="rect" id="Node000010" href="$vtkSlicerAngleRepresentation3D_8h.html" title=" " alt="" coords="2394,218,2725,258"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="2004,154,2382,208,2433,215,2432,221,2382,213,2003,160"/>
+<area shape="rect" id="Node000011" href="$vtkSlicerCurveRepresentation3D_8h.html" title=" " alt="" coords="2749,218,3081,258"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="2004,144,2340,169,2737,208,2794,215,2794,221,2736,213,2339,175,2004,149"/>
+<area shape="rect" id="Node000012" href="$vtkSlicerLineRepresentation3D_8h.html" title=" " alt="" coords="993,218,1315,258"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="1710,159,1328,213,1278,221,1277,215,1327,208,1709,154"/>
+<area shape="rect" id="Node000013" href="$vtkSlicerPlaneRepresentation3D_8h.html" title=" " alt="" coords="2039,218,2370,258"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="1961,164,2140,215,2139,220,1959,169"/>
+<area shape="rect" id="Node000014" href="$vtkSlicerPointsRepresentation3D_8h.html" title=" " alt="" coords="1339,218,1673,258"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="1753,169,1573,220,1571,215,1752,164"/>
+<area shape="rect" id="Node000015" href="$vtkSlicerROIRepresentation3D_8h.html" title=" " alt="" coords="1698,218,2015,258"/>
+<area shape="poly" id="edge15_Node000009_Node000015" title=" " alt="" coords="1859,177,1859,218,1854,218,1854,177"/>
+<area shape="poly" id="edge13_Node000013_Node000006" title=" " alt="" coords="2194,271,2175,314,2170,312,2189,269"/>
+<area shape="poly" id="edge16_Node000015_Node000008" title=" " alt="" coords="1824,269,1764,315,1760,311,1820,264"/>
+</map>

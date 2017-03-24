@@ -1,0 +1,15 @@
+<map id="vtkMRMLBSplineTransformNode" name="vtkMRMLBSplineTransformNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a nonlinear transformation to the parent node using a bspline transform." alt="" coords="5,445,236,471"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLTransformNode.html" title="MRML node for representing a transformation between this node space and a parent node space." alt="" coords="30,372,211,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,411,123,445,118,445,118,411"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="23,299,218,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,338,123,372,118,372,118,338"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="16,225,225,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,264,123,299,118,299,118,264"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="35,152,206,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="123,191,123,225,118,225,118,191"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="62,79,179,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="123,118,123,152,118,152,118,118"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="78,5,163,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="123,44,123,79,118,79,118,44"/>
+</map>
