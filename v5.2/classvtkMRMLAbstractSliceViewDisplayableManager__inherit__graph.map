@@ -1,0 +1,10 @@
+<map id="vtkMRMLAbstractSliceViewDisplayableManager" name="vtkMRMLAbstractSliceViewDisplayableManager">
+<area shape="rect" id="node5" href="$classvtkMRMLCrosshairDisplayableManager.html" title="Displayable manager for the crosshair on slice (2D) views. " alt="" coords="899,5,1120,47"/>
+<area shape="rect" id="node6" href="$classvtkMRMLModelSliceDisplayableManager.html" title="Displayable manager for slice (2D) views. " alt="" coords="894,71,1125,112"/>
+<area shape="rect" id="node7" href="$classvtkMRMLScalarBarDisplayableManager.html" title="Displayable manager for window/level adjustment of volumes. " alt="" coords="898,136,1121,177"/>
+<area shape="rect" id="node8" href="$classvtkMRMLSegmentationsDisplayableManager2D.html" title="Displayable manager for showing segmentations in slice (2D) views. " alt="" coords="880,201,1139,243"/>
+<area shape="rect" id="node9" href="$classvtkMRMLTransformsDisplayableManager2D.html" title="Displayable manager for showing transforms in slice (2D) views. " alt="" coords="894,267,1125,308"/>
+<area shape="rect" id="node10" href="$classvtkMRMLVolumeGlyphSliceDisplayableManager.html" title="Displayable manager for slice (2D) views. " alt="" coords="871,332,1148,373"/>
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="359,169,573,211"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="139,177,311,203"/>
+</map>
