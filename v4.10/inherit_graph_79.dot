@@ -1,0 +1,28 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node768 [label="QDialog",height=0.2,width=0.4,color="grey75"];
+  Node768 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="qMRMLScreenShotDialog",height=0.2,width=0.4,color="black",URL="$classqMRMLScreenShotDialog.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="qSlicerAnnotationModuleSnap\lShotDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerAnnotationModuleSnapShotDialog.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="qSlicerSceneViewsModuleDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerSceneViewsModuleDialog.html"];
+  Node768 -> Node772 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node772 [label="qSlicerAboutDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerAboutDialog.html",tooltip="Pre-request that a qSlicerApplication has been instanced. "];
+  Node768 -> Node773 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node773 [label="qSlicerActionsDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerActionsDialog.html"];
+  Node768 -> Node774 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node774 [label="qSlicerAnnotationModuleProperty\lDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerAnnotationModulePropertyDialog.html"];
+  Node768 -> Node775 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node775 [label="qSlicerAnnotationModuleReport\lDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerAnnotationModuleReportDialog.html"];
+  Node768 -> Node776 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node776 [label="qSlicerErrorReportDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerErrorReportDialog.html",tooltip="Pre-request that a qSlicerApplication has been instanced. "];
+  Node768 -> Node777 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node777 [label="qSlicerExtensionsManager\lDialog",height=0.2,width=0.4,color="black",URL="$classqSlicerExtensionsManagerDialog.html"];
+  Node768 -> Node778 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node778 [label="qSlicerWebDownloadWidget",height=0.2,width=0.4,color="black",URL="$classqSlicerWebDownloadWidget.html"];
+}

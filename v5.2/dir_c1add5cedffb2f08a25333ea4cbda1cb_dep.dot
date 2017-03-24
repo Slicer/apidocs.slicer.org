@@ -1,0 +1,17 @@
+digraph "Modules/CLI" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f2541a3b18981391fa76fac5599e978a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Modules" fontname="Helvetica", fontsize="10", URL="dir_f2541a3b18981391fa76fac5599e978a.html"]
+  subgraph clusterdir_c1add5cedffb2f08a25333ea4cbda1cb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c1add5cedffb2f08a25333ea4cbda1cb.html"];
+    dir_c1add5cedffb2f08a25333ea4cbda1cb [shape=plaintext label="CLI"];
+    dir_651a46ec156df5c971a05fbadd794473 [shape=box label="ACPCTransform" color="black" fillcolor="white" style="filled" URL="dir_651a46ec156df5c971a05fbadd794473.html"];
+    dir_fcb82ea7678b7a0a2d18e0585a2a61bc [shape=box label="ExtractSkeleton" color="black" fillcolor="white" style="filled" URL="dir_fcb82ea7678b7a0a2d18e0585a2a61bc.html"];
+    dir_80f31755961068ba51a5d4eb9f05ba47 [shape=box label="ResampleDTIVolume" color="red" fillcolor="white" style="filled" URL="dir_80f31755961068ba51a5d4eb9f05ba47.html"];
+    dir_db298226147fcac9a2680eab71f9ceb6 [shape=box label="RobustStatisticsSegmenter" color="black" fillcolor="white" style="filled" URL="dir_db298226147fcac9a2680eab71f9ceb6.html"];
+  }
+  }
+}
