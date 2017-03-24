@@ -1,0 +1,25 @@
+<map id="Libs/MRML/Logic/vtkMRMLModuleLogic.h" name="Libs/MRML/Logic/vtkMRMLModuleLogic.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="467,5,710,45"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAbstractLogic_8h.html" title=" " alt="" coords="294,93,478,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="541,48,430,91,428,86,539,43"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="471,167,642,192"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="581,47,563,94,559,124,558,153,553,153,554,124,558,93,576,45"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="573,93,711,119"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="604,44,628,80,624,83,599,47"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="736,93,799,119"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="633,43,730,85,728,90,630,48"/>
+<area shape="rect" id="Node000003" href="$vtkObserverManager_8h.html" title=" " alt="" coords="79,167,250,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="351,121,214,165,212,160,350,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="233,240,331,265"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="368,121,341,141,315,168,299,197,290,227,285,225,294,195,311,165,337,137,365,117"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="325,167,447,192"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="389,119,389,153,383,153,383,119"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="414,116,517,159,515,164,412,121"/>
+<area shape="rect" id="Node000004" href="$vtkMRML_8h.html" title=" " alt="" coords="27,240,121,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="152,194,101,233,98,229,148,190"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="185,190,252,230,250,235,182,194"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="146,240,197,265"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="168,192,172,226,166,227,163,193"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,313,143,339"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="77,266,77,300,71,300,71,266"/>
+</map>

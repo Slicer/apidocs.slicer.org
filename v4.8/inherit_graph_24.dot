@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node824 [label="ImageToImageFilter",height=0.2,width=0.4,color="grey75"];
+  Node824 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="itk::DiffusionTensor3DResample\l\< TInput, TOutput \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1DiffusionTensor3DResample.html"];
+  Node824 -> Node826 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node826 [label="itk::GrowCutSegmentation\lImageFilter\< TInputImage,\l TOutputImage, TWeightPixelType \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1GrowCutSegmentationImageFilter.html"];
+  Node824 -> Node827 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node827 [label="itk::HFieldToDeformation\lFieldImageFilter\< TInputImage,\l TOutputImage \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1HFieldToDeformationFieldImageFilter.html",tooltip="Computes the Mean Diffusivity for every pixel of a input tensor image. "];
+  Node824 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node828 [label="itk::LevelTracingImageFilter\l\< TInputImage, TOutputImage \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1LevelTracingImageFilter.html",tooltip="Trace a level curve/surface given a seed point on the level curve/surface. "];
+  Node824 -> Node829 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node829 [label="itk::MorphologicalContour\lInterpolator\< TImage \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1MorphologicalContourInterpolator.html",tooltip="Interpolates contours between slices. Based on a paper by Albu et al. "];
+  Node824 -> Node830 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node830 [label="itk::NewOtsuThresholdImage\lFilter\< TInputImage, TOutputImage \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1NewOtsuThresholdImageFilter.html",tooltip="Threshold an image using the Otsu Threshold. "];
+  Node824 -> Node831 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node831 [label="itk::SeparateComponentsOf\lADiffusionTensorImage\<\l TInput, TOutput \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1SeparateComponentsOfADiffusionTensorImage.html"];
+  Node824 -> Node832 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node832 [label="itk::TransformDeformation\lFieldFilter\< TInput, TOutput,\l NDimensions \>",height=0.2,width=0.4,color="black",URL="$classitk_1_1TransformDeformationFieldFilter.html"];
+}

@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Transforms/Widgets/qMRMLTransformDisplayNodeWidget.h" name="Modules/Loadable/Transforms/Widgets/qMRMLTransformDisplayNodeWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,5,394,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,96,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,62,89,112,87,107,196,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,115,242,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,62,201,106,197,103,232,59"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidget_8h.html" title=" " alt="" coords="266,115,393,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,59,313,103,309,106,274,62"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="417,108,655,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="335,58,467,101,466,106,333,63"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="214,196,293,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="320,143,276,188,272,184,316,139"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,196,493,221"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="342,139,387,184,383,188,339,143"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Modules/Loadable/Terminologies/Logic/vtkSlicerTerminologyEntry.h" name="Modules/Loadable/Terminologies/Logic/vtkSlicerTerminologyEntry.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="435,5,680,45"/>
+<area shape="rect" id="Node000002" href="$qSlicerTerminologyEditorButton_8h.html" title=" " alt="" coords="5,299,251,353"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="422,43,342,61,261,91,222,111,186,135,154,164,126,197,116,222,113,248,121,298,116,299,108,248,111,220,122,195,150,160,183,131,219,106,259,86,341,56,421,37"/>
+<area shape="rect" id="Node000003" href="$qSlicerTerminologyNavigatorWidget_8h.html" title=" " alt="" coords="422,93,693,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="560,59,560,93,555,93,555,59"/>
+<area shape="rect" id="Node000006" href="$qSlicerTerminologySelectorButton_8h.html" title=" " alt="" coords="989,196,1249,251"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="625,47,1045,193,1043,198,623,52"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="409,135,332,144,258,157,195,175,172,186,155,198,140,220,131,247,128,299,123,298,126,246,135,218,151,194,169,181,193,170,256,152,331,138,408,129"/>
+<area shape="rect" id="Node000004" href="$qSlicerTerminologyEditorDialog_8h.html" title=" " alt="" coords="165,196,411,251"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="475,155,359,198,357,193,473,150"/>
+<area shape="rect" id="Node000005" href="$qSlicerTerminologyEditorWidget_8h.html" title=" " alt="" coords="435,196,680,251"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="560,162,560,196,555,196,555,162"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="707,145,978,193,989,195,988,201,977,199,706,151"/>
+<area shape="rect" id="Node000007" href="$qSlicerTerminologySelectorDialog_8h.html" title=" " alt="" coords="705,196,965,251"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="643,150,763,193,761,198,641,155"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="433,256,240,301,239,296,432,251"/>
+</map>

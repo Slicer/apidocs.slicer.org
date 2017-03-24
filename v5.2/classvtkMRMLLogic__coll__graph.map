@@ -1,0 +1,6 @@
+<map id="vtkMRMLLogic" name="vtkMRMLLogic">
+<area shape="rect" id="node3" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo. " alt="" coords="143,171,265,197"/>
+<area shape="rect" id="node4" href="$classvtkDataIOManager.html" title="vtkDataIOManager" alt="" coords="131,81,277,108"/>
+<area shape="rect" id="node5" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="301,81,400,108"/>
+<area shape="rect" id="node6" href="$classvtkCacheManager.html" title="vtkCacheManager" alt="" coords="425,81,565,108"/>
+</map>

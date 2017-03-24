@@ -1,0 +1,35 @@
+digraph "Modules/Loadable/Cameras/qSlicerCamerasModuleWidget.h"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="Modules/Loadable/Cameras\l/qSlicerCamerasModuleWidget.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="qSlicerAbstractModuleWidget.h",height=0.2,width=0.4,color="black",URL="$qSlicerAbstractModuleWidget_8h.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ctkPimpl.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="qSlicerAbstractModuleRepresentation.h",height=0.2,width=0.4,color="black",URL="$qSlicerAbstractModuleRepresentation_8h.html"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QString",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="qSlicerObject.h",height=0.2,width=0.4,color="black",URL="$qSlicerObject_8h.html"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QScopedPointer",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="qSlicerBaseQTCoreExport.h",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="qSlicerWidget.h",height=0.2,width=0.4,color="black",URL="$qSlicerWidget_8h.html"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QWidget",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ctkVTKObject.h",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="qSlicerBaseQTGUIExport.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="qSlicerCamerasModuleExport.h",height=0.2,width=0.4,color="grey75"];
+}

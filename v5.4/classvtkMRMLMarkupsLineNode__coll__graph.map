@@ -1,0 +1,21 @@
+<map id="vtkMRMLMarkupsLineNode" name="vtkMRMLMarkupsLineNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a line markup Line Markups nodes contain two control points...." alt="" coords="45,552,243,577"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsNode.html" title=" " alt="" coords="58,477,230,503"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,517,147,552,141,552,141,517"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="47,403,241,428"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="147,442,147,477,141,477,141,442"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="39,328,249,353"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="147,368,147,402,141,402,141,368"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="59,253,229,279"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="147,293,147,328,141,328,141,293"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,179,123,204"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="89,211,133,251,129,255,85,215"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="95,5,180,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="95,39,68,57,48,81,41,106,43,133,60,178,55,180,38,134,36,106,43,79,65,53,92,35"/>
+<area shape="rect" id="Node000008" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="58,80,217,105"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="140,45,140,80,135,80,135,45"/>
+<area shape="rect" id="Node000009" href="$classvtkTagTable.html" title=" " alt="" coords="232,129,331,155"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="172,36,231,78,256,104,275,127,271,131,252,107,228,82,169,40"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="79,114,61,131,57,142,56,154,62,178,56,179,51,155,51,141,56,128,75,110"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="260,166,159,255,155,251,256,162"/>
+</map>

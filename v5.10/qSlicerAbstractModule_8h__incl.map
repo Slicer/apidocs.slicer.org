@@ -1,0 +1,18 @@
+<map id="Base/QTGUI/qSlicerAbstractModule.h" name="Base/QTGUI/qSlicerAbstractModule.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="71,5,273,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,64,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,48,68,89,66,84,138,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="56,167,147,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,47,129,94,109,154,104,152,124,92,155,44"/>
+<area shape="rect" id="Node000004" href="$qSlicerAbstractCoreModule_8h.html" title=" " alt="" coords="139,93,349,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="191,44,226,81,222,85,187,47"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="373,93,568,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="244,43,415,87,413,92,243,48"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="222,121,138,163,136,158,220,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="171,167,245,192"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="240,120,222,156,218,153,236,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="269,167,363,192"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="258,117,296,155,293,159,254,121"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="386,167,585,192"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="284,116,434,160,432,165,282,121"/>
+</map>

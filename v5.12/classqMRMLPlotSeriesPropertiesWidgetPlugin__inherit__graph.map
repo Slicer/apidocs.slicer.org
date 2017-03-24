@@ -1,0 +1,9 @@
+<map id="qMRMLPlotSeriesPropertiesWidgetPlugin" name="qMRMLPlotSeriesPropertiesWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,167,223,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,86,80,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,120,107,164,103,168,61,123"/>
+<area shape="rect" id="Node000003" href="$classqSlicerPlotsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="103,79,302,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,131,142,168,138,165,174,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="81,5,325,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,44,205,79,200,79,200,44"/>
+</map>

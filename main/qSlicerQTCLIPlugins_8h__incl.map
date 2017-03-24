@@ -1,0 +1,15 @@
+<map id="Base/QTCLI/DesignerPlugins/qSlicerQTCLIPlugins.h" name="Base/QTCLI/DesignerPlugins/qSlicerQTCLIPlugins.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="129,5,333,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,219,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,48,151,87,148,83,203,43"/>
+<area shape="rect" id="Node000003" href="$qSlicerCLIProgressBarPlugin_8h.html" title=" " alt="" coords="243,101,459,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,43,325,90,322,95,256,48"/>
+<area shape="rect" id="Node000004" href="$qSlicerQTCLIAbstractPlugin_8h.html" title=" " alt="" coords="246,181,455,207"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="353,126,353,167,348,167,348,126"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="141,262,219,287"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="327,209,218,259,216,254,325,204"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="244,255,457,295"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="353,207,353,241,348,241,348,207"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="482,262,718,287"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="388,204,552,255,550,260,386,209"/>
+</map>

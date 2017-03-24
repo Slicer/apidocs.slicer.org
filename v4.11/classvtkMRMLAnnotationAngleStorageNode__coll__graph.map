@@ -1,0 +1,10 @@
+<map id="vtkMRMLAnnotationAngleStorageNode" name="vtkMRMLAnnotationAngleStorageNode">
+<area shape="rect" id="node2" href="$classvtkMRMLAnnotationLinesStorageNode.html" title="vtkMRMLAnnotationLinesStorageNode" alt="" coords="199,501,473,528"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAnnotationControlPointsStorageNode.html" title="vtkMRMLAnnotationControl\lPointsStorageNode" alt="" coords="235,411,437,452"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAnnotationStorageNode.html" title="vtkMRMLAnnotationStorageNode" alt="" coords="217,335,455,361"/>
+<area shape="rect" id="node5" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes. " alt="" coords="253,259,419,285"/>
+<area shape="rect" id="node6" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="5,183,123,209"/>
+<area shape="rect" id="node8" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="98,81,257,108"/>
+<area shape="rect" id="node9" href="$classvtkMRMLMessageCollection.html" title="vtkMRMLMessageCollection" alt="" coords="233,132,439,159"/>
+<area shape="rect" id="node10" href="$classvtkURIHandler.html" title="vtkURIHandler" alt="" coords="447,132,564,159"/>
+</map>

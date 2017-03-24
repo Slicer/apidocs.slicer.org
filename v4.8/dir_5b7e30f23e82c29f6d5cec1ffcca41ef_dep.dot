@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/VolumeRendering/MRML" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c12f7f1f51823e34c0f7350e4103bbbd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="VolumeRendering" fontname="Helvetica", fontsize="10", URL="dir_c12f7f1f51823e34c0f7350e4103bbbd.html"]
+  dir_5b7e30f23e82c29f6d5cec1ffcca41ef [shape=box, label="MRML", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5b7e30f23e82c29f6d5cec1ffcca41ef.html"];
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_5b7e30f23e82c29f6d5cec1ffcca41ef->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="4", labeldistance=1.5 headhref="dir_000131_000012.html"];
+}

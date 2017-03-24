@@ -1,0 +1,22 @@
+<map id="Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedEffect.h" name="Modules/Loadable/Segmentations/EditorEffects/qSlicerSegmentEditorScriptedEffect.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="147,5,399,60"/>
+<area shape="rect" id="Node000002" href="$qSlicerSegmentEditorAbstractEffect_8h.html" title=" " alt="" coords="333,108,549,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="322,58,396,99,394,103,319,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,196,208,236"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="251,62,135,187,132,184,247,58"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="369,151,194,195,192,190,367,145"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="232,203,307,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="405,150,306,200,303,195,402,146"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="331,203,389,229"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="425,150,382,195,379,191,421,146"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="414,203,469,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="444,148,444,189,439,189,439,148"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="493,203,568,229"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="463,146,510,192,507,196,459,150"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="593,203,658,229"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="483,146,590,195,587,200,481,150"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="683,203,773,229"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="508,145,671,193,681,197,680,202,670,199,507,151"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="797,203,933,229"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="544,145,786,193,805,198,804,203,785,199,543,151"/>
+</map>

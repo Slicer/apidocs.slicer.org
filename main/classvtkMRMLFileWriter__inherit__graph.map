@@ -1,0 +1,17 @@
+<map id="vtkMRMLFileWriter" name="vtkMRMLFileWriter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="310,152,457,177"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNodeWriter.html" title=" " alt="" coords="122,233,279,258"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="345,185,228,235,226,230,343,180"/>
+<area shape="rect" id="Node000007" href="$classvtkSlicerSceneWriter.html" title=" " alt="" coords="304,233,463,258"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="386,191,386,232,381,232,381,191"/>
+<area shape="rect" id="Node000008" href="$classvtkSlicerScriptedFileWriterBridge.html" title="Python bridge for vtkMRMLFileWriter." alt="" coords="487,225,682,265"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="426,180,537,223,535,228,424,185"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLFileIOHandler.html" title=" " alt="" coords="298,79,469,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="386,118,386,152,381,152,381,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="341,5,426,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,44,386,79,381,79,381,44"/>
+<area shape="rect" id="Node000005" href="$classvtkSlicerMarkupsWriter.html" title="Writer of markups nodes. Markups can be written in json (.mrk.json) or fiducial CSV (...." alt="" coords="5,321,180,346"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,269,109,322,106,318,174,265"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerSegmentationsNodeWriter.html" title=" " alt="" coords="205,313,415,353"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="228,265,288,311,284,315,225,269"/>
+</map>

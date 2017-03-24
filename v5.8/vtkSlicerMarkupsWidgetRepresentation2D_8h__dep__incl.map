@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidgetRepresentation2D.h" name="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidgetRepresentation2D.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="919,5,1185,60"/>
+<area shape="rect" id="Node000002" href="$vtkSlicerAngleRepresentation2D_8h.html" title=" " alt="" coords="5,108,336,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="905,52,348,111,337,112,336,107,348,105,905,47"/>
+<area shape="rect" id="Node000003" href="$vtkSlicerCurveRepresentation2D_8h.html" title=" " alt="" coords="361,108,693,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="906,63,633,111,632,105,905,57"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerLineRepresentation2D_8h.html" title=" " alt="" coords="717,108,1038,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="992,69,914,110,912,105,990,64"/>
+<area shape="rect" id="Node000005" href="$vtkSlicerPlaneRepresentation2D_8h.html" title=" " alt="" coords="1063,108,1393,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1115,64,1194,105,1191,110,1112,69"/>
+<area shape="rect" id="Node000006" href="$vtkSlicerPointsRepresentation2D_8h.html" title=" " alt="" coords="1418,108,1753,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1199,57,1478,105,1477,111,1199,62"/>
+<area shape="rect" id="Node000007" href="$vtkSlicerROIRepresentation2D_8h.html" title=" " alt="" coords="1777,108,2095,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1199,46,1766,105,1777,107,1777,112,1765,111,1198,52"/>
+</map>

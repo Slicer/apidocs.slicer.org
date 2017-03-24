@@ -1,0 +1,20 @@
+<map id="qSlicerFileReader" name="qSlicerFileReader">
+<area shape="rect" id="node5" href="$classqSlicerAnnotationsReader.html" title="qSlicerAnnotationsReader" alt="" coords="490,5,681,32"/>
+<area shape="rect" id="node6" href="$classqSlicerColorsReader.html" title="qSlicerColorsReader" alt="" coords="509,56,662,83"/>
+<area shape="rect" id="node7" href="$classqSlicerMarkupsReader.html" title="qSlicerMarkupsReader" alt="" coords="502,107,669,133"/>
+<area shape="rect" id="node8" href="$classqSlicerModelsReader.html" title="qSlicerModelsReader" alt="" coords="506,157,665,184"/>
+<area shape="rect" id="node9" href="$classqSlicerSceneBundleReader.html" title="qSlicerSceneBundleReader" alt="" coords="487,208,683,235"/>
+<area shape="rect" id="node10" href="$classqSlicerSceneReader.html" title="qSlicerSceneReader" alt="" coords="510,259,661,285"/>
+<area shape="rect" id="node11" href="$classqSlicerScriptedFileReader.html" title="qSlicerScriptedFileReader" alt="" coords="491,309,679,336"/>
+<area shape="rect" id="node12" href="$classqSlicerSegmentationsReader.html" title="qSlicerSegmentationsReader" alt="" coords="480,360,691,387"/>
+<area shape="rect" id="node13" href="$classqSlicerSequencesReader.html" title="qSlicerSequencesReader" alt="" coords="494,411,677,437"/>
+<area shape="rect" id="node14" href="$classqSlicerShaderPropertyReader.html" title="qSlicerShaderPropertyReader" alt="" coords="479,461,691,488"/>
+<area shape="rect" id="node15" href="$classqSlicerTablesReader.html" title="qSlicerTablesReader" alt="" coords="509,512,662,539"/>
+<area shape="rect" id="node16" href="$classqSlicerTerminologiesReader.html" title="qSlicerTerminologiesReader" alt="" coords="484,563,687,589"/>
+<area shape="rect" id="node17" href="$classqSlicerTextsReader.html" title="qSlicerTextsReader" alt="" coords="512,613,659,640"/>
+<area shape="rect" id="node18" href="$classqSlicerTransformsReader.html" title="qSlicerTransformsReader" alt="" coords="493,664,677,691"/>
+<area shape="rect" id="node19" href="$classqSlicerVolumeRenderingReader.html" title="qSlicerVolumeRenderingReader" alt="" coords="472,715,699,741"/>
+<area shape="rect" id="node20" href="$classqSlicerVolumesReader.html" title="qSlicerVolumesReader" alt="" coords="501,765,669,792"/>
+<area shape="rect" id="node2" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter. " alt="" coords="161,385,241,412"/>
+<area shape="rect" id="node4" href="$classqSlicerObject.html" title="qSlicerObject" alt="" coords="5,411,113,437"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Logic/vtkMRMLNodeWriter.h" name="Libs/MRML/Logic/vtkMRMLNodeWriter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="262,5,491,45"/>
+<area shape="rect" id="Node000002" href="$qSlicerNodeWriter_8h.html" title=" " alt="" coords="5,101,239,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,52,157,103,155,98,307,47"/>
+<area shape="rect" id="Node000003" href="$vtkSlicerMarkupsWriter_8h.html" title=" " alt="" coords="263,93,490,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="379,59,379,93,374,93,374,59"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerSegmentationsNodeWriter_8h.html" title=" " alt="" coords="514,93,818,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="454,47,603,91,602,96,452,52"/>
+<area shape="rect" id="Node000005" href="$qSlicerSegmentationsNodeWriterOptionsWidget_8h.html" title=" " alt="" coords="520,181,812,236"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="669,147,669,181,663,181,663,147"/>
+</map>

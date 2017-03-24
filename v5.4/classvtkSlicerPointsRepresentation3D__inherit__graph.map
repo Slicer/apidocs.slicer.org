@@ -1,0 +1,11 @@
+<map id="vtkSlicerPointsRepresentation3D" name="vtkSlicerPointsRepresentation3D">
+<area shape="rect" id="Node000001" title="Default representation for the points widget." alt="" coords="36,299,272,324"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerMarkupsWidgetRepresentation3D.html" title="Default representation for the markups widget in 3D views." alt="" coords="5,225,303,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,264,157,299,151,299,151,264"/>
+<area shape="rect" id="Node000003" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="15,152,293,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,191,157,225,151,225,151,191"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="13,79,295,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="157,118,157,152,151,152,151,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="118,5,190,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="157,44,157,79,151,79,151,44"/>
+</map>

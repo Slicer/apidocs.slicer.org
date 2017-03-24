@@ -1,0 +1,7 @@
+<map id="vtkMRMLSliceIntersectionWidget" name="vtkMRMLSliceIntersectionWidget">
+<area shape="rect" id="Node000001" title="Show slice intersection lines." alt="" coords="5,152,196,192"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidget.html" title="Process interaction events to update state of MRML widget nodes." alt="" coords="9,79,193,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="58,5,143,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
+</map>
