@@ -1,0 +1,21 @@
+<map id="qSlicerSubjectHierarchyAbstractPlugin" name="qSlicerSubjectHierarchyAbstractPlugin">
+<area shape="rect" id="node3" href="$classqSlicerSubjectHierarchyChartsPlugin.html" title="qSlicerSubjectHierarchyCharts\lPlugin" alt="" coords="431,5,647,47"/>
+<area shape="rect" id="node4" href="$classqSlicerSubjectHierarchyCloneNodePlugin.html" title="qSlicerSubjectHierarchyClone\lNodePlugin" alt="" coords="433,71,644,112"/>
+<area shape="rect" id="node5" href="$classqSlicerSubjectHierarchyDefaultPlugin.html" title="Default Subject Hierarchy plugin to exercise features of the abstract plugin. This plugin must not be..." alt="" coords="429,136,649,177"/>
+<area shape="rect" id="node6" href="$classqSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.html" title="qSlicerSubjectHierarchyDiffusion\lTensorVolumesPlugin" alt="" coords="424,201,653,243"/>
+<area shape="rect" id="node7" href="$classqSlicerSubjectHierarchyFolderPlugin.html" title="Subject hierarchy folder plugin. " alt="" coords="432,267,645,308"/>
+<area shape="rect" id="node8" href="$classqSlicerSubjectHierarchyLabelMapsPlugin.html" title="qSlicerSubjectHierarchyLabel\lMapsPlugin" alt="" coords="435,332,643,373"/>
+<area shape="rect" id="node9" href="$classqSlicerSubjectHierarchyMarkupsPlugin.html" title="qSlicerSubjectHierarchyMarkups\lPlugin" alt="" coords="425,397,653,439"/>
+<area shape="rect" id="node10" href="$classqSlicerSubjectHierarchyModelsPlugin.html" title="qSlicerSubjectHierarchyModels\lPlugin" alt="" coords="429,463,648,504"/>
+<area shape="rect" id="node11" href="$classqSlicerSubjectHierarchyParseLocalDataPlugin.html" title="qSlicerSubjectHierarchyParse\lLocalDataPlugin" alt="" coords="434,528,643,569"/>
+<area shape="rect" id="node12" href="$classqSlicerSubjectHierarchyPlotChartPlugin.html" title="qSlicerSubjectHierarchyPlot\lChartPlugin" alt="" coords="439,593,638,635"/>
+<area shape="rect" id="node13" href="$classqSlicerSubjectHierarchyRegisterPlugin.html" title="qSlicerSubjectHierarchyRegister\lPlugin" alt="" coords="426,659,651,700"/>
+<area shape="rect" id="node14" href="$classqSlicerSubjectHierarchySceneViewsPlugin.html" title="qSlicerSubjectHierarchyScene\lViewsPlugin" alt="" coords="431,724,646,765"/>
+<area shape="rect" id="node15" href="$classqSlicerSubjectHierarchyScriptedPlugin.html" title="Scripted abstract plugin for handling subject hierarchy items or providing actions for items..." alt="" coords="425,789,652,831"/>
+<area shape="rect" id="node16" href="$classqSlicerSubjectHierarchySegmentationsPlugin.html" title="qSlicerSubjectHierarchySegmentations\lPlugin" alt="" coords="403,855,675,896"/>
+<area shape="rect" id="node17" href="$classqSlicerSubjectHierarchySegmentsPlugin.html" title="qSlicerSubjectHierarchySegments\lPlugin" alt="" coords="419,920,659,961"/>
+<area shape="rect" id="node18" href="$classqSlicerSubjectHierarchyTablesPlugin.html" title="qSlicerSubjectHierarchyTables\lPlugin" alt="" coords="432,985,645,1027"/>
+<area shape="rect" id="node19" href="$classqSlicerSubjectHierarchyTransformsPlugin.html" title="qSlicerSubjectHierarchyTransforms\lPlugin" alt="" coords="417,1051,661,1092"/>
+<area shape="rect" id="node20" href="$classqSlicerSubjectHierarchyVolumeRenderingPlugin.html" title="qSlicerSubjectHierarchyVolume\lRenderingPlugin" alt="" coords="427,1116,650,1157"/>
+<area shape="rect" id="node21" href="$classqSlicerSubjectHierarchyVolumesPlugin.html" title="qSlicerSubjectHierarchyVolumes\lPlugin" alt="" coords="424,1181,653,1223"/>
+</map>

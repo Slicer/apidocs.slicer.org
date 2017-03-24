@@ -1,0 +1,9 @@
+<map id="vtkSlicerShaderPropertyReader" name="vtkSlicerShaderPropertyReader">
+<area shape="rect" id="Node000001" title="Reader of GPU shader property files." alt="" coords="5,225,231,251"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLFileReader.html" title=" " alt="" coords="42,152,194,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,191,121,225,115,225,115,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLFileIOHandler.html" title=" " alt="" coords="33,79,203,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,118,121,152,115,152,115,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="75,5,161,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,44,121,79,115,79,115,44"/>
+</map>

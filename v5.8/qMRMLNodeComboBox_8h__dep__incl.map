@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Widgets/qMRMLNodeComboBox.h" name="Libs/MRML/Widgets/qMRMLNodeComboBox.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="298,5,533,45"/>
+<area shape="rect" id="Node000002" href="$qMRMLCheckableNodeComboBox_8h.html" title=" " alt="" coords="5,93,273,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,52,201,96,199,91,341,47"/>
+<area shape="rect" id="Node000004" href="$qMRMLColorTableComboBox_8h.html" title=" " alt="" coords="298,93,533,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="418,59,418,93,413,93,413,59"/>
+<area shape="rect" id="Node000005" href="$qSlicerPresetComboBox_8h.html" title=" " alt="" coords="557,93,815,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="489,47,628,91,626,96,487,52"/>
+<area shape="rect" id="Node000003" href="$qMRMLDisplayNodeViewComboBox_8h.html" title=" " alt="" coords="14,181,265,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="142,147,142,181,137,181,137,147"/>
+</map>

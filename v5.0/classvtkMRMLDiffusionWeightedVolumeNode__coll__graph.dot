@@ -1,0 +1,30 @@
+digraph "vtkMRMLDiffusionWeightedVolumeNode"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node8 [label="vtkMRMLDiffusionWeighted\lVolumeNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="vtkMRMLScalarVolumeNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLScalarVolumeNode.html",tooltip="MRML node for representing a volume (image stack). "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vtkMRMLVolumeNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLVolumeNode.html",tooltip="MRML node for representing a volume (image stack). "];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vtkMRMLDisplayableNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLDisplayableNode.html"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vtkMRMLTransformableNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLTransformableNode.html",tooltip="MRML node for representing a node with a transform. "];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="vtkMRMLStorableNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLStorableNode.html",tooltip="MRML node to represent a 3D surface model. "];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="vtkMRMLNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLNode.html",tooltip="Abstract Superclass for all specific types of MRML nodes. "];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node16 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" MRMLObserverManager" ,fontname="Helvetica"];
+  Node16 [label="vtkObserverManager",height=0.2,width=0.4,color="black",URL="$classvtkObserverManager.html",tooltip="Manages adding and deleting of obserevers with events. "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" UserTagTable" ,fontname="Helvetica"];
+  Node17 [label="vtkTagTable",height=0.2,width=0.4,color="black",URL="$classvtkTagTable.html"];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" VoxelValueQuantity\nVoxelValueUnits" ,fontname="Helvetica"];
+  Node18 [label="vtkCodedEntry",height=0.2,width=0.4,color="black",URL="$classvtkCodedEntry.html",tooltip="Simple class for storing standard coded entries (coding scheme, value, meaning triplets) ..."];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

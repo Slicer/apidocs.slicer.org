@@ -1,0 +1,9 @@
+<map id="vtkCodedEntry" name="vtkCodedEntry">
+<area shape="rect" id="Node000001" title="Simple class for storing standard coded entries (coding scheme, value, meaning triplets)" alt="" coords="169,79,287,104"/>
+<area shape="rect" id="Node000003" href="$classvtkSlicerTerminologyCategory.html" title="Terminology property category object." alt="" coords="5,152,224,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,114,135,154,132,150,196,109"/>
+<area shape="rect" id="Node000004" href="$classvtkSlicerTerminologyType.html" title="Terminology property type object." alt="" coords="248,152,437,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,109,325,150,323,154,256,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="185,5,271,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,44,231,79,225,79,225,44"/>
+</map>

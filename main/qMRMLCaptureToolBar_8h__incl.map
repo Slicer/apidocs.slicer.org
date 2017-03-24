@@ -1,0 +1,18 @@
+<map id="Modules/Loadable/SceneViews/GUI/qMRMLCaptureToolBar.h" name="Modules/Loadable/SceneViews/GUI/qMRMLCaptureToolBar.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="379,5,601,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,252,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,48,195,93,194,88,403,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="275,93,355,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="449,48,355,90,352,85,447,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="379,93,470,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="476,47,445,84,441,81,472,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="495,93,616,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="508,44,539,81,535,84,504,47"/>
+<area shape="rect" id="Node000006" href="$qMRMLWidget_8h.html" title=" " alt="" coords="640,93,767,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="542,43,660,86,658,91,540,48"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="717,167,893,192"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="602,38,708,59,752,74,781,91,792,105,799,121,806,152,801,153,794,122,787,108,778,95,749,79,706,65,601,43"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="613,167,692,192"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="697,121,671,157,667,154,693,117"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="721,116,778,156,775,161,718,121"/>
+</map>

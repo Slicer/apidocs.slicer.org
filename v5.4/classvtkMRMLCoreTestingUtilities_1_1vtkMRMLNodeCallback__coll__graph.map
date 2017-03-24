@@ -1,0 +1,12 @@
+<map id="vtkMRMLCoreTestingUtilities::vtkMRMLNodeCallback" name="vtkMRMLCoreTestingUtilities::vtkMRMLNodeCallback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,256,216,296"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="6,168,173,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,206,109,255,104,256,92,207"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="197,168,315,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,203,142,258,139,254,225,198"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="189,5,275,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,44,244,105,256,167,251,168,239,106,231,45"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="254,80,413,105"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="261,37,318,77,315,82,258,41"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="316,118,269,169,265,166,312,114"/>
+</map>

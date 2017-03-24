@@ -1,0 +1,31 @@
+<map id="vtkMRMLAbstractWidget" name="vtkMRMLAbstractWidget">
+<area shape="rect" id="Node000001" title="Process interaction events to update state of MRML widget nodes." alt="" coords="139,119,323,144"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLCameraWidget.html" title="Process camera manipulation events." alt="" coords="388,12,568,37"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,109,310,77,370,48,409,35,411,40,372,52,312,82,262,113"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLInteractionWidget.html" title="Process interaction events to update state of interaction widgets." alt="" coords="379,61,577,87"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,113,422,84,423,89,300,118"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLSliceIntersectionWidget.html" title="Show slice intersection lines." alt="" coords="383,111,573,151"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="336,129,382,129,382,134,336,134"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLWindowLevelWidget.html" title="Show slice intersection lines." alt="" coords="371,176,585,201"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="300,145,423,173,422,179,299,150"/>
+<area shape="rect" id="Node000009" href="$classvtkSlicerMarkupsWidget.html" title="Process interaction events to update state of markup widget nodes." alt="" coords="388,225,568,251"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="262,150,312,182,372,212,407,223,405,228,370,216,309,186,259,154"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,91,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,129,138,129,138,134,105,134"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformHandleWidget.html" title="Process interaction events to update state of interaction widgets." alt="" coords="633,5,872,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="554,56,689,28,690,33,555,61"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerMarkupsInteractionWidget.html" title="Process interaction events to update state of interaction widgets." alt="" coords="651,55,855,95"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="591,72,651,72,651,78,591,77"/>
+<area shape="rect" id="Node000010" href="$classvtkSlicerAngleWidget.html" title="create an angle with a set of 3 points" alt="" coords="671,124,834,149"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="571,218,584,212,598,200,607,186,616,173,632,160,670,145,672,149,635,164,620,176,612,189,602,203,587,216,574,223"/>
+<area shape="rect" id="Node000011" href="$classvtkSlicerCurveWidget.html" title="create a curve with a set of N points" alt="" coords="671,173,834,199"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="559,220,685,196,686,201,560,225"/>
+<area shape="rect" id="Node000012" href="$classvtkSlicerLineWidget.html" title="create a line with a set of 2 points" alt="" coords="677,223,829,248"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="581,234,676,233,676,239,581,240"/>
+<area shape="rect" id="Node000013" href="$classvtkSlicerPlaneWidget.html" title="create a plane with a set of 3 points" alt="" coords="672,272,833,297"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="567,250,678,269,677,275,566,256"/>
+<area shape="rect" id="Node000014" href="$classvtkSlicerPointsWidget.html" title="Widget to display a set of interactive points." alt="" coords="670,321,835,347"/>
+<area shape="poly" id="edge13_Node000009_Node000014" title=" " alt="" coords="515,255,570,282,634,307,676,319,674,324,632,313,568,287,513,260"/>
+<area shape="rect" id="Node000015" href="$classvtkSlicerROIWidget.html" title="Create an ROI representation." alt="" coords="679,371,827,396"/>
+<area shape="poly" id="edge14_Node000009_Node000015" title=" " alt="" coords="503,259,559,309,596,335,634,357,679,372,678,377,632,362,593,340,556,313,499,263"/>
+</map>

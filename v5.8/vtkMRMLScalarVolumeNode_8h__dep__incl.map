@@ -1,0 +1,24 @@
+<map id="Libs/MRML/Core/vtkMRMLScalarVolumeNode.h" name="Libs/MRML/Core/vtkMRMLScalarVolumeNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,5,481,45"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLDiffusionWeightedVolumeNode_8h.html" title=" " alt="" coords="5,269,255,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,55,274,95,233,141,195,191,143,271,139,268,191,188,229,138,271,91,322,51"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLSliceLayerLogic_8h.html" title=" " alt="" coords="282,357,509,397"/>
+<area shape="poly" id="edge12_Node000001_Node000003" title=" " alt="" coords="340,58,328,75,319,94,310,129,308,157,311,185,319,221,332,260,349,297,384,356,380,359,345,300,327,262,314,222,306,186,302,157,305,128,314,92,323,72,336,55"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLLabelMapVolumeNode_8h.html" title=" " alt="" coords="329,93,555,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="394,54,427,91,423,95,390,58"/>
+<area shape="rect" id="Node000006" href="$vtkMRMLTensorVolumeNode_8h.html" title=" " alt="" coords="589,93,821,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="454,46,631,91,630,96,453,51"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,311,338,355,336,360,200,316"/>
+<area shape="rect" id="Node000005" href="$vtkSlicerApplicationLogicRequests_8h.html" title=" " alt="" coords="329,181,555,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="445,147,445,181,439,181,439,147"/>
+<area shape="rect" id="Node000007" href="$vtkMRMLDiffusionImageVolumeNode_8h.html" title=" " alt="" coords="580,181,829,221"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="707,147,707,181,702,181,702,147"/>
+<area shape="rect" id="Node000009" href="$vtkMRMLVectorVolumeNode_8h.html" title=" " alt="" coords="853,181,1084,221"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="776,135,912,179,910,184,775,140"/>
+<area shape="rect" id="Node000008" href="$vtkMRMLDiffusionTensorVolumeNode_8h.html" title=" " alt="" coords="376,269,625,309"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="648,229,546,272,544,267,646,224"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="469,320,420,359,417,355,465,316"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="901,228,639,312,467,360,466,355,637,307,900,223"/>
+<area shape="rect" id="Node000010" href="$vtkMRMLStreamingVolumeNode_8h.html" title=" " alt="" coords="839,269,1098,309"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="971,235,971,269,966,269,966,235"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="vtkMRMLViewInteractorStyle" name="vtkMRMLViewInteractorStyle">
+<area shape="rect" id="Node000001" title="Common base class for processing interaction events in MRML views." alt="" coords="5,257,216,283"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="63,5,148,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,113,257,108,257,103,44"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="138,80,310,105"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="138,36,206,78,204,82,135,40"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="127,155,342,195"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,205,128,259,124,255,197,201"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,118,235,154,230,155,225,119"/>
+</map>

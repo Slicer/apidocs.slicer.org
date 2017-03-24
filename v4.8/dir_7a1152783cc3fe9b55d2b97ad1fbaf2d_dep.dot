@@ -1,0 +1,19 @@
+digraph "Modules/Loadable/AtlasCreator" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d01fdafe93af837a1755aeb3a6390699 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Loadable" fontname="Helvetica", fontsize="10", URL="dir_d01fdafe93af837a1755aeb3a6390699.html"]
+  subgraph clusterdir_7a1152783cc3fe9b55d2b97ad1fbaf2d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7a1152783cc3fe9b55d2b97ad1fbaf2d.html"];
+    dir_7a1152783cc3fe9b55d2b97ad1fbaf2d [shape=plaintext label="AtlasCreator"];
+    dir_0a44ca596bd8c28a1652386d707e6600 [shape=box label="Logic" color="black" fillcolor="white" style="filled" URL="dir_0a44ca596bd8c28a1652386d707e6600.html"];
+  }
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_0a44ca596bd8c28a1652386d707e6600->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="3", labeldistance=1.5 headhref="dir_000059_000012.html"];
+  dir_0a44ca596bd8c28a1652386d707e6600->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000059_000002.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="12", labeldistance=1.5 headhref="dir_000002_000012.html"];
+}

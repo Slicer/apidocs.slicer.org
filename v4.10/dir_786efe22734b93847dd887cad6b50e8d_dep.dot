@@ -1,0 +1,12 @@
+digraph "Libs/MRML/CLI" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf88b8eb9079642a844821688c9bd6e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MRML" fontname="Helvetica", fontsize="10", URL="dir_bf88b8eb9079642a844821688c9bd6e7.html"]
+  dir_786efe22734b93847dd887cad6b50e8d [shape=box, label="CLI", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_786efe22734b93847dd887cad6b50e8d.html"];
+  }
+  dir_4aaa3159dc61d8dcfd3044c605667d3e [shape=box label="Core" color="red" URL="dir_4aaa3159dc61d8dcfd3044c605667d3e.html"];
+  dir_786efe22734b93847dd887cad6b50e8d->dir_4aaa3159dc61d8dcfd3044c605667d3e [headlabel="1", labeldistance=1.5 headhref="dir_000016_000017.html"];
+}

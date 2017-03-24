@@ -1,0 +1,11 @@
+<map id="Libs/vtkSegmentationCore/vtkOrientedImageData.h" name="Libs/vtkSegmentationCore/vtkOrientedImageData.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="447,5,642,45"/>
+<area shape="rect" id="Node000002" href="$vtkCalculateOversamplingFactor_8h.html" title=" " alt="" coords="5,101,255,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="448,51,214,103,213,98,447,46"/>
+<area shape="rect" id="Node000003" href="$vtkPolyDataToFractionalLabelmapFilter_8h.html" title=" " alt="" coords="278,93,526,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="506,55,444,95,441,91,503,51"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerSegmentationGeometryLogic_8h.html" title=" " alt="" coords="550,93,827,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="587,51,650,91,647,95,584,55"/>
+<area shape="rect" id="Node000005" href="$vtkMRMLSegmentEditorNode_8h.html" title=" " alt="" coords="852,101,1125,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="648,46,899,98,898,103,647,51"/>
+</map>

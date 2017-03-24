@@ -1,0 +1,15 @@
+<map id="Libs/MRML/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsPlugin.h" name="Libs/MRML/Widgets/DesignerPlugins/qSlicerTablesModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="106,5,365,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,108,230,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,62,158,101,155,97,202,58"/>
+<area shape="rect" id="Node000003" href="$qMRMLTableViewPlugin_8h.html" title=" " alt="" coords="254,115,441,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,58,324,104,321,108,265,62"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="233,196,461,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="350,141,350,182,345,182,345,141"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,269,201,295"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="309,224,157,268,155,263,307,219"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="225,269,469,295"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="350,222,350,256,345,256,345,222"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="493,269,716,295"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="389,219,551,263,549,268,388,224"/>
+</map>
