@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Widgets/qMRMLROIWidget.h" name="Libs/MRML/Widgets/qMRMLROIWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,5,357,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,83,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,36,90,77,88,72,184,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="107,81,197,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,32,175,71,172,67,202,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="221,81,342,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,31,262,70,257,69,227,36"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="366,81,541,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="259,31,399,75,394,77,258,36"/>
+</map>

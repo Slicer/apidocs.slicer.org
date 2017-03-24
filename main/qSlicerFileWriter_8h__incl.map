@@ -1,0 +1,26 @@
+<map id="Base/QTCore/qSlicerFileWriter.h" name="Base/QTCore/qSlicerFileWriter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="332,5,559,33"/>
+<area shape="rect" id="Node000002" href="$qSlicerIO_8h.html" title=" " alt="" coords="400,81,491,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="447,31,448,67,443,64,444,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,157,65,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="397,103,261,125,81,159,79,154,260,120,402,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="89,157,184,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="398,109,200,157,198,152,401,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="208,157,281,184"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="407,110,295,154,294,148,412,108"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="306,157,375,184"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="429,108,372,150,370,145,424,110"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="400,157,492,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="447,107,448,142,443,139,444,111"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="516,157,588,184"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="465,107,524,148,518,148,464,112"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="612,157,690,184"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="483,107,603,151,597,151,482,112"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="628,232,826,260"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="492,99,610,119,666,135,688,144,703,155,714,168,722,184,728,218,724,215,717,186,710,171,700,159,685,149,665,140,609,124,492,104"/>
+<area shape="rect" id="Node000011" href="$qSlicerObject_8h.html" title=" " alt="" coords="765,157,884,184"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="492,102,752,154,747,155,492,108"/>
+<area shape="poly" id="edge12_Node000011_Node000010" title=" " alt="" coords="809,184,757,226,755,221,804,186"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="850,232,974,260"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="841,182,888,223,883,222,839,187"/>
+</map>

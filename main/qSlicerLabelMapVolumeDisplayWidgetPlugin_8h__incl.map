@@ -1,0 +1,13 @@
+<map id="Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerLabelMapVolumeDisplayWidgetPlugin.h" name="Modules/Loadable/Volumes/Widgets/DesignerPlugins/qSlicerLabelMapVolumeDisplayWidgetPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,282,84"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="22,140,95,168"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,87,80,130,76,127,114,82"/>
+<area shape="rect" id="Node000003" href="$qSlicerVolumesModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="119,132,341,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,82,206,120,201,120,174,87"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="22,233,100,261"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="192,178,100,228,97,223,187,176"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="124,225,336,269"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="232,175,232,211,228,208,228,179"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="360,225,583,269"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="288,175,402,218,397,219,288,180"/>
+</map>

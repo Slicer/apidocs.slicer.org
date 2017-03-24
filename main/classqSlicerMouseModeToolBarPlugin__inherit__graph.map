@@ -1,0 +1,9 @@
+<map id="qSlicerMouseModeToolBarPlugin" name="qSlicerMouseModeToolBarPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,157,238,184"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,79,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,117,110,155,105,157,67,122"/>
+<area shape="rect" id="Node000003" href="$classqSlicerQTGUIAbstractPlugin.html" title=" " alt="" coords="103,81,304,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,118,138,158,135,154,175,120"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,5,325,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,47,206,82,201,79,202,51"/>
+</map>

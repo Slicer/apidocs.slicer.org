@@ -1,0 +1,11 @@
+<map id="Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotChartPropertiesWidgetPlugin.h" name="Modules/Loadable/Plots/Widgets/DesignerPlugins/qMRMLPlotChartPropertiesWidgetPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,5,336,84"/>
+<area shape="rect" id="Node000002" href="$qSlicerPlotsModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="115,132,313,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,82,216,117,211,115,213,87"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,233,84,261"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,180,83,228,81,223,172,175"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="108,225,320,269"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="216,175,216,211,212,208,212,179"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="344,225,542,269"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="269,175,377,218,372,219,268,180"/>
+</map>

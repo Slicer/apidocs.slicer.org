@@ -1,0 +1,9 @@
+<map id="qMRMLRangeWidget" name="qMRMLRangeWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="39,192,196,220"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,82,134,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,122,115,192,109,192,80,126"/>
+<area shape="rect" id="Node000003" href="$classqMRMLSpinBox.html" title="Extend the ctkDoubleSpinBox to integrate units support." alt="" coords="158,82,280,110"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,121,131,194,128,190,193,122"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="149,5,289,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="220,46,221,83,216,81,217,51"/>
+</map>

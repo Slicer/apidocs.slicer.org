@@ -1,0 +1,12 @@
+<map id="vtkMRMLSubjectHierarchyNode::SubjectHierarchyItemsShowInViewRequestedEventData" name="vtkMRMLSubjectHierarchyNode::SubjectHierarchyItemsShowInViewRequestedEventData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,345,262,406"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D,..." alt="" coords="32,252,235,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,293,136,345,131,343,132,297"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="75,175,192,203"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,216,136,252,131,251,132,221"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="86,5,170,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="130,46,136,175,130,174,128,51"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="149,82,307,110"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="158,40,213,81,208,83,158,45"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="202,123,149,176,145,173,205,119"/>
+</map>

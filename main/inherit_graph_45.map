@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,228,123,255"/>
+<area shape="rect" id="Node000001" href="$classitk_1_1DiffusionTensor3DInterpolateImageFunction.html" title=" " alt="" coords="184,184,422,229"/>
+<area shape="poly" id="edge71_Node000000_Node000001" title=" " alt="" coords="137,228,186,223,181,225,139,233"/>
+<area shape="rect" id="Node000008" href="$classitk_1_1DiffusionTensor3DInterpolateImageFunction.html" title=" " alt="" coords="171,254,435,298"/>
+<area shape="poly" id="edge78_Node000000_Node000008" title=" " alt="" coords="138,250,173,256,168,258,138,255"/>
+<area shape="rect" id="Node000002" href="$classitk_1_1DiffusionTensor3DInterpolateImageFunctionReimplementation.html" title=" " alt="" coords="483,91,721,152"/>
+<area shape="poly" id="edge72_Node000001_Node000002" title=" " alt="" coords="398,177,494,152,489,154,400,182"/>
+<area shape="rect" id="Node000006" href="$classitk_1_1DiffusionTensor3DInterpolateImageFunctionReimplementation.html" title=" " alt="" coords="483,176,721,238"/>
+<area shape="poly" id="edge76_Node000001_Node000006" title=" " alt="" coords="437,204,485,206,480,207,438,209"/>
+<area shape="rect" id="Node000007" href="$classitk_1_1DiffusionTensor3DNearestNeighborInterpolateFunction.html" title=" " alt="" coords="494,261,710,323"/>
+<area shape="poly" id="edge77_Node000001_Node000007" title=" " alt="" coords="407,231,436,239,503,261,497,261,434,244,407,236"/>
+<area shape="rect" id="Node000003" href="$classitk_1_1DiffusionTensor3DBSplineInterpolateImageFunction.html" title=" " alt="" coords="794,5,1008,67"/>
+<area shape="poly" id="edge73_Node000002_Node000003" title=" " alt="" coords="726,83,796,66,791,67,728,88"/>
+<area shape="rect" id="Node000004" href="$classitk_1_1DiffusionTensor3DLinearInterpolateFunction.html" title=" " alt="" coords="798,91,1004,152"/>
+<area shape="poly" id="edge74_Node000002_Node000004" title=" " alt="" coords="736,119,800,121,795,122,737,124"/>
+<area shape="rect" id="Node000005" href="$classitk_1_1DiffusionTensor3DWindowedSincInterpolateImageFunction.html" title=" " alt="" coords="769,177,1033,256"/>
+<area shape="poly" id="edge75_Node000002_Node000005" title=" " alt="" coords="716,155,777,176,772,176,716,160"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="qSlicerSegmentEditorAbstractEffect" name="qSlicerSegmentEditorAbstractEffect">
+<area shape="rect" id="Node000001" title="Abstract class for segment editor effects." alt="" coords="127,144,342,189"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects." alt="" coords="390,109,605,154"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="357,147,392,145,387,146,358,153"/>
+<area shape="rect" id="Node000009" href="$classqSlicerSegmentEditorScriptedEffect.html" title="Scripted abstract effect for implementing segment editor effects in python." alt="" coords="390,179,605,223"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="357,180,393,187,387,187,357,185"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,79,180"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,164,129,165,124,167,95,169"/>
+<area shape="rect" id="Node000004" href="$classqSlicerSegmentEditorPaintEffect.html" title=" " alt="" coords="664,40,857,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="599,102,671,86,676,85,601,107"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSegmentEditorScissorsEffect.html" title=" " alt="" coords="653,109,868,154"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="621,129,656,131,650,132,621,134"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSegmentEditorScriptedLabelEffect.html" title="Scripted abstract effect for implementing label effects in python." alt="" coords="653,179,868,223"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="600,156,676,178,670,178,600,161"/>
+<area shape="rect" id="Node000005" href="$classqSlicerSegmentEditorEraseEffect.html" title=" " alt="" coords="924,5,1122,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="872,45,926,40,921,41,873,50"/>
+<area shape="rect" id="Node000006" href="$classqSlicerSegmentEditorScriptedPaintEffect.html" title="Scripted abstract effect for implementing paint effects in python." alt="" coords="916,75,1130,119"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="873,74,918,83,912,83,873,80"/>
+</map>

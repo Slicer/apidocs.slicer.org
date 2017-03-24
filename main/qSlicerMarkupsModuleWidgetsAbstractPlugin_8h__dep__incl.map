@@ -1,0 +1,22 @@
+<map id="Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsAbstractPlugin.h" name="Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsAbstractPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="814,5,1093,84"/>
+<area shape="rect" id="Node000002" href="$qMRMLMarkupsDisplayNodeWidgetPlugin_8h.html" title=" " alt="" coords="5,140,315,202"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="796,64,575,95,327,135,288,142,286,137,326,129,574,90,801,63"/>
+<area shape="rect" id="Node000004" href="$qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin_8h.html" title=" " alt="" coords="339,132,637,211"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="796,88,634,134,632,129,801,87"/>
+<area shape="rect" id="Node000005" href="$qMRMLMarkupsInteractionHandleWidgetPlugin_8h.html" title=" " alt="" coords="662,132,952,211"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="899,93,853,134,851,129,894,95"/>
+<area shape="rect" id="Node000006" href="$qMRMLMarkupsROIWidgetPlugin_8h.html" title=" " alt="" coords="975,140,1225,202"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="1011,91,1067,141,1062,140,1009,97"/>
+<area shape="rect" id="Node000007" href="$qSlicerMarkupsPlaceWidgetPlugin_8h.html" title=" " alt="" coords="1249,140,1506,202"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="1100,86,1277,140,1272,140,1099,91"/>
+<area shape="rect" id="Node000008" href="$qSlicerSimpleMarkupsWidgetPlugin_8h.html" title=" " alt="" coords="1530,140,1798,202"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="1109,62,1305,91,1519,129,1556,140,1551,140,1518,135,1304,96,1109,68"/>
+<area shape="rect" id="Node000003" href="$qSlicerMarkupsModuleWidgetsPlugin_8h.html" title=" " alt="" coords="815,259,1092,320"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,203,327,208,586,246,817,275,812,275,585,252,326,213,301,208"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="653,211,835,258,829,258,652,216"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="868,218,918,259,913,258,866,223"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="1053,211,992,261,990,256,1048,213"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="1255,206,1064,261,1063,255,1250,207"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="1542,206,1519,213,1295,251,1093,276,1092,271,1294,245,1518,208,1537,207"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="vtkMRMLColorTableNode" name="vtkMRMLColorTableNode">
+<area shape="rect" id="Node000001" title="MRML node to represent discrete color information." alt="" coords="51,417,236,444"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="68,340,219,367"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,381,146,418,141,415,142,385"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="58,263,229,290"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,303,146,340,141,338,142,308"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,186,122,213"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,221,132,262,127,263,88,227"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="93,5,178,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,43,66,60,47,84,40,110,42,138,50,164,59,185,54,186,45,165,37,139,35,109,42,81,62,57,90,38"/>
+<area shape="rect" id="Node000006" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="56,82,215,110"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="136,46,138,82,133,82,135,51"/>
+<area shape="rect" id="Node000007" href="$classvtkTagTable.html" title=" " alt="" coords="230,134,329,162"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="171,39,228,80,253,107,273,134,268,134,249,111,224,84,171,44"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="72,121,60,135,56,147,55,160,61,185,55,185,50,160,51,146,56,133,75,116"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="253,174,160,264,156,260,256,170"/>
+</map>

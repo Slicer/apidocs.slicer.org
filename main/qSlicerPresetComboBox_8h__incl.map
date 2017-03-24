@@ -1,0 +1,21 @@
+<map id="Modules/Loadable/VolumeRendering/Widgets/qSlicerPresetComboBox.h" name="Modules/Loadable/VolumeRendering/Widgets/qSlicerPresetComboBox.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="205,5,463,50"/>
+<area shape="rect" id="Node000002" href="$qMRMLNodeComboBox_8h.html" title=" " alt="" coords="125,106,311,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="304,52,248,99,245,95,308,49"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="336,98,564,143"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="362,48,413,88,408,88,361,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,191,108,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,137,97,186,94,181,193,132"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="44,266,136,294"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="210,135,112,256,108,252,205,134"/>
+<area shape="rect" id="Node000005" href="$qMRMLSortFilterProxyModel_8h.html" title=" " alt="" coords="182,191,400,218"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="230,132,272,179,267,179,229,137"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="496,266,671,294"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="260,132,333,157,414,188,486,223,550,259,544,258,484,228,411,193,331,162,260,137"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="258,219,141,263,139,258,253,219"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="160,266,327,294"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="285,218,262,255,258,251,280,220"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="351,266,471,294"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="313,216,380,258,374,258,312,221"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="344,216,519,262,513,263,343,222"/>
+</map>

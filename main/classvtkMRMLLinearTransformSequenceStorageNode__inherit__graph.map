@@ -1,0 +1,11 @@
+<map id="vtkMRMLLinearTransformSequenceStorageNode" name="vtkMRMLLinearTransformSequenceStorageNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,256,353"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNRRDStorageNode.html" title="MRML node for representing a volume storage." alt="" coords="28,232,233,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,274,133,308,128,306,129,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="47,157,214,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,198,133,233,128,231,129,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="72,81,189,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="131,122,133,157,128,156,130,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="88,5,173,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="131,46,133,81,128,80,130,51"/>
+</map>

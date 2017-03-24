@@ -1,0 +1,23 @@
+<map id="Modules/Loadable/Terminologies/Logic/vtkSlicerTerminologyEntry.h" name="Modules/Loadable/Terminologies/Logic/vtkSlicerTerminologyEntry.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="189,5,433,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,266,102,294"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,52,115,73,87,86,69,100,58,117,50,136,43,177,44,217,49,251,44,251,39,217,38,176,45,134,53,114,65,96,84,81,113,68,190,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="321,174,538,218"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="428,48,499,69,526,82,544,96,551,118,543,137,525,154,501,169,498,164,521,150,538,134,545,117,539,100,523,86,497,74,428,53"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerTerminologyCategory_8h.html" title=" " alt="" coords="78,98,306,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,52,225,91,222,87,282,49"/>
+<area shape="rect" id="Node000009" href="$vtkSlicerTerminologyType_8h.html" title=" " alt="" coords="329,98,530,126"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="342,48,401,89,395,89,342,53"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="230,124,355,167,350,169,230,129"/>
+<area shape="rect" id="Node000005" href="$vtkCodedEntry_8h.html" title=" " alt="" coords="128,182,256,210"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="193,124,195,167,190,166,191,129"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="169,213,90,260,87,256,171,208"/>
+<area shape="rect" id="Node000006" href="$vtkMRML_8h.html" title=" " alt="" coords="236,266,330,294"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="207,208,260,256,255,256,206,213"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="149,266,211,294"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="192,208,187,252,182,250,189,213"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="215,342,351,370"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="285,293,285,328,281,325,281,296"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="431,124,432,159,427,156,428,128"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="389,128,246,179,243,174,393,125"/>
+</map>

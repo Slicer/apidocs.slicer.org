@@ -1,0 +1,53 @@
+<map id="qSlicerIO" name="qSlicerIO">
+<area shape="rect" id="Node000001" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="161,621,241,647"/>
+<area shape="rect" id="Node000004" href="$classqSlicerFileReader.html" title=" " alt="" coords="289,400,424,425"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,608,344,424,349,427,222,611"/>
+<area shape="rect" id="Node000021" href="$classqSlicerFileWriter.html" title=" " alt="" coords="292,819,421,844"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="223,656,348,817,343,820,219,659"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="22,596,97,621"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,615,161,624,161,630,110,620"/>
+<area shape="rect" id="Node000003" href="$classqSlicerObject.html" title=" " alt="" coords="5,645,113,671"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,644,161,638,162,643,127,649"/>
+<area shape="rect" id="Node000005" href="$classqSlicerAnnotationsReader.html" title=" " alt="" coords="490,5,681,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="355,386,359,317,374,223,389,173,409,125,436,79,470,40,488,28,491,32,474,44,440,82,413,127,394,175,379,224,364,317,360,387"/>
+<area shape="rect" id="Node000006" href="$classqSlicerColorsReader.html" title=" " alt="" coords="509,55,662,80"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="356,386,363,325,381,244,395,202,415,161,439,122,470,89,488,78,508,70,509,75,490,82,474,93,444,126,419,163,400,204,386,246,368,326,362,387"/>
+<area shape="rect" id="Node000007" href="$classqSlicerMarkupsReader.html" title=" " alt="" coords="502,104,669,129"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="358,386,368,334,388,266,402,231,421,197,443,166,470,139,501,122,503,127,474,143,447,169,425,200,407,234,393,268,373,335,364,387"/>
+<area shape="rect" id="Node000008" href="$classqSlicerModelsReader.html" title=" " alt="" coords="506,153,665,179"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="361,385,374,342,395,288,427,234,447,209,471,188,505,171,507,176,473,192,451,213,431,237,400,290,379,344,366,387"/>
+<area shape="rect" id="Node000009" href="$classqSlicerSceneBundleReader.html" title=" " alt="" coords="487,203,683,228"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="365,386,380,352,403,311,433,271,470,237,492,226,495,231,474,242,437,274,407,314,385,354,370,388"/>
+<area shape="rect" id="Node000010" href="$classqSlicerSceneReader.html" title=" " alt="" coords="510,252,661,277"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="371,387,412,335,439,309,471,286,509,271,511,276,473,291,443,313,416,339,375,390"/>
+<area shape="rect" id="Node000011" href="$classqSlicerScriptedFileReader.html" title=" " alt="" coords="491,301,679,327"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="383,389,423,361,471,336,506,324,507,329,473,340,426,366,386,393"/>
+<area shape="rect" id="Node000012" href="$classqSlicerSegmentationsReader.html" title=" " alt="" coords="480,351,691,376"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="427,394,471,385,524,373,525,379,473,390,429,400"/>
+<area shape="rect" id="Node000013" href="$classqSlicerSequencesReader.html" title=" " alt="" coords="494,400,677,425"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="438,410,494,410,494,415,438,415"/>
+<area shape="rect" id="Node000014" href="$classqSlicerShaderPropertyReader.html" title=" " alt="" coords="479,449,691,475"/>
+<area shape="poly" id="edge13_Node000004_Node000014" title=" " alt="" coords="430,426,526,447,525,452,429,431"/>
+<area shape="rect" id="Node000015" href="$classqSlicerTablesReader.html" title=" " alt="" coords="509,499,662,524"/>
+<area shape="poly" id="edge14_Node000004_Node000015" title=" " alt="" coords="387,432,426,459,473,484,511,496,510,501,471,488,424,463,384,436"/>
+<area shape="rect" id="Node000016" href="$classqSlicerTerminologiesReader.html" title=" " alt="" coords="484,548,687,573"/>
+<area shape="poly" id="edge15_Node000004_Node000016" title=" " alt="" coords="376,435,416,485,443,511,473,533,502,545,500,550,471,538,440,516,412,489,371,438"/>
+<area shape="rect" id="Node000017" href="$classqSlicerTextsReader.html" title=" " alt="" coords="512,597,659,623"/>
+<area shape="poly" id="edge16_Node000004_Node000017" title=" " alt="" coords="370,437,385,471,408,510,437,550,474,582,492,593,513,600,511,605,490,598,470,587,433,553,403,513,381,473,365,439"/>
+<area shape="rect" id="Node000018" href="$classqSlicerTransformsReader.html" title=" " alt="" coords="493,647,677,672"/>
+<area shape="poly" id="edge17_Node000004_Node000018" title=" " alt="" coords="366,438,379,482,400,535,431,589,451,613,474,633,494,645,492,650,470,637,447,616,427,592,395,537,374,484,361,440"/>
+<area shape="rect" id="Node000019" href="$classqSlicerVolumeRenderingReader.html" title=" " alt="" coords="472,696,699,721"/>
+<area shape="poly" id="edge18_Node000004_Node000019" title=" " alt="" coords="364,438,373,491,393,557,407,592,425,625,447,656,474,683,491,694,488,698,470,687,443,660,421,628,402,594,388,559,368,492,358,439"/>
+<area shape="rect" id="Node000020" href="$classqSlicerVolumesReader.html" title=" " alt="" coords="501,745,669,771"/>
+<area shape="poly" id="edge19_Node000004_Node000020" title=" " alt="" coords="362,439,368,500,386,579,400,621,419,662,444,700,474,732,502,748,500,753,470,736,439,703,415,665,395,623,381,581,363,501,356,439"/>
+<area shape="rect" id="Node000022" href="$classqSlicerNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="515,795,655,820"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="435,821,515,812,515,817,435,826"/>
+<area shape="rect" id="Node000025" href="$classqSlicerSceneWriter.html" title=" " alt="" coords="513,844,658,869"/>
+<area shape="poly" id="edge24_Node000021_Node000025" title=" " alt="" coords="435,837,513,846,512,851,435,843"/>
+<area shape="rect" id="Node000026" href="$classqSlicerScriptedFileWriter.html" title=" " alt="" coords="494,893,677,919"/>
+<area shape="poly" id="edge25_Node000021_Node000026" title=" " alt="" coords="396,848,473,879,514,891,513,896,471,885,394,853"/>
+<area shape="rect" id="Node000023" href="$classqSlicerMarkupsWriter.html" title="Utility class that offers writing of markups in both json format, regardless of the current storage n..." alt="" coords="765,767,927,792"/>
+<area shape="poly" id="edge22_Node000022_Node000023" title=" " alt="" coords="669,796,765,785,765,791,669,801"/>
+<area shape="rect" id="Node000024" href="$classqSlicerSegmentationsNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="747,817,945,857"/>
+<area shape="poly" id="edge23_Node000022_Node000024" title=" " alt="" coords="669,814,747,823,746,828,669,819"/>
+</map>

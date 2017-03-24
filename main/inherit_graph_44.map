@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,108,115,135"/>
+<area shape="rect" id="Node000001" href="$classMarkupsLib_1_1parameterNodeWrapper_1_1guiConnectors_1_1qSlicerSimpleMarkupsWidgetToNodeConnector.html" title=" " alt="" coords="175,5,456,67"/>
+<area shape="poly" id="edge68_Node000000_Node000001" title=" " alt="" coords="105,99,162,76,199,66,195,69,164,81,108,103"/>
+<area shape="rect" id="Node000002" href="$classSubjectHierarchyLib_1_1parameterNodeWrapper_1_1guiConnectors_1_1qMRMLSubjectHierarchyComboBoxToNodeConnector.html" title=" " alt="" coords="163,91,469,152"/>
+<area shape="poly" id="edge69_Node000000_Node000002" title=" " alt="" coords="130,119,164,120,160,123,131,124"/>
+<area shape="rect" id="Node000003" href="$classSubjectHierarchyLib_1_1parameterNodeWrapper_1_1guiConnectors_1_1qMRMLSubjectHierarchyTreeViewToNodeConnector.html" title=" " alt="" coords="163,176,469,238"/>
+<area shape="poly" id="edge70_Node000000_Node000003" title=" " alt="" coords="107,139,164,162,200,175,195,176,162,167,107,145"/>
+</map>

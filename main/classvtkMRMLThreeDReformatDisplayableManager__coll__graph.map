@@ -1,0 +1,11 @@
+<map id="vtkMRMLThreeDReformatDisplayableManager" name="vtkMRMLThreeDReformatDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager for ImplicitPlaneWidget2 in 3D views." alt="" coords="5,342,272,387"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="30,249,247,294"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,308,141,343,136,341,137,312"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="31,157,246,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,215,141,250,136,248,137,219"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="53,81,224,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="139,122,141,157,136,155,138,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="96,5,181,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="139,46,141,81,136,80,138,51"/>
+</map>

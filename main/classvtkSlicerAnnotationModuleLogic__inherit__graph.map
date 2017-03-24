@@ -1,0 +1,11 @@
+<map id="vtkSlicerAnnotationModuleLogic" name="vtkSlicerAnnotationModuleLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,203,353"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerModuleLogic.html" title=" " alt="" coords="24,232,184,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,274,106,308,102,306,102,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLModuleLogic.html" title="Superclass for logic classes of modules." alt="" coords="22,157,186,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,198,107,233,101,231,103,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="18,81,190,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="105,122,107,157,101,156,103,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="62,5,146,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="105,46,107,81,101,80,103,51"/>
+</map>

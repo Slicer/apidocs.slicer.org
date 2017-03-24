@@ -1,0 +1,9 @@
+<map id="qMRMLModelDisplayNodeWidgetPlugin" name="qMRMLModelDisplayNodeWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="8,174,246,218"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,90,79,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,126,109,172,104,174,64,131"/>
+<area shape="rect" id="Node000003" href="$classqSlicerModelsWidgetsAbstractPlugin.html" title=" " alt="" coords="103,81,322,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,136,149,176,146,171,180,138"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="91,5,334,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,47,215,81,210,79,211,51"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="Modules/Loadable/Plots/Widgets/qMRMLPlotChartPropertiesWidget.h" name="Modules/Loadable/Plots/Widgets/qMRMLPlotChartPropertiesWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="32,5,288,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,208,83,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,70,61,90,40,116,33,135,31,155,37,193,32,193,26,155,28,134,35,114,57,86,88,65"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="50,124,140,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,66,114,112,109,109,138,70"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidget_8h.html" title=" " alt="" coords="164,124,290,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,65,212,111,207,111,180,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="314,115,512,160"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="238,65,346,108,341,110,237,70"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="198,154,88,203,86,199,196,149"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="139,208,314,235"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="229,150,229,194,224,191,225,154"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="Modules/Loadable/MultiVolumeExplorer/qSlicerMultiVolumeExplorerModule.h" name="Modules/Loadable/MultiVolumeExplorer/qSlicerMultiVolumeExplorerModule.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="178,5,438,67"/>
+<area shape="rect" id="Node000002" href="$qSlicerLoadableModule_8h.html" title=" " alt="" coords="108,124,292,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,70,227,115,223,111,277,66"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="316,115,518,160"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="342,65,385,104,380,105,341,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,359,96,387"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="172,154,138,178,100,210,74,244,58,284,53,315,52,344,46,343,48,314,53,283,69,241,97,206,135,173,176,150"/>
+<area shape="rect" id="Node000004" href="$qSlicerAbstractModule_8h.html" title=" " alt="" coords="110,208,290,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="201,149,202,193,197,191,199,154"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="403,283,596,311"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="226,149,464,274,459,277,224,154"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="149,238,113,257,94,270,78,285,62,314,55,345,50,343,57,312,74,282,91,265,110,252,153,234"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="88,283,146,311"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="187,234,145,275,141,271,183,238"/>
+<area shape="rect" id="Node000006" href="$qSlicerAbstractCoreModule_8h.html" title=" " alt="" coords="170,283,379,311"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="214,233,253,272,248,272,213,238"/>
+<area shape="poly" id="edge11_Node000004_Node000010" title=" " alt="" coords="254,233,434,278,429,280,254,239"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="235,314,105,356,104,351,234,309"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="131,359,204,387"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="258,311,200,352,198,348,253,312"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="228,359,321,387"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="276,310,277,345,272,342,273,313"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="345,359,543,387"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="305,309,403,352,397,353,304,314"/>
+</map>

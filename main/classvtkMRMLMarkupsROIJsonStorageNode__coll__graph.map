@@ -1,0 +1,22 @@
+<map id="vtkMRMLMarkupsROIJsonStorageNode" name="vtkMRMLMarkupsROIJsonStorageNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="153,494,424,521"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsJsonStorageNode.html" title=" " alt="" coords="165,417,413,444"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="291,458,291,495,287,492,287,462"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLMarkupsStorageNode.html" title=" " alt="" coords="178,340,400,367"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,381,291,418,287,415,287,385"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="206,263,372,290"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,303,291,340,286,338,287,308"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="5,186,122,213"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="117,216,251,260,247,264,118,221"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="203,5,287,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="185,29,124,47,93,63,65,84,51,102,45,119,45,138,49,161,58,185,53,186,44,162,39,138,40,118,47,99,62,80,90,58,122,42,189,25"/>
+<area shape="rect" id="Node000007" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="75,82,233,110"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="216,45,172,84,168,80,219,41"/>
+<area shape="rect" id="Node000008" href="$classvtkURIHandler.html" title=" " alt="" coords="231,134,347,162"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="255,45,287,133,282,133,254,50"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLMessageCollection.html" title=" " alt="" coords="354,134,560,162"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="280,39,437,132,432,134,280,44"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="74,120,60,135,56,147,55,160,61,185,55,185,50,160,50,146,56,133,76,115"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="290,175,291,263,286,261,288,180"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="426,173,374,215,308,265,305,260,371,211,430,170"/>
+</map>

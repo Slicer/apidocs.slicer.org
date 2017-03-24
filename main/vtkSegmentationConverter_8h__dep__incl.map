@@ -1,0 +1,27 @@
+<map id="Libs/vtkSegmentationCore/vtkSegmentationConverter.h" name="Libs/vtkSegmentationCore/vtkSegmentationConverter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="445,5,657,50"/>
+<area shape="rect" id="Node000002" href="$vtkBinaryLabelmapToClosedSurfaceConversionRule_8h.html" title=" " alt="" coords="5,98,265,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="443,56,263,100,261,95,447,52"/>
+<area shape="rect" id="Node000003" href="$vtkFractionalLabelmapToClosedSurfaceConversionRule_8h.html" title=" " alt="" coords="46,208,278,269"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="428,54,378,74,329,100,312,114,303,129,293,144,278,162,214,209,211,205,275,158,289,141,298,126,308,111,325,96,376,69,432,51"/>
+<area shape="rect" id="Node000004" href="$vtkClosedSurfaceToBinaryLabelmapConversionRule_8h.html" title=" " alt="" coords="339,98,598,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="526,60,495,100,492,96,521,63"/>
+<area shape="rect" id="Node000005" href="$vtkClosedSurfaceToFractionalLabelmapConversionRule_8h.html" title=" " alt="" coords="328,208,609,269"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="587,59,602,77,612,97,621,129,619,144,612,161,588,189,558,209,556,205,585,185,607,158,614,143,616,130,607,99,598,80,586,64"/>
+<area shape="rect" id="Node000006" href="$vtkSegmentation_8h.html" title=" " alt="" coords="673,106,866,151"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="613,54,724,106,719,106,613,59"/>
+<area shape="rect" id="Node000012" href="$qMRMLSegmentationConversionParametersWidget_8h.html" title=" " alt="" coords="890,98,1185,160"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="672,51,893,97,887,98,672,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="147,172,157,208,152,207,145,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="470,173,471,209,466,206,467,177"/>
+<area shape="rect" id="Node000007" href="$vtkMRMLSegmentationNode_8h.html" title=" " alt="" coords="633,216,914,261"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="773,165,775,217,771,214,769,169"/>
+<area shape="rect" id="Node000008" href="$vtkSlicerSegmentationGeometryLogic_8h.html" title=" " alt="" coords="193,317,469,379"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="672,265,456,319,455,314,667,265"/>
+<area shape="rect" id="Node000009" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title=" " alt="" coords="494,317,760,379"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="735,269,669,319,667,314,730,271"/>
+<area shape="rect" id="Node000010" href="$vtkMRMLSegmentEditorNode_8h.html" title=" " alt="" coords="784,326,1056,370"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="816,268,893,326,888,325,815,273"/>
+<area shape="rect" id="Node000011" href="$qSlicerSegmentationsModuleWidget_8h.html" title=" " alt="" coords="1081,326,1354,370"/>
+<area shape="poly" id="edge12_Node000007_Node000011" title=" " alt="" coords="879,262,1131,325,1125,325,878,268"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Libs/MRML/Core/vtkMRMLVolumeNode.h" name="Libs/MRML/Core/vtkMRMLVolumeNode.h">
+<area shape="rect" id="node2" href="$vtkMRMLScalarVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLScalar\lVolumeNode.h" alt="" coords="542,95,765,136"/>
+<area shape="rect" id="node6" href="$vtkMRMLSliceLayerLogic_8h.html" title="Libs/MRML/Logic/vtkMRMLSlice\lLayerLogic.h" alt="" coords="495,452,710,493"/>
+<area shape="rect" id="node11" href="$vtkSlicerVolumesLogic_8h.html" title="Modules/Loadable/Volumes\l/Logic/vtkSlicerVolumesLogic.h" alt="" coords="982,95,1199,136"/>
+<area shape="rect" id="node3" href="$vtkMRMLTensorVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLTensor\lVolumeNode.h" alt="" coords="299,184,520,225"/>
+<area shape="rect" id="node9" href="$vtkMRMLDiffusionWeightedVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lWeightedVolumeNode.h" alt="" coords="640,273,877,315"/>
+<area shape="rect" id="node10" href="$vtkMRMLLabelMapVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLLabel\lMapVolumeNode.h" alt="" coords="691,184,907,225"/>
+<area shape="rect" id="node4" href="$vtkMRMLDiffusionImageVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lImageVolumeNode.h" alt="" coords="21,273,259,315"/>
+<area shape="rect" id="node7" href="$vtkMRMLVectorVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLVector\lVolumeNode.h" alt="" coords="298,273,521,315"/>
+<area shape="rect" id="node5" href="$vtkMRMLDiffusionTensorVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lTensorVolumeNode.h" alt="" coords="5,363,243,404"/>
+<area shape="rect" id="node8" href="$vtkMRMLStreamingVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLStreaming\lVolumeNode.h" alt="" coords="317,363,566,404"/>
+</map>

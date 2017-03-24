@@ -1,0 +1,8 @@
+<map id="vtkMRMLI18N" name="vtkMRMLI18N">
+<area shape="rect" id="Node000001" title="Class that provide internationalization (i18n) features, such as language translation or region&#45;speci..." alt="" coords="5,175,118,203"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="14,5,98,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,48,64,175,58,174,55,50"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLTranslator.html" title="Base class for localization of messages that may be displayed to users." alt="" coords="78,82,224,110"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="85,40,137,81,132,83,84,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,122,76,177,73,173,125,121"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Base/QTGUI/qSlicerGenericIOOptionsWidget.h" name="Base/QTGUI/qSlicerGenericIOOptionsWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="716,5,914,50"/>
+<area shape="rect" id="Node000002" href="$qSlicerSceneIOOptionsWidget_8h.html" title=" " alt="" coords="5,106,236,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="698,40,490,65,248,101,208,108,207,103,247,95,489,60,704,39"/>
+<area shape="rect" id="Node000003" href="$qSlicerAnnotationsIOOptionsWidget_8h.html" title=" " alt="" coords="259,106,528,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="711,54,487,108,486,103,705,54"/>
+<area shape="rect" id="Node000004" href="$qSlicerModelsIOOptionsWidget_8h.html" title=" " alt="" coords="552,106,790,151"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="774,58,704,108,702,103,769,60"/>
+<area shape="rect" id="Node000005" href="$qSlicerSegmentationsIOOptionsWidget_8h.html" title=" " alt="" coords="814,106,1104,151"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="860,57,930,106,925,105,858,62"/>
+<area shape="rect" id="Node000006" href="$qSlicerSegmentationsNodeWriterOptionsWidget_8h.html" title=" " alt="" coords="1128,98,1420,160"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="929,51,1136,97,1131,97,929,56"/>
+<area shape="rect" id="Node000007" href="$qSlicerVolumesIOOptionsWidget_8h.html" title=" " alt="" coords="1444,106,1691,151"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="929,36,1162,59,1432,95,1476,106,1471,106,1431,101,1161,64,929,41"/>
+</map>

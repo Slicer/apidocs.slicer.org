@@ -1,0 +1,51 @@
+<map id="vtkMRMLFileIOHandler" name="vtkMRMLFileIOHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,679,308,706"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLFileReader.html" title=" " alt="" coords="356,437,507,465"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,665,420,463,417,467,248,668"/>
+<area shape="rect" id="Node000020" href="$classvtkMRMLFileWriter.html" title=" " alt="" coords="359,895,504,922"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="249,715,420,894,414,895,247,720"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,679,90,706"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,690,139,691,135,694,107,695"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLSceneBundleReader.html" title=" " alt="" coords="561,5,774,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="430,421,434,346,451,244,466,190,488,137,516,87,554,44,575,32,571,36,557,48,521,90,492,139,471,191,456,245,439,346,435,422"/>
+<area shape="rect" id="Node000005" href="$classvtkSlicerAnnotationsReader.html" title=" " alt="" coords="566,57,769,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="432,421,439,355,457,267,473,220,494,175,520,133,554,96,575,84,572,87,557,100,525,136,498,177,478,222,463,268,444,355,437,423"/>
+<area shape="rect" id="Node000006" href="$classvtkSlicerColorsReader.html" title="Reader of color table files." alt="" coords="585,109,750,137"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="434,421,444,363,465,289,480,251,500,213,524,178,554,148,586,131,582,135,557,152,528,182,505,216,485,253,470,291,449,364,439,423"/>
+<area shape="rect" id="Node000007" href="$classvtkSlicerMarkupsReader.html" title=" " alt="" coords="578,161,757,189"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="436,421,449,373,472,313,506,252,528,224,554,200,579,187,576,191,557,204,532,228,511,255,477,315,454,375,441,424"/>
+<area shape="rect" id="Node000008" href="$classvtkSlicerModelsReader.html" title=" " alt="" coords="582,213,753,241"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="440,422,456,383,480,337,513,291,554,252,583,238,579,242,557,256,517,294,485,340,461,386,445,424"/>
+<area shape="rect" id="Node000009" href="$classvtkSlicerSceneReader.html" title=" " alt="" coords="586,265,749,293"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="446,422,489,361,519,329,554,302,588,289,584,293,557,307,523,333,493,364,450,425"/>
+<area shape="rect" id="Node000010" href="$classvtkSlicerScriptedFileReaderBridge.html" title="Python bridge for vtkMRMLFileReader." alt="" coords="567,317,768,362"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="462,426,505,398,554,371,586,361,582,364,556,376,508,403,466,430"/>
+<area shape="rect" id="Node000011" href="$classvtkSlicerSegmentationsReader.html" title=" " alt="" coords="556,385,779,413"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="511,431,603,412,599,415,514,436"/>
+<area shape="rect" id="Node000012" href="$classvtkSlicerSequencesReader.html" title=" " alt="" coords="570,437,765,465"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="522,449,572,450,567,452,524,454"/>
+<area shape="rect" id="Node000013" href="$classvtkSlicerShaderPropertyReader.html" title="Reader of GPU shader property files." alt="" coords="555,489,780,517"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="512,466,604,488,599,490,513,472"/>
+<area shape="rect" id="Node000014" href="$classvtkSlicerTablesReader.html" title=" " alt="" coords="585,541,750,569"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="463,472,507,500,556,526,594,540,589,541,554,531,504,505,464,477"/>
+<area shape="rect" id="Node000015" href="$classvtkSlicerTerminologiesReader.html" title="Reader of terminology and anatomic context files." alt="" coords="560,593,775,621"/>
+<area shape="poly" id="edge14_Node000003_Node000015" title=" " alt="" coords="451,475,496,529,525,556,557,578,586,592,580,593,554,583,521,560,492,532,450,480"/>
+<area shape="rect" id="Node000016" href="$classvtkSlicerTextsReader.html" title="Reader of text files into text nodes." alt="" coords="588,645,747,673"/>
+<area shape="poly" id="edge15_Node000003_Node000016" title=" " alt="" coords="445,477,463,514,487,555,519,596,557,630,591,648,585,648,554,635,515,600,483,558,459,516,444,482"/>
+<area shape="rect" id="Node000017" href="$classvtkSlicerTransformsReader.html" title="Reader of transform files." alt="" coords="569,697,766,725"/>
+<area shape="poly" id="edge16_Node000003_Node000017" title=" " alt="" coords="440,478,456,525,479,580,513,636,533,661,557,682,579,697,574,697,554,687,529,664,508,639,475,582,451,526,439,483"/>
+<area shape="rect" id="Node000018" href="$classvtkSlicerVolumeRenderingReader.html" title="Reader of volume property (transfer function) files." alt="" coords="571,749,764,794"/>
+<area shape="poly" id="edge17_Node000003_Node000018" title=" " alt="" coords="438,478,452,534,473,603,508,674,530,706,557,734,574,748,569,748,554,739,526,709,503,676,468,605,446,535,436,483"/>
+<area shape="rect" id="Node000019" href="$classvtkSlicerVolumesReader.html" title=" " alt="" coords="577,817,758,845"/>
+<area shape="poly" id="edge18_Node000003_Node000019" title=" " alt="" coords="435,478,444,548,462,635,478,681,498,726,524,768,557,804,579,820,574,819,554,808,520,771,493,729,473,683,457,637,438,548,433,483"/>
+<area shape="rect" id="Node000021" href="$classvtkMRMLNodeWriter.html" title=" " alt="" coords="589,869,746,897"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="519,896,592,891,586,892,520,902"/>
+<area shape="rect" id="Node000024" href="$classvtkSlicerSceneWriter.html" title=" " alt="" coords="589,921,746,949"/>
+<area shape="poly" id="edge23_Node000020_Node000024" title=" " alt="" coords="520,916,591,926,586,926,520,921"/>
+<area shape="rect" id="Node000025" href="$classvtkSlicerScriptedFileWriterBridge.html" title="Python bridge for vtkMRMLFileWriter." alt="" coords="570,973,765,1018"/>
+<area shape="poly" id="edge24_Node000020_Node000025" title=" " alt="" coords="478,926,556,958,592,973,587,972,554,963,477,931"/>
+<area shape="rect" id="Node000022" href="$classvtkSlicerMarkupsWriter.html" title="Writer of markups nodes. Markups can be written in json (.mrk.json) or fiducial CSV (...." alt="" coords="846,840,1020,868"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="761,870,849,863,843,864,762,875"/>
+<area shape="rect" id="Node000023" href="$classvtkSlicerSegmentationsNodeWriter.html" title=" " alt="" coords="828,892,1038,936"/>
+<area shape="poly" id="edge22_Node000021_Node000023" title=" " alt="" coords="761,891,830,902,825,902,761,897"/>
+</map>

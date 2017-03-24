@@ -1,0 +1,29 @@
+<map id="Base/QTGUI/qSlicerApplication.h" name="Base/QTGUI/qSlicerApplication.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="250,5,482,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,153,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,36,146,79,144,74,316,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,81,267,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="342,32,262,76,260,71,337,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="292,81,440,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="367,31,368,67,363,64,364,36"/>
+<area shape="rect" id="Node000005" href="$qSlicerCoreApplication_8h.html" title=" " alt="" coords="464,81,644,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="400,31,509,75,504,75,399,36"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="668,81,861,109"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="438,31,680,77,675,78,437,36"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="18,157,122,184"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="464,111,138,159,137,154,463,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="146,157,241,184"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="490,110,256,159,255,153,485,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="265,157,429,184"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="519,109,399,154,398,148,514,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="453,157,545,184"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="546,108,519,146,516,142,542,110"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="570,157,647,184"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="565,107,592,145,587,143,562,112"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="671,157,791,184"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="586,107,688,151,683,150,585,112"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="815,157,967,184"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="615,107,818,153,813,153,614,112"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="992,157,1190,184"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="644,106,982,154,977,154,644,111"/>
+</map>

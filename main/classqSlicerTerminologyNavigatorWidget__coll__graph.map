@@ -1,0 +1,7 @@
+<map id="qSlicerTerminologyNavigatorWidget" name="qSlicerTerminologyNavigatorWidget">
+<area shape="rect" id="Node000001" title="Qt widget for browsing a terminology dictionary. DICOM properties of the selected entry can also be s..." alt="" coords="5,157,215,201"/>
+<area shape="rect" id="Node000002" href="$classqMRMLWidget.html" title="Base class for any widget that requires a MRML Scene." alt="" coords="53,81,167,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,123,112,157,108,155,108,127"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="71,5,149,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,46,113,81,107,80,109,51"/>
+</map>

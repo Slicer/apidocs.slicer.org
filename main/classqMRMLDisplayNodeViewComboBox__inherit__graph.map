@@ -1,0 +1,9 @@
+<map id="qMRMLDisplayNodeViewComboBox" name="qMRMLDisplayNodeViewComboBox">
+<area shape="rect" id="Node000001" title="Combobox of display node view nodes. Observe the view nodes of a display node and mark them as checke..." alt="" coords="5,232,261,260"/>
+<area shape="rect" id="Node000002" href="$classqMRMLCheckableNodeComboBox.html" title=" " alt="" coords="12,157,254,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,198,135,233,131,231,131,202"/>
+<area shape="rect" id="Node000003" href="$classqMRMLNodeComboBox.html" title="Combobox that automatically displays all the nodes of the scene that match filtering criteria." alt="" coords="46,81,220,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,122,136,157,130,155,132,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="94,5,172,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,46,136,81,130,80,132,51"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="qSlicerGPUMemoryComboBoxPlugin" name="qSlicerGPUMemoryComboBoxPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="20,174,238,218"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,90,79,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,126,110,172,105,174,64,131"/>
+<area shape="rect" id="Node000003" href="$classqSlicerVolumeRenderingModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="102,81,331,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,136,151,176,148,171,183,138"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="95,5,338,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,47,219,81,214,79,215,51"/>
+</map>

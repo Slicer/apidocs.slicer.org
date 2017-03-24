@@ -1,0 +1,23 @@
+<map id="vtkMRMLDisplayableHierarchyNode" name="vtkMRMLDisplayableHierarchyNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a hierarchy of displayable nodes." alt="" coords="5,551,262,579"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLHierarchyNode.html" title="Abstract class representing a hierarchy member." alt="" coords="22,314,202,342"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,356,135,551,130,551,112,358"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="123,186,240,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,229,122,315,117,312,168,225"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="150,459,315,486"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="188,226,205,314,232,458,227,458,200,315,186,231"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="259,263,429,290"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="224,218,318,261,313,263,224,223"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,296,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,43,184,60,165,84,158,110,160,138,168,164,177,185,172,185,163,165,155,139,153,109,160,81,180,57,208,39"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="174,82,333,110"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="254,46,256,83,251,81,253,51"/>
+<area shape="rect" id="Node000009" href="$classvtkTagTable.html" title=" " alt="" coords="348,134,447,162"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="289,39,346,80,371,107,391,134,386,134,367,111,342,84,289,44"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="190,120,178,135,174,147,173,160,179,185,173,185,168,160,169,146,174,133,193,116"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="209,496,149,553,146,549,204,498"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="264,366,414,394"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="314,402,249,460,246,456,310,405"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="344,304,342,367,337,365,341,308"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="388,174,352,263,347,261,384,178"/>
+</map>

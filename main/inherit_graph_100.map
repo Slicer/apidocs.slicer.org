@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,57,167,85"/>
+<area shape="rect" id="Node000001" href="$classqMRMLDoubleSpinBoxDelegate.html" title=" " alt="" coords="215,5,442,33"/>
+<area shape="poly" id="edge619_Node000000_Node000001" title=" " alt="" coords="168,51,262,32,258,35,170,56"/>
+<area shape="rect" id="Node000002" href="$classqMRMLItemDelegate.html" title="Item Delegate for MRML properties Use custom widgets for properties such as colors,..." alt="" coords="249,57,408,85"/>
+<area shape="poly" id="edge620_Node000000_Node000002" title=" " alt="" coords="182,69,251,70,246,72,183,74"/>
+<area shape="rect" id="Node000003" href="$classqSlicerColorTableTerminologyDelegate.html" title=" " alt="" coords="222,109,435,154"/>
+<area shape="poly" id="edge621_Node000000_Node000003" title=" " alt="" coords="160,87,238,107,233,109,159,92"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="Modules/Loadable/Texts/Widgets/qMRMLTextWidget.h" name="Modules/Loadable/Texts/Widgets/qMRMLTextWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="266,5,480,50"/>
+<area shape="rect" id="Node000002" href="$qSlicerWidget_8h.html" title=" " alt="" coords="220,106,343,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="354,49,307,97,304,93,349,52"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="366,98,567,143"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="396,48,437,88,431,87,395,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,191,83,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,137,97,188,95,183,244,132"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,191,197,218"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="263,133,187,184,184,180,258,136"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="221,191,342,218"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="283,133,284,176,279,174,280,137"/>
+<area shape="rect" id="Node000006" href="$qSlicerObject_8h.html" title=" " alt="" coords="366,191,485,218"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="305,132,392,182,386,183,304,137"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="509,191,702,218"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="326,132,355,140,536,186,531,188,354,145,326,137"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="270,266,394,294"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="411,218,361,259,359,254,406,220"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="418,266,616,294"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="443,216,492,257,487,256,441,221"/>
+</map>

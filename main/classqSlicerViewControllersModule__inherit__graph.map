@@ -1,0 +1,11 @@
+<map id="qSlicerViewControllersModule" name="qSlicerViewControllersModule">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,222,336"/>
+<area shape="rect" id="Node000002" href="$classqSlicerLoadableModule.html" title=" " alt="" coords="27,232,200,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,274,116,309,111,306,112,278"/>
+<area shape="rect" id="Node000003" href="$classqSlicerAbstractModule.html" title=" " alt="" coords="30,157,197,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,198,116,233,111,231,112,203"/>
+<area shape="rect" id="Node000004" href="$classqSlicerAbstractCoreModule.html" title="qSlicerAbstractCoreModule is the base class of any module in Slicer." alt="" coords="15,81,212,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,122,116,157,111,156,113,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="77,5,150,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="114,46,116,81,111,80,113,51"/>
+</map>

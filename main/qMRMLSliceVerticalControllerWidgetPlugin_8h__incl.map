@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceVerticalControllerWidgetPlugin.h" name="Libs/MRML/Widgets/DesignerPlugins/qMRMLSliceVerticalControllerWidgetPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="215,5,479,67"/>
+<area shape="rect" id="Node000002" href="$qMRMLWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="233,115,461,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="349,65,349,101,345,98,345,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,191,201,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,144,162,188,160,183,301,143"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="225,191,469,218"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="349,141,349,177,345,173,345,145"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="493,191,716,218"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="393,141,547,186,541,186,393,146"/>
+</map>

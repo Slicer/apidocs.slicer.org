@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Core/vtkMRMLMarkupsStorageNode.h" name="Libs/MRML/Core/vtkMRMLMarkupsStorageNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="144,5,389,50"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLMarkupsFiducialStorageNode_8h.html" title=" " alt="" coords="5,106,251,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,61,160,108,157,104,226,57"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLMarkupsJsonStorageNode_8h.html" title=" " alt="" coords="274,98,536,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,57,366,97,360,98,309,62"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLMarkupsPlaneJsonStorageNode_8h.html" title=" " alt="" coords="98,208,396,269"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="351,168,292,210,290,205,346,170"/>
+<area shape="rect" id="Node000005" href="$vtkMRMLMarkupsROIJsonStorageNode_8h.html" title=" " alt="" coords="420,208,705,269"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="463,166,521,208,516,207,461,171"/>
+</map>

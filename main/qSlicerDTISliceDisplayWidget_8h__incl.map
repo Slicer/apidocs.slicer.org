@@ -1,0 +1,22 @@
+<map id="Modules/Loadable/Volumes/Widgets/qSlicerDTISliceDisplayWidget.h" name="Modules/Loadable/Volumes/Widgets/qSlicerDTISliceDisplayWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="127,5,356,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,208,126,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,70,90,198,86,195,211,65"/>
+<area shape="rect" id="Node000003" href="$qSlicerWidget_8h.html" title=" " alt="" coords="180,124,303,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,65,244,109,239,107,240,70"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="328,115,550,160"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="302,65,385,107,380,108,302,70"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="212,154,109,203,106,198,215,149"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="150,208,227,235"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="235,150,207,197,203,193,231,153"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="251,208,341,235"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="251,149,282,195,277,195,249,154"/>
+<area shape="rect" id="Node000006" href="$qSlicerObject_8h.html" title=" " alt="" coords="366,208,485,235"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="271,149,385,200,380,202,271,154"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="509,208,702,235"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="286,149,317,157,524,203,519,205,316,162,287,154"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="270,283,394,311"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="411,235,362,276,359,271,406,237"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="418,283,617,311"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="443,233,492,274,487,273,441,238"/>
+</map>

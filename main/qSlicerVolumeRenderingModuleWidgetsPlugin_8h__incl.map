@@ -1,0 +1,30 @@
+<map id="Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingModuleWidgetsPlugin.h" name="Modules/Loadable/VolumeRendering/Widgets/DesignerPlugins/qSlicerVolumeRenderingModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="401,5,685,67"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="382,216,456,244"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="398,40,289,47,174,60,122,70,77,82,41,98,17,117,10,127,8,137,10,147,17,158,40,175,76,190,121,201,171,210,277,221,370,227,365,229,277,226,171,215,120,206,74,195,38,180,13,161,5,149,3,137,5,125,13,113,39,93,75,77,121,64,173,54,288,41,403,37"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="1046,115,1259,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="685,57,1033,114,1028,115,685,62"/>
+<area shape="rect" id="Node000004" href="$qMRMLVolumePropertyNodeWidgetPlugin_8h.html" title=" " alt="" coords="28,115,280,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="422,69,255,113,253,108,426,66"/>
+<area shape="rect" id="Node000009" href="$qSlicerPresetComboBoxPlugin_8h.html" title=" " alt="" coords="304,124,534,151"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="507,66,449,116,446,111,503,69"/>
+<area shape="rect" id="Node000010" href="$qSlicerVolumeRenderingPresetComboBoxPlugin_8h.html" title=" " alt="" coords="558,115,779,160"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="582,65,632,105,627,105,581,70"/>
+<area shape="rect" id="Node000011" href="$qSlicerGPUMemoryComboBoxPlugin_8h.html" title=" " alt="" coords="803,115,1022,160"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="656,65,820,110,814,111,656,70"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="217,158,370,210,365,212,217,163"/>
+<area shape="rect" id="Node000005" href="$qSlicerVolumeRenderingModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="517,208,745,252"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="268,158,504,203,499,206,268,163"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="423,309,501,336"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="593,252,500,304,498,299,588,254"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="525,300,737,345"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="633,251,633,287,629,283,629,255"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="761,300,989,345"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="690,250,805,295,800,294,689,256"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="421,149,421,202,417,200,417,154"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="450,149,569,201,564,201,449,154"/>
+<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="611,159,470,213,469,208,606,161"/>
+<area shape="poly" id="edge14_Node000010_Node000005" title=" " alt="" coords="662,158,647,195,644,191,657,162"/>
+<area shape="poly" id="edge16_Node000011_Node000002" title=" " alt="" coords="800,158,791,162,648,185,505,210,471,218,470,213,504,205,647,179,791,157,805,157"/>
+<area shape="poly" id="edge17_Node000011_Node000005" title=" " alt="" coords="848,160,714,205,712,200,842,161"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="Libs/MRML/Logic/vtkMRMLDisplayableHierarchyLogic.h" name="Libs/MRML/Logic/vtkMRMLDisplayableHierarchyLogic.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="347,5,618,50"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAbstractLogic_8h.html" title=" " alt="" coords="243,98,426,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="441,52,373,92,371,88,446,49"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="451,98,515,126"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="484,48,485,84,480,81,481,53"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="540,98,602,126"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="506,48,548,87,543,87,505,53"/>
+<area shape="rect" id="Node000003" href="$vtkObserverManager_8h.html" title=" " alt="" coords="78,174,248,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,128,209,170,206,165,306,125"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="231,249,327,277"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="332,124,291,236,287,233,328,127"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="324,174,445,201"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="344,124,370,161,364,160,343,129"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="468,174,639,201"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="374,124,503,168,498,169,374,129"/>
+<area shape="rect" id="Node000004" href="$vtkMRML_8h.html" title=" " alt="" coords="26,249,121,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="145,204,103,241,99,237,149,200"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="184,199,248,240,243,241,183,205"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="144,249,195,277"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="165,200,169,234,164,233,163,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,325,142,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="75,276,76,310,71,309,72,280"/>
+</map>

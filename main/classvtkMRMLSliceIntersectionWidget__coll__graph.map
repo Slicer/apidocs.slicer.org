@@ -1,0 +1,31 @@
+<map id="vtkMRMLSliceIntersectionWidget" name="vtkMRMLSliceIntersectionWidget">
+<area shape="rect" id="Node000001" title="Show slice intersection lines." alt="" coords="50,602,240,647"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidget.html" title="Process interaction events to update state of MRML widget nodes." alt="" coords="5,134,189,162"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,173,122,204,126,237,126,524,131,565,140,602,135,601,126,566,121,525,121,238,117,206,110,179"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="380,5,464,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,22,280,32,235,43,192,59,165,76,142,97,109,135,104,132,138,93,162,72,189,55,233,37,279,26,367,18"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="190,186,306,213"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="363,26,334,34,301,45,270,61,244,84,233,108,232,136,237,163,245,185,239,185,232,164,227,136,228,107,240,81,267,57,299,40,332,29,367,23"/>
+<area shape="rect" id="Node000007" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="254,82,412,110"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="394,45,350,84,346,80,397,41"/>
+<area shape="rect" id="Node000010" href="$classvtkTagTable.html" title=" " alt="" coords="420,134,518,162"/>
+<area shape="poly" id="edge13_Node000010_Node000003" title=" " alt="" coords="433,45,467,134,461,133,432,50"/>
+<area shape="rect" id="Node000011" href="$classvtkSegmentation.html" title="This class encapsulates a segmentation that can contain multiple segments and multiple representation..." alt="" coords="477,186,610,213"/>
+<area shape="poly" id="edge15_Node000011_Node000003" title=" " alt="" coords="447,42,486,83,522,133,535,160,543,186,538,185,530,162,517,135,482,86,447,47"/>
+<area shape="rect" id="Node000012" href="$classvtkSegmentationConverter.html" title="Class that can convert between different representations of a segment." alt="" coords="576,82,773,110"/>
+<area shape="poly" id="edge17_Node000012_Node000003" title=" " alt="" coords="479,33,558,54,638,81,633,83,556,60,480,38"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLSegmentationDisplayNode.html" title="MRML node for representing segmentation display attributes." alt="" coords="190,509,446,537"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="285,545,184,604,182,599,279,546"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="236,432,401,460"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="320,473,321,510,316,508,317,478"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="248,227,254,293,260,330,270,366,289,402,310,432,305,432,284,405,265,368,255,332,249,294,246,232"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="277,263,448,290"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="280,219,345,261,340,263,281,225"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="263,120,250,135,245,147,243,160,246,186,241,185,238,160,240,146,245,133,266,116"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="279,340,430,367"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="345,380,326,434,321,430,342,384"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="361,303,358,340,353,338,358,308"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="406,169,389,179,377,187,368,205,363,225,363,263,358,261,358,225,363,203,373,184,387,174,411,166"/>
+<area shape="poly" id="edge14_Node000004_Node000011" title=" " alt="" coords="529,225,521,251,517,275,517,448,514,459,504,469,474,486,433,500,390,511,388,506,432,495,472,481,501,465,509,456,512,447,512,275,516,249,526,229"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="643,122,562,187,559,183,647,118"/>
+</map>

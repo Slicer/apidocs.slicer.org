@@ -1,0 +1,15 @@
+<map id="vtkMRMLMarkupsJsonStorageNode" name="vtkMRMLMarkupsJsonStorageNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="174,308,422,336"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLMarkupsPlaneJsonStorageNode.html" title=" " alt="" coords="5,384,290,411"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="260,342,175,386,173,381,255,343"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLMarkupsROIJsonStorageNode.html" title=" " alt="" coords="313,384,584,411"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="339,340,425,383,419,383,338,345"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsStorageNode.html" title=" " alt="" coords="188,232,409,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,274,300,309,296,306,297,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="215,157,381,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,198,301,233,296,231,297,202"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="240,81,356,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="299,122,301,157,296,155,297,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="256,5,340,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="299,46,301,81,296,80,297,51"/>
+</map>

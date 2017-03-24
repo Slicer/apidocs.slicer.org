@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classvtkFSSurfaceAnnotationReader.html" title="Read a surface annotation and color table file from Freesurfer tools. " alt="" coords="169,5,389,32"/>
+<area shape="rect" id="node3" href="$classvtkFSSurfaceLabelReader.html" title="Read a label surface overlay file (*.label) from Freesurfer tools. " alt="" coords="187,56,371,83"/>
+<area shape="rect" id="node4" href="$classvtkFSSurfaceScalarReader.html" title="Read a surface scalar file from Freesurfer tools. " alt="" coords="184,107,375,133"/>
+<area shape="rect" id="node5" href="$classvtkFSSurfaceWFileReader.html" title="Read a surface w file (*.w) file from Freesurfer tools. " alt="" coords="189,157,370,184"/>
+</map>

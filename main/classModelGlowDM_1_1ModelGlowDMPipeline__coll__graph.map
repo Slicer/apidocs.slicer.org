@@ -1,0 +1,25 @@
+<map id="ModelGlowDM.ModelGlowDMPipeline" name="ModelGlowDM.ModelGlowDMPipeline">
+<area shape="rect" id="Node000001" title=" " alt="" coords="114,586,382,614"/>
+<area shape="rect" id="Node000002" href="$classModelGlowDM_1_1__Pipeline.html" title=" " alt="" coords="64,494,243,521"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,530,237,586,232,586,177,534"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,417,251,444"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,456,152,494,146,493,136,461"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model." alt="" coords="280,494,437,521"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="334,530,265,588,263,583,329,532"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="275,417,469,444"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="369,458,363,495,359,492,365,462"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="268,340,476,367"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="373,381,374,418,370,415,371,385"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="287,263,457,290"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="373,303,374,340,370,338,371,308"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="234,186,350,213"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="317,221,361,262,356,263,317,227"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="322,5,406,33"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="315,43,294,60,276,84,269,110,271,138,278,164,288,185,282,185,273,165,266,139,263,109,271,81,291,57,319,39"/>
+<area shape="rect" id="Node000010" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="285,82,443,110"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="365,46,367,83,361,81,363,51"/>
+<area shape="rect" id="Node000011" href="$classvtkTagTable.html" title=" " alt="" coords="459,134,557,162"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="399,39,456,80,482,107,502,134,496,134,478,111,453,84,400,44"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="300,120,289,135,284,147,284,160,289,186,284,185,278,160,279,146,284,133,304,116"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="485,171,388,264,384,260,481,174"/>
+</map>

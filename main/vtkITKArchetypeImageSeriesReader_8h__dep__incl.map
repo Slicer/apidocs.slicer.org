@@ -1,0 +1,11 @@
+<map id="Libs/vtkITK/vtkITKArchetypeImageSeriesReader.h" name="Libs/vtkITK/vtkITKArchetypeImageSeriesReader.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="391,5,596,50"/>
+<area shape="rect" id="Node000002" href="$vtkITKArchetypeDiffusionTensorImageReaderFile_8h.html" title=" " alt="" coords="5,98,249,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="394,54,215,100,214,95,389,55"/>
+<area shape="rect" id="Node000003" href="$vtkITKArchetypeImageSeriesScalarReader_8h.html" title=" " alt="" coords="272,98,478,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="456,59,404,100,402,95,451,60"/>
+<area shape="rect" id="Node000004" href="$vtkITKArchetypeImageSeriesVectorReaderFile_8h.html" title=" " alt="" coords="502,98,726,143"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="535,57,588,98,582,97,533,62"/>
+<area shape="rect" id="Node000005" href="$vtkITKArchetypeImageSeriesVectorReaderSeries_8h.html" title=" " alt="" coords="750,98,992,143"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="599,51,783,97,778,98,598,57"/>
+</map>

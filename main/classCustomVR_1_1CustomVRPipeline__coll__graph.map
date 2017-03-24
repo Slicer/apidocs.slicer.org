@@ -1,0 +1,23 @@
+<map id="CustomVR.CustomVRPipeline" name="CustomVR.CustomVRPipeline">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,586,256,614"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,494,251,521"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,535,149,587,144,585,133,539"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="275,494,440,521"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="316,528,181,588,179,583,311,528"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="261,417,454,444"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="359,458,360,495,355,492,356,462"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="253,340,462,367"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="359,381,360,418,355,415,356,385"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="272,263,442,290"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="359,303,360,340,355,338,356,308"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="219,186,336,213"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="302,221,346,262,341,263,302,227"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="307,5,392,33"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="301,43,280,60,261,84,254,110,256,138,264,164,273,185,268,185,259,165,251,139,249,109,256,81,276,57,304,39"/>
+<area shape="rect" id="Node000009" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="270,82,428,110"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="350,46,352,83,347,81,349,51"/>
+<area shape="rect" id="Node000010" href="$classvtkTagTable.html" title=" " alt="" coords="444,134,542,162"/>
+<area shape="poly" id="edge11_Node000010_Node000008" title=" " alt="" coords="385,39,442,80,467,107,487,134,482,134,463,111,438,84,385,44"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="286,120,274,135,270,147,269,160,275,186,269,185,264,160,265,146,270,133,289,116"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="466,174,373,264,370,260,470,171"/>
+</map>

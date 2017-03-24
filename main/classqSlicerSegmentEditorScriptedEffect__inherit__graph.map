@@ -1,0 +1,7 @@
+<map id="qSlicerSegmentEditorScriptedEffect" name="qSlicerSegmentEditorScriptedEffect">
+<area shape="rect" id="Node000001" title="Scripted abstract effect for implementing segment editor effects in python." alt="" coords="6,174,220,218"/>
+<area shape="rect" id="Node000002" href="$classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects." alt="" coords="5,81,221,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,139,115,175,111,172,111,143"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="76,5,150,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,46,116,81,110,80,112,51"/>
+</map>

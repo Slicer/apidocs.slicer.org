@@ -1,0 +1,7 @@
+<map id="vtkMRMLRubberBandWidgetRepresentation" name="vtkMRMLRubberBandWidgetRepresentation">
+<area shape="rect" id="Node000001" title="represent intersections of other slice views in the current slice view" alt="" coords="5,157,312,184"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="17,81,300,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,123,161,158,156,155,157,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="123,5,194,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="160,47,161,82,156,80,157,51"/>
+</map>

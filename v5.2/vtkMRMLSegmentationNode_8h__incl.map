@@ -1,0 +1,18 @@
+<map id="Libs/MRML/Core/vtkMRMLSegmentationNode.h" name="Libs/MRML/Core/vtkMRMLSegmentationNode.h">
+<area shape="rect" id="node2" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="379,497,474,524"/>
+<area shape="rect" id="node4" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="1101,95,1307,121"/>
+<area shape="rect" id="node25" href="$vtkMRMLColorTableNode_8h.html" title="vtkMRMLColorTableNode.h" alt="" coords="1433,95,1631,121"/>
+<area shape="rect" id="node28" href="$vtkSegmentation_8h.html" title="vtkSegmentation.h" alt="" coords="2272,169,2419,196"/>
+<area shape="rect" id="node5" href="$vtkMRMLStorageNode_8h.html" title="vtkMRMLStorageNode.h" alt="" coords="1304,244,1483,271"/>
+<area shape="rect" id="node22" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="1077,169,1299,196"/>
+<area shape="rect" id="node6" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1123,326,1253,353"/>
+<area shape="rect" id="node7" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1188,415,1359,442"/>
+<area shape="rect" id="node15" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="57,415,287,442"/>
+<area shape="rect" id="node23" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="1097,244,1279,271"/>
+<area shape="rect" id="node26" href="$vtkMRMLColorNode_8h.html" title="vtkMRMLColorNode.h" alt="" coords="1467,169,1629,196"/>
+<area shape="rect" id="node30" href="$vtkSegment_8h.html" title="vtkSegment.h" alt="" coords="2107,326,2221,353"/>
+<area shape="rect" id="node33" href="$vtkSegmentationConverter_8h.html" title="vtkSegmentationConverter.h" alt="" coords="2313,244,2522,271"/>
+<area shape="rect" id="node36" href="$vtkSegmentationConverterRule_8h.html" title="vtkSegmentationConverter\lRule.h" alt="" coords="3057,319,3255,360"/>
+<area shape="rect" id="node39" href="$vtkSegmentationConversionPath_8h.html" title="vtkSegmentationConversion\lPath.h" alt="" coords="2405,408,2611,449"/>
+<area shape="rect" id="node38" href="$vtkSegmentationConversionParameters_8h.html" title="vtkSegmentationConversion\lParameters.h" alt="" coords="2738,408,2945,449"/>
+</map>

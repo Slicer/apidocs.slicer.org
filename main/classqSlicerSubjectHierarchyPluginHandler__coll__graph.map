@@ -1,0 +1,26 @@
+<map id="qSlicerSubjectHierarchyPluginHandler" name="qSlicerSubjectHierarchyPluginHandler">
+<area shape="rect" id="Node000001" title="Singleton class managing Subject Hierarchy plugins." alt="" coords="1043,132,1259,177"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="22,57,96,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,49,161,33,355,8,433,3,507,3,659,14,854,33,939,41,975,49,1020,65,1077,96,1125,132,1120,131,1074,101,1018,70,973,55,938,47,853,39,659,19,507,9,434,9,355,13,163,39,109,53"/>
+<area shape="rect" id="Node000006" href="$classqSlicerSubjectHierarchyAbstractPlugin.html" title="Abstract plugin for handling Subject Hierarchy items." alt="" coords="162,48,392,93"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="110,68,164,69,159,72,112,73"/>
+<area shape="rect" id="Node000010" href="$classqSlicerSubjectHierarchyPluginLogic.html" title="Qt&#45;based logic class to exercise Qt&#45;related logic functions. The Subject hierarchy plugin mechanism a..." alt="" coords="169,118,385,162"/>
+<area shape="poly" id="edge12_Node000010_Node000002" title=" " alt="" coords="110,85,163,103,202,116,197,118,161,108,111,91"/>
+<area shape="rect" id="Node000003" href="$classQList.html" title=" " alt="" coords="622,183,846,228"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="861,187,1045,167,1040,168,862,192"/>
+<area shape="rect" id="Node000004" href="$classQList.html" title=" " alt="" coords="231,222,323,250"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="338,229,624,211,619,214,339,234"/>
+<area shape="rect" id="Node000007" href="$classQList.html" title=" " alt="" coords="660,251,808,279"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="338,244,417,254,546,262,663,266,658,266,545,267,416,260,338,249"/>
+<area shape="rect" id="Node000005" href="$classqSlicerSubjectHierarchyDefaultPlugin.html" title="Default Subject Hierarchy plugin to exercise features of the abstract plugin. This plugin must not be..." alt="" coords="622,48,846,93"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="862,85,1019,113,1081,132,1075,132,1018,118,862,90"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="407,68,624,69,619,72,408,73"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="823,250,917,233,1018,208,1100,178,1105,177,1019,213,919,238,823,256"/>
+<area shape="rect" id="Node000008" href="$classqMRMLSubjectHierarchyTreeView.html" title=" " alt="" coords="614,303,854,331"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="869,304,944,289,1018,262,1050,244,1081,221,1127,178,1132,176,1084,225,1053,248,1020,267,946,294,870,310"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="232,303,322,331"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="338,315,617,317,611,318,338,320"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="401,139,1043,150,1041,155,401,145"/>
+<area shape="rect" id="Node000011" href="$classqSlicerObject.html" title=" " alt="" coords="5,126,113,154"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="127,137,171,138,166,141,129,142"/>
+</map>

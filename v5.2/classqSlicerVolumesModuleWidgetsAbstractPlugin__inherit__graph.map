@@ -1,0 +1,8 @@
+<map id="qSlicerVolumesModuleWidgetsAbstractPlugin" name="qSlicerVolumesModuleWidgetsAbstractPlugin">
+<area shape="rect" id="node3" href="$classqSlicerDiffusionTensorVolumeDisplayWidgetPlugin.html" title="qSlicerDiffusionTensorVolume\lDisplayWidgetPlugin" alt="" coords="574,5,789,47"/>
+<area shape="rect" id="node4" href="$classqSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.html" title="qSlicerDiffusionWeighted\lVolumeDisplayWidgetPlugin" alt="" coords="578,71,785,112"/>
+<area shape="rect" id="node5" href="$classqSlicerDTISliceDisplayWidgetPlugin.html" title="qSlicerDTISliceDisplayWidget\lPlugin" alt="" coords="574,136,789,177"/>
+<area shape="rect" id="node6" href="$classqSlicerLabelMapVolumeDisplayWidgetPlugin.html" title="qSlicerLabelMapVolumeDisplay\lWidgetPlugin" alt="" coords="568,201,795,243"/>
+<area shape="rect" id="node7" href="$classqSlicerScalarVolumeDisplayWidgetPlugin.html" title="qSlicerScalarVolumeDisplay\lWidgetPlugin" alt="" coords="579,267,783,308"/>
+<area shape="rect" id="node8" href="$classqSlicerVolumeDisplayWidgetPlugin.html" title="qSlicerVolumeDisplayWidget\lPlugin" alt="" coords="576,332,787,373"/>
+</map>

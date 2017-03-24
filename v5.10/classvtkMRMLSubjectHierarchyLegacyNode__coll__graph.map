@@ -1,0 +1,12 @@
+<map id="vtkMRMLSubjectHierarchyLegacyNode" name="vtkMRMLSubjectHierarchyLegacyNode">
+<area shape="rect" id="Node000001" title="Legacy subject hierarchy node to allow loading older MRML scenes." alt="" coords="5,317,280,343"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLHierarchyNode.html" title="Abstract class representing a hierarchy member." alt="" coords="53,243,233,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,282,145,317,140,317,140,282"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="84,168,201,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,208,145,242,140,242,140,208"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="95,5,180,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,44,145,168,140,168,136,45"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="159,80,318,105"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="166,37,224,77,221,82,163,41"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="217,116,158,169,154,165,214,112"/>
+</map>

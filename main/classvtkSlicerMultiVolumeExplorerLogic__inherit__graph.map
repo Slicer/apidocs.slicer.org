@@ -1,0 +1,11 @@
+<map id="vtkSlicerMultiVolumeExplorerLogic" name="vtkSlicerMultiVolumeExplorerLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,220,353"/>
+<area shape="rect" id="Node000002" href="$classvtkSlicerModuleLogic.html" title=" " alt="" coords="32,232,193,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,274,115,308,110,306,111,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLModuleLogic.html" title="Superclass for logic classes of modules." alt="" coords="30,157,195,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,198,115,233,110,231,111,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="27,81,198,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,122,115,157,110,156,112,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="70,5,155,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,46,115,81,110,80,112,51"/>
+</map>

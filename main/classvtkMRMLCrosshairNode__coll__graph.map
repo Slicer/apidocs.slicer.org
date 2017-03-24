@@ -1,0 +1,10 @@
+<map id="vtkMRMLCrosshairNode" name="vtkMRMLCrosshairNode">
+<area shape="rect" id="Node000001" title="MRML node for storing a crosshair through RAS space." alt="" coords="5,252,183,280"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="36,175,152,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,216,96,253,92,251,92,220"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="46,5,131,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,47,96,175,91,174,88,51"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="110,82,268,110"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="118,40,174,81,169,83,118,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="162,123,109,177,106,173,166,119"/>
+</map>

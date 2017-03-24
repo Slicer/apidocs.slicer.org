@@ -1,0 +1,11 @@
+<map id="qSlicerSegmentEditorEraseEffect" name="qSlicerSegmentEditorEraseEffect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,359,212,404"/>
+<area shape="rect" id="Node000002" href="$classqSlicerSegmentEditorPaintEffect.html" title=" " alt="" coords="16,266,210,311"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,325,115,360,111,358,111,329"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects." alt="" coords="5,174,221,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,231,116,267,110,266,112,236"/>
+<area shape="rect" id="Node000004" href="$classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects." alt="" coords="5,81,221,126"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,139,116,174,110,173,112,144"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="76,5,150,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="113,46,116,81,110,80,113,52"/>
+</map>

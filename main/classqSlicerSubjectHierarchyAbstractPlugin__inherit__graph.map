@@ -1,0 +1,53 @@
+<map id="qSlicerSubjectHierarchyAbstractPlugin" name="qSlicerSubjectHierarchyAbstractPlugin">
+<area shape="rect" id="Node000001" title="Abstract plugin for handling Subject Hierarchy items." alt="" coords="127,803,357,847"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSubjectHierarchyCloneNodePlugin.html" title=" " alt="" coords="436,5,649,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,786,259,630,289,412,310,301,336,200,367,117,384,85,403,60,436,40,433,44,407,64,389,88,372,119,341,202,315,302,294,413,264,630,249,787"/>
+<area shape="rect" id="Node000004" href="$classqSlicerSubjectHierarchyColorLegendPlugin.html" title=" " alt="" coords="437,75,647,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="244,786,262,642,293,446,315,346,340,255,370,181,386,152,403,130,438,109,435,113,407,134,390,155,374,183,345,257,320,347,299,447,267,643,250,787"/>
+<area shape="rect" id="Node000005" href="$classqSlicerSubjectHierarchyDefaultPlugin.html" title="Default Subject Hierarchy plugin to exercise features of the abstract plugin. This plugin must not be..." alt="" coords="430,144,654,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="245,787,265,656,298,480,320,391,344,310,372,244,387,219,403,199,431,181,428,186,407,203,392,222,377,247,349,312,325,392,303,481,270,657,251,788"/>
+<area shape="rect" id="Node000006" href="$classqSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.html" title=" " alt="" coords="425,213,659,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="240,787,244,684,252,617,265,545,285,470,314,397,353,328,377,297,403,268,426,254,423,258,407,272,381,300,357,331,319,399,291,472,270,546,257,618,249,684,245,787"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSubjectHierarchyExpandToDepthPlugin.html" title=" " alt="" coords="430,283,654,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="241,787,250,696,259,638,274,575,295,510,322,447,358,389,403,338,431,321,428,325,407,342,362,392,327,450,300,512,279,576,265,639,255,697,247,788"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSubjectHierarchyExportPlugin.html" title=" " alt="" coords="433,352,651,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="244,787,256,707,283,605,304,551,331,498,363,450,403,407,434,389,431,394,407,411,368,453,335,501,309,553,289,607,262,709,249,788"/>
+<area shape="rect" id="Node000009" href="$classqSlicerSubjectHierarchyFolderPlugin.html" title="Subject hierarchy folder plugin." alt="" coords="434,421,650,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="247,787,264,720,293,636,314,592,339,550,369,510,403,476,435,459,432,463,407,480,373,514,343,553,319,595,298,638,269,721,252,788"/>
+<area shape="rect" id="Node000010" href="$classqSlicerSubjectHierarchyLabelMapsPlugin.html" title=" " alt="" coords="436,491,648,535"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="252,787,272,733,304,667,347,601,374,572,403,545,438,528,434,533,407,550,377,575,352,605,308,670,277,735,257,789"/>
+<area shape="rect" id="Node000011" href="$classqSlicerSubjectHierarchyMarkupsPlugin.html" title=" " alt="" coords="426,560,658,605"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="259,788,283,747,316,700,356,654,404,615,429,603,425,607,406,619,360,658,320,703,288,750,264,790"/>
+<area shape="rect" id="Node000012" href="$classqSlicerSubjectHierarchyModelsPlugin.html" title=" " alt="" coords="430,629,654,674"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="271,790,330,735,365,707,404,684,434,673,430,677,406,689,368,712,333,739,276,793"/>
+<area shape="rect" id="Node000013" href="$classqSlicerSubjectHierarchyOpacityPlugin.html" title=" " alt="" coords="429,699,655,743"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="303,794,404,753,445,742,441,746,406,758,307,798"/>
+<area shape="rect" id="Node000014" href="$classqSlicerSubjectHierarchyParseLocalDataPlugin.html" title=" " alt="" coords="436,768,648,813"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="371,808,438,801,434,804,374,812"/>
+<area shape="rect" id="Node000015" href="$classqSlicerSubjectHierarchyPlotsPlugin.html" title=" " alt="" coords="438,837,646,882"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="371,838,440,846,435,849,374,842"/>
+<area shape="rect" id="Node000016" href="$classqSlicerSubjectHierarchyRegisterPlugin.html" title=" " alt="" coords="427,907,657,951"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="304,852,406,892,446,905,441,907,404,897,306,857"/>
+<area shape="rect" id="Node000017" href="$classqSlicerSubjectHierarchyScriptedPlugin.html" title="Scripted abstract plugin for handling subject hierarchy items or providing actions for items." alt="" coords="428,976,657,1021"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="273,856,333,911,368,938,406,961,435,975,429,976,404,966,365,943,330,915,274,861"/>
+<area shape="rect" id="Node000018" href="$classqSlicerSubjectHierarchySegmentationsPlugin.html" title=" " alt="" coords="405,1045,679,1090"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="261,859,288,900,320,947,360,992,406,1031,429,1044,424,1045,404,1035,356,996,316,950,283,903,262,864"/>
+<area shape="rect" id="Node000019" href="$classqSlicerSubjectHierarchySegmentsPlugin.html" title=" " alt="" coords="422,1115,663,1159"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="254,859,277,915,308,980,352,1045,377,1075,407,1100,427,1114,422,1115,403,1104,374,1078,347,1049,304,983,272,917,254,865"/>
+<area shape="rect" id="Node000020" href="$classqSlicerSubjectHierarchyTablesPlugin.html" title=" " alt="" coords="434,1184,651,1229"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="250,860,269,929,298,1012,319,1055,343,1097,373,1136,407,1170,436,1188,430,1189,403,1174,369,1140,339,1100,314,1058,293,1014,264,930,250,865"/>
+<area shape="rect" id="Node000021" href="$classqSlicerSubjectHierarchyTextsPlugin.html" title=" " alt="" coords="437,1253,647,1298"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="247,860,262,941,289,1043,309,1097,335,1149,368,1197,407,1239,439,1260,434,1261,403,1243,363,1200,331,1152,304,1099,283,1045,256,943,246,865"/>
+<area shape="rect" id="Node000022" href="$classqSlicerSubjectHierarchyTransformsPlugin.html" title=" " alt="" coords="418,1323,666,1367"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="245,860,255,953,265,1011,279,1074,300,1138,327,1200,362,1258,407,1308,423,1322,418,1322,403,1312,358,1261,322,1203,295,1140,274,1075,259,1012,250,954,244,865"/>
+<area shape="rect" id="Node000023" href="$classqSlicerSubjectHierarchyViewContextMenuPlugin.html" title="Subject hierarchy view menu plugin." alt="" coords="438,1392,646,1437"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="243,860,249,966,257,1032,270,1104,291,1178,319,1251,357,1319,381,1350,407,1378,440,1400,435,1401,403,1382,377,1353,353,1322,314,1253,285,1180,265,1105,252,1033,244,966,242,866"/>
+<area shape="rect" id="Node000024" href="$classqSlicerSubjectHierarchyVisibilityPlugin.html" title=" " alt="" coords="426,1461,659,1506"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="248,860,270,993,303,1169,325,1258,349,1338,377,1403,392,1428,407,1447,428,1464,423,1464,403,1451,387,1431,372,1406,344,1340,320,1259,298,1170,265,994,247,865"/>
+<area shape="rect" id="Node000025" href="$classqSlicerSubjectHierarchyVolumeRenderingPlugin.html" title=" " alt="" coords="430,1531,655,1575"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="247,860,267,1007,299,1203,320,1303,345,1393,374,1467,390,1495,407,1516,432,1536,426,1535,403,1520,386,1498,370,1469,340,1395,315,1304,293,1204,262,1008,246,866"/>
+<area shape="rect" id="Node000026" href="$classqSlicerSubjectHierarchyVolumesPlugin.html" title=" " alt="" coords="426,1600,658,1645"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="247,861,264,1020,294,1237,315,1348,341,1448,372,1531,389,1562,407,1586,428,1604,423,1603,403,1590,384,1565,367,1533,336,1450,310,1349,289,1238,259,1020,245,866"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,811,79,839"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,823,128,823,124,827,96,827"/>
+</map>

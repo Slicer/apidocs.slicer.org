@@ -1,0 +1,13 @@
+<map id="vtkMRMLAnnotationPointDisplayNode" name="vtkMRMLAnnotationPointDisplayNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,384,276,411"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAnnotationDisplayNode.html" title=" " alt="" coords="22,308,259,336"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,350,143,384,138,382,139,353"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLModelDisplayNode.html" title="MRML node to represent a display property of 3D surface model." alt="" coords="38,232,243,260"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="142,274,143,308,138,307,139,278"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="58,157,223,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,198,143,233,138,231,140,203"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="82,81,199,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,122,143,157,138,156,140,127"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="98,5,183,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="141,46,143,81,138,80,140,51"/>
+</map>

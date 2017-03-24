@@ -1,0 +1,9 @@
+<map id="qMRMLVolumePropertyNodeWidgetPlugin" name="qMRMLVolumePropertyNodeWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,174,258,218"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="8,90,82,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,126,113,172,108,174,66,131"/>
+<area shape="rect" id="Node000003" href="$classqSlicerVolumeRenderingModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="105,81,334,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,136,154,176,151,171,186,138"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="98,5,341,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="221,47,222,81,217,79,218,51"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="Libs/vtkITK/vtkITKArchetypeImageSeriesReader.h" name="Libs/vtkITK/vtkITKArchetypeImageSeriesReader.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="790,5,996,50"/>
+<area shape="rect" id="Node000002" href="$vtkITK_8h.html" title=" " alt="" coords="261,98,336,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="787,39,591,63,352,100,351,95,590,58,792,37"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="360,98,519,126"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="788,48,528,97,527,92,793,47"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="543,98,680,126"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="821,50,672,96,670,91,816,51"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="705,98,884,126"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="869,49,823,90,820,86,865,52"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="908,98,1076,126"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="920,48,967,88,962,87,918,53"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1100,98,1184,126"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="959,48,1091,93,1085,93,959,53"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1209,98,1268,126"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="996,48,1197,97,1191,98,996,53"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1291,98,1354,126"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="996,42,1127,64,1279,97,1274,98,1126,69,996,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,174,133,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,128,125,171,123,166,262,123"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="157,174,274,201"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="286,125,243,165,240,161,281,128"/>
+<area shape="rect" id="Node000005" href="$vtkITKNumericTraits_8h.html" title=" " alt="" coords="298,174,464,201"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="307,124,350,164,345,164,305,129"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="371,173,331,138,333,133,376,173"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="216,249,373,277"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="368,201,322,242,320,237,363,203"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="398,249,538,277"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="397,199,444,240,438,239,396,204"/>
+</map>

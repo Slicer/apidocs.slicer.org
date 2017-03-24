@@ -1,0 +1,4 @@
+<map id="vtkITKImageToImageFilterSS" name="vtkITKImageToImageFilterSS">
+<area shape="rect" id="node4" href="$classvtkITKNewOtsuThresholdImageFilter.html" title="Wrapper class around itk::NewOtsuThresholdImageFilter. " alt="" coords="5,229,233,271"/>
+<area shape="rect" id="node2" href="$classvtkITKImageToImageFilter.html" title="Abstract base class for connecting ITK and VTK. " alt="" coords="23,80,216,107"/>
+</map>

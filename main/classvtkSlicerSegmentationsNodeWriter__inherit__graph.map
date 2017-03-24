@@ -1,0 +1,11 @@
+<map id="vtkSlicerSegmentationsNodeWriter" name="vtkSlicerSegmentationsNodeWriter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,308,216,353"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNodeWriter.html" title=" " alt="" coords="32,232,189,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,274,113,308,108,306,109,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLFileWriter.html" title=" " alt="" coords="38,157,183,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,198,113,233,108,231,109,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLFileIOHandler.html" title=" " alt="" coords="25,81,196,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,122,113,157,108,156,110,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="68,5,153,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="111,46,113,81,108,80,110,51"/>
+</map>

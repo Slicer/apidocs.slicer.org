@@ -1,0 +1,15 @@
+<map id="vtkMRMLMeasurement" name="vtkMRMLMeasurement">
+<area shape="rect" id="Node000001" title="Class for storing well&#45;defined measurement results, using coded entries." alt="" coords="138,109,310,137"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLMeasurementAngle.html" title="Measurement class calculating angle." alt="" coords="364,5,573,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,98,303,70,357,43,398,33,393,35,359,48,305,75,259,103"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLMeasurementArea.html" title="Measurement class calculating area of a plane or enclosed by a closed curve." alt="" coords="368,57,570,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="307,103,402,85,397,87,308,108"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLMeasurementLength.html" title="Measurement class calculating curve length." alt="" coords="360,109,577,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="325,121,363,123,358,124,326,126"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLMeasurementVolume.html" title="Measurement class calculating Volume enclosed in a ROI." alt="" coords="358,161,579,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="308,138,402,160,397,161,307,144"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStaticMeasurement.html" title="Measurement class storing a constant measurement." alt="" coords="364,213,573,241"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="258,143,305,172,359,198,398,213,393,213,357,203,303,176,257,148"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,109,90,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,121,140,122,135,125,106,126"/>
+</map>

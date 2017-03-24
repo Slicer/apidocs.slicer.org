@@ -1,0 +1,7 @@
+<map id="vtkMRMLAbstractVolumeResampler" name="vtkMRMLAbstractVolumeResampler">
+<area shape="rect" id="Node000001" title="Base class for volume resampler." alt="" coords="5,81,262,109"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLScalarVectorDWIVolumeResampler.html" title=" " alt="" coords="14,157,253,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,123,136,157,131,155,132,127"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="91,5,176,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,46,136,81,131,80,132,51"/>
+</map>

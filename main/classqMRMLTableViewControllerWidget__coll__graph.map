@@ -1,0 +1,9 @@
+<map id="qMRMLTableViewControllerWidget" name="qMRMLTableViewControllerWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,204,277"/>
+<area shape="rect" id="Node000002" href="$classqMRMLViewControllerBar.html" title=" " alt="" coords="11,157,198,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,198,107,233,102,231,103,202"/>
+<area shape="rect" id="Node000003" href="$classqMRMLWidget.html" title="Base class for any widget that requires a MRML Scene." alt="" coords="47,81,162,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,122,107,157,102,156,103,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="66,5,143,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="105,46,107,81,102,80,104,51"/>
+</map>

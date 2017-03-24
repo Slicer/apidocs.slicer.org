@@ -1,0 +1,13 @@
+<map id="vtkMRMLMultiVolumeDisplayNode" name="vtkMRMLMultiVolumeDisplayNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,384,256,411"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLScalarVolumeDisplayNode.html" title="MRML node for representing a volume display attributes." alt="" coords="5,308,260,336"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,350,135,384,130,382,131,353"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLVolumeDisplayNode.html" title="MRML node for representing a volume display attributes." alt="" coords="26,232,239,260"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,274,135,308,130,307,131,278"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="50,157,215,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="133,198,135,233,130,231,132,203"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="74,81,191,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="133,122,135,157,130,156,132,127"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="90,5,175,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="133,46,135,81,130,80,132,51"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="qMRMLSegmentationDisplayNodeWidgetPlugin" name="qMRMLSegmentationDisplayNodeWidgetPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="20,174,229,218"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,90,79,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,126,107,172,102,174,63,131"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSegmentationsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="103,81,314,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,136,146,176,143,171,176,138"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="87,5,330,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="210,47,211,81,206,79,207,51"/>
+</map>

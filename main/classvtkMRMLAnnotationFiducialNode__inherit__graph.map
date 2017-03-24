@@ -1,0 +1,19 @@
+<map id="vtkMRMLAnnotationFiducialNode" name="vtkMRMLAnnotationFiducialNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a fiducial in the Annotations module &#45; deprecated." alt="" coords="5,628,244,655"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAnnotationControlPointsNode.html" title=" " alt="" coords="24,535,225,580"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,594,127,628,122,626,123,597"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAnnotationNode.html" title=" " alt="" coords="30,459,219,487"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,500,127,535,122,534,123,505"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model." alt="" coords="46,384,203,411"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,425,127,459,122,458,124,430"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="28,308,221,336"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="125,349,127,384,122,383,124,354"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="20,232,229,260"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="125,273,127,308,122,307,124,278"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="39,157,210,184"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="125,198,127,232,122,232,124,203"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="66,81,183,109"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="125,122,127,157,122,156,124,127"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="82,5,167,33"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="125,46,127,81,122,80,124,51"/>
+</map>

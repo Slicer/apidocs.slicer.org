@@ -1,0 +1,20 @@
+<map id="vtkMRMLMarkupsDisplayNode" name="vtkMRMLMarkupsDisplayNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,509,226,537"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="33,432,198,460"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,474,118,510,113,508,114,477"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="36,186,152,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,228,117,432,112,432,94,230"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="132,263,302,290"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="128,219,198,261,193,263,128,224"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="124,5,208,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,43,96,60,78,84,71,110,73,138,81,164,90,185,84,185,76,165,68,139,66,109,73,81,93,57,121,38"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="87,82,245,110"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="167,46,169,82,164,82,166,51"/>
+<area shape="rect" id="Node000008" href="$classvtkTagTable.html" title=" " alt="" coords="261,134,359,162"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="201,39,259,80,284,107,304,134,299,134,280,111,255,84,202,44"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="103,121,91,135,87,147,86,160,91,185,86,185,81,160,81,146,87,133,105,116"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="136,340,287,367"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="189,376,131,434,127,430,185,380"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="216,303,215,340,210,338,214,308"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="293,172,229,264,224,260,290,176"/>
+</map>

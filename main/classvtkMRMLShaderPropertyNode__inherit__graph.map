@@ -1,0 +1,9 @@
+<map id="vtkMRMLShaderPropertyNode" name="vtkMRMLShaderPropertyNode">
+<area shape="rect" id="Node000001" title="vtkMRMLShaderPropertyNode volume shader custom code and custom uniform variables defined by users or ..." alt="" coords="5,232,222,260"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="28,157,199,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,198,116,233,111,231,112,202"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="55,81,172,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,122,116,157,111,155,112,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="71,5,156,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,46,116,81,111,80,113,51"/>
+</map>

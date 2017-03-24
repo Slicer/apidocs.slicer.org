@@ -1,0 +1,9 @@
+<map id="qSlicerSegmentEditorScissorsEffect" name="qSlicerSegmentEditorScissorsEffect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,266,220,311"/>
+<area shape="rect" id="Node000002" href="$classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects." alt="" coords="5,174,221,218"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,232,115,267,111,265,111,236"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects." alt="" coords="5,81,221,126"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,139,116,174,110,173,112,144"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="76,5,150,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,46,116,81,110,80,112,51"/>
+</map>

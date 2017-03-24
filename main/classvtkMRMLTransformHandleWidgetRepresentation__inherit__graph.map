@@ -1,0 +1,9 @@
+<map id="vtkMRMLTransformHandleWidgetRepresentation" name="vtkMRMLTransformHandleWidgetRepresentation">
+<area shape="rect" id="Node000001" title="Abstract representation for the transform handle widgets." alt="" coords="27,249,266,294"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLInteractionWidgetRepresentation.html" title="Class for rendering interaction handles." alt="" coords="47,157,246,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,215,149,250,144,248,145,219"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="5,81,288,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,122,149,157,144,155,145,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,5,182,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="147,46,149,81,144,80,146,51"/>
+</map>

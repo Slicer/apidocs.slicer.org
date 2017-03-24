@@ -1,0 +1,25 @@
+<map id="vtkMRMLAnnotationPointDisplayNode" name="vtkMRMLAnnotationPointDisplayNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,640,276,665"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAnnotationDisplayNode.html" title=" " alt="" coords="21,565,260,591"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,605,143,640,138,640,138,605"/>
+<area shape="poly" id="edge13_Node000002_Node000002" title=" " alt="" coords="275,571,287,578,278,584,261,587,260,581,277,579,281,578,273,576"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLModelDisplayNode.html" title="MRML node to represent a display property of 3D surface model." alt="" coords="37,491,244,516"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,530,143,565,138,565,138,530"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="57,416,224,441"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="143,456,143,490,138,490,138,456"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="61,179,178,204"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="124,218,142,415,137,416,119,218"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="157,253,327,279"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="152,209,224,251,221,255,149,213"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="150,5,235,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="150,39,124,57,103,81,96,106,99,133,115,178,110,180,94,134,91,106,98,79,120,53,147,35"/>
+<area shape="rect" id="Node000007" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="113,80,272,105"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="195,45,195,80,190,80,190,45"/>
+<area shape="rect" id="Node000010" href="$classvtkTagTable.html" title=" " alt="" coords="287,129,386,155"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="227,36,286,78,311,104,330,127,326,131,307,107,283,82,224,40"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="134,114,116,131,112,142,111,154,117,178,112,179,106,155,107,141,112,128,131,110"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="161,328,312,353"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="215,364,156,417,152,413,212,360"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="243,293,240,328,235,327,237,292"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="321,167,253,255,249,252,317,164"/>
+</map>

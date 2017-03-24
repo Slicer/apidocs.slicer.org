@@ -1,0 +1,15 @@
+<map id="vtkMRMLProceduralColorNode" name="vtkMRMLProceduralColorNode">
+<area shape="rect" id="Node000001" title="MRML node to represent procedurally defined color information." alt="" coords="143,308,362,336"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLPETProceduralColorNode.html" title=" " alt="" coords="5,392,249,420"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="222,344,148,394,146,389,217,345"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLdGEMRICProceduralColorNode.html" title="MRML node to represent procedurally defined color information." alt="" coords="273,384,485,428"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="286,342,348,383,343,383,284,347"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information." alt="" coords="177,232,328,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,274,255,309,250,306,251,278"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="167,157,338,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,198,255,233,250,231,251,203"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="194,81,310,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="253,122,255,157,250,155,251,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="210,5,294,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="253,46,255,81,250,80,251,51"/>
+</map>

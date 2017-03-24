@@ -1,0 +1,22 @@
+<map id="Modules/CLI/RobustStatisticsSegmenter/SFLSRobustStatSegmentor3DLabelMap_single.h" name="Modules/CLI/RobustStatisticsSegmenter/SFLSRobustStatSegmentor3DLabelMap_single.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="264,5,542,67"/>
+<area shape="rect" id="Node000002" href="$SFLSSegmentor3D_8h.html" title=" " alt="" coords="269,124,422,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="387,66,363,112,359,108,383,69"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="296,283,337,311"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="262,60,196,81,126,112,94,131,63,154,36,180,13,209,8,222,13,234,31,247,58,259,131,276,212,286,283,294,277,294,212,292,130,281,56,264,28,252,9,237,3,222,9,206,32,176,60,149,91,127,124,107,194,76,266,57"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="472,208,534,235"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="421,65,491,195,486,194,418,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="498,115,700,160"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="463,65,545,108,540,108,463,70"/>
+<area shape="rect" id="Node000003" href="$SFLS_8h.html" title=" " alt="" coords="383,208,447,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="358,149,397,196,392,195,356,154"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="345,150,324,269,319,267,341,153"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="371,149,467,200,462,200,370,154"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="23,208,114,235"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="300,154,128,205,126,200,302,149"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="138,208,308,235"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="328,151,256,201,254,197,323,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="400,235,347,276,345,272,395,237"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="361,283,525,311"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="421,234,435,270,430,268,418,238"/>
+</map>

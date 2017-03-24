@@ -1,0 +1,11 @@
+<map id="vtkMRMLSegmentationsDisplayableManager3D" name="vtkMRMLSegmentationsDisplayableManager3D">
+<area shape="rect" id="Node000001" title="Display segmentations in 3D views." alt="" coords="5,342,263,387"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="26,249,242,294"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,308,136,343,132,341,132,312"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="27,157,241,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,215,137,250,131,248,133,219"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="48,81,220,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,122,137,157,131,155,133,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="92,5,176,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="135,46,137,81,131,80,133,51"/>
+</map>

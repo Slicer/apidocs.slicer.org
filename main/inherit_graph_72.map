@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,199,79,227"/>
+<area shape="rect" id="Node000001" href="$classqMRMLScreenShotDialog.html" title=" " alt="" coords="137,43,321,71"/>
+<area shape="poly" id="edge581_Node000000_Node000001" title=" " alt="" coords="52,184,80,132,100,104,125,81,151,69,148,73,128,86,104,108,84,134,57,186"/>
+<area shape="rect" id="Node000004" href="$classqSlicerAboutDialog.html" title="Pre&#45;request that a qSlicerApplication has been instanced." alt="" coords="156,95,302,123"/>
+<area shape="poly" id="edge584_Node000000_Node000004" title=" " alt="" coords="63,186,91,158,125,133,158,121,154,125,128,138,94,162,67,189"/>
+<area shape="rect" id="Node000005" href="$classqSlicerActionsDialog.html" title=" " alt="" coords="151,147,306,175"/>
+<area shape="poly" id="edge585_Node000000_Node000005" title=" " alt="" coords="92,195,126,185,173,174,169,177,127,190,95,200"/>
+<area shape="rect" id="Node000006" href="$classqSlicerErrorReportDialog.html" title="Pre&#45;request that a qSlicerApplication has been instanced." alt="" coords="138,199,320,227"/>
+<area shape="poly" id="edge586_Node000000_Node000006" title=" " alt="" coords="93,211,140,211,136,215,95,215"/>
+<area shape="rect" id="Node000007" href="$classqSlicerExtensionsManagerDialog.html" title=" " alt="" coords="132,251,326,295"/>
+<area shape="poly" id="edge587_Node000000_Node000007" title=" " alt="" coords="93,227,159,249,155,251,94,232"/>
+<area shape="rect" id="Node000008" href="$classqSlicerModuleFinderDialog.html" title=" " alt="" coords="131,319,326,347"/>
+<area shape="poly" id="edge588_Node000000_Node000008" title=" " alt="" coords="60,237,90,273,128,305,152,318,147,319,125,310,86,277,60,242"/>
+<area shape="rect" id="Node000009" href="$classqSlicerWebDownloadWidget.html" title=" " alt="" coords="127,371,331,399"/>
+<area shape="poly" id="edge589_Node000000_Node000009" title=" " alt="" coords="53,239,82,300,102,331,128,356,151,371,145,371,125,360,98,334,77,303,51,244"/>
+<area shape="rect" id="Node000002" href="$classqSlicerAnnotationModuleSnapShotDialog.html" title=" " alt="" coords="388,5,604,50"/>
+<area shape="poly" id="edge582_Node000001_Node000002" title=" " alt="" coords="336,43,389,38,385,41,338,48"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSceneViewsModuleDialog.html" title=" " alt="" coords="379,74,612,102"/>
+<area shape="poly" id="edge583_Node000001_Node000003" title=" " alt="" coords="336,67,381,73,376,75,337,72"/>
+</map>

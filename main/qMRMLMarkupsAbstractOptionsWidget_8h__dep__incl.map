@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Markups/Widgets/qMRMLMarkupsAbstractOptionsWidget.h" name="Modules/Loadable/Markups/Widgets/qMRMLMarkupsAbstractOptionsWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="648,5,938,67"/>
+<area shape="rect" id="Node000002" href="$qMRMLMarkupsAngleMeasurementsWidget_8h.html" title=" " alt="" coords="5,115,325,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="631,66,336,118,326,119,324,114,335,112,635,63"/>
+<area shape="rect" id="Node000003" href="$qMRMLMarkupsCurveSettingsWidget_8h.html" title=" " alt="" coords="348,115,624,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="695,72,573,117,572,112,690,73"/>
+<area shape="rect" id="Node000004" href="$qMRMLMarkupsOptionsWidgetsFactory_8h.html" title=" " alt="" coords="649,115,937,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="795,81,795,116,791,113,791,85"/>
+<area shape="rect" id="Node000006" href="$qMRMLMarkupsPlaneWidget_8h.html" title=" " alt="" coords="961,124,1241,168"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="894,70,1042,123,1036,123,893,75"/>
+<area shape="rect" id="Node000007" href="$qMRMLMarkupsROIWidget_8h.html" title=" " alt="" coords="1265,124,1532,168"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="953,61,1253,112,1297,123,1291,123,1253,118,953,66"/>
+<area shape="rect" id="Node000005" href="$qSlicerMarkupsModuleWidgetsPythonQtDecorators_8h.html" title=" " alt="" coords="652,225,934,286"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="795,190,795,226,791,222,791,194"/>
+</map>

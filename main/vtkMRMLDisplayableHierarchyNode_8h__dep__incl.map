@@ -1,0 +1,9 @@
+<map id="Libs/MRML/Core/vtkMRMLDisplayableHierarchyNode.h" name="Libs/MRML/Core/vtkMRMLDisplayableHierarchyNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="123,5,390,50"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLModelHierarchyNode_8h.html" title=" " alt="" coords="5,106,236,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,61,152,108,149,104,216,58"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLAnnotationHierarchyNode_8h.html" title=" " alt="" coords="260,98,525,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,57,354,97,348,98,298,62"/>
+<area shape="rect" id="Node000003" href="$vtkSlicerApplicationLogicRequests_8h.html" title=" " alt="" coords="8,208,233,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,165,123,208,118,206,119,169"/>
+</map>

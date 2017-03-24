@@ -1,0 +1,9 @@
+<map id="vtkMRMLLayerDisplayableManager" name="vtkMRMLLayerDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager responsible for handling multiple displayable pipelines in sub&#45;layers." alt="" coords="5,249,258,277"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="24,157,239,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,215,134,250,129,247,130,219"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="46,81,217,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,122,134,157,129,155,130,127"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="89,5,174,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="132,46,134,81,129,80,131,51"/>
+</map>
