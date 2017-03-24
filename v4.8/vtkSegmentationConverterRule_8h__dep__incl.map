@@ -1,0 +1,12 @@
+<map id="Libs/vtkSegmentationCore/vtkSegmentationConverterRule.h" name="Libs/vtkSegmentationCore/vtkSegmentationConverterRule.h">
+<area shape="rect" id="node2" href="$vtkBinaryLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkBinaryLabelmapToClosedSurface\lConversionRule.h" alt="" coords="5,184,259,240"/>
+<area shape="rect" id="node4" href="$vtkSegmentationConverter_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentationConverter.h" alt="" coords="405,95,616,136"/>
+<area shape="rect" id="node5" href="$vtkClosedSurfaceToBinaryLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToBinaryLabelmap\lConversionRule.h" alt="" coords="384,184,637,240"/>
+<area shape="rect" id="node6" href="$vtkClosedSurfaceToFractionalLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToFractionalLabelmap\lConversionRule.h" alt="" coords="373,288,648,344"/>
+<area shape="rect" id="node7" href="$vtkSegmentation_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentation.h" alt="" coords="1025,191,1215,233"/>
+<area shape="rect" id="node11" href="$qMRMLSegmentationConversionParametersWidget_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentationConversion\lParametersWidget.h" alt="" coords="662,184,949,240"/>
+<area shape="rect" id="node3" href="$vtkFractionalLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkFractionalLabelmapToClosed\lSurfaceConversionRule.h" alt="" coords="71,288,297,344"/>
+<area shape="rect" id="node8" href="$vtkMRMLSegmentationNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lNode.h" alt="" coords="983,295,1257,337"/>
+<area shape="rect" id="node9" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="844,392,1105,448"/>
+<area shape="rect" id="node10" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="1130,399,1398,441"/>
+</map>

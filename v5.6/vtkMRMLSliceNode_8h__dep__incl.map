@@ -1,0 +1,33 @@
+<map id="Libs/MRML/Core/vtkMRMLSliceNode.h" name="Libs/MRML/Core/vtkMRMLSliceNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1068,5,1291,45"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLCrosshairNode_8h.html" title=" " alt="" coords="5,101,257,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1055,34,701,54,485,72,269,96,222,103,222,98,268,91,484,67,700,49,1054,29"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLSliceIntersectionInteractionRepresentation_8h.html" title=" " alt="" coords="281,93,547,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1055,40,824,63,558,96,547,98,547,92,558,91,823,58,1054,35"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLSliceIntersectionRepresentation2D_8h.html" title=" " alt="" coords="571,101,895,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1076,51,823,103,822,98,1075,46"/>
+<area shape="rect" id="Node000005" href="$vtkMRMLSliceIntersectionWidget_8h.html" title=" " alt="" coords="919,101,1173,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1142,56,1074,103,1071,98,1139,51"/>
+<area shape="rect" id="Node000006" href="$vtkMRMLWindowLevelWidget_8h.html" title=" " alt="" coords="1197,101,1428,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1219,51,1287,98,1284,103,1216,56"/>
+<area shape="rect" id="Node000007" href="$vtkMRMLSliceLayerLogic_8h.html" title=" " alt="" coords="1453,101,1679,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1272,46,1488,98,1487,103,1270,51"/>
+<area shape="rect" id="Node000008" href="$vtkMRMLMarkupsDisplayableManagerHelper_8h.html" title=" " alt="" coords="1703,93,1989,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1305,39,1692,91,1704,92,1703,98,1691,96,1304,44"/>
+<area shape="rect" id="Node000010" href="$vtkSlicerMarkupsWidgetRepresentation2D_8h.html" title=" " alt="" coords="2382,93,2649,148"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1305,33,2382,107,2381,113,1304,38"/>
+<area shape="rect" id="Node000009" href="$vtkMRMLMarkupsDisplayableManager_8h.html" title=" " alt="" coords="1334,196,1619,251"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1738,154,1574,199,1572,193,1736,149"/>
+<area shape="rect" id="Node000011" href="$vtkSlicerAngleRepresentation2D_8h.html" title=" " alt="" coords="1643,203,1974,243"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="2368,145,1986,199,1936,206,1935,201,1986,193,2368,140"/>
+<area shape="rect" id="Node000012" href="$vtkSlicerCurveRepresentation2D_8h.html" title=" " alt="" coords="1999,203,2331,243"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="2412,154,2231,206,2230,201,2410,149"/>
+<area shape="rect" id="Node000013" href="$vtkSlicerLineRepresentation2D_8h.html" title=" " alt="" coords="2355,203,2676,243"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="2518,162,2518,203,2513,203,2513,162"/>
+<area shape="rect" id="Node000014" href="$vtkSlicerPlaneRepresentation2D_8h.html" title=" " alt="" coords="2701,203,3031,243"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="2620,149,2801,201,2799,206,2619,154"/>
+<area shape="rect" id="Node000015" href="$vtkSlicerPointsRepresentation2D_8h.html" title=" " alt="" coords="3056,203,3391,243"/>
+<area shape="poly" id="edge14_Node000010_Node000015" title=" " alt="" coords="2663,140,3044,193,3095,201,3094,206,3043,199,2662,145"/>
+<area shape="rect" id="Node000016" href="$vtkSlicerROIRepresentation2D_8h.html" title=" " alt="" coords="3415,203,3733,243"/>
+<area shape="poly" id="edge15_Node000010_Node000016" title=" " alt="" coords="2662,129,3002,154,3404,193,3459,201,3458,206,3403,199,3001,159,2662,134"/>
+</map>

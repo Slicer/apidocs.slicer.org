@@ -1,0 +1,13 @@
+<map id="vtkMRMLMarkupsNode" name="vtkMRMLMarkupsNode">
+<area shape="rect" id="node7" href="$classvtkMRMLMarkupsAngleNode.html" title="MRML node to represent an angle markup Angle Markups nodes contain three control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1249,5,1459,32"/>
+<area shape="rect" id="node8" href="$classvtkMRMLMarkupsCurveNode.html" title="MRML node to represent a curve markup Curve Markups nodes contain N control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1249,56,1459,83"/>
+<area shape="rect" id="node10" href="$classvtkMRMLMarkupsFiducialNode.html" title="MRML node to represent a fiducial markup Fiducial Markups nodes contain a list of control points..." alt="" coords="1243,107,1465,133"/>
+<area shape="rect" id="node11" href="$classvtkMRMLMarkupsLineNode.html" title="MRML node to represent a line markup Line Markups nodes contain two control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1255,157,1453,184"/>
+<area shape="rect" id="node12" href="$classvtkMRMLMarkupsPlaneNode.html" title="MRML node to represent a plane markup Plane Markups nodes contain three control points. Visualization parameters are set in the vtkMRMLMarkupsDisplayNode class. " alt="" coords="1250,208,1458,235"/>
+<area shape="rect" id="node13" href="$classvtkMRMLMarkupsROINode.html" title="MRML node to represent an ROI markup. " alt="" coords="1257,259,1451,285"/>
+<area shape="rect" id="node2" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="780,132,975,159"/>
+<area shape="rect" id="node3" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="523,132,732,159"/>
+<area shape="rect" id="node4" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="304,132,475,159"/>
+<area shape="rect" id="node5" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="139,132,256,159"/>
+<area shape="rect" id="node9" href="$classvtkMRMLMarkupsClosedCurveNode.html" title="MRML node to represent a closed curve markup Closed Curve Markups nodes contain N control points..." alt="" coords="1513,56,1768,83"/>
+</map>

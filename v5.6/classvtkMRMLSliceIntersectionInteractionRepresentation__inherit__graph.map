@@ -1,0 +1,7 @@
+<map id="vtkMRMLSliceIntersectionInteractionRepresentation" name="vtkMRMLSliceIntersectionInteractionRepresentation">
+<area shape="rect" id="Node000001" title="represent intersections of other slice views in the current slice view" alt="" coords="51,152,242,192"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="5,79,288,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,118,149,152,144,152,144,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,5,183,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,44,149,79,144,79,144,44"/>
+</map>

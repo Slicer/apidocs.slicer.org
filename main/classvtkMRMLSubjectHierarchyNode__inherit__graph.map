@@ -1,0 +1,7 @@
+<map id="vtkMRMLSubjectHierarchyNode" name="vtkMRMLSubjectHierarchyNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a complete subject hierarchy tree." alt="" coords="5,152,233,177"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="61,79,178,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,118,122,152,117,152,117,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="77,5,162,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,44,122,79,117,79,117,44"/>
+</map>

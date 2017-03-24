@@ -1,0 +1,11 @@
+<map id="vtkMRMLMarkupsROIDisplayNode" name="vtkMRMLMarkupsROIDisplayNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,299,249,324"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsDisplayNode.html" title=" " alt="" coords="17,225,238,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,264,130,299,125,299,125,264"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="44,152,211,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,191,130,225,125,225,125,191"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="69,79,186,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="130,118,130,152,125,152,125,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="85,5,170,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="130,44,130,79,125,79,125,44"/>
+</map>

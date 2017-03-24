@@ -1,0 +1,14 @@
+<map id="Libs/MRML/Widgets/qMRMLLabelComboBox.h" name="Libs/MRML/Widgets/qMRMLLabelComboBox.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="113,5,349,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,96,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,48,91,90,89,85,186,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,93,242,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,47,198,83,194,80,216,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="192,167,368,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,45,257,92,276,153,270,154,252,94,235,47"/>
+<area shape="rect" id="Node000005" href="$qMRMLWidget_8h.html" title=" " alt="" coords="318,93,445,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="268,43,348,84,345,89,266,48"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="367,121,309,161,306,156,364,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="393,167,471,192"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="392,117,418,154,414,157,388,121"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="vtkMRMLSegmentEditorNode" name="vtkMRMLSegmentEditorNode">
+<area shape="rect" id="Node000001" title="Parameter set node for the segment editor widget." alt="" coords="5,243,219,268"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="53,168,171,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,208,115,242,109,242,109,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="64,5,149,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,44,114,168,109,168,105,45"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="129,80,287,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="136,37,193,77,190,82,133,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="187,116,127,169,124,165,183,112"/>
+</map>

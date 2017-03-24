@@ -1,0 +1,53 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,534,153,559"/>
+<area shape="rect" id="Node000001" href="$classvtkITKArchetypeImageSeriesReader.html" title="Read a series of files that have a common naming convention." alt="" coords="213,133,424,173"/>
+<area shape="poly" id="edge665_Node000000_Node000001" title=" " alt="" coords="93,520,303,172,307,175,98,523"/>
+<area shape="rect" id="Node000006" href="$classvtkITKGrowCut.html" title="ITK&#45;based utilities for manipulating connected regions in label maps. Limitation: The filter does not..." alt="" coords="259,386,379,411"/>
+<area shape="poly" id="edge670_Node000000_Node000006" title=" " alt="" coords="95,521,138,469,167,443,200,420,228,409,258,401,259,407,230,414,203,425,171,447,142,473,99,524"/>
+<area shape="rect" id="Node000007" href="$classvtkITKImageThresholdCalculator.html" title=" " alt="" coords="201,435,436,461"/>
+<area shape="poly" id="edge671_Node000000_Node000007" title=" " alt="" coords="107,523,150,495,200,470,236,458,238,463,202,474,152,500,110,528"/>
+<area shape="rect" id="Node000008" href="$classvtkITKImageToImageFilter.html" title="Abstract base class for connecting ITK and VTK." alt="" coords="222,485,415,510"/>
+<area shape="poly" id="edge672_Node000000_Node000008" title=" " alt="" coords="154,528,201,519,255,507,256,513,202,524,155,534"/>
+<area shape="rect" id="Node000021" href="$classvtkITKImageWriter.html" title=" " alt="" coords="246,534,391,559"/>
+<area shape="poly" id="edge685_Node000000_Node000021" title=" " alt="" coords="167,544,246,544,246,549,167,549"/>
+<area shape="rect" id="Node000022" href="$classvtkITKLevelTracing3DImageFilter.html" title="Wrapper class around itk::LevelTracingImageFilterImageFilter." alt="" coords="217,584,421,624"/>
+<area shape="poly" id="edge686_Node000000_Node000022" title=" " alt="" coords="147,560,235,581,234,587,146,565"/>
+<area shape="rect" id="Node000023" href="$classvtkImageFillROI.html" title=" " alt="" coords="255,649,382,674"/>
+<area shape="poly" id="edge687_Node000000_Node000023" title=" " alt="" coords="106,567,149,602,202,634,256,650,254,655,200,638,146,606,102,571"/>
+<area shape="rect" id="Node000024" href="$classvtkImageGrowCutSegment.html" title=" " alt="" coords="219,698,418,723"/>
+<area shape="poly" id="edge688_Node000000_Node000024" title=" " alt="" coords="97,569,140,628,169,658,203,683,231,695,228,700,200,688,165,662,135,631,93,573"/>
+<area shape="rect" id="Node000025" href="$classvtkImageRectangularSource.html" title=" " alt="" coords="215,747,422,773"/>
+<area shape="poly" id="edge689_Node000000_Node000025" title=" " alt="" coords="92,571,108,608,132,652,163,696,203,732,227,745,225,750,200,737,159,700,127,655,103,611,87,574"/>
+<area shape="rect" id="Node000002" href="$classvtkITKArchetypeDiffusionTensorImageReaderFile.html" title=" " alt="" coords="505,5,693,45"/>
+<area shape="poly" id="edge666_Node000001_Node000002" title=" " alt="" coords="359,124,416,88,483,55,516,43,517,48,485,60,419,93,362,128"/>
+<area shape="rect" id="Node000003" href="$classvtkITKArchetypeImageSeriesScalarReader.html" title=" " alt="" coords="493,69,704,109"/>
+<area shape="poly" id="edge667_Node000001_Node000003" title=" " alt="" coords="420,128,510,107,511,112,421,133"/>
+<area shape="rect" id="Node000004" href="$classvtkITKArchetypeImageSeriesVectorReaderFile.html" title=" " alt="" coords="493,133,704,173"/>
+<area shape="poly" id="edge668_Node000001_Node000004" title=" " alt="" coords="437,151,493,151,493,156,437,156"/>
+<area shape="rect" id="Node000005" href="$classvtkITKArchetypeImageSeriesVectorReaderSeries.html" title=" " alt="" coords="493,197,704,237"/>
+<area shape="poly" id="edge669_Node000001_Node000005" title=" " alt="" coords="421,174,511,195,510,200,420,179"/>
+<area shape="rect" id="Node000009" href="$classvtkITKImageToImageFilter2DFF.html" title=" " alt="" coords="485,262,712,287"/>
+<area shape="poly" id="edge673_Node000008_Node000009" title=" " alt="" coords="426,477,434,470,450,450,457,429,457,385,457,341,465,318,482,297,498,285,501,290,486,301,470,321,463,342,463,385,462,430,455,452,438,474,429,481"/>
+<area shape="rect" id="Node000010" href="$classvtkITKImageToImageFilterF2F.html" title=" " alt="" coords="490,311,707,337"/>
+<area shape="poly" id="edge674_Node000008_Node000010" title=" " alt="" coords="426,476,434,470,447,456,454,441,457,410,461,377,469,361,482,346,500,335,503,339,486,350,473,364,466,379,463,410,459,443,451,459,438,474,429,480"/>
+<area shape="rect" id="Node000011" href="$classvtkITKImageToImageFilterF2F2.html" title=" " alt="" coords="486,361,711,386"/>
+<area shape="poly" id="edge675_Node000008_Node000011" title=" " alt="" coords="422,477,434,470,450,453,457,434,465,414,482,395,504,384,506,389,486,399,470,417,462,436,455,455,438,474,425,482"/>
+<area shape="rect" id="Node000012" href="$classvtkITKImageToImageFilterF3F3.html" title=" " alt="" coords="486,410,711,435"/>
+<area shape="poly" id="edge676_Node000008_Node000012" title=" " alt="" coords="405,479,435,470,459,457,483,444,522,433,523,438,485,449,461,462,437,474,406,484"/>
+<area shape="rect" id="Node000013" href="$classvtkITKImageToImageFilterFF.html" title=" " alt="" coords="494,459,703,485"/>
+<area shape="poly" id="edge677_Node000008_Node000013" title=" " alt="" coords="429,485,493,479,494,484,429,490"/>
+<area shape="rect" id="Node000015" href="$classvtkITKImageToImageFilterFUL.html" title=" " alt="" coords="489,509,708,534"/>
+<area shape="poly" id="edge679_Node000008_Node000015" title=" " alt="" coords="429,504,489,509,489,515,429,509"/>
+<area shape="rect" id="Node000016" href="$classvtkITKImageToImageFilterSS.html" title=" " alt="" coords="494,558,703,583"/>
+<area shape="poly" id="edge680_Node000008_Node000016" title=" " alt="" coords="410,511,437,519,461,531,485,543,528,555,527,560,483,548,459,536,435,524,408,516"/>
+<area shape="rect" id="Node000017" href="$classvtkITKImageToImageFilterULUL.html" title=" " alt="" coords="485,607,712,633"/>
+<area shape="poly" id="edge681_Node000008_Node000017" title=" " alt="" coords="428,513,438,519,455,537,463,557,470,576,486,593,510,605,507,610,482,597,465,578,458,559,450,540,434,523,425,518"/>
+<area shape="rect" id="Node000018" href="$classvtkITKImageToImageFilterUSF.html" title=" " alt="" coords="489,657,708,682"/>
+<area shape="poly" id="edge682_Node000008_Node000018" title=" " alt="" coords="429,513,438,519,451,534,459,550,463,582,467,613,473,628,486,642,505,654,503,659,482,646,469,631,461,615,457,583,454,552,447,537,434,523,426,517"/>
+<area shape="rect" id="Node000019" href="$classvtkITKImageToImageFilterUSUL.html" title=" " alt="" coords="485,706,713,731"/>
+<area shape="poly" id="edge683_Node000008_Node000019" title=" " alt="" coords="429,513,438,519,455,541,462,563,463,607,463,651,470,671,486,691,503,704,500,708,482,695,465,674,458,651,457,607,457,564,450,543,434,523,426,517"/>
+<area shape="rect" id="Node000020" href="$classvtkITKImageToImageFilterUSUS.html" title=" " alt="" coords="484,755,713,781"/>
+<area shape="poly" id="edge684_Node000008_Node000020" title=" " alt="" coords="429,512,438,520,458,547,466,575,467,604,463,632,459,660,459,688,467,714,486,741,502,753,499,757,482,745,462,717,454,688,454,660,458,631,461,604,461,576,453,549,434,523,425,516"/>
+<area shape="rect" id="Node000014" href="$classvtkITKGradientAnisotropicDiffusionImageFilter.html" title="Wrapper class around itk::GradientAnisotropicDiffusionImageFilterImageFilter." alt="" coords="761,452,955,492"/>
+<area shape="poly" id="edge678_Node000013_Node000014" title=" " alt="" coords="717,469,761,469,761,475,717,475"/>
+</map>

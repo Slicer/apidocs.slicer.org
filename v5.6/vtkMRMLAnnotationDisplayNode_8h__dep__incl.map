@@ -1,0 +1,9 @@
+<map id="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationDisplayNode.h" name="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationDisplayNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="302,5,601,45"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAnnotationLineDisplayNode_8h.html" title=" " alt="" coords="5,93,284,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="377,52,232,96,230,91,375,47"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLAnnotationPointDisplayNode_8h.html" title=" " alt="" coords="309,93,594,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="454,59,454,93,449,93,449,59"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLAnnotationTextDisplayNode_8h.html" title=" " alt="" coords="619,93,897,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="527,47,672,91,671,96,526,52"/>
+</map>

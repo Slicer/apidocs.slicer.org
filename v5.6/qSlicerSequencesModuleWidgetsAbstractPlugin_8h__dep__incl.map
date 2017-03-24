@@ -1,0 +1,16 @@
+<map id="Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsAbstractPlugin.h" name="Modules/Loadable/Sequences/Widgets/DesignerPlugins/qSlicerSequencesModuleWidgetsAbstractPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="523,5,817,75"/>
+<area shape="rect" id="Node000002" href="$qMRMLSequenceBrowserPlayWidgetPlugin_8h.html" title=" " alt="" coords="5,123,321,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="510,78,287,125,286,120,509,73"/>
+<area shape="rect" id="Node000004" href="$qMRMLSequenceBrowserSeekWidgetPlugin_8h.html" title=" " alt="" coords="346,123,666,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="609,84,547,125,545,120,606,80"/>
+<area shape="rect" id="Node000005" href="$qMRMLSequenceBrowserToolBarPlugin_8h.html" title=" " alt="" coords="690,123,981,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="734,80,796,120,794,125,731,84"/>
+<area shape="rect" id="Node000006" href="$qMRMLSequenceEditWidgetPlugin_8h.html" title=" " alt="" coords="1005,123,1265,177"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="828,75,1023,120,1022,125,827,80"/>
+<area shape="rect" id="Node000003" href="$qSlicerSequencesModuleWidgetsPlugin_8h.html" title=" " alt="" coords="523,225,817,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="309,177,538,223,537,228,308,183"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="562,182,628,223,626,227,559,187"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="782,187,715,227,712,223,779,182"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="1002,183,792,228,791,223,1001,178"/>
+</map>

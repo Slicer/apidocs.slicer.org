@@ -1,0 +1,34 @@
+<map id="vtkMRMLStorageNode" name="vtkMRMLStorageNode">
+<area shape="rect" id="node4" href="$classvtkMRMLAnnotationSnapshotStorageNode.html" title="vtkMRMLAnnotationSnapshot\lStorageNode" alt="" coords="555,5,770,47"/>
+<area shape="rect" id="node5" href="$classvtkMRMLAnnotationStorageNode.html" title="vtkMRMLAnnotationStorageNode" alt="" coords="543,71,782,98"/>
+<area shape="rect" id="node11" href="$classvtkMRMLColorTableStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="545,122,780,149"/>
+<area shape="rect" id="node12" href="$classvtkMRMLDoubleArrayStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="539,173,787,199"/>
+<area shape="rect" id="node13" href="$classvtkMRMLFiducialListStorageNode.html" title="MRML node for handling fiducial list storage. " alt="" coords="543,223,783,250"/>
+<area shape="rect" id="node14" href="$classvtkMRMLHierarchyStorageNode.html" title="MRML node for representing a no&#45;op hierarchy storage. " alt="" coords="547,274,778,301"/>
+<area shape="rect" id="node15" href="$classvtkMRMLMarkupsStorageNode.html" title="vtkMRMLMarkupsStorageNode" alt="" coords="551,325,774,351"/>
+<area shape="rect" id="node19" href="$classvtkMRMLModelStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="559,375,766,402"/>
+<area shape="rect" id="node20" href="$classvtkMRMLNRRDStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="560,426,765,453"/>
+<area shape="rect" id="node23" href="$classvtkMRMLProceduralColorStorageNode.html" title="MRML node for procedural color node storage. " alt="" coords="527,477,798,503"/>
+<area shape="rect" id="node24" href="$classvtkMRMLSceneViewStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="543,527,782,554"/>
+<area shape="rect" id="node25" href="$classvtkMRMLSegmentationStorageNode.html" title="MRML node for segmentation storage on disk. " alt="" coords="533,578,792,605"/>
+<area shape="rect" id="node26" href="$classvtkMRMLSequenceStorageNode.html" title="MRML node for storing a sequence node on disk. " alt="" coords="547,629,778,655"/>
+<area shape="rect" id="node27" href="$classvtkMRMLShaderPropertyStorageNode.html" title="vtkMRMLShaderPropertyStorageNode" alt="" coords="529,679,796,706"/>
+<area shape="rect" id="node28" href="$classvtkMRMLTableSQLiteStorageNode.html" title="vtkMRMLTableSQLiteStorageNode" alt="" coords="541,730,784,757"/>
+<area shape="rect" id="node29" href="$classvtkMRMLTableStorageNode.html" title="MRML node for handling Table node storage. " alt="" coords="563,781,763,807"/>
+<area shape="rect" id="node30" href="$classvtkMRMLTextStorageNode.html" title="vtkMRMLTextStorageNode" alt="" coords="566,831,759,858"/>
+<area shape="rect" id="node31" href="$classvtkMRMLTransformStorageNode.html" title="MRML node for transform storage on disk. " alt="" coords="547,882,778,909"/>
+<area shape="rect" id="node32" href="$classvtkMRMLVolumeArchetypeStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="522,933,803,959"/>
+<area shape="rect" id="node33" href="$classvtkMRMLVolumeHeaderlessStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="519,983,807,1010"/>
+<area shape="rect" id="node34" href="$classvtkMRMLVolumePropertyStorageNode.html" title="vtkMRMLVolumePropertyStorageNode" alt="" coords="527,1034,798,1061"/>
+<area shape="rect" id="node2" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="139,527,256,554"/>
+<area shape="rect" id="node6" href="$classvtkMRMLAnnotationControlPointsStorageNode.html" title="vtkMRMLAnnotationControl\lPointsStorageNode" alt="" coords="893,64,1095,105"/>
+<area shape="rect" id="node7" href="$classvtkMRMLAnnotationFiducialsStorageNode.html" title="vtkMRMLAnnotationFiducials\lStorageNode" alt="" coords="1212,35,1424,76"/>
+<area shape="rect" id="node8" href="$classvtkMRMLAnnotationLinesStorageNode.html" title="vtkMRMLAnnotationLinesStorageNode" alt="" coords="1181,101,1455,127"/>
+<area shape="rect" id="node9" href="$classvtkMRMLAnnotationAngleStorageNode.html" title="vtkMRMLAnnotationAngleStorageNode" alt="" coords="1503,75,1779,102"/>
+<area shape="rect" id="node10" href="$classvtkMRMLAnnotationRulerStorageNode.html" title="vtkMRMLAnnotationRulerStorageNode" alt="" coords="1504,126,1777,153"/>
+<area shape="rect" id="node16" href="$classvtkMRMLMarkupsFiducialStorageNode.html" title="vtkMRMLMarkupsFiducialStorageNode" alt="" coords="858,285,1130,311"/>
+<area shape="rect" id="node17" href="$classvtkMRMLMarkupsJsonStorageNode.html" title="vtkMRMLMarkupsJsonStorageNode" alt="" coords="869,335,1119,362"/>
+<area shape="rect" id="node18" href="$classvtkMRMLMarkupsROIJsonStorageNode.html" title="vtkMRMLMarkupsROIJsonStorageNode" alt="" coords="1182,335,1454,362"/>
+<area shape="rect" id="node21" href="$classvtkMRMLLinearTransformSequenceStorageNode.html" title="vtkMRMLLinearTransformSequence\lStorageNode" alt="" coords="869,408,1119,449"/>
+<area shape="rect" id="node22" href="$classvtkMRMLVolumeSequenceStorageNode.html" title="vtkMRMLVolumeSequenceStorageNode" alt="" coords="855,474,1133,501"/>
+</map>

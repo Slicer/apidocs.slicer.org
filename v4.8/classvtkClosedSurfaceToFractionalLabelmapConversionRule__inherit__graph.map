@@ -1,0 +1,4 @@
+<map id="vtkClosedSurfaceToFractionalLabelmapConversionRule" name="vtkClosedSurfaceToFractionalLabelmapConversionRule">
+<area shape="rect" id="node2" href="$classvtkClosedSurfaceToBinaryLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to binary labelmap representation (vtkOrient..." alt="" coords="23,155,209,196"/>
+<area shape="rect" id="node3" href="$classvtkSegmentationConverterRule.html" title="Abstract converter rule class. Subclasses perform conversions between specific representation types..." alt="" coords="5,80,227,107"/>
+</map>

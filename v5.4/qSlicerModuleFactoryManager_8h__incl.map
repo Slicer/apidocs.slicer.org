@@ -1,0 +1,15 @@
+<map id="Base/QTCore/qSlicerModuleFactoryManager.h" name="Base/QTCore/qSlicerModuleFactoryManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,5,242,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,99,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,48,76,93,72,89,120,44"/>
+<area shape="rect" id="Node000003" href="$qSlicerAbstractModuleFactoryManager_8h.html" title=" " alt="" coords="123,93,338,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,44,203,82,199,86,159,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="12,181,87,207"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="188,136,90,178,88,173,186,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="111,181,182,207"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="212,136,171,174,167,170,209,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="207,181,423,207"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="253,132,294,170,290,174,249,136"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="447,181,646,207"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="307,131,488,175,487,181,306,136"/>
+</map>
