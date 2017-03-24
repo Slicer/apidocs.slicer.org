@@ -1,0 +1,11 @@
+<map id="qSlicerColorsModuleWidgetsAbstractPlugin" name="qSlicerColorsModuleWidgetsAbstractPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="297,63,505,103"/>
+<area shape="rect" id="Node000003" href="$classqMRMLColorLegendDisplayNodeWidgetPlugin.html" title=" " alt="" coords="553,5,788,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="509,57,576,43,577,48,510,62"/>
+<area shape="rect" id="Node000004" href="$classqMRMLColorListViewPlugin.html" title=" " alt="" coords="571,70,770,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,80,571,80,571,85,519,85"/>
+<area shape="rect" id="Node000005" href="$classqMRMLColorTableViewPlugin.html" title=" " alt="" coords="565,119,776,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="519,101,601,117,600,122,518,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,70,249,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,80,297,80,297,85,263,85"/>
+</map>

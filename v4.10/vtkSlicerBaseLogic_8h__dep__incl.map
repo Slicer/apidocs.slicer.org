@@ -1,0 +1,35 @@
+<map id="Base/Logic/vtkSlicerBaseLogic.h" name="Base/Logic/vtkSlicerBaseLogic.h">
+<area shape="rect" id="node2" href="$vtkSlicerApplicationLogic_8h.html" title="Base/Logic/vtkSlicerApplication\lLogic.h" alt="" coords="2619,95,2838,136"/>
+<area shape="rect" id="node17" href="$vtkSlicerSceneViewsModuleLogic_8h.html" title="Modules/Loadable/SceneViews\l/Logic/vtkSlicerSceneViewsModule\lLogic.h" alt="" coords="21,273,260,329"/>
+<area shape="rect" id="node26" href="$vtkSlicerTask_8h.html" title="Base/Logic/vtkSlicerTask.h" alt="" coords="4391,191,4579,218"/>
+<area shape="rect" id="node27" href="$vtkImageFillROI_8h.html" title="Base/Logic/vtkImageFillROI.h" alt="" coords="2913,102,3115,129"/>
+<area shape="rect" id="node28" href="$vtkImageRectangularSource_8h.html" title="Base/Logic/vtkImageRectangular\lSource.h" alt="" coords="3139,95,3369,136"/>
+<area shape="rect" id="node29" href="$vtkSlicerFiducialsLogic_8h.html" title="Base/Logic/vtkSlicerFiducials\lLogic.h" alt="" coords="3393,95,3595,136"/>
+<area shape="rect" id="node30" href="$vtkSlicerGlyphSource2D_8h.html" title="Base/Logic/vtkSlicerGlyph\lSource2D.h" alt="" coords="3620,95,3805,136"/>
+<area shape="rect" id="node31" href="$vtkSystemInformation_8h.html" title="Base/Logic/vtkSystemInformation.h" alt="" coords="3830,102,4078,129"/>
+<area shape="rect" id="node32" href="$vtkTransformVisualizerGlyph3D_8h.html" title="Base/Logic/vtkTransformVisualizer\lGlyph3D.h" alt="" coords="4103,95,4341,136"/>
+<area shape="rect" id="node33" href="$vtkMarkupsGlyphSource2D_8h.html" title="Modules/Loadable/Markups\l/VTKWidgets/vtkMarkupsGlyphSource2D.h" alt="" coords="4366,95,4654,136"/>
+<area shape="rect" id="node34" href="$vtkSlicerTransformLogic_8h.html" title="Modules/Loadable/Transforms\l/Logic/vtkSlicerTransformLogic.h" alt="" coords="4679,95,4904,136"/>
+<area shape="rect" id="node3" href="$vtkSlicerModuleLogic_8h.html" title="Base/Logic/vtkSlicerModule\lLogic.h" alt="" coords="2571,184,2766,225"/>
+<area shape="rect" id="node4" href="$vtkDataIOManagerLogic_8h.html" title="Base/Logic/vtkDataIOManager\lLogic.h" alt="" coords="4895,281,5109,322"/>
+<area shape="rect" id="node5" href="$vtkSlicerScriptedLoadableModuleLogic_8h.html" title="Base/Logic/vtkSlicerScripted\lLoadableModuleLogic.h" alt="" coords="285,281,487,322"/>
+<area shape="rect" id="node6" href="$vtkSlicerCLIModuleLogic_8h.html" title="Base/QTCLI/vtkSlicerCLIModule\lLogic.h" alt="" coords="511,281,727,322"/>
+<area shape="rect" id="node7" href="$vtkSlicerAnnotationModuleLogic_8h.html" title="Modules/Loadable/Annotations\l/Logic/vtkSlicerAnnotationModule\lLogic.h" alt="" coords="752,273,985,329"/>
+<area shape="rect" id="node9" href="$vtkSlicerCamerasModuleLogic_8h.html" title="Modules/Loadable/Cameras\l/Logic/vtkSlicerCamerasModuleLogic.h" alt="" coords="1010,281,1277,322"/>
+<area shape="rect" id="node10" href="$vtkSlicerCropVolumeLogic_8h.html" title="Modules/Loadable/CropVolume\l/Logic/vtkSlicerCropVolumeLogic.h" alt="" coords="1301,281,1541,322"/>
+<area shape="rect" id="node11" href="$vtkSlicerDataModuleLogic_8h.html" title="Modules/Loadable/Data\l/Logic/vtkSlicerDataModuleLogic.h" alt="" coords="1565,281,1804,322"/>
+<area shape="rect" id="node12" href="$vtkSlicerDoubleArraysLogic_8h.html" title="Modules/Loadable/DoubleArrays\l/Logic/vtkSlicerDoubleArraysLogic.h" alt="" coords="1829,281,2077,322"/>
+<area shape="rect" id="node13" href="$vtkSlicerMarkupsLogic_8h.html" title="Modules/Loadable/Markups\l/Logic/vtkSlicerMarkupsLogic.h" alt="" coords="2101,281,2317,322"/>
+<area shape="rect" id="node14" href="$vtkSlicerModelsLogic_8h.html" title="Modules/Loadable/Models\l/Logic/vtkSlicerModelsLogic.h" alt="" coords="2341,281,2548,322"/>
+<area shape="rect" id="node15" href="$vtkSlicerPlotsLogic_8h.html" title="Modules/Loadable/Plots\l/Logic/vtkSlicerPlotsLogic.h" alt="" coords="2572,281,2765,322"/>
+<area shape="rect" id="node16" href="$vtkSlicerReformatLogic_8h.html" title="Modules/Loadable/Reformat\l/Logic/vtkSlicerReformatLogic.h" alt="" coords="2789,281,3009,322"/>
+<area shape="rect" id="node19" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="3034,273,3295,329"/>
+<area shape="rect" id="node20" href="$vtkSlicerSubjectHierarchyModuleLogic_8h.html" title="Modules/Loadable/Subject\lHierarchy/Logic/vtkSlicerSubject\lHierarchyModuleLogic.h" alt="" coords="3319,273,3546,329"/>
+<area shape="rect" id="node21" href="$vtkSlicerTablesLogic_8h.html" title="Modules/Loadable/Tables\l/Logic/vtkSlicerTablesLogic.h" alt="" coords="3571,281,3772,322"/>
+<area shape="rect" id="node22" href="$vtkSlicerTerminologiesModuleLogic_8h.html" title="Modules/Loadable/Terminologies\l/Logic/vtkSlicerTerminologiesModule\lLogic.h" alt="" coords="3797,273,4047,329"/>
+<area shape="rect" id="node23" href="$vtkSlicerViewControllersLogic_8h.html" title="Modules/Loadable/ViewControllers\l/Logic/vtkSlicerViewControllersLogic.h" alt="" coords="4072,281,4332,322"/>
+<area shape="rect" id="node24" href="$vtkSlicerVolumeRenderingLogic_8h.html" title="Modules/Loadable/VolumeRendering\l/Logic/vtkSlicerVolumeRenderingLogic.h" alt="" coords="4356,281,4629,322"/>
+<area shape="rect" id="node25" href="$vtkSlicerVolumesLogic_8h.html" title="Modules/Loadable/Volumes\l/Logic/vtkSlicerVolumesLogic.h" alt="" coords="4653,281,4871,322"/>
+<area shape="rect" id="node8" href="$qSlicerAnnotationModuleReportDialog_8h.html" title="Modules/Loadable/Annotations\l/GUI/qSlicerAnnotationModuleReport\lDialog.h" alt="" coords="742,377,995,433"/>
+<area shape="rect" id="node18" href="$qSlicerSceneViewsModuleDialog_8h.html" title="Modules/Loadable/SceneViews\l/GUI/qSlicerSceneViewsModuleDialog.h" alt="" coords="5,385,276,426"/>
+</map>

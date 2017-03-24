@@ -1,0 +1,7 @@
+<map id="vtkMRMLAnnotationBidimensionalDisplayableManager" name="vtkMRMLAnnotationBidimensionalDisplayableManager">
+<area shape="rect" id="node2" href="$classvtkMRMLAnnotationDisplayableManager.html" title="vtkMRMLAnnotationDisplayable\lManager" alt="" coords="833,65,1055,107"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="579,5,784,47"/>
+<area shape="rect" id="node4" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="137,19,303,46"/>
+<area shape="rect" id="node6" href="$classvtkMRMLAnnotationClickCounter.html" title="vtkMRMLAnnotationClickCounter" alt="" coords="327,73,555,99"/>
+<area shape="rect" id="node7" href="$classvtkMRMLAnnotationDisplayableManagerHelper.html" title="vtkMRMLAnnotationDisplayable\lManagerHelper" alt="" coords="330,124,551,165"/>
+</map>

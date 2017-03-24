@@ -1,0 +1,30 @@
+<map id="Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.h" name="Modules/Loadable/Markups/Widgets/DesignerPlugins/qSlicerMarkupsModuleWidgetsPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="769,5,1047,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,219,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="769,50,523,76,232,111,232,105,522,70,768,45"/>
+<area shape="rect" id="Node000003" href="$qMRMLMarkupsDisplayNodeWidgetPlugin_8h.html" title=" " alt="" coords="243,108,498,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="769,61,493,108,492,103,768,55"/>
+<area shape="rect" id="Node000008" href="$qMRMLMarkupsFiducialProjectionPropertyWidgetPlugin_8h.html" title=" " alt="" coords="523,108,763,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="834,63,710,106,708,101,833,58"/>
+<area shape="rect" id="Node000009" href="$qMRMLMarkupsInteractionHandleWidgetPlugin_8h.html" title=" " alt="" coords="787,108,1029,148"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="911,60,911,94,905,94,905,60"/>
+<area shape="rect" id="Node000010" href="$qMRMLMarkupsROIWidgetPlugin_8h.html" title=" " alt="" coords="1053,115,1299,141"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="984,58,1131,108,1129,113,982,63"/>
+<area shape="rect" id="Node000011" href="$qSlicerMarkupsPlaceWidgetPlugin_8h.html" title=" " alt="" coords="1324,108,1527,148"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="1048,56,1311,103,1310,109,1047,62"/>
+<area shape="rect" id="Node000012" href="$qSlicerSimpleMarkupsWidgetPlugin_8h.html" title=" " alt="" coords="1551,108,1763,148"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="1048,46,1274,72,1538,105,1538,111,1273,77,1048,51"/>
+<area shape="rect" id="Node000004" href="$qSlicerMarkupsModuleWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="930,196,1153,236"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="498,144,511,145,916,197,916,202,510,151,498,149"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="831,291,910,317"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1005,238,907,288,904,283,1003,234"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="935,284,1148,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1044,236,1044,270,1039,270,1039,236"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1173,284,1395,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1095,234,1219,277,1217,282,1094,239"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="731,145,941,191,940,196,730,151"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="939,146,1002,186,999,191,936,151"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="1159,143,1084,191,1081,186,1156,139"/>
+<area shape="poly" id="edge14_Node000011_Node000004" title=" " alt="" coords="1342,151,1139,196,1138,190,1340,145"/>
+<area shape="poly" id="edge16_Node000012_Node000004" title=" " alt="" coords="1552,149,1539,151,1167,201,1166,196,1538,145,1551,144"/>
+</map>

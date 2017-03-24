@@ -1,0 +1,22 @@
+digraph "Modules/Loadable/Terminologies" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d01fdafe93af837a1755aeb3a6390699 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Loadable" fontname="Helvetica", fontsize="10", URL="dir_d01fdafe93af837a1755aeb3a6390699.html"]
+  subgraph clusterdir_c20d4ae2fd1614eda006ead50cca913b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c20d4ae2fd1614eda006ead50cca913b.html"];
+    dir_c20d4ae2fd1614eda006ead50cca913b [shape=plaintext label="Terminologies"];
+    dir_d65e3bdfbbc4c2011968400efb9f0b00 [shape=box label="Logic" color="black" fillcolor="white" style="filled" URL="dir_d65e3bdfbbc4c2011968400efb9f0b00.html"];
+    dir_4ac34073d1fc42a15b3ffcb59b882ab6 [shape=box label="Widgets" color="red" fillcolor="white" style="filled" URL="dir_4ac34073d1fc42a15b3ffcb59b882ab6.html"];
+  }
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_4ac34073d1fc42a15b3ffcb59b882ab6->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="1", labeldistance=1.5 headhref="dir_000111_000012.html"];
+  dir_4ac34073d1fc42a15b3ffcb59b882ab6->dir_d65e3bdfbbc4c2011968400efb9f0b00 [headlabel="2", labeldistance=1.5 headhref="dir_000111_000110.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="12", labeldistance=1.5 headhref="dir_000002_000012.html"];
+  dir_d65e3bdfbbc4c2011968400efb9f0b00->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="2", labeldistance=1.5 headhref="dir_000110_000012.html"];
+  dir_d65e3bdfbbc4c2011968400efb9f0b00->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000110_000002.html"];
+}

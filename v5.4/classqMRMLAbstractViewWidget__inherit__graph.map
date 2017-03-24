@@ -1,0 +1,15 @@
+<map id="qMRMLAbstractViewWidget" name="qMRMLAbstractViewWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,152,431,177"/>
+<area shape="rect" id="Node000004" href="$classqMRMLPlotWidget.html" title="qMRMLPlotWidget is the top&#45;level Plotting widget that can be packed in a layout." alt="" coords="5,225,147,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,184,118,228,116,223,275,179"/>
+<area shape="rect" id="Node000005" href="$classqMRMLSliceWidget.html" title=" " alt="" coords="171,225,317,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="307,188,260,227,256,223,304,184"/>
+<area shape="rect" id="Node000006" href="$classqMRMLTableWidget.html" title="qMRMLTableWidget is the top&#45;level table widget that can be packed in a layout." alt="" coords="341,225,491,251"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="355,184,404,223,400,227,352,188"/>
+<area shape="rect" id="Node000007" href="$classqMRMLThreeDWidget.html" title=" " alt="" coords="515,225,677,251"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="386,178,554,223,552,228,385,183"/>
+<area shape="rect" id="Node000002" href="$classqMRMLWidget.html" title="Base class for any widget that requires a MRML Scene." alt="" coords="272,79,387,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,118,332,152,327,152,327,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="290,5,369,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,44,332,79,327,79,327,44"/>
+</map>

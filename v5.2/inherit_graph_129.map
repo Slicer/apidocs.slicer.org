@@ -1,0 +1,22 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="125,160,408,187"/>
+<area shape="rect" id="node3" href="$classvtkMRMLRubberBandWidgetRepresentation.html" title="represent intersections of other slice views in the current slice view " alt="" coords="456,36,763,63"/>
+<area shape="rect" id="node4" href="$classvtkMRMLSliceIntersectionInteractionRepresentation.html" title="represent intersections of other slice views in the current slice view " alt="" coords="514,87,705,129"/>
+<area shape="rect" id="node5" href="$classvtkMRMLSliceIntersectionInteractionRepresentationHelper.html" title="represent intersections of other slice views in the current slice view " alt="" coords="492,153,727,194"/>
+<area shape="rect" id="node6" href="$classvtkMRMLSliceIntersectionRepresentation2D.html" title="represent intersections of other slice views in the current slice view " alt="" coords="514,218,705,259"/>
+<area shape="rect" id="node7" href="$classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node. " alt="" coords="470,284,749,311"/>
+<area shape="rect" id="node8" href="$classvtkSlicerMarkupsWidgetRepresentation2D.html" title="Default representation for the slicer markups widget. " alt="" coords="811,157,1108,184"/>
+<area shape="rect" id="node15" href="$classvtkSlicerMarkupsWidgetRepresentation3D.html" title="Default representation for the markups widget in 3D views. " alt="" coords="811,411,1108,437"/>
+<area shape="rect" id="node9" href="$classvtkSlicerAngleRepresentation2D.html" title="Default representation for the line widget. " alt="" coords="1157,5,1391,32"/>
+<area shape="rect" id="node10" href="$classvtkSlicerCurveRepresentation2D.html" title="Default representation for the line widget. " alt="" coords="1157,56,1391,83"/>
+<area shape="rect" id="node11" href="$classvtkSlicerLineRepresentation2D.html" title="Default representation for the line widget. " alt="" coords="1163,107,1385,133"/>
+<area shape="rect" id="node12" href="$classvtkSlicerPlaneRepresentation2D.html" title="Default representation for the plane widget. " alt="" coords="1158,157,1390,184"/>
+<area shape="rect" id="node13" href="$classvtkSlicerPointsRepresentation2D.html" title="Default representation for the points widget. " alt="" coords="1156,208,1392,235"/>
+<area shape="rect" id="node14" href="$classvtkSlicerROIRepresentation2D.html" title="Default representation for the plane widget. " alt="" coords="1165,259,1383,285"/>
+<area shape="rect" id="node16" href="$classvtkSlicerAngleRepresentation3D.html" title="Default representation for the angle widget. " alt="" coords="1157,309,1391,336"/>
+<area shape="rect" id="node17" href="$classvtkSlicerCurveRepresentation3D.html" title="Default representation for the curve widget. " alt="" coords="1157,360,1391,387"/>
+<area shape="rect" id="node18" href="$classvtkSlicerLineRepresentation3D.html" title="Default representation for the line widget. " alt="" coords="1163,411,1385,437"/>
+<area shape="rect" id="node19" href="$classvtkSlicerPlaneRepresentation3D.html" title="Default representation for the plane widget. " alt="" coords="1158,461,1390,488"/>
+<area shape="rect" id="node20" href="$classvtkSlicerPointsRepresentation3D.html" title="Default representation for the points widget. " alt="" coords="1156,512,1392,539"/>
+<area shape="rect" id="node21" href="$classvtkSlicerROIRepresentation3D.html" title="Default representation for the plane widget. " alt="" coords="1165,563,1383,589"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,157,156,182"/>
+<area shape="rect" id="Node000001" href="$classitk_1_1DiffusionTensor3DResample.html" title=" " alt="" coords="206,5,437,45"/>
+<area shape="poly" id="edge78_Node000000_Node000001" title=" " alt="" coords="99,144,143,99,172,75,203,55,229,43,231,48,205,60,175,80,147,103,103,148"/>
+<area shape="rect" id="Node000002" href="$classitk_1_1HFieldToDeformationFieldImageFilter.html" title="Computes the Mean Diffusivity for every pixel of a input tensor image." alt="" coords="207,70,435,125"/>
+<area shape="poly" id="edge79_Node000000_Node000002" title=" " alt="" coords="136,150,229,122,230,127,138,155"/>
+<area shape="rect" id="Node000003" href="$classitk_1_1LevelTracingImageFilter.html" title="Trace a level curve/surface given a seed point on the level curve/surface." alt="" coords="204,149,439,189"/>
+<area shape="poly" id="edge80_Node000000_Node000003" title=" " alt="" coords="169,167,204,167,204,172,169,172"/>
+<area shape="rect" id="Node000004" href="$classitk_1_1SeparateComponentsOfADiffusionTensorImage.html" title=" " alt="" coords="220,214,423,269"/>
+<area shape="poly" id="edge81_Node000000_Node000004" title=" " alt="" coords="138,183,230,211,229,217,136,189"/>
+<area shape="rect" id="Node000005" href="$classitk_1_1TransformDeformationFieldFilter.html" title=" " alt="" coords="218,293,425,347"/>
+<area shape="poly" id="edge82_Node000000_Node000005" title=" " alt="" coords="104,190,148,234,205,278,230,290,227,295,203,282,145,238,100,194"/>
+</map>

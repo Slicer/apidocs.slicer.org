@@ -1,0 +1,15 @@
+<map id="Modules/Loadable/Sequences/Widgets/qMRMLSequenceEditWidget.h" name="Modules/Loadable/Sequences/Widgets/qMRMLSequenceEditWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="116,5,393,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,96,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,48,91,98,89,93,209,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,101,242,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,47,202,91,198,88,236,44"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidget_8h.html" title=" " alt="" coords="266,101,393,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,44,312,88,308,92,269,47"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="417,93,655,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="317,43,462,87,461,92,316,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="214,181,293,207"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="320,128,276,173,272,170,316,124"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,181,493,207"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="342,124,387,170,383,173,339,128"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="vtkMRMLROIListNode" name="vtkMRMLROIListNode">
+<area shape="rect" id="Node000001" title="MRML list node to represent a list of ROINODE." alt="" coords="5,243,168,268"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="28,168,145,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,208,89,242,84,242,84,208"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="39,5,124,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,44,89,168,84,168,80,45"/>
+<area shape="rect" id="Node000004" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="103,80,262,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="110,37,168,77,165,82,107,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="161,116,102,169,98,165,158,112"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="Base/CLI/itkPluginUtilities.h" name="Base/CLI/itkPluginUtilities.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="381,5,584,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,165,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="419,33,164,79,163,74,418,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="190,79,282,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="444,33,290,77,288,72,442,28"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="307,79,467,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="469,33,415,72,412,68,466,29"/>
+<area shape="rect" id="Node000005" href="$itkPluginFilterWatcher_8h.html" title=" " alt="" coords="491,79,667,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="500,29,553,68,550,72,497,33"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="691,79,754,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="522,28,679,74,677,79,520,33"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="779,79,837,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="543,28,765,76,764,81,542,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="365,152,573,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="563,106,500,147,497,142,560,102"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="597,152,779,177"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="598,102,660,142,657,147,595,106"/>
+</map>

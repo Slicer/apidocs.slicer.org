@@ -1,0 +1,10 @@
+<map id="vtkMRMLAnnotationHierarchyNode" name="vtkMRMLAnnotationHierarchyNode">
+<area shape="rect" id="node2" href="$classvtkMRMLDisplayableHierarchyNode.html" title="MRML node to represent a hierarchy of displayable nodes. " alt="" coords="5,539,263,565"/>
+<area shape="rect" id="node3" href="$classvtkMRMLHierarchyNode.html" title="Abstract class representing a hierarchy member. " alt="" coords="23,309,203,336"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="125,183,242,209"/>
+<area shape="rect" id="node7" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="151,449,317,476"/>
+<area shape="rect" id="node9" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="261,259,431,285"/>
+<area shape="rect" id="node6" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="177,81,336,108"/>
+<area shape="rect" id="node10" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="351,132,450,159"/>
+<area shape="rect" id="node8" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="265,360,416,387"/>
+</map>

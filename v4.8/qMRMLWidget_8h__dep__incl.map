@@ -1,0 +1,36 @@
+<map id="Libs/MRML/Widgets/qMRMLWidget.h" name="Libs/MRML/Widgets/qMRMLWidget.h">
+<area shape="rect" id="node2" href="$qMRMLCaptureToolBar_8h.html" title="Libs/MRML/Widgets/qMRMLCapture\lToolBar.h" alt="" coords="231,87,473,129"/>
+<area shape="rect" id="node3" href="$qMRMLViewControllerBar_8h.html" title="Libs/MRML/Widgets/qMRMLView\lControllerBar.h" alt="" coords="497,87,716,129"/>
+<area shape="rect" id="node9" href="$qMRMLChartWidget_8h.html" title="Libs/MRML/Widgets/qMRMLChart\lWidget.h" alt="" coords="740,87,967,129"/>
+<area shape="rect" id="node10" href="$qMRMLColorPickerWidget_8h.html" title="Libs/MRML/Widgets/qMRMLColor\lPickerWidget.h" alt="" coords="991,87,1215,129"/>
+<area shape="rect" id="node11" href="$qMRMLLabelComboBox_8h.html" title="Libs/MRML/Widgets/qMRMLLabel\lComboBox.h" alt="" coords="1238,87,1463,129"/>
+<area shape="rect" id="node12" href="$qMRMLPlotViewInformationWidget_8h.html" title="Libs/MRML/Widgets/qMRMLPlot\lViewInformationWidget.h" alt="" coords="1487,87,1702,129"/>
+<area shape="rect" id="node13" href="$qMRMLPlotWidget_8h.html" title="Libs/MRML/Widgets/qMRMLPlot\lWidget.h" alt="" coords="1726,87,1941,129"/>
+<area shape="rect" id="node14" href="$qMRMLSegmentSelectorWidget_8h.html" title="Libs/MRML/Widgets/qMRMLSegment\lSelectorWidget.h" alt="" coords="1965,87,2216,129"/>
+<area shape="rect" id="node15" href="$qMRMLSliceInformationWidget_8h.html" title="Libs/MRML/Widgets/qMRMLSlice\lInformationWidget.h" alt="" coords="2240,87,2461,129"/>
+<area shape="rect" id="node16" href="$qMRMLSliceWidget_8h.html" title="Libs/MRML/Widgets/qMRMLSlice\lWidget.h" alt="" coords="2485,87,2707,129"/>
+<area shape="rect" id="node17" href="$qMRMLTableWidget_8h.html" title="Libs/MRML/Widgets/qMRMLTable\lWidget.h" alt="" coords="2731,87,2952,129"/>
+<area shape="rect" id="node18" href="$qMRMLThreeDViewInformationWidget_8h.html" title="Libs/MRML/Widgets/qMRMLThree\lDViewInformationWidget.h" alt="" coords="2977,87,3202,129"/>
+<area shape="rect" id="node19" href="$qMRMLThreeDWidget_8h.html" title="Libs/MRML/Widgets/qMRMLThree\lDWidget.h" alt="" coords="3226,87,3451,129"/>
+<area shape="rect" id="node20" href="$qMRMLTransformSliders_8h.html" title="Libs/MRML/Widgets/qMRMLTransform\lSliders.h" alt="" coords="3475,87,3727,129"/>
+<area shape="rect" id="node21" href="$qMRMLVolumeInfoWidget_8h.html" title="Libs/MRML/Widgets/qMRMLVolume\lInfoWidget.h" alt="" coords="3751,87,3990,129"/>
+<area shape="rect" id="node22" href="$qMRMLAnnotationDisplayNodePropertyWidget_8h.html" title="Modules/Loadable/Annotations\l/Widgets/qMRMLAnnotationDisplayNode\lPropertyWidget.h" alt="" coords="4015,80,4289,136"/>
+<area shape="rect" id="node24" href="$qMRMLAnnotationFiducialProjectionPropertyWidget_8h.html" title="Modules/Loadable/Annotations\l/Widgets/qMRMLAnnotationFiducial\lProjectionPropertyWidget.h" alt="" coords="4314,80,4555,136"/>
+<area shape="rect" id="node25" href="$qMRMLAnnotationRulerProjectionPropertyWidget_8h.html" title="Modules/Loadable/Annotations\l/Widgets/qMRMLAnnotationRulerProjection\lPropertyWidget.h" alt="" coords="4579,80,4869,136"/>
+<area shape="rect" id="node26" href="$qMRMLMarkupsFiducialProjectionPropertyWidget_8h.html" title="Modules/Loadable/Markups\l/Widgets/qMRMLMarkupsFiducialProjection\lPropertyWidget.h" alt="" coords="4893,80,5181,136"/>
+<area shape="rect" id="node27" href="$qMRMLSegmentationDisplayNodeWidget_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentationDisplayNode\lWidget.h" alt="" coords="5205,80,5501,136"/>
+<area shape="rect" id="node28" href="$qMRMLSegmentEditorWidget_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentEditorWidget.h" alt="" coords="5526,87,5802,129"/>
+<area shape="rect" id="node29" href="$qMRMLSegmentsTableView_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentsTableView.h" alt="" coords="5826,87,6089,129"/>
+<area shape="rect" id="node30" href="$qSlicerTerminologyNavigatorWidget_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologyNavigator\lWidget.h" alt="" coords="6113,80,6375,136"/>
+<area shape="rect" id="node33" href="$qMRMLTransformDisplayNodeWidget_8h.html" title="Modules/Loadable/Transforms\l/Widgets/qMRMLTransformDisplayNode\lWidget.h" alt="" coords="6399,80,6665,136"/>
+<area shape="rect" id="node34" href="$qMRMLTransformInfoWidget_8h.html" title="Modules/Loadable/Transforms\l/Widgets/qMRMLTransformInfoWidget.h" alt="" coords="6689,87,6953,129"/>
+<area shape="rect" id="node35" href="$qMRMLUnitWidget_8h.html" title="Modules/Loadable/Units\l/Widgets/qMRMLUnitWidget.h" alt="" coords="6977,87,7183,129"/>
+<area shape="rect" id="node4" href="$qMRMLChartViewControllerWidget_8h.html" title="Libs/MRML/Widgets/qMRMLChart\lViewControllerWidget.h" alt="" coords="5,191,232,233"/>
+<area shape="rect" id="node5" href="$qMRMLPlotViewControllerWidget_8h.html" title="Libs/MRML/Widgets/qMRMLPlot\lViewControllerWidget.h" alt="" coords="257,191,471,233"/>
+<area shape="rect" id="node6" href="$qMRMLSliceControllerWidget_8h.html" title="Libs/MRML/Widgets/qMRMLSlice\lControllerWidget.h" alt="" coords="496,191,717,233"/>
+<area shape="rect" id="node7" href="$qMRMLTableViewControllerWidget_8h.html" title="Libs/MRML/Widgets/qMRMLTable\lViewControllerWidget.h" alt="" coords="741,191,963,233"/>
+<area shape="rect" id="node8" href="$qMRMLThreeDViewControllerWidget_8h.html" title="Libs/MRML/Widgets/qMRMLThree\lDViewControllerWidget.h" alt="" coords="987,191,1213,233"/>
+<area shape="rect" id="node23" href="$qMRMLAnnotationDisplayNodePointPropertyWidget_8h.html" title="Modules/Loadable/Annotations\l/Widgets/qMRMLAnnotationDisplayNode\lPointPropertyWidget.h" alt="" coords="4015,184,4289,240"/>
+<area shape="rect" id="node31" href="$qSlicerTerminologySelectorButton_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologySelector\lButton.h" alt="" coords="5979,184,6231,240"/>
+<area shape="rect" id="node32" href="$qSlicerTerminologySelectorDialog_8h.html" title="Modules/Loadable/Terminologies\l/Widgets/qSlicerTerminologySelector\lDialog.h" alt="" coords="6255,184,6507,240"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="qSlicerSubjectHierarchyModule" name="qSlicerSubjectHierarchyModule">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,299,231,324"/>
+<area shape="rect" id="Node000002" href="$classqSlicerLoadableModule.html" title=" " alt="" coords="31,225,205,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,264,121,299,115,299,115,264"/>
+<area shape="rect" id="Node000003" href="$classqSlicerAbstractModule.html" title=" " alt="" coords="34,152,202,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,191,121,225,115,225,115,191"/>
+<area shape="rect" id="Node000004" href="$classqSlicerAbstractCoreModule.html" title="qSlicerAbstractCoreModule is the base class of any module in Slicer." alt="" coords="19,79,217,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,118,121,152,115,152,115,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="81,5,155,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="121,44,121,79,115,79,115,44"/>
+</map>

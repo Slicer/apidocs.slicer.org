@@ -1,0 +1,12 @@
+<map id="Libs/MRML/Widgets/qMRMLPlotWidget.h" name="Libs/MRML/Widgets/qMRMLPlotWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,232,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="7,240,86,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,47,88,69,74,94,63,129,56,165,50,226,45,226,51,164,58,128,70,92,83,66,100,44"/>
+<area shape="rect" id="Node000003" href="$qMRMLAbstractViewWidget_8h.html" title=" " alt="" coords="85,93,299,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,44,174,81,170,85,134,47"/>
+<area shape="rect" id="Node000004" href="$qMRMLWidget_8h.html" title=" " alt="" coords="129,167,255,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="195,119,195,153,189,153,189,119"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="170,194,84,236,81,232,167,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="111,240,287,265"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="196,192,199,226,194,227,190,193"/>
+</map>

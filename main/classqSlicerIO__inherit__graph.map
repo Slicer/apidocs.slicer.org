@@ -1,0 +1,17 @@
+<map id="qSlicerIO" name="qSlicerIO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,79,217,104"/>
+<area shape="rect" id="Node000004" href="$classqSlicerFileReader.html" title=" " alt="" coords="32,152,167,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,115,114,154,110,150,152,111"/>
+<area shape="rect" id="Node000006" href="$classqSlicerFileWriter.html" title=" " alt="" coords="197,152,327,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="202,110,250,150,246,154,199,115"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="82,5,157,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,40,169,77,165,80,135,43"/>
+<area shape="rect" id="Node000003" href="$classqSlicerObject.html" title=" " alt="" coords="181,5,289,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,43,188,80,184,77,215,40"/>
+<area shape="rect" id="Node000005" href="$classqSlicerVTKFileReader.html" title=" " alt="" coords="5,225,167,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="97,192,91,226,86,225,92,191"/>
+<area shape="rect" id="Node000007" href="$classqSlicerVTKFileWriter.html" title=" " alt="" coords="191,225,346,251"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="267,191,270,225,265,225,262,191"/>
+<area shape="rect" id="Node000008" href="$classqSlicerNodeWriter.html" title=" " alt="" coords="199,299,339,324"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="271,264,271,299,266,299,266,264"/>
+</map>

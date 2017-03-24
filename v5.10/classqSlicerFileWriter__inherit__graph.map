@@ -1,0 +1,19 @@
+<map id="qSlicerFileWriter" name="qSlicerFileWriter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="289,152,419,177"/>
+<area shape="rect" id="Node000005" href="$classqSlicerNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="117,225,257,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="316,185,216,228,214,223,314,180"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSceneWriter.html" title=" " alt="" coords="281,225,427,251"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="357,191,357,225,351,225,351,191"/>
+<area shape="rect" id="Node000009" href="$classqSlicerScriptedFileWriter.html" title=" " alt="" coords="451,225,633,251"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="398,180,512,223,510,228,396,185"/>
+<area shape="rect" id="Node000002" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="314,79,394,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,118,357,152,351,152,351,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="259,5,334,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="317,40,347,77,343,80,312,43"/>
+<area shape="rect" id="Node000004" href="$classqSlicerObject.html" title=" " alt="" coords="359,5,467,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="396,43,366,80,361,77,392,40"/>
+<area shape="rect" id="Node000006" href="$classqSlicerMarkupsWriter.html" title="Utility class that offers writing of markups in both json format, regardless of the current storage n..." alt="" coords="5,306,167,331"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="163,261,103,308,99,304,160,257"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSegmentationsNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="191,299,389,339"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="215,257,267,296,264,301,212,261"/>
+</map>
