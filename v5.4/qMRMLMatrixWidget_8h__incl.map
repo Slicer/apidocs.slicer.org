@@ -1,0 +1,11 @@
+<map id="Libs/MRML/Widgets/qMRMLMatrixWidget.h" name="Libs/MRML/Widgets/qMRMLMatrixWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,5,400,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,96,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,48,98,91,96,86,223,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,93,242,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,48,208,87,205,82,253,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="266,93,489,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,43,353,82,350,87,301,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="513,93,689,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="357,43,542,88,540,93,355,48"/>
+</map>

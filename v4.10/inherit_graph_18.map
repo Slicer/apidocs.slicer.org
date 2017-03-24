@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classitk_1_1AnisotropicSimilarityLandmarkBasedTransformInitializer.html" title="AnisotropicSimilarityLandmarkBasedTransformInitializer is a helper class intended to The class comput..." alt="" coords="116,5,425,61"/>
+<area shape="rect" id="node3" href="$classitk_1_1DiffusionTensor3DRead.html" title="itk::DiffusionTensor3DRead\l\&lt; TData \&gt;" alt="" coords="175,85,366,126"/>
+<area shape="rect" id="node4" href="$classitk_1_1DiffusionTensor3DTransform.html" title="itk::DiffusionTensor3DTransform\l\&lt; TData \&gt;" alt="" coords="159,150,382,191"/>
+<area shape="rect" id="node11" href="$classitk_1_1DiffusionTensor3DWrite.html" title="itk::DiffusionTensor3DWrite\l\&lt; TData \&gt;" alt="" coords="175,215,366,257"/>
+<area shape="rect" id="node12" href="$classitk_1_1ImageRegionMomentsCalculator.html" title="Compute moments of an n&#45;dimensional image. " alt="" coords="145,281,396,322"/>
+<area shape="rect" id="node13" href="$classitk_1_1ImageToImageRegistrationHelper.html" title="itk::ImageToImageRegistration\lHelper\&lt; TImage \&gt;" alt="" coords="164,346,377,387"/>
+<area shape="rect" id="node14" href="$classitk_1_1NewOtsuThresholdImageCalculator.html" title="Computes the Otsu&#39;s threshold for an image. " alt="" coords="169,411,373,453"/>
+<area shape="rect" id="node5" href="$classitk_1_1DiffusionTensor3DMatrix3x3Transform.html" title="itk::DiffusionTensor3DMatrix3x3\lTransform\&lt; TData \&gt;" alt="" coords="473,118,695,159"/>
+<area shape="rect" id="node10" href="$classitk_1_1DiffusionTensor3DNonRigidTransform.html" title="itk::DiffusionTensor3DNon\lRigidTransform\&lt; TData \&gt;" alt="" coords="491,183,677,225"/>
+<area shape="rect" id="node6" href="$classitk_1_1DiffusionTensor3DAffineTransform.html" title="itk::DiffusionTensor3DAffine\lTransform\&lt; TData \&gt;" alt="" coords="743,86,937,127"/>
+<area shape="rect" id="node9" href="$classitk_1_1DiffusionTensor3DRigidTransform.html" title="itk::DiffusionTensor3DRigid\lTransform\&lt; TData \&gt;" alt="" coords="745,151,935,193"/>
+<area shape="rect" id="node7" href="$classitk_1_1DiffusionTensor3DFSAffineTransform.html" title="itk::DiffusionTensor3DFSAffine\lTransform\&lt; TData \&gt;" alt="" coords="991,54,1201,95"/>
+<area shape="rect" id="node8" href="$classitk_1_1DiffusionTensor3DPPDAffineTransform.html" title="itk::DiffusionTensor3DPPDAffine\lTransform\&lt; TData \&gt;" alt="" coords="985,119,1207,161"/>
+</map>

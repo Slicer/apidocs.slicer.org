@@ -1,0 +1,4 @@
+<map id="vtkMRMLViewInteractorStyle" name="vtkMRMLViewInteractorStyle">
+<area shape="rect" id="node3" href="$classvtkMRMLSliceViewInteractorStyle.html" title="Provides customizable interaction routines. " alt="" coords="5,155,215,196"/>
+<area shape="rect" id="node4" href="$classvtkMRMLThreeDViewInteractorStyle.html" title="Interactive manipulation of the camera. " alt="" coords="239,155,463,196"/>
+</map>

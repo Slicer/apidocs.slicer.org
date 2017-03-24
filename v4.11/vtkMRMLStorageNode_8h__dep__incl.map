@@ -1,0 +1,37 @@
+<map id="Libs/MRML/Core/vtkMRMLStorageNode.h" name="Libs/MRML/Core/vtkMRMLStorageNode.h">
+<area shape="rect" id="node2" href="$vtkSlicerApplicationLogicRequests_8h.html" title="Base/Logic/vtkSlicerApplication\lLogicRequests.h" alt="" coords="5,102,232,143"/>
+<area shape="rect" id="node3" href="$vtkMRMLColorTableStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLColor\lTableStorageNode.h" alt="" coords="257,102,482,143"/>
+<area shape="rect" id="node4" href="$vtkMRMLDoubleArrayStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLDouble\lArrayStorageNode.h" alt="" coords="505,102,743,143"/>
+<area shape="rect" id="node5" href="$vtkMRMLFiducialListStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLFiducial\lListStorageNode.h" alt="" coords="767,102,1009,143"/>
+<area shape="rect" id="node6" href="$vtkMRMLHierarchyStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLHierarchy\lStorageNode.h" alt="" coords="1033,102,1287,143"/>
+<area shape="rect" id="node7" href="$vtkMRMLNRRDStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLNRRDStorage\lNode.h" alt="" coords="1311,102,1590,143"/>
+<area shape="rect" id="node10" href="$vtkMRMLMarkupsStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLMarkups\lStorageNode.h" alt="" coords="1614,102,1861,143"/>
+<area shape="rect" id="node14" href="$vtkMRMLModelStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLModel\lStorageNode.h" alt="" coords="1885,102,2115,143"/>
+<area shape="rect" id="node15" href="$vtkMRMLProceduralColorStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLProcedural\lColorStorageNode.h" alt="" coords="2139,102,2399,143"/>
+<area shape="rect" id="node16" href="$vtkMRMLSceneViewStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLScene\lViewStorageNode.h" alt="" coords="2423,102,2654,143"/>
+<area shape="rect" id="node17" href="$vtkMRMLSegmentationStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lStorageNode.h" alt="" coords="2679,102,2961,143"/>
+<area shape="rect" id="node18" href="$vtkMRMLSequenceStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLSequence\lStorageNode.h" alt="" coords="2986,102,3241,143"/>
+<area shape="rect" id="node19" href="$vtkMRMLStreamingVolumeNode_8h.html" title="Libs/MRML/Core/vtkMRMLStreaming\lVolumeNode.h" alt="" coords="3228,206,3487,247"/>
+<area shape="rect" id="node20" href="$vtkMRMLVolumeArchetypeStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLVolume\lArchetypeStorageNode.h" alt="" coords="3317,102,3555,143"/>
+<area shape="rect" id="node21" href="$vtkMRMLTableSQLiteStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLTable\lSQLiteStorageNode.h" alt="" coords="3580,102,3804,143"/>
+<area shape="rect" id="node22" href="$vtkMRMLTableStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLTable\lStorageNode.h" alt="" coords="3828,102,4052,143"/>
+<area shape="rect" id="node23" href="$vtkMRMLTextStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLText\lStorageNode.h" alt="" coords="4077,102,4294,143"/>
+<area shape="rect" id="node24" href="$vtkMRMLTransformStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLTransform\lStorageNode.h" alt="" coords="4318,102,4573,143"/>
+<area shape="rect" id="node25" href="$vtkMRMLVolumeHeaderlessStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLVolume\lHeaderlessStorageNode.h" alt="" coords="4597,102,4835,143"/>
+<area shape="rect" id="node26" href="$vtkMRMLAnnotationStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationStorageNode.h" alt="" coords="4860,102,5159,143"/>
+<area shape="rect" id="node32" href="$vtkMRMLAnnotationSnapshotStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationSnapshotStorage\lNode.h" alt="" coords="5183,95,5497,151"/>
+<area shape="rect" id="node33" href="$vtkSlicerModelsLogic_8h.html" title="Modules/Loadable/Models\l/Logic/vtkSlicerModelsLogic.h" alt="" coords="5521,102,5735,143"/>
+<area shape="rect" id="node34" href="$vtkMRMLShaderPropertyStorageNode_8h.html" title="Modules/Loadable/VolumeRendering\l/MRML/vtkMRMLShaderPropertyStorageNode.h" alt="" coords="5759,102,6086,143"/>
+<area shape="rect" id="node35" href="$vtkMRMLVolumePropertyStorageNode_8h.html" title="Modules/Loadable/VolumeRendering\l/MRML/vtkMRMLVolumePropertyStorageNode.h" alt="" coords="6111,102,6441,143"/>
+<area shape="rect" id="node36" href="$vtkSlicerVolumesLogic_8h.html" title="Modules/Loadable/Volumes\l/Logic/vtkSlicerVolumesLogic.h" alt="" coords="6466,102,6689,143"/>
+<area shape="rect" id="node8" href="$vtkMRMLLinearTransformSequenceStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLLinear\lTransformSequenceStorageNode.h" alt="" coords="1061,206,1307,247"/>
+<area shape="rect" id="node9" href="$vtkMRMLVolumeSequenceStorageNode_8h.html" title="Libs/MRML/Core/vtkMRMLVolume\lSequenceStorageNode.h" alt="" coords="1331,206,1570,247"/>
+<area shape="rect" id="node11" href="$vtkMRMLMarkupsFiducialStorageNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsFiducialStorage\lNode.h" alt="" coords="1594,199,1881,255"/>
+<area shape="rect" id="node12" href="$vtkMRMLMarkupsJsonStorageNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsJsonStorage\lNode.h" alt="" coords="1905,199,2167,255"/>
+<area shape="rect" id="node13" href="$vtkMRMLMarkupsROIJsonStorageNode_8h.html" title="Modules/Loadable/Markups\l/MRML/vtkMRMLMarkupsROIJsonStorage\lNode.h" alt="" coords="1893,303,2179,359"/>
+<area shape="rect" id="node27" href="$vtkMRMLAnnotationControlPointsStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationControlPoints\lStorageNode.h" alt="" coords="4864,199,5155,255"/>
+<area shape="rect" id="node28" href="$vtkMRMLAnnotationLinesStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationLinesStorage\lNode.h" alt="" coords="4717,303,5003,359"/>
+<area shape="rect" id="node31" href="$vtkMRMLAnnotationFiducialsStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationFiducials\lStorageNode.h" alt="" coords="5027,303,5287,359"/>
+<area shape="rect" id="node29" href="$vtkMRMLAnnotationAngleStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationAngleStorage\lNode.h" alt="" coords="4557,407,4848,463"/>
+<area shape="rect" id="node30" href="$vtkMRMLAnnotationRulerStorageNode_8h.html" title="Modules/Loadable/Annotations\l/MRML/vtkMRMLAnnotationRulerStorage\lNode.h" alt="" coords="4873,407,5159,463"/>
+</map>

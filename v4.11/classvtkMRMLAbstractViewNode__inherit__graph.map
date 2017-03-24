@@ -1,0 +1,8 @@
+<map id="vtkMRMLAbstractViewNode" name="vtkMRMLAbstractViewNode">
+<area shape="rect" id="node4" href="$classvtkMRMLChartViewNode.html" title="MRML node to represent chart view parameters. " alt="" coords="556,5,740,32"/>
+<area shape="rect" id="node5" href="$classvtkMRMLPlotViewNode.html" title="MRML node to represent Plot view parameters. " alt="" coords="561,56,735,83"/>
+<area shape="rect" id="node6" href="$classvtkMRMLSliceNode.html" title="MRML node for storing a slice through RAS space. " alt="" coords="574,107,722,133"/>
+<area shape="rect" id="node7" href="$classvtkMRMLTableViewNode.html" title="MRML node to represent table view parameters. " alt="" coords="557,157,739,184"/>
+<area shape="rect" id="node8" href="$classvtkMRMLViewNode.html" title="MRML node to represent a 3D view. " alt="" coords="574,208,722,235"/>
+<area shape="rect" id="node2" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="139,107,256,133"/>
+</map>

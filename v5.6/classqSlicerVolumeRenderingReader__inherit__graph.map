@@ -1,0 +1,11 @@
+<map id="qSlicerVolumeRenderingReader" name="qSlicerVolumeRenderingReader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,232,251"/>
+<area shape="rect" id="Node000002" href="$classqSlicerFileReader.html" title=" " alt="" coords="51,152,186,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,191,121,225,116,225,116,191"/>
+<area shape="rect" id="Node000003" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="79,79,159,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,118,121,152,116,152,116,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="24,5,99,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="81,40,111,77,107,80,77,43"/>
+<area shape="rect" id="Node000005" href="$classqSlicerObject.html" title=" " alt="" coords="123,5,231,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="161,43,130,80,126,77,157,40"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="Libs/MRML/Widgets/qMRMLTreeView.h" name="Libs/MRML/Widgets/qMRMLTreeView.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="336,5,563,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="109,93,200,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="379,48,212,92,211,87,378,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="305,167,426,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="441,47,381,156,376,153,436,45"/>
+<area shape="rect" id="Node000004" href="$qMRMLSceneModel_8h.html" title=" " alt="" coords="225,93,386,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="416,48,340,89,337,84,414,43"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="451,167,627,192"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="462,44,502,117,526,154,521,157,498,120,457,47"/>
+<area shape="rect" id="Node000008" href="$qMRMLSortFilterProxyModel_8h.html" title=" " alt="" coords="512,93,731,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="492,43,585,85,583,90,489,48"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="755,93,829,119"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="533,43,742,90,741,96,532,48"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="317,117,349,154,345,158,313,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,167,165,192"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="271,121,134,165,133,160,269,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="189,167,280,192"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="296,121,258,159,254,155,292,117"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="344,116,489,160,487,165,342,121"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="581,121,420,166,419,160,579,116"/>
+<area shape="poly" id="edge12_Node000008_Node000007" title=" " alt="" coords="610,121,564,160,561,155,606,117"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="651,167,819,192"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="641,116,706,157,703,162,638,121"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="843,167,936,192"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="665,116,834,161,832,166,664,121"/>
+</map>

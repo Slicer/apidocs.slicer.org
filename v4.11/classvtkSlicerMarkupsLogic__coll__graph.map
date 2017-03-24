@@ -1,0 +1,7 @@
+<map id="vtkSlicerMarkupsLogic" name="vtkSlicerMarkupsLogic">
+<area shape="rect" id="node2" href="$classvtkSlicerModuleLogic.html" title="vtkSlicerModuleLogic" alt="" coords="11,221,172,248"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="5,81,177,108"/>
+<area shape="rect" id="node6" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="159,171,277,197"/>
+<area shape="rect" id="node7" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="253,81,412,108"/>
+<area shape="rect" id="node5" href="$classvtkMRMLSelectionNode.html" title="MRML node for storing information about the active nodes in the scene. " alt="" coords="129,272,307,299"/>
+</map>

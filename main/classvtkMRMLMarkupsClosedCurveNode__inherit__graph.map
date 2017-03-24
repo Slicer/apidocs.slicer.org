@@ -1,0 +1,17 @@
+<map id="vtkMRMLMarkupsClosedCurveNode" name="vtkMRMLMarkupsClosedCurveNode">
+<area shape="rect" id="Node000001" title="MRML node to represent a closed curve markup Closed Curve Markups nodes contain N control points...." alt="" coords="5,519,260,544"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLMarkupsCurveNode.html" title="MRML node to represent a curve markup Curve Markups nodes contain N control points...." alt="" coords="27,445,238,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,484,135,519,130,519,130,484"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLMarkupsNode.html" title=" " alt="" coords="47,372,219,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,411,135,445,130,445,130,411"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="35,299,230,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,338,135,372,130,372,130,338"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="28,225,237,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="135,264,135,299,130,299,130,264"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="47,152,218,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="135,191,135,225,130,225,130,191"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="74,79,191,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="135,118,135,152,130,152,130,118"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="90,5,175,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="135,44,135,79,130,79,130,44"/>
+</map>

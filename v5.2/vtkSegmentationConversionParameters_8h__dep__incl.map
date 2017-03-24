@@ -1,0 +1,15 @@
+<map id="Libs/vtkSegmentationCore/vtkSegmentationConversionParameters.h" name="Libs/vtkSegmentationCore/vtkSegmentationConversionParameters.h">
+<area shape="rect" id="node2" href="$vtkSegmentationConverterRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentationConverterRule.h" alt="" coords="659,95,902,136"/>
+<area shape="rect" id="node3" href="$vtkBinaryLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkBinaryLabelmapToClosedSurface\lConversionRule.h" alt="" coords="5,273,265,329"/>
+<area shape="rect" id="node5" href="$vtkSegmentationConverter_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentationConverter.h" alt="" coords="413,184,626,225"/>
+<area shape="rect" id="node6" href="$vtkClosedSurfaceToBinaryLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToBinaryLabelmap\lConversionRule.h" alt="" coords="389,273,649,329"/>
+<area shape="rect" id="node7" href="$vtkClosedSurfaceToFractionalLabelmapConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkClosedSurfaceToFractionalLabelmap\lConversionRule.h" alt="" coords="378,377,661,433"/>
+<area shape="rect" id="node8" href="$vtkSegmentation_8h.html" title="Libs/vtkSegmentationCore\l/vtkSegmentation.h" alt="" coords="1043,281,1238,322"/>
+<area shape="rect" id="node14" href="$qMRMLSegmentationConversionParametersWidget_8h.html" title="Modules/Loadable/Segmentations\l/Widgets/qMRMLSegmentationConversion\lParametersWidget.h" alt="" coords="673,273,968,329"/>
+<area shape="rect" id="node4" href="$vtkFractionalLabelmapToClosedSurfaceConversionRule_8h.html" title="Libs/vtkSegmentationCore\l/vtkFractionalLabelmapToClosed\lSurfaceConversionRule.h" alt="" coords="69,377,303,433"/>
+<area shape="rect" id="node9" href="$vtkMRMLSegmentationNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lNode.h" alt="" coords="999,385,1282,426"/>
+<area shape="rect" id="node10" href="$vtkSlicerSegmentationGeometryLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationGeometry\lLogic.h" alt="" coords="559,481,837,537"/>
+<area shape="rect" id="node11" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="861,481,1127,537"/>
+<area shape="rect" id="node12" href="$vtkMRMLSegmentEditorNode_8h.html" title="Modules/Loadable/Segmentations\l/MRML/vtkMRMLSegmentEditorNode.h" alt="" coords="1152,489,1425,530"/>
+<area shape="rect" id="node13" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="1450,489,1725,530"/>
+</map>

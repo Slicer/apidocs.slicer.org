@@ -1,0 +1,106 @@
+<map id="Libs/MRML/Core/vtkMRMLNode.h" name="Libs/MRML/Core/vtkMRMLNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="4483,5,4720,31"/>
+<area shape="rect" id="Node000002" href="$vtkDataIOManagerLogic_8h.html" title=" " alt="" coords="5,86,224,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4469,22,3579,25,2256,34,982,52,513,65,347,73,236,81,191,89,190,83,236,76,346,67,513,60,982,47,2256,29,3579,20,4469,17"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLCommandLineModuleNode_8h.html" title=" " alt="" coords="248,86,496,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="4468,23,3628,27,2391,38,1202,55,765,67,507,81,457,89,456,83,506,76,765,62,1202,50,2391,32,3628,22,4468,17"/>
+<area shape="rect" id="Node000005" href="$vtkMRMLAbstractLayoutNode_8h.html" title=" " alt="" coords="519,86,766,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="4469,23,2529,40,1428,57,1023,68,784,81,732,89,731,83,784,76,1023,63,1428,52,2529,34,4469,17"/>
+<area shape="rect" id="Node000008" href="$vtkMRMLAbstractViewNode_8h.html" title=" " alt="" coords="1435,86,1682,126"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="4469,26,2436,81,1682,104,1682,98,2436,76,4468,20"/>
+<area shape="rect" id="Node000011" href="$vtkMRMLCrosshairNode_8h.html" title=" " alt="" coords="869,284,1121,324"/>
+<area shape="poly" id="edge18_Node000001_Node000011" title=" " alt="" coords="4469,22,3858,23,2977,30,2515,37,2081,48,1706,62,1423,81,1327,85,1240,79,1161,71,1088,65,1020,68,987,74,955,84,923,100,891,121,860,148,827,183,819,196,817,208,820,221,828,234,841,250,856,263,893,282,891,286,853,267,837,254,823,238,815,223,812,208,814,194,823,180,856,145,888,117,921,95,953,79,986,69,1020,62,1089,60,1162,65,1241,74,1327,79,1423,76,1706,57,2080,42,2515,32,2977,25,3858,18,4469,16"/>
+<area shape="rect" id="Node000042" href="$vtkMRMLClipNode_8h.html" title=" " alt="" coords="2448,86,2664,126"/>
+<area shape="poly" id="edge13_Node000001_Node000042" title=" " alt="" coords="4469,23,4168,27,3752,36,3274,53,2788,81,2665,93,2664,88,2788,76,3273,48,3751,31,4168,21,4469,17"/>
+<area shape="rect" id="Node000046" href="$vtkMRMLCoreTestingMacros_8h.html" title=" " alt="" coords="2800,86,3021,126"/>
+<area shape="poly" id="edge17_Node000001_Node000046" title=" " alt="" coords="4469,24,3736,43,3334,60,3167,70,3040,81,2994,89,2993,83,3040,76,3167,64,3333,54,3735,38,4469,19"/>
+<area shape="rect" id="Node000047" href="$vtkMRMLDisplayNode_8h.html" title=" " alt="" coords="3625,86,3865,126"/>
+<area shape="poly" id="edge19_Node000001_Node000047" title=" " alt="" coords="4469,28,4197,47,4037,62,3879,81,3834,89,3834,83,3878,76,4037,57,4196,42,4469,23"/>
+<area shape="rect" id="Node000089" href="$vtkMRMLHierarchyNode_8h.html" title=" " alt="" coords="3890,86,4145,126"/>
+<area shape="poly" id="edge32_Node000001_Node000089" title=" " alt="" coords="4493,35,4158,81,4115,89,4114,83,4157,76,4492,30"/>
+<area shape="rect" id="Node000094" href="$vtkMRMLInteractionNode_8h.html" title=" " alt="" coords="4169,86,4431,126"/>
+<area shape="poly" id="edge34_Node000001_Node000094" title=" " alt="" coords="4548,37,4367,88,4366,83,4547,32"/>
+<area shape="rect" id="Node000095" href="$vtkMRMLMeasurement_8h.html" title=" " alt="" coords="4455,93,4748,119"/>
+<area shape="poly" id="edge35_Node000001_Node000095" title=" " alt="" coords="4604,45,4604,93,4599,93,4599,45"/>
+<area shape="rect" id="Node000117" href="$vtkMRMLPlotChartNode_8h.html" title=" " alt="" coords="4772,86,4988,126"/>
+<area shape="poly" id="edge36_Node000001_Node000117" title=" " alt="" coords="4653,32,4819,83,4818,88,4651,37"/>
+<area shape="rect" id="Node000118" href="$vtkMRMLPlotSeriesNode_8h.html" title=" " alt="" coords="5012,86,5228,126"/>
+<area shape="poly" id="edge37_Node000001_Node000118" title=" " alt="" coords="4703,30,4844,50,5000,76,5037,83,5036,89,5000,81,4843,55,4702,35"/>
+<area shape="rect" id="Node000119" href="$vtkMRMLROIListNode_8h.html" title=" " alt="" coords="5252,86,5489,126"/>
+<area shape="poly" id="edge38_Node000001_Node000119" title=" " alt="" coords="4734,25,4970,44,5240,76,5284,83,5283,89,5240,81,4970,50,4733,30"/>
+<area shape="rect" id="Node000120" href="$vtkMRMLScriptedModuleNode_8h.html" title=" " alt="" coords="5514,86,5758,126"/>
+<area shape="poly" id="edge39_Node000001_Node000120" title=" " alt="" coords="4734,20,5082,37,5292,53,5502,76,5548,83,5547,89,5501,81,5291,59,5081,43,4733,26"/>
+<area shape="rect" id="Node000121" href="$vtkMRMLSelectionNode_8h.html" title=" " alt="" coords="5783,86,6033,126"/>
+<area shape="poly" id="edge40_Node000001_Node000121" title=" " alt="" coords="4733,18,4934,22,5193,31,5481,48,5771,76,5819,83,5818,89,5770,81,5481,54,5193,36,4934,27,4733,23"/>
+<area shape="rect" id="Node000122" href="$vtkMRMLSliceCompositeNode_8h.html" title=" " alt="" coords="6058,86,6281,126"/>
+<area shape="poly" id="edge41_Node000001_Node000122" title=" " alt="" coords="4733,19,5410,38,5778,55,5930,65,6046,76,6090,83,6089,89,6045,81,5929,70,5777,60,5410,44,4733,25"/>
+<area shape="rect" id="Node000147" href="$vtkMRMLSnapshotClipNode_8h.html" title=" " alt="" coords="6305,86,6556,126"/>
+<area shape="poly" id="edge42_Node000001_Node000147" title=" " alt="" coords="4734,19,5529,37,5971,54,6154,64,6294,76,6343,83,6342,89,6293,81,6154,69,5971,59,5529,42,4733,24"/>
+<area shape="rect" id="Node000148" href="$vtkMRMLStorableNode_8h.html" title=" " alt="" coords="6580,86,6825,126"/>
+<area shape="poly" id="edge43_Node000001_Node000148" title=" " alt="" coords="4734,18,5132,23,5661,34,6185,51,6403,62,6568,76,6617,83,6616,89,6568,81,6402,68,6185,56,5661,39,5132,28,4734,23"/>
+<area shape="rect" id="Node000194" href="$vtkMRMLStorageNode_8h.html" title=" " alt="" coords="3097,86,3338,126"/>
+<area shape="poly" id="edge44_Node000001_Node000194" title=" " alt="" coords="4469,22,4255,25,3976,34,3664,52,3351,81,3304,89,3303,83,3350,76,3664,46,3976,29,4255,20,4469,17"/>
+<area shape="rect" id="Node000079" href="$vtkMRMLStreamingVolumeNode_8h.html" title=" " alt="" coords="2881,189,3140,229"/>
+<area shape="poly" id="edge47_Node000001_Node000079" title=" " alt="" coords="4469,24,4109,30,3665,41,3276,58,3147,69,3107,75,3087,81,3060,104,3041,133,3027,163,3018,189,3013,187,3022,161,3036,130,3056,100,3084,76,3106,70,3147,64,3276,53,3664,36,4109,25,4469,18"/>
+<area shape="rect" id="Node000223" href="$vtkMRMLSubjectHierarchyNode_8h.html" title=" " alt="" coords="3362,86,3601,126"/>
+<area shape="poly" id="edge48_Node000001_Node000223" title=" " alt="" coords="4469,24,4084,40,3849,57,3614,81,3568,89,3567,83,3613,76,3849,51,4084,35,4469,19"/>
+<area shape="rect" id="Node000252" href="$vtkMRMLUnitNode_8h.html" title=" " alt="" coords="6849,86,7068,126"/>
+<area shape="poly" id="edge50_Node000001_Node000252" title=" " alt="" coords="4734,17,5181,20,5788,29,6394,46,6646,59,6838,76,6882,83,6881,89,6837,81,6646,65,6394,52,5788,34,5181,25,4734,22"/>
+<area shape="rect" id="Node000253" href="$vtkMRMLInteractionWidget_8h.html" title=" " alt="" coords="7093,86,7323,126"/>
+<area shape="poly" id="edge51_Node000001_Node000253" title=" " alt="" coords="4734,17,5224,19,5901,27,6582,45,6865,59,7080,76,7127,83,7127,89,7080,81,6865,64,6582,50,5901,33,5224,24,4734,22"/>
+<area shape="rect" id="Node000256" href="$vtkMRMLCropVolumeParametersNode_8h.html" title=" " alt="" coords="7347,79,7631,133"/>
+<area shape="poly" id="edge52_Node000001_Node000256" title=" " alt="" coords="4734,17,5268,20,6020,29,6779,46,7096,59,7336,76,7347,77,7347,82,7336,81,7096,65,6779,52,6020,34,5268,25,4734,22"/>
+<area shape="rect" id="Node000154" href="$vtkMRMLSegmentEditorNode_8h.html" title=" " alt="" coords="7655,86,7929,126"/>
+<area shape="poly" id="edge53_Node000001_Node000154" title=" " alt="" coords="4734,17,5321,18,6163,25,6603,33,7017,43,7374,57,7644,76,7699,83,7698,89,7644,81,7374,63,7017,48,6603,38,6163,31,5321,23,4734,22"/>
+<area shape="rect" id="Node000257" href="$vtkMRMLSequenceBrowserNode_8h.html" title=" " alt="" coords="7953,86,8247,126"/>
+<area shape="poly" id="edge54_Node000001_Node000257" title=" " alt="" coords="4734,16,5372,17,6300,24,6788,32,7246,42,7642,57,7942,76,8000,83,7999,89,7941,81,7642,62,7246,48,6788,37,6300,30,5372,23,4734,22"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerCLIModuleLogic_8h.html" title=" " alt="" coords="260,189,484,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="375,140,375,189,369,189,369,140"/>
+<area shape="rect" id="Node000006" href="$vtkMRMLLayoutNode_8h.html" title=" " alt="" coords="525,189,760,229"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="645,140,645,189,640,189,640,140"/>
+<area shape="rect" id="Node000009" href="$vtkMRMLPlotViewNode_8h.html" title=" " alt="" coords="837,189,1053,229"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="1422,128,1252,153,1066,184,1029,191,1028,186,1065,179,1251,148,1421,123"/>
+<area shape="rect" id="Node000010" href="$vtkMRMLSliceNode_8h.html" title=" " alt="" coords="1078,189,1301,229"/>
+<area shape="poly" id="edge8_Node000008_Node000010" title=" " alt="" coords="1477,132,1259,191,1258,186,1476,127"/>
+<area shape="rect" id="Node000029" href="$vtkMRMLTableViewNode_8h.html" title=" " alt="" coords="1324,189,1548,229"/>
+<area shape="poly" id="edge10_Node000008_Node000029" title=" " alt="" coords="1527,137,1461,191,1457,187,1523,133"/>
+<area shape="rect" id="Node000030" href="$vtkMRMLViewNode_8h.html" title=" " alt="" coords="1571,189,1794,229"/>
+<area shape="poly" id="edge11_Node000008_Node000030" title=" " alt="" coords="1594,133,1661,187,1658,191,1591,137"/>
+<area shape="rect" id="Node000031" href="$vtkMRMLAbstractWidgetRepresentation_8h.html" title=" " alt="" coords="1817,189,2116,229"/>
+<area shape="poly" id="edge12_Node000008_Node000031" title=" " alt="" coords="1649,127,1891,186,1890,191,1647,132"/>
+<area shape="poly" id="edge9_Node000010_Node000011" title=" " alt="" coords="1139,237,1035,286,1033,282,1136,232"/>
+<area shape="rect" id="Node000043" href="$vtkMRMLClipModelsNode_8h.html" title=" " alt="" coords="2140,189,2356,229"/>
+<area shape="poly" id="edge14_Node000042_Node000043" title=" " alt="" coords="2487,133,2307,191,2305,186,2485,128"/>
+<area shape="rect" id="Node000044" href="$qMRMLClipNodeDisplayWidget_8h.html" title=" " alt="" coords="2380,189,2607,229"/>
+<area shape="poly" id="edge15_Node000042_Node000044" title=" " alt="" coords="2539,139,2507,190,2503,187,2535,136"/>
+<area shape="rect" id="Node000045" href="$qMRMLClipNodeWidget_8h.html" title=" " alt="" coords="2631,189,2857,229"/>
+<area shape="poly" id="edge16_Node000042_Node000045" title=" " alt="" coords="2605,130,2710,186,2708,191,2602,135"/>
+<area shape="rect" id="Node000048" href="$vtkSlicerApplicationLogicRequests_8h.html" title=" " alt="" coords="3164,189,3391,229"/>
+<area shape="poly" id="edge20_Node000047_Node000048" title=" " alt="" coords="3645,131,3365,191,3364,186,3644,126"/>
+<area shape="rect" id="Node000049" href="$vtkMRMLFolderDisplayNode_8h.html" title=" " alt="" coords="3415,189,3646,229"/>
+<area shape="poly" id="edge21_Node000047_Node000049" title=" " alt="" coords="3694,134,3572,191,3570,186,3692,129"/>
+<area shape="rect" id="Node000050" href="$vtkMRMLMarkupsDisplayNode_8h.html" title=" " alt="" coords="3670,189,3917,229"/>
+<area shape="poly" id="edge22_Node000047_Node000050" title=" " alt="" coords="3763,137,3787,187,3782,190,3758,140"/>
+<area shape="rect" id="Node000061" href="$vtkMRMLModelDisplayNode_8h.html" title=" " alt="" coords="3991,189,4222,229"/>
+<area shape="poly" id="edge23_Node000047_Node000061" title=" " alt="" coords="3826,127,4040,186,4038,191,3825,132"/>
+<area shape="rect" id="Node000065" href="$vtkMRMLAnnotationDisplayNode_8h.html" title=" " alt="" coords="3880,284,4179,324"/>
+<area shape="poly" id="edge29_Node000047_Node000065" title=" " alt="" coords="3828,128,3881,150,3931,179,3974,225,4018,282,4013,285,3970,229,3928,183,3878,154,3826,133"/>
+<area shape="rect" id="Node000069" href="$vtkMRMLSegmentationDisplayNode_8h.html" title=" " alt="" coords="4247,189,4529,229"/>
+<area shape="poly" id="edge25_Node000047_Node000069" title=" " alt="" coords="3851,126,3879,131,4057,155,4235,179,4281,186,4280,191,4234,184,4056,161,3878,136,3851,131"/>
+<area shape="rect" id="Node000070" href="$vtkMRMLTransformDisplayNode_8h.html" title=" " alt="" coords="4554,189,4809,229"/>
+<area shape="poly" id="edge26_Node000047_Node000070" title=" " alt="" coords="3847,126,3879,131,4065,149,4210,155,4356,161,4542,179,4589,186,4588,191,4541,184,4355,166,4210,160,4064,155,3878,136,3846,131"/>
+<area shape="rect" id="Node000072" href="$vtkMRMLVolumeDisplayNode_8h.html" title=" " alt="" coords="4833,189,5071,229"/>
+<area shape="poly" id="edge27_Node000047_Node000072" title=" " alt="" coords="3845,126,3879,131,4022,145,4143,152,4350,154,4557,157,4679,164,4822,179,4868,186,4867,191,4821,184,4678,169,4557,162,4350,160,4143,158,4021,151,3878,136,3845,131"/>
+<area shape="rect" id="Node000081" href="$qMRMLScalarsDisplayWidget_8h.html" title=" " alt="" coords="5096,189,5344,229"/>
+<area shape="poly" id="edge28_Node000047_Node000081" title=" " alt="" coords="3845,126,3879,131,4062,148,4217,156,4354,157,4481,155,4609,153,4746,154,4901,162,5084,179,5133,186,5132,191,5084,184,4901,167,4746,159,4609,158,4481,160,4354,162,4217,161,4061,153,3878,136,3844,131"/>
+<area shape="rect" id="Node000084" href="$vtkMRMLColorLegendDisplayNode_8h.html" title=" " alt="" coords="5368,181,5629,236"/>
+<area shape="poly" id="edge30_Node000047_Node000084" title=" " alt="" coords="3844,126,3879,131,4103,151,4293,159,4461,160,4617,156,4774,152,4941,152,5132,160,5356,179,5368,180,5367,185,5356,184,5132,165,4941,157,4774,158,4617,162,4461,165,4293,165,4103,156,3878,136,3843,131"/>
+<area shape="rect" id="Node000085" href="$vtkMRMLVolumeRenderingDisplayNode_8h.html" title=" " alt="" coords="5654,189,5994,229"/>
+<area shape="poly" id="edge31_Node000047_Node000085" title=" " alt="" coords="3844,126,3879,131,4146,155,4373,165,4573,166,4759,162,4946,157,5146,155,5373,161,5642,179,5707,186,5707,191,5641,184,5373,167,5146,161,4946,162,4759,167,4573,172,4373,170,4146,160,3878,136,3843,131"/>
+<area shape="poly" id="edge24_Node000061_Node000065" title=" " alt="" coords="4084,241,4047,286,4043,282,4080,238"/>
+<area shape="rect" id="Node000090" href="$vtkMRMLDisplayableHierarchyNode_8h.html" title=" " alt="" coords="6018,189,6286,229"/>
+<area shape="poly" id="edge33_Node000089_Node000090" title=" " alt="" coords="4120,126,4158,131,4438,154,4676,163,4886,162,5082,156,5278,150,5488,148,5726,156,6007,179,6060,186,6059,191,6006,184,5726,162,5488,153,5278,155,5082,161,4886,167,4676,168,4438,159,4157,136,4119,131"/>
+<area shape="poly" id="edge45_Node000194_Node000048" title=" " alt="" coords="3238,137,3268,187,3264,190,3233,139"/>
+<area shape="poly" id="edge46_Node000194_Node000079" title=" " alt="" coords="3167,134,3051,191,3048,186,3165,130"/>
+<area shape="poly" id="edge49_Node000223_Node000048" title=" " alt="" coords="3432,134,3317,191,3314,186,3430,130"/>
+</map>

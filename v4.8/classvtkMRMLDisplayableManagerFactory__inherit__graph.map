@@ -1,0 +1,4 @@
+<map id="vtkMRMLDisplayableManagerFactory" name="vtkMRMLDisplayableManagerFactory">
+<area shape="rect" id="node3" href="$classvtkMRMLSliceViewDisplayableManagerFactory.html" title="Factory where displayable manager are registered. " alt="" coords="397,5,608,47"/>
+<area shape="rect" id="node4" href="$classvtkMRMLThreeDViewDisplayableManagerFactory.html" title="Factory where displayable manager classes are registered. " alt="" coords="391,71,615,112"/>
+</map>

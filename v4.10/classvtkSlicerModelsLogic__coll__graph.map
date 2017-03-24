@@ -1,0 +1,12 @@
+<map id="vtkSlicerModelsLogic" name="vtkSlicerModelsLogic">
+<area shape="rect" id="node2" href="$classvtkSlicerModuleLogic.html" title="vtkSlicerModuleLogic" alt="" coords="5,487,160,513"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="112,411,277,437"/>
+<area shape="rect" id="node5" href="$classvtkMRMLColorLogic.html" title="MRML logic class for color manipulation. " alt="" coords="184,487,328,513"/>
+<area shape="rect" id="node10" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="233,183,345,209"/>
+<area shape="rect" id="node11" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="283,81,437,108"/>
+<area shape="rect" id="node12" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="453,132,547,159"/>
+<area shape="rect" id="node6" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="353,487,503,513"/>
+<area shape="rect" id="node7" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="335,411,521,437"/>
+<area shape="rect" id="node8" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="328,335,528,361"/>
+<area shape="rect" id="node9" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="345,259,511,285"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Markups/VTKWidgets" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1a96155338796d57dab45a56648f1a28 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Markups" fontname="Helvetica", fontsize="10", URL="dir_1a96155338796d57dab45a56648f1a28.html"]
+  dir_1d6aa7403b659ef1d781d7435dec1424 [shape=box, label="VTKWidgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1d6aa7403b659ef1d781d7435dec1424.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_1d6aa7403b659ef1d781d7435dec1424->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000073_000002.html"];
+}

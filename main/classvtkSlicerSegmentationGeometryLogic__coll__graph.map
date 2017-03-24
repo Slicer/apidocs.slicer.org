@@ -1,0 +1,33 @@
+<map id="vtkSlicerSegmentationGeometryLogic" name="vtkSlicerSegmentationGeometryLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,565,269,605"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="228,5,313,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,26,149,33,81,46,52,55,28,66,13,78,8,92,8,491,14,516,29,535,51,551,76,563,74,568,48,556,25,539,9,518,3,492,3,91,9,75,26,61,50,50,80,41,148,28,214,21"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="43,179,160,204"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="215,25,181,30,147,41,116,58,90,82,81,105,82,132,89,157,97,177,93,179,84,159,76,132,76,104,86,78,113,53,145,36,180,25,214,19"/>
+<area shape="rect" id="Node000008" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="101,80,259,105"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="247,41,196,82,193,77,244,37"/>
+<area shape="rect" id="Node000009" href="$classvtkTagTable.html" title=" " alt="" coords="268,129,367,155"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="283,43,315,128,310,130,278,45"/>
+<area shape="rect" id="Node000010" href="$classvtkSegmentation.html" title="This class encapsulates a segmentation that can contain multiple segments and multiple representation..." alt="" coords="323,179,458,204"/>
+<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="296,39,334,78,370,128,382,154,390,177,385,179,378,156,366,131,330,82,292,42"/>
+<area shape="rect" id="Node000011" href="$classvtkSegmentationConverter.html" title="Class that can convert between different representations of a segment." alt="" coords="423,80,622,105"/>
+<area shape="poly" id="edge15_Node000011_Node000002" title=" " alt="" coords="328,31,406,52,489,77,487,83,405,57,326,36"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLSegmentationNode.html" title="MRML node containing segmentations." alt="" coords="244,477,452,503"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="313,511,193,568,190,563,311,506"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="81,403,276,428"/>
+<area shape="poly" id="edge16_Node000001_Node000004" title=" " alt="" coords="135,436,107,454,86,479,82,490,82,501,91,524,108,545,128,563,124,567,104,549,86,527,77,502,77,489,82,476,104,450,132,432"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="219,431,322,475,320,480,217,436"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="74,328,283,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="181,368,181,402,176,402,176,368"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="93,253,264,279"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="181,293,181,328,176,328,176,293"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="126,212,168,251,164,255,122,216"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="115,114,97,131,93,142,92,154,98,178,93,179,87,155,87,141,92,128,112,110"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="256,160,238,169,222,181,207,198,196,218,184,254,179,252,191,216,203,195,218,177,235,164,254,155"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="391,218,388,265,388,417,385,435,378,452,361,478,356,475,374,449,380,433,383,416,383,265,385,218"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="498,116,408,181,405,176,494,111"/>
+<area shape="rect" id="Node000012" href="$classvtkOrientedImageData.html" title="Image data containing orientation information." alt="" coords="476,477,647,503"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="526,511,484,528,437,544,353,563,270,575,269,570,352,557,435,539,482,523,524,506"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="504,403,619,428"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="564,442,564,477,559,477,559,442"/>
+</map>

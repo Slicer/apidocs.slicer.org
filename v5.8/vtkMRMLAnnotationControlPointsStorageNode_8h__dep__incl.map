@@ -1,0 +1,9 @@
+<map id="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationControlPointsStorageNode.h" name="Modules/Loadable/Annotations/MRML/vtkMRMLAnnotationControlPointsStorageNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,5,429,60"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLAnnotationFiducialsStorageNode_8h.html" title=" " alt="" coords="5,108,265,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,70,176,110,173,106,232,65"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLAnnotationLinesStorageNode_8h.html" title=" " alt="" coords="289,108,576,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="335,65,395,106,392,110,332,70"/>
+<area shape="rect" id="Node000004" href="$vtkMRMLAnnotationRulerStorageNode_8h.html" title=" " alt="" coords="289,211,576,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="435,176,435,211,430,211,430,176"/>
+</map>

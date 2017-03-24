@@ -1,0 +1,5 @@
+<map id="vtkMRMLAnnotationHierarchyNode" name="vtkMRMLAnnotationHierarchyNode">
+<area shape="rect" id="node2" href="$classvtkMRMLDisplayableHierarchyNode.html" title="MRML node to represent a hierarchy of displayable nodes. " alt="" coords="5,229,252,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLHierarchyNode.html" title="Abstract class representing a hierarchy member. " alt="" coords="42,155,215,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="73,80,185,107"/>
+</map>

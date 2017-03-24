@@ -1,0 +1,64 @@
+<map id="Libs/MRML/Core/vtkMRMLSubjectHierarchyNode.h" name="Libs/MRML/Core/vtkMRMLSubjectHierarchyNode.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3100,5,3339,45"/>
+<area shape="rect" id="Node000002" href="$vtkSlicerApplicationLogicRequests_8h.html" title=" " alt="" coords="2582,101,2809,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3087,50,2821,96,2784,103,2783,98,2820,91,3086,45"/>
+<area shape="rect" id="Node000003" href="$qMRMLSubjectHierarchyComboBox_8h.html" title=" " alt="" coords="2833,93,3075,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="3154,52,3030,96,3028,91,3152,47"/>
+<area shape="rect" id="Node000004" href="$qSlicerSubjectHierarchyAbstractPlugin_8h.html" title=" " alt="" coords="3363,93,3601,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="3286,47,3409,91,3407,96,3284,52"/>
+<area shape="rect" id="Node000030" href="$qSlicerSubjectHierarchyPluginHandler_8h.html" title=" " alt="" coords="3100,93,3339,148"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="3222,59,3222,93,3217,93,3217,59"/>
+<area shape="rect" id="Node000031" href="$qSlicerSubjectHierarchyPluginLogic_8h.html" title=" " alt="" coords="3625,93,3864,148"/>
+<area shape="poly" id="edge31_Node000001_Node000031" title=" " alt="" coords="3350,45,3614,91,3626,93,3625,98,3614,96,3349,50"/>
+<area shape="rect" id="Node000005" href="$qSlicerSubjectHierarchyColorLegendPlugin_8h.html" title=" " alt="" coords="359,196,621,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="3349,151,3223,161,3079,168,2747,175,2374,174,1982,171,1591,168,1222,169,896,178,756,187,634,199,622,200,621,195,634,193,756,181,896,173,1222,164,1591,163,1982,166,2374,169,2747,169,3078,163,3223,156,3349,145"/>
+<area shape="rect" id="Node000006" href="$qSlicerSubjectHierarchyMarkupsPlugin_8h.html" title=" " alt="" coords="646,203,934,258"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="3349,151,3159,169,2984,180,2823,187,2674,189,2400,184,2145,171,1891,160,1618,156,1470,159,1310,166,1136,179,946,199,899,206,899,201,946,193,1135,174,1309,161,1469,153,1618,150,1891,154,2146,166,2401,178,2674,184,2823,182,2984,175,3158,163,3349,145"/>
+<area shape="rect" id="Node000007" href="$qSlicerSubjectHierarchyModelsPlugin_8h.html" title=" " alt="" coords="958,203,1238,258"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="3349,151,3183,167,3030,177,2760,185,2521,181,2298,171,2076,162,1838,159,1568,169,1417,181,1252,199,1206,206,1205,201,1251,193,1416,176,1568,164,1838,154,2076,156,2298,166,2521,176,2760,180,3030,172,3183,161,3349,145"/>
+<area shape="rect" id="Node000008" href="$qSlicerSubjectHierarchyPlotsPlugin_8h.html" title=" " alt="" coords="1263,203,1528,258"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="3349,151,3074,174,2841,181,2635,178,2442,170,2251,162,2046,161,1814,171,1541,199,1498,206,1497,201,1540,193,1813,166,2046,156,2251,157,2443,165,2635,173,2841,176,3074,169,3349,145"/>
+<area shape="rect" id="Node000009" href="$qSlicerSubjectHierarchySceneViewsPlugin_8h.html" title=" " alt="" coords="1553,196,1811,265"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="3349,151,3117,171,2920,178,2746,176,2584,170,2422,165,2249,164,2054,174,1824,199,1812,200,1811,195,1823,193,2053,169,2249,159,2422,159,2584,165,2746,170,2920,172,3117,166,3349,145"/>
+<area shape="rect" id="Node000010" href="$qSlicerSubjectHierarchySegmentationsPlugin_8h.html" title=" " alt="" coords="1835,203,2115,258"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="3349,151,3164,168,3006,175,2866,175,2736,172,2607,170,2468,171,2312,179,2128,199,2083,206,2082,201,2127,193,2311,174,2468,166,2607,164,2736,167,2866,170,3005,170,3163,163,3349,145"/>
+<area shape="rect" id="Node000011" href="$qSlicerSubjectHierarchySegmentsPlugin_8h.html" title=" " alt="" coords="2139,203,2419,258"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="3349,151,3210,165,3091,172,2889,173,2688,175,2571,183,2433,199,2389,206,2388,201,2432,193,2570,178,2688,170,2889,168,3091,166,3209,160,3349,145"/>
+<area shape="rect" id="Node000012" href="$qSlicerSubjectHierarchyCloneNodePlugin_8h.html" title=" " alt="" coords="2444,203,2683,258"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="3349,151,3250,162,3165,168,3020,172,2877,177,2793,185,2696,199,2659,206,2658,201,2695,193,2793,180,2876,172,3020,166,3164,163,3249,157,3349,146"/>
+<area shape="rect" id="Node000013" href="$qSlicerSubjectHierarchyDefaultPlugin_8h.html" title=" " alt="" coords="2707,203,2945,258"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="3349,151,3239,165,3152,173,3066,182,2958,199,2924,206,2923,201,2958,193,3066,176,3151,168,3238,160,3349,146"/>
+<area shape="rect" id="Node000014" href="$qSlicerSubjectHierarchyExportPlugin_8h.html" title=" " alt="" coords="2969,203,3208,258"/>
+<area shape="poly" id="edge13_Node000004_Node000014" title=" " alt="" coords="3374,154,3185,206,3183,201,3372,149"/>
+<area shape="rect" id="Node000015" href="$qSlicerSubjectHierarchyFolderPlugin_8h.html" title=" " alt="" coords="3232,203,3471,258"/>
+<area shape="poly" id="edge14_Node000004_Node000015" title=" " alt="" coords="3441,159,3385,205,3382,201,3438,155"/>
+<area shape="rect" id="Node000016" href="$qSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators_8h.html" title=" " alt="" coords="5,203,335,258"/>
+<area shape="poly" id="edge15_Node000004_Node000016" title=" " alt="" coords="3349,151,3210,162,3051,170,2684,178,2272,179,1839,176,1406,172,998,173,637,180,481,188,346,199,293,206,292,201,346,193,481,182,636,175,998,167,1406,167,1839,170,2272,173,2684,173,3051,165,3210,157,3349,145"/>
+<area shape="rect" id="Node000017" href="$qSlicerSubjectHierarchyOpacityPlugin_8h.html" title=" " alt="" coords="3495,203,3733,258"/>
+<area shape="poly" id="edge16_Node000004_Node000017" title=" " alt="" coords="3526,155,3583,201,3580,205,3523,159"/>
+<area shape="rect" id="Node000018" href="$qSlicerSubjectHierarchyParseLocalDataPlugin_8h.html" title=" " alt="" coords="3757,203,3996,258"/>
+<area shape="poly" id="edge17_Node000004_Node000018" title=" " alt="" coords="3592,149,3782,201,3780,206,3590,154"/>
+<area shape="rect" id="Node000019" href="$qSlicerSubjectHierarchyRegisterPlugin_8h.html" title=" " alt="" coords="4020,203,4259,258"/>
+<area shape="poly" id="edge18_Node000004_Node000019" title=" " alt="" coords="3615,145,3727,160,3814,168,3901,176,4009,193,4044,201,4042,206,4008,199,3900,182,3814,173,3727,165,3614,151"/>
+<area shape="rect" id="Node000020" href="$qSlicerSubjectHierarchyScriptedPlugin_8h.html" title=" " alt="" coords="4283,203,4521,258"/>
+<area shape="poly" id="edge19_Node000004_Node000020" title=" " alt="" coords="3616,145,3716,156,3801,162,3946,166,4090,172,4174,180,4272,193,4309,201,4308,206,4271,199,4173,185,4090,177,3946,172,3801,168,3715,162,3615,151"/>
+<area shape="rect" id="Node000021" href="$qSlicerSubjectHierarchyViewContextMenuPlugin_8h.html" title=" " alt="" coords="4546,203,4802,258"/>
+<area shape="poly" id="edge20_Node000004_Node000021" title=" " alt="" coords="3615,145,3755,159,3874,165,4077,166,4279,168,4396,177,4534,193,4575,201,4574,206,4534,199,4396,182,4278,174,4077,171,3874,171,3755,164,3615,151"/>
+<area shape="rect" id="Node000022" href="$qSlicerSubjectHierarchyVisibilityPlugin_8h.html" title=" " alt="" coords="4827,203,5065,258"/>
+<area shape="poly" id="edge21_Node000004_Node000022" title=" " alt="" coords="3615,145,3798,162,3953,168,4090,167,4217,164,4345,161,4480,162,4634,172,4814,193,4854,201,4853,206,4814,199,4634,177,4480,168,4345,166,4217,169,4090,173,3953,173,3798,167,3615,151"/>
+<area shape="rect" id="Node000023" href="$qSlicerSubjectHierarchyTablesPlugin_8h.html" title=" " alt="" coords="5090,203,5365,258"/>
+<area shape="poly" id="edge22_Node000004_Node000023" title=" " alt="" coords="3615,145,3838,165,4027,172,4194,171,4349,166,4504,161,4670,162,4858,171,5078,193,5123,201,5122,206,5078,199,4857,176,4670,167,4504,167,4349,171,4194,176,4027,177,3838,170,3615,151"/>
+<area shape="rect" id="Node000024" href="$qSlicerSubjectHierarchyTextsPlugin_8h.html" title=" " alt="" coords="5389,203,5655,258"/>
+<area shape="poly" id="edge23_Node000004_Node000024" title=" " alt="" coords="3615,145,3883,168,4111,175,4311,172,4498,164,4685,157,4885,156,5111,167,5377,193,5420,201,5420,206,5376,199,5111,172,4885,162,4685,163,4499,170,4311,177,4111,180,3883,173,3615,151"/>
+<area shape="rect" id="Node000025" href="$qSlicerSubjectHierarchyTransformsPlugin_8h.html" title=" " alt="" coords="5679,196,5933,265"/>
+<area shape="poly" id="edge24_Node000004_Node000025" title=" " alt="" coords="3615,145,3778,161,3927,171,4192,177,4426,172,4644,162,4862,152,5094,150,5221,154,5358,162,5506,175,5668,193,5680,195,5679,200,5667,199,5506,180,5358,167,5221,159,5094,155,4862,158,4644,167,4426,178,4192,183,3927,176,3778,166,3615,151"/>
+<area shape="rect" id="Node000026" href="$qSlicerSubjectHierarchyVolumeRenderingPlugin_8h.html" title=" " alt="" coords="5957,203,6237,258"/>
+<area shape="poly" id="edge25_Node000004_Node000026" title=" " alt="" coords="3615,145,3800,163,3969,174,4125,180,4270,182,4535,177,4782,165,5029,154,5294,150,5438,153,5593,161,5761,174,5945,193,5991,201,5990,206,5944,199,5761,179,5593,166,5438,158,5294,155,5029,159,4783,170,4535,182,4270,187,4125,185,3969,179,3800,168,3615,151"/>
+<area shape="rect" id="Node000027" href="$qSlicerSubjectHierarchyDiffusionTensorVolumesPlugin_8h.html" title=" " alt="" coords="6261,196,6500,265"/>
+<area shape="poly" id="edge26_Node000004_Node000027" title=" " alt="" coords="3616,145,3738,155,3878,162,4200,168,4562,167,4942,163,5321,160,5679,162,5995,172,6131,181,6249,193,6262,195,6261,201,6248,199,6131,186,5995,177,5679,167,5321,166,4942,169,4562,172,4200,173,3878,167,3738,160,3615,151"/>
+<area shape="rect" id="Node000028" href="$qSlicerSubjectHierarchyLabelMapsPlugin_8h.html" title=" " alt="" coords="6525,196,6775,265"/>
+<area shape="poly" id="edge27_Node000004_Node000028" title=" " alt="" coords="3615,145,3750,156,3904,163,4258,169,4655,168,5074,164,5491,160,5885,161,6233,171,6383,180,6513,193,6525,195,6524,200,6512,199,6383,185,6233,176,5885,166,5491,165,5074,169,4655,174,4258,175,3904,168,3750,161,3615,151"/>
+<area shape="rect" id="Node000029" href="$qSlicerSubjectHierarchyVolumesPlugin_8h.html" title=" " alt="" coords="6800,203,7089,258"/>
+<area shape="poly" id="edge28_Node000004_Node000029" title=" " alt="" coords="3616,145,3763,157,3931,165,4318,172,4753,172,5211,167,5668,163,6100,163,6481,172,6645,181,6788,193,6835,201,6835,206,6787,199,6645,186,6481,177,6099,168,5668,168,5211,172,4753,177,4318,178,3930,170,3762,162,3615,151"/>
+<area shape="poly" id="edge30_Node000030_Node000016" title=" " alt="" coords="3087,151,2869,171,2670,184,2487,192,2316,194,2005,189,1714,176,1424,163,1113,157,943,159,761,166,563,179,346,199,294,206,293,201,346,193,562,174,761,161,943,154,1113,151,1424,157,1714,171,2005,184,2316,189,2486,186,2670,179,2869,165,3086,145"/>
+</map>

@@ -1,0 +1,87 @@
+<map id="qMRMLWidget" name="qMRMLWidget">
+<area shape="rect" id="Node000001" title="Base class for any widget that requires a MRML Scene." alt="" coords="132,968,247,993"/>
+<area shape="rect" id="Node000003" href="$classqMRMLAbstractViewWidget.html" title=" " alt="" coords="321,79,523,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,954,200,773,221,506,236,371,252,253,271,163,281,133,293,114,319,96,322,100,297,117,286,135,276,164,257,254,241,372,227,507,206,774,195,954"/>
+<area shape="rect" id="Node000008" href="$classqMRMLClipNodeDisplayWidget.html" title=" " alt="" coords="310,128,534,153"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="190,954,201,782,223,531,237,405,254,294,272,209,282,181,293,163,308,151,311,155,297,166,287,183,277,211,259,295,243,405,228,531,206,782,195,954"/>
+<area shape="rect" id="Node000009" href="$classqMRMLClipNodeWidget.html" title=" " alt="" coords="335,177,509,203"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="188,954,189,803,201,580,213,465,232,359,258,273,274,239,293,213,311,199,333,190,335,195,314,204,297,217,279,242,263,275,237,361,219,466,206,581,194,803,193,954"/>
+<area shape="rect" id="Node000010" href="$classqMRMLColorLegendDisplayNodeWidget.html" title=" " alt="" coords="305,227,539,267"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="188,954,192,814,206,611,219,507,237,411,261,332,276,301,293,278,307,265,310,270,297,281,281,304,266,334,242,412,224,508,211,612,197,814,193,954"/>
+<area shape="rect" id="Node000011" href="$classqMRMLColorPickerWidget.html" title=" " alt="" coords="327,292,517,317"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="188,954,193,822,208,634,221,537,239,449,262,376,277,348,293,327,308,315,326,306,328,311,311,319,297,331,281,351,267,378,244,450,226,538,213,634,198,823,194,954"/>
+<area shape="rect" id="Node000012" href="$classqMRMLLabelComboBox.html" title=" " alt="" coords="334,341,510,367"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="189,954,195,831,211,658,224,569,242,488,264,421,278,396,293,376,311,362,333,354,335,359,314,367,297,380,282,399,269,423,247,489,229,570,216,658,200,832,194,954"/>
+<area shape="rect" id="Node000013" href="$classqMRMLMarkupsDisplayNodeWidget.html" title=" " alt="" coords="295,391,549,416"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="189,954,197,840,214,682,228,601,245,528,266,468,279,445,293,427,309,414,313,418,297,431,283,447,271,470,250,529,233,602,220,683,202,841,195,954"/>
+<area shape="rect" id="Node000014" href="$classqMRMLMarkupsFiducialProjectionPropertyWidget.html" title=" " alt="" coords="302,441,542,481"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="190,954,200,853,219,714,233,644,250,580,270,527,293,491,308,479,311,483,297,494,274,529,255,581,238,645,225,715,205,853,195,954"/>
+<area shape="rect" id="Node000015" href="$classqMRMLMarkupsInteractionHandleWidget.html" title=" " alt="" coords="301,505,543,545"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="191,954,203,865,224,745,254,631,272,586,293,555,308,543,311,547,297,558,277,588,259,632,229,746,208,866,196,955"/>
+<area shape="rect" id="Node000016" href="$classqMRMLModelDisplayNodeWidget.html" title=" " alt="" coords="303,569,541,595"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="192,954,205,874,227,770,256,670,274,632,293,605,311,593,314,597,297,609,278,634,261,672,232,771,210,875,197,955"/>
+<area shape="rect" id="Node000017" href="$classqMRMLPlotChartPropertiesWidget.html" title=" " alt="" coords="324,619,520,659"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="189,954,195,895,210,819,224,778,241,738,264,702,293,669,322,651,325,655,296,673,269,705,246,741,229,780,216,820,200,896,194,955"/>
+<area shape="rect" id="Node000018" href="$classqMRMLPlotSeriesPropertiesWidget.html" title=" " alt="" coords="321,683,523,723"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="192,953,201,906,220,847,249,786,269,758,293,733,320,717,323,721,296,737,273,761,254,788,224,848,206,907,197,955"/>
+<area shape="rect" id="Node000019" href="$classqMRMLScalarsDisplayWidget.html" title=" " alt="" coords="316,748,528,773"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="194,954,206,915,226,868,254,822,272,801,293,782,314,771,317,775,296,787,276,804,259,825,231,871,211,917,199,955"/>
+<area shape="rect" id="Node000020" href="$classqMRMLSegmentEditorWidget.html" title="Qt widget for editing a segment from a segmentation using Editor effects." alt="" coords="316,797,528,823"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="199,954,234,892,261,859,293,832,316,820,318,825,296,836,265,863,238,895,203,957"/>
+<area shape="rect" id="Node000021" href="$classqMRMLSegmentSelectorWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed,..." alt="" coords="309,847,535,872"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="207,955,244,917,268,898,293,882,326,870,328,875,296,887,271,903,248,921,211,959"/>
+<area shape="rect" id="Node000022" href="$classqMRMLSegmentationDisplayNodeWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed,..." alt="" coords="317,897,527,937"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="243,961,294,946,338,934,340,939,295,951,244,966"/>
+<area shape="rect" id="Node000023" href="$classqMRMLSegmentationFileExportWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed,..." alt="" coords="309,961,535,1001"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="260,978,308,978,308,983,260,983"/>
+<area shape="rect" id="Node000024" href="$classqMRMLSegmentationGeometryWidget.html" title=" " alt="" coords="309,1025,535,1065"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="244,995,295,1010,340,1022,338,1027,294,1015,243,1000"/>
+<area shape="rect" id="Node000025" href="$classqMRMLSegmentsTableView.html" title=" " alt="" coords="321,1089,523,1115"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="211,1002,248,1040,271,1059,296,1074,328,1087,326,1092,293,1079,268,1063,244,1044,207,1006"/>
+<area shape="rect" id="Node000026" href="$classqMRMLSequenceBrowserPlayWidget.html" title=" " alt="" coords="315,1139,529,1179"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="204,1005,239,1066,265,1098,296,1125,318,1137,315,1142,293,1130,261,1102,235,1069,199,1007"/>
+<area shape="rect" id="Node000027" href="$classqMRMLSequenceBrowserSeekWidget.html" title=" " alt="" coords="313,1203,531,1243"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="199,1006,210,1047,229,1096,258,1147,276,1170,296,1189,314,1201,312,1205,293,1193,272,1173,253,1150,225,1099,205,1048,193,1007"/>
+<area shape="rect" id="Node000028" href="$classqMRMLSequenceEditWidget.html" title=" " alt="" coords="320,1268,524,1293"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="195,1007,202,1059,219,1127,232,1162,249,1195,271,1227,296,1253,321,1268,319,1273,293,1257,266,1230,245,1198,228,1164,214,1128,197,1060,190,1007"/>
+<area shape="rect" id="Node000029" href="$classqMRMLSliceInformationWidget.html" title=" " alt="" coords="311,1317,533,1343"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="193,1007,197,1069,212,1149,225,1192,243,1233,267,1271,296,1304,313,1315,310,1319,293,1308,262,1274,238,1236,220,1194,207,1151,192,1069,188,1007"/>
+<area shape="rect" id="Node000030" href="$classqMRMLSliceVerticalControllerWidget.html" title=" " alt="" coords="315,1367,529,1407"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="192,1007,194,1076,207,1170,220,1219,239,1268,264,1314,296,1353,316,1367,313,1372,293,1357,259,1317,234,1271,215,1221,202,1171,189,1077,187,1007"/>
+<area shape="rect" id="Node000031" href="$classqMRMLThreeDViewInformationWidget.html" title=" " alt="" coords="310,1431,534,1471"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="196,1007,207,1099,228,1222,242,1285,258,1341,276,1387,297,1418,312,1429,308,1434,293,1421,271,1389,253,1343,237,1286,223,1223,202,1100,191,1008"/>
+<area shape="rect" id="Node000032" href="$classqMRMLTransformDisplayNodeWidget.html" title=" " alt="" coords="313,1495,531,1535"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="195,1006,205,1110,224,1253,237,1326,254,1392,274,1445,297,1482,315,1496,312,1500,293,1485,269,1448,249,1393,232,1327,218,1254,199,1111,190,1007"/>
+<area shape="rect" id="Node000033" href="$classqMRMLTransformInfoWidget.html" title=" " alt="" coords="319,1560,525,1585"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="194,1007,202,1123,219,1285,232,1368,249,1443,271,1505,283,1528,296,1545,321,1562,318,1566,293,1549,279,1531,266,1507,244,1445,227,1369,213,1286,196,1123,189,1007"/>
+<area shape="rect" id="Node000034" href="$classqMRMLTransformSliders.html" title=" " alt="" coords="333,1609,511,1635"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="194,1007,199,1132,215,1310,228,1401,246,1484,269,1551,282,1577,297,1596,313,1609,333,1617,331,1622,311,1613,293,1600,277,1580,264,1553,241,1485,223,1402,210,1311,194,1133,189,1007"/>
+<area shape="rect" id="Node000035" href="$classqMRMLUnitWidget.html" title=" " alt="" coords="351,1659,493,1684"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="194,1007,198,1141,212,1334,225,1433,243,1523,267,1597,281,1625,296,1645,322,1662,351,1670,350,1675,319,1667,293,1649,276,1627,262,1599,238,1524,220,1434,207,1334,192,1141,188,1007"/>
+<area shape="rect" id="Node000036" href="$classqMRMLViewControllerBar.html" title=" " alt="" coords="329,1708,515,1733"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="193,1007,196,1151,209,1358,222,1465,240,1562,265,1642,280,1672,297,1695,312,1707,330,1715,327,1719,309,1711,293,1699,275,1675,260,1644,235,1563,217,1466,204,1358,191,1151,188,1008"/>
+<area shape="rect" id="Node000041" href="$classqMRMLVolumeInfoWidget.html" title=" " alt="" coords="327,1757,517,1783"/>
+<area shape="poly" id="edge40_Node000001_Node000041" title=" " alt="" coords="193,1007,194,1158,206,1381,218,1496,237,1601,263,1687,279,1720,297,1744,311,1756,328,1764,326,1768,308,1760,293,1748,274,1722,258,1689,232,1602,213,1497,201,1381,189,1159,188,1007"/>
+<area shape="rect" id="Node000042" href="$classqSlicerTerminologyNavigatorWidget.html" title="Qt widget for browsing a terminology dictionary. DICOM properties of the selected entry can also be s..." alt="" coords="317,1807,527,1847"/>
+<area shape="poly" id="edge41_Node000001_Node000042" title=" " alt="" coords="193,1007,194,1167,205,1404,217,1526,236,1639,262,1731,278,1767,297,1794,318,1810,315,1814,293,1797,274,1769,257,1733,231,1640,212,1527,199,1404,188,1167,188,1007"/>
+<area shape="rect" id="Node000043" href="$classqSlicerVolumeDisplayWidget.html" title=" " alt="" coords="317,1872,527,1897"/>
+<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="195,1007,205,1189,226,1461,241,1598,257,1718,276,1809,286,1840,297,1858,318,1873,315,1877,293,1861,281,1842,271,1811,252,1719,235,1598,221,1461,200,1190,189,1007"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,968,84,993"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,978,132,978,132,983,98,983"/>
+<area shape="rect" id="Node000004" href="$classqMRMLPlotWidget.html" title="qMRMLPlotWidget is the top&#45;level Plotting widget that can be packed in a layout." alt="" coords="645,5,787,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="477,72,597,39,648,28,649,33,598,45,479,77"/>
+<area shape="rect" id="Node000005" href="$classqMRMLSliceWidget.html" title=" " alt="" coords="643,55,789,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="537,79,642,71,642,76,537,85"/>
+<area shape="rect" id="Node000006" href="$classqMRMLTableWidget.html" title="qMRMLTableWidget is the top&#45;level table widget that can be packed in a layout." alt="" coords="641,104,791,129"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="538,99,641,108,641,113,537,104"/>
+<area shape="rect" id="Node000007" href="$classqMRMLThreeDWidget.html" title=" " alt="" coords="635,153,797,179"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="523,105,550,113,575,126,598,138,641,151,640,156,596,143,572,130,548,118,521,110"/>
+<area shape="rect" id="Node000037" href="$classqMRMLPlotViewControllerWidget.html" title=" " alt="" coords="597,1631,835,1656"/>
+<area shape="poly" id="edge36_Node000036_Node000037" title=" " alt="" coords="524,1702,548,1694,572,1680,596,1666,638,1654,639,1659,598,1671,575,1685,550,1699,525,1707"/>
+<area shape="rect" id="Node000038" href="$classqMRMLSliceControllerWidget.html" title=" " alt="" coords="611,1680,821,1705"/>
+<area shape="poly" id="edge37_Node000036_Node000038" title=" " alt="" coords="529,1708,610,1700,611,1705,529,1713"/>
+<area shape="rect" id="Node000039" href="$classqMRMLTableViewControllerWidget.html" title=" " alt="" coords="617,1730,815,1770"/>
+<area shape="poly" id="edge38_Node000036_Node000039" title=" " alt="" coords="529,1729,617,1737,616,1743,529,1734"/>
+<area shape="rect" id="Node000040" href="$classqMRMLThreeDViewControllerWidget.html" title=" " alt="" coords="610,1794,822,1834"/>
+<area shape="poly" id="edge39_Node000036_Node000040" title=" " alt="" coords="526,1735,550,1744,565,1752,575,1762,599,1780,628,1792,626,1796,596,1784,572,1766,562,1757,548,1748,524,1740"/>
+</map>

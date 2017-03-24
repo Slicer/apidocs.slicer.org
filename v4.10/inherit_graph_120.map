@@ -1,0 +1,251 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classvtkAddonMathUtilities.html" title="vtkAddonMathUtilities" alt="" coords="177,1610,338,1637"/>
+<area shape="rect" id="node3" href="$classvtkCacheManager.html" title="vtkCacheManager" alt="" coords="189,1661,326,1687"/>
+<area shape="rect" id="node4" href="$classvtkCalculateOversamplingFactor.html" title="Calculate oversampling factor based on model properties using fuzzy logics. " alt="" coords="163,1712,351,1753"/>
+<area shape="rect" id="node5" href="$classvtkCodedEntry.html" title="Simple class for storing standard coded entries (coding scheme, value, meaning triplets) ..." alt="" coords="200,1778,315,1805"/>
+<area shape="rect" id="node8" href="$classvtkDataFileFormatHelper.html" title="vtkDataFileFormatHelper" alt="" coords="167,1829,347,1855"/>
+<area shape="rect" id="node9" href="$classvtkDataIOManager.html" title="vtkDataIOManager" alt="" coords="187,1879,328,1906"/>
+<area shape="rect" id="node10" href="$classvtkDataTransfer.html" title="vtkDataTransfer" alt="" coords="196,1930,319,1957"/>
+<area shape="rect" id="node11" href="$classvtkEventBroker.html" title="Class that manages adding and deleting of observers with events. " alt="" coords="198,1981,317,2007"/>
+<area shape="rect" id="node12" href="$classvtkFSSurfaceHelper.html" title="Provides tools. " alt="" coords="183,2031,331,2058"/>
+<area shape="rect" id="node13" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="175,2082,340,2109"/>
+<area shape="rect" id="node85" href="$classvtkMRMLAnnotationClickCounter.html" title="vtkMRMLAnnotationClickCounter" alt="" coords="143,2525,371,2551"/>
+<area shape="rect" id="node86" href="$classvtkMRMLAnnotationDisplayableManagerHelper.html" title="vtkMRMLAnnotationDisplayable\lManagerHelper" alt="" coords="147,2576,368,2617"/>
+<area shape="rect" id="node87" href="$classvtkMRMLDisplayableManagerFactory.html" title="Factory where displayable manager classes are registered. " alt="" coords="154,2641,361,2683"/>
+<area shape="rect" id="node90" href="$classvtkMRMLDisplayableManagerGroup.html" title="DisplayableManagerGroup is a collection of DisplayableManager. " alt="" coords="154,2707,361,2748"/>
+<area shape="rect" id="node91" href="$classvtkMRMLFiducial.html" title="MRML object to represent a 3D point. " alt="" coords="195,2773,319,2799"/>
+<area shape="rect" id="node92" href="$classvtkMRMLLogic.html" title="Class that manages adding and deleting of observers with events. " alt="" coords="202,2823,313,2850"/>
+<area shape="rect" id="node93" href="$classvtkMRMLMarkupsClickCounter.html" title="vtkMRMLMarkupsClickCounter" alt="" coords="151,2874,363,2901"/>
+<area shape="rect" id="node94" href="$classvtkMRMLMarkupsDisplayableManagerHelper.html" title="vtkMRMLMarkupsDisplayable\lManagerHelper" alt="" coords="155,2925,360,2967"/>
+<area shape="rect" id="node95" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="201,2991,313,3018"/>
+<area shape="rect" id="node220" href="$classvtkMRMLNode_1_1vtkMRMLNodeReference.html" title="Class to hold information about a node reference. " alt="" coords="152,3043,363,3084"/>
+<area shape="rect" id="node221" href="$classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo. " alt="" coords="198,3109,317,3135"/>
+<area shape="rect" id="node222" href="$classvtkObservation.html" title="Stores information about the relationship between a Subject and an Observer. " alt="" coords="198,3159,317,3186"/>
+<area shape="rect" id="node223" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="180,3210,335,3237"/>
+<area shape="rect" id="node224" href="$classvtkOpenGLShaderComputation.html" title="vtkOpenGLShaderComputation" alt="" coords="147,3261,368,3287"/>
+<area shape="rect" id="node225" href="$classvtkOpenGLTextureImage.html" title="vtkOpenGLTextureImage" alt="" coords="169,3311,345,3338"/>
+<area shape="rect" id="node226" href="$classvtkOrientedImageDataResample.html" title="Utility functions for resampling oriented image data. " alt="" coords="143,3362,372,3389"/>
+<area shape="rect" id="node227" href="$classvtkPermissionPrompter.html" title="vtkPermissionPrompter" alt="" coords="172,3413,343,3439"/>
+<area shape="rect" id="node228" href="$classvtkPersonInformation.html" title="vtkPersonInformation &#45; specify name and other information to identify a person. " alt="" coords="178,3463,337,3490"/>
+<area shape="rect" id="node229" href="$classvtkSegment.html" title="This class encapsulates a segment that is part of a segmentation. " alt="" coords="207,3514,307,3541"/>
+<area shape="rect" id="node230" href="$classvtkSegmentation.html" title="This class encapsulates a segmentation that can contain multiple segments and multiple representation..." alt="" coords="191,3565,323,3591"/>
+<area shape="rect" id="node231" href="$classvtkSegmentationConverter.html" title="Class that can convert between different representations of a segment. " alt="" coords="160,3615,355,3642"/>
+<area shape="rect" id="node232" href="$classvtkSegmentationConverterFactory.html" title="Class that can create vtkSegmentationConverter instances. " alt="" coords="160,3667,355,3708"/>
+<area shape="rect" id="node233" href="$classvtkSegmentationConverterRule.html" title="Abstract converter rule class. Subclasses perform conversions between specific representation types..." alt="" coords="147,3733,368,3759"/>
+<area shape="rect" id="node238" href="$classvtkSegmentationHistory.html" title="vtkSegmentationHistory" alt="" coords="169,3783,346,3810"/>
+<area shape="rect" id="node239" href="$classvtkSlicerSegmentationGeometryLogic.html" title="vtkSlicerSegmentationGeometry\lLogic" alt="" coords="142,3835,373,3876"/>
+<area shape="rect" id="node240" href="$classvtkSlicerTask.html" title="vtkSlicerTask" alt="" coords="206,3901,309,3927"/>
+<area shape="rect" id="node241" href="$classvtkSlicerTerminologyEntry.html" title="VTK implementation of. " alt="" coords="165,3951,350,3978"/>
+<area shape="rect" id="node242" href="$classvtkStreamingVolumeCodec.html" title="VTK object for representing a volume compression codec (normally a video compression codec) ..." alt="" coords="159,4002,355,4029"/>
+<area shape="rect" id="node244" href="$classvtkStreamingVolumeCodecFactory.html" title="Class that can create compresion device for streaming volume instances. " alt="" coords="136,4053,379,4079"/>
+<area shape="rect" id="node245" href="$classvtkStreamingVolumeFrame.html" title="VTK object containing a single compressed frame. " alt="" coords="159,4103,355,4130"/>
+<area shape="rect" id="node246" href="$classvtkSystemInformation.html" title="vtkSystemInformation" alt="" coords="176,4154,339,4181"/>
+<area shape="rect" id="node247" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="210,4205,305,4231"/>
+<area shape="rect" id="node248" href="$classvtkTopologicalHierarchy.html" title="Algorithm class for computing topological hierarchy of multiple poly data models. The levels of the m..." alt="" coords="172,4255,343,4282"/>
+<area shape="rect" id="node249" href="$classvtkURIHandler.html" title="vtkURIHandler" alt="" coords="201,4330,313,4357"/>
+<area shape="rect" id="node6" href="$classvtkSlicerTerminologyCategory.html" title="Terminology property category object. " alt="" coords="453,1209,664,1235"/>
+<area shape="rect" id="node7" href="$classvtkSlicerTerminologyType.html" title="Terminology property type object. " alt="" coords="469,1259,649,1286"/>
+<area shape="rect" id="node14" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="456,1311,661,1352"/>
+<area shape="rect" id="node47" href="$classvtkMRMLApplicationLogic.html" title="vtkMRMLApplicationLogic" alt="" coords="468,1435,649,1462"/>
+<area shape="rect" id="node49" href="$classvtkMRMLColorLogic.html" title="MRML logic class for color manipulation. " alt="" coords="487,1514,631,1541"/>
+<area shape="rect" id="node51" href="$classvtkMRMLDisplayableHierarchyLogic.html" title="Slicer logic class for hierarchy manipulation. " alt="" coords="453,1595,665,1636"/>
+<area shape="rect" id="node52" href="$classvtkMRMLLayoutLogic.html" title="MRML logic class for layout manipulation. " alt="" coords="481,1661,636,1687"/>
+<area shape="rect" id="node53" href="$classvtkMRMLLightBoxRendererManagerProxy.html" title="Proxy class to provide mechanisms for a displayable manager to communicate with 3rd party renderer ma..." alt="" coords="435,1712,682,1753"/>
+<area shape="rect" id="node54" href="$classvtkMRMLModelHierarchyLogic.html" title="Slicer logic class for volumes manipulation. " alt="" coords="453,1778,664,1805"/>
+<area shape="rect" id="node55" href="$classvtkMRMLRemoteIOLogic.html" title="vtkMRMLRemoteIOLogic" alt="" coords="472,1829,645,1855"/>
+<area shape="rect" id="node56" href="$classvtkMRMLSliceLayerLogic.html" title="vtkMRMLSliceLayerLogic" alt="" coords="471,1879,647,1906"/>
+<area shape="rect" id="node57" href="$classvtkMRMLSliceLinkLogic.html" title="vtkMRMLSliceLinkLogic" alt="" coords="475,1930,642,1957"/>
+<area shape="rect" id="node58" href="$classvtkMRMLSliceLogic.html" title="Slicer logic class for slice manipulation. " alt="" coords="488,1981,629,2007"/>
+<area shape="rect" id="node59" href="$classvtkMRMLViewLinkLogic.html" title="vtkMRMLViewLinkLogic" alt="" coords="477,2031,641,2058"/>
+<area shape="rect" id="node60" href="$classvtkMRMLViewLogic.html" title="Slicer logic class for view manipulation. " alt="" coords="489,2082,628,2109"/>
+<area shape="rect" id="node61" href="$classvtkSlicerFiducialsLogic.html" title="vtkSlicerFiducialsLogic" alt="" coords="477,2133,640,2159"/>
+<area shape="rect" id="node62" href="$classvtkSlicerModuleLogic.html" title="vtkSlicerModuleLogic" alt="" coords="481,2183,636,2210"/>
+<area shape="rect" id="node83" href="$classvtkSlicerTransformLogic.html" title="vtkSlicerTransformLogic" alt="" coords="473,2234,645,2261"/>
+<area shape="rect" id="node84" href="$classvtkSlicerUnitsLogic.html" title="Slicer logic for unit manipulation. " alt="" coords="487,2285,630,2311"/>
+<area shape="rect" id="node15" href="$classvtkMRMLAbstractSliceViewDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="785,201,975,243"/>
+<area shape="rect" id="node23" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes. " alt="" coords="777,711,983,752"/>
+<area shape="rect" id="node35" href="$classvtkMRMLAnnotationDisplayableManager.html" title="vtkMRMLAnnotationDisplayable\lManager" alt="" coords="769,1187,991,1228"/>
+<area shape="rect" id="node44" href="$classvtkMRMLOrientationMarkerDisplayableManager.html" title="Displayable manager that displays orienatation marker in a slice or 3D view. " alt="" coords="783,1252,977,1293"/>
+<area shape="rect" id="node45" href="$classvtkMRMLRulerDisplayableManager.html" title="Displayable manager that displays orienatation marker in a slice or 3D view. " alt="" coords="761,1318,999,1345"/>
+<area shape="rect" id="node46" href="$classvtkMRMLScriptedDisplayableManager.html" title="vtkMRMLScriptedDisplayable\lManager" alt="" coords="778,1369,982,1411"/>
+<area shape="rect" id="node16" href="$classvtkMRMLCrosshairDisplayableManager.html" title="Displayable manager for the crosshair on slice (2D) views. " alt="" coords="1099,5,1309,47"/>
+<area shape="rect" id="node17" href="$classvtkMRMLMarkupsDisplayableManager2D.html" title="vtkMRMLMarkupsDisplayable\lManager2D" alt="" coords="1101,71,1307,112"/>
+<area shape="rect" id="node19" href="$classvtkMRMLModelSliceDisplayableManager.html" title="Displayable manager for slice (2D) views. " alt="" coords="1095,136,1313,177"/>
+<area shape="rect" id="node20" href="$classvtkMRMLSegmentationsDisplayableManager2D.html" title="Displayable manager for showing segmentations in slice (2D) views. " alt="" coords="1079,201,1329,243"/>
+<area shape="rect" id="node21" href="$classvtkMRMLTransformsDisplayableManager2D.html" title="Displayable manager for showing transforms in slice (2D) views. " alt="" coords="1095,267,1313,308"/>
+<area shape="rect" id="node22" href="$classvtkMRMLVolumeGlyphSliceDisplayableManager.html" title="Displayable manager for slice (2D) views. " alt="" coords="1072,332,1336,373"/>
+<area shape="rect" id="node18" href="$classvtkMRMLMarkupsFiducialDisplayableManager2D.html" title="vtkMRMLMarkupsFiducialDisplayable\lManager2D" alt="" coords="1396,71,1647,112"/>
+<area shape="rect" id="node24" href="$classvtkMRMLCameraDisplayableManager.html" title="vtkMRMLCameraDisplayable\lManager" alt="" coords="1103,397,1305,439"/>
+<area shape="rect" id="node25" href="$classvtkMRMLCrosshairDisplayableManager3D.html" title="Displayable manager for the crosshair on 3D views. " alt="" coords="1099,463,1309,504"/>
+<area shape="rect" id="node26" href="$classvtkMRMLLinearTransformsDisplayableManager3D.html" title="Display transforms in 3D views. " alt="" coords="1074,528,1334,569"/>
+<area shape="rect" id="node27" href="$classvtkMRMLMarkupsDisplayableManager3D.html" title="vtkMRMLMarkupsDisplayable\lManager3D" alt="" coords="1101,593,1307,635"/>
+<area shape="rect" id="node29" href="$classvtkMRMLModelDisplayableManager.html" title="Manage display nodes with polydata in 3D views. " alt="" coords="1081,659,1327,686"/>
+<area shape="rect" id="node30" href="$classvtkMRMLSegmentationsDisplayableManager3D.html" title="Display segmentations in 3D views. " alt="" coords="1079,711,1329,752"/>
+<area shape="rect" id="node31" href="$classvtkMRMLThreeDReformatDisplayableManager.html" title="Displayable manager for ImplicitPlaneWidget2 in 3D views. " alt="" coords="1077,776,1331,817"/>
+<area shape="rect" id="node32" href="$classvtkMRMLTransformsDisplayableManager3D.html" title="Display transforms in 3D views. " alt="" coords="1095,841,1313,883"/>
+<area shape="rect" id="node33" href="$classvtkMRMLViewDisplayableManager.html" title="Displayable manager that configures a vtkRenderer from a vtkMRMLViewNode and its associated active vt..." alt="" coords="1087,907,1321,934"/>
+<area shape="rect" id="node34" href="$classvtkMRMLVolumeRenderingDisplayableManager.html" title="vtkMRMLVolumeRenderingDisplayable\lManager" alt="" coords="1073,959,1335,1000"/>
+<area shape="rect" id="node28" href="$classvtkMRMLMarkupsFiducialDisplayableManager3D.html" title="vtkMRMLMarkupsFiducialDisplayable\lManager3D" alt="" coords="1396,593,1647,635"/>
+<area shape="rect" id="node36" href="$classvtkMRMLAnnotationAngleDisplayableManager.html" title="vtkMRMLAnnotationAngleDisplayable\lManager" alt="" coords="1075,1024,1333,1065"/>
+<area shape="rect" id="node37" href="$classvtkMRMLAnnotationBidimensionalDisplayableManager.html" title="vtkMRMLAnnotationBidimensional\lDisplayableManager" alt="" coords="1085,1089,1323,1131"/>
+<area shape="rect" id="node38" href="$classvtkMRMLAnnotationFiducialDisplayableManager.html" title="vtkMRMLAnnotationFiducial\lDisplayableManager" alt="" coords="1107,1155,1301,1196"/>
+<area shape="rect" id="node39" href="$classvtkMRMLAnnotationROIDisplayableManager.html" title="vtkMRMLAnnotationROIDisplayable\lManager" alt="" coords="1083,1220,1325,1261"/>
+<area shape="rect" id="node40" href="$classvtkMRMLAnnotationRulerDisplayableManager.html" title="vtkMRMLAnnotationRulerDisplayable\lManager" alt="" coords="1078,1285,1330,1327"/>
+<area shape="rect" id="node41" href="$classvtkMRMLAnnotationSplineDisplayableManager.html" title="vtkMRMLAnnotationSplineDisplayable\lManager" alt="" coords="1074,1351,1334,1392"/>
+<area shape="rect" id="node42" href="$classvtkMRMLAnnotationStickyDisplayableManager.html" title="vtkMRMLAnnotationStickyDisplayable\lManager" alt="" coords="1075,1416,1333,1457"/>
+<area shape="rect" id="node43" href="$classvtkMRMLAnnotationTextDisplayableManager.html" title="vtkMRMLAnnotationTextDisplayable\lManager" alt="" coords="1081,1481,1327,1523"/>
+<area shape="rect" id="node48" href="$classvtkSlicerApplicationLogic.html" title="vtkSlicerApplicationLogic" alt="" coords="791,1435,969,1462"/>
+<area shape="rect" id="node50" href="$classvtkSlicerColorLogic.html" title="vtkSlicerColorLogic" alt="" coords="809,1486,951,1513"/>
+<area shape="rect" id="node63" href="$classvtkDataIOManagerLogic.html" title="vtkDataIOManagerLogic" alt="" coords="793,1537,967,1563"/>
+<area shape="rect" id="node64" href="$classvtkSlicerAnnotationModuleLogic.html" title="vtkSlicerAnnotationModule\lLogic" alt="" coords="784,1588,976,1629"/>
+<area shape="rect" id="node65" href="$classvtkSlicerCamerasModuleLogic.html" title="vtkSlicerCamerasModuleLogic" alt="" coords="773,1654,987,1681"/>
+<area shape="rect" id="node66" href="$classvtkSlicerCLIModuleLogic.html" title="Logic for running CLI. " alt="" coords="793,1705,967,1731"/>
+<area shape="rect" id="node67" href="$classvtkSlicerCropVolumeLogic.html" title="Crop a volume to the specified region of interest. " alt="" coords="787,1755,973,1782"/>
+<area shape="rect" id="node68" href="$classvtkSlicerDataModuleLogic.html" title="vtkSlicerDataModuleLogic" alt="" coords="787,1806,973,1833"/>
+<area shape="rect" id="node69" href="$classvtkSlicerDoubleArraysLogic.html" title="Slicer logic class for double array manipulation This class manages the logic associated with reading..." alt="" coords="783,1857,977,1883"/>
+<area shape="rect" id="node70" href="$classvtkSlicerMarkupsLogic.html" title="vtkSlicerMarkupsLogic" alt="" coords="799,1907,961,1934"/>
+<area shape="rect" id="node71" href="$classvtkSlicerModelsLogic.html" title="vtkSlicerModelsLogic" alt="" coords="803,1958,957,1985"/>
+<area shape="rect" id="node72" href="$classvtkSlicerPlotsLogic.html" title="Slicer logic class for double array manipulation This class manages the logic associated with reading..." alt="" coords="810,2009,950,2035"/>
+<area shape="rect" id="node73" href="$classvtkSlicerReformatLogic.html" title="vtkSlicerReformatLogic" alt="" coords="797,2059,963,2086"/>
+<area shape="rect" id="node74" href="$classvtkSlicerSceneViewsModuleLogic.html" title="vtkSlicerSceneViewsModule\lLogic" alt="" coords="781,2111,979,2152"/>
+<area shape="rect" id="node75" href="$classvtkSlicerScriptedLoadableModuleLogic.html" title="vtkSlicerScriptedLoadable\lModuleLogic" alt="" coords="787,2176,973,2217"/>
+<area shape="rect" id="node76" href="$classvtkSlicerSegmentationsModuleLogic.html" title="vtkSlicerSegmentationsModule\lLogic" alt="" coords="770,2241,990,2283"/>
+<area shape="rect" id="node77" href="$classvtkSlicerSubjectHierarchyModuleLogic.html" title="vtkSlicerSubjectHierarchy\lModuleLogic" alt="" coords="787,2307,973,2348"/>
+<area shape="rect" id="node78" href="$classvtkSlicerTablesLogic.html" title="Slicer logic class for double array manipulation This class manages the logic associated with reading..." alt="" coords="806,2373,954,2399"/>
+<area shape="rect" id="node79" href="$classvtkSlicerTerminologiesModuleLogic.html" title="vtkSlicerTerminologiesModule\lLogic" alt="" coords="775,2424,985,2465"/>
+<area shape="rect" id="node80" href="$classvtkSlicerViewControllersLogic.html" title="vtkSlicerViewControllers\lLogic" alt="" coords="793,2489,967,2531"/>
+<area shape="rect" id="node81" href="$classvtkSlicerVolumeRenderingLogic.html" title="vtkSlicerVolumeRendering\lLogic" alt="" coords="787,2555,973,2596"/>
+<area shape="rect" id="node82" href="$classvtkSlicerVolumesLogic.html" title="vtkSlicerVolumesLogic" alt="" coords="798,2621,962,2647"/>
+<area shape="rect" id="node88" href="$classvtkMRMLSliceViewDisplayableManagerFactory.html" title="Factory where displayable manager are registered. " alt="" coords="453,2544,664,2585"/>
+<area shape="rect" id="node89" href="$classvtkMRMLThreeDViewDisplayableManagerFactory.html" title="Factory where displayable manager classes are registered. " alt="" coords="447,2609,671,2651"/>
+<area shape="rect" id="node96" href="$classvtkMRMLAbstractLayoutNode.html" title="Node that describes the view layout of the application. " alt="" coords="454,2675,663,2702"/>
+<area shape="rect" id="node98" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D..." alt="" coords="461,2726,656,2753"/>
+<area shape="rect" id="node104" href="$classvtkMRMLChartNode.html" title="MRML node for referencing a collection of data to plot. " alt="" coords="485,2777,632,2803"/>
+<area shape="rect" id="node105" href="$classvtkMRMLClipModelsNode.html" title="MRML node to represent three clipping planes. " alt="" coords="469,2827,649,2854"/>
+<area shape="rect" id="node106" href="$classvtkMRMLCommandLineModuleNode.html" title="MRML node for representing the parameters allowing to run a command line interface module (CLI)..." alt="" coords="433,2878,684,2905"/>
+<area shape="rect" id="node107" href="$classvtkMRMLCropVolumeParametersNode.html" title="vtkMRMLCropVolumeParametersNode" alt="" coords="427,2929,691,2955"/>
+<area shape="rect" id="node108" href="$classvtkMRMLCrosshairNode.html" title="MRML node for storing a crosshair through RAS space. " alt="" coords="473,2979,645,3006"/>
+<area shape="rect" id="node109" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="479,3030,638,3057"/>
+<area shape="rect" id="node131" href="$classvtkMRMLHierarchyNode.html" title="Abstract class representing a hierarchy member. " alt="" coords="472,3081,645,3107"/>
+<area shape="rect" id="node136" href="$classvtkMRMLInteractionNode.html" title="vtkMRMLInteractionNode" alt="" coords="469,3131,649,3158"/>
+<area shape="rect" id="node137" href="$classvtkMRMLPlotChartNode.html" title="MRML node for referencing a collection of data to plot. " alt="" coords="473,3182,644,3209"/>
+<area shape="rect" id="node138" href="$classvtkMRMLPlotSeriesNode.html" title="MRML node to represent a vtkPlot object. " alt="" coords="471,3233,647,3259"/>
+<area shape="rect" id="node139" href="$classvtkMRMLROIListNode.html" title="MRML list node to represent a list of ROINODE. " alt="" coords="481,3283,636,3310"/>
+<area shape="rect" id="node140" href="$classvtkMRMLScriptedModuleNode.html" title="vtkMRMLScriptedModuleNode" alt="" coords="453,3334,664,3361"/>
+<area shape="rect" id="node141" href="$classvtkMRMLSegmentEditorNode.html" title="Parameter set node for the segment editor widget. " alt="" coords="455,3385,663,3411"/>
+<area shape="rect" id="node142" href="$classvtkMRMLSelectionNode.html" title="MRML node for storing information about the active nodes in the scene. " alt="" coords="473,3435,644,3462"/>
+<area shape="rect" id="node143" href="$classvtkMRMLSliceCompositeNode.html" title="MRML node for storing a slice through RAS space. " alt="" coords="453,3486,664,3513"/>
+<area shape="rect" id="node144" href="$classvtkMRMLSnapshotClipNode.html" title="Abstract class representing a hierarchy member. " alt="" coords="461,3537,657,3563"/>
+<area shape="rect" id="node145" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="475,3587,642,3614"/>
+<area shape="rect" id="node191" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes. " alt="" coords="477,4009,640,4035"/>
+<area shape="rect" id="node218" href="$classvtkMRMLSubjectHierarchyNode.html" title="MRML node to represent a complete subject hierarchy tree. " alt="" coords="448,4059,669,4086"/>
+<area shape="rect" id="node219" href="$classvtkMRMLUnitNode.html" title="Node that holds the information about a unit. " alt="" coords="490,4110,627,4137"/>
+<area shape="rect" id="node97" href="$classvtkMRMLLayoutNode.html" title="Node that describes the view layout of the application. " alt="" coords="803,2671,957,2698"/>
+<area shape="rect" id="node99" href="$classvtkMRMLChartViewNode.html" title="MRML node to represent chart view parameters. " alt="" coords="792,2722,968,2749"/>
+<area shape="rect" id="node100" href="$classvtkMRMLPlotViewNode.html" title="MRML node to represent Plot view parameters. " alt="" coords="797,2773,963,2799"/>
+<area shape="rect" id="node101" href="$classvtkMRMLSliceNode.html" title="MRML node for storing a slice through RAS space. " alt="" coords="809,2823,951,2850"/>
+<area shape="rect" id="node102" href="$classvtkMRMLTableViewNode.html" title="MRML node to represent table view parameters. " alt="" coords="795,2874,965,2901"/>
+<area shape="rect" id="node103" href="$classvtkMRMLViewNode.html" title="MRML node to represent a 3D view. " alt="" coords="810,2925,950,2951"/>
+<area shape="rect" id="node110" href="$classvtkMRMLMarkupsDisplayNode.html" title="vtkMRMLMarkupsDisplayNode" alt="" coords="774,2975,986,3002"/>
+<area shape="rect" id="node111" href="$classvtkMRMLModelDisplayNode.html" title="MRML node to represent a display property of 3D surface model. " alt="" coords="782,3026,978,3053"/>
+<area shape="rect" id="node118" href="$classvtkMRMLSegmentationDisplayNode.html" title="MRML node for representing segmentation display attributes. " alt="" coords="755,3077,1005,3103"/>
+<area shape="rect" id="node119" href="$classvtkMRMLTransformDisplayNode.html" title="MRML node to represent display properties for transforms visualization in the slice and 3D viewers..." alt="" coords="771,3127,989,3154"/>
+<area shape="rect" id="node120" href="$classvtkMRMLVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="777,3178,983,3205"/>
+<area shape="rect" id="node127" href="$classvtkMRMLVolumeRenderingDisplayNode.html" title="vtkMRMLVolumeRenderingDisplayNode" alt="" coords="746,3229,1014,3255"/>
+<area shape="rect" id="node112" href="$classvtkMRMLAnnotationDisplayNode.html" title="vtkMRMLAnnotationDisplayNode" alt="" coords="1090,2846,1318,2873"/>
+<area shape="rect" id="node116" href="$classvtkMRMLGlyphableVolumeSliceDisplayNode.html" title="MRML node to represent display properties for tractography. " alt="" coords="1095,2923,1313,2964"/>
+<area shape="rect" id="node113" href="$classvtkMRMLAnnotationLineDisplayNode.html" title="vtkMRMLAnnotationLineDisplayNode" alt="" coords="1394,2770,1649,2797"/>
+<area shape="rect" id="node114" href="$classvtkMRMLAnnotationPointDisplayNode.html" title="vtkMRMLAnnotationPointDisplayNode" alt="" coords="1391,2821,1651,2847"/>
+<area shape="rect" id="node115" href="$classvtkMRMLAnnotationTextDisplayNode.html" title="vtkMRMLAnnotationTextDisplayNode" alt="" coords="1395,2871,1648,2898"/>
+<area shape="rect" id="node117" href="$classvtkMRMLDiffusionTensorVolumeSliceDisplayNode.html" title="MRML node to represent display properties for tractography. " alt="" coords="1410,2923,1633,2964"/>
+<area shape="rect" id="node121" href="$classvtkMRMLLabelMapVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="1071,2989,1337,3015"/>
+<area shape="rect" id="node122" href="$classvtkMRMLScalarVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="1081,3039,1327,3066"/>
+<area shape="rect" id="node123" href="$classvtkMRMLDiffusionWeightedVolumeDisplayNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1426,3011,1617,3052"/>
+<area shape="rect" id="node124" href="$classvtkMRMLGlyphableVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="1387,3077,1656,3103"/>
+<area shape="rect" id="node125" href="$classvtkMRMLDiffusionTensorVolumeDisplayNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1727,3040,1950,3081"/>
+<area shape="rect" id="node126" href="$classvtkMRMLVectorVolumeDisplayNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1715,3106,1962,3133"/>
+<area shape="rect" id="node128" href="$classvtkMRMLCPURayCastVolumeRenderingDisplayNode.html" title="vtkMRMLCPURayCastVolumeRendering\lDisplayNode" alt="" coords="1070,3091,1338,3132"/>
+<area shape="rect" id="node129" href="$classvtkMRMLGPURayCastVolumeRenderingDisplayNode.html" title="vtkMRMLGPURayCastVolumeRendering\lDisplayNode" alt="" coords="1069,3156,1339,3197"/>
+<area shape="rect" id="node130" href="$classvtkMRMLMultiVolumeRenderingDisplayNode.html" title="vtkMRMLMultiVolumeRendering\lDisplayNode" alt="" coords="1095,3221,1313,3263"/>
+<area shape="rect" id="node132" href="$classvtkMRMLDisplayableHierarchyNode.html" title="MRML node to represent a hierarchy of displayable nodes. " alt="" coords="757,3281,1003,3307"/>
+<area shape="rect" id="node135" href="$classvtkMRMLSubjectHierarchyLegacyNode.html" title="Legacy subject hierarchy node to allow loading older MRML scenes. " alt="" coords="747,3331,1013,3358"/>
+<area shape="rect" id="node133" href="$classvtkMRMLAnnotationHierarchyNode.html" title="vtkMRMLAnnotationHierarchyNode" alt="" coords="1083,3287,1325,3314"/>
+<area shape="rect" id="node134" href="$classvtkMRMLModelHierarchyNode.html" title="MRML node to represent a hierarchyu of models. " alt="" coords="1099,3338,1309,3365"/>
+<area shape="rect" id="node146" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="807,3385,953,3411"/>
+<area shape="rect" id="node153" href="$classvtkMRMLDoubleArrayNode.html" title="vtkMRMLDoubleArrayNode" alt="" coords="785,3435,975,3462"/>
+<area shape="rect" id="node154" href="$classvtkMRMLSceneViewNode.html" title="vtkMRMLSceneViewNode" alt="" coords="789,3486,971,3513"/>
+<area shape="rect" id="node155" href="$classvtkMRMLTableNode.html" title="MRML node to represent a table object. " alt="" coords="809,3537,951,3563"/>
+<area shape="rect" id="node156" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="780,3587,980,3614"/>
+<area shape="rect" id="node190" href="$classvtkMRMLVolumePropertyNode.html" title="vtkMRMLVolumePropertyNode contains the transfer functions (scalar opacity, color and gradient opacity..." alt="" coords="773,3638,987,3665"/>
+<area shape="rect" id="node147" href="$classvtkMRMLColorTableNode.html" title="MRML node to represent discrete color information. " alt="" coords="1115,3389,1293,3415"/>
+<area shape="rect" id="node149" href="$classvtkMRMLProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="1097,3439,1311,3466"/>
+<area shape="rect" id="node148" href="$classvtkMRMLDiffusionTensorDisplayPropertiesNode.html" title="MRML node for display of a diffusion tensor. " alt="" coords="1411,3268,1631,3309"/>
+<area shape="rect" id="node150" href="$classvtkMRMLdGEMRICProceduralColorNode.html" title="MRML node to represent procedurally defined color information. " alt="" coords="1420,3333,1623,3375"/>
+<area shape="rect" id="node151" href="$classvtkMRMLFreeSurferProceduralColorNode.html" title="MRML node to represent FreeSurfer color information. " alt="" coords="1415,3399,1627,3440"/>
+<area shape="rect" id="node152" href="$classvtkMRMLPETProceduralColorNode.html" title="vtkMRMLPETProceduralColorNode" alt="" coords="1403,3465,1639,3491"/>
+<area shape="rect" id="node157" href="$classvtkMRMLCameraNode.html" title="MRML node to represent camera node. " alt="" coords="1123,3537,1285,3563"/>
+<area shape="rect" id="node158" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="1111,3587,1297,3614"/>
+<area shape="rect" id="node188" href="$classvtkMRMLFiducialListNode.html" title="MRML node to represent a list of points in 3D. " alt="" coords="1114,3638,1294,3665"/>
+<area shape="rect" id="node189" href="$classvtkMRMLROINode.html" title="MRML node to represent a 3D ROI. " alt="" coords="1137,3689,1271,3715"/>
+<area shape="rect" id="node159" href="$classvtkMRMLMarkupsNode.html" title="MRML node to represent a list of markups Markups nodes contains a list of markups that each contain a..." alt="" coords="1438,3515,1605,3542"/>
+<area shape="rect" id="node161" href="$classvtkMRMLModelNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="1446,3566,1597,3593"/>
+<area shape="rect" id="node174" href="$classvtkMRMLSegmentationNode.html" title="MRML node containing segmentationsSegmentation node stores a set of segments (also known as contours ..." alt="" coords="1420,3617,1623,3643"/>
+<area shape="rect" id="node175" href="$classvtkMRMLTransformNode.html" title="MRML node for representing a transformation between this node space and a parent node space..." alt="" coords="1435,3667,1608,3694"/>
+<area shape="rect" id="node179" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1442,3718,1601,3745"/>
+<area shape="rect" id="node160" href="$classvtkMRMLMarkupsFiducialNode.html" title="MRML node to represent a fiducial markup Fiducial Markups nodes contain a list of fiducial points..." alt="" coords="1733,3515,1945,3542"/>
+<area shape="rect" id="node162" href="$classvtkMRMLAnnotationNode.html" title="vtkMRMLAnnotationNode" alt="" coords="1747,3566,1930,3593"/>
+<area shape="rect" id="node163" href="$classvtkMRMLAnnotationControlPointsNode.html" title="vtkMRMLAnnotationControl\lPointsNode" alt="" coords="2045,3529,2240,3571"/>
+<area shape="rect" id="node173" href="$classvtkMRMLAnnotationSnapshotNode.html" title="vtkMRMLAnnotationSnapshotNode" alt="" coords="2021,3595,2264,3622"/>
+<area shape="rect" id="node164" href="$classvtkMRMLAnnotationFiducialNode.html" title="MRML node to represent a fiducial in the Annotations module &#45; deprecated. " alt="" coords="2325,3461,2553,3487"/>
+<area shape="rect" id="node165" href="$classvtkMRMLAnnotationLinesNode.html" title="vtkMRMLAnnotationLinesNode" alt="" coords="2332,3511,2547,3538"/>
+<area shape="rect" id="node171" href="$classvtkMRMLAnnotationStickyNode.html" title="vtkMRMLAnnotationStickyNode" alt="" coords="2329,3562,2549,3589"/>
+<area shape="rect" id="node172" href="$classvtkMRMLAnnotationTextNode.html" title="vtkMRMLAnnotationTextNode" alt="" coords="2336,3613,2543,3639"/>
+<area shape="rect" id="node166" href="$classvtkMRMLAnnotationAngleNode.html" title="vtkMRMLAnnotationAngleNode" alt="" coords="2641,3410,2859,3437"/>
+<area shape="rect" id="node167" href="$classvtkMRMLAnnotationBidimensionalNode.html" title="vtkMRMLAnnotationBidimensionalNode" alt="" coords="2615,3461,2885,3487"/>
+<area shape="rect" id="node168" href="$classvtkMRMLAnnotationROINode.html" title="vtkMRMLAnnotationROINode" alt="" coords="2649,3511,2851,3538"/>
+<area shape="rect" id="node169" href="$classvtkMRMLAnnotationRulerNode.html" title="vtkMRMLAnnotationRulerNode" alt="" coords="2643,3562,2857,3589"/>
+<area shape="rect" id="node170" href="$classvtkMRMLAnnotationSplineNode.html" title="vtkMRMLAnnotationSplineNode" alt="" coords="2639,3613,2861,3639"/>
+<area shape="rect" id="node176" href="$classvtkMRMLBSplineTransformNode.html" title="MRML node for representing a nonlinear transformation to the parent node using a bspline transform..." alt="" coords="1727,3617,1950,3643"/>
+<area shape="rect" id="node177" href="$classvtkMRMLGridTransformNode.html" title="MRML node for representing a nonlinear transformation to the parent node using a grid transform..." alt="" coords="1738,3667,1939,3694"/>
+<area shape="rect" id="node178" href="$classvtkMRMLLinearTransformNode.html" title="MRML node for representing a linear transformation. " alt="" coords="1731,3718,1946,3745"/>
+<area shape="rect" id="node180" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1739,3769,1939,3795"/>
+<area shape="rect" id="node181" href="$classvtkMRMLDiffusionWeightedVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="2047,3703,2238,3744"/>
+<area shape="rect" id="node182" href="$classvtkMRMLLabelMapVolumeNode.html" title="MRML node for representing a label map volume. " alt="" coords="2032,3769,2253,3795"/>
+<area shape="rect" id="node183" href="$classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="2043,3819,2242,3846"/>
+<area shape="rect" id="node184" href="$classvtkMRMLDiffusionImageVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="2312,3794,2567,3821"/>
+<area shape="rect" id="node186" href="$classvtkMRMLVectorVolumeNode.html" title="MRML node for representing a vector volume (image stack). " alt="" coords="2339,3845,2539,3871"/>
+<area shape="rect" id="node185" href="$classvtkMRMLDiffusionTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="2622,3794,2878,3821"/>
+<area shape="rect" id="node187" href="$classvtkMRMLStreamingVolumeNode.html" title="MRML node for representing a single compressed video frame that can be decoded to an image representa..." alt="" coords="2637,3845,2863,3871"/>
+<area shape="rect" id="node192" href="$classvtkMRMLAnnotationSnapshotStorageNode.html" title="vtkMRMLAnnotationSnapshot\lStorageNode" alt="" coords="775,3689,985,3731"/>
+<area shape="rect" id="node193" href="$classvtkMRMLAnnotationStorageNode.html" title="vtkMRMLAnnotationStorageNode" alt="" coords="763,3755,997,3782"/>
+<area shape="rect" id="node199" href="$classvtkMRMLColorTableStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="766,3806,994,3833"/>
+<area shape="rect" id="node200" href="$classvtkMRMLDoubleArrayStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="759,3857,1001,3883"/>
+<area shape="rect" id="node201" href="$classvtkMRMLFiducialListStorageNode.html" title="MRML node for handling fiducial list storage. " alt="" coords="765,3907,995,3934"/>
+<area shape="rect" id="node202" href="$classvtkMRMLHierarchyStorageNode.html" title="MRML node for representing a no&#45;op hierarchy storage. " alt="" coords="768,3958,992,3985"/>
+<area shape="rect" id="node203" href="$classvtkMRMLMarkupsStorageNode.html" title="vtkMRMLMarkupsStorageNode" alt="" coords="771,4009,989,4035"/>
+<area shape="rect" id="node205" href="$classvtkMRMLModelStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="779,4059,981,4086"/>
+<area shape="rect" id="node208" href="$classvtkMRMLNRRDStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="781,4110,979,4137"/>
+<area shape="rect" id="node209" href="$classvtkMRMLProceduralColorStorageNode.html" title="MRML node for procedural color node storage. " alt="" coords="748,4161,1012,4187"/>
+<area shape="rect" id="node210" href="$classvtkMRMLSceneViewStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="764,4211,996,4238"/>
+<area shape="rect" id="node211" href="$classvtkMRMLSegmentationStorageNode.html" title="MRML node for segmentation storage on disk. " alt="" coords="753,4262,1007,4289"/>
+<area shape="rect" id="node212" href="$classvtkMRMLTableSQLiteStorageNode.html" title="vtkMRMLTableSQLiteStorageNode" alt="" coords="763,4313,997,4339"/>
+<area shape="rect" id="node213" href="$classvtkMRMLTableStorageNode.html" title="MRML node for handling Table node storage. " alt="" coords="783,4363,977,4390"/>
+<area shape="rect" id="node214" href="$classvtkMRMLTransformStorageNode.html" title="MRML node for transform storage on disk. " alt="" coords="768,4414,992,4441"/>
+<area shape="rect" id="node215" href="$classvtkMRMLVolumeArchetypeStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="743,4465,1017,4491"/>
+<area shape="rect" id="node216" href="$classvtkMRMLVolumeHeaderlessStorageNode.html" title="MRML node for representing a volume storage. " alt="" coords="739,4515,1021,4542"/>
+<area shape="rect" id="node217" href="$classvtkMRMLVolumePropertyStorageNode.html" title="vtkMRMLVolumePropertyStorageNode" alt="" coords="748,4566,1012,4593"/>
+<area shape="rect" id="node194" href="$classvtkMRMLAnnotationControlPointsStorageNode.html" title="vtkMRMLAnnotationControl\lPointsStorageNode" alt="" coords="1107,3769,1301,3811"/>
+<area shape="rect" id="node195" href="$classvtkMRMLAnnotationFiducialsStorageNode.html" title="vtkMRMLAnnotationFiducials\lStorageNode" alt="" coords="1421,3769,1622,3811"/>
+<area shape="rect" id="node196" href="$classvtkMRMLAnnotationLinesStorageNode.html" title="vtkMRMLAnnotationLinesStorageNode" alt="" coords="1388,3835,1655,3862"/>
+<area shape="rect" id="node197" href="$classvtkMRMLAnnotationAngleStorageNode.html" title="vtkMRMLAnnotationAngleStorageNode" alt="" coords="1704,3827,1973,3854"/>
+<area shape="rect" id="node198" href="$classvtkMRMLAnnotationRulerStorageNode.html" title="vtkMRMLAnnotationRulerStorageNode" alt="" coords="1707,3878,1971,3905"/>
+<area shape="rect" id="node204" href="$classvtkMRMLMarkupsFiducialStorageNode.html" title="vtkMRMLMarkupsFiducialStorageNode" alt="" coords="1073,4001,1335,4027"/>
+<area shape="rect" id="node206" href="$classvtkMRMLFreeSurferModelOverlayStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="1089,4052,1319,4093"/>
+<area shape="rect" id="node207" href="$classvtkMRMLFreeSurferModelStorageNode.html" title="MRML node for model storage on disk. " alt="" coords="1071,4118,1337,4145"/>
+<area shape="rect" id="node234" href="$classvtkBinaryLabelmapToClosedSurfaceConversionRule.html" title="Convert binary labelmap representation (vtkOrientedImageData type) to closed surface representation (..." alt="" coords="459,4161,659,4203"/>
+<area shape="rect" id="node236" href="$classvtkClosedSurfaceToBinaryLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to binary labelmap representation (vtkOrient..." alt="" coords="465,4227,652,4268"/>
+<area shape="rect" id="node235" href="$classvtkFractionalLabelmapToClosedSurfaceConversionRule.html" title="Convert Fractional labelmap representation (vtkOrientedImageData type) to closed surface representati..." alt="" coords="769,4617,991,4659"/>
+<area shape="rect" id="node237" href="$classvtkClosedSurfaceToFractionalLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to fractional labelmap representation (vtkOr..." alt="" coords="777,4683,983,4724"/>
+<area shape="rect" id="node243" href="$classvtkRawRGBVolumeCodec.html" title="Codec for storing imagedata in an 24&#45;bit RGB format (8&#45;bit color depth, no compression) ..." alt="" coords="468,4293,649,4319"/>
+<area shape="rect" id="node250" href="$classvtkHTTPHandler.html" title="vtkHTTPHandler" alt="" coords="497,4343,620,4370"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Libs/MRML/Core/vtkMRMLColorNode.h" name="Libs/MRML/Core/vtkMRMLColorNode.h">
+<area shape="rect" id="node2" href="$vtkMRMLColorTableNode_8h.html" title="Libs/MRML/Core/vtkMRMLColor\lTableNode.h" alt="" coords="295,95,510,136"/>
+<area shape="rect" id="node8" href="$vtkMRMLProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLProcedural\lColorNode.h" alt="" coords="732,95,983,136"/>
+<area shape="rect" id="node3" href="$vtkMRMLDiffusionTensorDisplayPropertiesNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lTensorDisplayPropertiesNode.h" alt="" coords="5,184,243,225"/>
+<area shape="rect" id="node5" href="$vtkMRMLSegmentationNode_8h.html" title="Libs/MRML/Core/vtkMRMLSegmentation\lNode.h" alt="" coords="266,184,539,225"/>
+<area shape="rect" id="node4" href="$vtkMRMLDiffusionTensorVolumeDisplayNode_8h.html" title="Libs/MRML/Core/vtkMRMLDiffusion\lTensorVolumeDisplayNode.h" alt="" coords="5,281,243,322"/>
+<area shape="rect" id="node6" href="$vtkSlicerSegmentationsModuleLogic_8h.html" title="Modules/Loadable/Segmentations\l/Logic/vtkSlicerSegmentationsModule\lLogic.h" alt="" coords="269,273,531,329"/>
+<area shape="rect" id="node7" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="555,281,823,322"/>
+<area shape="rect" id="node9" href="$vtkMRMLdGEMRICProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLdGEMRICProcedural\lColorNode.h" alt="" coords="563,184,869,225"/>
+<area shape="rect" id="node10" href="$vtkMRMLFreeSurferProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLFree\lSurferProceduralColorNode.h" alt="" coords="894,184,1103,225"/>
+<area shape="rect" id="node11" href="$vtkMRMLPETProceduralColorNode_8h.html" title="Libs/MRML/Core/vtkMRMLPETProcedural\lColorNode.h" alt="" coords="1127,184,1401,225"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,413,136,439"/>
+<area shape="rect" id="Node000001" href="$classqSlicerMarkupsSettingsPanel.html" title=" " alt="" coords="203,5,412,31"/>
+<area shape="poly" id="edge35_Node000000_Node000001" title=" " alt="" coords="68,399,71,328,85,231,99,179,120,129,147,82,182,41,201,28,204,33,186,45,151,85,124,131,105,181,91,232,76,328,74,399"/>
+<area shape="rect" id="Node000002" href="$classqSlicerSegmentationsSettingsPanel.html" title=" " alt="" coords="199,55,416,95"/>
+<area shape="poly" id="edge36_Node000000_Node000002" title=" " alt="" coords="71,399,78,339,95,260,110,218,128,177,152,139,182,105,199,93,202,98,186,109,157,142,133,179,115,220,100,261,83,339,76,400"/>
+<area shape="rect" id="Node000003" href="$classqSlicerSettingsCachePanel.html" title=" " alt="" coords="210,120,405,145"/>
+<area shape="poly" id="edge37_Node000000_Node000003" title=" " alt="" coords="72,399,82,347,101,281,115,247,134,213,156,183,182,156,209,141,211,145,186,160,160,186,138,216,120,249,106,283,87,348,78,400"/>
+<area shape="rect" id="Node000004" href="$classqSlicerSettingsDeveloperPanel.html" title=" " alt="" coords="214,170,401,210"/>
+<area shape="poly" id="edge38_Node000000_Node000004" title=" " alt="" coords="76,399,90,360,112,311,142,262,161,239,182,220,212,203,215,208,186,224,165,243,146,265,116,314,95,362,81,401"/>
+<area shape="rect" id="Node000005" href="$classqSlicerSettingsExtensionsPanel.html" title=" " alt="" coords="212,234,403,274"/>
+<area shape="poly" id="edge39_Node000000_Node000005" title=" " alt="" coords="83,400,122,341,150,310,183,284,210,270,213,275,185,288,154,314,126,344,87,403"/>
+<area shape="rect" id="Node000006" href="$classqSlicerSettingsGeneralPanel.html" title=" " alt="" coords="205,299,410,324"/>
+<area shape="poly" id="edge40_Node000000_Node000006" title=" " alt="" coords="93,401,132,366,183,334,218,322,220,327,185,339,136,370,96,405"/>
+<area shape="rect" id="Node000007" href="$classqSlicerSettingsInternationalizationPanel.html" title=" " alt="" coords="184,349,431,389"/>
+<area shape="poly" id="edge41_Node000000_Node000007" title=" " alt="" coords="137,407,224,386,225,391,138,413"/>
+<area shape="rect" id="Node000008" href="$classqSlicerSettingsModulesPanel.html" title=" " alt="" coords="203,413,412,439"/>
+<area shape="poly" id="edge42_Node000000_Node000008" title=" " alt="" coords="150,423,203,423,203,429,150,429"/>
+<area shape="rect" id="Node000009" href="$classqSlicerSettingsPythonPanel.html" title=" " alt="" coords="208,463,407,488"/>
+<area shape="poly" id="edge43_Node000000_Node000009" title=" " alt="" coords="145,439,185,447,245,460,244,465,183,453,144,444"/>
+<area shape="rect" id="Node000010" href="$classqSlicerSettingsStylesPanel.html" title=" " alt="" coords="210,512,405,537"/>
+<area shape="poly" id="edge44_Node000000_Node000010" title=" " alt="" coords="100,445,139,472,185,497,224,509,223,514,183,502,136,477,97,449"/>
+<area shape="rect" id="Node000011" href="$classqSlicerSettingsUserInformationPanel.html" title=" " alt="" coords="195,562,420,602"/>
+<area shape="poly" id="edge45_Node000000_Node000011" title=" " alt="" coords="90,448,129,498,156,524,185,546,212,560,210,564,183,551,152,528,125,502,86,452"/>
+<area shape="rect" id="Node000012" href="$classqSlicerSettingsViewsPanel.html" title=" " alt="" coords="211,627,404,652"/>
+<area shape="poly" id="edge46_Node000000_Node000012" title=" " alt="" coords="82,451,96,488,118,532,148,576,186,612,211,625,209,630,182,616,143,579,113,534,91,490,77,453"/>
+<area shape="rect" id="Node000013" href="$classqSlicerSubjectHierarchySettingsPanel.html" title=" " alt="" coords="192,677,423,717"/>
+<area shape="poly" id="edge47_Node000000_Node000013" title=" " alt="" coords="79,452,91,497,112,554,143,612,163,638,186,661,205,674,203,679,182,665,159,642,138,615,107,556,86,499,74,453"/>
+<area shape="rect" id="Node000014" href="$classqSlicerUnitsSettingsPanel.html" title=" " alt="" coords="213,741,401,767"/>
+<area shape="poly" id="edge48_Node000000_Node000014" title=" " alt="" coords="76,452,83,509,101,584,115,623,134,662,157,697,186,727,215,743,212,748,182,731,153,700,129,664,110,626,96,586,78,510,71,452"/>
+<area shape="rect" id="Node000015" href="$classqSlicerVolumeRenderingSettingsPanel.html" title=" " alt="" coords="190,791,425,831"/>
+<area shape="poly" id="edge49_Node000000_Node000015" title=" " alt="" coords="75,452,80,518,96,605,110,651,129,697,154,739,186,776,204,789,200,793,182,780,150,742,125,699,105,653,91,606,75,518,70,453"/>
+</map>

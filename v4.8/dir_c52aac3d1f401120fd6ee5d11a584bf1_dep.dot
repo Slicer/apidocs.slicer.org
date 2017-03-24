@@ -1,0 +1,20 @@
+digraph "Modules/Loadable/MultiVolumeRendering" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d01fdafe93af837a1755aeb3a6390699 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Loadable" fontname="Helvetica", fontsize="10", URL="dir_d01fdafe93af837a1755aeb3a6390699.html"]
+  subgraph clusterdir_c52aac3d1f401120fd6ee5d11a584bf1 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c52aac3d1f401120fd6ee5d11a584bf1.html"];
+    dir_c52aac3d1f401120fd6ee5d11a584bf1 [shape=plaintext label="MultiVolumeRendering"];
+    dir_f028198c5ea3218f9e13dee1fb305fb5 [shape=box label="Logic" color="black" fillcolor="white" style="filled" URL="dir_f028198c5ea3218f9e13dee1fb305fb5.html"];
+    dir_535d37a6425789873c5d82274ea70550 [shape=box label="MRML" color="black" fillcolor="white" style="filled" URL="dir_535d37a6425789873c5d82274ea70550.html"];
+  }
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_f028198c5ea3218f9e13dee1fb305fb5->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000088_000002.html"];
+  dir_535d37a6425789873c5d82274ea70550->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="1", labeldistance=1.5 headhref="dir_000089_000012.html"];
+  dir_628593db0cdce5a76fb85526ae5aa762->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="12", labeldistance=1.5 headhref="dir_000002_000012.html"];
+}

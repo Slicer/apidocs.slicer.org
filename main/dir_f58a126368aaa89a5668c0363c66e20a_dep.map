@@ -1,0 +1,18 @@
+<map id="Modules/Loadable/Plots" name="Modules/Loadable/Plots">
+<area shape="rect" id="node1" href="dir_1694c2d71873d62d036e188d77c435ae.html" title="SubjectHierarchy" alt="" coords="61,136,195,161"/>
+<area shape="rect" id="node6" href="dir_628593db0cdce5a76fb85526ae5aa762.html" title="Base" alt="" coords="509,136,563,161"/>
+<area shape="poly" id="edge1" href="dir_000086_000002.html" alt="" coords="289,86,310,96,361,111,402,117,444,122,496,132,495,137,443,127,401,122,360,116,308,101,286,91"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000086_000002.html" title="3" alt="" coords="488,118,498,132"/>
+<area shape="rect" id="node3" href="dir_2f9fe6cd3d3d9b05961b703cbaa0bdfc.html" title="Logic" alt="" coords="321,63,377,88"/>
+<area shape="poly" id="edge2" href="dir_000053_000002.html" alt="" coords="370,86,390,96,443,115,496,131,495,136,441,121,388,101,367,91"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000053_000002.html" title="1" alt="" coords="489,117,498,132"/>
+<area shape="rect" id="node4" href="dir_be85cb3f1050988d40f4735736130c3d.html" title="SubjectHierarchyPlugins" alt="" coords="38,63,218,88"/>
+<area shape="poly" id="edge3" href="dir_000110_000105.html" alt="" coords="131,88,131,122,125,122,125,88"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000110_000105.html" title="1" alt="" coords="132,110,141,125"/>
+<area shape="rect" id="node5" href="dir_674af5575df0b90e9c526f543b9c4adb.html" title="Widgets" alt="" coords="401,63,476,88"/>
+<area shape="rect" id="node7" href="dir_6e6cb9563333489fde7459b1f95e59a5.html" title="Libs" alt="" coords="588,136,636,161"/>
+<area shape="poly" id="edge4" href="dir_000136_000042.html" alt="" coords="468,86,576,130,574,135,466,90"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000136_000042.html" title="2" alt="" coords="569,115,579,130"/>
+<area shape="rect" id="clust2" href="dir_f58a126368aaa89a5668c0363c66e20a.html" alt="" coords="27,52,487,99"/>
+<area shape="rect" id="clust1" href="dir_d01fdafe93af837a1755aeb3a6390699.html" title="Loadable" alt="" coords="16,16,497,172"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Libs/MRML/Core/vtkMRMLSegmentationNode.h" name="Libs/MRML/Core/vtkMRMLSegmentationNode.h">
+<area shape="rect" id="node2" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="113,483,203,509"/>
+<area shape="rect" id="node4" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="1021,95,1218,121"/>
+<area shape="rect" id="node24" href="$vtkMRMLColorTableNode_8h.html" title="vtkMRMLColorTableNode.h" alt="" coords="1242,95,1431,121"/>
+<area shape="rect" id="node27" href="$vtkSegmentation_8h.html" title="vtkSegmentation.h" alt="" coords="1947,244,2091,271"/>
+<area shape="rect" id="node5" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="1021,169,1233,196"/>
+<area shape="rect" id="node6" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="1194,244,1373,271"/>
+<area shape="rect" id="node7" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="823,319,947,345"/>
+<area shape="rect" id="node8" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1148,401,1315,427"/>
+<area shape="rect" id="node15" href="$vtkLoggingMacros_8h.html" title="vtkLoggingMacros.h" alt="" coords="350,401,499,427"/>
+<area shape="rect" id="node19" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="523,401,747,427"/>
+<area shape="rect" id="node16" href="$vtkAddon_8h.html" title="vtkAddon.h" alt="" coords="377,483,472,509"/>
+<area shape="rect" id="node25" href="$vtkMRMLColorNode_8h.html" title="vtkMRMLColorNode.h" alt="" coords="1258,169,1415,196"/>
+<area shape="rect" id="node29" href="$vtkSegment_8h.html" title="vtkSegment.h" alt="" coords="1686,319,1798,345"/>
+<area shape="rect" id="node32" href="$vtkSegmentationConverter_8h.html" title="vtkSegmentationConverter.h" alt="" coords="2057,319,2264,345"/>
+<area shape="rect" id="node35" href="$vtkSegmentationConverterRule_8h.html" title="vtkSegmentationConverter\lRule.h" alt="" coords="1993,393,2187,435"/>
+</map>

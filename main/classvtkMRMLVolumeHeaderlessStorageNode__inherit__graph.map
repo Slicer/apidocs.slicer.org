@@ -1,0 +1,9 @@
+<map id="vtkMRMLVolumeHeaderlessStorageNode" name="vtkMRMLVolumeHeaderlessStorageNode">
+<area shape="rect" id="Node000001" title="MRML node for representing a volume storage." alt="" coords="5,225,293,251"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes." alt="" coords="66,152,233,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,191,152,225,147,225,147,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="91,79,208,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="152,118,152,152,147,152,147,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,5,192,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="152,44,152,79,147,79,147,44"/>
+</map>

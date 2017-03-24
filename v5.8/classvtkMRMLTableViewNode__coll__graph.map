@@ -1,0 +1,12 @@
+<map id="vtkMRMLTableViewNode" name="vtkMRMLTableViewNode">
+<area shape="rect" id="Node000001" title="MRML node to represent table view parameters." alt="" coords="16,317,199,343"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D,..." alt="" coords="5,243,209,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,282,110,317,105,317,105,282"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="49,168,166,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,208,110,242,105,242,105,208"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="59,5,145,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,44,110,168,104,168,100,45"/>
+<area shape="rect" id="Node000005" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="124,80,283,105"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="131,37,188,77,185,82,128,41"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="182,116,122,169,119,165,179,112"/>
+</map>

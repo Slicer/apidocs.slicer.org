@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Volumes/Widgets" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7e66b5ba9bf1f6ef143fe0ed8fb244d9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Volumes" fontname="Helvetica", fontsize="10", URL="dir_7e66b5ba9bf1f6ef143fe0ed8fb244d9.html"]
+  dir_669ad6877e6e2267fb085fabf83a4ce9 [shape=box, label="Widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_669ad6877e6e2267fb085fabf83a4ce9.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_669ad6877e6e2267fb085fabf83a4ce9->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="5", labeldistance=1.5 headhref="dir_000135_000002.html"];
+}

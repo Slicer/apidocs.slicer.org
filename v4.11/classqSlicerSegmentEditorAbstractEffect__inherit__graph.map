@@ -1,0 +1,9 @@
+<map id="qSlicerSegmentEditorAbstractEffect" name="qSlicerSegmentEditorAbstractEffect">
+<area shape="rect" id="node3" href="$classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects. " alt="" coords="392,103,608,144"/>
+<area shape="rect" id="node9" href="$classqSlicerSegmentEditorScriptedEffect.html" title="Scripted abstract effect for implementing segment editor effects in python. " alt="" coords="393,168,607,209"/>
+<area shape="rect" id="node4" href="$classqSlicerSegmentEditorPaintEffect.html" title="qSlicerSegmentEditorPaint\lEffect" alt="" coords="666,37,861,79"/>
+<area shape="rect" id="node7" href="$classqSlicerSegmentEditorScissorsEffect.html" title="qSlicerSegmentEditorScissors\lEffect" alt="" coords="656,103,871,144"/>
+<area shape="rect" id="node8" href="$classqSlicerSegmentEditorScriptedLabelEffect.html" title="Scripted abstract effect for implementing label effects in python. " alt="" coords="656,168,871,209"/>
+<area shape="rect" id="node5" href="$classqSlicerSegmentEditorEraseEffect.html" title="qSlicerSegmentEditorErase\lEffect" alt="" coords="927,5,1125,47"/>
+<area shape="rect" id="node6" href="$classqSlicerSegmentEditorScriptedPaintEffect.html" title="Scripted abstract effect for implementing paint effects in python. " alt="" coords="919,71,1133,112"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="Modules/Loadable/Colors" name="Modules/Loadable/Colors">
+<area shape="rect" id="node1" href="dir_1694c2d71873d62d036e188d77c435ae.html" title="SubjectHierarchy" alt="" coords="61,136,195,161"/>
+<area shape="rect" id="node2" href="dir_c20d4ae2fd1614eda006ead50cca913b.html" title="Terminologies" alt="" coords="346,136,459,161"/>
+<area shape="rect" id="node10" href="dir_628593db0cdce5a76fb85526ae5aa762.html" title="Base" alt="" coords="835,136,890,161"/>
+<area shape="poly" id="edge1" href="dir_000007_000002.html" alt="" coords="517,86,541,96,618,113,680,118,744,120,822,132,822,137,743,126,680,123,617,119,539,101,515,91"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000007_000002.html" title="3" alt="" coords="815,118,824,133"/>
+<area shape="rect" id="node4" href="dir_1e7ea8d754f9c56b0941d487d7687ce6.html" title="Logic" alt="" coords="747,63,803,88"/>
+<area shape="rect" id="node11" href="dir_6e6cb9563333489fde7459b1f95e59a5.html" title="Libs" alt="" coords="915,136,963,161"/>
+<area shape="poly" id="edge2" href="dir_000048_000042.html" alt="" coords="802,86,903,129,901,134,800,90"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000048_000042.html" title="1" alt="" coords="897,115,906,129"/>
+<area shape="rect" id="node5" href="dir_de1e2d427c3317c3cd932fa3a3715407.html" title="MRML" alt="" coords="659,63,722,88"/>
+<area shape="poly" id="edge3" href="dir_000072_000042.html" alt="" coords="712,86,736,96,780,109,816,117,902,133,901,139,815,122,778,115,734,101,710,90"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000072_000042.html" title="1" alt="" coords="894,119,904,134"/>
+<area shape="rect" id="node6" href="dir_1a03c833d506c999eb4c444b055e02b2.html" title="MRMLDM" alt="" coords="551,63,635,88"/>
+<area shape="poly" id="edge4" href="dir_000080_000042.html" alt="" coords="619,86,649,96,717,111,773,116,830,121,902,134,901,139,829,127,772,122,716,116,647,101,617,91"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000080_000042.html" title="1" alt="" coords="894,120,903,134"/>
+<area shape="rect" id="node7" href="dir_758807080c4609d79124e170932f6d8f.html" title="SubjectHierarchyPlugins" alt="" coords="38,63,218,88"/>
+<area shape="poly" id="edge5" href="dir_000107_000105.html" alt="" coords="131,88,131,122,125,122,125,88"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000107_000105.html" title="1" alt="" coords="132,110,141,125"/>
+<area shape="rect" id="node8" href="dir_a92d84eb62c2cd1ae2c7d7a026e377b4.html" title="VTKWidgets" alt="" coords="242,63,342,88"/>
+<area shape="rect" id="node9" href="dir_7a31e09747cbd699af474e88368f25b8.html" title="Widgets" alt="" coords="365,63,440,88"/>
+<area shape="poly" id="edge7" href="dir_000133_000119.html" alt="" coords="405,88,405,122,400,122,400,88"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000133_000119.html" title="4" alt="" coords="406,110,416,125"/>
+<area shape="poly" id="edge6" href="dir_000133_000042.html" alt="" coords="426,86,454,96,520,110,576,117,674,119,775,119,833,123,902,134,901,139,833,129,774,124,674,124,576,122,519,115,453,101,424,91"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000133_000042.html" title="2" alt="" coords="894,120,903,135"/>
+<area shape="rect" id="clust2" href="dir_9c5afd8681310699e8cf6f6b0b2a88d7.html" alt="" coords="27,52,813,99"/>
+<area shape="rect" id="clust1" href="dir_d01fdafe93af837a1755aeb3a6390699.html" title="Loadable" alt="" coords="16,16,824,172"/>
+</map>

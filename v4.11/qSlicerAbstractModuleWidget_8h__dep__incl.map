@@ -1,0 +1,29 @@
+<map id="Base/QTGUI/qSlicerAbstractModuleWidget.h" name="Base/QTGUI/qSlicerAbstractModuleWidget.h">
+<area shape="rect" id="node2" href="$qSlicerCLIModuleWidget_8h.html" title="Base/QTCLI/qSlicerCLIModule\lWidget.h" alt="" coords="5,102,216,143"/>
+<area shape="rect" id="node3" href="$qSlicerBaseQTGUIPythonQtDecorators_8h.html" title="Base/QTGUI/qSlicerBaseQTGUIPython\lQtDecorators.h" alt="" coords="240,102,507,143"/>
+<area shape="rect" id="node4" href="$qSlicerScriptedLoadableModuleWidget_8h.html" title="Base/QTGUI/qSlicerScripted\lLoadableModuleWidget.h" alt="" coords="531,102,733,143"/>
+<area shape="rect" id="node5" href="$qSlicerEventBrokerModuleWidget_8h.html" title="Modules/Core/EventBroker\l/qSlicerEventBrokerModuleWidget.h" alt="" coords="757,102,1011,143"/>
+<area shape="rect" id="node6" href="$qSlicerAnnotationModulePropertyDialog_8h.html" title="Modules/Loadable/Annotations\l/GUI/qSlicerAnnotationModuleProperty\lDialog.h" alt="" coords="1036,95,1308,151"/>
+<area shape="rect" id="node7" href="$qSlicerAnnotationModulePropertyDialogWIP_8h.html" title="Modules/Loadable/Annotations\l/GUI/qSlicerAnnotationModuleProperty\lDialogWIP.h" alt="" coords="1332,95,1604,151"/>
+<area shape="rect" id="node8" href="$qSlicerAnnotationModuleWidget_8h.html" title="Modules/Loadable/Annotations\l/GUI/qSlicerAnnotationModuleWidget.h" alt="" coords="1628,102,1903,143"/>
+<area shape="rect" id="node9" href="$qSlicerCamerasModuleWidget_8h.html" title="Modules/Loadable/Cameras\l/qSlicerCamerasModuleWidget.h" alt="" coords="1927,102,2161,143"/>
+<area shape="rect" id="node10" href="$qSlicerColorsModuleWidget_8h.html" title="Modules/Loadable/Colors\l/qSlicerColorsModuleWidget.h" alt="" coords="2186,102,2403,143"/>
+<area shape="rect" id="node11" href="$qSlicerCropVolumeModuleWidget_8h.html" title="Modules/Loadable/CropVolume\l/qSlicerCropVolumeModuleWidget.h" alt="" coords="2427,102,2682,143"/>
+<area shape="rect" id="node12" href="$qSlicerDataModuleWidget_8h.html" title="Modules/Loadable/Data\l/qSlicerDataModuleWidget.h" alt="" coords="2706,102,2913,143"/>
+<area shape="rect" id="node13" href="$qSlicerMarkupsModuleWidget_8h.html" title="Modules/Loadable/Markups\l/qSlicerMarkupsModuleWidget.h" alt="" coords="2937,102,3167,143"/>
+<area shape="rect" id="node14" href="$qSlicerModelsModuleWidget_8h.html" title="Modules/Loadable/Models\l/qSlicerModelsModuleWidget.h" alt="" coords="3191,102,3414,143"/>
+<area shape="rect" id="node15" href="$qSlicerPlotsModuleWidget_8h.html" title="Modules/Loadable/Plots\l/qSlicerPlotsModuleWidget.h" alt="" coords="3439,102,3647,143"/>
+<area shape="rect" id="node16" href="$qSlicerReformatModuleWidget_8h.html" title="Modules/Loadable/Reformat\l/qSlicerReformatModuleWidget.h" alt="" coords="3671,102,3908,143"/>
+<area shape="rect" id="node17" href="$qSlicerSceneViewsModuleWidget_8h.html" title="Modules/Loadable/SceneViews\l/GUI/qSlicerSceneViewsModuleWidget.h" alt="" coords="3932,102,4215,143"/>
+<area shape="rect" id="node18" href="$qSlicerSegmentationsModuleWidget_8h.html" title="Modules/Loadable/Segmentations\l/qSlicerSegmentationsModuleWidget.h" alt="" coords="4239,102,4513,143"/>
+<area shape="rect" id="node19" href="$qSlicerSequencesModuleWidget_8h.html" title="Modules/Loadable/Sequences\l/qSlicerSequencesModuleWidget.h" alt="" coords="4538,102,4785,143"/>
+<area shape="rect" id="node20" href="$qSlicerWelcomeModuleWidget_8h.html" title="Modules/Loadable/SlicerWelcome\l/qSlicerWelcomeModuleWidget.h" alt="" coords="4809,102,5049,143"/>
+<area shape="rect" id="node21" href="$qSlicerSubjectHierarchyModuleWidget_8h.html" title="Modules/Loadable/Subject\lHierarchy/qSlicerSubjectHierarchy\lModuleWidget.h" alt="" coords="5074,95,5318,151"/>
+<area shape="rect" id="node22" href="$qSlicerTablesModuleWidget_8h.html" title="Modules/Loadable/Tables\l/qSlicerTablesModuleWidget.h" alt="" coords="5342,102,5559,143"/>
+<area shape="rect" id="node23" href="$qSlicerTerminologiesModuleWidget_8h.html" title="Modules/Loadable/Terminologies\l/qSlicerTerminologiesModuleWidget.h" alt="" coords="5584,102,5851,143"/>
+<area shape="rect" id="node24" href="$qSlicerTextsModuleWidget_8h.html" title="Modules/Loadable/Texts\l/qSlicerTextsModuleWidget.h" alt="" coords="5875,102,6085,143"/>
+<area shape="rect" id="node25" href="$qSlicerTransformsModuleWidget_8h.html" title="Modules/Loadable/Transforms\l/qSlicerTransformsModuleWidget.h" alt="" coords="6109,102,6357,143"/>
+<area shape="rect" id="node26" href="$qSlicerViewControllersModuleWidget_8h.html" title="Modules/Loadable/ViewControllers\l/qSlicerViewControllersModuleWidget.h" alt="" coords="6382,102,6661,143"/>
+<area shape="rect" id="node27" href="$qSlicerVolumeRenderingModuleWidget_8h.html" title="Modules/Loadable/VolumeRendering\l/Widgets/qSlicerVolumeRenderingModule\lWidget.h" alt="" coords="6685,95,6976,151"/>
+<area shape="rect" id="node28" href="$qSlicerVolumesModuleWidget_8h.html" title="Modules/Loadable/Volumes\l/qSlicerVolumesModuleWidget.h" alt="" coords="7000,102,7232,143"/>
+</map>

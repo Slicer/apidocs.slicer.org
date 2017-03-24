@@ -1,0 +1,22 @@
+<map id="Modules/Loadable/Markups/VTKWidgets/vtkSlicerROIRepresentation2D.h" name="Modules/Loadable/Markups/VTKWidgets/vtkSlicerROIRepresentation2D.h">
+<area shape="rect" id="node3" href="$vtkSlicerMarkupsWidgetRepresentation2D_8h.html" title="vtkSlicerMarkupsWidgetRepresentation2D.h" alt="" coords="1677,169,1986,196"/>
+<area shape="rect" id="node47" href="$vtkSlicerROIRepresentation3D_8h.html" title="vtkSlicerROIRepresentation3D.h" alt="" coords="2095,95,2325,121"/>
+<area shape="rect" id="node4" href="$vtkSlicerMarkupsWidgetRepresentation_8h.html" title="vtkSlicerMarkupsWidgetRepresentation.h" alt="" coords="1686,244,1977,271"/>
+<area shape="rect" id="node46" href="$vtkMRMLSliceNode_8h.html" title="vtkMRMLSliceNode.h" alt="" coords="1227,244,1387,271"/>
+<area shape="rect" id="node5" href="$vtkMRMLAbstractWidgetRepresentation_8h.html" title="vtkMRMLAbstractWidgetRepresentation.h" alt="" coords="277,557,572,584"/>
+<area shape="rect" id="node27" href="$vtkMRMLMarkupsDisplayNode_8h.html" title="vtkMRMLMarkupsDisplayNode.h" alt="" coords="1227,326,1460,353"/>
+<area shape="rect" id="node30" href="$vtkMRMLMarkupsNode_8h.html" title="vtkMRMLMarkupsNode.h" alt="" coords="1546,408,1730,435"/>
+<area shape="rect" id="node8" href="$vtkMRMLAbstractViewNode_8h.html" title="vtkMRMLAbstractViewNode.h" alt="" coords="1177,639,1393,666"/>
+<area shape="rect" id="node10" href="$vtkMRMLNode_8h.html" title="vtkMRMLNode.h" alt="" coords="1219,721,1348,748"/>
+<area shape="rect" id="node11" href="$vtkMRML_8h.html" title="vtkMRML.h" alt="" coords="1551,871,1645,897"/>
+<area shape="rect" id="node13" href="$vtkObserverManager_8h.html" title="vtkObserverManager.h" alt="" coords="1513,796,1683,823"/>
+<area shape="rect" id="node20" href="$vtkMRMLNodePropertyMacros_8h.html" title="vtkMRMLNodePropertyMacros.h" alt="" coords="333,796,564,823"/>
+<area shape="rect" id="node29" href="$vtkMRMLDisplayNode_8h.html" title="vtkMRMLDisplayNode.h" alt="" coords="665,639,843,666"/>
+<area shape="rect" id="node31" href="$vtkMRMLDisplayableNode_8h.html" title="vtkMRMLDisplayableNode.h" alt="" coords="1027,483,1233,509"/>
+<area shape="rect" id="node35" href="$vtkCurveGenerator_8h.html" title="vtkCurveGenerator.h" alt="" coords="1723,483,1881,509"/>
+<area shape="rect" id="node41" href="$vtkMRMLMeasurement_8h.html" title="vtkMRMLMeasurement.h" alt="" coords="1536,639,1721,666"/>
+<area shape="rect" id="node32" href="$vtkMRMLTransformableNode_8h.html" title="vtkMRMLTransformableNode.h" alt="" coords="1019,557,1241,584"/>
+<area shape="rect" id="node33" href="$vtkMRMLStorableNode_8h.html" title="vtkMRMLStorableNode.h" alt="" coords="969,639,1152,666"/>
+<area shape="rect" id="node42" href="$vtkCodedEntry_8h.html" title="vtkCodedEntry.h" alt="" coords="1707,796,1835,823"/>
+<area shape="rect" id="node48" href="$vtkSlicerMarkupsWidgetRepresentation3D_8h.html" title="vtkSlicerMarkupsWidgetRepresentation3D.h" alt="" coords="2010,169,2319,196"/>
+</map>

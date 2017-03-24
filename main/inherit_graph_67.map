@@ -1,0 +1,869 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="297,462,548,502"/>
+<area shape="rect" id="Node000001" href="$classqMRMLWidgetsPlugin.html" title=" " alt="" coords="648,5,811,31"/>
+<area shape="poly" id="edge106_Node000000_Node000001" title=" " alt="" coords="424,448,436,365,447,311,464,254,486,196,514,139,550,86,594,41,619,26,647,18,648,23,621,31,598,45,554,90,519,141,490,198,469,256,452,313,441,366,429,449"/>
+<area shape="rect" id="Node000154" href="$classqSlicerColorsModuleWidgetsPlugin.html" title=" " alt="" coords="625,55,833,95"/>
+<area shape="poly" id="edge107_Node000000_Node000154" title=" " alt="" coords="427,448,443,376,474,283,496,234,523,187,556,143,594,105,623,88,626,93,598,109,560,147,528,190,501,237,479,285,448,377,432,449"/>
+<area shape="rect" id="Node000321" href="$classqSlicerMarkupsModuleWidgetsPlugin.html" title=" " alt="" coords="618,119,841,159"/>
+<area shape="poly" id="edge108_Node000000_Node000321" title=" " alt="" coords="430,448,450,388,483,312,505,273,531,235,561,200,594,169,616,156,619,161,598,173,564,203,535,238,510,275,488,314,455,390,435,450"/>
+<area shape="rect" id="Node000323" href="$classqSlicerModelsWidgetsPlugin.html" title=" " alt="" coords="626,184,833,209"/>
+<area shape="poly" id="edge109_Node000000_Node000323" title=" " alt="" coords="433,448,456,397,490,334,536,272,564,244,595,220,625,205,627,210,597,224,567,248,540,275,495,337,461,399,438,450"/>
+<area shape="rect" id="Node000325" href="$classqSlicerPlotsModuleWidgetsPlugin.html" title=" " alt="" coords="630,234,829,274"/>
+<area shape="poly" id="edge110_Node000000_Node000325" title=" " alt="" coords="441,449,467,410,502,366,545,321,595,284,629,268,631,273,597,288,549,325,506,369,471,414,445,452"/>
+<area shape="rect" id="Node000326" href="$classqSlicerQTCLIPlugins.html" title=" " alt="" coords="654,299,805,324"/>
+<area shape="poly" id="edge111_Node000000_Node000326" title=" " alt="" coords="449,449,511,389,551,358,595,333,624,322,653,315,655,320,625,327,597,338,554,363,514,393,452,453"/>
+<area shape="rect" id="Node000327" href="$classqSlicerQTGUIPlugins.html" title=" " alt="" coords="652,348,807,373"/>
+<area shape="poly" id="edge112_Node000000_Node000327" title=" " alt="" coords="463,452,524,416,595,383,651,368,653,374,597,389,526,421,466,457"/>
+<area shape="rect" id="Node000339" href="$classqSlicerSegmentationsModuleWidgetsPlugin.html" title=" " alt="" coords="623,398,835,438"/>
+<area shape="poly" id="edge113_Node000000_Node000339" title=" " alt="" coords="532,457,632,435,634,441,533,462"/>
+<area shape="rect" id="Node000340" href="$classqSlicerSequenceBrowserModuleWidgetsPlugin.html" title=" " alt="" coords="614,462,845,502"/>
+<area shape="poly" id="edge114_Node000000_Node000340" title=" " alt="" coords="562,479,614,479,614,485,562,485"/>
+<area shape="rect" id="Node000366" href="$classqSlicerSubjectHierarchyModuleWidgetsPlugin.html" title=" " alt="" coords="617,526,842,566"/>
+<area shape="poly" id="edge115_Node000000_Node000366" title=" " alt="" coords="533,502,634,523,632,529,532,507"/>
+<area shape="rect" id="Node000369" href="$classqSlicerTablesModuleWidgetsPlugin.html" title=" " alt="" coords="625,590,833,630"/>
+<area shape="poly" id="edge116_Node000000_Node000369" title=" " alt="" coords="467,507,527,543,597,576,633,587,631,592,595,580,525,547,464,512"/>
+<area shape="rect" id="Node000370" href="$classqSlicerTerminologiesModuleWidgetsPlugin.html" title=" " alt="" coords="627,654,832,694"/>
+<area shape="poly" id="edge117_Node000000_Node000370" title=" " alt="" coords="450,511,513,577,553,611,597,640,628,653,625,658,595,644,550,615,509,581,446,515"/>
+<area shape="rect" id="Node000373" href="$classqSlicerTextModuleWidgetsPlugin.html" title=" " alt="" coords="632,718,827,758"/>
+<area shape="poly" id="edge118_Node000000_Node000373" title=" " alt="" coords="442,513,466,557,501,609,545,660,597,704,633,720,631,725,595,708,542,664,497,612,462,559,437,516"/>
+<area shape="rect" id="Node000374" href="$classqSlicerTransformsModuleWidgetsPlugin.html" title=" " alt="" coords="610,782,849,822"/>
+<area shape="poly" id="edge119_Node000000_Node000374" title=" " alt="" coords="437,514,458,570,491,639,538,709,566,741,598,768,618,780,615,784,594,772,562,744,534,712,487,642,453,572,432,516"/>
+<area shape="rect" id="Node000375" href="$classqSlicerUnitsModuleWidgetsPlugin.html" title=" " alt="" coords="629,846,830,886"/>
+<area shape="poly" id="edge120_Node000000_Node000375" title=" " alt="" coords="433,514,450,582,482,668,504,713,530,757,561,797,598,832,630,850,627,854,594,836,557,801,526,760,499,716,477,670,445,584,428,516"/>
+<area shape="rect" id="Node000376" href="$classqSlicerVolumeRenderingModuleWidgetsPlugin.html" title=" " alt="" coords="615,910,844,950"/>
+<area shape="poly" id="edge121_Node000000_Node000376" title=" " alt="" coords="430,515,444,594,473,697,495,752,523,805,557,854,598,896,616,908,613,913,594,900,553,857,518,807,490,754,468,699,439,595,425,516"/>
+<area shape="rect" id="Node000377" href="$classqSlicerVolumesModuleWidgetsPlugin.html" title=" " alt="" coords="618,974,841,1014"/>
+<area shape="poly" id="edge122_Node000000_Node000377" title=" " alt="" coords="428,515,438,605,449,663,465,725,487,789,515,852,552,910,598,960,619,974,616,979,594,964,548,913,511,854,482,791,460,727,444,664,433,606,423,516"/>
+<area shape="rect" id="Node000047" title=" " alt="" coords="5,4569,249,4595"/>
+<area shape="rect" id="Node000004" href="$classqMRMLWidgetsAbstractPlugin.html" title=" " alt="" coords="315,6780,531,6805"/>
+<area shape="poly" id="edge123_Node000047_Node000004" title=" " alt="" coords="135,4608,422,6779,417,6780,130,4609"/>
+<area shape="rect" id="Node000048" href="$classqSlicerColorsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="319,1110,527,1150"/>
+<area shape="poly" id="edge167_Node000047_Node000048" title=" " alt="" coords="126,4556,128,4037,135,3604,147,3110,167,2600,197,2113,216,1892,239,1693,265,1521,295,1381,318,1312,349,1246,405,1149,410,1152,354,1249,323,1314,300,1383,270,1522,244,1694,222,1893,202,2113,172,2600,152,3111,140,3604,134,4037,131,4556"/>
+<area shape="rect" id="Node000052" href="$classqSlicerMarkupsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="311,1394,534,1434"/>
+<area shape="poly" id="edge171_Node000047_Node000052" title=" " alt="" coords="127,4555,141,4016,175,3080,198,2586,226,2141,242,1952,258,1793,276,1671,295,1592,317,1544,345,1499,399,1433,403,1436,349,1503,321,1546,300,1594,281,1672,264,1794,247,1952,232,2141,204,2587,180,3080,147,4016,132,4555"/>
+<area shape="rect" id="Node000059" href="$classqSlicerModelsWidgetsAbstractPlugin.html" title=" " alt="" coords="313,1605,533,1645"/>
+<area shape="poly" id="edge178_Node000047_Node000059" title=" " alt="" coords="126,4555,129,4027,136,3594,148,3114,169,2634,182,2410,199,2205,218,2024,240,1873,266,1759,280,1717,295,1687,320,1661,351,1643,354,1647,324,1665,300,1690,285,1719,271,1760,245,1874,223,2024,204,2205,188,2411,174,2635,154,3114,141,3594,134,4027,131,4555"/>
+<area shape="rect" id="Node000061" href="$classqSlicerPlotsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="323,1701,522,1741"/>
+<area shape="poly" id="edge180_Node000047_Node000061" title=" " alt="" coords="126,4556,137,4055,149,3646,166,3192,188,2739,217,2331,234,2158,252,2014,272,1904,295,1833,313,1804,337,1778,386,1739,389,1743,340,1782,318,1807,300,1835,278,1905,257,2015,239,2159,222,2331,193,2739,171,3193,154,3646,142,4055,132,4556"/>
+<area shape="rect" id="Node000064" href="$classqSlicerQTCLIAbstractPlugin.html" title=" " alt="" coords="324,1847,521,1872"/>
+<area shape="poly" id="edge183_Node000047_Node000064" title=" " alt="" coords="126,4555,134,4070,145,3676,160,3240,182,2805,211,2414,228,2249,248,2112,270,2007,282,1969,295,1941,314,1917,337,1897,386,1870,388,1874,340,1901,317,1920,300,1943,287,1971,275,2009,253,2113,234,2250,216,2415,187,2805,165,3240,150,3677,140,4070,132,4556"/>
+<area shape="rect" id="Node000066" href="$classqSlicerQTGUIAbstractPlugin.html" title=" " alt="" coords="321,1955,524,1980"/>
+<area shape="poly" id="edge185_Node000047_Node000066" title=" " alt="" coords="127,4555,143,4177,178,3527,202,3171,229,2833,260,2540,277,2420,295,2321,322,2216,357,2116,413,1979,418,1982,362,2118,328,2218,300,2323,282,2420,266,2541,235,2833,207,3172,184,3527,149,4178,132,4556"/>
+<area shape="rect" id="Node000072" href="$classqSlicerSegmentationsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="317,2334,529,2374"/>
+<area shape="poly" id="edge191_Node000047_Node000072" title=" " alt="" coords="126,4555,128,4298,135,4088,147,3840,168,3565,198,3274,239,2980,265,2834,295,2692,321,2596,354,2505,409,2373,414,2375,359,2507,326,2598,300,2693,271,2835,245,2980,203,3275,173,3566,153,3841,140,4089,134,4298,131,4556"/>
+<area shape="rect" id="Node000081" href="$classqSlicerSequencesModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="304,2705,541,2745"/>
+<area shape="poly" id="edge200_Node000047_Node000081" title=" " alt="" coords="130,4555,416,2744,421,2745,135,4556"/>
+<area shape="rect" id="Node000086" href="$classqSlicerSubjectHierarchyModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="310,4562,535,4602"/>
+<area shape="poly" id="edge205_Node000047_Node000086" title=" " alt="" coords="263,4579,310,4579,310,4585,263,4585"/>
+<area shape="rect" id="Node000089" href="$classqSlicerTablesModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="319,4633,527,4673"/>
+<area shape="poly" id="edge208_Node000047_Node000089" title=" " alt="" coords="195,4595,339,4630,337,4635,194,4601"/>
+<area shape="rect" id="Node000091" href="$classqSlicerTerminologiesModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="320,4709,525,4749"/>
+<area shape="poly" id="edge210_Node000047_Node000091" title=" " alt="" coords="159,4600,222,4640,298,4682,358,4706,356,4711,296,4687,219,4645,156,4604"/>
+<area shape="rect" id="Node000093" href="$classqSlicerTextsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="322,4798,523,4838"/>
+<area shape="poly" id="edge212_Node000047_Node000093" title=" " alt="" coords="148,4604,210,4678,253,4720,299,4758,333,4779,368,4796,365,4800,330,4784,296,4763,249,4724,206,4682,144,4607"/>
+<area shape="rect" id="Node000095" href="$classqSlicerTransformsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="303,4865,542,4905"/>
+<area shape="poly" id="edge214_Node000047_Node000095" title=" " alt="" coords="140,4607,161,4658,195,4723,241,4791,268,4821,299,4848,324,4862,321,4867,296,4852,265,4825,236,4794,190,4726,156,4660,135,4609"/>
+<area shape="rect" id="Node000098" href="$classqSlicerUnitsModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="322,4957,523,4997"/>
+<area shape="poly" id="edge217_Node000047_Node000098" title=" " alt="" coords="138,4607,157,4668,190,4749,237,4837,266,4878,299,4915,329,4937,361,4954,359,4959,326,4942,296,4919,262,4881,233,4839,185,4752,152,4670,133,4609"/>
+<area shape="rect" id="Node000100" href="$classqSlicerVolumeRenderingModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="308,5107,537,5147"/>
+<area shape="poly" id="edge219_Node000047_Node000100" title=" " alt="" coords="137,4607,157,4680,191,4782,238,4897,267,4954,300,5007,322,5036,347,5063,396,5105,393,5109,344,5067,318,5040,295,5010,262,4956,233,4899,186,4784,152,4682,132,4609"/>
+<area shape="rect" id="Node000105" href="$classqSlicerVolumesModuleWidgetsAbstractPlugin.html" title=" " alt="" coords="311,5414,534,5454"/>
+<area shape="poly" id="edge224_Node000047_Node000105" title=" " alt="" coords="137,4607,197,4836,245,4996,300,5158,362,5305,413,5413,409,5415,357,5307,295,5160,240,4998,192,4837,132,4609"/>
+<area shape="rect" id="Node000003" href="$classqMRMLCaptureToolBarPlugin.html" title=" " alt="" coords="625,5671,834,5696"/>
+<area shape="poly" id="edge124_Node000004_Node000003" title=" " alt="" coords="422,6766,428,6559,437,6406,451,6239,473,6072,503,5918,521,5851,543,5792,567,5743,594,5707,623,5688,626,5692,598,5711,571,5746,547,5794,526,5853,508,5920,478,6073,456,6240,442,6407,433,6559,427,6766"/>
+<area shape="rect" id="Node000005" href="$classqMRMLCheckableNodeComboBoxPlugin.html" title=" " alt="" coords="608,5721,851,5761"/>
+<area shape="poly" id="edge125_Node000004_Node000005" title=" " alt="" coords="422,6766,431,6571,441,6428,457,6271,479,6115,508,5970,526,5907,546,5852,569,5806,594,5771,608,5759,612,5763,598,5774,573,5808,551,5854,531,5909,513,5972,484,6115,462,6272,446,6428,436,6571,427,6766"/>
+<area shape="rect" id="Node000006" href="$classqMRMLClipNodeDisplayWidgetPlugin.html" title=" " alt="" coords="617,5785,841,5825"/>
+<area shape="poly" id="edge126_Node000004_Node000006" title=" " alt="" coords="422,6766,433,6581,445,6447,461,6302,483,6156,512,6022,530,5963,549,5911,570,5869,594,5836,616,5820,619,5824,598,5840,575,5871,554,5913,535,5965,517,6023,489,6157,466,6302,450,6448,438,6582,428,6766"/>
+<area shape="rect" id="Node000007" href="$classqMRMLClipNodeWidgetPlugin.html" title=" " alt="" coords="622,5849,837,5875"/>
+<area shape="poly" id="edge127_Node000004_Node000007" title=" " alt="" coords="423,6766,434,6589,446,6462,462,6323,485,6185,513,6059,531,6004,550,5955,571,5915,594,5885,620,5868,623,5872,598,5889,575,5918,554,5958,536,6005,519,6060,490,6186,467,6324,451,6462,439,6589,428,6766"/>
+<area shape="rect" id="Node000008" href="$classqMRMLCollapsibleButtonPlugin.html" title=" " alt="" coords="617,5899,842,5924"/>
+<area shape="poly" id="edge128_Node000004_Node000008" title=" " alt="" coords="423,6766,436,6598,448,6477,465,6347,488,6217,516,6098,533,6046,552,6000,572,5963,594,5935,615,5920,618,5924,598,5939,576,5966,556,6003,538,6048,522,6100,493,6218,471,6348,453,6478,441,6598,428,6766"/>
+<area shape="rect" id="Node000009" href="$classqMRMLColorTableComboBoxPlugin.html" title=" " alt="" coords="605,5948,854,5973"/>
+<area shape="poly" id="edge129_Node000004_Node000009" title=" " alt="" coords="423,6766,437,6606,468,6370,491,6248,519,6137,554,6046,573,6011,594,5984,611,5971,614,5976,598,5988,577,6013,558,6048,525,6139,496,6250,474,6371,443,6607,428,6766"/>
+<area shape="rect" id="Node000010" href="$classqMRMLCoordinatesWidgetPlugin.html" title=" " alt="" coords="612,5997,847,6023"/>
+<area shape="poly" id="edge130_Node000004_Node000010" title=" " alt="" coords="424,6766,439,6616,472,6395,495,6280,522,6176,555,6091,574,6058,594,6033,611,6021,614,6025,598,6037,578,6061,560,6093,528,6178,500,6282,477,6395,445,6616,429,6767"/>
+<area shape="rect" id="Node000011" href="$classqMRMLDisplayNodeViewComboBoxPlugin.html" title=" " alt="" coords="614,6047,845,6087"/>
+<area shape="poly" id="edge131_Node000004_Node000011" title=" " alt="" coords="424,6766,443,6627,477,6427,501,6323,528,6229,559,6152,576,6122,594,6099,612,6085,616,6089,598,6103,580,6125,564,6154,533,6231,506,6325,483,6428,448,6628,430,6767"/>
+<area shape="rect" id="Node000012" href="$classqMRMLDisplayNodeWidgetPlugin.html" title=" " alt="" coords="610,6112,849,6137"/>
+<area shape="poly" id="edge132_Node000004_Node000012" title=" " alt="" coords="425,6766,444,6636,479,6449,503,6354,530,6267,560,6196,577,6169,594,6148,612,6135,615,6140,598,6152,581,6172,565,6198,535,6269,508,6355,484,6450,449,6637,430,6767"/>
+<area shape="rect" id="Node000013" href="$classqMRMLEventBrokerWidgetPlugin.html" title=" " alt="" coords="612,6161,847,6187"/>
+<area shape="poly" id="edge133_Node000004_Node000013" title=" " alt="" coords="425,6766,446,6645,483,6473,506,6386,533,6306,562,6241,578,6216,594,6197,613,6184,616,6189,598,6201,582,6219,567,6244,538,6308,511,6387,488,6474,451,6646,431,6767"/>
+<area shape="rect" id="Node000014" href="$classqMRMLExpandingWebViewPlugin.html" title=" " alt="" coords="610,6211,849,6236"/>
+<area shape="poly" id="edge134_Node000004_Node000014" title=" " alt="" coords="421,6766,426,6668,434,6601,448,6527,469,6451,500,6376,541,6306,566,6275,594,6247,613,6234,616,6238,598,6251,570,6279,545,6309,504,6378,474,6452,453,6528,439,6601,431,6668,426,6766"/>
+<area shape="rect" id="Node000015" href="$classqMRMLLabelComboBoxPlugin.html" title=" " alt="" coords="621,6260,837,6285"/>
+<area shape="poly" id="edge135_Node000004_Node000015" title=" " alt="" coords="422,6766,429,6676,439,6615,454,6548,476,6479,505,6412,545,6350,594,6296,620,6280,622,6285,598,6300,549,6353,510,6414,481,6481,459,6549,444,6616,435,6676,427,6767"/>
+<area shape="rect" id="Node000016" href="$classqMRMLLayoutWidgetPlugin.html" title=" " alt="" coords="629,6309,829,6335"/>
+<area shape="poly" id="edge136_Node000004_Node000016" title=" " alt="" coords="423,6766,433,6684,444,6629,460,6569,482,6508,511,6448,548,6393,594,6345,628,6327,630,6332,598,6349,552,6396,516,6451,487,6510,465,6571,450,6630,439,6685,428,6767"/>
+<area shape="rect" id="Node000017" href="$classqMRMLLinearTransformSliderPlugin.html" title=" " alt="" coords="623,6359,835,6399"/>
+<area shape="poly" id="edge137_Node000004_Node000017" title=" " alt="" coords="425,6766,440,6695,471,6599,493,6548,521,6497,554,6451,594,6411,621,6394,624,6399,598,6415,558,6454,525,6500,498,6550,476,6601,446,6696,430,6767"/>
+<area shape="rect" id="Node000018" href="$classqMRMLListWidgetPlugin.html" title=" " alt="" coords="640,6424,819,6449"/>
+<area shape="poly" id="edge138_Node000004_Node000018" title=" " alt="" coords="427,6766,444,6703,476,6619,498,6575,525,6532,557,6493,594,6460,616,6448,639,6440,641,6445,618,6452,598,6464,561,6497,530,6536,503,6578,481,6621,449,6704,432,6767"/>
+<area shape="rect" id="Node000019" href="$classqMRMLMatrixWidgetPlugin.html" title=" " alt="" coords="630,6473,829,6499"/>
+<area shape="poly" id="edge139_Node000004_Node000019" title=" " alt="" coords="429,6766,449,6712,483,6641,505,6605,531,6569,561,6537,595,6509,629,6493,631,6498,597,6514,565,6541,535,6573,510,6608,488,6644,454,6714,434,6768"/>
+<area shape="rect" id="Node000020" href="$classqMRMLModelInfoWidgetPlugin.html" title=" " alt="" coords="619,6523,840,6548"/>
+<area shape="poly" id="edge140_Node000004_Node000020" title=" " alt="" coords="433,6766,456,6720,491,6663,538,6606,565,6580,595,6558,621,6546,624,6550,597,6563,568,6584,541,6610,496,6666,461,6722,438,6768"/>
+<area shape="rect" id="Node000021" href="$classqMRMLNavigationViewPlugin.html" title=" " alt="" coords="623,6572,836,6597"/>
+<area shape="poly" id="edge141_Node000004_Node000021" title=" " alt="" coords="437,6767,463,6731,499,6687,543,6644,595,6608,625,6595,627,6600,597,6612,547,6648,503,6691,467,6734,441,6770"/>
+<area shape="rect" id="Node000022" href="$classqMRMLNodeAttributeTableViewPlugin.html" title=" " alt="" coords="616,6622,843,6662"/>
+<area shape="poly" id="edge142_Node000004_Node000022" title=" " alt="" coords="447,6769,512,6720,552,6694,595,6672,627,6660,629,6665,597,6676,555,6698,515,6724,451,6773"/>
+<area shape="rect" id="Node000023" href="$classqMRMLNodeAttributeTableWidgetPlugin.html" title=" " alt="" coords="609,6686,850,6726"/>
+<area shape="poly" id="edge143_Node000004_Node000023" title=" " alt="" coords="475,6773,595,6737,645,6723,646,6729,597,6742,476,6778"/>
+<area shape="rect" id="Node000024" href="$classqMRMLNodeComboBoxPlugin.html" title=" " alt="" coords="622,6751,837,6776"/>
+<area shape="poly" id="edge144_Node000004_Node000024" title=" " alt="" coords="544,6778,621,6771,622,6776,545,6784"/>
+<area shape="rect" id="Node000025" href="$classqMRMLPlotViewControllerWidgetPlugin.html" title=" " alt="" coords="611,6801,848,6841"/>
+<area shape="poly" id="edge145_Node000004_Node000025" title=" " alt="" coords="544,6801,611,6807,610,6813,544,6806"/>
+<area shape="rect" id="Node000026" href="$classqMRMLPlotWidgetPlugin.html" title=" " alt="" coords="639,6865,820,6891"/>
+<area shape="poly" id="edge146_Node000004_Node000026" title=" " alt="" coords="470,6808,530,6829,597,6850,652,6863,651,6868,595,6855,528,6834,468,6813"/>
+<area shape="rect" id="Node000027" href="$classqMRMLROIWidgetPlugin.html" title=" " alt="" coords="640,6915,819,6940"/>
+<area shape="poly" id="edge147_Node000004_Node000027" title=" " alt="" coords="452,6812,516,6858,555,6881,597,6901,640,6914,639,6919,595,6906,553,6886,513,6862,449,6816"/>
+<area shape="rect" id="Node000028" href="$classqMRMLRangeWidgetPlugin.html" title=" " alt="" coords="631,6964,828,6989"/>
+<area shape="poly" id="edge148_Node000004_Node000028" title=" " alt="" coords="444,6815,507,6884,549,6920,597,6950,631,6963,629,6968,595,6955,546,6925,503,6887,440,6818"/>
+<area shape="rect" id="Node000029" href="$classqMRMLScalarInvariantComboBoxPlugin.html" title=" " alt="" coords="622,7014,837,7054"/>
+<area shape="poly" id="edge149_Node000004_Node000029" title=" " alt="" coords="439,6816,464,6857,500,6907,545,6957,597,7000,623,7012,621,7017,595,7004,541,6961,495,6910,460,6860,435,6819"/>
+<area shape="rect" id="Node000030" href="$classqMRMLScalarsDisplayWidgetPlugin.html" title=" " alt="" coords="623,7078,835,7118"/>
+<area shape="poly" id="edge150_Node000004_Node000030" title=" " alt="" coords="435,6817,456,6870,490,6937,537,7006,566,7037,598,7064,624,7078,622,7083,594,7068,562,7041,533,7009,485,6940,451,6872,430,6819"/>
+<area shape="rect" id="Node000031" href="$classqMRMLSceneFactoryWidgetPlugin.html" title=" " alt="" coords="608,7143,851,7168"/>
+<area shape="poly" id="edge151_Node000004_Node000031" title=" " alt="" coords="432,6818,449,6883,480,6968,502,7012,529,7055,561,7094,598,7128,619,7140,617,7145,594,7132,557,7098,525,7058,498,7015,475,6970,444,6884,427,6820"/>
+<area shape="rect" id="Node000032" href="$classqMRMLSliceControllerWidgetPlugin.html" title=" " alt="" coords="624,7193,835,7233"/>
+<area shape="poly" id="edge152_Node000004_Node000032" title=" " alt="" coords="430,6818,445,6891,474,6988,496,7041,524,7091,558,7138,598,7179,625,7195,622,7199,594,7183,554,7142,520,7094,492,7043,469,6990,439,6892,425,6819"/>
+<area shape="rect" id="Node000033" href="$classqMRMLSliceInformationWidgetPlugin.html" title=" " alt="" coords="618,7257,841,7297"/>
+<area shape="poly" id="edge153_Node000004_Node000033" title=" " alt="" coords="428,6819,439,6901,450,6956,466,7016,488,7078,517,7138,553,7194,598,7243,619,7257,616,7261,594,7247,549,7198,512,7141,483,7080,461,7018,445,6957,434,6902,423,6819"/>
+<area shape="rect" id="Node000034" href="$classqMRMLSliceVerticalControllerWidgetPlugin.html" title=" " alt="" coords="622,7321,837,7361"/>
+<area shape="poly" id="edge154_Node000004_Node000034" title=" " alt="" coords="427,6819,434,6912,443,6975,458,7044,480,7115,509,7185,548,7250,572,7280,598,7307,623,7323,620,7328,594,7311,568,7283,544,7253,505,7188,475,7117,453,7045,438,6976,429,6912,422,6819"/>
+<area shape="rect" id="Node000035" href="$classqMRMLSliceWidgetPlugin.html" title=" " alt="" coords="636,7385,823,7411"/>
+<area shape="poly" id="edge155_Node000004_Node000035" title=" " alt="" coords="426,6819,428,6923,435,6995,448,7073,469,7154,500,7234,542,7307,568,7341,598,7371,616,7383,637,7391,635,7396,613,7388,594,7375,564,7344,538,7310,495,7236,464,7156,443,7074,430,6995,423,6924,420,6820"/>
+<area shape="rect" id="Node000036" href="$classqMRMLSliderWidgetPlugin.html" title=" " alt="" coords="633,7435,826,7460"/>
+<area shape="poly" id="edge156_Node000004_Node000036" title=" " alt="" coords="430,6819,450,6947,485,7130,508,7223,535,7307,565,7376,581,7402,598,7421,614,7433,633,7441,631,7446,612,7438,594,7425,577,7405,560,7379,530,7309,503,7224,480,7131,444,6948,425,6820"/>
+<area shape="rect" id="Node000037" href="$classqMRMLSpinBoxPlugin.html" title=" " alt="" coords="648,7484,811,7509"/>
+<area shape="poly" id="edge157_Node000004_Node000037" title=" " alt="" coords="430,6819,448,6956,482,7154,505,7255,532,7347,563,7422,580,7450,598,7471,621,7486,649,7494,647,7499,619,7491,594,7475,576,7453,558,7424,527,7348,500,7256,477,7155,442,6957,424,6820"/>
+<area shape="rect" id="Node000038" href="$classqMRMLTableViewPlugin.html" title=" " alt="" coords="642,7533,817,7559"/>
+<area shape="poly" id="edge158_Node000004_Node000038" title=" " alt="" coords="429,6819,445,6964,478,7177,501,7286,529,7386,561,7467,579,7497,598,7520,618,7534,643,7542,641,7547,616,7539,594,7524,575,7500,556,7469,524,7387,496,7287,473,7178,440,6965,424,6819"/>
+<area shape="rect" id="Node000039" href="$classqMRMLThreeDViewInformationWidgetPlugin.html" title=" " alt="" coords="617,7583,841,7623"/>
+<area shape="poly" id="edge159_Node000004_Node000039" title=" " alt="" coords="429,6819,444,6973,477,7199,500,7316,527,7423,560,7511,578,7544,598,7569,618,7585,615,7589,594,7573,574,7547,555,7513,522,7425,495,7318,472,7200,439,6973,423,6819"/>
+<area shape="rect" id="Node000040" href="$classqMRMLThreeDViewPlugin.html" title=" " alt="" coords="635,7648,823,7673"/>
+<area shape="poly" id="edge160_Node000004_Node000040" title=" " alt="" coords="428,6819,441,6985,454,7103,471,7231,494,7359,522,7475,557,7570,577,7607,598,7633,615,7646,636,7655,634,7660,613,7651,594,7637,572,7609,552,7573,517,7477,489,7360,466,7232,449,7104,436,6985,423,6819"/>
+<area shape="rect" id="Node000041" href="$classqMRMLTransformSlidersPlugin.html" title=" " alt="" coords="620,7697,839,7723"/>
+<area shape="poly" id="edge161_Node000004_Node000041" title=" " alt="" coords="428,6819,439,6993,451,7119,468,7255,490,7391,519,7516,536,7570,555,7617,575,7655,598,7684,621,7700,618,7704,594,7688,571,7658,550,7619,531,7572,514,7517,485,7392,463,7256,446,7120,434,6994,423,6819"/>
+<area shape="rect" id="Node000042" href="$classqMRMLTreeViewPlugin.html" title=" " alt="" coords="645,7747,813,7772"/>
+<area shape="poly" id="edge162_Node000004_Node000042" title=" " alt="" coords="428,6819,438,7002,449,7135,465,7279,487,7423,516,7555,533,7612,553,7662,574,7703,598,7733,620,7749,646,7757,644,7762,618,7753,594,7737,570,7706,548,7664,528,7614,511,7556,482,7424,460,7280,443,7135,432,7003,422,6819"/>
+<area shape="rect" id="Node000043" href="$classqMRMLVolumeInfoWidgetPlugin.html" title=" " alt="" coords="615,7796,844,7821"/>
+<area shape="poly" id="edge163_Node000004_Node000043" title=" " alt="" coords="427,6819,436,7010,446,7149,462,7302,484,7454,513,7593,531,7654,551,7707,573,7751,598,7783,616,7796,613,7800,594,7787,569,7753,546,7709,526,7656,508,7595,478,7455,456,7302,441,7150,431,7010,422,6819"/>
+<area shape="rect" id="Node000044" href="$classqMRMLVolumeThresholdWidgetPlugin.html" title=" " alt="" coords="615,7846,843,7886"/>
+<area shape="poly" id="edge164_Node000004_Node000044" title=" " alt="" coords="427,6819,435,7018,445,7164,461,7324,482,7483,512,7630,530,7695,550,7751,573,7797,598,7832,617,7847,614,7851,594,7836,568,7800,545,7753,525,7697,507,7632,477,7484,455,7324,440,7164,430,7018,422,6819"/>
+<area shape="rect" id="Node000045" href="$classqMRMLWidgetPlugin.html" title=" " alt="" coords="652,7911,807,7936"/>
+<area shape="poly" id="edge165_Node000004_Node000045" title=" " alt="" coords="427,6819,432,7029,441,7185,455,7355,476,7526,506,7682,525,7751,547,7811,571,7860,598,7896,623,7913,653,7922,651,7927,621,7918,594,7900,566,7862,542,7813,520,7752,501,7683,471,7526,450,7355,436,7185,427,7029,421,6819"/>
+<area shape="rect" id="Node000046" href="$classqMRMLWindowLevelWidgetPlugin.html" title=" " alt="" coords="608,7960,851,7985"/>
+<area shape="poly" id="edge166_Node000004_Node000046" title=" " alt="" coords="427,6819,431,7038,438,7201,452,7379,473,7558,503,7723,522,7795,544,7857,570,7909,598,7947,612,7958,608,7962,594,7951,565,7911,539,7859,517,7796,498,7724,467,7559,446,7380,433,7201,425,7038,421,6819"/>
+<area shape="rect" id="Node000049" href="$classqMRMLColorLegendDisplayNodeWidgetPlugin.html" title=" " alt="" coords="612,1138,847,1178"/>
+<area shape="poly" id="edge168_Node000048_Node000049" title=" " alt="" coords="541,1138,612,1145,611,1150,540,1143"/>
+<area shape="rect" id="Node000050" href="$classqMRMLColorListViewPlugin.html" title=" " alt="" coords="630,1039,829,1064"/>
+<area shape="poly" id="edge169_Node000048_Node000050" title=" " alt="" coords="493,1103,595,1073,648,1061,649,1067,597,1078,494,1108"/>
+<area shape="rect" id="Node000051" href="$classqMRMLColorTableViewPlugin.html" title=" " alt="" coords="624,1088,835,1113"/>
+<area shape="poly" id="edge170_Node000048_Node000051" title=" " alt="" coords="540,1116,623,1108,624,1113,540,1121"/>
+<area shape="rect" id="Node000053" href="$classqMRMLMarkupsDisplayNodeWidgetPlugin.html" title=" " alt="" coords="602,1330,857,1370"/>
+<area shape="poly" id="edge172_Node000052_Node000053" title=" " alt="" coords="532,1389,632,1367,634,1373,533,1394"/>
+<area shape="rect" id="Node000054" href="$classqMRMLMarkupsFiducialProjectionPropertyWidgetPlugin.html" title=" " alt="" coords="609,1394,849,1434"/>
+<area shape="poly" id="edge173_Node000052_Node000054" title=" " alt="" coords="548,1411,609,1411,609,1417,548,1417"/>
+<area shape="rect" id="Node000055" href="$classqMRMLMarkupsInteractionHandleWidgetPlugin.html" title=" " alt="" coords="609,1458,850,1498"/>
+<area shape="poly" id="edge174_Node000052_Node000055" title=" " alt="" coords="533,1434,634,1455,632,1461,532,1439"/>
+<area shape="rect" id="Node000056" href="$classqMRMLMarkupsROIWidgetPlugin.html" title=" " alt="" coords="612,1523,847,1548"/>
+<area shape="poly" id="edge175_Node000052_Node000056" title=" " alt="" coords="466,1439,526,1475,597,1507,641,1520,640,1525,595,1513,524,1480,463,1444"/>
+<area shape="rect" id="Node000057" href="$classqSlicerMarkupsPlaceWidgetPlugin.html" title=" " alt="" coords="628,1202,831,1242"/>
+<area shape="poly" id="edge176_Node000052_Node000057" title=" " alt="" coords="446,1381,509,1315,550,1281,595,1252,627,1238,629,1243,597,1256,553,1285,513,1319,450,1385"/>
+<area shape="rect" id="Node000058" href="$classqSlicerSimpleMarkupsWidgetPlugin.html" title=" " alt="" coords="623,1266,835,1306"/>
+<area shape="poly" id="edge177_Node000052_Node000058" title=" " alt="" coords="464,1384,525,1349,595,1316,631,1304,633,1309,597,1320,527,1353,467,1389"/>
+<area shape="rect" id="Node000060" href="$classqMRMLModelDisplayNodeWidgetPlugin.html" title=" " alt="" coords="610,1573,849,1613"/>
+<area shape="poly" id="edge179_Node000059_Node000060" title=" " alt="" coords="546,1609,609,1602,610,1608,547,1614"/>
+<area shape="rect" id="Node000062" href="$classqMRMLPlotChartPropertiesWidgetPlugin.html" title=" " alt="" coords="631,1637,827,1677"/>
+<area shape="poly" id="edge181_Node000061_Node000062" title=" " alt="" coords="532,1695,632,1674,634,1679,533,1700"/>
+<area shape="rect" id="Node000063" href="$classqMRMLPlotSeriesPropertiesWidgetPlugin.html" title=" " alt="" coords="629,1701,830,1741"/>
+<area shape="poly" id="edge182_Node000061_Node000063" title=" " alt="" coords="536,1718,628,1718,628,1723,536,1723"/>
+<area shape="rect" id="Node000065" href="$classqSlicerCLIProgressBarPlugin.html" title=" " alt="" coords="627,1765,831,1791"/>
+<area shape="poly" id="edge184_Node000064_Node000065" title=" " alt="" coords="471,1839,595,1801,652,1788,654,1793,597,1806,473,1844"/>
+<area shape="rect" id="Node000067" href="$classqSlicerDirectoryListViewPlugin.html" title=" " alt="" coords="639,1815,820,1855"/>
+<area shape="poly" id="edge186_Node000066_Node000067" title=" " alt="" coords="452,1944,516,1904,595,1865,638,1851,639,1856,597,1870,519,1909,455,1949"/>
+<area shape="rect" id="Node000068" href="$classqSlicerModulePanelPlugin.html" title=" " alt="" coords="635,1880,824,1905"/>
+<area shape="poly" id="edge187_Node000066_Node000068" title=" " alt="" coords="475,1948,595,1914,650,1903,651,1908,597,1919,477,1953"/>
+<area shape="rect" id="Node000069" href="$classqSlicerModulesListViewPlugin.html" title=" " alt="" coords="621,1929,837,1955"/>
+<area shape="poly" id="edge188_Node000066_Node000069" title=" " alt="" coords="538,1955,621,1948,621,1954,538,1960"/>
+<area shape="rect" id="Node000070" href="$classqSlicerMouseModeToolBarPlugin.html" title=" " alt="" coords="613,1979,846,2004"/>
+<area shape="poly" id="edge189_Node000066_Node000070" title=" " alt="" coords="538,1974,613,1980,612,1985,538,1979"/>
+<area shape="rect" id="Node000071" href="$classqSlicerWidgetPlugin.html" title=" " alt="" coords="653,2028,805,2053"/>
+<area shape="poly" id="edge190_Node000066_Node000071" title=" " alt="" coords="479,1981,597,2013,657,2025,656,2031,595,2018,478,1986"/>
+<area shape="rect" id="Node000073" href="$classqMRMLSegmentEditorWidgetPlugin.html" title=" " alt="" coords="623,2078,835,2118"/>
+<area shape="poly" id="edge192_Node000072_Node000073" title=" " alt="" coords="437,2320,462,2277,497,2224,542,2172,595,2128,622,2114,624,2119,597,2132,545,2176,501,2227,466,2279,442,2323"/>
+<area shape="rect" id="Node000074" href="$classqMRMLSegmentSelectorWidgetPlugin.html" title=" " alt="" coords="616,2142,843,2182"/>
+<area shape="poly" id="edge193_Node000072_Node000074" title=" " alt="" coords="446,2321,509,2255,550,2221,595,2192,622,2180,624,2185,597,2196,553,2225,513,2259,450,2325"/>
+<area shape="rect" id="Node000075" href="$classqMRMLSegmentationConversionParametersWidgetPlugin.html" title=" " alt="" coords="612,2206,847,2246"/>
+<area shape="poly" id="edge194_Node000072_Node000075" title=" " alt="" coords="464,2324,525,2289,595,2256,631,2244,633,2249,597,2260,527,2293,467,2329"/>
+<area shape="rect" id="Node000076" href="$classqMRMLSegmentationDisplayNodeWidgetPlugin.html" title=" " alt="" coords="624,2270,835,2310"/>
+<area shape="poly" id="edge195_Node000072_Node000076" title=" " alt="" coords="532,2329,632,2307,634,2313,533,2334"/>
+<area shape="rect" id="Node000077" href="$classqMRMLSegmentationFileExportWidgetPlugin.html" title=" " alt="" coords="616,2334,843,2374"/>
+<area shape="poly" id="edge196_Node000072_Node000077" title=" " alt="" coords="543,2351,616,2351,616,2357,543,2357"/>
+<area shape="rect" id="Node000078" href="$classqMRMLSegmentationRepresentationsListViewPlugin.html" title=" " alt="" coords="596,2398,863,2438"/>
+<area shape="poly" id="edge197_Node000072_Node000078" title=" " alt="" coords="533,2374,634,2395,632,2401,532,2379"/>
+<area shape="rect" id="Node000079" href="$classqMRMLSegmentationShow3DButtonPlugin.html" title=" " alt="" coords="601,2462,858,2502"/>
+<area shape="poly" id="edge198_Node000072_Node000079" title=" " alt="" coords="467,2379,527,2415,597,2448,633,2459,631,2464,595,2452,525,2419,464,2384"/>
+<area shape="rect" id="Node000080" href="$classqMRMLSegmentsTableViewPlugin.html" title=" " alt="" coords="609,2527,850,2552"/>
+<area shape="poly" id="edge199_Node000072_Node000080" title=" " alt="" coords="450,2383,512,2450,553,2484,597,2512,630,2524,628,2529,595,2516,549,2488,508,2454,446,2387"/>
+<area shape="rect" id="Node000082" href="$classqMRMLSequenceBrowserPlayWidgetPlugin.html" title=" " alt="" coords="622,2577,837,2617"/>
+<area shape="poly" id="edge201_Node000081_Node000082" title=" " alt="" coords="464,2695,525,2659,595,2626,631,2614,633,2619,597,2631,527,2664,467,2699"/>
+<area shape="rect" id="Node000083" href="$classqMRMLSequenceBrowserSeekWidgetPlugin.html" title=" " alt="" coords="620,2641,839,2681"/>
+<area shape="poly" id="edge202_Node000081_Node000083" title=" " alt="" coords="532,2699,632,2678,634,2683,533,2704"/>
+<area shape="rect" id="Node000084" href="$classqMRMLSequenceBrowserToolBarPlugin.html" title=" " alt="" coords="623,2705,835,2745"/>
+<area shape="poly" id="edge203_Node000081_Node000084" title=" " alt="" coords="555,2722,623,2722,623,2727,555,2727"/>
+<area shape="rect" id="Node000085" href="$classqMRMLSequenceEditWidgetPlugin.html" title=" " alt="" coords="607,2769,851,2795"/>
+<area shape="poly" id="edge204_Node000081_Node000085" title=" " alt="" coords="544,2745,661,2767,660,2772,543,2750"/>
+<area shape="rect" id="Node000087" href="$classqMRMLSubjectHierarchyComboBoxPlugin.html" title=" " alt="" coords="616,4622,843,4662"/>
+<area shape="poly" id="edge206_Node000086_Node000087" title=" " alt="" coords="539,4602,627,4619,626,4625,538,4607"/>
+<area shape="rect" id="Node000088" href="$classqMRMLSubjectHierarchyTreeViewPlugin.html" title=" " alt="" coords="625,4558,833,4598"/>
+<area shape="poly" id="edge207_Node000086_Node000088" title=" " alt="" coords="549,4578,625,4577,625,4582,549,4583"/>
+<area shape="rect" id="Node000090" href="$classqSlicerTableColumnPropertiesWidgetPlugin.html" title=" " alt="" coords="621,4686,837,4726"/>
+<area shape="poly" id="edge209_Node000089_Node000090" title=" " alt="" coords="541,4670,621,4685,621,4690,540,4676"/>
+<area shape="rect" id="Node000092" href="$classqSlicerTerminologyNavigatorWidgetPlugin.html" title=" " alt="" coords="624,4750,835,4790"/>
+<area shape="poly" id="edge211_Node000091_Node000092" title=" " alt="" coords="540,4742,624,4753,623,4758,539,4747"/>
+<area shape="rect" id="Node000094" href="$classqMRMLTextWidgetPlugin.html" title=" " alt="" coords="638,4815,821,4840"/>
+<area shape="poly" id="edge213_Node000093_Node000094" title=" " alt="" coords="537,4819,638,4822,638,4827,537,4824"/>
+<area shape="rect" id="Node000096" href="$classqMRMLTransformDisplayNodeWidgetPlugin.html" title=" " alt="" coords="621,4929,838,4969"/>
+<area shape="poly" id="edge215_Node000095_Node000096" title=" " alt="" coords="533,4905,634,4926,632,4931,532,4910"/>
+<area shape="rect" id="Node000097" href="$classqMRMLTransformInfoWidgetPlugin.html" title=" " alt="" coords="627,4865,832,4905"/>
+<area shape="poly" id="edge216_Node000095_Node000097" title=" " alt="" coords="556,4882,626,4882,626,4887,556,4887"/>
+<area shape="rect" id="Node000099" href="$classqMRMLUnitWidgetPlugin.html" title=" " alt="" coords="638,4993,821,5019"/>
+<area shape="poly" id="edge218_Node000098_Node000099" title=" " alt="" coords="537,4985,638,4995,638,5000,537,4990"/>
+<area shape="rect" id="Node000101" href="$classqMRMLVolumePropertyNodeWidgetPlugin.html" title=" " alt="" coords="603,5107,856,5147"/>
+<area shape="poly" id="edge220_Node000100_Node000101" title=" " alt="" coords="551,5125,602,5125,602,5130,551,5130"/>
+<area shape="rect" id="Node000102" href="$classqSlicerGPUMemoryComboBoxPlugin.html" title=" " alt="" coords="620,5171,839,5211"/>
+<area shape="poly" id="edge221_Node000100_Node000102" title=" " alt="" coords="533,5148,634,5169,632,5174,532,5153"/>
+<area shape="rect" id="Node000103" href="$classqSlicerPresetComboBoxPlugin.html" title=" " alt="" coords="620,5236,839,5261"/>
+<area shape="poly" id="edge222_Node000100_Node000103" title=" " alt="" coords="466,5152,526,5188,597,5221,641,5233,640,5239,595,5226,524,5193,463,5157"/>
+<area shape="rect" id="Node000104" href="$classqSlicerVolumeRenderingPresetComboBoxPlugin.html" title=" " alt="" coords="618,5043,841,5083"/>
+<area shape="poly" id="edge223_Node000100_Node000104" title=" " alt="" coords="532,5102,632,5081,634,5086,533,5107"/>
+<area shape="rect" id="Node000106" href="$classqSlicerDTISliceDisplayWidgetPlugin.html" title=" " alt="" coords="622,5606,837,5646"/>
+<area shape="poly" id="edge225_Node000105_Node000106" title=" " alt="" coords="450,5463,513,5529,553,5563,597,5592,624,5603,622,5608,595,5596,550,5567,509,5533,446,5467"/>
+<area shape="rect" id="Node000107" href="$classqSlicerDiffusionTensorVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="622,5286,837,5326"/>
+<area shape="poly" id="edge226_Node000105_Node000107" title=" " alt="" coords="464,5404,525,5369,595,5336,631,5324,633,5329,597,5340,527,5373,467,5409"/>
+<area shape="rect" id="Node000108" href="$classqSlicerDiffusionWeightedVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="626,5350,833,5390"/>
+<area shape="poly" id="edge227_Node000105_Node000108" title=" " alt="" coords="532,5409,632,5387,634,5393,533,5414"/>
+<area shape="rect" id="Node000109" href="$classqSlicerLabelMapVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="616,5414,843,5454"/>
+<area shape="poly" id="edge228_Node000105_Node000109" title=" " alt="" coords="548,5431,616,5431,616,5437,548,5437"/>
+<area shape="rect" id="Node000110" href="$classqSlicerScalarVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="627,5478,831,5518"/>
+<area shape="poly" id="edge229_Node000105_Node000110" title=" " alt="" coords="533,5454,634,5475,632,5481,532,5459"/>
+<area shape="rect" id="Node000111" href="$classqSlicerVolumeDisplayWidgetPlugin.html" title=" " alt="" coords="624,5542,835,5582"/>
+<area shape="poly" id="edge230_Node000105_Node000111" title=" " alt="" coords="467,5459,527,5495,597,5528,633,5539,631,5544,595,5532,525,5499,464,5464"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="385,4113,460,4139"/>
+<area shape="poly" id="edge307_Node000002_Node000001" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,553,1393,558,907,566,481,578,173,585,82,594,42,618,23,647,14,649,19,621,28,598,45,590,83,583,174,571,481,563,907,558,1393,551,2757,522,3177,485,3580,430,4100"/>
+<area shape="poly" id="edge347_Node000002_Node000154" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,554,1426,567,535,578,234,585,145,594,106,607,93,623,83,626,88,611,97,598,109,591,146,584,235,572,535,559,1426,551,2757,522,3177,485,3580,430,4100"/>
+<area shape="poly" id="edge389_Node000002_Node000321" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,554,1458,567,589,579,295,585,208,594,170,616,151,620,155,598,173,591,209,584,296,573,589,559,1458,551,2757,522,3177,485,3580,430,4100"/>
+<area shape="poly" id="edge392_Node000002_Node000323" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,554,1483,567,631,578,343,585,258,594,221,608,208,624,199,627,204,611,212,598,223,591,259,584,344,573,631,559,1483,551,2757,521,3177,485,3580,430,4100"/>
+<area shape="poly" id="edge397_Node000002_Node000325" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,555,1516,568,685,579,405,586,321,594,285,610,270,629,260,631,265,613,274,598,287,591,322,584,405,574,685,560,1516,551,2757,521,3177,485,3580,430,4100"/>
+<area shape="poly" id="edge399_Node000002_Node000326" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,554,1540,568,726,579,451,586,370,594,334,621,314,653,305,654,311,623,319,598,337,591,371,584,451,573,726,560,1540,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge400_Node000002_Node000327" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,555,1566,568,768,579,499,586,420,594,385,620,365,651,356,653,361,622,370,598,387,591,421,585,500,574,768,560,1566,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge413_Node000002_Node000339" title=" " alt="" coords="424,4100,480,3580,516,3176,545,2757,556,1598,569,822,580,561,586,483,594,449,607,436,621,427,624,432,610,440,598,451,592,484,585,561,575,823,561,1598,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge414_Node000002_Node000340" title=" " alt="" coords="424,4100,479,3580,516,3176,545,2757,556,1630,570,876,580,622,586,546,594,513,612,496,615,500,598,515,592,547,586,622,575,876,561,1630,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge441_Node000002_Node000366" title=" " alt="" coords="424,4100,479,3580,516,3176,545,2757,556,1662,570,930,581,683,587,609,594,577,614,559,618,563,598,579,592,610,586,683,576,930,562,1662,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge446_Node000002_Node000369" title=" " alt="" coords="424,4100,479,3580,516,3176,545,2757,557,1694,571,983,581,743,587,672,594,641,608,627,623,618,626,623,611,632,598,643,592,673,586,744,576,984,562,1695,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge447_Node000002_Node000370" title=" " alt="" coords="424,4100,479,3580,516,3176,545,2757,557,1727,571,1037,581,804,587,735,594,705,608,691,625,681,627,686,611,695,598,707,592,736,586,805,577,1037,562,1727,551,2757,521,3176,485,3580,430,4100"/>
+<area shape="poly" id="edge451_Node000002_Node000373" title=" " alt="" coords="424,4100,479,3580,516,3176,545,2757,558,1759,572,1091,581,865,587,798,594,769,611,753,631,743,633,748,614,758,598,771,592,799,587,866,577,1091,563,1759,551,2757,521,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge452_Node000002_Node000374" title=" " alt="" coords="424,4100,479,3580,515,3176,545,2757,546,2423,546,1786,550,1451,558,1154,572,936,582,868,594,833,608,819,612,823,598,835,587,869,578,936,564,1155,556,1451,552,1787,551,2423,551,2757,521,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge453_Node000002_Node000375" title=" " alt="" coords="424,4100,479,3580,515,3176,545,2757,546,2434,547,1819,551,1494,559,1208,573,996,582,930,594,897,609,882,627,873,629,877,612,887,598,899,587,932,578,997,565,1208,557,1494,553,1819,552,2434,551,2757,521,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge455_Node000002_Node000376" title=" " alt="" coords="424,4100,479,3580,515,3176,545,2757,546,2445,548,1851,552,1538,560,1261,574,1057,583,993,594,961,613,944,616,948,598,963,588,994,579,1058,566,1261,557,1538,553,1851,552,2445,551,2757,521,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge457_Node000002_Node000377" title=" " alt="" coords="424,4100,479,3580,515,3176,545,2757,549,1883,553,1581,561,1314,574,1118,583,1056,594,1024,616,1006,620,1010,598,1028,588,1057,579,1118,566,1315,558,1581,554,1883,551,2757,520,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge231_Node000002_Node000003" title=" " alt="" coords="436,4151,493,4317,525,4431,551,4550,555,4629,555,4761,552,5115,553,5298,560,5462,574,5588,585,5631,598,5656,611,5667,626,5676,623,5680,608,5672,594,5660,580,5632,569,5589,555,5463,548,5299,547,5115,550,4761,550,4629,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge232_Node000002_Node000005" title=" " alt="" coords="436,4151,493,4317,526,4431,551,4550,555,4632,555,4771,552,5140,553,5332,560,5503,574,5635,585,5680,598,5707,610,5719,607,5723,594,5710,580,5682,569,5636,554,5504,548,5332,547,5140,550,4771,550,4632,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge233_Node000002_Node000006" title=" " alt="" coords="436,4151,493,4317,526,4431,551,4550,557,4762,563,5167,575,5569,585,5707,591,5750,598,5771,619,5788,615,5792,594,5774,586,5752,579,5708,569,5569,557,5167,551,4762,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge234_Node000002_Node000007" title=" " alt="" coords="436,4151,493,4317,526,4431,551,4550,556,4773,561,5199,573,5623,584,5768,590,5813,598,5835,624,5853,620,5858,594,5838,585,5815,578,5769,568,5623,556,5200,551,4773,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge235_Node000002_Node000008" title=" " alt="" coords="437,4151,493,4317,526,4431,551,4550,556,4782,561,5225,565,5459,572,5665,583,5816,590,5863,598,5886,618,5901,615,5905,594,5889,585,5865,578,5817,567,5665,560,5459,556,5225,551,4782,545,4550,521,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge238_Node000002_Node000009" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4791,560,5250,565,5492,572,5706,583,5863,590,5912,598,5935,610,5946,606,5950,594,5938,585,5913,577,5864,566,5706,559,5492,555,5250,551,4791,545,4550,521,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge240_Node000002_Node000010" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4632,556,4799,560,5275,564,5526,571,5747,582,5910,590,5960,598,5984,613,5997,610,6001,594,5988,584,5961,577,5910,566,5747,559,5526,555,5275,551,4799,549,4632,545,4550,521,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge241_Node000002_Node000011" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4635,556,4807,560,5299,564,5559,571,5788,582,5956,590,6008,598,6034,616,6049,612,6053,594,6037,584,6010,577,5957,566,5788,559,5559,555,5299,551,4807,549,4635,545,4550,521,4432,489,4318,431,4153"/>
+<area shape="poly" id="edge242_Node000002_Node000012" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4638,556,4819,559,5332,562,5603,569,5841,581,6017,589,6071,598,6098,612,6110,608,6114,594,6101,584,6073,576,6018,564,5842,557,5603,553,5332,551,4819,549,4638,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge243_Node000002_Node000013" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4641,556,4828,558,5358,562,5637,569,5884,581,6065,589,6121,598,6148,613,6161,610,6165,594,6152,583,6123,575,6066,563,5884,556,5637,553,5358,551,4828,549,4641,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge245_Node000002_Node000014" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4644,556,4836,558,5383,561,5671,568,5925,580,6112,588,6170,598,6198,612,6210,608,6214,594,6201,583,6171,575,6112,563,5925,556,5671,552,5383,550,4836,549,4644,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge246_Node000002_Node000015" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4647,556,4845,557,5407,560,5704,567,5966,580,6159,588,6218,598,6247,622,6265,619,6269,594,6250,583,6219,574,6159,562,5966,555,5704,552,5407,550,4845,549,4647,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge247_Node000002_Node000016" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4650,556,4853,557,5432,560,5738,567,6007,579,6205,588,6267,598,6296,613,6309,630,6317,628,6322,610,6313,594,6300,583,6268,574,6206,561,6007,554,5738,551,5432,550,4853,549,4650,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge248_Node000002_Node000017" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4652,556,4862,557,5457,560,5770,567,6047,579,6252,588,6315,598,6346,610,6357,624,6366,622,6370,607,6361,594,6349,583,6316,574,6252,562,6048,555,5771,552,5457,551,4862,549,4652,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge249_Node000002_Node000018" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4656,556,4873,556,5489,558,5815,565,6101,578,6313,587,6378,598,6410,617,6425,641,6434,639,6439,615,6430,594,6413,582,6379,573,6313,560,6102,553,5815,550,5489,550,4873,549,4656,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge255_Node000002_Node000019" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4659,555,4882,555,5515,557,5849,564,6144,577,6361,587,6428,598,6460,613,6473,631,6481,629,6486,610,6477,594,6464,582,6429,572,6361,559,6144,552,5849,550,5515,550,4882,549,4659,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge257_Node000002_Node000020" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4662,555,4890,554,5540,557,5883,564,6185,577,6407,587,6476,598,6510,620,6526,617,6530,594,6513,581,6477,572,6408,558,6185,551,5883,549,5540,550,4890,549,4662,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge258_Node000002_Node000021" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4665,555,4899,554,5565,556,5916,563,6226,576,6454,586,6525,598,6559,610,6570,624,6577,621,6582,607,6574,594,6562,581,6526,571,6455,558,6226,551,5916,549,5565,550,4899,549,4665,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge259_Node000002_Node000022" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4667,555,4907,554,5589,557,5949,563,6266,577,6500,586,6573,598,6609,617,6625,614,6629,594,6611,581,6574,571,6501,558,6267,551,5949,549,5589,550,4907,549,4667,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge260_Node000002_Node000023" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4671,555,4918,554,5621,556,5992,562,6320,576,6561,586,6636,598,6673,610,6684,607,6688,594,6675,581,6637,571,6561,557,6320,550,5992,548,5621,550,4918,550,4671,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge261_Node000002_Node000024" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4675,555,4930,552,5654,554,6037,561,6374,575,6622,585,6699,592,6723,598,6736,623,6755,620,6759,594,6740,587,6725,580,6700,570,6623,555,6374,549,6037,547,5654,550,4930,550,4675,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge265_Node000002_Node000025" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4677,555,4938,553,5679,554,6070,561,6415,575,6669,585,6748,592,6773,598,6787,612,6800,608,6804,594,6790,587,6775,580,6749,570,6670,556,6415,549,6070,547,5679,550,4938,550,4678,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge266_Node000002_Node000026" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,555,4681,555,4949,551,5712,552,6114,559,6469,565,6615,574,6731,585,6812,591,6837,598,6851,617,6866,640,6875,638,6880,614,6871,594,6854,586,6839,579,6813,568,6731,560,6615,554,6469,547,6114,546,5712,549,4949,550,4681,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge267_Node000002_Node000027" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4938,562,5732,575,6524,585,6790,591,6869,598,6902,617,6917,641,6926,639,6931,614,6921,594,6905,586,6870,580,6791,569,6524,557,5732,551,4938,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge268_Node000002_Node000028" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4946,562,5757,574,6565,585,6837,591,6918,598,6951,613,6964,631,6972,629,6977,610,6968,594,6954,586,6918,579,6838,569,6565,557,5757,551,4946,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge269_Node000002_Node000029" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,557,4954,563,5781,575,6606,585,6884,591,6966,598,7001,623,7020,620,7024,594,7003,586,6967,579,6884,569,6606,557,5781,551,4954,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge270_Node000002_Node000030" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4965,562,5813,574,6660,584,6945,591,7029,598,7065,610,7076,624,7084,621,7089,607,7080,594,7067,586,7030,579,6945,569,6660,557,5813,551,4965,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge271_Node000002_Node000031" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4975,561,5846,573,6714,584,7006,591,7092,598,7129,612,7140,608,7144,594,7131,585,7093,578,7006,568,6714,556,5846,551,4975,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge285_Node000002_Node000032" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4983,562,5871,573,6756,584,7054,591,7142,598,7179,610,7191,625,7199,622,7204,607,7195,594,7182,585,7143,579,7054,568,6756,556,5871,551,4984,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge286_Node000002_Node000033" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,4994,561,5903,573,6809,584,7115,591,7205,598,7243,620,7261,616,7265,594,7246,585,7206,578,7115,568,6809,556,5903,551,4994,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge287_Node000002_Node000034" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,556,5005,561,5935,573,6863,583,7176,590,7268,598,7307,623,7327,620,7331,594,7310,585,7269,578,7176,567,6863,556,5935,551,5005,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge288_Node000002_Node000035" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4691,556,5015,560,5968,564,6474,572,6917,583,7237,590,7332,598,7371,615,7385,637,7394,635,7399,613,7390,594,7374,585,7332,577,7237,566,6917,559,6474,555,5968,551,5015,549,4691,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge289_Node000002_Node000036" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4694,556,5024,560,5993,564,6508,571,6960,582,7285,590,7382,598,7422,614,7435,633,7444,631,7448,611,7439,594,7425,584,7382,577,7286,566,6960,559,6508,554,5993,551,5024,549,4694,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge290_Node000002_Node000037" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4696,556,5032,560,6018,564,6542,571,7001,582,7332,590,7430,598,7471,621,7488,649,7497,647,7502,618,7493,594,7474,584,7431,577,7333,565,7001,558,6542,554,6018,551,5032,549,4696,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge293_Node000002_Node000038" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4699,556,5040,559,6043,563,6575,570,7042,582,7379,589,7479,598,7521,618,7536,643,7545,641,7550,615,7541,594,7523,584,7480,576,7380,565,7043,558,6576,554,6043,551,5040,549,4699,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge295_Node000002_Node000039" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4701,556,5048,560,6067,564,6608,571,7083,582,7426,590,7527,598,7570,619,7587,616,7591,594,7573,584,7528,577,7426,565,7083,558,6608,554,6067,551,5048,549,4701,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge296_Node000002_Node000040" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4704,556,5059,559,6100,563,6653,570,7137,581,7487,589,7590,598,7634,615,7648,636,7657,634,7662,612,7652,594,7637,584,7591,576,7488,564,7138,557,6653,553,6100,550,5059,549,4704,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge299_Node000002_Node000041" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4707,556,5067,558,6125,562,6687,569,7180,581,7536,589,7640,598,7685,622,7702,618,7706,594,7687,584,7641,576,7536,564,7180,557,6687,553,6125,550,5067,549,4707,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge300_Node000002_Node000042" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4709,556,5075,558,6150,562,6721,569,7221,581,7583,589,7689,598,7734,619,7750,646,7759,644,7764,617,7755,594,7737,584,7690,575,7583,564,7222,556,6721,553,6150,550,5075,549,4709,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge303_Node000002_Node000043" title=" " alt="" coords="437,4151,494,4316,526,4431,551,4550,554,4712,556,5083,558,6175,561,6754,569,7263,580,7629,589,7738,598,7783,616,7798,613,7802,594,7786,583,7738,575,7630,563,7263,556,6755,553,6175,550,5083,549,4712,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge305_Node000002_Node000044" title=" " alt="" coords="437,4151,494,4316,527,4431,551,4550,554,4714,556,5091,558,6199,562,6787,569,7303,581,7676,589,7786,598,7833,617,7848,613,7852,594,7835,584,7787,575,7676,564,7304,557,6787,553,6199,551,5091,549,4714,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge306_Node000002_Node000045" title=" " alt="" coords="437,4151,494,4316,527,4431,551,4550,554,4717,556,5102,557,6232,561,6832,568,7358,580,7737,588,7849,593,7882,598,7896,622,7914,653,7923,651,7928,620,7919,594,7900,588,7883,583,7850,575,7738,563,7358,556,6832,552,6232,550,5102,549,4717,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge308_Node000002_Node000046" title=" " alt="" coords="437,4151,494,4316,527,4431,551,4550,554,4720,556,5110,557,6257,560,6866,567,7400,580,7786,588,7899,593,7932,598,7947,610,7958,606,7962,594,7950,588,7933,583,7900,574,7786,562,7400,555,6866,552,6257,550,5110,549,4720,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="poly" id="edge236_Node000002_Node000049" title=" " alt="" coords="424,4100,478,3580,515,3176,545,2757,551,1966,555,1692,563,1451,576,1273,584,1217,594,1189,610,1174,613,1178,598,1191,589,1218,581,1273,569,1451,561,1693,556,1966,551,2757,520,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge237_Node000002_Node000050" title=" " alt="" coords="424,4100,479,3580,515,3176,545,2757,549,1908,553,1614,561,1355,574,1164,583,1104,594,1074,610,1060,629,1051,631,1056,613,1064,598,1077,588,1106,579,1164,566,1355,558,1614,554,1908,551,2757,520,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge239_Node000002_Node000051" title=" " alt="" coords="424,4100,478,3580,515,3176,545,2757,549,1933,554,1648,562,1397,575,1212,583,1154,594,1125,607,1112,623,1104,625,1109,610,1117,598,1127,588,1155,580,1212,567,1397,559,1648,555,1933,551,2757,520,3176,484,3580,430,4100"/>
+<area shape="poly" id="edge250_Node000002_Node000053" title=" " alt="" coords="424,4100,478,3580,514,3176,545,2757,553,2063,558,1823,566,1611,578,1455,585,1406,594,1381,606,1368,610,1372,598,1383,590,1407,583,1455,571,1611,564,1823,558,2063,551,2757,520,3176,483,3580,430,4100"/>
+<area shape="poly" id="edge251_Node000002_Node000054" title=" " alt="" coords="424,4100,478,3580,514,3176,545,2757,554,2095,567,1664,578,1515,585,1469,594,1445,607,1432,611,1436,598,1447,591,1470,584,1516,572,1665,559,2095,551,2757,519,3176,483,3580,430,4100"/>
+<area shape="poly" id="edge252_Node000002_Node000055" title=" " alt="" coords="424,4100,477,3580,514,3176,545,2757,555,2127,568,1718,579,1576,586,1531,594,1509,607,1496,610,1500,598,1511,591,1533,584,1576,573,1718,560,2128,551,2757,519,3176,483,3580,430,4100"/>
+<area shape="poly" id="edge254_Node000002_Node000056" title=" " alt="" coords="424,4100,477,3580,514,3176,545,2757,555,2153,568,1759,579,1623,586,1581,594,1559,610,1545,613,1549,598,1562,591,1582,584,1624,573,1760,560,2153,551,2757,519,3176,482,3580,430,4100"/>
+<area shape="poly" id="edge391_Node000002_Node000057" title=" " alt="" coords="424,4100,478,3580,515,3176,545,2757,551,1998,556,1736,564,1504,576,1333,584,1280,594,1253,609,1239,626,1229,629,1234,612,1243,598,1255,589,1281,582,1334,570,1505,562,1736,557,1998,551,2757,520,3176,483,3580,430,4100"/>
+<area shape="poly" id="edge415_Node000002_Node000058" title=" " alt="" coords="424,4100,478,3580,514,3176,545,2757,552,2031,557,1779,565,1558,577,1394,585,1343,594,1317,607,1304,622,1295,624,1300,610,1308,598,1319,590,1344,582,1395,571,1558,563,1779,558,2031,551,2757,520,3176,483,3580,430,4100"/>
+<area shape="poly" id="edge256_Node000002_Node000060" title=" " alt="" coords="424,4100,477,3580,513,3176,545,2757,556,2185,570,1813,580,1684,586,1644,594,1623,608,1610,612,1614,598,1626,592,1645,585,1685,575,1813,561,2185,551,2757,519,3176,482,3580,429,4100"/>
+<area shape="poly" id="edge263_Node000002_Node000062" title=" " alt="" coords="424,4100,477,3580,513,3176,545,2757,557,2218,570,1866,581,1745,587,1707,594,1687,610,1672,630,1662,632,1667,613,1677,598,1690,592,1708,586,1746,576,1867,562,2218,551,2757,518,3176,482,3580,429,4100"/>
+<area shape="poly" id="edge264_Node000002_Node000063" title=" " alt="" coords="424,4100,476,3580,513,3176,545,2757,557,2250,571,1920,581,1806,587,1770,594,1751,609,1737,627,1727,629,1732,612,1741,598,1754,592,1771,587,1806,577,1920,563,2250,551,2757,518,3176,481,3580,429,4100"/>
+<area shape="poly" id="edge346_Node000002_Node000065" title=" " alt="" coords="424,4100,476,3580,512,3176,545,2757,546,2574,546,2270,550,2112,558,1971,572,1862,582,1825,594,1802,609,1789,626,1780,628,1785,612,1793,598,1805,587,1827,577,1863,563,1971,555,2112,551,2270,552,2574,551,2757,518,3176,481,3580,429,4100"/>
+<area shape="poly" id="edge353_Node000002_Node000067" title=" " alt="" coords="424,4100,475,3580,512,3176,545,2757,547,2587,548,2303,552,2156,560,2024,573,1923,583,1888,594,1866,614,1849,638,1838,640,1843,617,1853,598,1869,588,1890,579,1924,565,2025,558,2156,554,2304,552,2587,551,2757,517,3176,481,3580,429,4100"/>
+<area shape="poly" id="edge394_Node000002_Node000068" title=" " alt="" coords="424,4100,475,3580,511,3176,545,2757,547,2596,549,2328,553,2189,561,2064,574,1969,583,1936,594,1915,612,1900,634,1891,636,1896,615,1905,598,1918,588,1938,579,1970,566,2065,558,2189,554,2328,552,2596,551,2757,517,3176,480,3580,429,4100"/>
+<area shape="poly" id="edge395_Node000002_Node000069" title=" " alt="" coords="424,4100,475,3580,511,3176,545,2757,547,2605,550,2353,554,2222,562,2105,575,2015,583,1984,594,1964,619,1946,623,1950,598,1968,588,1986,580,2016,567,2105,560,2222,555,2353,553,2605,551,2757,516,3176,480,3580,429,4100"/>
+<area shape="poly" id="edge396_Node000002_Node000070" title=" " alt="" coords="424,4100,474,3579,545,2757,551,2378,556,2255,564,2145,576,2061,584,2032,594,2014,611,2000,614,2004,598,2017,589,2034,581,2062,569,2146,561,2255,556,2378,551,2757,479,3580,429,4100"/>
+<area shape="poly" id="edge459_Node000002_Node000071" title=" " alt="" coords="424,4100,473,3579,545,2757,552,2404,557,2289,565,2187,577,2108,585,2081,594,2064,621,2045,652,2036,654,2041,623,2050,598,2068,590,2083,582,2110,570,2188,563,2290,558,2404,551,2757,479,3580,429,4100"/>
+<area shape="poly" id="edge272_Node000002_Node000073" title=" " alt="" coords="424,4100,473,3579,545,2757,555,2437,568,2240,579,2169,586,2144,594,2128,621,2108,624,2112,598,2132,591,2146,584,2170,573,2241,560,2437,551,2757,478,3580,429,4100"/>
+<area shape="poly" id="edge273_Node000002_Node000074" title=" " alt="" coords="424,4100,545,2756,556,2470,569,2293,580,2229,594,2192,614,2176,618,2180,598,2196,585,2230,575,2294,561,2470,551,2757,429,4100"/>
+<area shape="poly" id="edge274_Node000002_Node000075" title=" " alt="" coords="424,4100,515,3096,594,2257,610,2242,614,2246,598,2259,520,3096,429,4100"/>
+<area shape="poly" id="edge275_Node000002_Node000076" title=" " alt="" coords="424,4099,510,3134,563,2576,582,2394,594,2321,622,2300,625,2304,598,2323,588,2395,568,2576,515,3135,429,4100"/>
+<area shape="poly" id="edge276_Node000002_Node000077" title=" " alt="" coords="424,4100,510,3168,563,2630,583,2455,594,2385,614,2368,617,2372,598,2387,588,2456,569,2631,516,3168,429,4100"/>
+<area shape="poly" id="edge278_Node000002_Node000078" title=" " alt="" coords="424,4100,505,3208,557,2692,579,2521,594,2449,607,2436,611,2440,598,2451,584,2522,563,2692,510,3208,429,4100"/>
+<area shape="poly" id="edge279_Node000002_Node000079" title=" " alt="" coords="423,4099,449,3774,494,3253,520,2989,546,2759,571,2591,583,2539,594,2512,607,2500,611,2504,598,2516,588,2541,576,2592,551,2760,525,2989,499,3254,454,3774,429,4100"/>
+<area shape="poly" id="edge280_Node000002_Node000080" title=" " alt="" coords="423,4099,449,3783,494,3279,520,3023,546,2801,571,2639,583,2589,594,2563,610,2550,613,2554,598,2566,588,2590,576,2640,551,2802,525,3024,499,3279,454,3784,429,4100"/>
+<area shape="poly" id="edge281_Node000002_Node000082" title=" " alt="" coords="423,4099,439,3805,473,3335,497,3094,525,2880,541,2790,557,2716,575,2661,594,2627,620,2607,623,2612,598,2630,580,2663,562,2718,546,2791,530,2881,502,3095,479,3336,444,3805,428,4100"/>
+<area shape="poly" id="edge282_Node000002_Node000083" title=" " alt="" coords="423,4099,440,3816,475,3367,499,3137,527,2932,542,2847,559,2776,576,2723,594,2691,618,2672,622,2677,598,2694,581,2726,564,2778,548,2848,532,2933,504,3137,481,3368,445,3817,428,4100"/>
+<area shape="poly" id="edge283_Node000002_Node000084" title=" " alt="" coords="423,4099,441,3828,477,3399,501,3179,529,2985,560,2836,576,2786,594,2755,622,2735,625,2739,598,2758,581,2788,565,2838,534,2986,507,3180,482,3400,446,3828,428,4100"/>
+<area shape="poly" id="edge284_Node000002_Node000085" title=" " alt="" coords="423,4099,441,3836,477,3422,501,3211,529,3024,560,2882,576,2834,594,2804,608,2793,612,2797,598,2808,581,2836,565,2883,534,3025,507,3211,483,3423,446,3836,428,4100"/>
+<area shape="poly" id="edge291_Node000002_Node000087" title=" " alt="" coords="432,4151,457,4252,496,4390,520,4460,545,4523,571,4574,598,4608,617,4621,614,4626,594,4612,567,4577,540,4525,515,4461,491,4392,452,4253,427,4152"/>
+<area shape="poly" id="edge292_Node000002_Node000088" title=" " alt="" coords="429,4152,442,4229,470,4336,492,4393,520,4448,555,4500,598,4544,627,4561,624,4566,594,4548,551,4503,516,4451,487,4395,465,4338,437,4231,424,4153"/>
+<area shape="poly" id="edge445_Node000002_Node000090" title=" " alt="" coords="434,4151,520,4445,569,4599,587,4649,598,4672,623,4689,620,4693,594,4676,582,4652,564,4600,515,4447,429,4153"/>
+<area shape="poly" id="edge449_Node000002_Node000092" title=" " alt="" coords="434,4151,551,4549,559,4606,560,4652,562,4673,568,4694,579,4714,598,4736,625,4754,622,4759,594,4740,575,4717,563,4696,557,4674,555,4653,554,4606,545,4551,429,4152"/>
+<area shape="poly" id="edge294_Node000002_Node000094" title=" " alt="" coords="435,4151,487,4317,551,4549,557,4589,558,4625,554,4687,555,4716,561,4743,574,4771,598,4800,617,4814,639,4822,637,4827,614,4818,594,4804,570,4774,556,4745,550,4716,549,4687,553,4625,552,4590,545,4551,482,4319,430,4152"/>
+<area shape="poly" id="edge297_Node000002_Node000096" title=" " alt="" coords="436,4151,490,4317,522,4432,551,4550,558,4632,560,4740,564,4795,570,4844,581,4886,598,4915,622,4933,619,4937,594,4918,576,4888,565,4845,558,4795,555,4741,552,4633,545,4550,517,4433,484,4319,431,4153"/>
+<area shape="poly" id="edge298_Node000002_Node000097" title=" " alt="" coords="435,4151,488,4317,521,4432,551,4550,558,4618,563,4707,574,4793,584,4827,598,4851,612,4862,628,4871,625,4876,609,4867,594,4854,579,4829,569,4794,558,4708,553,4619,545,4550,516,4433,483,4319,430,4152"/>
+<area shape="poly" id="edge301_Node000002_Node000099" title=" " alt="" coords="436,4151,490,4317,523,4431,551,4550,555,4593,557,4647,557,4774,560,4838,566,4896,578,4945,587,4964,598,4979,616,4993,639,5002,637,5007,614,4998,594,4983,583,4967,573,4947,561,4897,554,4838,552,4774,552,4647,550,4593,545,4550,518,4433,485,4319,431,4153"/>
+<area shape="poly" id="edge304_Node000002_Node000101" title=" " alt="" coords="436,4151,491,4317,524,4431,551,4550,556,4604,557,4673,553,4833,555,4914,561,4988,575,5050,585,5074,598,5094,611,5105,607,5109,594,5097,580,5077,570,5051,556,4988,549,4914,548,4833,551,4673,551,4604,545,4550,519,4433,486,4318,431,4153"/>
+<area shape="poly" id="edge363_Node000002_Node000102" title=" " alt="" coords="436,4151,492,4317,524,4431,551,4550,557,4666,563,4860,574,5051,584,5121,591,5144,598,5158,621,5176,618,5180,594,5161,586,5146,579,5122,569,5052,557,4860,552,4666,545,4550,519,4433,487,4318,431,4153"/>
+<area shape="poly" id="edge398_Node000002_Node000103" title=" " alt="" coords="436,4151,492,4317,524,4431,551,4550,557,4678,561,4893,572,5105,583,5181,590,5206,598,5222,621,5239,618,5243,594,5225,585,5208,578,5182,567,5105,556,4893,551,4679,545,4550,519,4433,487,4318,431,4153"/>
+<area shape="poly" id="edge456_Node000002_Node000104" title=" " alt="" coords="436,4151,491,4317,523,4431,551,4550,556,4597,557,4658,556,4800,558,4871,564,4936,577,4991,586,5012,598,5030,620,5047,616,5051,594,5033,582,5015,572,4993,559,4937,553,4871,551,4800,552,4658,550,4598,545,4550,518,4433,486,4319,431,4153"/>
+<area shape="poly" id="edge350_Node000002_Node000106" title=" " alt="" coords="436,4151,493,4317,525,4431,551,4550,555,4624,556,4749,554,5081,556,5254,563,5409,576,5528,586,5568,598,5592,623,5612,620,5616,594,5596,581,5570,571,5529,557,5409,551,5255,549,5081,551,4749,550,4624,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge351_Node000002_Node000107" title=" " alt="" coords="436,4151,492,4317,525,4431,551,4550,557,4688,560,4919,564,5039,571,5146,582,5228,590,5256,598,5272,624,5292,620,5296,594,5276,585,5258,577,5229,566,5146,559,5039,555,4919,551,4688,545,4550,519,4432,487,4318,431,4153"/>
+<area shape="poly" id="edge352_Node000002_Node000108" title=" " alt="" coords="436,4151,492,4317,525,4431,551,4550,555,4606,557,4700,559,4951,563,5082,570,5198,581,5288,589,5318,598,5336,611,5348,627,5357,624,5362,608,5353,594,5340,584,5320,576,5289,564,5199,557,5082,554,4951,551,4700,549,4606,545,4550,520,4432,487,4318,431,4153"/>
+<area shape="poly" id="edge388_Node000002_Node000109" title=" " alt="" coords="436,4151,493,4317,525,4431,551,4550,555,4610,556,4712,558,4984,561,5125,568,5251,580,5348,588,5381,598,5400,617,5416,614,5421,594,5404,583,5382,575,5349,563,5252,556,5125,553,4984,551,4712,550,4611,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge402_Node000002_Node000110" title=" " alt="" coords="436,4151,493,4317,525,4431,551,4550,555,4615,556,4724,557,5016,559,5168,566,5304,579,5408,587,5443,598,5464,612,5477,628,5486,626,5491,609,5481,594,5468,582,5445,573,5409,561,5304,554,5168,551,5016,551,4725,550,4615,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="poly" id="edge454_Node000002_Node000111" title=" " alt="" coords="436,4151,493,4317,525,4431,551,4550,555,4619,556,4737,555,5049,558,5211,564,5356,577,5468,587,5505,598,5528,610,5540,625,5549,622,5553,607,5544,594,5532,582,5507,572,5469,559,5357,552,5211,550,5049,551,4737,550,4620,545,4550,520,4432,488,4318,431,4153"/>
+<area shape="rect" id="Node000112" href="$classqMRMLEventLogger.html" title=" " alt="" coords="654,2819,805,2844"/>
+<area shape="poly" id="edge244_Node000002_Node000112" title=" " alt="" coords="421,4100,422,3862,428,3683,440,3486,460,3288,474,3194,491,3106,511,3026,535,2956,563,2898,594,2855,621,2836,653,2827,654,2832,624,2841,598,2859,567,2901,540,2958,517,3028,497,3107,480,3195,466,3289,445,3487,433,3683,427,3862,426,4100"/>
+<area shape="rect" id="Node000113" href="$classqMRMLMarkupsOptionsWidgetsFactory.html" title="Singleton class managing segment editor effect plugins." alt="" coords="615,2869,843,2909"/>
+<area shape="poly" id="edge253_Node000002_Node000113" title=" " alt="" coords="421,4100,425,3873,432,3704,446,3518,467,3331,497,3158,517,3082,539,3016,565,2961,594,2919,613,2903,617,2907,598,2922,569,2963,544,3018,522,3084,502,3159,472,3331,451,3518,438,3704,430,3873,427,4100"/>
+<area shape="rect" id="Node000114" href="$classqMRMLNodeFactory.html" title=" " alt="" coords="654,2933,805,2959"/>
+<area shape="poly" id="edge262_Node000002_Node000114" title=" " alt="" coords="421,4100,426,3881,433,3718,447,3540,468,3361,498,3196,517,3124,540,3061,565,3009,594,2969,621,2951,653,2942,655,2947,624,2956,598,2973,570,3011,545,3063,523,3126,503,3197,473,3362,452,3540,439,3719,431,3881,427,4100"/>
+<area shape="rect" id="Node000115" href="$classqMRMLSegmentationGeometryDialog.html" title="Qt dialog for changing segmentation labelmap geometry." alt="" coords="616,2983,843,3023"/>
+<area shape="poly" id="edge277_Node000002_Node000115" title=" " alt="" coords="422,4099,429,3892,438,3739,452,3571,474,3403,504,3248,522,3180,543,3120,567,3071,594,3033,614,3018,617,3022,598,3037,572,3074,548,3122,527,3181,509,3249,479,3404,458,3572,443,3739,434,3892,427,4099"/>
+<area shape="rect" id="Node000116" href="$classqMRMLUtils.html" title=" " alt="" coords="679,3048,779,3073"/>
+<area shape="poly" id="edge302_Node000002_Node000116" title=" " alt="" coords="422,4100,429,3900,438,3754,453,3593,475,3433,505,3285,523,3221,544,3164,568,3118,594,3083,613,3069,634,3060,679,3054,679,3059,636,3065,615,3074,598,3087,572,3121,549,3166,528,3222,510,3287,480,3434,459,3594,444,3754,434,3901,427,4100"/>
+<area shape="rect" id="Node000117" href="$classqSlicerAbstractCoreModule.html" title="qSlicerAbstractCoreModule is the base class of any module in Slicer." alt="" coords="630,3097,829,3123"/>
+<area shape="poly" id="edge309_Node000002_Node000117" title=" " alt="" coords="422,4099,431,3908,441,3769,457,3617,479,3465,508,3325,526,3264,546,3211,569,3167,594,3133,610,3121,629,3113,631,3117,613,3126,598,3137,573,3169,551,3213,531,3266,513,3327,484,3466,462,3617,447,3769,436,3909,427,4100"/>
+<area shape="rect" id="Node000146" href="$classqSlicerAbstractModuleFactoryManager.html" title=" " alt="" coords="622,3147,837,3187"/>
+<area shape="poly" id="edge338_Node000002_Node000146" title=" " alt="" coords="422,4099,434,3920,446,3790,462,3648,485,3507,514,3377,531,3320,550,3270,571,3229,594,3197,620,3179,623,3183,598,3201,575,3232,555,3272,536,3322,519,3378,490,3508,468,3649,451,3790,439,3920,428,4100"/>
+<area shape="rect" id="Node000148" href="$classqSlicerApplicationHelper.html" title=" " alt="" coords="638,3212,821,3237"/>
+<area shape="poly" id="edge340_Node000002_Node000148" title=" " alt="" coords="423,4099,435,3928,447,3805,464,3671,486,3538,515,3416,532,3362,551,3316,571,3277,594,3248,614,3234,637,3225,639,3230,617,3238,598,3252,576,3280,556,3318,537,3364,520,3417,492,3539,469,3672,452,3806,440,3929,428,4100"/>
+<area shape="rect" id="Node000149" href="$classqSlicerApplicationUpdateManager.html" title="Class querying application updates on the download server." alt="" coords="636,3262,823,3302"/>
+<area shape="poly" id="edge341_Node000002_Node000149" title=" " alt="" coords="423,4099,438,3939,469,3702,492,3580,520,3467,554,3375,573,3339,594,3312,613,3298,635,3288,637,3293,616,3302,598,3316,578,3342,559,3377,526,3469,498,3581,475,3703,443,3940,429,4100"/>
+<area shape="rect" id="Node000150" href="$classqSlicerBaseQTAppPythonQtDecorators.html" title=" " alt="" coords="629,3326,829,3366"/>
+<area shape="poly" id="edge342_Node000002_Node000150" title=" " alt="" coords="424,4099,440,3951,473,3733,497,3621,524,3518,557,3433,575,3401,594,3376,610,3364,628,3354,630,3359,613,3368,598,3380,579,3404,561,3436,529,3519,502,3622,479,3734,446,3951,429,4100"/>
+<area shape="rect" id="Node000151" href="$classqSlicerBaseQTBasePythonQtDecorators.html" title=" " alt="" coords="625,3390,833,3430"/>
+<area shape="poly" id="edge343_Node000002_Node000151" title=" " alt="" coords="424,4099,443,3962,478,3764,501,3662,528,3568,559,3492,576,3462,594,3440,623,3421,626,3425,598,3444,580,3465,564,3494,533,3570,506,3663,483,3765,448,3963,430,4100"/>
+<area shape="rect" id="Node000152" href="$classqSlicerBaseQTGUIPythonQtDecorators.html" title=" " alt="" coords="629,3454,829,3494"/>
+<area shape="poly" id="edge344_Node000002_Node000152" title=" " alt="" coords="425,4099,446,3973,482,3794,505,3702,532,3619,562,3551,577,3524,594,3504,610,3492,628,3483,630,3488,613,3496,598,3508,582,3527,566,3553,537,3621,510,3704,487,3795,451,3974,430,4100"/>
+<area shape="rect" id="Node000153" href="$classqSlicerCLIModuleUIHelper.html" title=" " alt="" coords="634,3519,825,3544"/>
+<area shape="poly" id="edge345_Node000002_Node000153" title=" " alt="" coords="420,4099,423,3997,430,3926,444,3848,465,3768,496,3689,538,3616,565,3583,594,3553,612,3541,633,3533,635,3538,615,3546,598,3557,569,3587,543,3619,501,3691,470,3770,449,3850,436,3927,429,3997,426,4100"/>
+<area shape="rect" id="Node000155" href="$classqSlicerCoreIOManager.html" title=" " alt="" coords="646,3568,813,3593"/>
+<area shape="poly" id="edge348_Node000002_Node000155" title=" " alt="" coords="421,4099,427,4004,436,3940,450,3869,472,3796,502,3725,542,3659,567,3630,594,3603,618,3588,645,3579,647,3584,620,3593,598,3607,571,3633,547,3662,507,3728,477,3798,455,3871,441,3941,432,4005,427,4100"/>
+<area shape="rect" id="Node000157" href="$classqSlicerExtensionDownloadTask.html" title=" " alt="" coords="617,3617,841,3643"/>
+<area shape="poly" id="edge354_Node000002_Node000157" title=" " alt="" coords="422,4099,431,4012,442,3954,457,3891,479,3826,508,3762,546,3704,594,3653,616,3640,619,3644,598,3657,551,3707,513,3765,484,3828,462,3893,447,3956,437,4013,428,4100"/>
+<area shape="rect" id="Node000158" href="$classqSlicerExtensionsManagerModel.html" title="Class querying and storing extensions data." alt="" coords="632,3667,827,3707"/>
+<area shape="poly" id="edge355_Node000002_Node000158" title=" " alt="" coords="424,4099,438,4023,467,3920,489,3865,517,3811,552,3761,594,3717,631,3697,633,3702,598,3721,556,3764,522,3813,494,3867,472,3922,443,4025,430,4100"/>
+<area shape="rect" id="Node000159" href="$classqSlicerFileDialog.html" title=" " alt="" coords="664,3732,795,3757"/>
+<area shape="poly" id="edge356_Node000002_Node000159" title=" " alt="" coords="426,4099,442,4032,473,3941,495,3893,522,3847,555,3804,594,3768,627,3751,663,3743,664,3748,629,3756,598,3772,559,3808,527,3850,500,3896,477,3943,447,4033,431,4101"/>
+<area shape="rect" id="Node000166" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="689,8009,769,8035"/>
+<area shape="poly" id="edge364_Node000002_Node000166" title=" " alt="" coords="437,4151,494,4316,527,4431,551,4550,554,4722,555,5118,557,6282,560,6900,567,7442,579,7833,588,7948,593,7981,598,7996,617,8011,640,8020,665,8024,689,8024,689,8030,665,8029,639,8025,614,8016,594,8000,588,7983,583,7949,574,7833,562,7442,555,6900,551,6282,550,5118,549,4722,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="rect" id="Node000322" href="$classqSlicerMarkupsModuleWidgetsPythonQtDecorators.html" title=" " alt="" coords="618,3782,841,3822"/>
+<area shape="poly" id="edge390_Node000002_Node000322" title=" " alt="" coords="429,4099,449,4043,483,3970,505,3932,531,3895,561,3861,594,3832,616,3819,619,3824,598,3836,564,3865,535,3899,510,3935,488,3973,454,4045,434,4101"/>
+<area shape="rect" id="Node000324" href="$classqSlicerModuleManager.html" title=" " alt="" coords="644,3847,815,3872"/>
+<area shape="poly" id="edge393_Node000002_Node000324" title=" " alt="" coords="432,4099,454,4051,489,3992,536,3931,564,3904,595,3881,618,3870,643,3862,644,3867,620,3874,597,3886,567,3908,540,3935,494,3995,459,4054,437,4101"/>
+<area shape="rect" id="Node000328" href="$classqSlicerRelativePathMapper.html" title=" " alt="" coords="631,3896,828,3921"/>
+<area shape="poly" id="edge401_Node000002_Node000328" title=" " alt="" coords="436,4100,461,4062,497,4016,542,3970,595,3932,630,3917,632,3922,597,3936,546,3974,501,4020,466,4065,440,4103"/>
+<area shape="rect" id="Node000329" href="$classqSlicerSegmentEditorAbstractEffect.html" title="Abstract class for segment editor effects." alt="" coords="621,4366,837,4406"/>
+<area shape="poly" id="edge403_Node000002_Node000329" title=" " alt="" coords="438,4150,462,4194,497,4249,542,4305,569,4330,597,4352,622,4365,620,4369,595,4356,565,4334,539,4309,492,4252,457,4197,433,4152"/>
+<area shape="rect" id="Node000337" href="$classqSlicerSegmentEditorEffectFactory.html" title="Singleton class managing segment editor effect plugins." alt="" coords="630,4430,829,4470"/>
+<area shape="poly" id="edge411_Node000002_Node000337" title=" " alt="" coords="434,4151,454,4207,488,4279,510,4317,535,4353,564,4387,598,4416,631,4433,629,4438,594,4420,561,4391,531,4357,505,4320,483,4282,449,4209,429,4153"/>
+<area shape="rect" id="Node000338" href="$classqSlicerSegmentationsEditorEffectsPythonQtDecorators.html" title=" " alt="" coords="628,4494,831,4534"/>
+<area shape="poly" id="edge412_Node000002_Node000338" title=" " alt="" coords="431,4152,448,4218,479,4308,501,4355,528,4401,560,4443,598,4480,629,4498,627,4502,594,4484,556,4447,523,4404,496,4358,474,4310,443,4220,426,4153"/>
+<area shape="rect" id="Node000341" href="$classqSlicerSubjectHierarchyAbstractPlugin.html" title="Abstract plugin for handling Subject Hierarchy items." alt="" coords="614,3946,845,3986"/>
+<area shape="poly" id="edge416_Node000002_Node000341" title=" " alt="" coords="445,4102,509,4049,551,4020,595,3996,626,3984,628,3989,597,4000,554,4025,513,4053,449,4106"/>
+<area shape="rect" id="Node000367" href="$classqSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators.html" title=" " alt="" coords="617,4010,842,4050"/>
+<area shape="poly" id="edge442_Node000002_Node000367" title=" " alt="" coords="466,4106,595,4059,638,4048,640,4053,597,4065,468,4111"/>
+<area shape="rect" id="Node000368" href="$classqSlicerSubjectHierarchyPluginHandler.html" title="Singleton class managing Subject Hierarchy plugins." alt="" coords="621,4074,838,4114"/>
+<area shape="poly" id="edge443_Node000002_Node000368" title=" " alt="" coords="473,4118,620,4103,621,4108,474,4123"/>
+<area shape="rect" id="Node000320" href="$classqSlicerSubjectHierarchyPluginLogic.html" title="Qt&#45;based logic class to exercise Qt&#45;related logic functions. The Subject hierarchy plugin mechanism a..." alt="" coords="621,8202,838,8242"/>
+<area shape="poly" id="edge444_Node000002_Node000320" title=" " alt="" coords="437,4151,494,4316,527,4431,551,4550,558,4748,561,5152,562,6302,563,6911,569,7450,580,7852,588,7980,599,8047,620,8093,649,8136,707,8200,703,8203,645,8139,616,8096,593,8048,583,7980,574,7852,563,7450,558,6911,557,6302,556,5152,553,4748,545,4550,521,4432,489,4318,432,4153"/>
+<area shape="rect" id="Node000371" href="$classqSlicerTerminologyEditorDialog.html" title="Qt dialog for selecting a terminology entry." alt="" coords="637,4138,821,4178"/>
+<area shape="poly" id="edge448_Node000002_Node000371" title=" " alt="" coords="474,4129,637,4146,636,4151,473,4134"/>
+<area shape="rect" id="Node000372" href="$classqSlicerTerminologySelectorDialog.html" title="Qt dialog for selecting a terminology entry." alt="" coords="630,4202,829,4242"/>
+<area shape="poly" id="edge450_Node000002_Node000372" title=" " alt="" coords="468,4141,597,4187,640,4199,638,4204,595,4193,466,4146"/>
+<area shape="rect" id="Node000378" href="$classqSlicerWebPythonProxy.html" title=" " alt="" coords="641,4267,817,4292"/>
+<area shape="poly" id="edge458_Node000002_Node000378" title=" " alt="" coords="448,4146,512,4200,553,4228,597,4252,642,4266,640,4271,595,4256,550,4233,509,4204,445,4150"/>
+<area shape="rect" id="Node000379" href="$classqSlicerWidgetValueWrapper.html" title=" " alt="" coords="628,4316,831,4341"/>
+<area shape="poly" id="edge460_Node000002_Node000379" title=" " alt="" coords="442,4149,468,4184,503,4226,547,4268,597,4302,629,4315,627,4320,595,4307,544,4272,500,4230,464,4187,438,4152"/>
+<area shape="rect" id="Node000118" href="$classqSlicerAbstractModule.html" title=" " alt="" coords="964,3007,1132,3032"/>
+<area shape="poly" id="edge310_Node000117_Node000118" title=" " alt="" coords="841,3091,861,3082,876,3073,885,3062,894,3051,910,3041,963,3024,965,3029,912,3046,898,3055,889,3066,879,3077,864,3087,843,3096"/>
+<area shape="rect" id="Node000119" href="$classqSlicerCLIModule.html" title=" " alt="" coords="1294,3007,1429,3032"/>
+<area shape="poly" id="edge311_Node000118_Node000119" title=" " alt="" coords="1146,3017,1294,3017,1294,3022,1146,3022"/>
+<area shape="rect" id="Node000120" href="$classqSlicerCoreModule.html" title=" " alt="" coords="1289,3129,1433,3155"/>
+<area shape="poly" id="edge312_Node000118_Node000120" title=" " alt="" coords="1146,3030,1186,3041,1233,3061,1277,3084,1344,3127,1341,3131,1274,3089,1230,3065,1184,3046,1145,3035"/>
+<area shape="rect" id="Node000122" href="$classqSlicerLoadableModule.html" title=" " alt="" coords="1275,2748,1448,2773"/>
+<area shape="poly" id="edge314_Node000118_Node000122" title=" " alt="" coords="1074,2996,1343,2772,1346,2776,1077,3000"/>
+<area shape="rect" id="Node000121" href="$classqSlicerEventBrokerModule.html" title=" " alt="" coords="1555,3316,1749,3341"/>
+<area shape="poly" id="edge313_Node000120_Node000121" title=" " alt="" coords="1395,3160,1442,3195,1491,3239,1505,3257,1514,3273,1523,3287,1539,3301,1565,3314,1563,3318,1536,3306,1519,3291,1509,3276,1501,3260,1487,3242,1438,3199,1391,3164"/>
+<area shape="rect" id="Node000123" href="$classqSlicerAnnotationsModule.html" title=" " alt="" coords="1556,3267,1748,3292"/>
+<area shape="poly" id="edge315_Node000122_Node000123" title=" " alt="" coords="1381,2783,1436,2873,1466,2932,1492,2993,1502,3033,1505,3069,1500,3134,1499,3164,1504,3193,1516,3222,1539,3252,1557,3265,1554,3270,1535,3256,1511,3224,1498,3194,1494,3164,1495,3134,1499,3069,1497,3034,1487,2995,1461,2934,1431,2876,1377,2786"/>
+<area shape="rect" id="Node000124" href="$classqSlicerCamerasModule.html" title=" " alt="" coords="1566,2181,1738,2207"/>
+<area shape="poly" id="edge316_Node000122_Node000124" title=" " alt="" coords="1360,2734,1365,2636,1374,2569,1389,2495,1410,2420,1441,2345,1482,2276,1507,2244,1536,2216,1565,2199,1567,2204,1539,2220,1511,2248,1487,2279,1446,2347,1416,2421,1394,2497,1379,2570,1371,2636,1365,2734"/>
+<area shape="rect" id="Node000125" href="$classqSlicerColorsModule.html" title=" " alt="" coords="1575,2231,1729,2256"/>
+<area shape="poly" id="edge317_Node000122_Node000125" title=" " alt="" coords="1361,2734,1369,2644,1379,2583,1395,2517,1417,2448,1447,2381,1486,2319,1536,2265,1553,2253,1573,2246,1575,2251,1556,2258,1539,2269,1490,2322,1452,2384,1422,2450,1400,2518,1385,2584,1375,2644,1366,2734"/>
+<area shape="rect" id="Node000126" href="$classqSlicerCropVolumeModule.html" title=" " alt="" coords="1555,2280,1749,2305"/>
+<area shape="poly" id="edge318_Node000122_Node000126" title=" " alt="" coords="1362,2734,1373,2652,1385,2597,1401,2538,1424,2477,1453,2417,1490,2362,1536,2315,1554,2303,1557,2308,1539,2319,1494,2365,1458,2420,1429,2479,1406,2539,1390,2598,1379,2653,1367,2735"/>
+<area shape="rect" id="Node000127" href="$classqSlicerDataModule.html" title=" " alt="" coords="1579,2329,1725,2355"/>
+<area shape="poly" id="edge319_Node000122_Node000127" title=" " alt="" coords="1363,2734,1378,2660,1408,2559,1430,2506,1459,2453,1494,2405,1536,2364,1556,2352,1578,2344,1580,2349,1558,2357,1539,2368,1498,2409,1463,2456,1435,2508,1413,2561,1383,2661,1369,2735"/>
+<area shape="rect" id="Node000128" href="$classqSlicerMarkupsModule.html" title=" " alt="" coords="1567,2379,1737,2404"/>
+<area shape="poly" id="edge320_Node000122_Node000128" title=" " alt="" coords="1365,2734,1382,2668,1415,2581,1437,2535,1465,2490,1497,2449,1536,2413,1566,2398,1568,2402,1539,2418,1501,2452,1469,2493,1442,2537,1419,2583,1388,2670,1370,2735"/>
+<area shape="rect" id="Node000129" href="$classqSlicerModelsModule.html" title=" " alt="" coords="1571,2428,1733,2453"/>
+<area shape="poly" id="edge321_Node000122_Node000129" title=" " alt="" coords="1368,2734,1388,2676,1422,2602,1444,2564,1471,2526,1501,2492,1536,2462,1570,2446,1572,2451,1539,2467,1505,2496,1475,2530,1449,2567,1427,2605,1393,2678,1373,2735"/>
+<area shape="rect" id="Node000130" href="$classqSlicerPlotsModule.html" title=" " alt="" coords="1579,2477,1725,2503"/>
+<area shape="poly" id="edge322_Node000122_Node000130" title=" " alt="" coords="1371,2734,1393,2686,1429,2625,1477,2563,1505,2536,1536,2512,1556,2501,1578,2494,1579,2499,1558,2506,1539,2516,1508,2540,1481,2567,1433,2628,1398,2689,1375,2737"/>
+<area shape="rect" id="Node000131" href="$classqSlicerReformatModule.html" title=" " alt="" coords="1565,2527,1739,2552"/>
+<area shape="poly" id="edge323_Node000122_Node000131" title=" " alt="" coords="1375,2734,1401,2695,1437,2648,1483,2601,1536,2561,1563,2549,1565,2554,1539,2566,1486,2605,1441,2652,1405,2699,1379,2737"/>
+<area shape="rect" id="Node000132" href="$classqSlicerSceneViewsModule.html" title=" " alt="" coords="1556,2576,1748,2601"/>
+<area shape="poly" id="edge324_Node000122_Node000132" title=" " alt="" coords="1381,2736,1445,2673,1489,2639,1536,2610,1566,2599,1568,2604,1538,2615,1492,2643,1449,2677,1384,2740"/>
+<area shape="rect" id="Node000133" href="$classqSlicerScriptedLoadableModule.html" title=" " alt="" coords="1539,2625,1765,2651"/>
+<area shape="poly" id="edge325_Node000122_Node000133" title=" " alt="" coords="1391,2738,1456,2698,1536,2660,1574,2648,1576,2653,1538,2664,1459,2703,1394,2742"/>
+<area shape="rect" id="Node000134" href="$classqSlicerSegmentationsModule.html" title=" " alt="" coords="1546,2675,1758,2700"/>
+<area shape="poly" id="edge326_Node000122_Node000134" title=" " alt="" coords="1417,2741,1537,2709,1586,2697,1588,2703,1538,2714,1419,2747"/>
+<area shape="rect" id="Node000135" href="$classqSlicerSequencesModule.html" title=" " alt="" coords="1560,2724,1744,2749"/>
+<area shape="poly" id="edge327_Node000122_Node000135" title=" " alt="" coords="1461,2750,1560,2742,1560,2747,1462,2755"/>
+<area shape="rect" id="Node000136" href="$classqSlicerSubjectHierarchyModule.html" title=" " alt="" coords="1539,2773,1765,2799"/>
+<area shape="poly" id="edge328_Node000122_Node000136" title=" " alt="" coords="1462,2767,1539,2774,1539,2779,1462,2772"/>
+<area shape="rect" id="Node000137" href="$classqSlicerTablesModule.html" title=" " alt="" coords="1575,2823,1729,2848"/>
+<area shape="poly" id="edge329_Node000122_Node000137" title=" " alt="" coords="1419,2775,1538,2807,1591,2820,1590,2825,1537,2813,1418,2780"/>
+<area shape="rect" id="Node000138" href="$classqSlicerTerminologiesModule.html" title=" " alt="" coords="1549,2872,1755,2897"/>
+<area shape="poly" id="edge330_Node000122_Node000138" title=" " alt="" coords="1394,2779,1459,2818,1538,2857,1579,2869,1578,2874,1536,2862,1456,2823,1391,2783"/>
+<area shape="rect" id="Node000139" href="$classqSlicerTextsModule.html" title=" " alt="" coords="1578,2921,1726,2947"/>
+<area shape="poly" id="edge331_Node000122_Node000139" title=" " alt="" coords="1385,2782,1449,2845,1492,2878,1538,2906,1578,2921,1577,2926,1536,2911,1489,2883,1446,2849,1381,2786"/>
+<area shape="rect" id="Node000140" href="$classqSlicerTransformsModule.html" title=" " alt="" coords="1559,2971,1745,2996"/>
+<area shape="poly" id="edge332_Node000122_Node000140" title=" " alt="" coords="1379,2784,1405,2823,1441,2869,1486,2917,1539,2956,1567,2968,1564,2973,1536,2960,1483,2921,1437,2873,1401,2826,1375,2787"/>
+<area shape="rect" id="Node000141" href="$classqSlicerUnitsModule.html" title=" " alt="" coords="1578,3020,1726,3045"/>
+<area shape="poly" id="edge333_Node000122_Node000141" title=" " alt="" coords="1375,2785,1398,2833,1434,2893,1481,2954,1508,2982,1539,3005,1579,3022,1577,3027,1536,3010,1505,2986,1477,2958,1429,2896,1394,2835,1371,2787"/>
+<area shape="rect" id="Node000142" href="$classqSlicerViewControllersModule.html" title=" " alt="" coords="1543,3069,1761,3095"/>
+<area shape="poly" id="edge334_Node000122_Node000142" title=" " alt="" coords="1378,2784,1463,2938,1509,3015,1539,3055,1562,3067,1559,3072,1536,3059,1504,3018,1458,2941,1373,2787"/>
+<area shape="rect" id="Node000143" href="$classqSlicerVolumeRenderingModule.html" title=" " alt="" coords="1537,3119,1767,3144"/>
+<area shape="poly" id="edge335_Node000122_Node000143" title=" " alt="" coords="1380,2784,1431,2875,1492,2993,1504,3026,1509,3055,1518,3079,1539,3104,1559,3116,1557,3121,1536,3108,1513,3082,1504,3056,1498,3028,1487,2995,1426,2878,1375,2787"/>
+<area shape="rect" id="Node000144" href="$classqSlicerVolumesModule.html" title=" " alt="" coords="1567,3168,1737,3193"/>
+<area shape="poly" id="edge336_Node000122_Node000144" title=" " alt="" coords="1381,2784,1433,2874,1464,2932,1492,2993,1500,3018,1504,3041,1506,3081,1513,3117,1523,3135,1539,3153,1568,3170,1565,3175,1536,3157,1519,3138,1508,3119,1501,3082,1499,3041,1495,3019,1487,2995,1459,2935,1429,2877,1376,2787"/>
+<area shape="rect" id="Node000145" href="$classqSlicerWelcomeModule.html" title=" " alt="" coords="1565,3217,1739,3243"/>
+<area shape="poly" id="edge337_Node000122_Node000145" title=" " alt="" coords="1381,2784,1435,2874,1465,2932,1492,2993,1501,3026,1504,3055,1503,3108,1504,3132,1508,3155,1519,3178,1539,3203,1566,3219,1563,3224,1536,3207,1515,3181,1503,3157,1499,3132,1498,3108,1499,3055,1496,3027,1487,2995,1461,2934,1430,2876,1377,2786"/>
+<area shape="rect" id="Node000147" href="$classqSlicerModuleFactoryManager.html" title=" " alt="" coords="939,3056,1157,3081"/>
+<area shape="poly" id="edge339_Node000146_Node000147" title=" " alt="" coords="843,3140,861,3132,875,3122,884,3111,894,3100,909,3090,940,3079,942,3084,912,3095,898,3104,888,3115,879,3126,864,3136,845,3145"/>
+<area shape="rect" id="Node000156" href="$classqSlicerIOManager.html" title=" " alt="" coords="979,3105,1117,3131"/>
+<area shape="poly" id="edge349_Node000155_Node000156" title=" " alt="" coords="825,3575,844,3566,861,3553,880,3528,893,3503,900,3478,903,3453,897,3401,884,3349,870,3297,865,3244,867,3218,875,3192,888,3166,909,3140,924,3128,941,3119,979,3111,980,3117,943,3124,927,3132,913,3144,893,3169,880,3194,873,3219,870,3244,876,3296,889,3348,902,3400,908,3452,906,3479,898,3505,885,3531,865,3557,847,3571,827,3580"/>
+<area shape="rect" id="Node000160" href="$classqSlicerDataDialog.html" title=" " alt="" coords="979,3303,1117,3328"/>
+<area shape="poly" id="edge357_Node000159_Node000160" title=" " alt="" coords="807,3743,837,3734,861,3717,879,3695,891,3671,898,3648,900,3625,895,3577,884,3530,872,3481,867,3433,870,3409,877,3385,890,3361,909,3337,924,3325,941,3317,978,3309,979,3314,943,3322,927,3330,913,3341,894,3364,882,3387,875,3410,873,3433,877,3481,889,3528,901,3577,905,3625,903,3649,896,3673,883,3697,864,3721,839,3739,809,3748"/>
+<area shape="rect" id="Node000161" href="$classqSlicerExportNodeDialog.html" title=" " alt="" coords="956,3352,1140,3377"/>
+<area shape="poly" id="edge358_Node000159_Node000161" title=" " alt="" coords="807,3743,836,3734,861,3717,877,3698,887,3678,896,3638,893,3597,884,3555,875,3513,872,3471,881,3429,892,3409,909,3388,930,3372,955,3363,957,3368,933,3377,913,3392,897,3412,886,3431,877,3472,880,3512,889,3554,898,3596,902,3638,892,3680,881,3701,864,3721,839,3739,809,3748"/>
+<area shape="rect" id="Node000162" href="$classqSlicerModelsDialog.html" title=" " alt="" coords="971,3155,1125,3180"/>
+<area shape="poly" id="edge359_Node000159_Node000162" title=" " alt="" coords="807,3743,837,3735,861,3717,873,3699,882,3675,890,3612,889,3537,884,3455,879,3374,878,3298,886,3235,895,3209,909,3189,937,3170,970,3161,971,3167,939,3175,913,3193,900,3212,892,3236,883,3298,884,3373,889,3455,894,3537,895,3612,887,3676,878,3701,865,3721,839,3740,809,3749"/>
+<area shape="rect" id="Node000163" href="$classqSlicerSaveDataDialog.html" title=" " alt="" coords="963,3204,1133,3229"/>
+<area shape="poly" id="edge360_Node000159_Node000163" title=" " alt="" coords="808,3743,837,3735,861,3717,872,3701,880,3679,888,3622,888,3554,884,3480,880,3406,880,3337,888,3280,897,3257,909,3239,933,3221,962,3212,963,3217,936,3226,913,3243,901,3259,893,3281,885,3338,885,3406,889,3480,893,3554,893,3622,885,3680,877,3703,865,3721,839,3739,809,3748"/>
+<area shape="rect" id="Node000164" href="$classqSlicerStandardFileDialog.html" title=" " alt="" coords="953,3253,1143,3279"/>
+<area shape="poly" id="edge361_Node000159_Node000164" title=" " alt="" coords="807,3743,837,3735,861,3717,881,3691,894,3665,902,3639,904,3612,898,3559,884,3505,869,3451,863,3396,866,3369,874,3342,888,3315,909,3288,929,3273,952,3264,954,3269,931,3278,913,3292,892,3318,879,3344,871,3370,869,3396,875,3450,889,3504,903,3558,909,3612,907,3640,899,3667,885,3694,865,3721,839,3739,809,3748"/>
+<area shape="rect" id="Node000165" href="$classqSlicerScriptedFileDialog.html" title=" " alt="" coords="1269,3253,1453,3279"/>
+<area shape="poly" id="edge362_Node000164_Node000165" title=" " alt="" coords="1156,3263,1269,3263,1269,3269,1156,3269"/>
+<area shape="rect" id="Node000167" href="$classqSlicerFileReader.html" title=" " alt="" coords="981,7481,1115,7507"/>
+<area shape="poly" id="edge365_Node000166_Node000167" title=" " alt="" coords="783,8022,824,8015,844,8007,861,7996,891,7959,921,7901,949,7830,975,7753,1018,7604,1041,7506,1046,7507,1023,7605,980,7754,954,7832,926,7903,895,7962,864,8000,846,8012,825,8020,783,8027"/>
+<area shape="rect" id="Node000184" href="$classqSlicerFileWriter.html" title=" " alt="" coords="983,7949,1113,7975"/>
+<area shape="poly" id="edge382_Node000166_Node000184" title=" " alt="" coords="782,8010,862,7995,983,7972,984,7977,863,8001,783,8015"/>
+<area shape="rect" id="Node000168" href="$classqSlicerAnnotationsReader.html" title=" " alt="" coords="1266,7629,1457,7655"/>
+<area shape="poly" id="edge366_Node000167_Node000168" title=" " alt="" coords="1076,7513,1144,7566,1188,7593,1234,7616,1269,7627,1268,7632,1232,7620,1186,7597,1141,7570,1072,7518"/>
+<area shape="rect" id="Node000169" href="$classqSlicerColorsReader.html" title=" " alt="" coords="1285,7679,1438,7704"/>
+<area shape="poly" id="edge367_Node000167_Node000169" title=" " alt="" coords="1069,7516,1098,7551,1136,7591,1183,7632,1234,7665,1285,7682,1283,7687,1232,7670,1179,7636,1133,7595,1094,7554,1065,7520"/>
+<area shape="rect" id="Node000170" href="$classqSlicerMarkupsReader.html" title=" " alt="" coords="1278,7728,1445,7753"/>
+<area shape="poly" id="edge368_Node000167_Node000170" title=" " alt="" coords="1064,7518,1090,7561,1128,7615,1177,7670,1205,7694,1235,7714,1279,7731,1277,7736,1232,7719,1201,7698,1173,7674,1124,7619,1086,7564,1060,7520"/>
+<area shape="rect" id="Node000171" href="$classqSlicerModelsReader.html" title=" " alt="" coords="1282,7777,1441,7803"/>
+<area shape="poly" id="edge369_Node000167_Node000171" title=" " alt="" coords="1061,7518,1084,7571,1121,7639,1171,7707,1201,7738,1235,7764,1258,7775,1283,7783,1281,7788,1256,7780,1232,7768,1198,7742,1167,7711,1116,7641,1079,7574,1056,7520"/>
+<area shape="rect" id="Node000172" href="$classqSlicerSceneBundleReader.html" title=" " alt="" coords="1263,7827,1459,7852"/>
+<area shape="poly" id="edge370_Node000167_Node000172" title=" " alt="" coords="1059,7519,1079,7580,1114,7661,1137,7703,1165,7744,1198,7782,1235,7813,1264,7828,1262,7833,1232,7818,1194,7785,1161,7747,1133,7706,1109,7663,1074,7582,1053,7521"/>
+<area shape="rect" id="Node000173" href="$classqSlicerSceneReader.html" title=" " alt="" coords="1286,7087,1437,7112"/>
+<area shape="poly" id="edge371_Node000167_Node000173" title=" " alt="" coords="1052,7467,1069,7397,1103,7303,1126,7253,1156,7205,1191,7161,1232,7123,1257,7108,1285,7100,1286,7105,1259,7113,1235,7127,1194,7164,1160,7208,1131,7256,1107,7305,1074,7399,1057,7469"/>
+<area shape="rect" id="Node000174" href="$classqSlicerScriptedFileReader.html" title=" " alt="" coords="1267,7136,1455,7161"/>
+<area shape="poly" id="edge372_Node000167_Node000174" title=" " alt="" coords="1054,7467,1074,7406,1110,7325,1133,7283,1162,7242,1194,7204,1232,7172,1266,7155,1268,7160,1235,7176,1198,7208,1166,7245,1138,7285,1114,7327,1079,7408,1059,7469"/>
+<area shape="rect" id="Node000175" href="$classqSlicerSegmentationsReader.html" title=" " alt="" coords="1256,7185,1467,7211"/>
+<area shape="poly" id="edge373_Node000167_Node000175" title=" " alt="" coords="1056,7468,1080,7415,1117,7348,1167,7279,1198,7248,1232,7221,1257,7208,1259,7213,1235,7226,1201,7252,1171,7282,1121,7350,1084,7417,1061,7470"/>
+<area shape="rect" id="Node000176" href="$classqSlicerSequencesReader.html" title=" " alt="" coords="1270,7235,1453,7260"/>
+<area shape="poly" id="edge374_Node000167_Node000176" title=" " alt="" coords="1060,7467,1086,7424,1125,7370,1174,7316,1202,7291,1232,7270,1269,7255,1271,7260,1235,7275,1205,7295,1177,7319,1129,7373,1091,7427,1065,7470"/>
+<area shape="rect" id="Node000177" href="$classqSlicerShaderPropertyReader.html" title=" " alt="" coords="1255,7284,1467,7309"/>
+<area shape="poly" id="edge375_Node000167_Node000177" title=" " alt="" coords="1065,7468,1094,7434,1133,7394,1180,7353,1232,7320,1264,7307,1266,7312,1235,7324,1183,7358,1136,7398,1098,7438,1069,7472"/>
+<area shape="rect" id="Node000178" href="$classqSlicerTablesReader.html" title=" " alt="" coords="1285,7333,1438,7359"/>
+<area shape="poly" id="edge376_Node000167_Node000178" title=" " alt="" coords="1073,7471,1142,7419,1186,7392,1232,7369,1283,7354,1285,7359,1234,7374,1188,7396,1145,7424,1076,7475"/>
+<area shape="rect" id="Node000179" href="$classqSlicerTerminologiesReader.html" title=" " alt="" coords="1260,7383,1463,7408"/>
+<area shape="poly" id="edge377_Node000167_Node000179" title=" " alt="" coords="1088,7473,1155,7445,1233,7418,1284,7405,1285,7411,1234,7423,1157,7450,1090,7478"/>
+<area shape="rect" id="Node000180" href="$classqSlicerTextsReader.html" title=" " alt="" coords="1288,7432,1435,7457"/>
+<area shape="poly" id="edge378_Node000167_Node000180" title=" " alt="" coords="1129,7479,1287,7453,1288,7459,1129,7484"/>
+<area shape="rect" id="Node000181" href="$classqSlicerTransformsReader.html" title=" " alt="" coords="1269,7481,1453,7507"/>
+<area shape="poly" id="edge379_Node000167_Node000181" title=" " alt="" coords="1129,7491,1269,7491,1269,7497,1129,7497"/>
+<area shape="rect" id="Node000182" href="$classqSlicerVolumeRenderingReader.html" title=" " alt="" coords="1248,7531,1475,7556"/>
+<area shape="poly" id="edge380_Node000167_Node000182" title=" " alt="" coords="1129,7504,1280,7528,1280,7533,1129,7509"/>
+<area shape="rect" id="Node000183" href="$classqSlicerVolumesReader.html" title=" " alt="" coords="1277,7580,1445,7605"/>
+<area shape="poly" id="edge381_Node000167_Node000183" title=" " alt="" coords="1090,7510,1157,7539,1234,7566,1280,7577,1279,7583,1233,7571,1155,7544,1088,7515"/>
+<area shape="rect" id="Node000185" href="$classqSlicerNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="1291,7876,1431,7901"/>
+<area shape="poly" id="edge383_Node000184_Node000185" title=" " alt="" coords="1107,7943,1233,7911,1292,7899,1293,7904,1234,7917,1109,7948"/>
+<area shape="rect" id="Node000188" href="$classqSlicerSceneWriter.html" title=" " alt="" coords="1289,7925,1434,7951"/>
+<area shape="poly" id="edge386_Node000184_Node000188" title=" " alt="" coords="1126,7953,1288,7941,1289,7946,1127,7959"/>
+<area shape="rect" id="Node000189" href="$classqSlicerScriptedFileWriter.html" title=" " alt="" coords="1270,7975,1453,8000"/>
+<area shape="poly" id="edge387_Node000184_Node000189" title=" " alt="" coords="1127,7966,1270,7977,1270,7983,1126,7971"/>
+<area shape="rect" id="Node000186" href="$classqSlicerMarkupsWriter.html" title="Utility class that offers writing of markups in both json format, regardless of the current storage n..." alt="" coords="1571,7848,1733,7873"/>
+<area shape="poly" id="edge384_Node000185_Node000186" title=" " alt="" coords="1445,7878,1571,7866,1571,7871,1446,7883"/>
+<area shape="rect" id="Node000187" href="$classqSlicerSegmentationsNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="1553,7898,1751,7938"/>
+<area shape="poly" id="edge385_Node000185_Node000187" title=" " alt="" coords="1445,7894,1553,7905,1552,7911,1445,7900"/>
+<area shape="rect" id="Node000330" href="$classqSlicerSegmentEditorAbstractLabelEffect.html" title="Base class for all &quot;label&quot; effects." alt="" coords="940,4938,1156,4978"/>
+<area shape="poly" id="edge404_Node000329_Node000330" title=" " alt="" coords="851,4404,865,4416,877,4436,886,4460,894,4521,893,4594,889,4672,885,4750,885,4822,893,4883,901,4906,913,4924,926,4936,941,4945,938,4949,922,4940,909,4928,896,4908,888,4884,880,4823,880,4750,884,4672,888,4594,888,4522,880,4462,872,4438,861,4420,848,4408"/>
+<area shape="rect" id="Node000336" href="$classqSlicerSegmentEditorScriptedEffect.html" title="Scripted abstract effect for implementing segment editor effects in python." alt="" coords="941,5002,1155,5042"/>
+<area shape="poly" id="edge410_Node000329_Node000336" title=" " alt="" coords="851,4404,865,4416,878,4438,888,4466,896,4535,895,4616,889,4704,883,4792,882,4873,891,4941,900,4968,913,4988,926,5000,942,5009,939,5014,923,5004,909,4992,895,4970,885,4942,877,4874,878,4792,884,4704,890,4616,891,4535,883,4467,874,4440,861,4420,848,4408"/>
+<area shape="rect" id="Node000331" href="$classqSlicerSegmentEditorPaintEffect.html" title=" " alt="" coords="1264,4938,1459,4978"/>
+<area shape="poly" id="edge405_Node000330_Node000331" title=" " alt="" coords="1170,4955,1264,4955,1264,4961,1170,4961"/>
+<area shape="rect" id="Node000334" href="$classqSlicerSegmentEditorScissorsEffect.html" title=" " alt="" coords="1254,5002,1469,5042"/>
+<area shape="poly" id="edge408_Node000330_Node000334" title=" " alt="" coords="1161,4978,1263,4999,1262,5005,1159,4983"/>
+<area shape="rect" id="Node000335" href="$classqSlicerSegmentEditorScriptedLabelEffect.html" title="Scripted abstract effect for implementing label effects in python." alt="" coords="1254,4874,1469,4914"/>
+<area shape="poly" id="edge409_Node000330_Node000335" title=" " alt="" coords="1159,4933,1262,4911,1263,4917,1161,4938"/>
+<area shape="rect" id="Node000332" href="$classqSlicerSegmentEditorEraseEffect.html" title=" " alt="" coords="1553,4906,1751,4946"/>
+<area shape="poly" id="edge406_Node000331_Node000332" title=" " alt="" coords="1472,4943,1552,4934,1553,4940,1473,4948"/>
+<area shape="rect" id="Node000333" href="$classqSlicerSegmentEditorScriptedPaintEffect.html" title="Scripted abstract effect for implementing paint effects in python." alt="" coords="1545,4970,1759,5010"/>
+<area shape="poly" id="edge407_Node000331_Node000333" title=" " alt="" coords="1473,4968,1545,4976,1544,4981,1472,4973"/>
+<area shape="rect" id="Node000342" href="$classqSlicerSubjectHierarchyCloneNodePlugin.html" title=" " alt="" coords="941,4170,1155,4210"/>
+<area shape="poly" id="edge417_Node000341_Node000342" title=" " alt="" coords="858,3991,865,3996,880,4016,888,4037,889,4078,891,4118,898,4137,912,4156,942,4175,939,4179,909,4160,893,4140,885,4119,884,4078,883,4038,876,4019,861,4000,855,3995"/>
+<area shape="rect" id="Node000343" href="$classqSlicerSubjectHierarchyColorLegendPlugin.html" title=" " alt="" coords="943,4234,1153,4274"/>
+<area shape="poly" id="edge418_Node000341_Node000343" title=" " alt="" coords="858,3990,865,3996,885,4024,893,4053,893,4082,889,4110,886,4139,886,4166,893,4193,913,4220,927,4232,944,4240,941,4245,924,4236,909,4224,889,4196,880,4167,880,4138,884,4110,888,4082,887,4054,880,4027,861,4000,854,3994"/>
+<area shape="rect" id="Node000344" href="$classqSlicerSubjectHierarchyDefaultPlugin.html" title="Default Subject Hierarchy plugin to exercise features of the abstract plugin. This plugin must not be..." alt="" coords="935,4298,1161,4338"/>
+<area shape="poly" id="edge419_Node000341_Node000344" title=" " alt="" coords="858,3990,865,3996,889,4033,898,4070,896,4106,889,4143,882,4179,881,4214,889,4249,913,4284,937,4302,933,4306,909,4288,884,4251,876,4215,877,4178,884,4142,891,4106,892,4070,884,4035,861,4000,854,3994"/>
+<area shape="rect" id="Node000345" href="$classqSlicerSubjectHierarchyDiffusionTensorVolumesPlugin.html" title=" " alt="" coords="931,4362,1165,4402"/>
+<area shape="poly" id="edge420_Node000341_Node000345" title=" " alt="" coords="858,3990,865,3996,882,4019,893,4041,900,4063,903,4086,899,4130,889,4175,879,4219,876,4262,878,4284,885,4305,896,4327,913,4348,932,4364,929,4368,909,4352,892,4330,880,4307,873,4285,871,4262,874,4218,884,4174,894,4130,897,4086,895,4065,888,4043,877,4021,861,4000,854,3993"/>
+<area shape="rect" id="Node000346" href="$classqSlicerSubjectHierarchyExpandToDepthPlugin.html" title=" " alt="" coords="935,4426,1161,4466"/>
+<area shape="poly" id="edge421_Node000341_Node000346" title=" " alt="" coords="858,3989,865,3996,884,4023,898,4049,905,4076,907,4102,902,4155,889,4207,876,4259,871,4310,873,4335,881,4361,893,4387,913,4412,937,4430,934,4435,909,4416,889,4389,876,4363,868,4336,866,4310,871,4258,884,4206,897,4154,902,4102,900,4077,893,4051,880,4026,861,4000,854,3993"/>
+<area shape="rect" id="Node000347" href="$classqSlicerSubjectHierarchyExportPlugin.html" title=" " alt="" coords="939,4490,1157,4530"/>
+<area shape="poly" id="edge422_Node000341_Node000347" title=" " alt="" coords="858,3989,865,3996,887,4027,902,4058,910,4088,912,4119,905,4179,889,4239,873,4298,866,4358,868,4387,876,4417,891,4446,913,4476,940,4496,937,4500,909,4480,886,4449,871,4419,863,4388,861,4358,868,4297,884,4237,900,4178,907,4118,905,4089,897,4059,883,4030,861,4000,854,3993"/>
+<area shape="rect" id="Node000348" href="$classqSlicerSubjectHierarchyFolderPlugin.html" title="Subject hierarchy folder plugin." alt="" coords="939,4554,1157,4594"/>
+<area shape="poly" id="edge423_Node000341_Node000348" title=" " alt="" coords="858,3989,865,3996,878,4017,887,4043,895,4109,894,4186,889,4270,884,4354,883,4431,892,4495,900,4521,913,4540,941,4561,937,4565,909,4544,895,4523,886,4497,878,4431,879,4354,884,4270,889,4186,890,4109,882,4045,873,4019,861,4000,854,3993"/>
+<area shape="rect" id="Node000349" href="$classqSlicerSubjectHierarchyLabelMapsPlugin.html" title=" " alt="" coords="942,4618,1154,4658"/>
+<area shape="poly" id="edge424_Node000341_Node000349" title=" " alt="" coords="858,3989,865,3996,879,4020,889,4049,898,4122,896,4209,889,4302,883,4396,881,4482,889,4554,899,4582,913,4604,927,4617,943,4626,941,4630,923,4621,909,4608,894,4584,884,4555,876,4482,877,4396,884,4302,891,4208,892,4122,884,4050,874,4022,861,4000,854,3993"/>
+<area shape="rect" id="Node000350" href="$classqSlicerSubjectHierarchyMarkupsPlugin.html" title=" " alt="" coords="932,4682,1164,4722"/>
+<area shape="poly" id="edge425_Node000341_Node000350" title=" " alt="" coords="858,3989,865,3996,880,4022,891,4054,897,4092,900,4135,897,4231,889,4334,881,4438,878,4533,881,4575,887,4612,898,4644,913,4668,933,4685,930,4689,909,4672,893,4646,882,4614,876,4576,873,4533,876,4437,884,4334,892,4231,895,4135,892,4093,886,4056,876,4024,861,4000,854,3993"/>
+<area shape="rect" id="Node000351" href="$classqSlicerSubjectHierarchyModelsPlugin.html" title=" " alt="" coords="936,4746,1160,4786"/>
+<area shape="poly" id="edge426_Node000341_Node000351" title=" " alt="" coords="858,3989,865,3996,882,4024,893,4060,900,4102,902,4148,899,4253,889,4366,879,4479,876,4584,879,4630,885,4671,896,4705,913,4732,937,4751,934,4755,909,4736,891,4708,880,4672,873,4631,871,4584,874,4479,884,4366,894,4253,897,4148,895,4102,888,4061,877,4027,861,4000,854,3993"/>
+<area shape="rect" id="Node000352" href="$classqSlicerSubjectHierarchyOpacityPlugin.html" title=" " alt="" coords="935,4810,1161,4850"/>
+<area shape="poly" id="edge427_Node000341_Node000352" title=" " alt="" coords="858,3989,865,3996,883,4027,895,4065,902,4111,905,4161,900,4275,889,4398,878,4521,874,4635,876,4685,883,4730,895,4767,913,4796,936,4815,933,4819,909,4800,890,4769,878,4731,871,4686,868,4635,873,4521,884,4398,895,4275,900,4161,897,4111,890,4067,878,4029,861,4000,854,3993"/>
+<area shape="rect" id="Node000353" href="$classqSlicerSubjectHierarchyParseLocalDataPlugin.html" title=" " alt="" coords="942,4874,1154,4914"/>
+<area shape="poly" id="edge428_Node000341_Node000353" title=" " alt="" coords="858,3989,865,3996,885,4029,898,4071,905,4120,907,4175,902,4298,889,4430,876,4563,871,4686,874,4740,881,4788,894,4829,913,4860,927,4873,943,4882,941,4887,923,4877,909,4864,889,4831,876,4789,868,4740,866,4686,871,4563,884,4430,897,4297,902,4175,900,4120,892,4072,880,4032,861,4000,854,3993"/>
+<area shape="rect" id="Node000354" href="$classqSlicerSubjectHierarchyPlotsPlugin.html" title=" " alt="" coords="943,3402,1153,3442"/>
+<area shape="poly" id="edge429_Node000341_Node000354" title=" " alt="" coords="854,3938,861,3931,882,3901,897,3871,904,3842,907,3812,899,3753,884,3694,868,3634,861,3574,863,3544,871,3513,886,3483,909,3452,924,3439,942,3429,944,3434,927,3443,913,3456,891,3485,876,3515,868,3544,866,3574,873,3633,889,3692,905,3752,912,3812,910,3843,902,3873,887,3904,865,3934,858,3941"/>
+<area shape="rect" id="Node000355" href="$classqSlicerSubjectHierarchyRegisterPlugin.html" title=" " alt="" coords="933,3466,1163,3506"/>
+<area shape="poly" id="edge430_Node000341_Node000355" title=" " alt="" coords="854,3937,861,3931,880,3905,892,3880,899,3854,902,3828,896,3777,884,3726,871,3674,866,3622,868,3595,876,3569,889,3543,909,3516,930,3499,934,3503,913,3520,893,3545,881,3571,874,3596,871,3622,876,3673,889,3724,902,3776,907,3828,905,3855,897,3881,884,3908,865,3934,858,3941"/>
+<area shape="rect" id="Node000356" href="$classqSlicerSubjectHierarchyScriptedPlugin.html" title="Scripted abstract plugin for handling subject hierarchy items or providing actions for items." alt="" coords="933,3530,1163,3570"/>
+<area shape="poly" id="edge431_Node000341_Node000356" title=" " alt="" coords="854,3937,861,3931,877,3909,888,3888,894,3866,897,3845,893,3801,884,3758,874,3714,871,3669,873,3647,880,3625,892,3602,909,3580,931,3563,934,3567,913,3584,896,3605,885,3627,879,3648,876,3669,879,3713,889,3756,899,3800,902,3845,900,3867,893,3890,882,3912,865,3934,858,3941"/>
+<area shape="rect" id="Node000357" href="$classqSlicerSubjectHierarchySegmentationsPlugin.html" title=" " alt="" coords="911,3594,1185,3634"/>
+<area shape="poly" id="edge432_Node000341_Node000357" title=" " alt="" coords="854,3937,861,3931,884,3896,892,3861,890,3825,884,3790,877,3753,876,3717,884,3680,909,3644,923,3632,926,3636,913,3648,889,3683,881,3717,882,3753,889,3789,896,3825,897,3861,889,3898,865,3934,858,3941"/>
+<area shape="rect" id="Node000358" href="$classqSlicerSubjectHierarchySegmentsPlugin.html" title=" " alt="" coords="927,3658,1169,3698"/>
+<area shape="poly" id="edge433_Node000341_Node000358" title=" " alt="" coords="854,3937,861,3931,880,3904,887,3877,887,3849,884,3821,880,3793,881,3765,889,3736,909,3708,925,3695,928,3699,913,3712,894,3738,886,3765,886,3793,889,3821,893,3849,893,3878,884,3906,865,3934,858,3941"/>
+<area shape="rect" id="Node000359" href="$classqSlicerSubjectHierarchyTablesPlugin.html" title=" " alt="" coords="939,3722,1157,3762"/>
+<area shape="poly" id="edge434_Node000341_Node000359" title=" " alt="" coords="855,3936,861,3931,875,3912,882,3893,884,3853,885,3812,893,3792,909,3772,937,3754,940,3758,912,3776,898,3795,891,3813,889,3853,888,3894,880,3915,865,3935,858,3940"/>
+<area shape="rect" id="Node000360" href="$classqSlicerSubjectHierarchyTextsPlugin.html" title=" " alt="" coords="943,3786,1153,3826"/>
+<area shape="poly" id="edge435_Node000341_Node000360" title=" " alt="" coords="852,3937,861,3931,872,3920,878,3909,884,3885,890,3860,897,3848,909,3836,941,3818,944,3823,912,3840,902,3851,895,3862,889,3886,883,3911,876,3923,864,3935,855,3942"/>
+<area shape="rect" id="Node000361" href="$classqSlicerSubjectHierarchyTransformsPlugin.html" title=" " alt="" coords="923,3850,1173,3890"/>
+<area shape="poly" id="edge436_Node000341_Node000361" title=" " alt="" coords="838,3939,861,3930,885,3915,910,3900,944,3888,945,3893,912,3904,888,3920,864,3935,840,3944"/>
+<area shape="rect" id="Node000362" href="$classqSlicerSubjectHierarchyViewContextMenuPlugin.html" title="Subject hierarchy view menu plugin." alt="" coords="943,3914,1153,3954"/>
+<area shape="poly" id="edge437_Node000341_Node000362" title=" " alt="" coords="858,3950,943,3942,944,3947,858,3956"/>
+<area shape="rect" id="Node000363" href="$classqSlicerSubjectHierarchyVisibilityPlugin.html" title=" " alt="" coords="931,3978,1165,4018"/>
+<area shape="poly" id="edge438_Node000341_Node000363" title=" " alt="" coords="859,3976,931,3984,930,3989,858,3982"/>
+<area shape="rect" id="Node000364" href="$classqSlicerSubjectHierarchyVolumeRenderingPlugin.html" title=" " alt="" coords="935,4042,1161,4082"/>
+<area shape="poly" id="edge439_Node000341_Node000364" title=" " alt="" coords="844,3988,864,3996,888,4012,912,4028,945,4039,943,4044,909,4032,885,4016,861,4000,842,3993"/>
+<area shape="rect" id="Node000365" href="$classqSlicerSubjectHierarchyVolumesPlugin.html" title=" " alt="" coords="931,4106,1165,4146"/>
+<area shape="poly" id="edge440_Node000341_Node000365" title=" " alt="" coords="858,3991,864,3996,876,4008,883,4020,889,4045,895,4070,902,4081,912,4092,933,4104,930,4109,909,4096,897,4084,890,4072,884,4047,878,4022,872,4011,861,4000,854,3995"/>
+<area shape="rect" id="Node000232" href="$classqSlicerIOOptions.html" title=" " alt="" coords="664,9361,795,9387"/>
+<area shape="rect" id="Node000223" href="$classqSlicerIOOptionsWidget.html" title=" " alt="" coords="960,9361,1136,9387"/>
+<area shape="poly" id="edge461_Node000232_Node000223" title=" " alt="" coords="809,9371,960,9371,960,9377,809,9377"/>
+<area shape="rect" id="Node000224" href="$classqSlicerAnnotationsIOOptionsWidget.html" title=" " alt="" coords="1257,9383,1465,9423"/>
+<area shape="poly" id="edge462_Node000223_Node000224" title=" " alt="" coords="1150,9381,1257,9391,1257,9396,1149,9386"/>
+<area shape="rect" id="Node000225" href="$classqSlicerFileWriterOptionsWidget.html" title="Base class for all the Writer Options widget." alt="" coords="1272,9447,1451,9487"/>
+<area shape="poly" id="edge463_Node000223_Node000225" title=" " alt="" coords="1150,9385,1186,9397,1201,9406,1211,9415,1221,9424,1235,9433,1273,9447,1271,9452,1232,9438,1217,9428,1208,9419,1198,9410,1184,9402,1148,9390"/>
+<area shape="rect" id="Node000228" href="$classqSlicerModelsIOOptionsWidget.html" title=" " alt="" coords="1250,9512,1473,9537"/>
+<area shape="poly" id="edge466_Node000223_Node000228" title=" " alt="" coords="1150,9379,1187,9397,1199,9409,1206,9422,1212,9449,1217,9474,1224,9486,1235,9497,1256,9510,1254,9514,1232,9501,1220,9489,1212,9476,1207,9450,1201,9424,1195,9413,1184,9401,1148,9384"/>
+<area shape="rect" id="Node000229" href="$classqSlicerSceneIOOptionsWidget.html" title=" " alt="" coords="1254,9561,1469,9587"/>
+<area shape="poly" id="edge467_Node000223_Node000229" title=" " alt="" coords="1150,9377,1170,9385,1187,9397,1203,9416,1210,9435,1212,9475,1214,9513,1221,9531,1235,9548,1255,9561,1252,9565,1232,9552,1216,9533,1208,9514,1207,9475,1205,9436,1198,9419,1184,9401,1167,9390,1148,9382"/>
+<area shape="rect" id="Node000230" href="$classqSlicerSegmentationsIOOptionsWidget.html" title=" " alt="" coords="1247,9269,1475,9309"/>
+<area shape="poly" id="edge468_Node000223_Node000230" title=" " alt="" coords="1106,9355,1233,9319,1282,9306,1284,9311,1234,9325,1108,9360"/>
+<area shape="rect" id="Node000231" href="$classqSlicerVolumesIOOptionsWidget.html" title=" " alt="" coords="1245,9333,1477,9359"/>
+<area shape="poly" id="edge469_Node000223_Node000231" title=" " alt="" coords="1149,9362,1245,9354,1245,9359,1150,9368"/>
+<area shape="rect" id="Node000226" href="$classqSlicerNodeWriterOptionsWidget.html" title=" " alt="" coords="1557,9447,1747,9487"/>
+<area shape="poly" id="edge464_Node000225_Node000226" title=" " alt="" coords="1465,9465,1556,9465,1556,9470,1465,9470"/>
+<area shape="rect" id="Node000227" href="$classqSlicerSegmentationsNodeWriterOptionsWidget.html" title=" " alt="" coords="1815,9447,2013,9487"/>
+<area shape="poly" id="edge465_Node000226_Node000227" title=" " alt="" coords="1761,9465,1814,9465,1814,9470,1761,9470"/>
+<area shape="rect" id="Node000190" href="$classqSlicerObject.html" title=" " alt="" coords="369,8381,477,8407"/>
+<area shape="poly" id="edge495_Node000190_Node000166" title=" " alt="" coords="441,8369,716,8033,720,8036,445,8372"/>
+<area shape="poly" id="edge496_Node000190_Node000320" title=" " alt="" coords="457,8372,691,8240,694,8244,460,8377"/>
+<area shape="rect" id="Node000191" href="$classqSlicerAbstractModuleRepresentation.html" title=" " alt="" coords="596,8553,863,8579"/>
+<area shape="poly" id="edge470_Node000190_Node000191" title=" " alt="" coords="460,8411,707,8551,704,8555,458,8416"/>
+<area shape="rect" id="Node000216" href="$classqSlicerWidget.html" title=" " alt="" coords="673,9648,785,9673"/>
+<area shape="poly" id="edge497_Node000190_Node000216" title=" " alt="" coords="428,8420,441,8570,470,8813,492,8955,521,9104,556,9254,599,9398,628,9474,664,9546,722,9646,717,9649,659,9549,624,9477,593,9400,551,9255,516,9105,487,8956,465,8813,435,8570,423,8421"/>
+<area shape="rect" id="Node000192" href="$classqSlicerAbstractModuleWidget.html" title=" " alt="" coords="941,8613,1155,8639"/>
+<area shape="poly" id="edge471_Node000191_Node000192" title=" " alt="" coords="811,8579,980,8611,979,8616,810,8584"/>
+<area shape="rect" id="Node000193" href="$classqSlicerCLIModuleWidget.html" title=" " alt="" coords="1271,8416,1451,8441"/>
+<area shape="poly" id="edge472_Node000192_Node000193" title=" " alt="" coords="1065,8600,1094,8566,1133,8526,1180,8485,1232,8452,1270,8437,1272,8442,1235,8456,1183,8490,1136,8530,1098,8570,1069,8604"/>
+<area shape="rect" id="Node000194" href="$classqSlicerCamerasModuleWidget.html" title=" " alt="" coords="1252,8465,1471,8491"/>
+<area shape="poly" id="edge473_Node000192_Node000194" title=" " alt="" coords="1073,8603,1142,8551,1186,8524,1232,8501,1272,8488,1274,8493,1234,8506,1188,8528,1145,8556,1076,8607"/>
+<area shape="rect" id="Node000195" href="$classqSlicerColorsModuleWidget.html" title=" " alt="" coords="1261,8515,1462,8540"/>
+<area shape="poly" id="edge474_Node000192_Node000195" title=" " alt="" coords="1088,8605,1155,8577,1233,8550,1284,8537,1285,8543,1234,8555,1157,8582,1090,8610"/>
+<area shape="rect" id="Node000196" href="$classqSlicerCropVolumeModuleWidget.html" title=" " alt="" coords="1242,8564,1481,8589"/>
+<area shape="poly" id="edge475_Node000192_Node000196" title=" " alt="" coords="1142,8609,1279,8587,1280,8592,1143,8614"/>
+<area shape="rect" id="Node000197" href="$classqSlicerDataModuleWidget.html" title=" " alt="" coords="1266,8613,1457,8639"/>
+<area shape="poly" id="edge476_Node000192_Node000197" title=" " alt="" coords="1169,8623,1266,8623,1266,8629,1169,8629"/>
+<area shape="rect" id="Node000198" href="$classqSlicerEventBrokerModuleWidget.html" title=" " alt="" coords="1265,8663,1458,8703"/>
+<area shape="poly" id="edge477_Node000192_Node000198" title=" " alt="" coords="1132,8639,1265,8663,1264,8668,1131,8644"/>
+<area shape="rect" id="Node000199" href="$classqSlicerMarkupsModuleWidget.html" title=" " alt="" coords="1254,8728,1469,8753"/>
+<area shape="poly" id="edge478_Node000192_Node000199" title=" " alt="" coords="1084,8643,1152,8679,1234,8713,1281,8725,1280,8731,1232,8718,1150,8684,1082,8648"/>
+<area shape="rect" id="Node000200" href="$classqSlicerModelsModuleWidget.html" title=" " alt="" coords="1258,8777,1465,8803"/>
+<area shape="poly" id="edge479_Node000192_Node000200" title=" " alt="" coords="1073,8647,1142,8706,1186,8738,1234,8764,1267,8775,1265,8780,1232,8768,1184,8742,1138,8710,1070,8651"/>
+<area shape="rect" id="Node000201" href="$classqSlicerPlotsModuleWidget.html" title=" " alt="" coords="1265,8827,1457,8852"/>
+<area shape="poly" id="edge480_Node000192_Node000201" title=" " alt="" coords="1067,8648,1095,8686,1133,8731,1181,8776,1235,8813,1266,8826,1264,8830,1232,8818,1177,8780,1129,8735,1091,8689,1063,8652"/>
+<area shape="rect" id="Node000202" href="$classqSlicerReformatModuleWidget.html" title=" " alt="" coords="1251,8876,1472,8901"/>
+<area shape="poly" id="edge481_Node000192_Node000202" title=" " alt="" coords="1063,8650,1088,8697,1126,8755,1175,8814,1204,8840,1235,8862,1258,8873,1255,8878,1232,8867,1200,8844,1171,8818,1122,8758,1084,8700,1059,8653"/>
+<area shape="rect" id="Node000203" href="$classqSlicerSceneViewsModuleWidget.html" title=" " alt="" coords="1242,8925,1481,8951"/>
+<area shape="poly" id="edge482_Node000192_Node000203" title=" " alt="" coords="1060,8651,1082,8706,1119,8778,1142,8815,1169,8851,1200,8884,1235,8912,1256,8923,1254,8928,1232,8916,1197,8888,1165,8855,1138,8818,1114,8781,1077,8709,1055,8653"/>
+<area shape="rect" id="Node000204" href="$classqSlicerScriptedLoadableModuleWidget.html" title=" " alt="" coords="1248,8975,1475,9015"/>
+<area shape="poly" id="edge483_Node000192_Node000204" title=" " alt="" coords="1058,8651,1078,8715,1113,8799,1137,8844,1165,8887,1198,8927,1235,8961,1254,8973,1251,8977,1232,8965,1194,8931,1161,8890,1132,8846,1108,8802,1073,8717,1053,8653"/>
+<area shape="rect" id="Node000205" href="$classqSlicerSegmentationsModuleWidget.html" title=" " alt="" coords="1255,9039,1467,9079"/>
+<area shape="poly" id="edge484_Node000192_Node000205" title=" " alt="" coords="1056,8652,1072,8726,1105,8827,1128,8881,1157,8934,1193,8983,1235,9025,1257,9039,1254,9043,1232,9029,1189,8987,1153,8937,1123,8884,1100,8829,1067,8727,1051,8653"/>
+<area shape="rect" id="Node000206" href="$classqSlicerSequencesModuleWidget.html" title=" " alt="" coords="1246,9104,1477,9129"/>
+<area shape="poly" id="edge485_Node000192_Node000206" title=" " alt="" coords="1054,8652,1066,8737,1077,8794,1095,8857,1118,8921,1149,8983,1187,9040,1235,9089,1255,9102,1252,9106,1232,9093,1183,9044,1144,8986,1113,8923,1090,8858,1072,8796,1060,8738,1049,8653"/>
+<area shape="rect" id="Node000207" href="$classqSlicerSubjectHierarchyModuleWidget.html" title=" " alt="" coords="1249,9154,1474,9194"/>
+<area shape="poly" id="edge486_Node000192_Node000207" title=" " alt="" coords="1053,8652,1063,8745,1073,8808,1090,8877,1113,8948,1144,9019,1185,9084,1235,9140,1251,9152,1248,9156,1232,9144,1180,9087,1140,9021,1108,8950,1085,8878,1068,8809,1057,8746,1048,8653"/>
+<area shape="rect" id="Node000208" href="$classqSlicerTablesModuleWidget.html" title=" " alt="" coords="1261,9219,1462,9244"/>
+<area shape="poly" id="edge487_Node000192_Node000208" title=" " alt="" coords="1052,8653,1057,8757,1065,8828,1080,8906,1103,8988,1135,9067,1179,9141,1205,9174,1235,9204,1262,9220,1259,9225,1232,9208,1201,9177,1174,9144,1130,9070,1098,8989,1075,8908,1060,8829,1051,8757,1046,8653"/>
+<area shape="rect" id="Node000209" href="$classqSlicerTerminologiesModuleWidget.html" title=" " alt="" coords="1259,8025,1464,8065"/>
+<area shape="poly" id="edge488_Node000192_Node000209" title=" " alt="" coords="1047,8599,1055,8501,1065,8434,1081,8360,1105,8283,1136,8208,1178,8138,1203,8105,1232,8076,1257,8059,1260,8064,1235,8080,1207,8109,1183,8141,1141,8210,1110,8285,1086,8361,1071,8435,1060,8501,1053,8599"/>
+<area shape="rect" id="Node000210" href="$classqSlicerTextsModuleWidget.html" title=" " alt="" coords="1264,8089,1459,8115"/>
+<area shape="poly" id="edge489_Node000192_Node000210" title=" " alt="" coords="1048,8599,1058,8508,1069,8447,1085,8379,1109,8310,1140,8242,1181,8179,1232,8125,1262,8108,1265,8113,1235,8129,1185,8183,1145,8245,1114,8312,1090,8381,1074,8448,1063,8509,1053,8600"/>
+<area shape="rect" id="Node000211" href="$classqSlicerTransformsModuleWidget.html" title=" " alt="" coords="1245,8139,1477,8164"/>
+<area shape="poly" id="edge490_Node000192_Node000211" title=" " alt="" coords="1049,8599,1062,8516,1074,8461,1092,8400,1115,8339,1146,8278,1184,8222,1232,8175,1252,8162,1255,8166,1235,8179,1189,8226,1151,8281,1120,8341,1097,8402,1079,8462,1067,8517,1054,8600"/>
+<area shape="rect" id="Node000212" href="$classqSlicerViewControllersModuleWidget.html" title=" " alt="" coords="1253,8189,1470,8229"/>
+<area shape="poly" id="edge491_Node000192_Node000212" title=" " alt="" coords="1051,8599,1068,8527,1102,8430,1126,8378,1155,8327,1190,8279,1232,8239,1251,8226,1254,8231,1235,8243,1194,8283,1159,8330,1130,8380,1107,8432,1073,8529,1056,8601"/>
+<area shape="rect" id="Node000213" href="$classqSlicerVolumeRenderingModuleWidget.html" title=" " alt="" coords="1247,8253,1476,8293"/>
+<area shape="poly" id="edge492_Node000192_Node000213" title=" " alt="" coords="1054,8599,1075,8538,1111,8458,1135,8416,1163,8375,1195,8337,1232,8304,1254,8291,1257,8295,1235,8308,1199,8341,1167,8378,1139,8419,1116,8461,1080,8540,1059,8601"/>
+<area shape="rect" id="Node000214" href="$classqSlicerVolumesModuleWidget.html" title=" " alt="" coords="1253,8317,1469,8343"/>
+<area shape="poly" id="edge493_Node000192_Node000214" title=" " alt="" coords="1056,8600,1080,8547,1117,8480,1167,8411,1198,8380,1232,8353,1257,8340,1259,8345,1235,8358,1201,8384,1171,8414,1121,8482,1084,8549,1061,8602"/>
+<area shape="rect" id="Node000215" href="$classqSlicerWelcomeModuleWidget.html" title=" " alt="" coords="1251,8367,1471,8392"/>
+<area shape="poly" id="edge494_Node000192_Node000215" title=" " alt="" coords="1060,8599,1086,8556,1125,8502,1174,8448,1202,8423,1232,8402,1260,8390,1262,8394,1235,8407,1205,8427,1177,8451,1129,8505,1091,8559,1065,8602"/>
+<area shape="poly" id="edge505_Node000216_Node000223" title=" " alt="" coords="738,9634,761,9583,797,9518,847,9452,876,9422,909,9397,933,9385,959,9377,960,9382,935,9390,912,9402,880,9426,851,9455,802,9521,766,9585,743,9636"/>
+<area shape="poly" id="edge501_Node000216_Node000192" title=" " alt="" coords="743,9634,800,9533,832,9467,860,9398,899,9283,933,9165,988,8935,1024,8747,1042,8639,1047,8640,1029,8748,993,8936,938,9166,904,9285,865,9400,837,9469,804,9536,748,9637"/>
+<area shape="rect" id="Node000217" href="$classqMRMLTextWidget.html" title=" " alt="" coords="977,9769,1119,9795"/>
+<area shape="poly" id="edge498_Node000216_Node000217" title=" " alt="" coords="763,9679,830,9717,912,9754,977,9771,976,9776,910,9759,827,9722,760,9683"/>
+<area shape="rect" id="Node000218" href="$classqSlicerAbstractModulePanel.html" title=" " alt="" coords="947,9819,1149,9844"/>
+<area shape="poly" id="edge499_Node000216_Node000218" title=" " alt="" coords="753,9682,819,9744,864,9778,912,9805,947,9817,946,9822,910,9810,861,9782,816,9748,749,9685"/>
+<area shape="rect" id="Node000220" href="$classqSlicerDTISliceDisplayWidget.html" title=" " alt="" coords="941,9868,1155,9893"/>
+<area shape="poly" id="edge502_Node000216_Node000220" title=" " alt="" coords="747,9684,774,9722,811,9769,858,9816,912,9854,941,9867,939,9871,909,9859,855,9820,807,9773,770,9725,743,9687"/>
+<area shape="rect" id="Node000221" href="$classqSlicerDiffusionTensorVolumeDisplayWidget.html" title=" " alt="" coords="941,9918,1155,9958"/>
+<area shape="poly" id="edge503_Node000216_Node000221" title=" " alt="" coords="744,9685,768,9733,805,9792,853,9853,881,9880,912,9904,942,9919,939,9923,909,9908,878,9884,849,9857,801,9795,764,9735,740,9688"/>
+<area shape="rect" id="Node000222" href="$classqSlicerDiffusionWeightedVolumeDisplayWidget.html" title=" " alt="" coords="955,9982,1141,10022"/>
+<area shape="poly" id="edge504_Node000216_Node000222" title=" " alt="" coords="741,9686,761,9745,796,9822,819,9862,846,9901,877,9937,912,9968,933,9980,956,9989,954,9994,931,9985,909,9972,873,9941,842,9904,814,9865,791,9824,756,9747,735,9688"/>
+<area shape="rect" id="Node000233" href="$classqSlicerLabelMapVolumeDisplayWidget.html" title=" " alt="" coords="935,9411,1161,9451"/>
+<area shape="poly" id="edge506_Node000216_Node000233" title=" " alt="" coords="744,9635,771,9596,809,9550,855,9502,909,9462,938,9449,940,9454,912,9467,859,9506,813,9553,775,9600,748,9638"/>
+<area shape="rect" id="Node000234" href="$classqSlicerMarkupsPlaceWidget.html" title=" " alt="" coords="947,9476,1149,9501"/>
+<area shape="poly" id="edge507_Node000216_Node000234" title=" " alt="" coords="749,9636,816,9573,861,9539,910,9512,946,9499,947,9504,912,9516,864,9544,819,9577,753,9640"/>
+<area shape="rect" id="Node000235" href="$classqSlicerScalarVolumeDisplayWidget.html" title=" " alt="" coords="946,9526,1150,9566"/>
+<area shape="poly" id="edge508_Node000216_Node000235" title=" " alt="" coords="766,9639,832,9608,910,9577,954,9563,956,9569,912,9582,834,9613,768,9644"/>
+<area shape="rect" id="Node000236" href="$classqSlicerSimpleMarkupsWidget.html" title=" " alt="" coords="942,9591,1154,9616"/>
+<area shape="poly" id="edge509_Node000216_Node000236" title=" " alt="" coords="798,9646,976,9613,977,9619,799,9651"/>
+<area shape="rect" id="Node000237" href="$classqSlicerTableColumnPropertiesWidget.html" title=" " alt="" coords="940,9641,1156,9681"/>
+<area shape="poly" id="edge510_Node000216_Node000237" title=" " alt="" coords="799,9658,940,9658,940,9663,799,9663"/>
+<area shape="rect" id="Node000238" href="$classqSlicerVolumeRenderingPresetComboBox.html" title=" " alt="" coords="937,9705,1159,9745"/>
+<area shape="poly" id="edge511_Node000216_Node000238" title=" " alt="" coords="799,9672,948,9702,947,9707,798,9677"/>
+<area shape="rect" id="Node000219" href="$classqSlicerModulePanel.html" title=" " alt="" coords="1287,9819,1436,9844"/>
+<area shape="poly" id="edge500_Node000218_Node000219" title=" " alt="" coords="1163,9829,1286,9829,1286,9834,1163,9834"/>
+<area shape="rect" id="Node000239" title=" " alt="" coords="383,11059,462,11084"/>
+<area shape="poly" id="edge592_Node000239_Node000216" title=" " alt="" coords="425,11045,482,10669,532,10387,593,10099,628,9967,666,9841,721,9673,726,9674,671,9843,633,9969,599,10100,537,10388,487,10669,430,11046"/>
+<area shape="rect" id="Node000240" href="$classButtonGroupWidgetWrapper.html" title=" " alt="" coords="627,11625,832,11651"/>
+<area shape="poly" id="edge512_Node000239_Node000240" title=" " alt="" coords="426,11098,431,11196,439,11262,453,11336,474,11411,504,11485,545,11554,570,11584,598,11612,627,11629,625,11634,594,11616,566,11588,541,11557,499,11488,469,11413,447,11337,433,11263,425,11196,421,11098"/>
+<area shape="rect" id="Node000241" href="$classqMRMLDisplayNodeWidget.html" title=" " alt="" coords="630,11675,829,11700"/>
+<area shape="poly" id="edge513_Node000239_Node000241" title=" " alt="" coords="431,11097,451,11218,488,11389,511,11476,537,11555,567,11619,582,11643,598,11661,613,11672,631,11680,629,11685,611,11677,594,11665,578,11647,562,11622,533,11557,506,11478,483,11390,446,11219,425,11098"/>
+<area shape="rect" id="Node000242" href="$classqMRMLEventBrokerWidget.html" title=" " alt="" coords="632,11724,827,11749"/>
+<area shape="poly" id="edge514_Node000239_Node000242" title=" " alt="" coords="430,11097,449,11227,484,11413,508,11508,534,11594,565,11665,581,11691,598,11711,614,11722,633,11730,631,11735,611,11727,594,11715,577,11694,560,11667,529,11596,502,11510,479,11414,444,11228,425,11098"/>
+<area shape="rect" id="Node000243" href="$classqMRMLEventLoggerWidget.html" title=" " alt="" coords="631,10111,828,10136"/>
+<area shape="poly" id="edge515_Node000239_Node000243" title=" " alt="" coords="422,11045,433,10865,445,10735,461,10594,483,10453,512,10324,530,10268,549,10218,570,10177,594,10147,611,10134,629,10126,631,10131,613,10139,598,10151,575,10180,554,10220,535,10269,518,10326,489,10454,466,10595,450,10736,439,10866,428,11045"/>
+<area shape="rect" id="Node000244" href="$classqMRMLLayoutWidget.html" title=" " alt="" coords="649,10160,809,10185"/>
+<area shape="poly" id="edge516_Node000239_Node000244" title=" " alt="" coords="423,11045,435,10874,447,10751,464,10618,487,10485,515,10363,532,10310,551,10263,571,10225,594,10196,619,10179,648,10170,650,10175,622,10184,598,10200,576,10228,556,10266,537,10312,520,10365,492,10486,469,10619,452,10752,440,10875,428,11045"/>
+<area shape="rect" id="Node000245" href="$classqMRMLMarkupsAbstractOptionsWidget.html" title=" " alt="" coords="615,10210,844,10250"/>
+<area shape="poly" id="edge517_Node000239_Node000245" title=" " alt="" coords="431,11045,718,10249,723,10251,436,11047"/>
+<area shape="rect" id="Node000250" href="$classqMRMLModelInfoWidget.html" title=" " alt="" coords="639,10612,820,10637"/>
+<area shape="poly" id="edge522_Node000239_Node000250" title=" " alt="" coords="424,11045,436,10966,447,10914,464,10858,486,10800,514,10744,550,10692,594,10648,615,10635,638,10627,639,10632,617,10640,598,10652,554,10696,519,10747,491,10803,469,10860,452,10916,441,10967,429,11046"/>
+<area shape="rect" id="Node000251" href="$classqMRMLNodeAttributeTableView.html" title=" " alt="" coords="616,10661,843,10687"/>
+<area shape="poly" id="edge523_Node000239_Node000251" title=" " alt="" coords="425,11044,440,10974,470,10879,493,10829,520,10780,554,10736,594,10697,616,10685,618,10689,598,10701,558,10739,525,10783,497,10832,475,10881,445,10975,430,11046"/>
+<area shape="rect" id="Node000252" href="$classqMRMLNodeAttributeTableWidget.html" title=" " alt="" coords="609,10711,850,10736"/>
+<area shape="poly" id="edge524_Node000239_Node000252" title=" " alt="" coords="427,11044,445,10982,477,10901,500,10858,526,10817,558,10779,594,10746,617,10734,619,10739,598,10751,562,10783,531,10820,504,10861,482,10903,450,10984,432,11046"/>
+<area shape="rect" id="Node000253" href="$classqMRMLNodeComboBox.html" title="Combobox that automatically displays all the nodes of the scene that match filtering criteria." alt="" coords="642,10760,817,10785"/>
+<area shape="poly" id="edge525_Node000239_Node000253" title=" " alt="" coords="430,11045,451,10991,485,10923,532,10854,562,10822,595,10796,617,10784,641,10776,643,10781,619,10789,597,10800,565,10826,536,10857,489,10926,455,10993,435,11046"/>
+<area shape="rect" id="Node000258" href="$classqMRMLROIWidget.html" title=" " alt="" coords="660,10809,799,10835"/>
+<area shape="poly" id="edge530_Node000239_Node000258" title=" " alt="" coords="433,11045,457,11001,492,10946,538,10891,565,10866,595,10845,626,10831,659,10823,660,10828,628,10836,597,10850,569,10870,542,10895,496,10949,461,11004,438,11048"/>
+<area shape="rect" id="Node000259" href="$classqMRMLScalarInvariantComboBox.html" title=" " alt="" coords="610,10859,849,10884"/>
+<area shape="poly" id="edge531_Node000239_Node000259" title=" " alt="" coords="438,11045,464,11011,500,10969,545,10928,595,10894,626,10882,628,10887,597,10899,548,10932,504,10973,469,11014,442,11049"/>
+<area shape="rect" id="Node000260" href="$classqMRMLSceneFactoryWidget.html" title=" " alt="" coords="628,10908,831,10933"/>
+<area shape="poly" id="edge532_Node000239_Node000260" title=" " alt="" coords="445,11047,509,10995,551,10967,595,10944,633,10931,635,10936,597,10948,553,10971,512,10999,448,11052"/>
+<area shape="rect" id="Node000261" href="$classqMRMLSegmentationConversionParametersWidget.html" title=" " alt="" coords="612,10958,847,10998"/>
+<area shape="poly" id="edge533_Node000239_Node000261" title=" " alt="" coords="469,11051,595,11007,639,10995,640,11001,597,11013,470,11056"/>
+<area shape="rect" id="Node000262" href="$classqMRMLSegmentationRepresentationsListView.html" title=" " alt="" coords="596,11022,863,11062"/>
+<area shape="poly" id="edge534_Node000239_Node000262" title=" " alt="" coords="476,11064,596,11052,596,11057,476,11069"/>
+<area shape="rect" id="Node000263" href="$classqMRMLSettingsUnitWidget.html" title=" " alt="" coords="631,11087,827,11112"/>
+<area shape="poly" id="edge535_Node000239_Node000263" title=" " alt="" coords="476,11073,631,11088,631,11093,476,11079"/>
+<area shape="rect" id="Node000264" href="$classqMRMLVolumePropertyNodeWidget.html" title=" " alt="" coords="603,11136,856,11161"/>
+<area shape="poly" id="edge536_Node000239_Node000264" title=" " alt="" coords="474,11086,597,11122,650,11133,649,11139,595,11127,473,11091"/>
+<area shape="rect" id="Node000265" href="$classqMRMLVolumeWidget.html" title="Abstract widget to represent and control the properties of a scalar volume node." alt="" coords="647,11185,811,11211"/>
+<area shape="poly" id="edge537_Node000239_Node000265" title=" " alt="" coords="453,11090,517,11132,556,11153,597,11171,648,11185,646,11191,595,11177,554,11158,514,11136,450,11094"/>
+<area shape="rect" id="Node000268" href="$classqMRMLWidget.html" title="Base class for any widget that requires a MRML Scene." alt="" coords="672,11235,787,11260"/>
+<area shape="poly" id="edge540_Node000239_Node000268" title=" " alt="" coords="445,11093,508,11158,550,11192,597,11221,634,11234,672,11241,671,11247,633,11239,595,11226,547,11197,504,11162,441,11096"/>
+<area shape="rect" id="Node000310" href="$classqSlicerCLIProgressBar.html" title=" " alt="" coords="647,11284,811,11309"/>
+<area shape="poly" id="edge582_Node000239_Node000310" title=" " alt="" coords="440,11095,464,11135,500,11183,545,11231,597,11270,622,11281,648,11288,646,11293,620,11286,595,11275,541,11235,496,11186,460,11138,435,11098"/>
+<area shape="rect" id="Node000311" href="$classqSlicerDirectoryListView.html" title=" " alt="" coords="639,11333,820,11359"/>
+<area shape="poly" id="edge583_Node000239_Node000311" title=" " alt="" coords="436,11096,458,11145,492,11207,539,11269,567,11296,597,11320,617,11330,639,11337,638,11342,615,11335,595,11324,563,11300,535,11272,488,11210,453,11148,431,11098"/>
+<area shape="rect" id="Node000312" href="$classqSlicerExtensionsManagerWidget.html" title=" " alt="" coords="632,11383,827,11423"/>
+<area shape="poly" id="edge584_Node000239_Node000312" title=" " alt="" coords="434,11096,453,11153,486,11228,508,11267,534,11304,564,11339,598,11369,633,11388,631,11392,594,11374,560,11343,530,11308,504,11269,482,11230,448,11155,429,11098"/>
+<area shape="rect" id="Node000313" href="$classqSlicerTerminologyEditorWidget.html" title=" " alt="" coords="637,11447,821,11487"/>
+<area shape="poly" id="edge585_Node000239_Node000313" title=" " alt="" coords="431,11097,447,11165,478,11256,500,11305,527,11352,559,11396,598,11433,617,11445,638,11454,636,11459,614,11450,594,11437,555,11399,522,11355,495,11307,473,11258,442,11166,426,11098"/>
+<area shape="rect" id="Node000314" href="$classqSlicerVolumeRenderingPropertiesWidget.html" title=" " alt="" coords="606,11511,853,11551"/>
+<area shape="poly" id="edge586_Node000239_Node000314" title=" " alt="" coords="429,11097,441,11176,469,11285,491,11343,519,11399,555,11452,598,11497,614,11509,611,11513,594,11501,551,11455,515,11402,486,11345,464,11286,436,11177,424,11098"/>
+<area shape="rect" id="Node000318" href="$classqSlicerWebWidget.html" title=" " alt="" coords="659,11576,799,11601"/>
+<area shape="poly" id="edge590_Node000239_Node000318" title=" " alt="" coords="427,11098,435,11188,444,11248,459,11314,481,11382,511,11448,549,11509,598,11561,627,11578,660,11586,658,11591,625,11583,594,11565,545,11512,506,11450,476,11384,454,11315,439,11249,430,11188,422,11098"/>
+<area shape="rect" id="Node000246" href="$classqMRMLMarkupsAngleMeasurementsWidget.html" title=" " alt="" coords="919,10146,1177,10186"/>
+<area shape="poly" id="edge518_Node000245_Node000246" title=" " alt="" coords="843,10205,947,10183,948,10189,844,10210"/>
+<area shape="rect" id="Node000247" href="$classqMRMLMarkupsCurveSettingsWidget.html" title=" " alt="" coords="940,10210,1156,10250"/>
+<area shape="poly" id="edge519_Node000245_Node000247" title=" " alt="" coords="858,10227,940,10227,940,10233,858,10233"/>
+<area shape="rect" id="Node000248" href="$classqMRMLMarkupsPlaneWidget.html" title=" " alt="" coords="945,10047,1151,10072"/>
+<area shape="poly" id="edge520_Node000245_Node000248" title=" " alt="" coords="855,10201,861,10196,873,10183,879,10169,884,10140,889,10111,896,10096,909,10083,943,10064,946,10069,912,10087,900,10099,894,10113,889,10141,884,10171,877,10186,864,10200,858,10205"/>
+<area shape="rect" id="Node000249" href="$classqMRMLMarkupsROIWidget.html" title=" " alt="" coords="951,10096,1145,10121"/>
+<area shape="poly" id="edge521_Node000245_Node000249" title=" " alt="" coords="851,10202,861,10196,876,10181,884,10165,892,10148,909,10132,949,10115,951,10120,912,10136,897,10151,889,10167,881,10184,864,10200,854,10206"/>
+<area shape="rect" id="Node000254" href="$classqMRMLCheckableNodeComboBox.html" title=" " alt="" coords="927,10324,1169,10349"/>
+<area shape="poly" id="edge526_Node000253_Node000254" title=" " alt="" coords="829,10767,846,10758,861,10747,879,10724,892,10700,898,10677,901,10653,896,10605,884,10556,872,10507,867,10458,870,10433,877,10409,890,10384,909,10360,924,10347,928,10352,913,10364,894,10387,882,10411,875,10434,872,10458,877,10506,889,10555,901,10604,906,10653,904,10678,896,10702,884,10726,865,10751,849,10763,831,10771"/>
+<area shape="rect" id="Node000256" href="$classqMRMLColorTableComboBox.html" title=" " alt="" coords="943,10373,1153,10399"/>
+<area shape="poly" id="edge528_Node000253_Node000256" title=" " alt="" coords="829,10766,846,10758,861,10747,877,10727,888,10706,895,10686,897,10665,894,10623,884,10581,874,10538,871,10495,874,10473,880,10452,892,10430,909,10409,924,10397,942,10389,944,10393,927,10402,913,10413,896,10433,885,10454,879,10474,876,10495,880,10537,889,10579,899,10622,902,10665,900,10687,893,10708,882,10730,865,10751,849,10763,831,10771"/>
+<area shape="rect" id="Node000257" href="$classqSlicerPresetComboBox.html" title=" " alt="" coords="959,10275,1137,10300"/>
+<area shape="poly" id="edge529_Node000253_Node000257" title=" " alt="" coords="829,10767,846,10759,861,10747,881,10720,895,10694,902,10667,905,10641,899,10586,884,10531,870,10476,863,10421,866,10393,873,10366,887,10338,909,10311,931,10294,958,10285,960,10290,934,10299,913,10315,892,10341,878,10368,871,10394,869,10421,875,10475,889,10530,904,10585,910,10640,908,10668,900,10696,886,10723,865,10751,849,10763,831,10772"/>
+<area shape="rect" id="Node000255" href="$classqMRMLDisplayNodeViewComboBox.html" title="Combobox of display node view nodes. Observe the view nodes of a display node and mark them as checke..." alt="" coords="1233,10324,1489,10349"/>
+<area shape="poly" id="edge527_Node000254_Node000255" title=" " alt="" coords="1183,10334,1233,10334,1233,10339,1183,10339"/>
+<area shape="rect" id="Node000266" href="$classqMRMLVolumeThresholdWidget.html" title=" " alt="" coords="934,10472,1162,10497"/>
+<area shape="poly" id="edge538_Node000265_Node000266" title=" " alt="" coords="824,11194,844,11186,861,11172,876,11148,886,11118,893,11081,895,11039,893,10945,884,10842,876,10740,873,10645,875,10602,882,10565,893,10533,909,10508,932,10491,935,10495,913,10512,897,10536,887,10566,881,10603,878,10645,881,10739,889,10842,898,10944,901,11039,898,11082,892,11119,881,11151,865,11176,847,11190,826,11199"/>
+<area shape="rect" id="Node000267" href="$classqMRMLWindowLevelWidget.html" title=" " alt="" coords="947,10423,1149,10448"/>
+<area shape="poly" id="edge539_Node000265_Node000267" title=" " alt="" coords="823,11194,844,11186,861,11172,877,11147,888,11114,895,11074,897,11029,894,10928,884,10818,874,10707,871,10606,873,10560,880,10520,891,10486,909,10459,926,10445,945,10436,948,10441,928,10449,913,10462,896,10488,885,10521,879,10561,876,10606,880,10707,889,10817,899,10927,903,11029,900,11075,893,11115,882,11149,865,11176,847,11190,825,11199"/>
+<area shape="rect" id="Node000269" href="$classqMRMLAbstractViewWidget.html" title=" " alt="" coords="947,10833,1149,10859"/>
+<area shape="poly" id="edge541_Node000268_Node000269" title=" " alt="" coords="799,11248,833,11240,861,11221,878,11200,889,11179,896,11158,898,11136,894,11092,884,11048,874,11003,870,10958,873,10936,879,10914,891,10891,909,10869,926,10856,945,10847,947,10852,929,10861,913,10873,896,10894,884,10916,878,10937,875,10959,879,11002,889,11047,900,11092,904,11136,901,11159,894,11181,882,11203,864,11225,835,11245,801,11253"/>
+<area shape="rect" id="Node000274" href="$classqMRMLClipNodeDisplayWidget.html" title=" " alt="" coords="936,10883,1160,10908"/>
+<area shape="poly" id="edge546_Node000268_Node000274" title=" " alt="" coords="800,11247,833,11239,861,11221,876,11203,886,11185,894,11148,892,11111,884,11073,876,11034,874,10995,883,10957,893,10938,909,10919,934,10901,937,10906,912,10923,898,10941,888,10959,879,10996,881,11033,889,11072,897,11110,900,11149,891,11187,880,11206,864,11225,835,11244,801,11252"/>
+<area shape="rect" id="Node000275" href="$classqMRMLClipNodeWidget.html" title=" " alt="" coords="961,10932,1135,10957"/>
+<area shape="poly" id="edge547_Node000268_Node000275" title=" " alt="" coords="800,11247,833,11239,861,11221,882,11191,890,11161,890,11129,884,11097,879,11065,878,11032,886,11000,909,10968,932,10952,960,10943,961,10948,935,10956,913,10972,891,11002,883,11033,884,11064,889,11096,895,11129,896,11161,887,11194,864,11225,835,11244,801,11252"/>
+<area shape="rect" id="Node000276" href="$classqMRMLColorLegendDisplayNodeWidget.html" title=" " alt="" coords="931,10982,1165,11022"/>
+<area shape="poly" id="edge548_Node000268_Node000276" title=" " alt="" coords="800,11246,833,11238,861,11221,878,11200,886,11177,887,11154,885,11130,883,11106,884,11082,891,11057,909,11033,929,11018,932,11023,913,11037,896,11060,889,11082,888,11106,890,11130,892,11154,891,11178,883,11202,864,11225,835,11243,801,11252"/>
+<area shape="rect" id="Node000277" href="$classqMRMLColorPickerWidget.html" title=" " alt="" coords="953,11047,1143,11072"/>
+<area shape="poly" id="edge549_Node000268_Node000277" title=" " alt="" coords="800,11245,832,11238,861,11221,875,11206,882,11189,884,11154,887,11118,894,11100,909,11083,930,11069,952,11061,954,11066,932,11074,912,11087,899,11103,892,11119,889,11154,887,11190,879,11208,864,11225,834,11243,801,11251"/>
+<area shape="rect" id="Node000278" href="$classqMRMLLabelComboBox.html" title=" " alt="" coords="960,11096,1136,11121"/>
+<area shape="poly" id="edge550_Node000268_Node000278" title=" " alt="" coords="800,11244,832,11236,861,11221,872,11211,878,11201,884,11178,890,11154,898,11143,909,11132,933,11119,959,11110,961,11116,935,11124,912,11136,902,11146,895,11156,889,11179,883,11203,876,11215,864,11226,834,11241,801,11249"/>
+<area shape="rect" id="Node000279" href="$classqMRMLMarkupsDisplayNodeWidget.html" title=" " alt="" coords="921,11145,1175,11171"/>
+<area shape="poly" id="edge551_Node000268_Node000279" title=" " alt="" coords="800,11239,831,11232,861,11221,876,11212,885,11202,894,11191,909,11181,945,11168,947,11173,912,11186,898,11195,889,11205,879,11216,864,11226,833,11237,801,11244"/>
+<area shape="rect" id="Node000280" href="$classqMRMLMarkupsFiducialProjectionPropertyWidget.html" title=" " alt="" coords="928,11195,1168,11235"/>
+<area shape="poly" id="edge552_Node000268_Node000280" title=" " alt="" coords="800,11238,927,11225,928,11230,800,11243"/>
+<area shape="rect" id="Node000281" href="$classqMRMLMarkupsInteractionHandleWidget.html" title=" " alt="" coords="927,11259,1169,11299"/>
+<area shape="poly" id="edge553_Node000268_Node000281" title=" " alt="" coords="801,11252,927,11265,927,11270,800,11257"/>
+<area shape="rect" id="Node000282" href="$classqMRMLModelDisplayNodeWidget.html" title=" " alt="" coords="929,11324,1167,11349"/>
+<area shape="poly" id="edge554_Node000268_Node000282" title=" " alt="" coords="801,11252,833,11259,864,11270,879,11280,889,11290,898,11300,912,11309,948,11321,946,11327,910,11314,894,11304,885,11294,875,11284,861,11275,831,11264,800,11257"/>
+<area shape="rect" id="Node000283" href="$classqMRMLPlotChartPropertiesWidget.html" title=" " alt="" coords="950,11374,1146,11414"/>
+<area shape="poly" id="edge555_Node000268_Node000283" title=" " alt="" coords="801,11247,834,11255,864,11270,876,11281,883,11293,889,11316,896,11339,902,11350,912,11360,951,11380,949,11384,909,11364,898,11353,891,11341,884,11318,878,11295,872,11285,861,11275,832,11260,800,11252"/>
+<area shape="rect" id="Node000284" href="$classqMRMLPlotSeriesPropertiesWidget.html" title=" " alt="" coords="947,11438,1149,11478"/>
+<area shape="poly" id="edge556_Node000268_Node000284" title=" " alt="" coords="801,11244,835,11253,864,11271,880,11290,888,11309,890,11349,891,11388,898,11406,913,11424,929,11436,948,11445,946,11450,926,11441,909,11428,893,11409,886,11389,884,11349,883,11310,876,11292,861,11275,833,11258,800,11250"/>
+<area shape="rect" id="Node000285" href="$classqMRMLScalarsDisplayWidget.html" title=" " alt="" coords="942,11503,1154,11528"/>
+<area shape="poly" id="edge557_Node000268_Node000285" title=" " alt="" coords="802,11244,835,11252,864,11271,885,11298,893,11326,893,11354,889,11382,886,11409,886,11436,893,11463,913,11488,927,11499,943,11507,941,11512,924,11503,909,11492,889,11465,881,11437,880,11409,884,11381,888,11353,887,11326,880,11300,861,11275,833,11257,800,11249"/>
+<area shape="rect" id="Node000286" href="$classqMRMLSegmentEditorWidget.html" title="Qt widget for editing a segment from a segmentation using Editor effects." alt="" coords="942,11552,1154,11577"/>
+<area shape="poly" id="edge558_Node000268_Node000286" title=" " alt="" coords="801,11243,835,11252,865,11271,888,11304,897,11339,895,11373,889,11407,883,11441,882,11475,890,11507,913,11539,927,11550,943,11557,941,11562,924,11554,909,11543,885,11509,876,11475,878,11441,884,11406,890,11372,891,11339,883,11307,861,11275,833,11257,800,11248"/>
+<area shape="rect" id="Node000287" href="$classqMRMLSegmentSelectorWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed,..." alt="" coords="935,11601,1161,11627"/>
+<area shape="poly" id="edge559_Node000268_Node000287" title=" " alt="" coords="801,11243,835,11251,864,11271,881,11291,892,11311,901,11351,898,11392,889,11432,880,11472,878,11512,887,11550,897,11569,912,11588,936,11604,933,11609,909,11592,893,11572,882,11552,872,11512,875,11471,884,11431,892,11391,895,11351,887,11313,876,11294,861,11275,833,11256,799,11248"/>
+<area shape="rect" id="Node000288" href="$classqMRMLSegmentationDisplayNodeWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed,..." alt="" coords="943,11651,1153,11691"/>
+<area shape="poly" id="edge560_Node000268_Node000288" title=" " alt="" coords="801,11243,835,11251,864,11271,883,11294,895,11317,902,11340,905,11363,901,11410,890,11456,879,11502,875,11547,878,11570,884,11593,895,11615,913,11638,927,11650,944,11659,941,11663,924,11654,909,11641,891,11618,879,11594,872,11571,870,11547,874,11501,885,11455,896,11409,900,11363,897,11341,890,11319,878,11297,861,11275,833,11256,800,11248"/>
+<area shape="rect" id="Node000289" href="$classqMRMLSegmentationFileExportWidget.html" title="Qt widget for selecting a single segment from a segmentation. If multiple segments are needed,..." alt="" coords="935,11715,1161,11755"/>
+<area shape="poly" id="edge561_Node000268_Node000289" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,886,11298,900,11325,907,11352,910,11379,904,11434,890,11488,876,11542,870,11595,873,11622,880,11648,893,11675,913,11701,936,11719,933,11724,909,11705,888,11678,875,11650,867,11623,865,11595,871,11541,885,11486,899,11433,905,11379,902,11353,895,11327,881,11301,861,11275,848,11264,833,11256,799,11248"/>
+<area shape="rect" id="Node000290" href="$classqMRMLSegmentationGeometryWidget.html" title=" " alt="" coords="935,11779,1161,11819"/>
+<area shape="poly" id="edge562_Node000268_Node000290" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,877,11290,886,11313,894,11373,894,11443,890,11520,886,11596,886,11666,893,11725,901,11748,913,11766,936,11784,933,11788,909,11769,897,11750,888,11726,880,11667,880,11596,885,11519,889,11443,889,11373,881,11315,872,11292,861,11274,848,11264,833,11256,800,11247"/>
+<area shape="rect" id="Node000291" href="$classqMRMLSegmentsTableView.html" title=" " alt="" coords="947,11844,1149,11869"/>
+<area shape="poly" id="edge563_Node000268_Node000291" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,878,11292,888,11319,896,11386,895,11466,889,11552,883,11639,882,11718,891,11784,900,11810,913,11830,929,11843,948,11851,946,11856,926,11847,909,11833,895,11812,885,11785,877,11718,878,11638,884,11552,890,11466,891,11386,883,11320,874,11294,861,11274,848,11264,833,11256,800,11247"/>
+<area shape="rect" id="Node000292" href="$classqMRMLSequenceBrowserPlayWidget.html" title=" " alt="" coords="941,11894,1155,11934"/>
+<area shape="poly" id="edge564_Node000268_Node000292" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,880,11294,890,11323,896,11357,899,11396,897,11483,890,11577,883,11671,881,11757,890,11830,899,11858,913,11880,926,11892,942,11901,939,11906,923,11896,909,11884,894,11860,884,11831,876,11758,878,11670,885,11576,892,11483,893,11396,891,11358,885,11324,875,11296,861,11274,848,11263,833,11256,799,11247"/>
+<area shape="rect" id="Node000293" href="$classqMRMLSequenceBrowserSeekWidget.html" title=" " alt="" coords="939,11958,1157,11998"/>
+<area shape="poly" id="edge565_Node000268_Node000293" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,881,11296,892,11328,898,11366,901,11409,899,11505,890,11609,882,11712,879,11808,881,11851,887,11888,898,11920,913,11944,940,11964,937,11969,909,11948,893,11922,882,11890,876,11851,873,11808,876,11712,885,11608,893,11505,896,11409,893,11367,887,11330,876,11299,861,11274,848,11263,833,11256,800,11247"/>
+<area shape="rect" id="Node000294" href="$classqMRMLSequenceEditWidget.html" title=" " alt="" coords="946,12023,1150,12048"/>
+<area shape="poly" id="edge566_Node000268_Node000294" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,882,11299,894,11334,901,11376,903,11423,900,11528,889,11642,879,11755,875,11860,878,11907,884,11947,896,11982,913,12008,928,12021,947,12030,945,12035,925,12026,909,12012,891,11984,879,11949,872,11907,870,11860,874,11755,884,11641,894,11528,898,11423,895,11376,889,11335,878,11301,861,11274,848,11263,833,11256,800,11247"/>
+<area shape="rect" id="Node000295" href="$classqMRMLSliceInformationWidget.html" title=" " alt="" coords="937,12072,1159,12097"/>
+<area shape="poly" id="edge567_Node000268_Node000295" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,883,11301,896,11338,903,11383,905,11433,901,11546,889,11667,877,11789,873,11901,875,11950,882,11994,895,12031,913,12059,938,12077,935,12081,909,12063,890,12033,877,11995,870,11951,868,11901,872,11788,884,11667,895,11545,900,11433,897,11383,891,11340,879,11303,861,11274,848,11263,833,11256,800,11247"/>
+<area shape="rect" id="Node000296" href="$classqMRMLSliceVerticalControllerWidget.html" title=" " alt="" coords="941,12122,1155,12162"/>
+<area shape="poly" id="edge568_Node000268_Node000296" title=" " alt="" coords="801,11242,835,11251,851,11259,865,11271,885,11302,898,11342,905,11390,908,11443,903,11562,890,11691,878,11819,873,11939,875,11991,882,12038,894,12078,913,12108,926,12120,941,12129,939,12134,923,12125,909,12112,889,12080,877,12039,870,11992,867,11939,873,11819,885,11690,898,11561,902,11443,900,11390,892,11344,880,11305,861,11274,848,11263,833,11255,800,11247"/>
+<area shape="rect" id="Node000297" href="$classqMRMLThreeDViewInformationWidget.html" title=" " alt="" coords="936,12186,1160,12226"/>
+<area shape="poly" id="edge569_Node000268_Node000297" title=" " alt="" coords="801,11242,835,11250,851,11259,865,11271,886,11305,900,11348,908,11399,910,11456,905,11584,891,11723,876,11861,870,11990,872,12046,880,12097,893,12139,913,12172,937,12191,934,12195,909,12176,888,12141,874,12098,867,12047,865,11990,871,11861,885,11722,899,11584,905,11456,902,11399,895,11349,881,11307,861,11274,848,11263,833,11255,800,11247"/>
+<area shape="rect" id="Node000298" href="$classqMRMLTransformDisplayNodeWidget.html" title=" " alt="" coords="939,12250,1157,12290"/>
+<area shape="poly" id="edge570_Node000268_Node000298" title=" " alt="" coords="801,11242,835,11250,851,11259,865,11271,887,11307,902,11353,910,11408,913,11469,906,11606,891,11755,875,11903,868,12040,870,12101,878,12155,891,12201,913,12236,925,12248,941,12257,938,12262,922,12252,909,12240,887,12203,872,12156,865,12102,862,12040,870,11903,885,11754,901,11606,908,11469,905,11408,897,11355,882,11310,861,11274,848,11263,833,11255,800,11247"/>
+<area shape="rect" id="Node000299" href="$classqMRMLTransformInfoWidget.html" title=" " alt="" coords="945,12315,1151,12340"/>
+<area shape="poly" id="edge571_Node000268_Node000299" title=" " alt="" coords="801,11242,835,11250,851,11259,865,11271,877,11297,886,11338,894,11458,894,11614,889,11787,885,11961,885,12117,893,12236,901,12276,913,12300,928,12313,946,12322,944,12327,925,12318,909,12304,896,12278,887,12237,879,12117,880,11961,884,11787,888,11614,889,11458,881,11339,872,11298,861,11274,848,11263,833,11255,800,11247"/>
+<area shape="rect" id="Node000300" href="$classqMRMLTransformSliders.html" title=" " alt="" coords="959,10521,1137,10547"/>
+<area shape="poly" id="edge572_Node000268_Node000300" title=" " alt="" coords="800,11248,833,11240,848,11232,861,11222,876,11198,886,11167,893,11130,895,11089,893,10994,884,10892,876,10789,873,10694,875,10652,882,10614,893,10583,909,10558,931,10540,958,10531,959,10536,934,10545,913,10561,897,10585,887,10616,881,10652,878,10694,881,10789,889,10891,898,10994,901,11089,898,11131,892,11168,881,11200,865,11225,851,11237,835,11245,801,11253"/>
+<area shape="rect" id="Node000301" href="$classqMRMLUnitWidget.html" title=" " alt="" coords="977,10571,1119,10596"/>
+<area shape="poly" id="edge573_Node000268_Node000301" title=" " alt="" coords="800,11248,833,11240,848,11232,861,11222,875,11200,885,11171,891,11137,893,11099,891,11011,884,10916,877,10821,875,10733,877,10694,883,10659,894,10630,909,10607,923,10595,940,10586,976,10577,977,10583,942,10591,926,10599,913,10610,898,10632,889,10661,883,10695,880,10733,882,10821,889,10916,897,11011,899,11099,896,11138,890,11173,880,11202,865,11225,851,11237,835,11245,801,11253"/>
+<area shape="rect" id="Node000302" href="$classqMRMLViewControllerBar.html" title=" " alt="" coords="955,10620,1141,10645"/>
+<area shape="poly" id="edge574_Node000268_Node000302" title=" " alt="" coords="800,11248,833,11240,848,11232,861,11222,874,11201,883,11175,891,11109,890,11028,884,10941,878,10853,877,10773,885,10705,895,10678,909,10656,929,10640,954,10631,955,10636,932,10645,913,10660,900,10680,890,10706,882,10773,883,10853,889,10941,895,11028,897,11109,888,11177,879,11204,865,11225,851,11237,835,11245,801,11253"/>
+<area shape="rect" id="Node000307" href="$classqMRMLVolumeInfoWidget.html" title=" " alt="" coords="953,10669,1143,10695"/>
+<area shape="poly" id="edge579_Node000268_Node000307" title=" " alt="" coords="800,11248,833,11240,848,11232,861,11222,873,11203,881,11180,889,11119,889,11045,884,10966,879,10886,879,10812,887,10750,896,10725,909,10706,929,10690,952,10681,954,10686,931,10695,913,10709,901,10727,892,10751,884,10812,885,10886,889,10965,894,11045,895,11119,886,11181,878,11206,865,11225,851,11237,835,11245,801,11253"/>
+<area shape="rect" id="Node000308" href="$classqSlicerTerminologyNavigatorWidget.html" title="Qt widget for browsing a terminology dictionary. DICOM properties of the selected entry can also be s..." alt="" coords="943,10719,1153,10759"/>
+<area shape="poly" id="edge580_Node000268_Node000308" title=" " alt="" coords="799,11248,833,11240,848,11232,861,11221,882,11194,896,11167,904,11139,907,11112,901,11056,886,11000,871,10943,864,10886,866,10857,874,10829,888,10800,909,10771,924,10758,941,10748,944,10753,927,10762,913,10774,892,10802,879,10830,871,10858,869,10886,876,10942,891,10999,906,11055,912,11112,909,11140,901,11169,887,11197,865,11225,851,11237,835,11245,801,11253"/>
+<area shape="rect" id="Node000309" href="$classqSlicerVolumeDisplayWidget.html" title=" " alt="" coords="943,10784,1153,10809"/>
+<area shape="poly" id="edge581_Node000268_Node000309" title=" " alt="" coords="800,11248,833,11240,848,11232,861,11221,880,11197,893,11173,900,11148,902,11124,897,11074,884,11023,871,10973,866,10922,869,10896,876,10871,889,10845,909,10820,924,10808,941,10799,944,10804,927,10812,913,10824,893,10848,881,10873,874,10897,871,10922,877,10972,889,11022,902,11073,907,11124,905,11149,898,11175,884,11200,865,11225,851,11237,835,11245,801,11253"/>
+<area shape="rect" id="Node000270" href="$classqMRMLPlotWidget.html" title="qMRMLPlotWidget is the top&#45;level Plotting widget that can be packed in a layout." alt="" coords="1291,10917,1432,10943"/>
+<area shape="poly" id="edge542_Node000269_Node000270" title=" " alt="" coords="1161,10860,1186,10869,1201,10878,1211,10887,1221,10896,1234,10904,1291,10920,1290,10925,1232,10908,1217,10900,1208,10891,1198,10882,1184,10874,1159,10865"/>
+<area shape="rect" id="Node000271" href="$classqMRMLSliceWidget.html" title=" " alt="" coords="1288,10769,1435,10795"/>
+<area shape="poly" id="edge543_Node000269_Node000271" title=" " alt="" coords="1143,10828,1185,10819,1233,10805,1289,10792,1291,10797,1234,10810,1186,10825,1144,10833"/>
+<area shape="rect" id="Node000272" href="$classqMRMLTableWidget.html" title="qMRMLTableWidget is the top&#45;level table widget that can be packed in a layout." alt="" coords="1287,10819,1436,10844"/>
+<area shape="poly" id="edge544_Node000269_Node000272" title=" " alt="" coords="1163,10838,1286,10832,1286,10837,1163,10843"/>
+<area shape="rect" id="Node000273" href="$classqMRMLThreeDWidget.html" title=" " alt="" coords="1280,10868,1443,10893"/>
+<area shape="poly" id="edge545_Node000269_Node000273" title=" " alt="" coords="1163,10856,1280,10869,1280,10874,1163,10861"/>
+<area shape="rect" id="Node000303" href="$classqMRMLPlotViewControllerWidget.html" title=" " alt="" coords="1243,10692,1480,10717"/>
+<area shape="poly" id="edge575_Node000302_Node000303" title=" " alt="" coords="1148,10646,1186,10655,1210,10666,1234,10677,1283,10689,1282,10695,1232,10682,1208,10671,1184,10661,1147,10651"/>
+<area shape="rect" id="Node000304" href="$classqMRMLSliceControllerWidget.html" title=" " alt="" coords="1256,10513,1467,10539"/>
+<area shape="poly" id="edge576_Node000302_Node000304" title=" " alt="" coords="1154,10619,1184,10606,1199,10593,1207,10579,1216,10563,1232,10549,1260,10536,1262,10541,1235,10554,1220,10567,1212,10581,1203,10597,1187,10611,1156,10624"/>
+<area shape="rect" id="Node000305" href="$classqMRMLTableViewControllerWidget.html" title=" " alt="" coords="1262,10563,1461,10603"/>
+<area shape="poly" id="edge577_Node000302_Node000305" title=" " alt="" coords="1142,10615,1262,10596,1262,10602,1143,10620"/>
+<area shape="rect" id="Node000306" href="$classqMRMLThreeDViewControllerWidget.html" title=" " alt="" coords="1255,10627,1467,10667"/>
+<area shape="poly" id="edge578_Node000302_Node000306" title=" " alt="" coords="1155,10635,1255,10640,1255,10645,1155,10640"/>
+<area shape="rect" id="Node000315" href="$classqSlicerCPURayCastVolumeRenderingPropertiesWidget.html" title=" " alt="" coords="917,12493,1179,12533"/>
+<area shape="poly" id="edge587_Node000314_Node000315" title=" " alt="" coords="861,11558,865,11563,886,11598,899,11642,907,11694,909,11752,903,11883,889,12023,875,12164,869,12294,871,12351,879,12402,892,12445,913,12479,925,12491,921,12494,909,12482,888,12447,874,12403,866,12352,864,12294,870,12163,884,12023,898,11882,904,11752,901,11695,894,11643,881,11600,861,11566,857,11562"/>
+<area shape="rect" id="Node000316" href="$classqSlicerGPURayCastVolumeRenderingPropertiesWidget.html" title=" " alt="" coords="917,12365,1179,12405"/>
+<area shape="poly" id="edge588_Node000314_Node000316" title=" " alt="" coords="860,11558,865,11563,883,11593,895,11631,902,11676,904,11726,900,11838,889,11959,878,12080,874,12192,877,12241,883,12285,895,12322,913,12351,925,12362,921,12366,909,12354,890,12324,878,12286,871,12242,869,12192,873,12080,884,11959,895,11838,899,11726,896,11676,890,11632,878,11595,861,11566,857,11562"/>
+<area shape="rect" id="Node000317" href="$classqSlicerMultiVolumeRenderingPropertiesWidget.html" title=" " alt="" coords="941,12429,1155,12469"/>
+<area shape="poly" id="edge589_Node000314_Node000317" title=" " alt="" coords="861,11558,865,11563,884,11596,897,11637,904,11685,907,11739,901,11860,889,11991,876,12122,871,12243,874,12296,881,12344,894,12384,913,12415,926,12427,942,12436,939,12441,923,12431,909,12418,889,12386,876,12345,869,12297,866,12243,871,12122,884,11991,896,11860,901,11739,899,11685,892,11638,879,11598,861,11566,857,11562"/>
+<area shape="rect" id="Node000319" href="$classqSlicerExtensionsServerWidget.html" title=" " alt="" coords="935,12557,1161,12583"/>
+<area shape="poly" id="edge591_Node000318_Node000319" title=" " alt="" coords="814,11585,842,11595,865,11612,887,11647,901,11692,909,11744,911,11803,904,11936,889,12080,874,12223,867,12355,870,12414,878,12466,892,12509,913,12543,937,12561,933,12565,909,12546,887,12511,872,12467,865,12415,862,12355,869,12223,884,12079,899,11936,906,11803,903,11745,896,11693,882,11650,861,11616,839,11599,812,11590"/>
+</map>

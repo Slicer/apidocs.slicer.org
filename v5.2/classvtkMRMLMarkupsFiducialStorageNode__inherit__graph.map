@@ -1,0 +1,5 @@
+<map id="vtkMRMLMarkupsFiducialStorageNode" name="vtkMRMLMarkupsFiducialStorageNode">
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsStorageNode.html" title="vtkMRMLMarkupsStorageNode" alt="" coords="30,229,253,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes. " alt="" coords="58,155,225,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="83,80,200,107"/>
+</map>

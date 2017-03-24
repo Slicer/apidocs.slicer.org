@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,104,172,129"/>
+<area shape="rect" id="Node000001" href="$classvtkCapPolyData.html" title="Filter to generate an end cap for a polydata cut with the specified function." alt="" coords="279,5,405,31"/>
+<area shape="poly" id="edge967_Node000000_Node000001" title=" " alt="" coords="118,94,164,66,219,39,278,24,279,29,221,45,167,70,120,99"/>
+<area shape="rect" id="Node000002" href="$classvtkCurveMeasurementsCalculator.html" title=" " alt="" coords="220,55,464,80"/>
+<area shape="poly" id="edge968_Node000000_Node000002" title=" " alt="" coords="168,99,275,77,276,83,169,104"/>
+<area shape="rect" id="Node000003" href="$classvtkITKLevelTracingImageFilter.html" title="Wrapper class around itk::LevelTracingImageFilterImageFilter." alt="" coords="233,104,451,129"/>
+<area shape="poly" id="edge969_Node000000_Node000003" title=" " alt="" coords="186,114,232,114,232,119,186,119"/>
+<area shape="rect" id="Node000004" href="$classvtkMarkupsGlyphSource2D.html" title=" " alt="" coords="243,153,441,179"/>
+<area shape="poly" id="edge970_Node000000_Node000004" title=" " alt="" coords="169,129,276,151,275,156,168,135"/>
+<area shape="rect" id="Node000005" href="$classvtkProjectMarkupsCurvePointsFilter.html" title="Projects curve points from a vtkMRMLMarkupsCurveNode to the surface of a model." alt="" coords="231,203,453,243"/>
+<area shape="poly" id="edge971_Node000000_Node000005" title=" " alt="" coords="122,134,168,162,221,188,258,201,256,206,219,192,165,166,119,139"/>
+</map>

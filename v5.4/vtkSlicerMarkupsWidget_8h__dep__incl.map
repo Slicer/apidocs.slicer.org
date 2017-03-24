@@ -1,0 +1,20 @@
+<map id="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidget.h" name="Modules/Loadable/Markups/VTKWidgets/vtkSlicerMarkupsWidget.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="819,5,1098,45"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLMarkupsDisplayableManager_8h.html" title=" " alt="" coords="5,196,291,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="805,30,599,34,374,45,271,53,184,64,120,78,99,86,86,95,79,106,76,118,83,144,99,171,120,194,116,197,95,174,78,146,71,118,74,104,82,91,96,82,118,73,183,59,270,48,373,39,599,29,805,25"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLMarkupsDisplayableManagerHelper_8h.html" title=" " alt="" coords="96,93,381,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="806,45,609,68,394,96,382,98,381,92,393,91,609,63,805,40"/>
+<area shape="rect" id="Node000004" href="$vtkSlicerAngleWidget_8h.html" title=" " alt="" coords="405,101,665,141"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="860,51,621,103,620,98,859,46"/>
+<area shape="rect" id="Node000005" href="$vtkSlicerCurveWidget_8h.html" title=" " alt="" coords="688,101,949,141"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="920,55,848,103,845,98,917,51"/>
+<area shape="rect" id="Node000006" href="$vtkSlicerLineWidget_8h.html" title=" " alt="" coords="973,101,1224,141"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1000,51,1072,98,1069,103,997,55"/>
+<area shape="rect" id="Node000007" href="$vtkSlicerPlaneWidget_8h.html" title=" " alt="" coords="1248,101,1507,141"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1057,46,1293,98,1292,103,1056,51"/>
+<area shape="rect" id="Node000008" href="$vtkSlicerPointsWidget_8h.html" title=" " alt="" coords="1531,101,1794,141"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1112,40,1306,62,1519,91,1564,98,1563,103,1518,96,1306,67,1111,45"/>
+<area shape="rect" id="Node000009" href="$vtkSlicerROIWidget_8h.html" title=" " alt="" coords="1818,101,2065,141"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="1112,31,1433,52,1620,69,1807,91,1853,98,1852,103,1806,96,1620,74,1432,57,1112,36"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="208,160,174,198,170,194,204,157"/>
+</map>
