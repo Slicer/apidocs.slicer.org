@@ -1,0 +1,5 @@
+<map id="vtkMRMLROINode" name="vtkMRMLROINode">
+<area shape="rect" id="node2" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="5,229,215,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="25,155,195,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="51,80,169,107"/>
+</map>

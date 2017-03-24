@@ -1,0 +1,4 @@
+<map id="vtkMRMLMeasurementArea" name="vtkMRMLMeasurementArea">
+<area shape="rect" id="node2" href="$classvtkMRMLMeasurement.html" title="Class for storing well&#45;defined measurement results, using coded entries. " alt="" coords="20,215,193,241"/>
+<area shape="rect" id="node4" href="$classvtkCodedEntry.html" title="Simple class for storing standard coded entries (coding scheme, value, meaning triplets) ..." alt="" coords="123,81,242,108"/>
+</map>

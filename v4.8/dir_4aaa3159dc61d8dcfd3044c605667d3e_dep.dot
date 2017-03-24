@@ -1,0 +1,18 @@
+digraph "Libs/MRML/Core" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf88b8eb9079642a844821688c9bd6e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MRML" fontname="Helvetica", fontsize="10", URL="dir_bf88b8eb9079642a844821688c9bd6e7.html"]
+  subgraph clusterdir_4aaa3159dc61d8dcfd3044c605667d3e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4aaa3159dc61d8dcfd3044c605667d3e.html"];
+    dir_4aaa3159dc61d8dcfd3044c605667d3e [shape=plaintext label="Core"];
+    dir_e14c1302e6b78387dc579f27e37b4e9a [shape=box label="Documentation" color="black" fillcolor="white" style="filled" URL="dir_e14c1302e6b78387dc579f27e37b4e9a.html"];
+  }
+  }
+  dir_b13f4b7672840242e703bff5c70e0c1a [shape=box label="vtkSegmentationCore" URL="dir_b13f4b7672840242e703bff5c70e0c1a.html"];
+  dir_bbdfb281d0193594577b968ae461c48a [shape=box label="vtkAddon" URL="dir_bbdfb281d0193594577b968ae461c48a.html"];
+  dir_4aaa3159dc61d8dcfd3044c605667d3e->dir_b13f4b7672840242e703bff5c70e0c1a [headlabel="1", labeldistance=1.5 headhref="dir_000017_000036.html"];
+  dir_4aaa3159dc61d8dcfd3044c605667d3e->dir_bbdfb281d0193594577b968ae461c48a [headlabel="2", labeldistance=1.5 headhref="dir_000017_000034.html"];
+}

@@ -1,0 +1,69 @@
+<map id="vtkMRMLStorageNode" name="vtkMRMLStorageNode">
+<area shape="rect" id="Node000001" title="A superclass for other storage nodes." alt="" coords="304,539,471,565"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLAnnotationSnapshotStorageNode.html" title=" " alt="" coords="555,5,770,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="389,525,405,423,432,282,449,211,469,146,492,93,517,57,534,43,554,34,556,39,537,48,521,61,496,95,474,148,454,212,437,283,410,424,395,526"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLAnnotationStorageNode.html" title=" " alt="" coords="543,70,782,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="385,526,387,443,393,389,403,330,419,268,442,209,475,154,517,106,542,90,544,95,520,110,479,157,447,211,424,270,408,331,398,390,392,444,390,526"/>
+<area shape="rect" id="Node000010" href="$classvtkMRMLColorTableStorageNode.html" title="MRML node for representing a volume storage." alt="" coords="545,119,780,145"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="386,526,391,451,409,351,426,297,448,245,479,197,517,155,544,139,547,143,520,159,483,200,453,247,431,299,414,352,396,452,391,526"/>
+<area shape="rect" id="Node000011" href="$classvtkMRMLHierarchyStorageNode.html" title="MRML node for representing a no&#45;op hierarchy storage." alt="" coords="547,169,778,194"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="387,525,396,459,416,372,433,326,455,281,482,240,517,205,546,188,548,193,520,209,487,243,459,284,438,328,421,374,401,460,393,526"/>
+<area shape="rect" id="Node000012" href="$classvtkMRMLMarkupsStorageNode.html" title=" " alt="" coords="551,218,774,243"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="389,525,401,468,423,394,440,355,461,318,486,283,517,254,550,236,552,241,520,258,490,287,465,320,445,357,428,395,406,469,395,526"/>
+<area shape="rect" id="Node000017" href="$classvtkMRMLModelStorageNode.html" title="MRML node for model storage on disk." alt="" coords="559,267,766,293"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="392,525,406,477,430,416,467,355,490,327,517,303,537,292,558,284,560,289,539,297,520,308,494,331,471,358,435,418,411,479,397,527"/>
+<area shape="rect" id="Node000018" href="$classvtkMRMLNRRDStorageNode.html" title="MRML node for representing a volume storage." alt="" coords="560,317,765,342"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="395,525,412,486,438,439,473,392,494,370,517,352,559,334,561,339,520,357,497,374,477,395,443,442,417,489,400,528"/>
+<area shape="rect" id="Node000020" href="$classvtkMRMLProceduralColorStorageNode.html" title="MRML node for procedural color node storage." alt="" coords="527,366,798,391"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="401,526,446,463,479,429,517,402,547,389,549,394,520,406,483,433,451,466,405,529"/>
+<area shape="rect" id="Node000021" href="$classvtkMRMLSceneViewStorageNode.html" title="MRML node for model storage on disk." alt="" coords="543,415,782,441"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="410,527,457,488,486,467,518,451,556,438,557,443,520,456,489,472,460,492,413,531"/>
+<area shape="rect" id="Node000022" href="$classvtkMRMLSegmentationStorageNode.html" title="MRML node for segmentation storage on disk." alt="" coords="533,465,792,490"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="429,532,518,500,574,487,575,493,519,505,431,537"/>
+<area shape="rect" id="Node000023" href="$classvtkMRMLSequenceStorageNode.html" title="MRML node for storing a sequence node on disk." alt="" coords="547,514,778,539"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="484,540,547,535,547,540,485,546"/>
+<area shape="rect" id="Node000024" href="$classvtkMRMLShaderPropertyStorageNode.html" title=" " alt="" coords="529,563,796,589"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="485,558,529,562,529,567,484,563"/>
+<area shape="rect" id="Node000025" href="$classvtkMRMLTableSQLiteStorageNode.html" title=" " alt="" coords="541,613,784,638"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="431,568,519,599,570,610,569,615,518,604,429,573"/>
+<area shape="rect" id="Node000026" href="$classvtkMRMLTableStorageNode.html" title="MRML node for handling Table node storage." alt="" coords="563,662,763,687"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="413,572,460,612,489,632,520,648,563,662,562,667,518,653,486,637,456,616,409,576"/>
+<area shape="rect" id="Node000027" href="$classvtkMRMLTextStorageNode.html" title=" " alt="" coords="566,711,759,737"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="405,575,450,638,483,671,520,698,567,715,565,720,517,702,479,675,446,641,400,578"/>
+<area shape="rect" id="Node000028" href="$classvtkMRMLTransformSequenceStorageNode.html" title=" " alt="" coords="557,761,768,801"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="401,577,418,615,443,662,478,708,520,747,558,766,556,770,517,752,474,712,439,665,413,618,396,579"/>
+<area shape="rect" id="Node000029" href="$classvtkMRMLTransformStorageNode.html" title="MRML node for transform storage on disk." alt="" coords="547,826,778,851"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="396,577,409,628,433,692,469,757,493,786,520,811,548,826,546,831,517,816,489,790,465,760,428,695,404,630,391,579"/>
+<area shape="rect" id="Node000030" href="$classvtkMRMLVolumeArchetypeStorageNode.html" title="MRML node for representing a volume storage." alt="" coords="522,875,803,901"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="394,578,404,638,426,716,442,757,463,796,489,831,520,862,538,873,535,877,517,866,485,835,459,799,437,759,421,718,399,640,389,579"/>
+<area shape="rect" id="Node000031" href="$classvtkMRMLVolumeHeaderlessStorageNode.html" title="MRML node for representing a volume storage." alt="" coords="519,925,807,950"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="392,578,399,646,419,738,435,786,457,832,485,875,520,911,537,922,534,927,517,915,481,878,452,835,430,788,414,739,394,647,387,579"/>
+<area shape="rect" id="Node000032" href="$classvtkMRMLVolumePropertyJsonStorageNode.html" title=" " alt="" coords="556,975,769,1015"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="391,578,396,654,403,703,414,757,430,813,452,867,482,917,520,961,537,973,557,982,555,987,535,978,517,965,478,920,448,869,425,815,408,759,397,704,391,654,386,578"/>
+<area shape="rect" id="Node000033" href="$classvtkMRMLVolumePropertyStorageNode.html" title=" " alt="" coords="527,1039,798,1065"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="395,578,410,678,437,813,455,881,474,942,496,992,521,1025,538,1037,535,1041,517,1029,492,995,469,944,449,882,432,814,405,679,390,579"/>
+<area shape="rect" id="Node000034" href="$classvtkMRMLVolumeSequenceStorageNode.html" title="Store a sequence of volumes in a NRRD file." alt="" coords="523,1089,802,1114"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="394,578,408,687,433,837,451,914,471,983,494,1039,521,1075,535,1086,532,1091,517,1079,490,1041,466,984,446,915,428,838,403,688,389,579"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="139,539,256,565"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,549,304,549,304,555,270,555"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,539,91,565"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,549,138,549,138,555,105,555"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLAnnotationControlPointsStorageNode.html" title=" " alt="" coords="889,63,1092,103"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="796,80,889,80,889,85,796,85"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLAnnotationFiducialsStorageNode.html" title=" " alt="" coords="1211,35,1423,75"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1106,70,1211,61,1211,66,1106,75"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLAnnotationLinesStorageNode.html" title=" " alt="" coords="1181,99,1454,125"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1106,90,1181,97,1180,102,1106,96"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLAnnotationRulerStorageNode.html" title=" " alt="" coords="1508,99,1781,125"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1467,109,1508,109,1508,115,1467,115"/>
+<area shape="rect" id="Node000013" href="$classvtkMRMLMarkupsFiducialStorageNode.html" title=" " alt="" coords="855,189,1127,214"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="787,217,854,211,855,216,788,222"/>
+<area shape="rect" id="Node000014" href="$classvtkMRMLMarkupsJsonStorageNode.html" title=" " alt="" coords="866,238,1115,263"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="788,236,866,240,866,246,788,241"/>
+<area shape="rect" id="Node000015" href="$classvtkMRMLMarkupsPlaneJsonStorageNode.html" title=" " alt="" coords="1175,214,1460,239"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="1129,238,1174,234,1175,240,1129,243"/>
+<area shape="rect" id="Node000016" href="$classvtkMRMLMarkupsROIJsonStorageNode.html" title=" " alt="" coords="1181,263,1453,289"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="1129,259,1181,263,1181,268,1129,264"/>
+<area shape="rect" id="Node000019" href="$classvtkMRMLLinearTransformSequenceStorageNode.html" title=" " alt="" coords="865,309,1116,349"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="779,327,865,327,865,332,779,332"/>
+</map>

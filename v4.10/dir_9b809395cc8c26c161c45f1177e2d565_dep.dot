@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Transforms/SubjectHierarchyPlugins" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cc2e4217dca79d6eba6fbfb5540b4203 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Transforms" fontname="Helvetica", fontsize="10", URL="dir_cc2e4217dca79d6eba6fbfb5540b4203.html"]
+  dir_9b809395cc8c26c161c45f1177e2d565 [shape=box, label="SubjectHierarchyPlugins", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9b809395cc8c26c161c45f1177e2d565.html"];
+  }
+  dir_1694c2d71873d62d036e188d77c435ae [shape=box label="SubjectHierarchy" color="red" URL="dir_1694c2d71873d62d036e188d77c435ae.html"];
+  dir_9b809395cc8c26c161c45f1177e2d565->dir_1694c2d71873d62d036e188d77c435ae [headlabel="1", labeldistance=1.5 headhref="dir_000116_000102.html"];
+}

@@ -1,0 +1,9 @@
+<map id="qSlicerDTISliceDisplayWidget" name="qSlicerDTISliceDisplayWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,220,177"/>
+<area shape="rect" id="Node000002" href="$classqSlicerWidget.html" title=" " alt="" coords="57,79,169,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,118,115,152,110,152,110,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,93,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,40,105,77,101,80,70,43"/>
+<area shape="rect" id="Node000004" href="$classqSlicerObject.html" title=" " alt="" coords="117,5,225,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="155,43,124,80,120,77,151,40"/>
+</map>

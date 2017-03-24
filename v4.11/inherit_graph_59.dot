@@ -1,0 +1,30 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node573 [label="QStandardItemModel",height=0.2,width=0.4,color="grey75"];
+  Node573 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="qMRMLColorModel",height=0.2,width=0.4,color="black",URL="$classqMRMLColorModel.html"];
+  Node573 -> Node575 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node575 [label="qMRMLSceneModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneModel.html"];
+  Node575 -> Node576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node576 [label="qMRMLSceneCategoryModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneCategoryModel.html"];
+  Node576 -> Node577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node577 [label="qMRMLSceneColorTableModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneColorTableModel.html"];
+  Node575 -> Node578 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node578 [label="qMRMLSceneHierarchyModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneHierarchyModel.html"];
+  Node578 -> Node579 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node579 [label="qMRMLSceneDisplayableModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneDisplayableModel.html",tooltip="The Visibility icon is in the same column than the name by default. "];
+  Node579 -> Node580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node580 [label="qMRMLSceneAnnotationModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneAnnotationModel.html"];
+  Node575 -> Node581 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node581 [label="qMRMLSceneTransformModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSceneTransformModel.html"];
+  Node573 -> Node582 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node582 [label="qMRMLSegmentsModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSegmentsModel.html",tooltip="Item model for segments. "];
+  Node573 -> Node583 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node583 [label="qMRMLSubjectHierarchyModel",height=0.2,width=0.4,color="black",URL="$classqMRMLSubjectHierarchyModel.html",tooltip="Item model for subject hierarchy. "];
+  Node573 -> Node584 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node584 [label="qMRMLTableModel",height=0.2,width=0.4,color="black",URL="$classqMRMLTableModel.html"];
+}

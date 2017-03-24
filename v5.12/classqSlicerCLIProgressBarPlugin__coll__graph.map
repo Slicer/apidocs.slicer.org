@@ -1,0 +1,9 @@
+<map id="qSlicerCLIProgressBarPlugin" name="qSlicerCLIProgressBarPlugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,152,225,177"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,80,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,111,111,150,108,154,64,115"/>
+<area shape="rect" id="Node000003" href="$classqSlicerQTCLIAbstractPlugin.html" title=" " alt="" coords="104,79,301,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,115,138,154,134,150,178,111"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="81,5,325,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,44,205,79,200,79,200,44"/>
+</map>

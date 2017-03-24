@@ -1,0 +1,10 @@
+<map id="vtkMRMLDiffusionImageVolumeNode" name="vtkMRMLDiffusionImageVolumeNode">
+<area shape="rect" id="node10" href="$classvtkMRMLDiffusionTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="5,677,272,704"/>
+<area shape="rect" id="node2" href="$classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume. " alt="" coords="35,528,242,555"/>
+<area shape="rect" id="node3" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="35,453,242,480"/>
+<area shape="rect" id="node4" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="56,379,221,405"/>
+<area shape="rect" id="node5" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="41,304,236,331"/>
+<area shape="rect" id="node6" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform. " alt="" coords="34,229,243,256"/>
+<area shape="rect" id="node7" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="53,155,224,181"/>
+<area shape="rect" id="node8" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="80,80,197,107"/>
+</map>

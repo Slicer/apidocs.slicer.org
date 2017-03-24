@@ -1,0 +1,37 @@
+<map id="Modules/CLI/PETStandardUptakeValueComputation/itkDCMTKFileReader.h" name="Modules/CLI/PETStandardUptakeValueComputation/itkDCMTKFileReader.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1186,5,1477,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,63,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1186,33,614,54,309,72,179,83,77,96,76,91,179,78,308,67,614,49,1186,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="87,93,149,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1186,29,986,31,733,41,450,62,306,77,163,96,163,91,305,72,450,56,732,36,986,26,1186,23"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="174,93,310,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1186,36,800,57,564,74,324,96,323,91,564,69,800,52,1185,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="335,93,440,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1186,36,855,57,656,74,454,96,453,91,656,69,855,52,1186,31"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="465,93,590,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1186,40,920,63,604,96,604,91,919,57,1186,35"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="614,93,793,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1186,47,807,95,806,89,1185,42"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="817,93,1011,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1232,48,989,93,988,88,1231,43"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1036,93,1216,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1283,48,1170,91,1168,86,1281,43"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1240,93,1423,119"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1334,46,1334,79,1329,79,1329,46"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1447,93,1637,119"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1383,43,1499,86,1497,91,1381,48"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1661,93,1857,119"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1434,43,1684,88,1683,93,1433,48"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1881,93,2067,119"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1477,42,1868,89,1868,94,1476,47"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="2091,93,2294,119"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1477,37,2077,90,2077,96,1477,42"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="2318,93,2521,119"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1477,33,1848,56,2304,91,2304,96,1847,62,1477,38"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="2545,93,2635,119"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1477,26,1682,31,1943,42,2234,61,2531,91,2530,96,2234,66,1942,47,1682,36,1477,31"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="2659,93,2798,119"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1477,27,1989,46,2314,64,2646,91,2645,96,2314,70,1989,51,1477,33"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="2823,93,3003,119"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="1477,27,2055,47,2428,66,2809,91,2809,96,2428,71,2055,53,1477,33"/>
+</map>
