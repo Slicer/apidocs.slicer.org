@@ -1,0 +1,24 @@
+digraph "vtkMRMLModelDisplayNode"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node11 [label="vtkMRMLModelDisplayNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vtkMRMLDisplayNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLDisplayNode.html",tooltip="Abstract class that contains graphical display properties for displayable nodes. "];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="vtkMRMLNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLNode.html",tooltip="Abstract Superclass for all specific types of MRML nodes. "];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node15 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" MRMLObserverManager" ,fontname="Helvetica"];
+  Node15 [label="vtkObserverManager",height=0.2,width=0.4,color="black",URL="$classvtkObserverManager.html",tooltip="Manages adding and deleting of obserevers with events. "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ColorNode" ,fontname="Helvetica"];
+  Node16 [label="vtkMRMLColorNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLColorNode.html",tooltip="Abstract MRML node to represent color information. "];
+  Node17 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="vtkMRMLStorableNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLStorableNode.html",tooltip="MRML node to represent a 3D surface model. "];
+  Node13 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" UserTagTable" ,fontname="Helvetica"];
+  Node18 [label="vtkTagTable",height=0.2,width=0.4,color="black",URL="$classvtkTagTable.html"];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

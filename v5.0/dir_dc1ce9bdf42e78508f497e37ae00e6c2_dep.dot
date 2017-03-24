@@ -1,0 +1,17 @@
+digraph "Modules/Loadable/Data" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d01fdafe93af837a1755aeb3a6390699 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Loadable" fontname="Helvetica", fontsize="10", URL="dir_d01fdafe93af837a1755aeb3a6390699.html"]
+  subgraph clusterdir_dc1ce9bdf42e78508f497e37ae00e6c2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_dc1ce9bdf42e78508f497e37ae00e6c2.html"];
+    dir_dc1ce9bdf42e78508f497e37ae00e6c2 [shape=plaintext label="Data"];
+    dir_66a610de13816d2a9d4cbf6a551c20ae [shape=box label="Logic" color="black" fillcolor="white" style="filled" URL="dir_66a610de13816d2a9d4cbf6a551c20ae.html"];
+  }
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_66a610de13816d2a9d4cbf6a551c20ae->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000067_000002.html"];
+  dir_dc1ce9bdf42e78508f497e37ae00e6c2->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="6", labeldistance=1.5 headhref="dir_000066_000002.html"];
+}

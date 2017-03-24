@@ -1,0 +1,9 @@
+<map id="vtkMRMLLayerDMScriptedPipelineBridge" name="vtkMRMLLayerDMScriptedPipelineBridge">
+<area shape="rect" id="Node000001" title="Python bridge for vtkMRMLLayerDMPipeline. Delegates calls to the pipeline to its underlying python ob..." alt="" coords="33,152,280,192"/>
+<area shape="rect" id="Node000004" href="$classPython_1_1vtkMRMLLayerDMScriptedPipeline_1_1vtkMRMLLayerDMScriptedPipeline.html" title=" " alt="" coords="5,240,308,280"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,206,159,240,154,240,154,206"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLLayerDMPipeline.html" title="Interface for the layered displayable manager pipelines." alt="" coords="60,79,253,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,118,159,152,154,152,154,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="114,5,199,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,44,159,79,154,79,154,44"/>
+</map>

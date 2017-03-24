@@ -1,0 +1,58 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Slicer API documentation</title>
+</head>
+<body>
+  <h1>Slicer API documentation index</h1>
+  <p>
+    <ul id="folders">
+    </ul>
+  </p>
+  <script>
+  var MODE = {'subdirectory': '040000'};
+  document.addEventListener('DOMContentLoaded', function() {
+     // Collect paths
+    var request = new XMLHttpRequest();
+    request.onload = function() {
+      var tree = JSON.parse(this.responseText).tree;
+
+      // Get reference to the list of folders
+      var previews = document.getElementById('folders');
+
+      // Collect sub-directories
+      var paths = [];
+      for (i in tree){
+        if (tree[i].mode != MODE['subdirectory']) {
+          continue;
+        }
+        if (tree[i].path.startsWith('.')) {
+          continue;
+        }
+        paths.push(tree[i].path);
+      }
+
+      // Add item to the list
+      if (paths.length == 0) {
+        li = document.createElement('li');
+        li.appendChild(document.createTextNode('No folder to list'));
+        previews.appendChild(li);
+      } else {
+
+        paths.forEach(function addEntry(path){
+          li = document.createElement('li');
+          a = document.createElement('a');
+          a.href = path + "/index.html";
+          a.appendChild(document.createTextNode(path));
+          li.appendChild(a);
+          previews.appendChild(li);
+        });
+      }
+    };
+    request.open('get', 'https://api.github.com/repos/slicer/apidocs.slicer.org/git/trees/gh-pages');
+    request.send();
+  }, false);
+  </script>
+</body>

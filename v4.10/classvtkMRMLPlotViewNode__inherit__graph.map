@@ -1,0 +1,4 @@
+<map id="vtkMRMLPlotViewNode" name="vtkMRMLPlotViewNode">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D..." alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node3" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="47,80,159,107"/>
+</map>

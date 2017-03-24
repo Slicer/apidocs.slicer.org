@@ -1,0 +1,9 @@
+<map id="SubjectHierarchyLib.parameterNodeWrapper.guiConnectors.qMRMLSubjectHierarchyTreeViewToNodeConnector" name="SubjectHierarchyLib.parameterNodeWrapper.guiConnectors.qMRMLSubjectHierarchyTreeViewToNodeConnector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,168,312,223"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="82,80,193,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,118,156,167,150,168,140,119"/>
+<area shape="rect" id="Node000003" href="$classqMRMLSubjectHierarchyTreeView.html" title=" " alt="" coords="217,80,457,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="306,114,207,170,204,166,304,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="292,5,383,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="340,45,340,80,335,80,335,45"/>
+</map>

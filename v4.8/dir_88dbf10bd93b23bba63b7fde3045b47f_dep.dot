@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Cameras/Logic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f6ef0237751192c250b490ce2141bdaf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Cameras" fontname="Helvetica", fontsize="10", URL="dir_f6ef0237751192c250b490ce2141bdaf.html"]
+  dir_88dbf10bd93b23bba63b7fde3045b47f [shape=box, label="Logic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_88dbf10bd93b23bba63b7fde3045b47f.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_88dbf10bd93b23bba63b7fde3045b47f->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000061_000002.html"];
+}

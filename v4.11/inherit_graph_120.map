@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classvtkAnnotationGlyphSource2D.html" title="vtkAnnotationGlyphSource2D" alt="" coords="235,5,449,32"/>
+<area shape="rect" id="node3" href="$classvtkCurveGenerator.html" title="Filter that generates curves between points of an input polydata. " alt="" coords="269,56,415,83"/>
+<area shape="rect" id="node4" href="$classvtkCurveMeasurementsCalculator.html" title="Filter that generates curves between points of an input polydata. " alt="" coords="220,107,464,133"/>
+<area shape="rect" id="node5" href="$classvtkITKLevelTracingImageFilter.html" title="Wrapper class around itk::LevelTracingImageFilterImageFilter. " alt="" coords="233,157,451,184"/>
+<area shape="rect" id="node6" href="$classvtkMarkupsGlyphSource2D.html" title="vtkMarkupsGlyphSource2D" alt="" coords="243,208,441,235"/>
+<area shape="rect" id="node7" href="$classvtkPrincipalAxesAlign.html" title="vtkPrincipalAxesAlign" alt="" coords="261,259,423,285"/>
+<area shape="rect" id="node8" href="$classvtkSlicerGlyphSource2D.html" title="vtkSlicerGlyphSource2D" alt="" coords="253,309,431,336"/>
+</map>

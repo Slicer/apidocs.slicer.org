@@ -1,0 +1,6 @@
+<map id="vtkMRMLLayoutLogic" name="vtkMRMLLayoutLogic">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="5,132,171,159"/>
+<area shape="rect" id="node5" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="147,183,259,209"/>
+<area shape="rect" id="node6" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="228,81,383,108"/>
+<area shape="rect" id="node4" href="$classvtkMRMLLayoutNode.html" title="Node that describes the view layout of the application. " alt="" coords="125,259,280,285"/>
+</map>

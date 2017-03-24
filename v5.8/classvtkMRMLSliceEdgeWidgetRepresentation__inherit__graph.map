@@ -1,0 +1,7 @@
+<map id="vtkMRMLSliceEdgeWidgetRepresentation" name="vtkMRMLSliceEdgeWidgetRepresentation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,296,177"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractWidgetRepresentation.html" title="Class for rendering a markups node." alt="" coords="9,79,292,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,118,153,152,148,152,148,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,5,187,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,44,153,79,148,79,148,44"/>
+</map>

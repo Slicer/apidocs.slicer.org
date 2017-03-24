@@ -1,0 +1,9 @@
+<map id="vtkMRMLColorLegendDisplayNode" name="vtkMRMLColorLegendDisplayNode">
+<area shape="rect" id="Node000001" title="Class describing how to display a color legend." alt="" coords="5,225,252,251"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes." alt="" coords="45,152,212,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,191,131,225,126,225,126,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="70,79,187,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,118,131,152,126,152,126,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="86,5,171,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="131,44,131,79,126,79,126,44"/>
+</map>

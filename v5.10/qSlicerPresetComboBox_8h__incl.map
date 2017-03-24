@@ -1,0 +1,20 @@
+<map id="Modules/Loadable/VolumeRendering/Widgets/qSlicerPresetComboBox.h" name="Modules/Loadable/VolumeRendering/Widgets/qSlicerPresetComboBox.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="363,5,621,45"/>
+<area shape="rect" id="Node000002" href="$qMRMLNodeComboBox_8h.html" title=" " alt="" coords="283,101,469,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,48,404,95,401,90,465,43"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="493,93,723,133"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="519,43,573,83,570,87,516,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,181,242,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="350,128,231,179,229,174,348,124"/>
+<area shape="rect" id="Node000004" href="$qMRMLSortFilterProxyModel_8h.html" title=" " alt="" coords="267,181,485,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="379,126,379,167,373,167,373,126"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="461,255,637,280"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="407,124,453,146,499,179,524,210,541,240,536,243,519,213,495,183,450,151,405,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,255,173,280"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="331,209,150,254,148,249,329,204"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="197,255,291,280"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="356,209,279,250,276,246,354,204"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="315,255,437,280"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="379,207,379,241,373,241,373,207"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="405,204,509,247,507,252,403,209"/>
+</map>

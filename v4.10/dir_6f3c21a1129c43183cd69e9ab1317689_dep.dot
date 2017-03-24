@@ -1,0 +1,16 @@
+digraph "Libs/MRML/Widgets" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bf88b8eb9079642a844821688c9bd6e7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MRML" fontname="Helvetica", fontsize="10", URL="dir_bf88b8eb9079642a844821688c9bd6e7.html"]
+  subgraph clusterdir_6f3c21a1129c43183cd69e9ab1317689 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6f3c21a1129c43183cd69e9ab1317689.html"];
+    dir_6f3c21a1129c43183cd69e9ab1317689 [shape=plaintext label="Widgets"];
+    dir_9a81348559b4aca5f853c283c7106ad5 [shape=box label="DesignerPlugins" color="black" fillcolor="white" style="filled" URL="dir_9a81348559b4aca5f853c283c7106ad5.html"];
+  }
+  }
+  dir_4aaa3159dc61d8dcfd3044c605667d3e [shape=box label="Core" color="red" URL="dir_4aaa3159dc61d8dcfd3044c605667d3e.html"];
+  dir_6f3c21a1129c43183cd69e9ab1317689->dir_4aaa3159dc61d8dcfd3044c605667d3e [headlabel="2", labeldistance=1.5 headhref="dir_000024_000017.html"];
+}

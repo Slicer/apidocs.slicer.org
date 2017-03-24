@@ -1,0 +1,16 @@
+digraph "Modules/Loadable/Units/Widgets" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cc14197804a1820deb60c1c3bde5e692 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Units" fontname="Helvetica", fontsize="10", URL="dir_cc14197804a1820deb60c1c3bde5e692.html"]
+  subgraph clusterdir_b0e5fc2e56ffe9de2d49b9197677cea7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b0e5fc2e56ffe9de2d49b9197677cea7.html"];
+    dir_b0e5fc2e56ffe9de2d49b9197677cea7 [shape=plaintext label="Widgets"];
+    dir_2ffe01a76b5e05ac63d3f16134646c8a [shape=box label="DesignerPlugins" color="black" fillcolor="white" style="filled" URL="dir_2ffe01a76b5e05ac63d3f16134646c8a.html"];
+  }
+  }
+  dir_6e6cb9563333489fde7459b1f95e59a5 [shape=box label="Libs" color="red" URL="dir_6e6cb9563333489fde7459b1f95e59a5.html"];
+  dir_b0e5fc2e56ffe9de2d49b9197677cea7->dir_6e6cb9563333489fde7459b1f95e59a5 [headlabel="1", labeldistance=1.5 headhref="dir_000131_000014.html"];
+}

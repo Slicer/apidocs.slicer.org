@@ -1,0 +1,12 @@
+<map id="Libs/MRML/DisplayableManager/vtkMRMLSliceViewInteractorStyle.h" name="Libs/MRML/DisplayableManager/vtkMRMLSliceViewInteractorStyle.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="74,5,333,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,167,223,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,47,166,95,132,156,128,153,161,92,189,44"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLViewInteractorStyle_8h.html" title=" " alt="" coords="175,93,397,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,44,266,82,262,86,222,47"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="262,121,169,163,167,158,260,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="247,174,344,199"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,119,295,160,290,160,285,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="369,174,505,199"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="309,116,404,165,401,170,307,121"/>
+</map>

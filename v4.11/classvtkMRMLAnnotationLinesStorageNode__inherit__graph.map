@@ -1,0 +1,8 @@
+<map id="vtkMRMLAnnotationLinesStorageNode" name="vtkMRMLAnnotationLinesStorageNode">
+<area shape="rect" id="node7" href="$classvtkMRMLAnnotationAngleStorageNode.html" title="vtkMRMLAnnotationAngleStorageNode" alt="" coords="5,468,281,495"/>
+<area shape="rect" id="node8" href="$classvtkMRMLAnnotationRulerStorageNode.html" title="vtkMRMLAnnotationRulerStorageNode" alt="" coords="305,468,579,495"/>
+<area shape="rect" id="node2" href="$classvtkMRMLAnnotationControlPointsStorageNode.html" title="vtkMRMLAnnotationControl\lPointsStorageNode" alt="" coords="191,304,394,345"/>
+<area shape="rect" id="node3" href="$classvtkMRMLAnnotationStorageNode.html" title="vtkMRMLAnnotationStorageNode" alt="" coords="173,229,412,256"/>
+<area shape="rect" id="node4" href="$classvtkMRMLStorageNode.html" title="A superclass for other storage nodes. " alt="" coords="209,155,376,181"/>
+<area shape="rect" id="node5" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="234,80,351,107"/>
+</map>

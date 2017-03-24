@@ -1,0 +1,22 @@
+digraph "vtkMRMLDisplayNode"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node30 [label="vtkMRMLDisplayNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node31 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="vtkMRMLNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLNode.html",tooltip="Abstract Superclass for all specific types of MRML nodes. "];
+  Node32 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node33 -> Node31 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" MRMLObserverManager" ,fontname="Helvetica"];
+  Node33 [label="vtkObserverManager",height=0.2,width=0.4,color="black",URL="$classvtkObserverManager.html",tooltip="Manages adding and deleting of obserevers with events. "];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node30 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ColorNode" ,fontname="Helvetica"];
+  Node34 [label="vtkMRMLColorNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLColorNode.html",tooltip="Abstract MRML node to represent color information. "];
+  Node35 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="vtkMRMLStorableNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLStorableNode.html",tooltip="MRML node to represent a 3D surface model. "];
+  Node31 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 -> Node35 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" UserTagTable" ,fontname="Helvetica"];
+  Node36 [label="vtkTagTable",height=0.2,width=0.4,color="black",URL="$classvtkTagTable.html"];
+  Node32 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

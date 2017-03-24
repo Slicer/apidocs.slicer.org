@@ -1,0 +1,13 @@
+<map id="vtkMRMLAbstractWidget" name="vtkMRMLAbstractWidget">
+<area shape="rect" id="node3" href="$classvtkMRMLCameraWidget.html" title="Process camera manipulation events. " alt="" coords="388,5,568,32"/>
+<area shape="rect" id="node4" href="$classvtkMRMLSliceIntersectionWidget.html" title="Show slice intersection lines. " alt="" coords="383,57,573,98"/>
+<area shape="rect" id="node5" href="$classvtkMRMLWindowLevelWidget.html" title="Show slice intersection lines. " alt="" coords="371,123,585,149"/>
+<area shape="rect" id="node6" href="$classvtkSlicerMarkupsWidget.html" title="Process interaction events to update state of markup widget nodes. " alt="" coords="388,173,568,200"/>
+<area shape="rect" id="node7" href="$classvtkSlicerAngleWidget.html" title="create an angle with a set of 3 points " alt="" coords="655,21,818,48"/>
+<area shape="rect" id="node8" href="$classvtkSlicerClosedCurveWidget.html" title="create a curve with a set of N points " alt="" coords="633,72,840,99"/>
+<area shape="rect" id="node9" href="$classvtkSlicerCurveWidget.html" title="create a curve with a set of N points " alt="" coords="655,123,818,149"/>
+<area shape="rect" id="node10" href="$classvtkSlicerLineWidget.html" title="create a line with a set of 2 points " alt="" coords="661,173,813,200"/>
+<area shape="rect" id="node11" href="$classvtkSlicerPlaneWidget.html" title="create a plane with a set of 3 points " alt="" coords="656,224,817,251"/>
+<area shape="rect" id="node12" href="$classvtkSlicerPointsWidget.html" title="Widget to display a set of interactive points. " alt="" coords="654,275,819,301"/>
+<area shape="rect" id="node13" href="$classvtkSlicerROIWidget.html" title="Create an ROI representation. " alt="" coords="663,325,811,352"/>
+</map>
