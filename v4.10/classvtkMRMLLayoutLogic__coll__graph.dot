@@ -1,0 +1,21 @@
+digraph "vtkMRMLLayoutLogic"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="vtkMRMLLayoutLogic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="vtkMRMLAbstractLogic",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAbstractLogic.html",tooltip="Superclass for MRML logic classes. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" LayoutNode" ,fontname="Helvetica"];
+  Node6 [label="vtkMRMLLayoutNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLLayoutNode.html",tooltip="Node that describes the view layout of the application. "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vtkMRMLAbstractLayoutNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLAbstractLayoutNode.html",tooltip="Node that describes the view layout of the application. "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vtkMRMLNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLNode.html",tooltip="Abstract Superclass for all specific types of MRML nodes. "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" MRMLObserverManager" ,fontname="Helvetica"];
+  Node9 [label="vtkObserverManager",height=0.2,width=0.4,color="black",URL="$classvtkObserverManager.html",tooltip="Manages adding and deleting of obserevers with events. "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

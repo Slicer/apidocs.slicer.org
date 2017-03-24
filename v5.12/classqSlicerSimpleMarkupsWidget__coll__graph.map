@@ -1,0 +1,9 @@
+<map id="qSlicerSimpleMarkupsWidget" name="qSlicerSimpleMarkupsWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,217,177"/>
+<area shape="rect" id="Node000002" href="$classqSlicerWidget.html" title=" " alt="" coords="55,79,167,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,118,114,152,109,152,109,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,92,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,40,104,77,100,80,69,43"/>
+<area shape="rect" id="Node000004" href="$classqSlicerObject.html" title=" " alt="" coords="116,5,224,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="154,43,123,80,119,77,150,40"/>
+</map>

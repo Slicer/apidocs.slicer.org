@@ -1,0 +1,44 @@
+digraph "vtkMRMLAbstractWidgetRepresentation"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="vtkMRMLAbstractWidgetRepresentation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="vtkProp",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vtkMRMLRubberBandWidgetRepresentation",height=0.2,width=0.4,color="black",URL="$classvtkMRMLRubberBandWidgetRepresentation.html",tooltip="represent intersections of other slice views in the current slice view "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vtkMRMLSliceIntersection\lRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkMRMLSliceIntersectionRepresentation2D.html",tooltip="represent intersections of other slice views in the current slice view "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="vtkSlicerMarkupsWidgetRepresentation",height=0.2,width=0.4,color="black",URL="$classvtkSlicerMarkupsWidgetRepresentation.html",tooltip="Class for rendering a markups node. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="vtkSlicerMarkupsWidgetRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerMarkupsWidgetRepresentation2D.html",tooltip="Default representation for the slicer markups widget. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vtkSlicerAngleRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerAngleRepresentation2D.html",tooltip="Default representation for the line widget. "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vtkSlicerCurveRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerCurveRepresentation2D.html",tooltip="Default representation for the line widget. "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vtkSlicerLineRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerLineRepresentation2D.html",tooltip="Default representation for the line widget. "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="vtkSlicerPlaneRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerPlaneRepresentation2D.html",tooltip="Default representation for the plane widget. "];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vtkSlicerPointsRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerPointsRepresentation2D.html",tooltip="Default representation for the points widget. "];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vtkSlicerROIRepresentation2D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerROIRepresentation2D.html",tooltip="Default representation for the plane widget. "];
+  Node4 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vtkSlicerMarkupsWidgetRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerMarkupsWidgetRepresentation3D.html",tooltip="Default representation for the markups widget in 3D views. "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="vtkSlicerAngleRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerAngleRepresentation3D.html",tooltip="Default representation for the angle widget. "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="vtkSlicerCurveRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerCurveRepresentation3D.html",tooltip="Default representation for the curve widget. "];
+  Node12 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="vtkSlicerLineRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerLineRepresentation3D.html",tooltip="Default representation for the line widget. "];
+  Node12 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="vtkSlicerPlaneRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerPlaneRepresentation3D.html",tooltip="Default representation for the plane widget. "];
+  Node12 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="vtkSlicerPointsRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerPointsRepresentation3D.html",tooltip="Default representation for the points widget. "];
+  Node12 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="vtkSlicerROIRepresentation3D",height=0.2,width=0.4,color="black",URL="$classvtkSlicerROIRepresentation3D.html",tooltip="Default representation for the plane widget. "];
+}

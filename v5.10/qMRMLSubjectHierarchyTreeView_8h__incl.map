@@ -1,0 +1,9 @@
+<map id="Modules/Loadable/SubjectHierarchy/Widgets/qMRMLSubjectHierarchyTreeView.h" name="Modules/Loadable/SubjectHierarchy/Widgets/qMRMLSubjectHierarchyTreeView.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="60,5,303,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,96,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,62,79,110,76,105,143,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,115,242,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,60,184,101,179,101,179,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="266,108,491,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,58,328,100,325,105,236,62"/>
+</map>

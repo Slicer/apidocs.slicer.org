@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Tables/Logic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bebbec89bc1e5b9710ed55c1d639a8a4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Tables" fontname="Helvetica", fontsize="10", URL="dir_bebbec89bc1e5b9710ed55c1d639a8a4.html"]
+  dir_966e5b1fb3c91adc4acdf8354a315cfa [shape=box, label="Logic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_966e5b1fb3c91adc4acdf8354a315cfa.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_966e5b1fb3c91adc4acdf8354a315cfa->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000107_000002.html"];
+}

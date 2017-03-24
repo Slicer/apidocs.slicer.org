@@ -1,0 +1,50 @@
+<map id="qSlicerObject" name="qSlicerObject">
+<area shape="rect" id="node2" href="$classqSlicerAbstractModuleRepresentation.html" title="qSlicerAbstractModuleRepresentation" alt="" coords="161,832,428,859"/>
+<area shape="rect" id="node28" href="$classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter. " alt="" coords="255,132,335,159"/>
+<area shape="rect" id="node36" href="$classqSlicerSubjectHierarchyPluginLogic.html" title="Qt&#45;based logic class to exercise Qt&#45;related logic functions. The Subject hierarchy plugin mechanism a..." alt="" coords="186,883,403,925"/>
+<area shape="rect" id="node37" href="$classqSlicerWidget.html" title="qSlicerWidget" alt="" coords="239,1145,351,1172"/>
+<area shape="rect" id="node3" href="$classqSlicerAbstractModuleWidget.html" title="qSlicerAbstractModuleWidget" alt="" coords="482,832,697,859"/>
+<area shape="rect" id="node4" href="$classqSlicerAnnotationModuleWidget.html" title="qSlicerAnnotationModuleWidget" alt="" coords="755,259,985,285"/>
+<area shape="rect" id="node5" href="$classqSlicerCamerasModuleWidget.html" title="qSlicerCamerasModuleWidget" alt="" coords="761,309,979,336"/>
+<area shape="rect" id="node6" href="$classqSlicerCLIModuleWidget.html" title="qSlicerCLIModuleWidget" alt="" coords="780,360,960,387"/>
+<area shape="rect" id="node7" href="$classqSlicerColorsModuleWidget.html" title="qSlicerColorsModuleWidget" alt="" coords="769,411,971,437"/>
+<area shape="rect" id="node8" href="$classqSlicerCropVolumeModuleWidget.html" title="qSlicerCropVolumeModuleWidget" alt="" coords="751,461,989,488"/>
+<area shape="rect" id="node9" href="$classqSlicerDataModuleWidget.html" title="qSlicerDataModuleWidget" alt="" coords="775,512,965,539"/>
+<area shape="rect" id="node10" href="$classqSlicerEventBrokerModuleWidget.html" title="qSlicerEventBrokerModule\lWidget" alt="" coords="773,563,967,605"/>
+<area shape="rect" id="node11" href="$classqSlicerMarkupsModuleWidget.html" title="qSlicerMarkupsModuleWidget" alt="" coords="763,629,977,656"/>
+<area shape="rect" id="node12" href="$classqSlicerModelsModuleWidget.html" title="qSlicerModelsModuleWidget" alt="" coords="767,680,973,707"/>
+<area shape="rect" id="node13" href="$classqSlicerPlotsModuleWidget.html" title="qSlicerPlotsModuleWidget" alt="" coords="774,731,966,757"/>
+<area shape="rect" id="node14" href="$classqSlicerReformatModuleWidget.html" title="qSlicerReformatModuleWidget" alt="" coords="759,781,981,808"/>
+<area shape="rect" id="node15" href="$classqSlicerSceneViewsModuleWidget.html" title="qSlicerSceneViewsModuleWidget" alt="" coords="751,832,989,859"/>
+<area shape="rect" id="node16" href="$classqSlicerScriptedLoadableModuleWidget.html" title="qSlicerScriptedLoadableModule\lWidget" alt="" coords="757,883,983,925"/>
+<area shape="rect" id="node17" href="$classqSlicerSegmentationsModuleWidget.html" title="qSlicerSegmentationsModule\lWidget" alt="" coords="764,949,976,990"/>
+<area shape="rect" id="node18" href="$classqSlicerSequencesModuleWidget.html" title="qSlicerSequencesModuleWidget" alt="" coords="755,1015,985,1041"/>
+<area shape="rect" id="node19" href="$classqSlicerSubjectHierarchyModuleWidget.html" title="qSlicerSubjectHierarchyModule\lWidget" alt="" coords="757,1066,983,1107"/>
+<area shape="rect" id="node20" href="$classqSlicerTablesModuleWidget.html" title="qSlicerTablesModuleWidget" alt="" coords="769,1132,971,1159"/>
+<area shape="rect" id="node21" href="$classqSlicerTerminologiesModuleWidget.html" title="qSlicerTerminologiesModule\lWidget" alt="" coords="767,1183,973,1225"/>
+<area shape="rect" id="node22" href="$classqSlicerTextsModuleWidget.html" title="qSlicerTextsModuleWidget" alt="" coords="773,1249,967,1276"/>
+<area shape="rect" id="node23" href="$classqSlicerTransformsModuleWidget.html" title="qSlicerTransformsModuleWidget" alt="" coords="754,1300,986,1327"/>
+<area shape="rect" id="node24" href="$classqSlicerViewControllersModuleWidget.html" title="qSlicerViewControllersModule\lWidget" alt="" coords="761,1351,979,1393"/>
+<area shape="rect" id="node25" href="$classqSlicerVolumeRenderingModuleWidget.html" title="qSlicerVolumeRenderingModule\lWidget" alt="" coords="755,1417,985,1458"/>
+<area shape="rect" id="node26" href="$classqSlicerVolumesModuleWidget.html" title="qSlicerVolumesModuleWidget" alt="" coords="762,1483,978,1509"/>
+<area shape="rect" id="node27" href="$classqSlicerWelcomeModuleWidget.html" title="qSlicerWelcomeModuleWidget" alt="" coords="760,1533,980,1560"/>
+<area shape="rect" id="node29" href="$classqSlicerFileReader.html" title="qSlicerFileReader" alt="" coords="522,132,657,159"/>
+<area shape="rect" id="node35" href="$classqSlicerFileWriter.html" title="qSlicerFileWriter" alt="" coords="525,81,654,108"/>
+<area shape="rect" id="node30" href="$classqSlicerAnnotationsReader.html" title="qSlicerAnnotationsReader" alt="" coords="775,208,965,235"/>
+<area shape="rect" id="node31" href="$classqSlicerColorsReader.html" title="qSlicerColorsReader" alt="" coords="793,5,947,32"/>
+<area shape="rect" id="node32" href="$classqSlicerMarkupsReader.html" title="qSlicerMarkupsReader" alt="" coords="787,56,953,83"/>
+<area shape="rect" id="node33" href="$classqSlicerModelsReader.html" title="qSlicerModelsReader" alt="" coords="791,107,949,133"/>
+<area shape="rect" id="node34" href="$classqSlicerSceneBundleReader.html" title="qSlicerSceneBundleReader" alt="" coords="772,157,968,184"/>
+<area shape="rect" id="node38" href="$classqMRMLTextWidget.html" title="qMRMLTextWidget" alt="" coords="518,1065,661,1092"/>
+<area shape="rect" id="node39" href="$classqSlicerAbstractModulePanel.html" title="qSlicerAbstractModulePanel" alt="" coords="488,1116,691,1143"/>
+<area shape="rect" id="node40" href="$classqSlicerDiffusionTensorVolumeDisplayWidget.html" title="qSlicerDiffusionTensorVolume\lDisplayWidget" alt="" coords="482,1167,697,1209"/>
+<area shape="rect" id="node41" href="$classqSlicerDiffusionWeightedVolumeDisplayWidget.html" title="qSlicerDiffusionWeighted\lVolumeDisplayWidget" alt="" coords="497,1233,682,1274"/>
+<area shape="rect" id="node42" href="$classqSlicerDTISliceDisplayWidget.html" title="qSlicerDTISliceDisplayWidget" alt="" coords="482,1299,697,1325"/>
+<area shape="rect" id="node43" href="$classqSlicerIOOptionsWidget.html" title="qSlicerIOOptionsWidget" alt="" coords="501,1349,677,1376"/>
+<area shape="rect" id="node44" href="$classqSlicerLabelMapVolumeDisplayWidget.html" title="qSlicerLabelMapVolumeDisplay\lWidget" alt="" coords="476,1401,703,1442"/>
+<area shape="rect" id="node45" href="$classqSlicerMarkupsPlaceWidget.html" title="qSlicerMarkupsPlaceWidget" alt="" coords="488,1467,691,1493"/>
+<area shape="rect" id="node46" href="$classqSlicerScalarVolumeDisplayWidget.html" title="qSlicerScalarVolumeDisplay\lWidget" alt="" coords="487,1518,691,1559"/>
+<area shape="rect" id="node47" href="$classqSlicerSimpleMarkupsWidget.html" title="qSlicerSimpleMarkupsWidget" alt="" coords="483,883,695,909"/>
+<area shape="rect" id="node48" href="$classqSlicerTableColumnPropertiesWidget.html" title="qSlicerTableColumnProperties\lWidget" alt="" coords="481,934,697,975"/>
+<area shape="rect" id="node49" href="$classqSlicerVolumeRenderingPresetComboBox.html" title="qSlicerVolumeRenderingPreset\lComboBox" alt="" coords="478,999,701,1041"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="vtkMRMLDiffusionImageVolumeNode" name="vtkMRMLDiffusionImageVolumeNode">
+<area shape="rect" id="Node000001" title="MRML node for representing diffusion weighted MRI volume." alt="" coords="6,592,271,617"/>
+<area shape="rect" id="Node000010" href="$classvtkMRMLDiffusionTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume." alt="" coords="5,665,272,691"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="141,631,141,665,136,665,136,631"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLTensorVolumeNode.html" title="MRML node for representing diffusion weighted MRI volume." alt="" coords="35,519,242,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,558,141,592,136,592,136,558"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLScalarVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="35,445,242,471"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,484,141,519,136,519,136,484"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack)." alt="" coords="56,372,221,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,411,141,445,136,445,136,411"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLDisplayableNode.html" title=" " alt="" coords="41,299,236,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,338,141,372,136,372,136,338"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="34,225,243,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="141,264,141,299,136,299,136,264"/>
+<area shape="rect" id="Node000007" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="53,152,224,177"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="141,191,141,225,136,225,136,191"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="80,79,197,104"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="141,118,141,152,136,152,136,118"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="96,5,181,31"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="141,44,141,79,136,79,136,44"/>
+</map>

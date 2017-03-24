@@ -1,0 +1,17 @@
+digraph "vtkMRMLColorTableNode"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="vtkMRMLColorTableNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="vtkMRMLColorNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLColorNode.html",tooltip="Abstract MRML node to represent color information. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vtkMRMLStorableNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLStorableNode.html",tooltip="MRML node to represent a 3D surface model. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vtkMRMLNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLNode.html",tooltip="Abstract Superclass for all specific types of MRML nodes. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="vtkObject",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="vtkMRMLDiffusionTensorDisplay\lPropertiesNode",height=0.2,width=0.4,color="black",URL="$classvtkMRMLDiffusionTensorDisplayPropertiesNode.html",tooltip="MRML node for display of a diffusion tensor. "];
+}

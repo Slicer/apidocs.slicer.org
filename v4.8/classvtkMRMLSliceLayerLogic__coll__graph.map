@@ -1,0 +1,17 @@
+<map id="vtkMRMLSliceLayerLogic" name="vtkMRMLSliceLayerLogic">
+<area shape="rect" id="node2" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes. " alt="" coords="316,5,481,32"/>
+<area shape="rect" id="node9" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="505,153,617,180"/>
+<area shape="rect" id="node10" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="137,111,292,137"/>
+<area shape="rect" id="node13" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="351,60,446,87"/>
+<area shape="rect" id="node4" href="$classvtkImageLabelOutline.html" title="Display labelmap outlines. " alt="" coords="1643,244,1803,271"/>
+<area shape="rect" id="node5" href="$classvtkImageNeighborhoodFilter.html" title="Augments vtkImageSpatialFilter with a mask to allow neighborhoods of any shape. " alt="" coords="1301,248,1503,275"/>
+<area shape="rect" id="node7" href="$classvtkMRMLVolumeDisplayNode.html" title="MRML node for representing a volume display attributes. " alt="" coords="1620,128,1825,155"/>
+<area shape="rect" id="node8" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="1323,128,1481,155"/>
+<area shape="rect" id="node12" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="681,81,847,108"/>
+<area shape="rect" id="node15" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D..." alt="" coords="667,204,861,231"/>
+<area shape="rect" id="node11" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="938,103,1083,129"/>
+<area shape="rect" id="node18" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a tranform. " alt="" coords="911,52,1111,79"/>
+<area shape="rect" id="node14" href="$classvtkMRMLSliceNode.html" title="MRML node for storing a slice through RAS space. " alt="" coords="1135,197,1277,224"/>
+<area shape="rect" id="node16" href="$classvtkMRMLVolumeNode.html" title="MRML node for representing a volume (image stack). " alt="" coords="1643,53,1802,80"/>
+<area shape="rect" id="node17" href="$classvtkMRMLDisplayableNode.html" title="vtkMRMLDisplayableNode" alt="" coords="1309,52,1495,79"/>
+</map>

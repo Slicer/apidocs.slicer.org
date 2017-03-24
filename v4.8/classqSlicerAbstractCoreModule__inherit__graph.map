@@ -1,0 +1,30 @@
+<map id="qSlicerAbstractCoreModule" name="qSlicerAbstractCoreModule">
+<area shape="rect" id="node3" href="$classqSlicerAbstractModule.html" title="qSlicerAbstractModule" alt="" coords="369,267,535,293"/>
+<area shape="rect" id="node4" href="$classqSlicerCLIModule.html" title="qSlicerCLIModule" alt="" coords="602,216,733,243"/>
+<area shape="rect" id="node5" href="$classqSlicerCoreModule.html" title="qSlicerCoreModule" alt="" coords="597,267,738,293"/>
+<area shape="rect" id="node7" href="$classqSlicerLoadableModule.html" title="qSlicerLoadableModule" alt="" coords="583,604,752,631"/>
+<area shape="rect" id="node6" href="$classqSlicerEventBrokerModule.html" title="qSlicerEventBrokerModule" alt="" coords="817,5,1006,32"/>
+<area shape="rect" id="node8" href="$classqSlicerAnnotationsModule.html" title="qSlicerAnnotationsModule" alt="" coords="817,56,1005,83"/>
+<area shape="rect" id="node9" href="$classqSlicerCamerasModule.html" title="qSlicerCamerasModule" alt="" coords="827,107,996,133"/>
+<area shape="rect" id="node10" href="$classqSlicerColorsModule.html" title="qSlicerColorsModule" alt="" coords="836,157,987,184"/>
+<area shape="rect" id="node11" href="$classqSlicerCropVolumeModule.html" title="qSlicerCropVolumeModule" alt="" coords="817,208,1006,235"/>
+<area shape="rect" id="node12" href="$classqSlicerDataModule.html" title="qSlicerDataModule" alt="" coords="840,259,983,285"/>
+<area shape="rect" id="node13" href="$classqSlicerDoubleArraysModule.html" title="qSlicerDoubleArraysModule" alt="" coords="813,309,1010,336"/>
+<area shape="rect" id="node14" href="$classqSlicerMarkupsModule.html" title="qSlicerMarkupsModule" alt="" coords="829,360,994,387"/>
+<area shape="rect" id="node15" href="$classqSlicerMeasurementsModule.html" title="qSlicerMeasurementsModule" alt="" coords="808,411,1015,437"/>
+<area shape="rect" id="node16" href="$classqSlicerModelsModule.html" title="qSlicerModelsModule" alt="" coords="833,461,989,488"/>
+<area shape="rect" id="node17" href="$classqSlicerMultiVolumeRenderingModule.html" title="qSlicerMultiVolumeRendering\lModule" alt="" coords="808,513,1015,554"/>
+<area shape="rect" id="node18" href="$classqSlicerReformatModule.html" title="qSlicerReformatModule" alt="" coords="827,579,996,605"/>
+<area shape="rect" id="node19" href="$classqSlicerSceneViewsModule.html" title="qSlicerSceneViewsModule" alt="" coords="818,629,1005,656"/>
+<area shape="rect" id="node20" href="$classqSlicerScriptedLoadableModule.html" title="qSlicerScriptedLoadableModule" alt="" coords="800,680,1023,707"/>
+<area shape="rect" id="node21" href="$classqSlicerSegmentationsModule.html" title="qSlicerSegmentationsModule" alt="" coords="807,731,1016,757"/>
+<area shape="rect" id="node22" href="$classqSlicerSubjectHierarchyModule.html" title="qSlicerSubjectHierarchyModule" alt="" coords="801,781,1021,808"/>
+<area shape="rect" id="node23" href="$classqSlicerTablesModule.html" title="qSlicerTablesModule" alt="" coords="836,832,987,859"/>
+<area shape="rect" id="node24" href="$classqSlicerTerminologiesModule.html" title="qSlicerTerminologiesModule" alt="" coords="812,883,1011,909"/>
+<area shape="rect" id="node25" href="$classqSlicerTransformsModule.html" title="qSlicerTransformsModule" alt="" coords="821,933,1002,960"/>
+<area shape="rect" id="node26" href="$classqSlicerUnitsModule.html" title="qSlicerUnitsModule" alt="" coords="839,984,983,1011"/>
+<area shape="rect" id="node27" href="$classqSlicerViewControllersModule.html" title="qSlicerViewControllersModule" alt="" coords="807,1035,1016,1061"/>
+<area shape="rect" id="node28" href="$classqSlicerVolumeRenderingModule.html" title="qSlicerVolumeRenderingModule" alt="" coords="800,1085,1023,1112"/>
+<area shape="rect" id="node29" href="$classqSlicerVolumesModule.html" title="qSlicerVolumesModule" alt="" coords="828,1136,995,1163"/>
+<area shape="rect" id="node30" href="$classqSlicerWelcomeModule.html" title="qSlicerWelcomeModule" alt="" coords="827,1187,995,1213"/>
+</map>

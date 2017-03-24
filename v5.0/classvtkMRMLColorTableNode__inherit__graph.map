@@ -1,0 +1,6 @@
+<map id="vtkMRMLColorTableNode" name="vtkMRMLColorTableNode">
+<area shape="rect" id="node6" href="$classvtkMRMLDiffusionTensorDisplayPropertiesNode.html" title="MRML node for display of a diffusion tensor. " alt="" coords="5,379,237,420"/>
+<area shape="rect" id="node2" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="46,229,197,256"/>
+<area shape="rect" id="node3" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="36,155,207,181"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="63,80,180,107"/>
+</map>

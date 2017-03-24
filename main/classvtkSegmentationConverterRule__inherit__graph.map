@@ -1,0 +1,13 @@
+<map id="vtkSegmentationConverterRule" name="vtkSegmentationConverterRule">
+<area shape="rect" id="Node000001" title="Abstract converter rule class. Subclasses perform conversions between specific representation types...." alt="" coords="139,45,365,70"/>
+<area shape="rect" id="Node000003" href="$classvtkBinaryLabelmapToClosedSurfaceConversionRule.html" title="Convert binary labelmap representation (vtkOrientedImageData type) to closed surface representation (..." alt="" coords="413,5,620,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="370,40,413,35,414,40,371,46"/>
+<area shape="rect" id="Node000005" href="$classvtkClosedSurfaceToBinaryLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to binary labelmap representation (vtkOrient..." alt="" coords="421,69,613,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="371,69,421,75,420,80,370,74"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,45,91,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,55,138,55,138,60,104,60"/>
+<area shape="rect" id="Node000004" href="$classvtkFractionalLabelmapToClosedSurfaceConversionRule.html" title="Convert Fractional labelmap representation (vtkOrientedImageData type) to closed surface representati..." alt="" coords="668,5,897,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="634,23,668,23,668,28,634,28"/>
+<area shape="rect" id="Node000006" href="$classvtkClosedSurfaceToFractionalLabelmapConversionRule.html" title="Convert closed surface representation (vtkPolyData type) to fractional labelmap representation (vtkOr..." alt="" coords="675,69,890,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="626,87,675,87,675,92,626,92"/>
+</map>

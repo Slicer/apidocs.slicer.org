@@ -1,0 +1,9 @@
+<map id="vtkMRMLRulerDisplayableManager" name="vtkMRMLRulerDisplayableManager">
+<area shape="rect" id="Node000001" title="Displayable manager that displays orientation marker in a slice or 3D view." alt="" coords="5,240,256,265"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="23,152,238,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,206,133,240,128,240,128,206"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="45,79,217,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,118,133,152,128,152,128,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="88,5,173,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="133,44,133,79,128,79,128,44"/>
+</map>

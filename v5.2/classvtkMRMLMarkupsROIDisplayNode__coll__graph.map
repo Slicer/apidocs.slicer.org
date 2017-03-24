@@ -1,0 +1,9 @@
+<map id="vtkMRMLMarkupsROIDisplayNode" name="vtkMRMLMarkupsROIDisplayNode">
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsDisplayNode.html" title="vtkMRMLMarkupsDisplayNode" alt="" coords="17,500,238,527"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="44,424,211,451"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="47,183,165,209"/>
+<area shape="rect" id="node8" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="143,259,314,285"/>
+<area shape="rect" id="node6" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="100,81,259,108"/>
+<area shape="rect" id="node9" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="274,132,373,159"/>
+<area shape="rect" id="node7" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="148,335,299,361"/>
+</map>

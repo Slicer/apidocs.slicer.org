@@ -1,0 +1,9 @@
+<map id="vtkMRMLMarkupsFiducialDisplayNode" name="vtkMRMLMarkupsFiducialDisplayNode">
+<area shape="rect" id="node2" href="$classvtkMRMLMarkupsDisplayNode.html" title="vtkMRMLMarkupsDisplayNode" alt="" coords="30,500,251,527"/>
+<area shape="rect" id="node3" href="$classvtkMRMLDisplayNode.html" title="Abstract class that contains graphical display properties for displayable nodes. " alt="" coords="57,424,224,451"/>
+<area shape="rect" id="node4" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes. " alt="" coords="61,183,178,209"/>
+<area shape="rect" id="node8" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model. " alt="" coords="157,259,327,285"/>
+<area shape="rect" id="node6" href="$classvtkObserverManager.html" title="Manages adding and deleting of obserevers with events. " alt="" coords="113,81,272,108"/>
+<area shape="rect" id="node9" href="$classvtkTagTable.html" title="vtkTagTable" alt="" coords="287,132,386,159"/>
+<area shape="rect" id="node7" href="$classvtkMRMLColorNode.html" title="Abstract MRML node to represent color information. " alt="" coords="161,335,312,361"/>
+</map>
