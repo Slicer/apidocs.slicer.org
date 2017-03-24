@@ -1,0 +1,22 @@
+<map id="Modules/Loadable/Annotations" name="Modules/Loadable/Annotations">
+<area shape="rect" id="node10" href="dir_628593db0cdce5a76fb85526ae5aa762.html" title="Base" alt="" coords="444,255,516,303"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000047_000002.html" title="8" alt="" coords="481,228,490,243"/>
+<area shape="rect" id="node2" href="dir_9a0782f3c62df0a984e37d551226adbd.html" title="GUI" alt="" coords="480,63,552,111"/>
+<area shape="rect" id="node3" href="dir_1680a2ebf4abae6ca9d011f75d0c0f23.html" title="Logic" alt="" coords="356,159,428,207"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000048_000049.html" title="1" alt="" coords="437,147,447,162"/>
+<area shape="rect" id="node9" href="dir_6e6cb9563333489fde7459b1f95e59a5.html" title="Libs" alt="" coords="581,351,653,399"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000048_000012.html" title="1" alt="" coords="606,323,616,338"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000048_000002.html" title="3" alt="" coords="491,231,501,246"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000049_000002.html" title="1" alt="" coords="448,228,457,243"/>
+<area shape="rect" id="node4" href="dir_e80ab8d1347d4d52d99ea57c95043d20.html" title="MRML" alt="" coords="576,63,648,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000050_000012.html" title="11" alt="" coords="616,325,634,339"/>
+<area shape="rect" id="node5" href="dir_c2d1197662bb427a83fb5f6b87ad2c6b.html" title="MRMLDM" alt="" coords="672,63,752,111"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000051_000012.html" title="1" alt="" coords="634,328,643,343"/>
+<area shape="rect" id="node6" href="dir_b94af073b9497c7710d8c3472f52d498.html" title="SubjectHierarchyPlugins" alt="" coords="280,63,456,111"/>
+<area shape="rect" id="node7" href="dir_ea8160925288f25b2407d7998b34814e.html" title="VTKWidgets" alt="" coords="160,63,256,111"/>
+<area shape="rect" id="node8" href="dir_7d44b2c306726d34dc7f3fe026e29036.html" title="Widgets" alt="" coords="776,63,848,111"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000054_000012.html" title="5" alt="" coords="646,333,655,348"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000002_000012.html" title="12" alt="" coords="565,326,582,341"/>
+<area shape="rect" id="clust2" href="dir_33469fef11d3340de8339576113f1ab0.html" alt="" coords="27,52,859,217"/>
+<area shape="rect" id="clust1" href="dir_d01fdafe93af837a1755aeb3a6390699.html" title="Loadable" alt="" coords="16,16,869,228"/>
+</map>

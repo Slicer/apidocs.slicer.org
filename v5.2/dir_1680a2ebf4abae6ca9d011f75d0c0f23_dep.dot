@@ -1,0 +1,12 @@
+digraph "Modules/Loadable/Annotations/Logic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_33469fef11d3340de8339576113f1ab0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Annotations" fontname="Helvetica", fontsize="10", URL="dir_33469fef11d3340de8339576113f1ab0.html"]
+  dir_1680a2ebf4abae6ca9d011f75d0c0f23 [shape=box, label="Logic", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1680a2ebf4abae6ca9d011f75d0c0f23.html"];
+  }
+  dir_628593db0cdce5a76fb85526ae5aa762 [shape=box label="Base" color="red" URL="dir_628593db0cdce5a76fb85526ae5aa762.html"];
+  dir_1680a2ebf4abae6ca9d011f75d0c0f23->dir_628593db0cdce5a76fb85526ae5aa762 [headlabel="1", labeldistance=1.5 headhref="dir_000046_000002.html"];
+}

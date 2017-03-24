@@ -1,0 +1,11 @@
+<map id="Modules/Loadable/Models/Widgets/DesignerPlugins/qMRMLModelDisplayNodeWidgetPlugin.h" name="Modules/Loadable/Models/Widgets/DesignerPlugins/qMRMLModelDisplayNodeWidgetPlugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="68,5,363,60"/>
+<area shape="rect" id="Node000002" href="$qSlicerModelsWidgetsAbstractPlugin_8h.html" title=" " alt="" coords="105,108,325,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,60,218,94,213,94,213,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,203,84,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="179,150,81,200,78,195,177,146"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="109,196,322,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="218,148,218,182,213,182,213,148"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="347,196,561,236"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="269,146,390,189,388,194,267,151"/>
+</map>

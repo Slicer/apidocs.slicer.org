@@ -1,0 +1,27 @@
+<map id="vtkMRMLViewLogic" name="vtkMRMLViewLogic">
+<area shape="rect" id="Node000001" title="Slicer logic class for view manipulation." alt="" coords="165,515,313,540"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="5,129,177,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,168,99,228,99,440,101,454,106,466,125,487,151,502,180,512,178,517,149,506,122,491,102,469,96,456,94,441,94,228,91,169"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="214,5,299,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="214,39,181,57,136,95,103,131,99,127,132,91,178,52,212,34"/>
+<area shape="rect" id="Node000006" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="182,179,299,204"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="243,43,226,81,225,119,229,154,237,178,232,179,223,155,220,119,221,79,238,41"/>
+<area shape="rect" id="Node000007" href="$classvtkObserverManager.html" title="Manages adding and deleting of observers with events." alt="" coords="236,80,395,105"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="277,40,308,78,304,81,273,43"/>
+<area shape="rect" id="Node000011" href="$classvtkTagTable.html" title=" " alt="" coords="410,129,509,155"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="313,32,361,51,409,78,435,103,454,127,450,131,431,106,406,82,359,56,311,37"/>
+<area shape="rect" id="Node000004" href="$classvtkMRMLViewNode.html" title="MRML node to represent a 3D view." alt="" coords="165,377,313,403"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,416,242,515,237,515,237,416"/>
+<area shape="rect" id="Node000005" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D,..." alt="" coords="137,253,341,279"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="242,292,242,377,237,377,237,292"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="243,218,242,253,237,253,238,218"/>
+<area shape="rect" id="Node000010" href="$classvtkMRMLStorableNode.html" title="MRML node to represent a 3D surface model." alt="" coords="366,253,537,279"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="288,206,419,251,417,256,286,211"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="257,114,239,131,235,142,234,154,239,178,233,179,228,155,229,141,234,128,253,110"/>
+<area shape="rect" id="Node000008" href="$classvtkMRMLCameraNode.html" title="MRML node to represent camera node." alt="" coords="342,427,510,452"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="390,460,266,517,264,512,388,455"/>
+<area shape="rect" id="Node000009" href="$classvtkMRMLTransformableNode.html" title="MRML node for representing a node with a transform." alt="" coords="340,328,549,353"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="443,367,431,427,426,426,437,366"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="452,293,448,328,443,327,446,292"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="460,169,455,253,449,253,455,168"/>
+</map>
