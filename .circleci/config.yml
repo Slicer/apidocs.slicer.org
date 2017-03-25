@@ -10,31 +10,84 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Set GitHub status to 'pending'
+          command: |
+            pip install git+https://github.com/Slicer/slicer-apidocs-builder
+            slicer-apidocs-builder \
+              --status-update-state pending \
+              --status-update-repo-name ${SLICER_REPO_NAME} \
+              --status-update-revision ${SLICER_REPO_REVISION} \
+              --status-update-target-url ${CIRCLE_BUILD_URL}
+
+      - run:
           name: Display Environment Variables
           command: |
             echo "SLICER_REPO_NAME ...........: ${SLICER_REPO_NAME}"
+            echo "SLICER_REPO_REVISION .......: ${SLICER_REPO_REVISION}"
             echo "SLICER_REPO_BRANCH .........: ${SLICER_REPO_BRANCH}"
             echo "SLICER_REPO_TAG: ...........: ${SLICER_REPO_TAG}"
             echo "PUBLISH_GITHUB_REPO_NAME ...: ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}"
       - run:
           name: Install Dependencies
           command: |
-            apt-get update
-            apt-get install -y --no-install-recommends graphviz
-            .circleci/install-doxygen.sh
-            pip install git+https://github.com/Slicer/slicer-apidocs-builder
+            (
+              apt-get update
+              apt-get install -y --no-install-recommends graphviz
+              .circleci/install-doxygen.sh
+            ) \
+            ||
+            (
+              slicer-apidocs-builder \
+                --status-update-state failure \
+                --status-update-repo-name ${SLICER_REPO_NAME} \
+                --status-update-revision ${SLICER_REPO_REVISION} \
+                --status-update-target-url ${CIRCLE_BUILD_URL}
+              exit 1
+            )
       - run:
           name: Generate Documentation
           command: |
-            slicer-apidocs-builder \
-              --slicer-repo-name ${SLICER_REPO_NAME} \
-              --slicer-repo-branch ${SLICER_REPO_BRANCH} \
-              --slicer-repo-tag "${SLICER_REPO_TAG}"
-      - deploy:
+            (
+              slicer-apidocs-builder \
+                --slicer-repo-name ${SLICER_REPO_NAME} \
+                --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+                --slicer-repo-tag "${SLICER_REPO_TAG}"
+            ) \
+            ||
+            (
+              slicer-apidocs-builder
+                --status-update-state failure \
+                --status-update-repo-name ${SLICER_REPO_NAME} \
+                --status-update-revision ${SLICER_REPO_REVISION} \
+                --status-update-target-url ${CIRCLE_BUILD_URL}
+              exit 1
+            )
+      - run:
           name: Publish documentation
           command: |
+            (
+              slicer-apidocs-builder \
+                --skip-build \
+                --publish-github-repo-name "${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}" \
+                --publish-github-repo-branch gh-pages
+            ) \
+            ||
+            (
+              slicer-apidocs-builder \
+                --status-update-state failure \
+                --status-update-repo-name ${SLICER_REPO_NAME} \
+                --status-update-revision ${SLICER_REPO_REVISION} \
+                --status-update-target-url ${CIRCLE_BUILD_URL}
+              exit 1
+            )
+      - run:
+          name: Set GitHub status to 'success'
+          command: |
             slicer-apidocs-builder \
-              --skip-build \
-              --publish-github-repo-name "${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}" \
-              --publish-github-repo-branch gh-pages
+              --status-update-state success \
+              --status-update-repo-name ${SLICER_REPO_NAME} \
+              --status-update-revision ${SLICER_REPO_REVISION} \
+              --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+              --slicer-repo-tag "${SLICER_REPO_TAG}" \
+              --status-update-target-url "https://slicer.github.com/apidocs.slicer.org"
 
