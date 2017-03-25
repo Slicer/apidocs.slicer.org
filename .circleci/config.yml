@@ -55,7 +55,7 @@ jobs:
             ) \
             ||
             (
-              slicer-apidocs-builder
+              slicer-apidocs-builder \
                 --status-update-state failure \
                 --status-update-repo-name ${SLICER_REPO_NAME} \
                 --status-update-revision ${SLICER_REPO_REVISION} \
