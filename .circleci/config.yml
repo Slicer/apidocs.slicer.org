@@ -10,9 +10,12 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Set GitHub status to 'pending'
+          name: Install slicer-apidocs-builder
           command: |
             pip install git+https://github.com/Slicer/slicer-apidocs-builder
+      - run:
+          name: Set GitHub status to 'pending'
+          command: |
             slicer-apidocs-builder \
               --status-update-state pending \
               --status-update-repo-name ${SLICER_REPO_NAME} \
@@ -28,7 +31,7 @@ jobs:
             echo "SLICER_REPO_TAG: ...........: ${SLICER_REPO_TAG}"
             echo "PUBLISH_GITHUB_REPO_NAME ...: ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}"
       - run:
-          name: Install Dependencies
+          name: Install Doxygen
           command: |
             (
               apt-get update
