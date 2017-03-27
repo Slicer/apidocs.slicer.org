@@ -18,7 +18,7 @@ jobs:
           command: |
             slicer-apidocs-builder \
               --status-update-state pending \
-              --status-update-repo-name ${SLICER_REPO_NAME} \
+              --status-update-repo-name Slicer/Slicer \
               --status-update-revision ${SLICER_REPO_REVISION} \
               --status-update-target-url ${CIRCLE_BUILD_URL}
 
@@ -42,7 +42,7 @@ jobs:
             (
               slicer-apidocs-builder \
                 --status-update-state failure \
-                --status-update-repo-name ${SLICER_REPO_NAME} \
+                --status-update-repo-name Slicer/Slicer \
                 --status-update-revision ${SLICER_REPO_REVISION} \
                 --status-update-target-url ${CIRCLE_BUILD_URL}
               exit 1
@@ -60,7 +60,7 @@ jobs:
             (
               slicer-apidocs-builder \
                 --status-update-state failure \
-                --status-update-repo-name ${SLICER_REPO_NAME} \
+                --status-update-repo-name Slicer/Slicer \
                 --status-update-revision ${SLICER_REPO_REVISION} \
                 --status-update-target-url ${CIRCLE_BUILD_URL}
               exit 1
@@ -78,7 +78,7 @@ jobs:
             (
               slicer-apidocs-builder \
                 --status-update-state failure \
-                --status-update-repo-name ${SLICER_REPO_NAME} \
+                --status-update-repo-name Slicer/Slicer \
                 --status-update-revision ${SLICER_REPO_REVISION} \
                 --status-update-target-url ${CIRCLE_BUILD_URL}
               exit 1
@@ -88,7 +88,7 @@ jobs:
           command: |
             slicer-apidocs-builder \
               --status-update-state success \
-              --status-update-repo-name ${SLICER_REPO_NAME} \
+              --status-update-repo-name Slicer/Slicer \
               --status-update-revision ${SLICER_REPO_REVISION} \
               --slicer-repo-branch ${SLICER_REPO_BRANCH} \
               --slicer-repo-tag "${SLICER_REPO_TAG}" \
