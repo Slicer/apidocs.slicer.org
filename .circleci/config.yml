@@ -25,11 +25,13 @@ jobs:
       - run:
           name: Display Environment Variables
           command: |
-            echo "SLICER_REPO_NAME ...........: ${SLICER_REPO_NAME}"
-            echo "SLICER_REPO_REVISION .......: ${SLICER_REPO_REVISION}"
-            echo "SLICER_REPO_BRANCH .........: ${SLICER_REPO_BRANCH}"
-            echo "SLICER_REPO_TAG: ...........: ${SLICER_REPO_TAG}"
-            echo "PUBLISH_GITHUB_REPO_NAME ...: ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}"
+            echo "SLICER_REPO_NAME .............: ${SLICER_REPO_NAME}"
+            echo "SLICER_REPO_REVISION .........: ${SLICER_REPO_REVISION}"
+            echo "SLICER_REPO_BRANCH ...........: ${SLICER_REPO_BRANCH}"
+            echo "SLICER_REPO_TAG: .............: ${SLICER_REPO_TAG}"
+            echo "SLICER_REPO_PR_NUMBER ........: ${SLICER_REPO_PR_NUMBER}"
+            PUBLISH_GITHUB_PROJECT_NAME=$([[ "${SLICER_REPO_PR_NUMBER}" == "" ]] && echo "apidocs.slicer.org" || echo "preview.apidocs.slicer.org")
+            echo "PUBLISH_GITHUB_PROJECT_NAME ..: ${PUBLISH_GITHUB_PROJECT_NAME}"
       - run:
           name: Install Doxygen
           command: |
@@ -52,6 +54,7 @@ jobs:
           command: |
             (
               slicer-apidocs-builder \
+                --skip-publish \
                 --slicer-repo-name ${SLICER_REPO_NAME} \
                 --slicer-repo-branch ${SLICER_REPO_BRANCH} \
                 --slicer-repo-tag "${SLICER_REPO_TAG}"
@@ -68,10 +71,14 @@ jobs:
       - run:
           name: Publish documentation
           command: |
+            PUBLISH_GITHUB_PROJECT_NAME=$([[ "${SLICER_REPO_PR_NUMBER}" == "" ]] && echo "apidocs.slicer.org" || echo "preview.apidocs.slicer.org")
             (
               slicer-apidocs-builder \
                 --skip-build \
-                --publish-github-repo-name "${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}" \
+                --slicer-repo-name ${SLICER_REPO_NAME} \
+                --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+                --slicer-repo-tag "${SLICER_REPO_TAG}" \
+                --publish-github-repo-name "Slicer/${PUBLISH_GITHUB_PROJECT_NAME}" \
                 --publish-github-repo-branch gh-pages
             ) \
             ||
@@ -86,11 +93,12 @@ jobs:
       - run:
           name: Set GitHub status to 'success'
           command: |
+            PUBLISH_GITHUB_PROJECT_NAME=$([[ "${SLICER_REPO_PR_NUMBER}" == "" ]] && echo "apidocs.slicer.org" || echo "preview.apidocs.slicer.org")
             slicer-apidocs-builder \
               --status-update-state success \
               --status-update-repo-name Slicer/Slicer \
               --status-update-revision ${SLICER_REPO_REVISION} \
               --slicer-repo-branch ${SLICER_REPO_BRANCH} \
               --slicer-repo-tag "${SLICER_REPO_TAG}" \
-              --status-update-target-url "https://slicer.github.com/apidocs.slicer.org"
+              --status-update-target-url "https://slicer.github.com/${PUBLISH_GITHUB_PROJECT_NAME}"
 
