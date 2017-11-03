@@ -56,7 +56,7 @@ jobs:
               slicer-apidocs-builder \
                 --skip-publish \
                 --slicer-repo-name ${SLICER_REPO_NAME} \
-                --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+                --slicer-repo-branch "${SLICER_REPO_BRANCH}" \
                 --slicer-repo-tag "${SLICER_REPO_TAG}"
             ) \
             ||
@@ -76,7 +76,7 @@ jobs:
               slicer-apidocs-builder \
                 --skip-build \
                 --slicer-repo-name ${SLICER_REPO_NAME} \
-                --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+                --slicer-repo-branch "${SLICER_REPO_BRANCH}" \
                 --slicer-repo-tag "${SLICER_REPO_TAG}" \
                 --publish-github-repo-name "Slicer/${PUBLISH_GITHUB_PROJECT_NAME}" \
                 --publish-github-repo-branch gh-pages
@@ -98,7 +98,7 @@ jobs:
               --status-update-state success \
               --status-update-repo-name Slicer/Slicer \
               --status-update-revision ${SLICER_REPO_REVISION} \
-              --slicer-repo-branch ${SLICER_REPO_BRANCH} \
+              --slicer-repo-branch "${SLICER_REPO_BRANCH}" \
               --slicer-repo-tag "${SLICER_REPO_TAG}" \
               --status-update-target-url "https://slicer.github.com/${PUBLISH_GITHUB_PROJECT_NAME}"
 
