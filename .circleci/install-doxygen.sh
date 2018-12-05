@@ -1,16 +1,21 @@
 #!/bin/bash
 
-DOXYGEN_VERSION=1.8.13
-DOXYGEN_SHA256=1b3ceb3708c5099d51341cd4ac63893f05c736388f12fb99958081fc832a3b3e
-ARCHIVE_NAME=doxygen-$DOXYGEN_VERSION.linux.bin.tar.gz
+set -euo pipefail
 
-cd /usr/src
+DOXYGEN_VERSION=1_8_14
+DOXYGEN_VERSION_DOT=$(echo $DOXYGEN_VERSION | sed -e "s/_/./g")
+DOXYGEN_SHA256=17d08eadd4016077f0be513394870583801e3c5dfe9caf65fef331f7f4539330
+DIRECTORY_NAME=doxygen-${DOXYGEN_VERSION_DOT}.centos7.bin
+ARCHIVE_NAME=${DIRECTORY_NAME}.tar.gz
+
+#cd /usr/src
+mkdir -p /tmp/test
+cd /tmp/test
 
 # Download
+rm -rf ./${DIRECTORY_NAME}
 if [ ! -f ./${ARCHIVE_NAME} ]; then
-  wget --progress=bar:force http://ftp.stack.nl/pub/users/dimitri/${ARCHIVE_NAME}
-else
-  rm -rf ./doxygen-$DOXYGEN_VERSION
+  curl -#LO https://github.com/jcfr/doxygen/releases/download/Release_${DOXYGEN_VERSION}/${ARCHIVE_NAME}  
 fi
 
 # Verify
@@ -26,7 +31,7 @@ fi
 # Extract
 tar -xzvf ${ARCHIVE_NAME}
 
-pushd doxygen-$DOXYGEN_VERSION
+pushd ${DIRECTORY_NAME}
 
 ln -s $(pwd)/bin/doxyindexer /usr/local/bin/doxyindexer
 ln -s $(pwd)/bin/doxygen /usr/local/bin/doxygen
