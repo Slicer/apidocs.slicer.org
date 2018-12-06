@@ -7,16 +7,20 @@ This project hosts the Slicer API documentation served from http://apidocs.slice
 
 Documentation is automatically generated and pushed to the `gh-pages` branch configured as a [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) source.
 
-For more details, see https://github.com/Slicer/slicer-apidocs-builder
-
-
-## Squash of `gh-pages` branch using TravisCI Cron Job
+The [slicer-apidocs-builder](https://github.com/Slicer/slicer-apidocs-builder) tool is used within a CircleCI
+build to checkout Slicer source code, build doxygen documentation and publish generated html pages.
 
 Each time the `master` branch of https://github.com/Slicer/Slicer is updated or each time a new release tag
 is pushed, the generated documentation is either added to the `master` folder or added to a new folder
 named after the release tag. Then the updated content is pushed to the `gh-pages` branch.
 
-After some time, the amount of data exceeds GitHub [recommended size of 1GB][max_size].
+The simple GitHub post-receive web hook handler triggering a CircleCI build is
+[github-circleci-trigger](https://github.com/Slicer/github-circleci-trigger). It is implemented as
+a Flask application hosted on a free heroku instance.
+
+## Squash of `gh-pages` branch using TravisCI Cron Job
+
+After some time, the amount of data published on the `gh-pages` exceeds GitHub [recommended size of 1GB][max_size].
 To cleanup the repository, a [TravisCI Cron Job][cronjob] associated with this project
 will be triggered weekly and will execute [gh-pages-squash.sh](./gh-pages-squash.sh) script.
 
