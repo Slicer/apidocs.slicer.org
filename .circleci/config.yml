@@ -4,9 +4,6 @@ jobs:
     working_directory: /usr/src/apidocs
     docker:
       - image: python:2.7.13
-    branches:
-    only:
-      - master
     steps:
       - checkout
       - run:
@@ -101,4 +98,13 @@ jobs:
               --slicer-repo-branch "${SLICER_REPO_BRANCH}" \
               --slicer-repo-tag "${SLICER_REPO_TAG}" \
               --status-update-target-url "https://slicer.github.com/${PUBLISH_GITHUB_PROJECT_NAME}"
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
 
