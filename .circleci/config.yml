@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /usr/src/apidocs
     docker:
-      - image: python:2.7.13
+      - image: python:3.9.9
     steps:
       - checkout
       - run:
