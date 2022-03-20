@@ -10,8 +10,8 @@ Documentation is automatically generated and pushed to the `gh-pages` branch con
 The [slicer-apidocs-builder](https://github.com/Slicer/slicer-apidocs-builder) tool is used within a CircleCI
 build to checkout Slicer source code, build doxygen documentation and publish generated html pages.
 
-Each time the `master` branch of https://github.com/Slicer/Slicer is updated or each time a new release tag
-is pushed, the generated documentation is either added to the `master` folder or added to a new folder
+Each time the `main` branch of https://github.com/Slicer/Slicer is updated or each time a new release tag
+is pushed, the generated documentation is either added to the `main` folder or added to a new folder
 named after the release tag. Then the updated content is pushed to the `gh-pages` branch.
 
 The simple GitHub post-receive web hook handler triggering a CircleCI build is
@@ -31,7 +31,7 @@ Last TravisCI Cron Job: [![Build Status][travis_img]][travis]
 [max_size]: https://help.github.com/articles/what-is-my-disk-quota/
 [cronjob]: https://docs.travis-ci.com/user/cron-jobs/
 [travis]: https://travis-ci.org/Slicer/apidocs.slicer.org
-[travis_img]: https://travis-ci.org/Slicer/apidocs.slicer.org.svg?branch=master
+[travis_img]: https://travis-ci.org/Slicer/apidocs.slicer.org.svg?branch=main
 
 
 ## Programmatically request updates of `gh-pages` branch using TravisCI API
@@ -61,6 +61,6 @@ GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> ./trigger-travis-squash.sh squash
 
 It is covered by the Slicer License:
 
-https://github.com/Slicer/apidocs.slicer.org/blob/master/License.txt
+https://github.com/Slicer/apidocs.slicer.org/blob/main/License.txt
 
 

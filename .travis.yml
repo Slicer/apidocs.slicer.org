@@ -1,5 +1,5 @@
 branches:
   only:
-  - master
+  - main
 install: true
 script: ./gh-pages-squash.sh
