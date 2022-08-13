@@ -1,0 +1,20 @@
+name: Squash gh-pages branch
+
+on:
+  schedule:
+    # Every tuesday at 11.30am UTC (7.30am ET)
+    - cron: "30 11 * * 2"
+  workflow_dispatch:
+
+jobs:
+  gh-pages-reset:
+    name: Squash gh-pages branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Squash gh-pages branch
+        run: |
+          ./gh-pages-squash.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,5 +1,0 @@
-branches:
-  only:
-  - main
-install: true
-script: ./gh-pages-squash.sh
