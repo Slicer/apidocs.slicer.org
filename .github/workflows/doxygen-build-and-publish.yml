@@ -1,0 +1,217 @@
+name: Build and Publish
+
+on:
+  # Allows running this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      repository:
+        description: "Slicer repository for which to build and publish the documentation"
+        default: Slicer/Slicer
+      ref:
+        description: "Slicer branch or tag for which to build and publish the documentation"
+        default: main
+
+permissions:
+  # Needed in the publish step to update gh-pages branch
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Collect Inputs
+        id: collect_inputs
+        run: |
+          echo "EVENT_NAME [$EVENT_NAME]"
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            repository=${{ github.event.inputs.repository }}
+            ref=${{ github.event.inputs.ref }}
+          else
+            echo "::error ::Unsupported EVENT_NAME [$EVENT_NAME]"
+            exit 1
+          fi
+          echo "repository=$repository" >> $GITHUB_OUTPUT
+          echo "ref=$ref" >> $GITHUB_OUTPUT
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: ${{ steps.collect_inputs.outputs.repository }}
+          path: Slicer
+          ref: ${{ steps.collect_inputs.outputs.ref }}
+
+      - name: Determine if ref is branch or tag
+        id: determine
+        run: |
+          cd Slicer
+
+          if git show-ref -q --verify "refs/heads/$SLICER_REPO_REF" 2>/dev/null; then
+            slicer_repo_branch=$SLICER_REPO_REF
+            echo "slicer_repo_branch [$slicer_repo_branch]"
+
+            echo "slicer_repo_branch=$slicer_repo_branch" >> $GITHUB_OUTPUT
+            exit 0
+
+          elif git show-ref -q --verify "refs/tags/$SLICER_REPO_REF" 2>/dev/null; then
+            slicer_repo_tag=$SLICER_REPO_REF
+            echo "slicer_repo_tag [$slicer_repo_tag]"
+
+            echo "slicer_repo_tag=$slicer_repo_tag" >> $GITHUB_OUTPUT
+            exit 0
+
+          elif git show-ref -q --verify "refs/remote/$SLICER_REPO_REF" 2>/dev/null; then
+            echo "::error ::Specifying reference as remote [$SLICER_REPO_REF] is not supported"
+            exit 1
+
+          elif git rev-parse --verify "$SLICER_REPO_REF^{commit}" >/dev/null 2>&1; then
+            echo "::error ::Specifying reference as remote [$SLICER_REPO_REF] is not supported"
+            exit 1
+
+          else
+            echo "unknown"
+            exit 1
+
+          fi
+        env:
+          SLICER_REPO_REF: ${{ steps.collect_inputs.outputs.ref }}
+
+      - uses: ssciwr/doxygen-install@527824132256e685f03ec80c0851fe79937eb1d6 # v1.6.3
+        with:
+          version: "1.10.0"
+
+      # The "dot" binary is provided by Graphviz
+      - uses: ts-graphviz/setup-graphviz@b1de5da23ed0a6d14e0aeee8ed52fdd87af2363c # v2.0.2
+
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: Slicer/slicer-apidocs-builder
+          path: slicer-apidocs-builder
+          ref: 0af7ea0c1d8ed80ffa904f65dfdc7e822d73e487
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5.3.0
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install slicer-apidocs-builder
+        run: |
+         pip install ./slicer-apidocs-builder
+
+      - name: Generate Documentation
+        id: generate
+        run: |
+          WARNING_LOG_FILE=/tmp/Slicer-Slicer-$SLICER_REPO_BRANCH-build/Utilities/Doxygen/UserDoxygenWarnings.txt
+          mkdir -p $(dirname $WARNING_LOG_FILE)
+
+          slicer-apidocs-builder \
+            --skip-publish \
+            --slicer-repo-dir $(pwd)/Slicer \
+            --slicer-repo-branch "$SLICER_REPO_BRANCH" \
+            --slicer-repo-tag "${SLICER_REPO_TAG}" 2> >(tee $WARNING_LOG_FILE >&2)
+
+          echo "warning_log_file=$WARNING_LOG_FILE" >> $GITHUB_OUTPUT
+        env:
+          SLICER_REPO_BRANCH: ${{ steps.determine.outputs.slicer_repo_branch }}
+          SLICER_REPO_TAG: ${{ steps.determine.outputs.slicer_repo_tag }}
+
+      - name: Parse and annotate Doxygen warnings
+        run: |
+          echo "WARNING_LOG_FILE [$WARNING_LOG_FILE]"
+          if [[ -f $WARNING_LOG_FILE ]]; then
+            buffer=""
+            while IFS= read -r line || [[ -n "$line" ]]; do
+              # If a buffer exists, prepend the buffered line to this line
+              if [[ -n "$buffer" ]]; then
+                line="$buffer$line"
+                buffer=""
+              fi
+
+              # Extract file, line number, and warning message
+              FILE=$(echo "$line" | grep -oP "^[^:]+" || true)
+              LINE=$(echo "$line" | grep -oP ":(\d+):" | tr -d ":" || true)
+              MESSAGE=$(echo "$line" | grep -oP "warning:.*" || true)
+
+              # If MESSAGE is found, process further
+              if [[ -n "$MESSAGE" ]]; then
+                MESSAGE=${MESSAGE#warning: }  # Strip "warning: " prefix
+
+                # Aggregate all subsequent lines starting with at least a space
+                while IFS= read -r continuation || [[ -n "$continuation" ]]; do
+                  if [[ "$continuation" =~ ^[[:space:]] ]]; then
+                    MESSAGE="${MESSAGE}%0A${continuation}"
+                  else
+                    # Buffer the line to be processed in the main loop
+                    buffer="$continuation"
+                    break
+                  fi
+                done
+              fi
+
+              # Annotate in GitHub Actions
+              if [[ -n "$FILE" && -n "$LINE" && -n "$MESSAGE" ]]; then
+                echo "::warning file=$FILE,line=$LINE::$MESSAGE"
+              elif [[ -n "$MESSAGE" ]]; then
+                echo "::warning ::$MESSAGE"
+              else
+                echo "Skipped unmatched line: $line"
+              fi
+
+            done < "$WARNING_LOG_FILE"
+          else
+            echo "No Doxygen warnings log found."
+          fi
+        env:
+          WARNING_LOG_FILE: ${{ steps.generate.outputs.warning_log_file }}
+
+      - uses: actions/create-github-app-token@c1a285145b9d317df6ced56c09f525b5c2b6f755 # v1.11.1
+        id: app-token
+        with:
+          app-id: ${{ vars.SLICER_APP_ID }}
+          private-key: ${{ secrets.SLICER_APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: gh-pages
+          path: gh-pages
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: GitHub App Committer Details
+        id: committer
+        run: |
+          committer_name=${APP_SLUG}[bot]
+          echo "committer_name [$committer_name]"
+
+          user_id=$(gh api "/users/$committer_name" --jq .id)
+          echo "user_id [$user_id]"
+
+          committer_email=${user_id}+${committer_name}@users.noreply.github.com
+          echo "committer_email [$committer_email]"
+
+          echo "committer-name=$committer_name"  >> "$GITHUB_OUTPUT"
+          echo "committer-email=$committer_email"  >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+
+      - name: Publish documentation
+        run: |
+          slicer-apidocs-builder \
+            --skip-build \
+            --slicer-repo-dir $(pwd)/Slicer \
+            --slicer-repo-name ${SLICER_REPO_NAME} \
+            --slicer-repo-branch "${SLICER_REPO_BRANCH}" \
+            --slicer-repo-tag "${SLICER_REPO_TAG}" \
+            --publish-github-username "${PUBLISH_GITHUB_USERNAME}" \
+            --publish-github-useremail "${PUBLISH_GITHUB_USERMAIL}" \
+            --publish-github-repo-dir "$(pwd)/gh-pages" \
+            --publish-github-repo-branch gh-pages \
+            --publish-github-skip-auth
+        env:
+          PUBLISH_GITHUB_PROJECT_NAME: apidocs.slicer.org
+          PUBLISH_GITHUB_USERNAME: ${{ steps.committer.outputs.committer-name }}
+          PUBLISH_GITHUB_USERMAIL: ${{ steps.committer.outputs.committer-email }}
+          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.repository }}
+          SLICER_REPO_BRANCH: ${{ steps.determine.outputs.slicer_repo_branch }}
+          SLICER_REPO_TAG: ${{ steps.determine.outputs.slicer_repo_tag }}
+

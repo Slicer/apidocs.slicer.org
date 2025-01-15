@@ -7,8 +7,8 @@ This project hosts the Slicer API documentation served from http://apidocs.slice
 
 Documentation is automatically generated and pushed to the `gh-pages` branch configured as a [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) source.
 
-The [slicer-apidocs-builder](https://github.com/Slicer/slicer-apidocs-builder) tool is used within a CircleCI
-build to checkout Slicer source code, build doxygen documentation and publish generated html pages.
+The [slicer-apidocs-builder](https://github.com/Slicer/slicer-apidocs-builder) tool is used within the GitHub workflow
+[doxygen-build-and-publish.yml](.github/workflows/.github/workflows/doxygen-build-and-publish.yml) to checkout Slicer source code, build doxygen documentation and publish generated html pages.
 
 Each time the `main` branch of https://github.com/Slicer/Slicer is updated or each time a new release tag
 is pushed, the generated documentation is either added to the `main` folder or added to a new folder
