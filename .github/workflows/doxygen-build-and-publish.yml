@@ -10,6 +10,10 @@ on:
       slicer_ref:
         description: "Slicer Branch or tag for which to build and publish the documentation"
         default: main
+      preview:
+        description: "Publish at https://preview.apidocs.slicer.org"
+        default: false
+        type: boolean
 
 permissions:
   # Needed in the publish step to update gh-pages branch
@@ -26,12 +30,19 @@ jobs:
           if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
             slicer_repository=${{ github.event.inputs.slicer_repository }}
             slicer_ref=${{ github.event.inputs.slicer_ref }}
+            preview=${{ github.event.inputs.preview }}
+            echo "preview [$preview]"
           else
             echo "::error ::Unsupported EVENT_NAME [$EVENT_NAME]"
             exit 1
           fi
+          if [[ ! $preview =~ ^(false|true)$  ]]; then
+            echo "::error ::Invalid skip value 'preview'. Supported values are 'true' or 'false'"
+            exit 1
+          fi
           echo "slicer_repository=$slicer_repository" >> $GITHUB_OUTPUT
           echo "slicer_ref=$slicer_ref" >> $GITHUB_OUTPUT
+          echo "preview=$preview" >> $GITHUB_OUTPUT
         env:
           EVENT_NAME: ${{ github.event_name }}
 
@@ -172,6 +183,7 @@ jobs:
 
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
+          repository: Slicer/${{ toJSON(steps.collect_inputs.outputs.preview) && 'preview.apidocs.slicer.org' || 'apidocs.slicer.org' }}
           ref: gh-pages
           path: gh-pages
           token: ${{ steps.app-token.outputs.token }}
@@ -208,7 +220,6 @@ jobs:
             --publish-github-repo-branch gh-pages \
             --publish-github-skip-auth
         env:
-          PUBLISH_GITHUB_PROJECT_NAME: apidocs.slicer.org
           PUBLISH_GITHUB_USERNAME: ${{ steps.committer.outputs.committer-name }}
           PUBLISH_GITHUB_USERMAIL: ${{ steps.committer.outputs.committer-email }}
           SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
