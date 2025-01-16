@@ -4,11 +4,11 @@ on:
   # Allows running this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      repository:
-        description: "Slicer repository for which to build and publish the documentation"
+      slicer_repository:
+        description: "Slicer Repository for which to build and publish the documentation"
         default: Slicer/Slicer
-      ref:
-        description: "Slicer branch or tag for which to build and publish the documentation"
+      slicer_ref:
+        description: "Slicer Branch or tag for which to build and publish the documentation"
         default: main
 
 permissions:
@@ -24,22 +24,22 @@ jobs:
         run: |
           echo "EVENT_NAME [$EVENT_NAME]"
           if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
-            repository=${{ github.event.inputs.repository }}
-            ref=${{ github.event.inputs.ref }}
+            slicer_repository=${{ github.event.inputs.slicer_repository }}
+            slicer_ref=${{ github.event.inputs.slicer_ref }}
           else
             echo "::error ::Unsupported EVENT_NAME [$EVENT_NAME]"
             exit 1
           fi
-          echo "repository=$repository" >> $GITHUB_OUTPUT
-          echo "ref=$ref" >> $GITHUB_OUTPUT
+          echo "slicer_repository=$slicer_repository" >> $GITHUB_OUTPUT
+          echo "slicer_ref=$slicer_ref" >> $GITHUB_OUTPUT
         env:
           EVENT_NAME: ${{ github.event_name }}
 
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
-          repository: ${{ steps.collect_inputs.outputs.repository }}
+          repository: ${{ steps.collect_inputs.outputs.slicer_repository }}
           path: Slicer
-          ref: ${{ steps.collect_inputs.outputs.ref }}
+          ref: ${{ steps.collect_inputs.outputs.slicer_ref }}
 
       - name: Determine if ref is branch or tag
         id: determine
@@ -74,7 +74,7 @@ jobs:
 
           fi
         env:
-          SLICER_REPO_REF: ${{ steps.collect_inputs.outputs.ref }}
+          SLICER_REPO_REF: ${{ steps.collect_inputs.outputs.slicer_ref }}
 
       - uses: ssciwr/doxygen-install@527824132256e685f03ec80c0851fe79937eb1d6 # v1.6.3
         with:
@@ -211,7 +211,7 @@ jobs:
           PUBLISH_GITHUB_PROJECT_NAME: apidocs.slicer.org
           PUBLISH_GITHUB_USERNAME: ${{ steps.committer.outputs.committer-name }}
           PUBLISH_GITHUB_USERMAIL: ${{ steps.committer.outputs.committer-email }}
-          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.repository }}
+          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
           SLICER_REPO_BRANCH: ${{ steps.determine.outputs.slicer_repo_branch }}
           SLICER_REPO_TAG: ${{ steps.determine.outputs.slicer_repo_tag }}
 
