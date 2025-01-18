@@ -112,17 +112,21 @@ jobs:
       - name: Generate Documentation
         id: generate
         run: |
-          WARNING_LOG_FILE=/tmp/Slicer-Slicer-$SLICER_REPO_BRANCH-build/Utilities/Doxygen/UserDoxygenWarnings.txt
+          WARNING_LOG_FILE=/tmp/${SLICER_REPO_NAME//\//-}-$SLICER_REPO_BRANCH-build/Utilities/Doxygen/UserDoxygenWarnings.txt
+          echo "WARNING_LOG_FILE [$WARNING_LOG_FILE]"
+
           mkdir -p $(dirname $WARNING_LOG_FILE)
 
           slicer-apidocs-builder \
             --skip-publish \
             --slicer-repo-dir $(pwd)/Slicer \
+            --slicer-repo-name ${SLICER_REPO_NAME} \
             --slicer-repo-branch "$SLICER_REPO_BRANCH" \
             --slicer-repo-tag "${SLICER_REPO_TAG}" 2> >(tee $WARNING_LOG_FILE >&2)
 
           echo "warning_log_file=$WARNING_LOG_FILE" >> $GITHUB_OUTPUT
         env:
+          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
           SLICER_REPO_BRANCH: ${{ steps.determine.outputs.slicer_repo_branch }}
           SLICER_REPO_TAG: ${{ steps.determine.outputs.slicer_repo_tag }}
 
