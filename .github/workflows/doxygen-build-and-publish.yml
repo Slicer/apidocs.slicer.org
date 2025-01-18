@@ -180,6 +180,10 @@ jobs:
         with:
           app-id: ${{ vars.SLICER_APP_ID }}
           private-key: ${{ secrets.SLICER_APP_PRIVATE_KEY }}
+          owner: Slicer
+          repositories: |
+            apidocs.slicer.org
+            preview.apidocs.slicer.org
 
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
