@@ -20,6 +20,8 @@ run-name: "Build and Publish (${{ inputs.slicer_repository }}@${{ inputs.slicer_
 permissions:
   # Needed in the publish step to update gh-pages branch
   contents: write
+  # Needed to update the status associated with the Slicer commit
+  statuses: write
 
 jobs:
   build-and-publish:
@@ -42,9 +44,18 @@ jobs:
             echo "::error ::Invalid skip value 'preview'. Supported values are 'true' or 'false'"
             exit 1
           fi
+
+          if [[ $preview == "false" ]]; then
+            publish_repository="apidocs.slicer.org"
+          else
+            publish_repository="preview.apidocs.slicer.org"
+          fi
+          echo "publish_repository [$publish_repository]"
+
           echo "slicer_repository=$slicer_repository" >> $GITHUB_OUTPUT
           echo "slicer_ref=$slicer_ref" >> $GITHUB_OUTPUT
           echo "preview=$preview" >> $GITHUB_OUTPUT
+          echo "publish_repository=$publish_repository" >> $GITHUB_OUTPUT
         env:
           EVENT_NAME: ${{ github.event_name }}
 
@@ -53,6 +64,14 @@ jobs:
           repository: ${{ steps.collect_inputs.outputs.slicer_repository }}
           path: Slicer
           ref: ${{ steps.collect_inputs.outputs.slicer_ref }}
+
+      - name: Slicer Checkout Details
+        id: slicer-checkout-details
+        run: |
+          cd Slicer
+          sha=$(git rev-parse HEAD)
+          echo "sha [$sha]"
+          echo "sha=$sha" >> $GITHUB_OUTPUT
 
       - uses: actions/create-github-app-token@c1a285145b9d317df6ced56c09f525b5c2b6f755 # v1.11.1
         id: app-token
@@ -63,6 +82,23 @@ jobs:
           repositories: |
             apidocs.slicer.org
             preview.apidocs.slicer.org
+            Slicer
+            Slicer-CI-Testing
+
+      - name: Set GitHub status to 'pending'
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/${SLICER_REPO_NAME}/statuses/${SLICER_REPO_REVISION} \
+            -f state='pending' \
+            -f target_url='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}' \
+            -f description='API documentation is being generated' \
+            -f context='slicer/apidocs'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
+          SLICER_REPO_REVISION: ${{ steps.slicer-checkout-details.outputs.sha }}
 
       - name: Determine if ref is branch or tag
         id: determine
@@ -193,7 +229,7 @@ jobs:
 
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
-          repository: Slicer/${{ toJSON(steps.collect_inputs.outputs.preview) && 'preview.apidocs.slicer.org' || 'apidocs.slicer.org' }}
+          repository: Slicer/${{ steps.collect_inputs.outputs.publish_repository }}
           ref: gh-pages
           path: gh-pages
           token: ${{ steps.app-token.outputs.token }}
@@ -235,4 +271,44 @@ jobs:
           SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
           SLICER_REPO_BRANCH: ${{ steps.determine.outputs.slicer_repo_branch }}
           SLICER_REPO_TAG: ${{ steps.determine.outputs.slicer_repo_tag }}
+
+      - name: Set GitHub status to 'success'
+        run: |
+          target_url_path="$SLICER_REPO_BRANCH"
+          if [[ "$SLICER_REPO_TAG" != "" ]]; then
+            target_url_path=$(echo "$SLICER_REPO_TAG" | grep -oE '^v[0-9]+\.[0-9]+')
+          fi
+          echo "target_url_path [$target_url_path]"
+          target_url="https://${{ steps.collect_inputs.outputs.publish_repository }}/${target_url_path}"
+          echo "target_url [$target_url]"
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/${SLICER_REPO_NAME}/statuses/${SLICER_REPO_REVISION} \
+            -f state='success' \
+            -f target_url="$target_url" \
+            -f description='API documentation published' \
+            -f context='slicer/apidocs'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
+          SLICER_REPO_REVISION: ${{ steps.slicer-checkout-details.outputs.sha }}
+          SLICER_REPO_BRANCH: ${{ steps.determine.outputs.slicer_repo_branch }}
+          SLICER_REPO_TAG: ${{ steps.determine.outputs.slicer_repo_tag }}
+
+      - name: Set GitHub status to 'failure'
+        if: ${{ failure() }}
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/${SLICER_REPO_NAME}/statuses/${SLICER_REPO_REVISION} \
+            -f state='failure' \
+            -f target_url='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}' \
+            -f description='API documentation failed to be generated' \
+            -f context='slicer/apidocs'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          SLICER_REPO_NAME: ${{ steps.collect_inputs.outputs.slicer_repository }}
+          SLICER_REPO_REVISION: ${{ steps.slicer-checkout-details.outputs.sha }}
 
