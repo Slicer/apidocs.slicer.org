@@ -52,6 +52,16 @@ jobs:
           path: Slicer
           ref: ${{ steps.collect_inputs.outputs.slicer_ref }}
 
+      - uses: actions/create-github-app-token@c1a285145b9d317df6ced56c09f525b5c2b6f755 # v1.11.1
+        id: app-token
+        with:
+          app-id: ${{ vars.SLICER_APP_ID }}
+          private-key: ${{ secrets.SLICER_APP_PRIVATE_KEY }}
+          owner: Slicer
+          repositories: |
+            apidocs.slicer.org
+            preview.apidocs.slicer.org
+
       - name: Determine if ref is branch or tag
         id: determine
         run: |
@@ -178,16 +188,6 @@ jobs:
           fi
         env:
           WARNING_LOG_FILE: ${{ steps.generate.outputs.warning_log_file }}
-
-      - uses: actions/create-github-app-token@c1a285145b9d317df6ced56c09f525b5c2b6f755 # v1.11.1
-        id: app-token
-        with:
-          app-id: ${{ vars.SLICER_APP_ID }}
-          private-key: ${{ secrets.SLICER_APP_PRIVATE_KEY }}
-          owner: Slicer
-          repositories: |
-            apidocs.slicer.org
-            preview.apidocs.slicer.org
 
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
