@@ -1,0 +1,9 @@
+<map id="vtkMRMLSliceNode" name="vtkMRMLSliceNode">
+<area shape="rect" id="Node000001" title="MRML node for storing a slice through RAS space." alt="" coords="33,225,181,251"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractViewNode.html" title="Abstract MRML node to represent a view. The class holds the properties common to any view type (3D,..." alt="" coords="5,152,209,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,191,110,225,105,225,105,191"/>
+<area shape="rect" id="Node000003" href="$classvtkMRMLNode.html" title="Abstract Superclass for all specific types of MRML nodes." alt="" coords="49,79,166,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,118,110,152,105,152,105,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="65,5,150,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,44,110,79,105,79,105,44"/>
+</map>
