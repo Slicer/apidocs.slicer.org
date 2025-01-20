@@ -1,0 +1,13 @@
+<map id="Base/QTCore/qSlicerFileWriter.h" name="Base/QTCore/qSlicerFileWriter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="239,5,466,31"/>
+<area shape="rect" id="Node000002" href="$qSlicerScriptedFileWriter_8h.html" title=" " alt="" coords="5,79,212,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="305,37,168,81,167,76,303,32"/>
+<area shape="rect" id="Node000003" href="$qSlicerNodeWriter_8h.html" title=" " alt="" coords="236,86,469,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="355,44,355,86,350,86,350,44"/>
+<area shape="rect" id="Node000006" href="$qSlicerSceneWriter_8h.html" title=" " alt="" coords="493,79,668,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="399,33,527,76,525,81,398,38"/>
+<area shape="rect" id="Node000004" href="$qSlicerMarkupsWriter_8h.html" title=" " alt="" coords="128,167,327,207"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="326,121,256,169,253,164,323,117"/>
+<area shape="rect" id="Node000005" href="$qSlicerSegmentationsNodeWriter_8h.html" title=" " alt="" coords="351,167,605,207"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="382,117,452,164,449,169,379,121"/>
+</map>
