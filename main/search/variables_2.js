@@ -4,7 +4,7 @@ var searchData=
   ['backfaceculling_1',['BackfaceCulling',['../classvtkMRMLDisplayNode.html#a100b14e6262650e80b021ec205184654',1,'vtkMRMLDisplayNode']]],
   ['background_2',['Background',['../classvtkImageLabelOutline.html#a1f4a0fe171cc0e0cb3752d00c9d241f3',1,'vtkImageLabelOutline']]],
   ['backgroundcolor_3',['BackgroundColor',['../classvtkMRMLAbstractViewNode.html#a17a3e963c040380fdca61bc578dbd155',1,'vtkMRMLAbstractViewNode']]],
-  ['backgroundcolor_4',['backgroundColor',['../classSegmentEditorEffects_1_1SegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#ad32b58c66b551e088755cca6c69db939',1,'SegmentEditorEffects::SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],
+  ['backgroundcolor_4',['backgroundColor',['../classSegmentEditorEffects_1_1SegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#a9e9ef5e7f806758eff604750eee2d42a',1,'SegmentEditorEffects::SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],
   ['backgroundcolor2_5',['BackgroundColor2',['../classvtkMRMLAbstractViewNode.html#a6aef05396b227be1339e74fa5007a514',1,'vtkMRMLAbstractViewNode']]],
   ['backgroundfunction_6',['backgroundFunction',['../classSegmentEditorEffects_1_1SegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#aac5efd467dc93c0e92fee64ea0920594',1,'SegmentEditorEffects::SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],
   ['backgroundfunctioncontainer_7',['backgroundFunctionContainer',['../classSegmentEditorEffects_1_1SegmentEditorThresholdEffect_1_1SegmentEditorThresholdEffect.html#abd89b9b14f502065d79ea9491e41a487',1,'SegmentEditorEffects::SegmentEditorThresholdEffect::SegmentEditorThresholdEffect']]],
@@ -31,7 +31,7 @@ var searchData=
   ['brushtubesource_28',['brushTubeSource',['../classSegmentEditorEffects_1_1SegmentEditorThresholdEffect_1_1HistogramPipeline.html#abb06e68f5c9c75599984d92a94e6fe9b',1,'SegmentEditorEffects::SegmentEditorThresholdEffect::HistogramPipeline']]],
   ['bspline_5ftransform_5forder_29',['BSPLINE_TRANSFORM_ORDER',['../vtkITKTransformConverter_8h.html#ae933a117d003e6d5792802ebed8b6c41',1,'vtkITKTransformConverter.h']]],
   ['bsplineinterpolatefunction_30',['bSplineInterpolateFunction',['../classitk_1_1DiffusionTensor3DBSplineInterpolateImageFunction.html#acc6e3c77934fbcf42c8cf7eaa513aeec',1,'itk::DiffusionTensor3DBSplineInterpolateImageFunction']]],
-  ['buttontooperationnamemap_31',['buttonToOperationNameMap',['../classSegmentEditorEffects_1_1SegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#acc1ba7781a0a4e72af989b42c7ac5619',1,'SegmentEditorEffects::SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
+  ['buttontooperationnamemap_31',['buttonToOperationNameMap',['../classSegmentEditorEffects_1_1SegmentEditorMaskVolumeEffect_1_1SegmentEditorMaskVolumeEffect.html#ac8659abbf023321b82ba6806a595a702',1,'SegmentEditorEffects::SegmentEditorMaskVolumeEffect::SegmentEditorMaskVolumeEffect']]],
   ['bvalues_32',['BValues',['../classvtkMRMLDiffusionWeightedVolumeNode.html#a322cb5ce46121f763f20b281504103a7',1,'vtkMRMLDiffusionWeightedVolumeNode::BValues'],['../classvtkTeemNRRDWriter.html#a6e863b478bfc46979b1afff6fbc59acd',1,'vtkTeemNRRDWriter::BValues']]],
   ['bypassmaskingcheckbox_33',['bypassMaskingCheckBox',['../classSegmentEditorEffects_1_1SegmentEditorLogicalEffect_1_1SegmentEditorLogicalEffect.html#a801573dcb00613bcd80f3273200ff197',1,'SegmentEditorEffects::SegmentEditorLogicalEffect::SegmentEditorLogicalEffect']]]
 ];

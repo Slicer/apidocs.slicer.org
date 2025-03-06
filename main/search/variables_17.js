@@ -11,7 +11,7 @@ var searchData=
   ['widgets_8',['Widgets',['../classvtkMRMLAnnotationDisplayableManagerHelper.html#a003069ca4d357d77936458aca4907d3d',1,'vtkMRMLAnnotationDisplayableManagerHelper']]],
   ['widgetscale_9',['WidgetScale',['../classvtkMRMLInteractionWidgetRepresentation.html#a06b79398e88e8f7ff7663e2a5a57258a',1,'vtkMRMLInteractionWidgetRepresentation']]],
   ['widgetstate_10',['WidgetState',['../classvtkMRMLAbstractWidget.html#a787add058354d8c168a40d585b06714c',1,'vtkMRMLAbstractWidget']]],
-  ['widgettooperationnamemap_11',['widgetToOperationNameMap',['../classSegmentEditorEffects_1_1SegmentEditorIslandsEffect_1_1SegmentEditorIslandsEffect.html#ae315b4964b6e15c7ee17e1c98b90c512',1,'SegmentEditorEffects::SegmentEditorIslandsEffect::SegmentEditorIslandsEffect']]],
+  ['widgettooperationnamemap_11',['widgetToOperationNameMap',['../classSegmentEditorEffects_1_1SegmentEditorIslandsEffect_1_1SegmentEditorIslandsEffect.html#a0650b24b744821ff37fcbbf6260e9fae',1,'SegmentEditorEffects::SegmentEditorIslandsEffect::SegmentEditorIslandsEffect']]],
   ['widgetunderlineprojections_12',['WidgetUnderLineProjections',['../classvtkMRMLAnnotationDisplayableManagerHelper.html#a5df91d83f096864201c655d9984ff66a',1,'vtkMRMLAnnotationDisplayableManagerHelper']]],
   ['widgetvisible_13',['WidgetVisible',['../classvtkMRMLSliceNode.html#a233c8105d54f1e27cfd212329e4fcf2c',1,'vtkMRMLSliceNode']]],
   ['window_14',['Window',['../classvtkMRMLScalarVolumeDisplayNode_1_1WindowLevelPreset.html#ae18c58ac6b657f3ad8bd47504d72e8f9',1,'vtkMRMLScalarVolumeDisplayNode::WindowLevelPreset']]],
