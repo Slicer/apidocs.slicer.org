@@ -137,7 +137,7 @@ jobs:
 
       - uses: ssciwr/doxygen-install@527824132256e685f03ec80c0851fe79937eb1d6 # v1.6.3
         with:
-          version: "1.10.0"
+          version: "1.13.0"
 
       # The "dot" binary is provided by Graphviz
       - uses: ts-graphviz/setup-graphviz@b1de5da23ed0a6d14e0aeee8ed52fdd87af2363c # v2.0.2
