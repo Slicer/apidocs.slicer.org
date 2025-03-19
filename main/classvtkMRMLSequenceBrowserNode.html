@@ -195,9 +195,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0833779bb879e2c5652d08b079436531" id="r_a0833779bb879e2c5652d08b079436531"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0833779bb879e2c5652d08b079436531">AddSynchronizedSequenceNodeID</a> (const char *synchronizedSequenceNodeId)</td></tr>
 <tr class="memdesc:a0833779bb879e2c5652d08b079436531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a node for synchronized browsing. Returns the new proxy node postfix.  <br /></td></tr>
 <tr class="separator:a0833779bb879e2c5652d08b079436531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aa4a699b16d1849aeae7391f829e270" id="r_a2aa4a699b16d1849aeae7391f829e270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aa4a699b16d1849aeae7391f829e270">Copy</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node) override</td></tr>
-<tr class="memdesc:a2aa4a699b16d1849aeae7391f829e270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the node's attributes to this object.  <br /></td></tr>
-<tr class="separator:a2aa4a699b16d1849aeae7391f829e270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b6dd3105b4fb7ae5313ae7bef163d6" id="r_a15b6dd3105b4fb7ae5313ae7bef163d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15b6dd3105b4fb7ae5313ae7bef163d6">CopyContent</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node, bool deepCopy=true) override</td></tr>
+<tr class="memdesc:a15b6dd3105b4fb7ae5313ae7bef163d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the node's attributes to this object.  <br /></td></tr>
+<tr class="separator:a15b6dd3105b4fb7ae5313ae7bef163d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b45d9fe5ebcb82cd2846328acd19d5e" id="r_a2b45d9fe5ebcb82cd2846328acd19d5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b45d9fe5ebcb82cd2846328acd19d5e">CreateNodeInstance</a> () override</td></tr>
 <tr class="memdesc:a2b45d9fe5ebcb82cd2846328acd19d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create instance of a GAD node.  <br /></td></tr>
 <tr class="separator:a2b45d9fe5ebcb82cd2846328acd19d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -418,9 +418,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2ca84de440f4e9f3a361548cbfb29955 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2c7d424fec7d75c42fea9bc3b94f6e inherit pub_methods_classvtkMRMLNode" id="r_add2c7d424fec7d75c42fea9bc3b94f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#add2c7d424fec7d75c42fea9bc3b94f6e">ClearNthNodeReferenceProperties</a> (const std::string &amp;referenceRole, int n)</td></tr>
 <tr class="separator:add2c7d424fec7d75c42fea9bc3b94f6e inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94940453f557fbc3a59f65bd37311cef inherit pub_methods_classvtkMRMLNode" id="r_a94940453f557fbc3a59f65bd37311cef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a94940453f557fbc3a59f65bd37311cef">CopyContent</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node, bool deepCopy=true)</td></tr>
-<tr class="memdesc:a94940453f557fbc3a59f65bd37311cef inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy node contents from another node of the same type. Does not copy node ID, Scene, Name, SingletonTag, HideFromEditors, AddToScene, UndoEnabled, and node references. If deepCopy is set to false then a shallow copy of bulk data (such as image or mesh data) could be made; copying may be faster but the node may share some data with the source node instead of creating an independent copy.  <br /></td></tr>
-<tr class="separator:a94940453f557fbc3a59f65bd37311cef inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae63d8eae95bc28d7cd5532f9bc4b4d39 inherit pub_methods_classvtkMRMLNode" id="r_ae63d8eae95bc28d7cd5532f9bc4b4d39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#ae63d8eae95bc28d7cd5532f9bc4b4d39">Copy</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node)</td></tr>
+<tr class="memdesc:ae63d8eae95bc28d7cd5532f9bc4b4d39 inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy node contents from another node of the same type. Does not copy node ID and Scene. Performs deep copy - an independent copy is created from all data, including bulk data.  <br /></td></tr>
+<tr class="separator:ae63d8eae95bc28d7cd5532f9bc4b4d39 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a444ad03b7c679ac421fef428f308cf8f inherit pub_methods_classvtkMRMLNode" id="r_a444ad03b7c679ac421fef428f308cf8f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a444ad03b7c679ac421fef428f308cf8f">CopyReferences</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node)</td></tr>
 <tr class="memdesc:a444ad03b7c679ac421fef428f308cf8f inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the references of the node into this.  <br /></td></tr>
 <tr class="separator:a444ad03b7c679ac421fef428f308cf8f inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -718,6 +718,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8a05e183a4089fabd3ec691566103b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af04a67632f1af9696dad208eae355d14" id="r_af04a67632f1af9696dad208eae355d14"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af04a67632f1af9696dad208eae355d14">GenerateSynchronizationPostfix</a> ()</td></tr>
 <tr class="separator:af04a67632f1af9696dad208eae355d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2784d8d55deca153bf60dd8923157075" id="r_a2784d8d55deca153bf60dd8923157075"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2784d8d55deca153bf60dd8923157075">GetLastPostfixIndex</a> ()</td></tr>
+<tr class="separator:a2784d8d55deca153bf60dd8923157075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d93e45ae3e909edc51bf02a23ea0ca" id="r_ad3d93e45ae3e909edc51bf02a23ea0ca"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3d93e45ae3e909edc51bf02a23ea0ca">GetLastSaveProxyNodesStateTimeSec</a> ()</td></tr>
+<tr class="separator:ad3d93e45ae3e909edc51bf02a23ea0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fec7d64a74c5a9332c98432670e27c4" id="r_a6fec7d64a74c5a9332c98432670e27c4"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fec7d64a74c5a9332c98432670e27c4">GetRecordingTimeOffsetSec</a> ()</td></tr>
+<tr class="separator:a6fec7d64a74c5a9332c98432670e27c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8f67bbe4145bfede8d26082b65b9496" id="r_ac8f67bbe4145bfede8d26082b65b9496"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8f67bbe4145bfede8d26082b65b9496">GetSynchronizationPostfixFromSequence</a> (<a class="el" href="classvtkMRMLSequenceNode.html">vtkMRMLSequenceNode</a> *sequenceNode)</td></tr>
 <tr class="separator:ac8f67bbe4145bfede8d26082b65b9496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd317790fded5868c6d8d115c48bd07" id="r_a2cd317790fded5868c6d8d115c48bd07"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cd317790fded5868c6d8d115c48bd07">GetSynchronizationPostfixFromSequenceID</a> (const char *sequenceNodeID)</td></tr>
@@ -730,6 +736,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a173beb6da602c0328b39477650dc79cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c663fa83a657a18666ccb44c77c054" id="r_a98c663fa83a657a18666ccb44c77c054"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c663fa83a657a18666ccb44c77c054">operator=</a> (const <a class="el" href="classvtkMRMLSequenceBrowserNode.html">vtkMRMLSequenceBrowserNode</a> &amp;)</td></tr>
 <tr class="separator:a98c663fa83a657a18666ccb44c77c054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8acb27e5109d1f19c6290d00b039b7aa" id="r_a8acb27e5109d1f19c6290d00b039b7aa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8acb27e5109d1f19c6290d00b039b7aa">SetLastPostfixIndex</a> (int)</td></tr>
+<tr class="separator:a8acb27e5109d1f19c6290d00b039b7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68055a91c3fd7c0abaf0c3c40b70fd4e" id="r_a68055a91c3fd7c0abaf0c3c40b70fd4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68055a91c3fd7c0abaf0c3c40b70fd4e">SetLastSaveProxyNodesStateTimeSec</a> (double)</td></tr>
+<tr class="separator:a68055a91c3fd7c0abaf0c3c40b70fd4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a047b52782f08c46988f69d18f58b04e4" id="r_a047b52782f08c46988f69d18f58b04e4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a047b52782f08c46988f69d18f58b04e4">SetRecordingTimeOffsetSec</a> (double)</td></tr>
+<tr class="separator:a047b52782f08c46988f69d18f58b04e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a940036f54aeeca1caddc2ef5a1cc82c3" id="r_a940036f54aeeca1caddc2ef5a1cc82c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a940036f54aeeca1caddc2ef5a1cc82c3">vtkMRMLSequenceBrowserNode</a> ()</td></tr>
 <tr class="separator:a940036f54aeeca1caddc2ef5a1cc82c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27eba8bf44c8ee07af54607420a8f6c1" id="r_a27eba8bf44c8ee07af54607420a8f6c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27eba8bf44c8ee07af54607420a8f6c1">vtkMRMLSequenceBrowserNode</a> (const <a class="el" href="classvtkMRMLSequenceBrowserNode.html">vtkMRMLSequenceBrowserNode</a> &amp;)</td></tr>
@@ -1149,8 +1161,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2aa4a699b16d1849aeae7391f829e270" name="a2aa4a699b16d1849aeae7391f829e270"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aa4a699b16d1849aeae7391f829e270">&#9670;&#160;</a></span>Copy()</h2>
+<a id="a15b6dd3105b4fb7ae5313ae7bef163d6" name="a15b6dd3105b4fb7ae5313ae7bef163d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15b6dd3105b4fb7ae5313ae7bef163d6">&#9670;&#160;</a></span>CopyContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1159,10 +1171,14 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void vtkMRMLSequenceBrowserNode::Copy </td>
+          <td class="memname">void vtkMRMLSequenceBrowserNode::CopyContent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *</td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *</td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>deepCopy</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1174,7 +1190,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Copy the node's attributes to this object. </p>
 
-<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#ae63d8eae95bc28d7cd5532f9bc4b4d39">vtkMRMLNode</a>.</p>
+<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#a94940453f557fbc3a59f65bd37311cef">vtkMRMLNode</a>.</p>
 
 </div>
 </div>
@@ -1487,6 +1503,56 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2784d8d55deca153bf60dd8923157075" name="a2784d8d55deca153bf60dd8923157075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2784d8d55deca153bf60dd8923157075">&#9670;&#160;</a></span>GetLastPostfixIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int vtkMRMLSequenceBrowserNode::GetLastPostfixIndex </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3d93e45ae3e909edc51bf02a23ea0ca" name="ad3d93e45ae3e909edc51bf02a23ea0ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d93e45ae3e909edc51bf02a23ea0ca">&#9670;&#160;</a></span>GetLastSaveProxyNodesStateTimeSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double vtkMRMLSequenceBrowserNode::GetLastSaveProxyNodesStateTimeSec </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1958,6 +2024,31 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fec7d64a74c5a9332c98432670e27c4" name="a6fec7d64a74c5a9332c98432670e27c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fec7d64a74c5a9332c98432670e27c4">&#9670;&#160;</a></span>GetRecordingTimeOffsetSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double vtkMRMLSequenceBrowserNode::GetRecordingTimeOffsetSec </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3095,6 +3186,56 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a8acb27e5109d1f19c6290d00b039b7aa" name="a8acb27e5109d1f19c6290d00b039b7aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8acb27e5109d1f19c6290d00b039b7aa">&#9670;&#160;</a></span>SetLastPostfixIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLSequenceBrowserNode::SetLastPostfixIndex </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68055a91c3fd7c0abaf0c3c40b70fd4e" name="a68055a91c3fd7c0abaf0c3c40b70fd4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68055a91c3fd7c0abaf0c3c40b70fd4e">&#9670;&#160;</a></span>SetLastSaveProxyNodesStateTimeSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLSequenceBrowserNode::SetLastSaveProxyNodesStateTimeSec </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa9e4baee0789824b46ea0bcb4721714f" name="aa9e4baee0789824b46ea0bcb4721714f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9e4baee0789824b46ea0bcb4721714f">&#9670;&#160;</a></span>SetMissingItemMode()</h2>
 
@@ -3369,6 +3510,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a047b52782f08c46988f69d18f58b04e4" name="a047b52782f08c46988f69d18f58b04e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a047b52782f08c46988f69d18f58b04e4">&#9670;&#160;</a></span>SetRecordingTimeOffsetSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLSequenceBrowserNode::SetRecordingTimeOffsetSec </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a350862451d1f98a49b80a5d548d7f2a2" name="a350862451d1f98a49b80a5d548d7f2a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a350862451d1f98a49b80a5d548d7f2a2">&#9670;&#160;</a></span>SetRecordMasterOnly()</h2>
 
@@ -3561,7 +3727,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00402">402</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00409">409</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3585,7 +3751,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00401">401</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00408">408</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3609,7 +3775,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00409">409</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00416">416</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3633,7 +3799,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00398">398</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00402">402</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3753,7 +3919,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00396">396</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00400">400</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3777,7 +3943,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00400">400</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00407">407</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3801,7 +3967,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00397">397</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00396">396</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3825,7 +3991,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00399">399</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00406">406</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3873,7 +4039,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00406">406</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html#l00413">413</a> of file <a class="el" href="vtkMRMLSequenceBrowserNode_8h_source.html">vtkMRMLSequenceBrowserNode.h</a>.</p>
 
 </div>
 </div>
@@ -3883,7 +4049,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 19 2025 17:39:23 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Mar 19 2025 20:50:18 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

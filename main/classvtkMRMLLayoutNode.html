@@ -220,9 +220,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3ee7696ee7cbefce1214b813cd44c3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb48880874791e1d62209492f1107a0b" id="r_afb48880874791e1d62209492f1107a0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb48880874791e1d62209492f1107a0b">AddMaximizedViewNode</a> (<a class="el" href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a> *maximizedViewNode)</td></tr>
 <tr class="separator:afb48880874791e1d62209492f1107a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af70649836fd0775aeb3c248d42529049" id="r_af70649836fd0775aeb3c248d42529049"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70649836fd0775aeb3c248d42529049">Copy</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node) override</td></tr>
-<tr class="memdesc:af70649836fd0775aeb3c248d42529049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the node's attributes to this object.  <br /></td></tr>
-<tr class="separator:af70649836fd0775aeb3c248d42529049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d92a3e5a7b9b9c92137e88ecf39bf6a" id="r_a7d92a3e5a7b9b9c92137e88ecf39bf6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d92a3e5a7b9b9c92137e88ecf39bf6a">CopyContent</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node, bool deepCopy=true) override</td></tr>
+<tr class="memdesc:a7d92a3e5a7b9b9c92137e88ecf39bf6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the node's attributes to this object.  <br /></td></tr>
+<tr class="separator:a7d92a3e5a7b9b9c92137e88ecf39bf6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1214080c31cd6ef4f133357a15f63d7f" id="r_a1214080c31cd6ef4f133357a15f63d7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1214080c31cd6ef4f133357a15f63d7f">CopyLayoutDescriptions</a> (<a class="el" href="classvtkMRMLLayoutNode.html">vtkMRMLLayoutNode</a> *source)</td></tr>
 <tr class="separator:a1214080c31cd6ef4f133357a15f63d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28382a378d8758f996dd74e9d8b61d77" id="r_a28382a378d8758f996dd74e9d8b61d77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28382a378d8758f996dd74e9d8b61d77">CreateNodeInstance</a> () override</td></tr>
@@ -271,7 +271,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf47167a4cab51d6987e7925d0e17ab4" id="r_adf47167a4cab51d6987e7925d0e17ab4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf47167a4cab51d6987e7925d0e17ab4">GetSecondaryPanelSize</a> ()</td></tr>
 <tr class="separator:adf47167a4cab51d6987e7925d0e17ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2a552700a939dc04a9b87d5c13d23b7" id="r_ab2a552700a939dc04a9b87d5c13d23b7"><td class="memItemLeft" align="right" valign="top">virtual char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2a552700a939dc04a9b87d5c13d23b7">GetSelectedModule</a> ()</td></tr>
-<tr class="memdesc:ab2a552700a939dc04a9b87d5c13d23b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set/Get the size of the last selected module.  <br /></td></tr>
 <tr class="separator:ab2a552700a939dc04a9b87d5c13d23b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2d8a6c44f20b0ad1e894042c0b9b2c" id="r_abb2d8a6c44f20b0ad1e894042c0b9b2c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2d8a6c44f20b0ad1e894042c0b9b2c">GetViewArrangement</a> ()</td></tr>
 <tr class="memdesc:abb2d8a6c44f20b0ad1e894042c0b9b2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get/Set for Current layout.  <br /></td></tr>
@@ -325,6 +324,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abcfaf580f520d8908f96b529e1fa55df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write this node's information to a MRML file in XML format.  <br /></td></tr>
 <tr class="separator:abcfaf580f520d8908f96b529e1fa55df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classvtkMRMLAbstractLayoutNode"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classvtkMRMLAbstractLayoutNode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classvtkMRMLAbstractLayoutNode.html">vtkMRMLAbstractLayoutNode</a></td></tr>
+<tr class="memitem:a14bd9a82e8935a0ecc8ecbfd6529eee0 inherit pub_methods_classvtkMRMLAbstractLayoutNode" id="r_a14bd9a82e8935a0ecc8ecbfd6529eee0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractLayoutNode.html#a14bd9a82e8935a0ecc8ecbfd6529eee0">Copy</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node) override</td></tr>
+<tr class="memdesc:a14bd9a82e8935a0ecc8ecbfd6529eee0 inherit pub_methods_classvtkMRMLAbstractLayoutNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the node's attributes to this object.  <br /></td></tr>
+<tr class="separator:a14bd9a82e8935a0ecc8ecbfd6529eee0 inherit pub_methods_classvtkMRMLAbstractLayoutNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8a252a92fd460485da1e716c2bfb256 inherit pub_methods_classvtkMRMLAbstractLayoutNode" id="r_ab8a252a92fd460485da1e716c2bfb256"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLAbstractLayoutNode.html#ab8a252a92fd460485da1e716c2bfb256">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:ab8a252a92fd460485da1e716c2bfb256 inherit pub_methods_classvtkMRMLAbstractLayoutNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classvtkMRMLNode"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classvtkMRMLNode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a></td></tr>
@@ -346,9 +348,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2ca84de440f4e9f3a361548cbfb29955 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2c7d424fec7d75c42fea9bc3b94f6e inherit pub_methods_classvtkMRMLNode" id="r_add2c7d424fec7d75c42fea9bc3b94f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#add2c7d424fec7d75c42fea9bc3b94f6e">ClearNthNodeReferenceProperties</a> (const std::string &amp;referenceRole, int n)</td></tr>
 <tr class="separator:add2c7d424fec7d75c42fea9bc3b94f6e inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94940453f557fbc3a59f65bd37311cef inherit pub_methods_classvtkMRMLNode" id="r_a94940453f557fbc3a59f65bd37311cef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a94940453f557fbc3a59f65bd37311cef">CopyContent</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node, bool deepCopy=true)</td></tr>
-<tr class="memdesc:a94940453f557fbc3a59f65bd37311cef inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy node contents from another node of the same type. Does not copy node ID, Scene, Name, SingletonTag, HideFromEditors, AddToScene, UndoEnabled, and node references. If deepCopy is set to false then a shallow copy of bulk data (such as image or mesh data) could be made; copying may be faster but the node may share some data with the source node instead of creating an independent copy.  <br /></td></tr>
-<tr class="separator:a94940453f557fbc3a59f65bd37311cef inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a444ad03b7c679ac421fef428f308cf8f inherit pub_methods_classvtkMRMLNode" id="r_a444ad03b7c679ac421fef428f308cf8f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a444ad03b7c679ac421fef428f308cf8f">CopyReferences</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node)</td></tr>
 <tr class="memdesc:a444ad03b7c679ac421fef428f308cf8f inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the references of the node into this.  <br /></td></tr>
 <tr class="separator:a444ad03b7c679ac421fef428f308cf8f inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -797,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Node that describes the view layout of the application. </p>
-<p>When the scene is closing (<a class="el" href="classvtkMRMLScene.html#a47d7000b8cdd3eb92602aa37fd8dbd8a">vtkMRMLScene::Clear</a>), the view arrangement is set to none due to the <a class="el" href="#af70649836fd0775aeb3c248d42529049" title="Copy the node&#39;s attributes to this object.">Copy()</a> call on an empty node. </p>
+<p>When the scene is closing (<a class="el" href="classvtkMRMLScene.html#a47d7000b8cdd3eb92602aa37fd8dbd8a">vtkMRMLScene::Clear</a>), the view arrangement is set to none due to the <a class="el" href="classvtkMRMLAbstractLayoutNode.html#a14bd9a82e8935a0ecc8ecbfd6529eee0" title="Copy the node&#39;s attributes to this object.">Copy()</a> call on an empty node. </p>
 
 <p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00014">14</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -870,7 +869,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a8273252526dff35749ddeefd80c5226aa710d9b6acba29ecc10ee107aa9e731f7" name="a8273252526dff35749ddeefd80c5226aa710d9b6acba29ecc10ee107aa9e731f7"></a>SlicerLayoutUserView&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00091">91</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00092">92</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -990,8 +989,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af70649836fd0775aeb3c248d42529049" name="af70649836fd0775aeb3c248d42529049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af70649836fd0775aeb3c248d42529049">&#9670;&#160;</a></span>Copy()</h2>
+<a id="a7d92a3e5a7b9b9c92137e88ecf39bf6a" name="a7d92a3e5a7b9b9c92137e88ecf39bf6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d92a3e5a7b9b9c92137e88ecf39bf6a">&#9670;&#160;</a></span>CopyContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1000,10 +999,14 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void vtkMRMLLayoutNode::Copy </td>
+          <td class="memname">void vtkMRMLLayoutNode::CopyContent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *</td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *</td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>deepCopy</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1015,7 +1018,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Copy the node's attributes to this object. </p>
 
-<p>Reimplemented from <a class="el" href="classvtkMRMLAbstractLayoutNode.html#a14bd9a82e8935a0ecc8ecbfd6529eee0">vtkMRMLAbstractLayoutNode</a>.</p>
+<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#a94940453f557fbc3a59f65bd37311cef">vtkMRMLNode</a>.</p>
 
 </div>
 </div>
@@ -1356,7 +1359,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classvtkMRMLNode.html#a6c64d91141b3c6b7a5b772979f3d8732">vtkMRMLNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00089">89</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00090">90</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -1528,8 +1531,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Set/Get the size of the last selected module. </p>
+<p>Set/Get the name of the last selected module Note: this is property is no longer used and may be removed in the future. </p>
 
 </div>
 </div>
@@ -2321,7 +2323,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00184">184</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00185">185</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2345,7 +2347,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00186">186</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00187">187</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2369,7 +2371,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00199">199</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2393,7 +2395,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00185">185</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00186">186</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2417,7 +2419,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00183">183</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00184">184</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2441,7 +2443,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00201">201</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2465,7 +2467,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00198">198</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00199">199</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2489,7 +2491,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00195">195</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00196">196</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2513,7 +2515,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00189">189</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00190">190</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2537,7 +2539,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00191">191</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00192">192</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2561,7 +2563,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00190">190</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00191">191</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2585,7 +2587,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00188">188</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00189">189</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2609,7 +2611,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00196">196</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2633,7 +2635,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00193">193</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00194">194</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2657,7 +2659,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00187">187</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLLayoutNode_8h_source.html#l00188">188</a> of file <a class="el" href="vtkMRMLLayoutNode_8h_source.html">vtkMRMLLayoutNode.h</a>.</p>
 
 </div>
 </div>
@@ -2667,7 +2669,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 19 2025 17:39:23 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Mar 19 2025 20:50:18 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
