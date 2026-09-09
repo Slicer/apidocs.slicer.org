@@ -213,6 +213,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aba0feb6536142a41e432bee98dcfa1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9f67b61503fcee7f0e675f760f9109" id="r_a1d9f67b61503fcee7f0e675f760f9109"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d9f67b61503fcee7f0e675f760f9109">RenderTranslucentPolygonalGeometry</a> (vtkViewport *viewport) override</td></tr>
 <tr class="separator:a1d9f67b61503fcee7f0e675f760f9109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb0a52abf1853b6275271154db329b6" id="r_a9fb0a52abf1853b6275271154db329b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fb0a52abf1853b6275271154db329b6">SetInteractionAccuratePicker</a> (vtkCellPicker *picker)</td></tr>
+<tr class="separator:a9fb0a52abf1853b6275271154db329b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6145230e7abe8240c302f30870fc7921" id="r_a6145230e7abe8240c302f30870fc7921"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6145230e7abe8240c302f30870fc7921">SetOccludedRelativeOffset</a> (double)</td></tr>
 <tr class="separator:a6145230e7abe8240c302f30870fc7921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf547a20e21e6c118d489916edce2ba0" id="r_acf547a20e21e6c118d489916edce2ba0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf547a20e21e6c118d489916edce2ba0">SetRenderer</a> (vtkRenderer *ren) override</td></tr>
@@ -414,10 +416,10 @@ Static Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a1a3c054f09df6539ddc5a9c15ce35e66" id="r_a1a3c054f09df6539ddc5a9c15ce35e66"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkCellPicker &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3c054f09df6539ddc5a9c15ce35e66">AccuratePicker</a></td></tr>
-<tr class="separator:a1a3c054f09df6539ddc5a9c15ce35e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6bbc2d6032789b2bb2831d8fa52910e" id="r_af6bbc2d6032789b2bb2831d8fa52910e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6bbc2d6032789b2bb2831d8fa52910e">HideTextActorIfAllPointsOccluded</a></td></tr>
 <tr class="separator:af6bbc2d6032789b2bb2831d8fa52910e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4710a83fb1ccab6dc552d406800ebb" id="r_a2e4710a83fb1ccab6dc552d406800ebb"><td class="memItemLeft" align="right" valign="top">vtkWeakPointer&lt; vtkCellPicker &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e4710a83fb1ccab6dc552d406800ebb">InteractionAccuratePicker</a></td></tr>
+<tr class="separator:a2e4710a83fb1ccab6dc552d406800ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cd26c2e37cbba36f37a4119df49922c" id="r_a6cd26c2e37cbba36f37a4119df49922c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation3D_1_1LineDirectionArrowPipeline3D.html">LineDirectionArrowPipeline3D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cd26c2e37cbba36f37a4119df49922c">LineDirectionArrowPipeline</a></td></tr>
 <tr class="memdesc:a6cd26c2e37cbba36f37a4119df49922c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction arrow glyph pipeline (3D).  <br /></td></tr>
 <tr class="separator:a6cd26c2e37cbba36f37a4119df49922c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -489,7 +491,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Default representation for the markups widget in 3D views. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkSlicerMarkupsWidgetRepresentation.html" title="Class for rendering a markups node.">vtkSlicerMarkupsWidgetRepresentation</a> <a class="el" href="classvtkSlicerMarkupsWidget.html" title="Process interaction events to update state of markup widget nodes.">vtkSlicerMarkupsWidget</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00051">51</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00053">53</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ac572d926311b3e12652deaaeec3b5672" name="ac572d926311b3e12652deaaeec3b5672"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac572d926311b3e12652deaaeec3b5672">&#9670;&#160;</a></span>Superclass</h2>
@@ -505,7 +507,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Standard methods for instances of this class. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00055">55</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00057">57</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1116,6 +1118,24 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9fb0a52abf1853b6275271154db329b6" name="a9fb0a52abf1853b6275271154db329b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb0a52abf1853b6275271154db329b6">&#9670;&#160;</a></span>SetInteractionAccuratePicker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkSlicerMarkupsWidgetRepresentation3D::SetInteractionAccuratePicker </td>
+          <td>(</td>
+          <td class="paramtype">vtkCellPicker *</td>          <td class="paramname"><span class="paramname"><em>picker</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the accurate picker shared by the view (owned by the interactor style and obtained from the interaction event data). When set, <a class="el" href="#a63b7dcad05e3dc61e770c31b074e1ad9">AccuratePick()</a> uses it instead of this representation's own picker, so all widgets in the view reuse one picker and one set of cell locators. The widget sets this for the duration of each interaction event. </p>
+
+</div>
+</div>
 <a id="a6145230e7abe8240c302f30870fc7921" name="a6145230e7abe8240c302f30870fc7921"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6145230e7abe8240c302f30870fc7921">&#9670;&#160;</a></span>SetOccludedRelativeOffset()</h2>
 
@@ -1400,30 +1420,6 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1a3c054f09df6539ddc5a9c15ce35e66" name="a1a3c054f09df6539ddc5a9c15ce35e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a3c054f09df6539ddc5a9c15ce35e66">&#9670;&#160;</a></span>AccuratePicker</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">vtkSmartPointer&lt;vtkCellPicker&gt; vtkSlicerMarkupsWidgetRepresentation3D::AccuratePicker</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00178">178</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
-
-</div>
-</div>
 <a id="a254ca3990035e16e8a45d91f42817803" name="a254ca3990035e16e8a45d91f42817803"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a254ca3990035e16e8a45d91f42817803">&#9670;&#160;</a></span>CachedZBuffers</h2>
 
@@ -1444,7 +1440,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00185">185</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00198">198</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1468,7 +1464,32 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00182">182</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00195">195</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+
+</div>
+</div>
+<a id="a2e4710a83fb1ccab6dc552d406800ebb" name="a2e4710a83fb1ccab6dc552d406800ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4710a83fb1ccab6dc552d406800ebb">&#9670;&#160;</a></span>InteractionAccuratePicker</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkWeakPointer&lt;vtkCellPicker&gt; vtkSlicerMarkupsWidgetRepresentation3D::InteractionAccuratePicker</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The view's shared accurate picker (a <a class="el" href="classvtkMRMLAccuratePicker.html" title="A cell picker that stays fast when large surfaces are shown.">vtkMRMLAccuratePicker</a> owned by the interactor style), set by the widget for the duration of each interaction event (see SetInteractionAccuratePicker) and used by <a class="el" href="#a63b7dcad05e3dc61e770c31b074e1ad9">AccuratePick()</a>. Held weakly so it never keeps the interactor style's picker alive. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00191">191</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1494,7 +1515,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Direction arrow glyph pipeline (3D). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00162">162</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00171">171</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1518,7 +1539,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00167">167</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00176">176</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1542,7 +1563,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00166">166</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00175">175</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1568,7 +1589,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Cached marker spacing/geometry MTime/reversed flag for BuildLineDirectionMarkers guard. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00165">165</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00174">174</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1592,7 +1613,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00183">183</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00196">196</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1616,7 +1637,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00187">187</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00200">200</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1640,7 +1661,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00181">181</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00194">194</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1664,7 +1685,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00180">180</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html#l00193">193</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation3D_8h_source.html">vtkSlicerMarkupsWidgetRepresentation3D.h</a>.</p>
 
 </div>
 </div>
@@ -1674,7 +1695,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 22 2026 21:58:30 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 9 2026 01:34:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

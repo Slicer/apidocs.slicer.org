@@ -798,6 +798,8 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a15e8cda9e3c8813711d19179d4309ce7" id="r_a15e8cda9e3c8813711d19179d4309ce7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15e8cda9e3c8813711d19179d4309ce7">operator=</a> (const <a class="el" href="classvtkMRMLMarkupsPlaneJsonStorageNode.html">vtkMRMLMarkupsPlaneJsonStorageNode</a> &amp;)</td></tr>
 <tr class="separator:a15e8cda9e3c8813711d19179d4309ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1ae3d933d1077a9c1ddca9d11e2e90" id="r_abb1ae3d933d1077a9c1ddca9d11e2e90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb1ae3d933d1077a9c1ddca9d11e2e90">UpdateMarkupsDisplayNodeFromJsonValue</a> (<a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *displayNode, <a class="el" href="classvtkMRMLJsonElement.html">vtkMRMLJsonElement</a> *displayItem) override</td></tr>
+<tr class="separator:abb1ae3d933d1077a9c1ddca9d11e2e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d239ae8df4ecab5674305154462fc3f" id="r_a2d239ae8df4ecab5674305154462fc3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d239ae8df4ecab5674305154462fc3f">UpdateMarkupsNodeFromJsonValue</a> (<a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode, <a class="el" href="classvtkMRMLJsonElement.html">vtkMRMLJsonElement</a> *markupObject) override</td></tr>
 <tr class="separator:a2d239ae8df4ecab5674305154462fc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c797514068d875958938e929abef0f9" id="r_a3c797514068d875958938e929abef0f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c797514068d875958938e929abef0f9">vtkMRMLMarkupsPlaneJsonStorageNode</a> ()</td></tr>
@@ -806,6 +808,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a3feeb6e09c51986632fb64bf250fc9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7363c7f371036080ca20706b28e8b7e3" id="r_a7363c7f371036080ca20706b28e8b7e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7363c7f371036080ca20706b28e8b7e3">WriteBasicProperties</a> (<a class="el" href="classvtkMRMLJsonWriter.html">vtkMRMLJsonWriter</a> *writer, <a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode) override</td></tr>
 <tr class="separator:a7363c7f371036080ca20706b28e8b7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24bc0cb34393e324d588b02255c458a0" id="r_a24bc0cb34393e324d588b02255c458a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24bc0cb34393e324d588b02255c458a0">WriteDisplayProperties</a> (<a class="el" href="classvtkMRMLJsonWriter.html">vtkMRMLJsonWriter</a> *writer, <a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *markupsDisplayNode) override</td></tr>
+<tr class="separator:a24bc0cb34393e324d588b02255c458a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c8d174f912c9d3373ec58eb88776876" id="r_a9c8d174f912c9d3373ec58eb88776876"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c8d174f912c9d3373ec58eb88776876">~vtkMRMLMarkupsPlaneJsonStorageNode</a> () override</td></tr>
 <tr class="separator:a9c8d174f912c9d3373ec58eb88776876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classvtkMRMLMarkupsJsonStorageNode')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html">vtkMRMLMarkupsJsonStorageNode</a></td></tr>
@@ -831,8 +835,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aedf1fd452c6f30b4432cbceade1c8bcf inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66855ceed87ecc2fb2510f62f6d363df inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_a66855ceed87ecc2fb2510f62f6d363df"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#a66855ceed87ecc2fb2510f62f6d363df">ReadMeasurements</a> (<a class="el" href="classvtkMRMLJsonElement.html">vtkMRMLJsonElement</a> *measurementsArray, <a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode)</td></tr>
 <tr class="separator:a66855ceed87ecc2fb2510f62f6d363df inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa21ab1b74e48b285f38b5c9a080fc4c9 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_aa21ab1b74e48b285f38b5c9a080fc4c9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#aa21ab1b74e48b285f38b5c9a080fc4c9">UpdateMarkupsDisplayNodeFromJsonValue</a> (<a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *displayNode, <a class="el" href="classvtkMRMLJsonElement.html">vtkMRMLJsonElement</a> *markupObject)</td></tr>
-<tr class="separator:aa21ab1b74e48b285f38b5c9a080fc4c9 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa985c4d13debbd202a01adec6775bb7f inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_aa985c4d13debbd202a01adec6775bb7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#aa985c4d13debbd202a01adec6775bb7f">vtkMRMLMarkupsJsonStorageNode</a> ()</td></tr>
 <tr class="separator:aa985c4d13debbd202a01adec6775bb7f inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb5eb10abbaf58393288c384dd1e71eb inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_acb5eb10abbaf58393288c384dd1e71eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#acb5eb10abbaf58393288c384dd1e71eb">vtkMRMLMarkupsJsonStorageNode</a> (const <a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html">vtkMRMLMarkupsJsonStorageNode</a> &amp;)</td></tr>
@@ -842,8 +844,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4e1464a5b2e2c4555e4f45c35a386dda inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_a4e1464a5b2e2c4555e4f45c35a386dda"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#a4e1464a5b2e2c4555e4f45c35a386dda">WriteDataInternal</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *refNode) override</td></tr>
 <tr class="memdesc:a4e1464a5b2e2c4555e4f45c35a386dda inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data from a referenced node.  <br /></td></tr>
 <tr class="separator:a4e1464a5b2e2c4555e4f45c35a386dda inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa29d99e8b73864f1546e2a9a75148192 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_aa29d99e8b73864f1546e2a9a75148192"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#aa29d99e8b73864f1546e2a9a75148192">WriteDisplayProperties</a> (<a class="el" href="classvtkMRMLJsonWriter.html">vtkMRMLJsonWriter</a> *writer, <a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *markupsDisplayNode)</td></tr>
-<tr class="separator:aa29d99e8b73864f1546e2a9a75148192 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c4f5eff024a787efc1e365bad943e65 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_a0c4f5eff024a787efc1e365bad943e65"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#a0c4f5eff024a787efc1e365bad943e65">WriteMarkup</a> (<a class="el" href="classvtkMRMLJsonWriter.html">vtkMRMLJsonWriter</a> *writer, <a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode)</td></tr>
 <tr class="separator:a0c4f5eff024a787efc1e365bad943e65 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95746a24e9013c4e2f682217a03a3fe9 inherit pro_methods_classvtkMRMLMarkupsJsonStorageNode" id="r_a95746a24e9013c4e2f682217a03a3fe9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#a95746a24e9013c4e2f682217a03a3fe9">WriteMeasurements</a> (<a class="el" href="classvtkMRMLJsonWriter.html">vtkMRMLJsonWriter</a> *writer, <a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode)</td></tr>
@@ -1028,7 +1028,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html#l00038">38</a> of file <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html#l00039">39</a> of file <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a82cd98d52840d1218f1514cb016edc8b" name="a82cd98d52840d1218f1514cb016edc8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82cd98d52840d1218f1514cb016edc8b">&#9670;&#160;</a></span>Superclass</h2>
@@ -1042,7 +1042,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html#l00042">42</a> of file <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html#l00043">43</a> of file <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1235,7 +1235,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#a0019c097780bc64f260a2b18ab19004f">vtkMRMLMarkupsJsonStorageNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html#l00045">45</a> of file <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html#l00046">46</a> of file <a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1366,6 +1366,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="abb1ae3d933d1077a9c1ddca9d11e2e90" name="abb1ae3d933d1077a9c1ddca9d11e2e90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1ae3d933d1077a9c1ddca9d11e2e90">&#9670;&#160;</a></span>UpdateMarkupsDisplayNodeFromJsonValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLMarkupsPlaneJsonStorageNode::UpdateMarkupsDisplayNodeFromJsonValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *</td>          <td class="paramname"><span class="paramname"><em>displayNode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLJsonElement.html">vtkMRMLJsonElement</a> *</td>          <td class="paramname"><span class="paramname"><em>displayItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#aa21ab1b74e48b285f38b5c9a080fc4c9">vtkMRMLMarkupsJsonStorageNode</a>.</p>
+
+</div>
+</div>
 <a id="a2d239ae8df4ecab5674305154462fc3f" name="a2d239ae8df4ecab5674305154462fc3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d239ae8df4ecab5674305154462fc3f">&#9670;&#160;</a></span>UpdateMarkupsNodeFromJsonValue()</h2>
 
@@ -1428,13 +1459,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a24bc0cb34393e324d588b02255c458a0" name="a24bc0cb34393e324d588b02255c458a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24bc0cb34393e324d588b02255c458a0">&#9670;&#160;</a></span>WriteDisplayProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLMarkupsPlaneJsonStorageNode::WriteDisplayProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLJsonWriter.html">vtkMRMLJsonWriter</a> *</td>          <td class="paramname"><span class="paramname"><em>writer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLMarkupsDisplayNode.html">vtkMRMLMarkupsDisplayNode</a> *</td>          <td class="paramname"><span class="paramname"><em>markupsDisplayNode</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classvtkMRMLMarkupsJsonStorageNode.html#aa29d99e8b73864f1546e2a9a75148192">vtkMRMLMarkupsJsonStorageNode</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Modules/Loadable/Markups/MRML/<a class="el" href="vtkMRMLMarkupsPlaneJsonStorageNode_8h_source.html">vtkMRMLMarkupsPlaneJsonStorageNode.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 22 2026 21:58:28 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 9 2026 01:34:34 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

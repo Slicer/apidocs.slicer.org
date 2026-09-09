@@ -377,6 +377,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a0811445252d6ac1712b53f4ae5368b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12d26a2338372f4507285da652fecbd" id="r_af12d26a2338372f4507285da652fecbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12d26a2338372f4507285da652fecbd">TranslateWidget</a> (double eventPos[2])</td></tr>
 <tr class="separator:af12d26a2338372f4507285da652fecbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5936811672f1ec316f2eda6d65cbf1" id="r_a8e5936811672f1ec316f2eda6d65cbf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e5936811672f1ec316f2eda6d65cbf1">UpdateInteractionAccuratePicker</a> (<a class="el" href="classvtkMRMLInteractionEventData.html">vtkMRMLInteractionEventData</a> *eventData)</td></tr>
+<tr class="separator:a8e5936811672f1ec316f2eda6d65cbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0262fa7511ce638a6abf74b2cdfc2b4f" id="r_a0262fa7511ce638a6abf74b2cdfc2b4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0262fa7511ce638a6abf74b2cdfc2b4f">vtkSlicerMarkupsWidget</a> ()</td></tr>
 <tr class="separator:a0262fa7511ce638a6abf74b2cdfc2b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cc8eaf2b8196a84c7ae3d1649651283" id="r_a7cc8eaf2b8196a84c7ae3d1649651283"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc8eaf2b8196a84c7ae3d1649651283">~vtkSlicerMarkupsWidget</a> () override</td></tr>
@@ -1609,6 +1611,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8e5936811672f1ec316f2eda6d65cbf1" name="a8e5936811672f1ec316f2eda6d65cbf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5936811672f1ec316f2eda6d65cbf1">&#9670;&#160;</a></span>UpdateInteractionAccuratePicker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkSlicerMarkupsWidget::UpdateInteractionAccuratePicker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLInteractionEventData.html">vtkMRMLInteractionEventData</a> *</td>          <td class="paramname"><span class="paramname"><em>eventData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Give the 3D representation the view's shared accurate picker (from the interaction event data) for the duration of this event, so all widgets in the view reuse one picker and one set of cell locators. Must be called at the start of every <a class="el" href="#ab61d145ed6dee518a89a49f26942176c" title="Process interaction event.">ProcessInteractionEvent()</a> override that can lead to a pick (AccuratePick / ConvertDisplayPositionToWorld). </p>
+
+</div>
+</div>
 <a id="a1397f6722fda5b2a357a4af48f28352f" name="a1397f6722fda5b2a357a4af48f28352f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1397f6722fda5b2a357a4af48f28352f">&#9670;&#160;</a></span>UpdatePreviewPoint()</h2>
 
@@ -1677,7 +1705,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html#l00172">172</a> of file <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html">vtkSlicerMarkupsWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html#l00179">179</a> of file <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html">vtkSlicerMarkupsWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1702,7 +1730,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Index of the control point that is currently being previewed (follows the mouse pointer). If &lt;0 it means that there is currently no point being previewed. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html#l00153">153</a> of file <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html">vtkSlicerMarkupsWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html#l00160">160</a> of file <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html">vtkSlicerMarkupsWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1726,7 +1754,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html#l00173">173</a> of file <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html">vtkSlicerMarkupsWidget.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html#l00180">180</a> of file <a class="el" href="vtkSlicerMarkupsWidget_8h_source.html">vtkSlicerMarkupsWidget.h</a>.</p>
 
 </div>
 </div>
@@ -1736,7 +1764,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 22 2026 21:58:30 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 9 2026 01:34:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
