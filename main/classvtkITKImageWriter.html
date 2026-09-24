@@ -184,6 +184,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aeabc4e21fc3047a6892aa67776526c0f" id="r_aeabc4e21fc3047a6892aa67776526c0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeabc4e21fc3047a6892aa67776526c0f">ConvertSpatialVectorVoxelsBetweenRasLps</a> (vtkImageData *imageData)</td></tr>
 <tr class="memdesc:aeabc4e21fc3047a6892aa67776526c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert voxel vector type between RAS and LPS measurement frame.  <br /></td></tr>
 <tr class="separator:aeabc4e21fc3047a6892aa67776526c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d8c1e39d93e996911fb84ff9354ca19" id="r_a0d8c1e39d93e996911fb84ff9354ca19"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8c1e39d93e996911fb84ff9354ca19">IsNiftiFile</a> (const char *fileName, const char *imageIOClassName)</td></tr>
+<tr class="separator:a0d8c1e39d93e996911fb84ff9354ca19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88ef13afd56b4da4d313f14d1a61687d" id="r_a88ef13afd56b4da4d313f14d1a61687d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ef13afd56b4da4d313f14d1a61687d">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:a88ef13afd56b4da4d313f14d1a61687d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ae393316eb1b44433e9e6586a6d573" id="r_ae5ae393316eb1b44433e9e6586a6d573"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkITKImageWriter.html">vtkITKImageWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5ae393316eb1b44433e9e6586a6d573">New</a> ()</td></tr>
@@ -497,6 +499,36 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d8c1e39d93e996911fb84ff9354ca19" name="a0d8c1e39d93e996911fb84ff9354ca19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d8c1e39d93e996911fb84ff9354ca19">&#9670;&#160;</a></span>IsNiftiFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool vtkITKImageWriter::IsNiftiFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>imageIOClassName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns true if the image is written in NIfTI file format. If imageIOClassName is specified then it determines the file format, otherwise the file name extension. </p>
 
 </div>
 </div>
@@ -878,7 +910,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00098">98</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00102">102</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
 
 </div>
 </div>
@@ -902,7 +934,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00102">102</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00106">106</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
 
 </div>
 </div>
@@ -926,7 +958,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00100">100</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00104">104</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
 
 </div>
 </div>
@@ -950,7 +982,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00099">99</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00103">103</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
 
 </div>
 </div>
@@ -974,7 +1006,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00101">101</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00105">105</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
 
 </div>
 </div>
@@ -998,7 +1030,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00103">103</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageWriter_8h_source.html#l00107">107</a> of file <a class="el" href="vtkITKImageWriter_8h_source.html">vtkITKImageWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1040,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2026 20:31:10 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Sep 24 2026 03:37:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

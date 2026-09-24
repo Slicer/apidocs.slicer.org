@@ -922,7 +922,7 @@ var searchData=
   ['setforcecreatestoragenode_919',['SetForceCreateStorageNode',['../classvtkMRMLTextNode.html#a40236bd8d4832667d75ae7dbd7801e22',1,'vtkMRMLTextNode']]],
   ['setforcerangeaxis_920',['SetForceRangeAxis',['../classvtkTeemNRRDWriter.html#a4d248364a8bf004c09728d9c3da70e67',1,'vtkTeemNRRDWriter']]],
   ['setforceredownload_921',['setForceRedownload',['../classqSlicerSettingsCachePanel.html#a26476e002ec24c6950902d22a74bf0d9',1,'qSlicerSettingsCachePanel']]],
-  ['setforcerighthandedijkcoordinatesystem_922',['SetForceRightHandedIJKCoordinateSystem',['../classvtkMRMLVolumeArchetypeStorageNode.html#af1a552f918d65ef8a548176586e31648',1,'vtkMRMLVolumeArchetypeStorageNode']]],
+  ['setforcerighthandedijkcoordinatesystem_922',['SetForceRightHandedIJKCoordinateSystem',['../classvtkMRMLVolumeArchetypeStorageNode.html#af1a552f918d65ef8a548176586e31648',1,'vtkMRMLVolumeArchetypeStorageNode::SetForceRightHandedIJKCoordinateSystem()'],['../classvtkMRMLVolumeSequenceStorageNode.html#a1fdd9e9648e2956b934b1f49e79d206c',1,'vtkMRMLVolumeSequenceStorageNode::SetForceRightHandedIJKCoordinateSystem()']]],
   ['setforegroundhidden_923',['setForegroundHidden',['../classqMRMLSliceControllerWidget.html#a9756664b46755238ef97fe6f3c8c45ba',1,'qMRMLSliceControllerWidget']]],
   ['setforegroundinterpolation_924',['setForegroundInterpolation',['../classqMRMLSliceControllerWidget.html#a847ac0ead7da1f906632c74af32fe51b',1,'qMRMLSliceControllerWidget']]],
   ['setforegroundlayer_925',['SetForegroundLayer',['../classvtkMRMLSliceLogic.html#a246ab0bb0cf684f9078d02329cc84cdc',1,'vtkMRMLSliceLogic']]],

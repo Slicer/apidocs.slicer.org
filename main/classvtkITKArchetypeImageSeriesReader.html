@@ -423,6 +423,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a141584190ee475e9d313ad11a22b298b" id="r_a141584190ee475e9d313ad11a22b298b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141584190ee475e9d313ad11a22b298b">IsListPixelComponentTypeInMetaDataDictionary</a> (const itk::MetaDataDictionary &amp;dictionary)</td></tr>
 <tr class="separator:a141584190ee475e9d313ad11a22b298b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609f5cd3381f63e916b0c87e41b5abf2" id="r_a609f5cd3381f63e916b0c87e41b5abf2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a609f5cd3381f63e916b0c87e41b5abf2">IsNifti2File</a> (const char *fileName)</td></tr>
+<tr class="separator:a609f5cd3381f63e916b0c87e41b5abf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab19fab22afafc40e3d32903db055be91" id="r_ab19fab22afafc40e3d32903db055be91"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab19fab22afafc40e3d32903db055be91">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:ab19fab22afafc40e3d32903db055be91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a552694be4b102c45e929bb6c87bfdf1b" id="r_a552694be4b102c45e929bb6c87bfdf1b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkITKArchetypeImageSeriesReader.html">vtkITKArchetypeImageSeriesReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a552694be4b102c45e929bb6c87bfdf1b">New</a> ()</td></tr>
@@ -446,6 +448,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ad856774a425988295ab5000e1422fedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00e0cf6fde5cb29bdb7620a72f2bfd84" id="r_a00e0cf6fde5cb29bdb7620a72f2bfd84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e0cf6fde5cb29bdb7620a72f2bfd84">GetScalarRangeMetaDataKeys</a> (itk::ImageIOBase::Pointer imageIO, std::string range_keys[2])</td></tr>
 <tr class="separator:a00e0cf6fde5cb29bdb7620a72f2bfd84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cbea9546f123f47036702f5f0bf2887" id="r_a7cbea9546f123f47036702f5f0bf2887"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cbea9546f123f47036702f5f0bf2887">ReportFileReadError</a> (const std::string &amp;fileName, const std::string &amp;errorDetails)</td></tr>
+<tr class="separator:a7cbea9546f123f47036702f5f0bf2887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f8c8e18a0f003d95ab9431de1587c16" id="r_a1f8c8e18a0f003d95ab9431de1587c16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8c8e18a0f003d95ab9431de1587c16">RequestInformation</a> (vtkInformation *, vtkInformationVector **, vtkInformationVector *) override</td></tr>
 <tr class="separator:a1f8c8e18a0f003d95ab9431de1587c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ae69a071a03831df5044e474245a5ec" id="r_a3ae69a071a03831df5044e474245a5ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae69a071a03831df5044e474245a5ec">SetMetaDataScalarRangeToPointDataInfo</a> (vtkImageData *data)</td></tr>
@@ -2872,6 +2876,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a609f5cd3381f63e916b0c87e41b5abf2" name="a609f5cd3381f63e916b0c87e41b5abf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609f5cd3381f63e916b0c87e41b5abf2">&#9670;&#160;</a></span>IsNifti2File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool vtkITKArchetypeImageSeriesReader::IsNifti2File </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns true if the file is a NIfTI-2 file (compressed or uncompressed). ITK can only read NIfTI-1 files, therefore this can be used for explaining why reading of a file failed. </p>
+
+</div>
+</div>
 <a id="ab19fab22afafc40e3d32903db055be91" name="ab19fab22afafc40e3d32903db055be91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab19fab22afafc40e3d32903db055be91">&#9670;&#160;</a></span>IsTypeOf()</h2>
 
@@ -2994,6 +3024,36 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cbea9546f123f47036702f5f0bf2887" name="a7cbea9546f123f47036702f5f0bf2887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cbea9546f123f47036702f5f0bf2887">&#9670;&#160;</a></span>ReportFileReadError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkITKArchetypeImageSeriesReader::ReportFileReadError </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>errorDetails</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Log error message about failure to read the specified file. If the reason of the failure is known (for example, the file format is not supported) then the message explains that, otherwise errorDetails is included in the message. </p>
 
 </div>
 </div>
@@ -4299,7 +4359,7 @@ Protected Attributes</h2></td></tr>
 <p>The following variables provide support for reading a directory with multiple series/groups. The current scheme is to check the following and see if multiple values exist:</p>
 <p>SeriesInstanceUID 0020,000E ContentTime 0008,0033 TriggerTime 0018,1060 EchoNumbers 0018,0086 DiffusionGradientOrientation 0018,9089 SliceLocation 0020,1041 ImageOrientationPatient 0020,0037 ImagePositionPatient 0020,0032 </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00830">830</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00839">839</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4323,7 +4383,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00831">831</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00840">840</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4347,7 +4407,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00767">767</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00776">776</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4371,7 +4431,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00833">833</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00842">842</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4395,7 +4455,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00836">836</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00845">845</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4419,7 +4479,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00770">770</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00779">779</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4443,7 +4503,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00781">781</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00790">790</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4467,7 +4527,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00780">780</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00789">789</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4491,7 +4551,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00811">811</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00820">820</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4515,7 +4575,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00796">796</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00805">805</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4539,7 +4599,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00814">814</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00823">823</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4563,7 +4623,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00839">839</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00848">848</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4587,7 +4647,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00838">838</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00847">847</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4611,7 +4671,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00809">809</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00818">818</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4635,7 +4695,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00787">787</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00796">796</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4659,7 +4719,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00810">810</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00819">819</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4683,7 +4743,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00785">785</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00794">794</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4707,7 +4767,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00786">786</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00795">795</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4731,7 +4791,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00798">798</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00807">807</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4755,7 +4815,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00841">841</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00850">850</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4779,7 +4839,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00842">842</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00851">851</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4803,7 +4863,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00807">807</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00816">816</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4827,7 +4887,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00846">846</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00855">855</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4851,7 +4911,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00849">849</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00858">858</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4875,7 +4935,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00848">848</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00857">857</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4899,7 +4959,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00851">851</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00860">860</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4923,7 +4983,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00852">852</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00861">861</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4949,7 +5009,7 @@ Protected Attributes</h2></td></tr>
 
 <p>index of each dicom file into the above arrays </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00845">845</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00854">854</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4973,7 +5033,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00850">850</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00859">859</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -4997,7 +5057,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00847">847</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00856">856</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5021,7 +5081,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00832">832</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00841">841</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5045,7 +5105,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00790">790</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00799">799</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5069,7 +5129,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00776">776</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00785">785</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5093,7 +5153,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00775">775</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00784">784</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5117,7 +5177,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00773">773</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00782">782</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5141,7 +5201,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00772">772</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00781">781</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5165,7 +5225,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00789">789</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00798">798</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5189,7 +5249,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00782">782</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00791">791</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5213,7 +5273,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00783">783</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00792">792</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5237,7 +5297,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00800">800</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00809">809</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5261,7 +5321,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00803">803</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00812">812</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5285,7 +5345,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00802">802</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00811">811</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5309,7 +5369,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00805">805</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00814">814</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5333,7 +5393,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00804">804</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00813">813</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5357,7 +5417,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00801">801</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00810">810</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5381,7 +5441,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00799">799</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00808">808</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5405,7 +5465,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00835">835</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00844">844</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5429,7 +5489,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00768">768</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00777">777</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5453,7 +5513,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00840">840</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00849">849</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5509,7 +5569,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00837">837</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00846">846</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5533,7 +5593,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00792">792</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00801">801</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5557,7 +5617,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00794">794</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00803">803</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5581,7 +5641,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00793">793</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00802">802</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5605,7 +5665,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00769">769</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00778">778</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5629,7 +5689,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00854">854</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html#l00863">863</a> of file <a class="el" href="vtkITKArchetypeImageSeriesReader_8h_source.html">vtkITKArchetypeImageSeriesReader.h</a>.</p>
 
 </div>
 </div>
@@ -5639,7 +5699,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2026 20:31:10 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Sep 24 2026 03:37:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

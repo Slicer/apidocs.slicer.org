@@ -145,6 +145,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9ce0388cbcb4aaf03992e53d21d788fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad42aaeb1c3988424e393143c2f7a350b" id="r_ad42aaeb1c3988424e393143c2f7a350b"><td class="memItemLeft" align="right" valign="top">virtual char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad42aaeb1c3988424e393143c2f7a350b">GetIntentCode</a> ()</td></tr>
 <tr class="separator:ad42aaeb1c3988424e393143c2f7a350b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2db63fbfd747a2ad8aca0c96efbba6" id="r_acc2db63fbfd747a2ad8aca0c96efbba6"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2db63fbfd747a2ad8aca0c96efbba6">GetSequenceAxisOrigin</a> ()</td></tr>
+<tr class="separator:acc2db63fbfd747a2ad8aca0c96efbba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02cc4e8ac6a45a5cb639ab73bd6c9ed" id="r_aa02cc4e8ac6a45a5cb639ab73bd6c9ed"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa02cc4e8ac6a45a5cb639ab73bd6c9ed">GetSequenceAxisSpacing</a> ()</td></tr>
+<tr class="separator:aa02cc4e8ac6a45a5cb639ab73bd6c9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a018af8729061624b0cf895943e1ea599" id="r_a018af8729061624b0cf895943e1ea599"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018af8729061624b0cf895943e1ea599">GetUseCompression</a> ()</td></tr>
 <tr class="memdesc:a018af8729061624b0cf895943e1ea599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use compression if possible.  <br /></td></tr>
 <tr class="separator:a018af8729061624b0cf895943e1ea599"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +202,11 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae3e90baa564b67ba385c5e852a872de5" id="r_ae3e90baa564b67ba385c5e852a872de5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e90baa564b67ba385c5e852a872de5">FillInputPortInformation</a> (int port, vtkInformation *info) override</td></tr>
 <tr class="separator:ae3e90baa564b67ba385c5e852a872de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82acd9d01623d9972504ba011786fbc7" id="r_a82acd9d01623d9972504ba011786fbc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82acd9d01623d9972504ba011786fbc7">IsNiftiFile</a> ()</td></tr>
+<tr class="memdesc:a82acd9d01623d9972504ba011786fbc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the image is written in NIfTI file format.  <br /></td></tr>
+<tr class="separator:a82acd9d01623d9972504ba011786fbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca022f94cb83fa515f024f8214db7f2" id="r_a9ca022f94cb83fa515f024f8214db7f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca022f94cb83fa515f024f8214db7f2">UpdateNiftiSequenceAxis</a> (int numberOfFrames)</td></tr>
+<tr class="separator:a9ca022f94cb83fa515f024f8214db7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8acf78eb6831d20ab9f631f2445e5831" id="r_a8acf78eb6831d20ab9f631f2445e5831"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8acf78eb6831d20ab9f631f2445e5831">vtkITKImageSequenceWriter</a> ()</td></tr>
 <tr class="separator:a8acf78eb6831d20ab9f631f2445e5831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf361d5f32a910e7d8c9940a4741cbed" id="r_acf361d5f32a910e7d8c9940a4741cbed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf361d5f32a910e7d8c9940a4741cbed">~vtkITKImageSequenceWriter</a> () override</td></tr>
@@ -219,6 +228,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad40d2f8654a3c97e07fb29581cddc19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cae11faf44f226014ec4f553408967b" id="r_a5cae11faf44f226014ec4f553408967b"><td class="memItemLeft" align="right" valign="top">vtkMatrix4x4 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cae11faf44f226014ec4f553408967b">RasToIJKMatrix</a> { nullptr }</td></tr>
 <tr class="separator:a5cae11faf44f226014ec4f553408967b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34aa77dbcaf7b4060d2dab18cb3bcc1a" id="r_a34aa77dbcaf7b4060d2dab18cb3bcc1a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34aa77dbcaf7b4060d2dab18cb3bcc1a">SequenceAxisOrigin</a> { 0.0 }</td></tr>
+<tr class="separator:a34aa77dbcaf7b4060d2dab18cb3bcc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddc27adb7800e7a44c0a2828c308e31" id="r_adddc27adb7800e7a44c0a2828c308e31"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adddc27adb7800e7a44c0a2828c308e31">SequenceAxisSpacing</a> { 1.0 }</td></tr>
+<tr class="separator:adddc27adb7800e7a44c0a2828c308e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b9b7fc3b6954d7eb312c5a1fae6502d" id="r_a8b9b7fc3b6954d7eb312c5a1fae6502d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b9b7fc3b6954d7eb312c5a1fae6502d">UseCompression</a> { 0 }</td></tr>
 <tr class="separator:a8b9b7fc3b6954d7eb312c5a1fae6502d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54c526139dbf8f23deaa7133d78d89ef" id="r_a54c526139dbf8f23deaa7133d78d89ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54c526139dbf8f23deaa7133d78d89ef">VoxelVectorType</a> { <a class="el" href="classvtkITKImageWriter.html#a9af93486aafc39d03bf4d908b1339ef6a95dc0a1de08dc5d0580e7758bbf4413e">vtkITKImageWriter::VoxelVectorTypeUndefined</a> }</td></tr>
@@ -351,7 +364,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the attributes map. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00076">76</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00086">86</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -380,7 +393,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the axis labels map. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00081">81</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00091">91</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -409,7 +422,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the axis units map. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00086">86</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00096">96</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -517,6 +530,58 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acc2db63fbfd747a2ad8aca0c96efbba6" name="acc2db63fbfd747a2ad8aca0c96efbba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc2db63fbfd747a2ad8aca0c96efbba6">&#9670;&#160;</a></span>GetSequenceAxisOrigin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double vtkITKImageSequenceWriter::GetSequenceAxisOrigin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Origin of the sequence axis (4th image axis) that was used in the most recent <a class="el" href="#a657dce78184c5ca618fe352a498048af" title="The main interface which triggers the writer to start.">Write()</a>. For NIfTI file format it is computed from the index values and unit of axis 3 (stored in toffset), for other file formats it is 0.0. </p>
+
+</div>
+</div>
+<a id="aa02cc4e8ac6a45a5cb639ab73bd6c9ed" name="aa02cc4e8ac6a45a5cb639ab73bd6c9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02cc4e8ac6a45a5cb639ab73bd6c9ed">&#9670;&#160;</a></span>GetSequenceAxisSpacing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double vtkITKImageSequenceWriter::GetSequenceAxisSpacing </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Spacing along the sequence axis (4th image axis) that was used in the most recent <a class="el" href="#a657dce78184c5ca618fe352a498048af" title="The main interface which triggers the writer to start.">Write()</a>. For NIfTI file format it is computed from the index values and unit of axis 3 (stored in pixdim[4]), for other file formats it is 1.0. </p>
+
+</div>
+</div>
 <a id="a018af8729061624b0cf895943e1ea599" name="a018af8729061624b0cf895943e1ea599"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a018af8729061624b0cf895943e1ea599">&#9670;&#160;</a></span>GetUseCompression()</h2>
 
@@ -591,6 +656,33 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82acd9d01623d9972504ba011786fbc7" name="a82acd9d01623d9972504ba011786fbc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82acd9d01623d9972504ba011786fbc7">&#9670;&#160;</a></span>IsNiftiFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkITKImageSequenceWriter::IsNiftiFile </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the image is written in NIfTI file format. </p>
 
 </div>
 </div>
@@ -924,6 +1016,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ca022f94cb83fa515f024f8214db7f2" name="a9ca022f94cb83fa515f024f8214db7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca022f94cb83fa515f024f8214db7f2">&#9670;&#160;</a></span>UpdateNiftiSequenceAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkITKImageSequenceWriter::UpdateNiftiSequenceAxis </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numberOfFrames</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Compute sequence axis spacing and origin from the index values and unit of axis 3 and report sequence properties that cannot be stored in NIfTI file format. </p>
+
+</div>
+</div>
 <a id="a86f81a4c228d8ba703a14e50a03f2943" name="a86f81a4c228d8ba703a14e50a03f2943"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86f81a4c228d8ba703a14e50a03f2943">&#9670;&#160;</a></span>UseCompressionOff()</h2>
 
@@ -1014,7 +1132,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00105">105</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00124">124</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1156,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00106">106</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00125">125</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +1180,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00107">107</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00126">126</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1086,7 +1204,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00098">98</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00115">115</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1228,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00101">101</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00118">118</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1134,7 +1252,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00103">103</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00120">120</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1158,7 +1276,55 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00099">99</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00116">116</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+
+</div>
+</div>
+<a id="a34aa77dbcaf7b4060d2dab18cb3bcc1a" name="a34aa77dbcaf7b4060d2dab18cb3bcc1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34aa77dbcaf7b4060d2dab18cb3bcc1a">&#9670;&#160;</a></span>SequenceAxisOrigin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double vtkITKImageSequenceWriter::SequenceAxisOrigin { 0.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00122">122</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+
+</div>
+</div>
+<a id="adddc27adb7800e7a44c0a2828c308e31" name="adddc27adb7800e7a44c0a2828c308e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddc27adb7800e7a44c0a2828c308e31">&#9670;&#160;</a></span>SequenceAxisSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double vtkITKImageSequenceWriter::SequenceAxisSpacing { 1.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00121">121</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1182,7 +1348,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00100">100</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00117">117</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1372,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00102">102</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceWriter_8h_source.html#l00119">119</a> of file <a class="el" href="vtkITKImageSequenceWriter_8h_source.html">vtkITKImageSequenceWriter.h</a>.</p>
 
 </div>
 </div>
@@ -1216,7 +1382,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2026 20:31:10 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Sep 24 2026 03:37:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
