@@ -51,9 +51,11 @@ var searchData=
   ['extensions_48',['extensions',['../namespaceconf.html#ae475e080536acb271a0a0efe56c3ba42',1,'conf']]],
   ['extentgrowthratio_49',['extentGrowthRatio',['../classSegmentEditorEffects_1_1AbstractScriptedSegmentEditorAutoCompleteEffect_1_1AbstractScriptedSegmentEditorAutoCompleteEffect.html#a43f85c2f69cdbe2c72d53fe2d75bdcc1',1,'SegmentEditorEffects.AbstractScriptedSegmentEditorAutoCompleteEffect.AbstractScriptedSegmentEditorAutoCompleteEffect.extentGrowthRatio'],['../classSegmentEditorEffects_1_1SegmentEditorGrowFromSeedsEffect_1_1SegmentEditorGrowFromSeedsEffect.html',1,'SegmentEditorEffects.SegmentEditorGrowFromSeedsEffect.SegmentEditorGrowFromSeedsEffect.extentGrowthRatio']]],
   ['extractalpha_50',['ExtractAlpha',['../classvtkMRMLScalarVolumeDisplayNode.html#ac494990c9fd462583f6043e781237231',1,'vtkMRMLScalarVolumeDisplayNode']]],
-  ['extractcomponent_51',['ExtractComponent',['../classvtkMRMLDiffusionWeightedVolumeDisplayNode.html#a8e7647b22ce04d8b7f28dae8e31757bd',1,'vtkMRMLDiffusionWeightedVolumeDisplayNode']]],
-  ['extracteigenvalues_52',['ExtractEigenvalues',['../classvtkDiffusionTensorMathematics.html#ab1e7022c251bdd96048fc16dec40cc59',1,'vtkDiffusionTensorMathematics']]],
-  ['extractintensity_53',['ExtractIntensity',['../classvtkMRMLVectorVolumeDisplayNode.html#ae7017a200893e00a64c1c4406a003877',1,'vtkMRMLVectorVolumeDisplayNode']]],
-  ['extractmodeltexture_54',['ExtractModelTexture',['../classvtkMRMLSliceLogic.html#ac9042fe59cda956e0f568c85d1c7577a',1,'vtkMRMLSliceLogic']]],
-  ['extractrgb_55',['ExtractRGB',['../classvtkMRMLScalarVolumeDisplayNode.html#a1ebe0685927c122ae0238e17b3b195c1',1,'vtkMRMLScalarVolumeDisplayNode']]]
+  ['extractbutton_51',['extractButton',['../classqSlicerMultiVolumeExplorerModuleWidget_1_1qSlicerMultiVolumeExplorerModuleWidget.html#adfcc6d82f3f8af0b722010613b160590',1,'qSlicerMultiVolumeExplorerModuleWidget::qSlicerMultiVolumeExplorerModuleWidget']]],
+  ['extractcomponent_52',['ExtractComponent',['../classvtkMRMLDiffusionWeightedVolumeDisplayNode.html#a8e7647b22ce04d8b7f28dae8e31757bd',1,'vtkMRMLDiffusionWeightedVolumeDisplayNode::ExtractComponent'],['../classvtkMRMLMultiVolumeDisplayNode.html#a24f8560688ada53168d7976565166e5c',1,'vtkMRMLMultiVolumeDisplayNode::ExtractComponent']]],
+  ['extracteigenvalues_53',['ExtractEigenvalues',['../classvtkDiffusionTensorMathematics.html#ab1e7022c251bdd96048fc16dec40cc59',1,'vtkDiffusionTensorMathematics']]],
+  ['extractframe_54',['extractFrame',['../classqSlicerMultiVolumeExplorerModuleWidget_1_1qSlicerMultiVolumeExplorerModuleWidget.html#aff0e1df2899cf169c47d0f056458a5c1',1,'qSlicerMultiVolumeExplorerModuleWidget::qSlicerMultiVolumeExplorerModuleWidget']]],
+  ['extractintensity_55',['ExtractIntensity',['../classvtkMRMLVectorVolumeDisplayNode.html#ae7017a200893e00a64c1c4406a003877',1,'vtkMRMLVectorVolumeDisplayNode']]],
+  ['extractmodeltexture_56',['ExtractModelTexture',['../classvtkMRMLSliceLogic.html#ac9042fe59cda956e0f568c85d1c7577a',1,'vtkMRMLSliceLogic']]],
+  ['extractrgb_57',['ExtractRGB',['../classvtkMRMLScalarVolumeDisplayNode.html#a1ebe0685927c122ae0238e17b3b195c1',1,'vtkMRMLScalarVolumeDisplayNode']]]
 ];

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,151,31"/>
-<area shape="rect" id="Node000001" href="$classvtkImplicitInvertableBoolean.html" title="implicit function consisting of boolean combinations of implicit functions, with invert option" alt="" coords="199,5,409,31"/>
-<area shape="poly" id="edge708_Node000000_Node000001" title=" " alt="" coords="165,15,198,15,198,21,165,21"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,175,31"/>
+<area shape="rect" id="Node000001" href="$classvtkImageMathematicsAddon.html" title="Subclass of vtkImageMathematics that adds the option to multiply an image by another image which has ..." alt="" coords="223,5,433,31"/>
+<area shape="poly" id="edge707_Node000000_Node000001" title=" " alt="" coords="188,15,222,15,222,21,188,21"/>
 </map>

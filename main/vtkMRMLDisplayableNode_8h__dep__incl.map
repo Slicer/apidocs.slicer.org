@@ -24,8 +24,8 @@
 <area shape="poly" id="edge55_Node000001_Node000062" title=" " alt="" coords="5038,30,6804,104,6804,109,5038,36"/>
 <area shape="rect" id="Node000068" href="$vtkMRMLVolumeNode_8h.html" title=" " alt="" coords="7810,93,8049,133"/>
 <area shape="poly" id="edge61_Node000001_Node000068" title=" " alt="" coords="5039,28,7810,106,7810,111,5039,33"/>
-<area shape="rect" id="Node000079" href="$vtkMRMLAnnotationDisplayNode_8h.html" title=" " alt="" coords="8432,93,8731,133"/>
-<area shape="poly" id="edge66_Node000001_Node000079" title=" " alt="" coords="5038,26,6282,49,7160,68,8060,91,8432,103,8432,109,8060,96,7160,73,6282,54,5038,32"/>
+<area shape="rect" id="Node000080" href="$vtkMRMLAnnotationDisplayNode_8h.html" title=" " alt="" coords="8432,93,8731,133"/>
+<area shape="poly" id="edge66_Node000001_Node000080" title=" " alt="" coords="5038,26,6282,49,7160,68,8060,91,8432,103,8432,109,8060,96,7160,73,6282,54,5038,32"/>
 <area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="2756,336,2845,392,2842,396,2753,341"/>
 <area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="3530,131,3344,153,3139,184,3016,211,2894,239,2736,263,2578,287,2538,294,2537,289,2577,281,2735,258,2893,233,3015,206,3138,179,3343,148,3529,126"/>
 <area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="3530,125,3387,145,3311,162,3238,184,3211,197,3192,211,3173,225,3145,239,2824,294,2823,289,3143,233,3170,220,3189,206,3209,192,3236,179,3310,157,3386,140,3529,120"/>
@@ -109,13 +109,13 @@
 <area shape="poly" id="edge62_Node000068_Node000069" title=" " alt="" coords="7907,146,7870,190,7866,187,7903,142"/>
 <area shape="rect" id="Node000071" href="$vtkMRMLSliceLayerLogic_8h.html" title=" " alt="" coords="7816,291,8043,331"/>
 <area shape="poly" id="edge64_Node000068_Node000071" title=" " alt="" coords="7960,143,7972,160,7981,181,7987,209,7981,237,7967,267,7949,292,7945,289,7962,265,7976,235,7981,209,7976,182,7967,163,7955,146"/>
-<area shape="rect" id="Node000078" href="$vtkSlicerVolumesLogic_8h.html" title=" " alt="" coords="8042,189,8265,229"/>
-<area shape="poly" id="edge65_Node000068_Node000078" title=" " alt="" coords="7988,136,8109,186,8107,191,7986,141"/>
+<area shape="rect" id="Node000079" href="$vtkSlicerVolumesLogic_8h.html" title=" " alt="" coords="8042,189,8265,229"/>
+<area shape="poly" id="edge65_Node000068_Node000079" title=" " alt="" coords="7988,136,8109,186,8107,191,7986,141"/>
 <area shape="poly" id="edge63_Node000069_Node000071" title=" " alt="" coords="7877,238,7917,290,7913,293,7873,241"/>
-<area shape="rect" id="Node000080" href="$vtkMRMLAnnotationLineDisplayNode_8h.html" title=" " alt="" coords="8289,181,8567,236"/>
-<area shape="poly" id="edge67_Node000079_Node000080" title=" " alt="" coords="8540,143,8473,184,8470,179,8537,138"/>
-<area shape="rect" id="Node000081" href="$vtkMRMLAnnotationPointDisplayNode_8h.html" title=" " alt="" coords="8592,181,8877,236"/>
-<area shape="poly" id="edge68_Node000079_Node000081" title=" " alt="" coords="8626,138,8693,179,8690,184,8623,143"/>
-<area shape="rect" id="Node000082" href="$vtkMRMLAnnotationTextDisplayNode_8h.html" title=" " alt="" coords="8902,181,9181,236"/>
-<area shape="poly" id="edge69_Node000079_Node000082" title=" " alt="" coords="8688,133,8913,179,8912,184,8687,139"/>
+<area shape="rect" id="Node000081" href="$vtkMRMLAnnotationLineDisplayNode_8h.html" title=" " alt="" coords="8289,181,8567,236"/>
+<area shape="poly" id="edge67_Node000080_Node000081" title=" " alt="" coords="8540,143,8473,184,8470,179,8537,138"/>
+<area shape="rect" id="Node000082" href="$vtkMRMLAnnotationPointDisplayNode_8h.html" title=" " alt="" coords="8592,181,8877,236"/>
+<area shape="poly" id="edge68_Node000080_Node000082" title=" " alt="" coords="8626,138,8693,179,8690,184,8623,143"/>
+<area shape="rect" id="Node000083" href="$vtkMRMLAnnotationTextDisplayNode_8h.html" title=" " alt="" coords="8902,181,9181,236"/>
+<area shape="poly" id="edge69_Node000080_Node000083" title=" " alt="" coords="8688,133,8913,179,8912,184,8687,139"/>
 </map>

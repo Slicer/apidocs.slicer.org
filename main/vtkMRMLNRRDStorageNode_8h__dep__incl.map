@@ -1,5 +1,7 @@
 <map id="Libs/MRML/Core/vtkMRMLNRRDStorageNode.h" name="Libs/MRML/Core/vtkMRMLNRRDStorageNode.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,284,45"/>
-<area shape="rect" id="Node000002" href="$vtkMRMLLinearTransformSequenceStorageNode_8h.html" title=" " alt="" coords="21,93,268,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,59,147,93,142,93,142,59"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="129,5,408,45"/>
+<area shape="rect" id="Node000002" href="$vtkMRMLLinearTransformSequenceStorageNode_8h.html" title=" " alt="" coords="5,101,252,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,55,158,103,155,98,227,51"/>
+<area shape="rect" id="Node000003" href="$vtkMRMLMultiVolumeStorageNode_8h.html" title=" " alt="" coords="277,93,543,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,51,372,91,369,95,307,55"/>
 </map>

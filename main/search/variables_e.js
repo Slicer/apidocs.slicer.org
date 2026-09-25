@@ -32,7 +32,7 @@ var searchData=
   ['numberofcompareviewcolumns_29',['NumberOfCompareViewColumns',['../classvtkMRMLLayoutNode.html#a512e0504a0d0a6ebe8bb0afa3662d0d9',1,'vtkMRMLLayoutNode']]],
   ['numberofcompareviewrows_30',['NumberOfCompareViewRows',['../classvtkMRMLLayoutNode.html#aa408cb191e25519b0377f9735f2c61e4',1,'vtkMRMLLayoutNode']]],
   ['numberofcomponents_31',['NumberOfComponents',['../classvtkITKArchetypeImageSeriesReader.html#a630a9d477b10e84bfc77edfd754f9110',1,'vtkITKArchetypeImageSeriesReader::NumberOfComponents'],['../classvtkTeemNRRDReader.html#a255b53621ffcecfb921ff4f1c461724e',1,'vtkTeemNRRDReader::NumberOfComponents']]],
-  ['numberofframes_32',['NumberOfFrames',['../classvtkITKImageSequenceReader.html#a86fa65cc6fb7b412f51fac6b7c2b9605',1,'vtkITKImageSequenceReader']]],
+  ['numberofframes_32',['NumberOfFrames',['../classvtkITKImageSequenceReader.html#a86fa65cc6fb7b412f51fac6b7c2b9605',1,'vtkITKImageSequenceReader::NumberOfFrames'],['../classvtkMRMLMultiVolumeNode.html#a134e54a70a6efaf4699ba6379aa1b245',1,'vtkMRMLMultiVolumeNode::NumberOfFrames']]],
   ['numberofgeneratedcolors_33',['NumberOfGeneratedColors',['../classvtkMRMLSegmentationDisplayNode.html#a658b5506698a190e7f5a3da5cccff4a5',1,'vtkMRMLSegmentationDisplayNode']]],
   ['numberofindependentcomponents_34',['NumberOfIndependentComponents',['../classvtkMRMLVolumePropertyNode.html#ae0c2e1083ba5e83fcdcb761aa20e375f',1,'vtkMRMLVolumePropertyNode']]],
   ['numberofislands_35',['NumberOfIslands',['../classvtkITKIslandMath.html#a40dede3d25b0943a8c50c076a6462f93',1,'vtkITKIslandMath']]],
