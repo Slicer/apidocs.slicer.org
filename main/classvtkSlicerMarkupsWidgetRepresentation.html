@@ -215,6 +215,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af796055f17bd962c3afe89fbb4fcca69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a667c05d83ddf08c6416b2f86fba2b0e4" id="r_a667c05d83ddf08c6416b2f86fba2b0e4"><td class="memItemLeft" align="right" valign="top">virtual vtkPointPlacer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a667c05d83ddf08c6416b2f86fba2b0e4">GetPointPlacer</a> ()</td></tr>
 <tr class="separator:a667c05d83ddf08c6416b2f86fba2b0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e71614625076326e378f359e22de89" id="r_ac1e71614625076326e378f359e22de89"><td class="memItemLeft" align="right" valign="top">virtual vtkTextActor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1e71614625076326e378f359e22de89">GetTextActor</a> ()</td></tr>
+<tr class="memdesc:ac1e71614625076326e378f359e22de89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the properties label actor - for testing purposes.  <br /></td></tr>
+<tr class="separator:ac1e71614625076326e378f359e22de89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab057850abd326199af16467a2db284bc" id="r_ab057850abd326199af16467a2db284bc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab057850abd326199af16467a2db284bc">GetTransformationReferencePoint</a> (double referencePointWorld[3])</td></tr>
 <tr class="memdesc:ab057850abd326199af16467a2db284bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translation, rotation, scaling will happen around this position.  <br /></td></tr>
 <tr class="separator:ab057850abd326199af16467a2db284bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,14 +331,22 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4d2d2b9643d2b2c135a5e4552af785ed" id="r_a4d2d2b9643d2b2c135a5e4552af785ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d2d2b9643d2b2c135a5e4552af785ed">BuildLine</a> (vtkPolyData *linePolyData, bool displayPosition)</td></tr>
 <tr class="separator:a4d2d2b9643d2b2c135a5e4552af785ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f4da25656fa5742aa5df66b17e66e7" id="r_a68f4da25656fa5742aa5df66b17e66e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f4da25656fa5742aa5df66b17e66e7">CanInteractWithPropertiesLabel</a> (<a class="el" href="classvtkMRMLInteractionEventData.html">vtkMRMLInteractionEventData</a> *interactionEventData, int &amp;foundComponentType, int &amp;foundComponentIndex, double &amp;closestDistance2)</td></tr>
+<tr class="memdesc:a68f4da25656fa5742aa5df66b17e66e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test the visible properties label in display coordinates.  <br /></td></tr>
+<tr class="separator:a68f4da25656fa5742aa5df66b17e66e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0c2ff5022994a9c26a5abea88d5467" id="r_aaf0c2ff5022994a9c26a5abea88d5467"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0c2ff5022994a9c26a5abea88d5467">GetAllControlPointsSelected</a> ()</td></tr>
 <tr class="memdesc:aaf0c2ff5022994a9c26a5abea88d5467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method.  <br /></td></tr>
 <tr class="separator:aaf0c2ff5022994a9c26a5abea88d5467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7882295f17cfe1522dacd97f7f05a1b" id="r_af7882295f17cfe1522dacd97f7f05a1b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7882295f17cfe1522dacd97f7f05a1b">GetAllControlPointsVisible</a> ()</td></tr>
 <tr class="memdesc:af7882295f17cfe1522dacd97f7f05a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method.  <br /></td></tr>
 <tr class="separator:af7882295f17cfe1522dacd97f7f05a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6047d40be248da37dae372b913c93c8" id="r_aa6047d40be248da37dae372b913c93c8"><td class="memItemLeft" align="right" valign="top">vtkTextProperty *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6047d40be248da37dae372b913c93c8">GetPropertiesLabelTextProperty</a> (int controlPointType)</td></tr>
+<tr class="memdesc:aa6047d40be248da37dae372b913c93c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the active text style when hovering over the properties label.  <br /></td></tr>
+<tr class="separator:aa6047d40be248da37dae372b913c93c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a641bbc55d84e00543c3d4510450bd37e" id="r_a641bbc55d84e00543c3d4510450bd37e"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641bbc55d84e00543c3d4510450bd37e">GetWidgetColor</a> (int controlPointType) VTK_SIZEHINT(3)</td></tr>
 <tr class="separator:a641bbc55d84e00543c3d4510450bd37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7422735c39db8302d5d8fb31b51ac1f" id="r_af7422735c39db8302d5d8fb31b51ac1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7422735c39db8302d5d8fb31b51ac1f">IsMarkupActive</a> (int markupComponentType)</td></tr>
+<tr class="separator:af7422735c39db8302d5d8fb31b51ac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1f5f931f9b6377f4dee3ced54a021cf" id="r_ae1f5f931f9b6377f4dee3ced54a021cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1f5f931f9b6377f4dee3ced54a021cf">SetMarkupsNode</a> (<a class="el" href="classvtkMRMLMarkupsNode.html">vtkMRMLMarkupsNode</a> *markupsNode)</td></tr>
 <tr class="separator:ae1f5f931f9b6377f4dee3ced54a021cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab417aa613ad6ac89eef8fd2e271a7e2b" id="r_ab417aa613ad6ac89eef8fd2e271a7e2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab417aa613ad6ac89eef8fd2e271a7e2b">UpdateControlPointSize</a> ()=0</td></tr>
@@ -579,6 +590,47 @@ Protected Attributes</h2></td></tr>
 <p>Return found component type (as <a class="el" href="classvtkMRMLMarkupsDisplayNode.html#a2ba60697711b8557dded95ffaf633976">vtkMRMLMarkupsDisplayNode::ComponentType</a>). closestDistance2 is the squared distance in display coordinates from the closest position where interaction is possible. componentIndex returns index of the found component (e.g., if control point is found then control point index is returned). </p>
 
 <p>Reimplemented in <a class="el" href="classvtkSlicerAngleRepresentation2D.html#a07073fd0059327be358a5e1a27697561">vtkSlicerAngleRepresentation2D</a>, <a class="el" href="classvtkSlicerAngleRepresentation3D.html#a83d68204c932ffa04205dba217d6f2d8">vtkSlicerAngleRepresentation3D</a>, <a class="el" href="classvtkSlicerCurveRepresentation2D.html#a24a9f5a0a7b4e63853a4c7c524494e09">vtkSlicerCurveRepresentation2D</a>, <a class="el" href="classvtkSlicerCurveRepresentation3D.html#aa07ef98f3ac417691b52a3d6f15e0400">vtkSlicerCurveRepresentation3D</a>, <a class="el" href="classvtkSlicerLineRepresentation2D.html#a01fa600f7e92fd0950913436f46d9b07">vtkSlicerLineRepresentation2D</a>, <a class="el" href="classvtkSlicerLineRepresentation3D.html#a7261c3c516cbf6279c962b136b8abc1b">vtkSlicerLineRepresentation3D</a>, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation2D.html#ad1151e62d1e33ea02ab8b7181fd47684">vtkSlicerMarkupsWidgetRepresentation2D</a>, <a class="el" href="classvtkSlicerMarkupsWidgetRepresentation3D.html#a4a6f495571d4e1acd07241157083c419">vtkSlicerMarkupsWidgetRepresentation3D</a>, <a class="el" href="classvtkSlicerPlaneRepresentation2D.html#afb020a362b80ff75a83c45080b4ac255">vtkSlicerPlaneRepresentation2D</a>, <a class="el" href="classvtkSlicerPlaneRepresentation3D.html#a1c8b47da7400a63395a29533259c260a">vtkSlicerPlaneRepresentation3D</a>, <a class="el" href="classvtkSlicerROIRepresentation2D.html#af121936419d43bb13a2b572753f7cc57">vtkSlicerROIRepresentation2D</a>, and <a class="el" href="classvtkSlicerROIRepresentation3D.html#a011bb12058a2856c1c4f8ef1fe83d8f7">vtkSlicerROIRepresentation3D</a>.</p>
+
+</div>
+</div>
+<a id="a68f4da25656fa5742aa5df66b17e66e7" name="a68f4da25656fa5742aa5df66b17e66e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f4da25656fa5742aa5df66b17e66e7">&#9670;&#160;</a></span>CanInteractWithPropertiesLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkSlicerMarkupsWidgetRepresentation::CanInteractWithPropertiesLabel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLInteractionEventData.html">vtkMRMLInteractionEventData</a> *</td>          <td class="paramname"><span class="paramname"><em>interactionEventData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>foundComponentType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>foundComponentIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;</td>          <td class="paramname"><span class="paramname"><em>closestDistance2</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test the visible properties label in display coordinates. </p>
 
 </div>
 </div>
@@ -992,6 +1044,60 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa6047d40be248da37dae372b913c93c8" name="aa6047d40be248da37dae372b913c93c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6047d40be248da37dae372b913c93c8">&#9670;&#160;</a></span>GetPropertiesLabelTextProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkTextProperty * vtkSlicerMarkupsWidgetRepresentation::GetPropertiesLabelTextProperty </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>controlPointType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Use the active text style when hovering over the properties label. </p>
+
+</div>
+</div>
+<a id="ac1e71614625076326e378f359e22de89" name="ac1e71614625076326e378f359e22de89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e71614625076326e378f359e22de89">&#9670;&#160;</a></span>GetTextActor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vtkTextActor * vtkSlicerMarkupsWidgetRepresentation::GetTextActor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the properties label actor - for testing purposes. </p>
+
+</div>
+</div>
 <a id="ab057850abd326199af16467a2db284bc" name="ab057850abd326199af16467a2db284bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab057850abd326199af16467a2db284bc">&#9670;&#160;</a></span>GetTransformationReferencePoint()</h2>
 
@@ -1115,6 +1221,32 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true if the representation is displayable in the current view. It takes into account current view node's display node and parent folder's visibility. </p>
+
+</div>
+</div>
+<a id="af7422735c39db8302d5d8fb31b51ac1f" name="af7422735c39db8302d5d8fb31b51ac1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7422735c39db8302d5d8fb31b51ac1f">&#9670;&#160;</a></span>IsMarkupActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkSlicerMarkupsWidgetRepresentation::IsMarkupActive </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>markupComponentType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if the whole markup must be displayed as active (highlighted). This is the case when the active component is the component that represents the whole markup (for example, ComponentLine for lines and curves, ComponentPlane for planes, ComponentROI for ROIs) or the properties label. </p>
 
 </div>
 </div>
@@ -1527,7 +1659,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00222">222</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00237">237</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1551,7 +1683,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00193">193</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00208">208</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1575,7 +1707,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00204">204</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00219">219</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1599,7 +1731,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00197">197</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00212">212</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1623,7 +1755,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00198">198</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00213">213</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1647,7 +1779,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00218">218</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00233">233</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1671,7 +1803,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00200">200</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00215">215</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1695,7 +1827,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00187">187</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00202">202</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1719,7 +1851,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00202">202</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00217">217</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1743,7 +1875,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00186">186</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html#l00201">201</a> of file <a class="el" href="vtkSlicerMarkupsWidgetRepresentation_8h_source.html">vtkSlicerMarkupsWidgetRepresentation.h</a>.</p>
 
 </div>
 </div>
@@ -1753,7 +1885,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 25 2026 19:17:42 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Fri Sep 25 2026 22:54:10 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

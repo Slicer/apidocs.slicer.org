@@ -180,7 +180,8 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a2ba60697711b8557dded95ffaf633976ab5958285e6438928b436729b0f72c579">ComponentTranslationHandle</a>
 , <a class="el" href="#a2ba60697711b8557dded95ffaf633976ab27c08f324a122840a29bc3f23b70ff9">ComponentScaleHandle</a>
 , <br />
-&#160;&#160;<a class="el" href="#a2ba60697711b8557dded95ffaf633976ad2e4bab0bf242004b4f02bba769ba19a">Component_Last</a>
+&#160;&#160;<a class="el" href="#a2ba60697711b8557dded95ffaf633976aea5ed5867e2d27eb2365b6a2ebc2b8af">ComponentPropertiesLabel</a>
+, <a class="el" href="#a2ba60697711b8557dded95ffaf633976ad2e4bab0bf242004b4f02bba769ba19a">Component_Last</a>
 <br />
  }</td></tr>
 <tr class="separator:a2ba60697711b8557dded95ffaf633976"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -391,6 +392,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8421c69ee501a51522554bace5b5fdad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae87d7a4369f18753765ee0984b0f6406" id="r_ae87d7a4369f18753765ee0984b0f6406"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae87d7a4369f18753765ee0984b0f6406">GetPointLabelsVisibility</a> ()</td></tr>
 <tr class="separator:ae87d7a4369f18753765ee0984b0f6406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa401334ac464fdc2846dd70ba2871d53" id="r_aa401334ac464fdc2846dd70ba2871d53"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa401334ac464fdc2846dd70ba2871d53">GetPropertiesLabelFormat</a> ()</td></tr>
+<tr class="separator:aa401334ac464fdc2846dd70ba2871d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60f1765e840e4aa29e6085b2a7d5b8ea" id="r_a60f1765e840e4aa29e6085b2a7d5b8ea"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60f1765e840e4aa29e6085b2a7d5b8ea">GetPropertiesLabelVisibility</a> ()</td></tr>
 <tr class="separator:a60f1765e840e4aa29e6085b2a7d5b8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f79716ecbb3c5f10ab4353cd20aa94" id="r_a68f79716ecbb3c5f10ab4353cd20aa94"><td class="memItemLeft" align="right" valign="top">virtual bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f79716ecbb3c5f10ab4353cd20aa94">GetRotationHandleComponentVisibility</a> ()</td></tr>
@@ -586,6 +589,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6f5e56cb100f01d82eb5c8e1017e59fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43df1ecfc13afd84ede7b39c2c8d2469" id="r_a43df1ecfc13afd84ede7b39c2c8d2469"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43df1ecfc13afd84ede7b39c2c8d2469">SetPointLabelsVisibility</a> (bool)</td></tr>
 <tr class="separator:a43df1ecfc13afd84ede7b39c2c8d2469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7b78fbc4c2884be4083255d5a6ca85" id="r_aee7b78fbc4c2884be4083255d5a6ca85"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee7b78fbc4c2884be4083255d5a6ca85">SetPropertiesLabelFormat</a> (std::string)</td></tr>
+<tr class="separator:aee7b78fbc4c2884be4083255d5a6ca85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21c26e4e30c25a2d6faf181eb24291f7" id="r_a21c26e4e30c25a2d6faf181eb24291f7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c26e4e30c25a2d6faf181eb24291f7">SetPropertiesLabelVisibility</a> (bool)</td></tr>
 <tr class="separator:a21c26e4e30c25a2d6faf181eb24291f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b17d5ecde0262bca3ceb95ed7d22a9d" id="r_a2b17d5ecde0262bca3ceb95ed7d22a9d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b17d5ecde0262bca3ceb95ed7d22a9d">SetRotationHandleComponentVisibility</a> (bool, bool, bool, bool)</td></tr>
@@ -1268,6 +1273,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a91d0547177b4248a16af3dd70837019c" id="r_a91d0547177b4248a16af3dd70837019c"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91d0547177b4248a16af3dd70837019c">GetDefaultContextName</a> ()</td></tr>
 <tr class="memdesc:a91d0547177b4248a16af3dd70837019c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of the default interaction context (typically the mouse)  <br /></td></tr>
 <tr class="separator:a91d0547177b4248a16af3dd70837019c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130e7516a2b81eca370478ff7c4dd606" id="r_a130e7516a2b81eca370478ff7c4dd606"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a130e7516a2b81eca370478ff7c4dd606">GetDefaultPropertiesLabelFormat</a> ()</td></tr>
+<tr class="memdesc:a130e7516a2b81eca370478ff7c4dd606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default format of the properties label text.  <br /></td></tr>
+<tr class="separator:a130e7516a2b81eca370478ff7c4dd606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a667adaa0a35ec2faf56a55188fa8bdf4" id="r_a667adaa0a35ec2faf56a55188fa8bdf4"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a667adaa0a35ec2faf56a55188fa8bdf4">GetGlyphTypeAsString</a> (int g)</td></tr>
 <tr class="separator:a667adaa0a35ec2faf56a55188fa8bdf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f63db4f90ff37ff263db1703f15c20" id="r_a67f63db4f90ff37ff263db1703f15c20"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f63db4f90ff37ff263db1703f15c20">GetGlyphTypeFromString</a> (const char *)</td></tr>
@@ -1469,6 +1477,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a3f4117ddc66bc96d6069e3a4ce1e78a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14453b1d861825cf601c9340e036a1dc" id="r_a14453b1d861825cf601c9340e036a1dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14453b1d861825cf601c9340e036a1dc">PointLabelsVisibility</a></td></tr>
 <tr class="separator:a14453b1d861825cf601c9340e036a1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf3daaa38032e96e4f616259e14b6bb" id="r_a5cf3daaa38032e96e4f616259e14b6bb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cf3daaa38032e96e4f616259e14b6bb">PropertiesLabelFormat</a></td></tr>
+<tr class="separator:a5cf3daaa38032e96e4f616259e14b6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19cba23e074b6b5beb5ec5a7292bf9fe" id="r_a19cba23e074b6b5beb5ec5a7292bf9fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19cba23e074b6b5beb5ec5a7292bf9fe">PropertiesLabelVisibility</a></td></tr>
 <tr class="separator:a19cba23e074b6b5beb5ec5a7292bf9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace465811ff2599c6e73d53eb3b998b18" id="r_ace465811ff2599c6e73d53eb3b998b18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace465811ff2599c6e73d53eb3b998b18">RotationHandleComponentVisibility</a> [4]</td></tr>
@@ -1711,7 +1721,7 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00292">292</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00313">313</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -1735,6 +1745,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a2ba60697711b8557dded95ffaf633976a85092f8cabf06cbbbce406e52a41ddb9" name="a2ba60697711b8557dded95ffaf633976a85092f8cabf06cbbbce406e52a41ddb9"></a>ComponentRotationHandle&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2ba60697711b8557dded95ffaf633976ab5958285e6438928b436729b0f72c579" name="a2ba60697711b8557dded95ffaf633976ab5958285e6438928b436729b0f72c579"></a>ComponentTranslationHandle&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2ba60697711b8557dded95ffaf633976ab27c08f324a122840a29bc3f23b70ff9" name="a2ba60697711b8557dded95ffaf633976ab27c08f324a122840a29bc3f23b70ff9"></a>ComponentScaleHandle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2ba60697711b8557dded95ffaf633976aea5ed5867e2d27eb2365b6a2ebc2b8af" name="a2ba60697711b8557dded95ffaf633976aea5ed5867e2d27eb2365b6a2ebc2b8af"></a>ComponentPropertiesLabel&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2ba60697711b8557dded95ffaf633976ad2e4bab0bf242004b4f02bba769ba19a" name="a2ba60697711b8557dded95ffaf633976ad2e4bab0bf242004b4f02bba769ba19a"></a>Component_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -1760,7 +1771,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a5e3be6d7c23cc26dcdaa0841fbbeabcba4050b12ff6b66b2bba300d22dc47c113" name="a5e3be6d7c23cc26dcdaa0841fbbeabcba4050b12ff6b66b2bba300d22dc47c113"></a>CurveLineSizeMode_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00352">352</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00373">373</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -1795,7 +1806,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a4bd91328a0984807bb7716e56e7cbe99a5239d4388fe1d08e7216a2b93af04ce3" name="a4bd91328a0984807bb7716e56e7cbe99a5239d4388fe1d08e7216a2b93af04ce3"></a>GlyphType_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00225">225</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00246">246</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -1818,7 +1829,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a44c5a6b9314a8bc1562c4db3f38a8e23a7594905b697f78217d3a8c3a5c7b3ea4" name="a44c5a6b9314a8bc1562c4db3f38a8e23a7594905b697f78217d3a8c3a5c7b3ea4"></a>SnapMode_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00215">215</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00236">236</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2425,6 +2436,35 @@ Additional Inherited Members</h2></td></tr>
 <p>Get name of the default interaction context (typically the mouse) </p>
 
 <p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00080">80</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a130e7516a2b81eca370478ff7c4dd606" name="a130e7516a2b81eca370478ff7c4dd606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a130e7516a2b81eca370478ff7c4dd606">&#9670;&#160;</a></span>GetDefaultPropertiesLabelFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string vtkMRMLMarkupsDisplayNode::GetDefaultPropertiesLabelFormat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default format of the properties label text. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00201">201</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3179,7 +3219,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00246">246</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00267">267</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3208,7 +3248,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Return the min/max glyph types, for iterating over them in tcl. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00245">245</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00266">266</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3241,7 +3281,7 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 <p>These attributes are used to track interactions with Markups nodes during user input events. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00156">156</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00157">157</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3268,7 +3308,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00157">157</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00158">158</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3418,6 +3458,31 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual bool vtkMRMLMarkupsDisplayNode::GetPointLabelsVisibility </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa401334ac464fdc2846dd70ba2871d53" name="aa401334ac464fdc2846dd70ba2871d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa401334ac464fdc2846dd70ba2871d53">&#9670;&#160;</a></span>GetPropertiesLabelFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string vtkMRMLMarkupsDisplayNode::GetPropertiesLabelFormat </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -4212,7 +4277,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00253">253</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00274">274</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -6016,6 +6081,39 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aee7b78fbc4c2884be4083255d5a6ca85" name="aee7b78fbc4c2884be4083255d5a6ca85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7b78fbc4c2884be4083255d5a6ca85">&#9670;&#160;</a></span>SetPropertiesLabelFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLMarkupsDisplayNode::SetPropertiesLabelFormat </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Format of the properties label text. Placeholders:</p><ul>
+<li>N: node name</li>
+<li>S: short name of the markup type (for example, F for point list)</li>
+<li>M: measurements (single measurement on the same line, multiple measurements in separate lines)</li>
+<li>b: line break</li>
+<li>%%: percent character Whitespace and colon characters are removed from the beginning and end of the label, so that the separator is not shown if the node name or measurements are empty. Empty lines and whitespace at the beginning and end of each line are removed as well. Default: "%N:%M". <dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLMarkupsNode.html#ab688597927a18a14ef3a6b635b269803">vtkMRMLMarkupsNode::GetPropertiesLabelText</a>, <a class="el" href="classvtkMRMLMarkupsNode.html#a9f4658094511eda54fd5d80b8da1a411">vtkMRMLMarkupsNode::FormatLabel</a> </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
 <a id="a21c26e4e30c25a2d6faf181eb24291f7" name="a21c26e4e30c25a2d6faf181eb24291f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21c26e4e30c25a2d6faf181eb24291f7">&#9670;&#160;</a></span>SetPropertiesLabelVisibility()</h2>
 
@@ -7028,7 +7126,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00611">611</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00633">633</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7053,7 +7151,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Current active point or widget component type and index (hovered by the mouse or other interaction context) Map interaction context identifier (empty string for mouse) to component type enum </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00562">562</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00583">583</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7077,7 +7175,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00624">624</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00646">646</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7101,7 +7199,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00589">589</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00611">611</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7125,7 +7223,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00570">570</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00592">592</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7149,7 +7247,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00568">568</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00590">590</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7173,7 +7271,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00574">574</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00596">596</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7197,7 +7295,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00575">575</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00597">597</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7221,7 +7319,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00573">573</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00595">595</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7245,7 +7343,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00613">613</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00635">635</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7269,7 +7367,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00618">618</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00640">640</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7293,7 +7391,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00617">617</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00639">639</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7317,7 +7415,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00594">594</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00616">616</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7341,7 +7439,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00596">596</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00618">618</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7365,7 +7463,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00595">595</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00617">617</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7389,7 +7487,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00593">593</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00615">615</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7413,7 +7511,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00587">587</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00609">609</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7437,7 +7535,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00586">586</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00608">608</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7461,7 +7559,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00591">591</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00613">613</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7485,7 +7583,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00603">603</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00625">625</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7510,7 +7608,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Base multiplier applied to LineDirectionMarkerScale before converting to physical size. Ensures that at the default scale (150%) the marker is clearly visible relative to the line. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00423">423</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00444">444</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7534,7 +7632,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00601">601</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00623">623</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7558,7 +7656,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00602">602</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00624">624</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7582,7 +7680,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00598">598</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00620">620</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7606,7 +7704,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00600">600</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00622">622</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7630,7 +7728,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00599">599</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00621">621</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7654,7 +7752,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00604">604</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00626">626</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7678,7 +7776,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00590">590</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00612">612</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7702,7 +7800,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00607">607</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00629">629</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7726,7 +7824,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00606">606</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00628">628</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7750,7 +7848,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00571">571</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00593">593</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7774,7 +7872,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00569">569</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00591">591</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7798,7 +7896,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00567">567</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00589">589</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a5cf3daaa38032e96e4f616259e14b6bb" name="a5cf3daaa38032e96e4f616259e14b6bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf3daaa38032e96e4f616259e14b6bb">&#9670;&#160;</a></span>PropertiesLabelFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string vtkMRMLMarkupsDisplayNode::PropertiesLabelFormat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00588">588</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7822,7 +7944,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00566">566</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00587">587</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7846,7 +7968,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00620">620</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00642">642</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7870,7 +7992,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00615">615</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00637">637</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7894,7 +8016,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00621">621</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00643">643</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7918,7 +8040,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00616">616</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00638">638</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7942,7 +8064,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00578">578</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00600">600</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7966,7 +8088,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00581">581</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00603">603</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -7990,7 +8112,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00582">582</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00604">604</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8014,7 +8136,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00580">580</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00602">602</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8038,7 +8160,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00579">579</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00601">601</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8062,7 +8184,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00564">564</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00585">585</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8086,7 +8208,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00609">609</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00631">631</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8110,7 +8232,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00572">572</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00594">594</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8134,7 +8256,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00622">622</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00644">644</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8158,7 +8280,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00614">614</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00636">636</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8182,7 +8304,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00576">576</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html#l00598">598</a> of file <a class="el" href="vtkMRMLMarkupsDisplayNode_8h_source.html">vtkMRMLMarkupsDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -8192,7 +8314,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 25 2026 19:17:41 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Fri Sep 25 2026 22:54:08 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
