@@ -146,14 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abec6c0a45f5550bb22d65a7ddac372fb" id="r_abec6c0a45f5550bb22d65a7ddac372fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec6c0a45f5550bb22d65a7ddac372fb">InitializeEventListeners</a> ()</td></tr>
 <tr class="memdesc:abec6c0a45f5550bb22d65a7ddac372fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize listening to MRML events.  <br /></td></tr>
 <tr class="separator:abec6c0a45f5550bb22d65a7ddac372fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f5d71b1942c1a1571f32414203eabb" id="r_ac2f5d71b1942c1a1571f32414203eabb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f5d71b1942c1a1571f32414203eabb">InitializeMultivolumeNode</a> (vtkStringArray *, <a class="el" href="classvtkMRMLMultiVolumeNode.html">vtkMRMLMultiVolumeNode</a> *)</td></tr>
-<tr class="separator:ac2f5d71b1942c1a1571f32414203eabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfabfc0a455ec0404110fd909300869f" id="r_abfabfc0a455ec0404110fd909300869f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfabfc0a455ec0404110fd909300869f">IsA</a> (const char *type)</td></tr>
 <tr class="separator:abfabfc0a455ec0404110fd909300869f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b8578fc17d90f680d4fd84378d89d6d" id="r_a5b8578fc17d90f680d4fd84378d89d6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b8578fc17d90f680d4fd84378d89d6d">PrintSelf</a> (ostream &amp;os, vtkIndent indent)</td></tr>
-<tr class="separator:a5b8578fc17d90f680d4fd84378d89d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5c9eefab80c8d03137a05dcbce08ea1" id="r_ae5c9eefab80c8d03137a05dcbce08ea1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5c9eefab80c8d03137a05dcbce08ea1">ProcessDICOMSeries</a> (std::string inputDir, std::string outputDir, std::string dcmTag, vtkDoubleArray *)</td></tr>
-<tr class="separator:ae5c9eefab80c8d03137a05dcbce08ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b016ad9e2c4da092bd8c1bedb2be90d" id="r_a7b016ad9e2c4da092bd8c1bedb2be90d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b016ad9e2c4da092bd8c1bedb2be90d">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
+<tr class="separator:a7b016ad9e2c4da092bd8c1bedb2be90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2f83a18cc02f160a3ec9592292aa496" id="r_aa2f83a18cc02f160a3ec9592292aa496"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f83a18cc02f160a3ec9592292aa496">RegisterArchetypeVolumeNodeSetFactory</a> (<a class="el" href="classvtkSlicerVolumesLogic.html">vtkSlicerVolumesLogic</a> *volumesLogic)</td></tr>
 <tr class="separator:aa2f83a18cc02f160a3ec9592292aa496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classvtkSlicerModuleLogic"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classvtkSlicerModuleLogic')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classvtkSlicerModuleLogic.html">vtkSlicerModuleLogic</a></td></tr>
@@ -210,17 +206,17 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a332efed789084d37515ad74ba0aaa256" id="r_a332efed789084d37515ad74ba0aaa256"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332efed789084d37515ad74ba0aaa256">OnMRMLSceneNodeAdded</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node)</td></tr>
-<tr class="separator:a332efed789084d37515ad74ba0aaa256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c36ce5f6a0c25c79866fc97e9299f99" id="r_a0c36ce5f6a0c25c79866fc97e9299f99"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c36ce5f6a0c25c79866fc97e9299f99">OnMRMLSceneNodeRemoved</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node)</td></tr>
-<tr class="separator:a0c36ce5f6a0c25c79866fc97e9299f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac63416bd764abb5bf4683973be0a9490" id="r_ac63416bd764abb5bf4683973be0a9490"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac63416bd764abb5bf4683973be0a9490">RegisterNodes</a> ()</td></tr>
-<tr class="memdesc:ac63416bd764abb5bf4683973be0a9490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register MRML Node classes to Scene. Gets called automatically when the MRMLScene is attached to this logic class.  <br /></td></tr>
-<tr class="separator:ac63416bd764abb5bf4683973be0a9490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7210d21f3430f1dc1c38b2f1a9b6cc4" id="r_ae7210d21f3430f1dc1c38b2f1a9b6cc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7210d21f3430f1dc1c38b2f1a9b6cc4">OnMRMLSceneNodeAdded</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node) override</td></tr>
+<tr class="separator:ae7210d21f3430f1dc1c38b2f1a9b6cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa98d076df3fa5d79ee57ca647545cbd6" id="r_aa98d076df3fa5d79ee57ca647545cbd6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa98d076df3fa5d79ee57ca647545cbd6">OnMRMLSceneNodeRemoved</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node) override</td></tr>
+<tr class="separator:aa98d076df3fa5d79ee57ca647545cbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d0a5cd8c3bd528ec0764f056e6f7ff" id="r_ae3d0a5cd8c3bd528ec0764f056e6f7ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3d0a5cd8c3bd528ec0764f056e6f7ff">RegisterNodes</a> () override</td></tr>
+<tr class="memdesc:ae3d0a5cd8c3bd528ec0764f056e6f7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register MRML Node classes to Scene. Gets called automatically when the MRMLScene is attached to this logic class.  <br /></td></tr>
+<tr class="separator:ae3d0a5cd8c3bd528ec0764f056e6f7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a7375ae99e482dac69a89e8a9ca4247" id="r_a8a7375ae99e482dac69a89e8a9ca4247"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a7375ae99e482dac69a89e8a9ca4247">StoreVolumeNode</a> (const std::vector&lt; std::string &gt; &amp;filenames, const std::string &amp;seriesFileName)</td></tr>
 <tr class="separator:a8a7375ae99e482dac69a89e8a9ca4247"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63bc19a1c1c0e1b844cb45d52c437f58" id="r_a63bc19a1c1c0e1b844cb45d52c437f58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63bc19a1c1c0e1b844cb45d52c437f58">UpdateFromMRMLScene</a> ()</td></tr>
-<tr class="separator:a63bc19a1c1c0e1b844cb45d52c437f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a848773ddf869f8a5662891d0a1dba63c" id="r_a848773ddf869f8a5662891d0a1dba63c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a848773ddf869f8a5662891d0a1dba63c">UpdateFromMRMLScene</a> () override</td></tr>
+<tr class="separator:a848773ddf869f8a5662891d0a1dba63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a027d60db44b0436cc6f202987e057a76" id="r_a027d60db44b0436cc6f202987e057a76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027d60db44b0436cc6f202987e057a76">vtkSlicerMultiVolumeExplorerLogic</a> ()</td></tr>
 <tr class="separator:a027d60db44b0436cc6f202987e057a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a612bd85f983461d89f01047220f66f12" id="r_a612bd85f983461d89f01047220f66f12"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612bd85f983461d89f01047220f66f12">~vtkSlicerMultiVolumeExplorerLogic</a> ()</td></tr>
@@ -333,7 +329,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html#l00046">46</a> of file <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html">vtkSlicerMultiVolumeExplorerLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html#l00045">45</a> of file <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html">vtkSlicerMultiVolumeExplorerLogic.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ae8a46744c736e576ad9866c65ea1f7ba" name="ae8a46744c736e576ad9866c65ea1f7ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8a46744c736e576ad9866c65ea1f7ba">&#9670;&#160;</a></span>Superclass</h2>
@@ -347,7 +343,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html#l00052">52</a> of file <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html">vtkSlicerMultiVolumeExplorerLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html#l00049">49</a> of file <a class="el" href="vtkSlicerMultiVolumeExplorerLogic_8h_source.html">vtkSlicerMultiVolumeExplorerLogic.h</a>.</p>
 
 </div>
 </div>
@@ -449,27 +445,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2f5d71b1942c1a1571f32414203eabb" name="ac2f5d71b1942c1a1571f32414203eabb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2f5d71b1942c1a1571f32414203eabb">&#9670;&#160;</a></span>InitializeMultivolumeNode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int vtkSlicerMultiVolumeExplorerLogic::InitializeMultivolumeNode </td>
-          <td>(</td>
-          <td class="paramtype">vtkStringArray *</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classvtkMRMLMultiVolumeNode.html">vtkMRMLMultiVolumeNode</a> *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abfabfc0a455ec0404110fd909300869f" name="abfabfc0a455ec0404110fd909300869f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfabfc0a455ec0404110fd909300869f">&#9670;&#160;</a></span>IsA()</h2>
 
@@ -547,8 +522,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a332efed789084d37515ad74ba0aaa256" name="a332efed789084d37515ad74ba0aaa256"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a332efed789084d37515ad74ba0aaa256">&#9670;&#160;</a></span>OnMRMLSceneNodeAdded()</h2>
+<a id="ae7210d21f3430f1dc1c38b2f1a9b6cc4" name="ae7210d21f3430f1dc1c38b2f1a9b6cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7210d21f3430f1dc1c38b2f1a9b6cc4">&#9670;&#160;</a></span>OnMRMLSceneNodeAdded()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,20 +540,20 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>If <a class="el" href="classvtkMRMLScene.html#a8ccb4e378bdb987a4e95ac6cc1067c94a883501afca47bd5809645023742ddcd3">vtkMRMLScene::NodeAddedEvent</a> has been set to be observed in SetMRMLSceneInternal, it is called when the scene fires the event </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLAbstractLogic.html#a51fdf00ecfc18c1a1465d4bccb789ef1">ProcessMRMLSceneEvents</a>, <a class="el" href="classvtkMRMLAbstractLogic.html#a8a1dc1c9192488743cbb0289d3f03600">SetMRMLSceneInternal</a> </dd>
 <dd>
-<a class="el" href="#a0c36ce5f6a0c25c79866fc97e9299f99">OnMRMLSceneNodeRemoved</a>, vtkMRMLScene::NodeAboutToBeAdded </dd></dl>
+<a class="el" href="#aa98d076df3fa5d79ee57ca647545cbd6">OnMRMLSceneNodeRemoved</a>, vtkMRMLScene::NodeAboutToBeAdded </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLAbstractLogic.html#ac0102310f18a3880f00e93b8e37210c9">vtkMRMLAbstractLogic</a>.</p>
 
 </div>
 </div>
-<a id="a0c36ce5f6a0c25c79866fc97e9299f99" name="a0c36ce5f6a0c25c79866fc97e9299f99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c36ce5f6a0c25c79866fc97e9299f99">&#9670;&#160;</a></span>OnMRMLSceneNodeRemoved()</h2>
+<a id="aa98d076df3fa5d79ee57ca647545cbd6" name="aa98d076df3fa5d79ee57ca647545cbd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa98d076df3fa5d79ee57ca647545cbd6">&#9670;&#160;</a></span>OnMRMLSceneNodeRemoved()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -595,23 +570,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>If <a class="el" href="classvtkMRMLScene.html#a8ccb4e378bdb987a4e95ac6cc1067c94accb3b014a26a4bc5c4c2a6a5e325a710">vtkMRMLScene::NodeRemovedEvent</a> has been set to be observed in SetMRMLSceneInternal, it is called when the scene fires the event </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLAbstractLogic.html#a51fdf00ecfc18c1a1465d4bccb789ef1">ProcessMRMLSceneEvents</a>, <a class="el" href="classvtkMRMLAbstractLogic.html#a8a1dc1c9192488743cbb0289d3f03600">SetMRMLSceneInternal</a> </dd>
 <dd>
-<a class="el" href="#a332efed789084d37515ad74ba0aaa256">OnMRMLSceneNodeAdded</a>, vtkMRMLScene::NodeAboutToBeRemoved </dd></dl>
+<a class="el" href="#ae7210d21f3430f1dc1c38b2f1a9b6cc4">OnMRMLSceneNodeAdded</a>, vtkMRMLScene::NodeAboutToBeRemoved </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLAbstractLogic.html#a92b1149d08ec5099a9ec61c0636f37c4">vtkMRMLAbstractLogic</a>.</p>
 
 </div>
 </div>
-<a id="a5b8578fc17d90f680d4fd84378d89d6d" name="a5b8578fc17d90f680d4fd84378d89d6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b8578fc17d90f680d4fd84378d89d6d">&#9670;&#160;</a></span>PrintSelf()</h2>
+<a id="a7b016ad9e2c4da092bd8c1bedb2be90d" name="a7b016ad9e2c4da092bd8c1bedb2be90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b016ad9e2c4da092bd8c1bedb2be90d">&#9670;&#160;</a></span>PrintSelf()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void vtkSlicerMultiVolumeExplorerLogic::PrintSelf </td>
@@ -624,37 +602,11 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramtype">vtkIndent</td>          <td class="paramname"><span class="paramname"><em>indent</em></span>&#160;)</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae5c9eefab80c8d03137a05dcbce08ea1" name="ae5c9eefab80c8d03137a05dcbce08ea1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5c9eefab80c8d03137a05dcbce08ea1">&#9670;&#160;</a></span>ProcessDICOMSeries()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int vtkSlicerMultiVolumeExplorerLogic::ProcessDICOMSeries </td>
-          <td>(</td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>inputDir</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>outputDir</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>dcmTag</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">vtkDoubleArray *</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -677,8 +629,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac63416bd764abb5bf4683973be0a9490" name="ac63416bd764abb5bf4683973be0a9490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac63416bd764abb5bf4683973be0a9490">&#9670;&#160;</a></span>RegisterNodes()</h2>
+<a id="ae3d0a5cd8c3bd528ec0764f056e6f7ff" name="ae3d0a5cd8c3bd528ec0764f056e6f7ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d0a5cd8c3bd528ec0764f056e6f7ff">&#9670;&#160;</a></span>RegisterNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -695,7 +647,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -760,8 +712,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a63bc19a1c1c0e1b844cb45d52c437f58" name="a63bc19a1c1c0e1b844cb45d52c437f58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63bc19a1c1c0e1b844cb45d52c437f58">&#9670;&#160;</a></span>UpdateFromMRMLScene()</h2>
+<a id="a848773ddf869f8a5662891d0a1dba63c" name="a848773ddf869f8a5662891d0a1dba63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a848773ddf869f8a5662891d0a1dba63c">&#9670;&#160;</a></span>UpdateFromMRMLScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -778,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -794,7 +746,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 25 2026 02:47:13 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Fri Sep 25 2026 02:48:29 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

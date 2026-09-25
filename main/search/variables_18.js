@@ -6,12 +6,13 @@ var searchData=
   ['xaxistitle_3',['XAxisTitle',['../classvtkMRMLPlotChartNode.html#a127a97b9faf904ab04f0a3d8a88ae0a9',1,'vtkMRMLPlotChartNode']]],
   ['xaxistitlevisibility_4',['XAxisTitleVisibility',['../classvtkMRMLPlotChartNode.html#afcd545c6d105965293002fec91ea1d40',1,'vtkMRMLPlotChartNode']]],
   ['xcolumnname_5',['XColumnName',['../classvtkMRMLPlotSeriesNode.html#a48bf33da9cea130f3bd917b477d729d6',1,'vtkMRMLPlotSeriesNode']]],
-  ['xml_5fname_5fvalue_5fseparator_6',['XML_NAME_VALUE_SEPARATOR',['../classvtkMRMLJsonElement.html#ae99c50b2a3b8f09a73c1685840a18e1e',1,'vtkMRMLJsonElement']]],
-  ['xml_5fseparator_7',['XML_SEPARATOR',['../classvtkMRMLJsonElement.html#ab9caaec1af7e83f0126fbca191017dbe',1,'vtkMRMLJsonElement']]],
-  ['xypoints_8',['xyPoints',['../classSegmentEditorEffects_1_1SegmentEditorDrawEffect_1_1DrawPipeline.html#a92af93d793055af8c4faaf3b3fd06c40',1,'SegmentEditorEffects.SegmentEditorDrawEffect.DrawPipeline.xyPoints'],['../classSegmentEditorEffects_1_1SegmentEditorLevelTracingEffect_1_1LevelTracingPipeline.html#a5ec0ec9753205293c83efe9cb2b1ebe3',1,'SegmentEditorEffects.SegmentEditorLevelTracingEffect.LevelTracingPipeline.xyPoints']]],
-  ['xytoijktransform_9',['XYToIJKTransform',['../classvtkMRMLSliceLayerLogic.html#acf9a05aab60b2e1b999eb6bd78045303',1,'vtkMRMLSliceLayerLogic']]],
-  ['xytoras_10',['XYToRAS',['../classvtkMRMLSliceNode.html#af3232dd449b4c628cba64fff53cb3167',1,'vtkMRMLSliceNode']]],
-  ['xytoslice_11',['XYToSlice',['../classvtkMRMLSliceNode.html#af0fc878d538f81edf4e65d230c3200c6',1,'vtkMRMLSliceNode']]],
-  ['xyz_12',['XYZ',['../classvtkMRMLROINode.html#a6295d9aae2d6516336bbfce10fcf30ba',1,'vtkMRMLROINode']]],
-  ['xyzorigin_13',['XYZOrigin',['../classvtkMRMLSliceNode.html#adc160f82376f1cf8b004c8d8fec75bd2',1,'vtkMRMLSliceNode']]]
+  ['xlogscalecheckbox_6',['xLogScaleCheckBox',['../classqSlicerMultiVolumeExplorerModuleWidget_1_1qSlicerMultiVolumeExplorerModuleWidget.html#a40cac4edc2d95217ac615a707305a1e9',1,'qSlicerMultiVolumeExplorerModuleWidget::qSlicerMultiVolumeExplorerModuleWidget']]],
+  ['xml_5fname_5fvalue_5fseparator_7',['XML_NAME_VALUE_SEPARATOR',['../classvtkMRMLJsonElement.html#ae99c50b2a3b8f09a73c1685840a18e1e',1,'vtkMRMLJsonElement']]],
+  ['xml_5fseparator_8',['XML_SEPARATOR',['../classvtkMRMLJsonElement.html#ab9caaec1af7e83f0126fbca191017dbe',1,'vtkMRMLJsonElement']]],
+  ['xypoints_9',['xyPoints',['../classSegmentEditorEffects_1_1SegmentEditorDrawEffect_1_1DrawPipeline.html#a92af93d793055af8c4faaf3b3fd06c40',1,'SegmentEditorEffects.SegmentEditorDrawEffect.DrawPipeline.xyPoints'],['../classSegmentEditorEffects_1_1SegmentEditorLevelTracingEffect_1_1LevelTracingPipeline.html#a5ec0ec9753205293c83efe9cb2b1ebe3',1,'SegmentEditorEffects.SegmentEditorLevelTracingEffect.LevelTracingPipeline.xyPoints']]],
+  ['xytoijktransform_10',['XYToIJKTransform',['../classvtkMRMLSliceLayerLogic.html#acf9a05aab60b2e1b999eb6bd78045303',1,'vtkMRMLSliceLayerLogic']]],
+  ['xytoras_11',['XYToRAS',['../classvtkMRMLSliceNode.html#af3232dd449b4c628cba64fff53cb3167',1,'vtkMRMLSliceNode']]],
+  ['xytoslice_12',['XYToSlice',['../classvtkMRMLSliceNode.html#af0fc878d538f81edf4e65d230c3200c6',1,'vtkMRMLSliceNode']]],
+  ['xyz_13',['XYZ',['../classvtkMRMLROINode.html#a6295d9aae2d6516336bbfce10fcf30ba',1,'vtkMRMLROINode']]],
+  ['xyzorigin_14',['XYZOrigin',['../classvtkMRMLSliceNode.html#adc160f82376f1cf8b004c8d8fec75bd2',1,'vtkMRMLSliceNode']]]
 ];

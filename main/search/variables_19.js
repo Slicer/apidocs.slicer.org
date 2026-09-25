@@ -5,5 +5,6 @@ var searchData=
   ['yaxisrangeauto_2',['YAxisRangeAuto',['../classvtkMRMLPlotChartNode.html#a97da33a8eaa6c91d5ab7c2c787db5ff3',1,'vtkMRMLPlotChartNode']]],
   ['yaxistitle_3',['YAxisTitle',['../classvtkMRMLPlotChartNode.html#a2f1ef0e43530f8d3101eea0dc39a0ab8',1,'vtkMRMLPlotChartNode']]],
   ['yaxistitlevisibility_4',['YAxisTitleVisibility',['../classvtkMRMLPlotChartNode.html#a4e31a3848bd32d09c93cf12a77304fba',1,'vtkMRMLPlotChartNode']]],
-  ['ycolumnname_5',['YColumnName',['../classvtkMRMLPlotSeriesNode.html#a68237facb9993e34270a8a1264c3b845',1,'vtkMRMLPlotSeriesNode']]]
+  ['ycolumnname_5',['YColumnName',['../classvtkMRMLPlotSeriesNode.html#a68237facb9993e34270a8a1264c3b845',1,'vtkMRMLPlotSeriesNode']]],
+  ['ylogscalecheckbox_6',['yLogScaleCheckBox',['../classqSlicerMultiVolumeExplorerModuleWidget_1_1qSlicerMultiVolumeExplorerModuleWidget.html#ad507e0248016aa6a6fc07d28ef638533',1,'qSlicerMultiVolumeExplorerModuleWidget::qSlicerMultiVolumeExplorerModuleWidget']]]
 ];

@@ -5,5 +5,6 @@ var searchData=
   ['message_2',['Message',['../structvtkMRMLMessageCollection_1_1Message.html',1,'vtkMRMLMessageCollection']]],
   ['mrmlidimageio_3',['MRMLIDImageIO',['../classitk_1_1MRMLIDImageIO.html',1,'itk']]],
   ['mrmlidimageiofactory_4',['MRMLIDImageIOFactory',['../classitk_1_1MRMLIDImageIOFactory.html',1,'itk']]],
-  ['mrmlnodemodifyblocker_5',['MRMLNodeModifyBlocker',['../classMRMLNodeModifyBlocker.html',1,'']]]
+  ['mrmlnodemodifyblocker_5',['MRMLNodeModifyBlocker',['../classMRMLNodeModifyBlocker.html',1,'']]],
+  ['multivolumeintensitychartview_6',['MultiVolumeIntensityChartView',['../classqSlicerMultiVolumeExplorerCharts_1_1MultiVolumeIntensityChartView.html',1,'qSlicerMultiVolumeExplorerCharts']]]
 ];
