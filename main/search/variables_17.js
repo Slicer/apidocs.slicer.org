@@ -39,5 +39,7 @@ var searchData=
   ['worldtoviewtransformmatrixvalid_36',['WorldToViewTransformMatrixValid',['../classvtkMRMLInteractionEventData.html#ab7e3e75e96dca29d8a2c4f1ac1fe4d6c',1,'vtkMRMLInteractionEventData']]],
   ['writeerror_37',['WriteError',['../classvtkTeemNRRDWriter.html#ad0411a0e4a414a202dfd74869dafdc35',1,'vtkTeemNRRDWriter']]],
   ['writefileformat_38',['WriteFileFormat',['../classvtkMRMLStorageNode.html#a3dd3b29e37c322b7437c5631f3783d21',1,'vtkMRMLStorageNode']]],
-  ['writestate_39',['WriteState',['../classvtkMRMLStorageNode.html#aece8399d6898145f14e80a3eb5df38bc',1,'vtkMRMLStorageNode']]]
+  ['writers_39',['Writers',['../classvtkMRMLFileIOManager.html#a11363785626b0330c6442ea94f4d139a',1,'vtkMRMLFileIOManager']]],
+  ['writestate_40',['WriteState',['../classvtkMRMLStorageNode.html#aece8399d6898145f14e80a3eb5df38bc',1,'vtkMRMLStorageNode']]],
+  ['writtennodeids_41',['WrittenNodeIDs',['../classvtkMRMLFileWriter.html#aaba618e7cddf25c01224918937a0a336',1,'vtkMRMLFileWriter']]]
 ];

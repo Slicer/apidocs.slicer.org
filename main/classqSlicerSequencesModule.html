@@ -93,6 +93,7 @@ $(function(){ initResizable(false); });
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-slots">Protected Slots</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle"><div class="title">qSlicerSequencesModule Class Reference</div></div>
@@ -328,6 +329,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac872b06a510c143f8e1d82636d2bd275 inherit pub_static_methods_classqSlicerLoadableModule" id="r_ac872b06a510c143f8e1d82636d2bd275"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerLoadableModule.html#ac872b06a510c143f8e1d82636d2bd275">importModulePythonExtensions</a> (<a class="el" href="classqSlicerCorePythonManager.html">qSlicerCorePythonManager</a> *pythonManager, const QString &amp;intDir, const QString &amp;modulePath, bool isEmbedded=false)</td></tr>
 <tr class="memdesc:ac872b06a510c143f8e1d82636d2bd275 inherit pub_static_methods_classqSlicerLoadableModule"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import python extensions associated with <em class="arg">modulePath</em>.  <br /></td></tr>
 <tr class="separator:ac872b06a510c143f8e1d82636d2bd275 inherit pub_static_methods_classqSlicerLoadableModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-slots" name="pro-slots"></a>
+Protected Slots</h2></td></tr>
+<tr class="memitem:adc557ccd1b4d60f094da49dfb2a334a0" id="r_adc557ccd1b4d60f094da49dfb2a334a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc557ccd1b4d60f094da49dfb2a334a0">onShowSequenceBrowserRequested</a> (vtkObject *caller, void *callData)</td></tr>
+<tr class="memdesc:adc557ccd1b4d60f094da49dfb2a334a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the sequences reader requests showing the sequence browser (callData is the browser node)  <br /></td></tr>
+<tr class="separator:adc557ccd1b4d60f094da49dfb2a334a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -826,6 +833,37 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adc557ccd1b4d60f094da49dfb2a334a0" name="adc557ccd1b4d60f094da49dfb2a334a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc557ccd1b4d60f094da49dfb2a334a0">&#9670;&#160;</a></span>onShowSequenceBrowserRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerSequencesModule::onShowSequenceBrowserRequested </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *</td>          <td class="paramname"><span class="paramname"><em>caller</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>callData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the sequences reader requests showing the sequence browser (callData is the browser node) </p>
+
+</div>
+</div>
 <a id="a0175facf51a8bd7a2246a16a4f684478" name="a0175facf51a8bd7a2246a16a4f684478"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0175facf51a8bd7a2246a16a4f684478">&#9670;&#160;</a></span>qSlicerGetTitleMacro()</h2>
 
@@ -1063,7 +1101,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSequencesModule_8h_source.html#l00099">99</a> of file <a class="el" href="qSlicerSequencesModule_8h_source.html">qSlicerSequencesModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSequencesModule_8h_source.html#l00103">103</a> of file <a class="el" href="qSlicerSequencesModule_8h_source.html">qSlicerSequencesModule.h</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1111,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

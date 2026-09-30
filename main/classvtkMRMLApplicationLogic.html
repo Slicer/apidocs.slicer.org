@@ -140,6 +140,7 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a1ba050bbe07b311efd59c04c78c1e296ac6ecf20cb91a8d0861c8d5fab96d4fb0">EditNodeEvent</a>
 , <br />
 &#160;&#160;<a class="el" href="#a1ba050bbe07b311efd59c04c78c1e296ac167098db232298f03d0ec8fb9ee2c4f">ShowViewContextMenuEvent</a>
+, <a class="el" href="#a1ba050bbe07b311efd59c04c78c1e296a81ca869bf3031071d7e97aae3dd1c365">ResetThreeDViewsRequestEvent</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a1ba050bbe07b311efd59c04c78c1e296"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of custom events fired by the class.  <a href="#a1ba050bbe07b311efd59c04c78c1e296">More...</a><br /></td></tr>
@@ -181,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b7c9755b4155b2902834b51ff4c3a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3047d29bcefb4a5b6456ab61b4fcf0ed" id="r_a3047d29bcefb4a5b6456ab61b4fcf0ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLColorLogic.html">vtkMRMLColorLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3047d29bcefb4a5b6456ab61b4fcf0ed">GetColorLogic</a> () const</td></tr>
 <tr class="separator:a3047d29bcefb4a5b6456ab61b4fcf0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e8a3ba25e54a0b226aae4b3ac7ec2f" id="r_a96e8a3ba25e54a0b226aae4b3ac7ec2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96e8a3ba25e54a0b226aae4b3ac7ec2f">GetFileIOManager</a> () const</td></tr>
+<tr class="separator:a96e8a3ba25e54a0b226aae4b3ac7ec2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8327a7cad217a18c45779df2c23c399" id="r_aa8327a7cad217a18c45779df2c23c399"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8327a7cad217a18c45779df2c23c399">GetFontFilePath</a> (const std::string &amp;fontFileName)</td></tr>
 <tr class="memdesc:aa8327a7cad217a18c45779df2c23c399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get full path to custom font file for rendering views from font file name.  <br /></td></tr>
 <tr class="separator:aa8327a7cad217a18c45779df2c23c399"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +249,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8fca9261ce303530a3b9bcd70850297b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85a822842c2b731a66ef3fade955800c" id="r_a85a822842c2b731a66ef3fade955800c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85a822842c2b731a66ef3fade955800c">PropagateVolumeSelection</a> (int layer, int fit)</td></tr>
 <tr class="separator:a85a822842c2b731a66ef3fade955800c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cdd88762cdca59c4fddf9ff054b3939" id="r_a9cdd88762cdca59c4fddf9ff054b3939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cdd88762cdca59c4fddf9ff054b3939">RequestResetThreeDViews</a> ()</td></tr>
+<tr class="separator:a9cdd88762cdca59c4fddf9ff054b3939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a545841671f4544db3a89535540994383" id="r_a545841671f4544db3a89535540994383"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a545841671f4544db3a89535540994383">ResumeRender</a> ()</td></tr>
 <tr class="separator:a545841671f4544db3a89535540994383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a636412fee22b1592216da5be9445ead6" id="r_a636412fee22b1592216da5be9445ead6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a636412fee22b1592216da5be9445ead6">SaveSceneScreenshot</a> (vtkImageData *screenshot)</td></tr>
@@ -461,7 +466,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00050">50</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00051">51</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad5790456baacf806a53c550376a41cdb" name="ad5790456baacf806a53c550376a41cdb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5790456baacf806a53c550376a41cdb">&#9670;&#160;</a></span>Superclass</h2>
@@ -475,7 +480,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00055">55</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00056">56</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
 
 </div>
 </div>
@@ -499,9 +504,11 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a1ba050bbe07b311efd59c04c78c1e296a0fe46c80465c924e29a40ada66e668bb" name="a1ba050bbe07b311efd59c04c78c1e296a0fe46c80465c924e29a40ada66e668bb"></a>ResumeRenderEvent&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1ba050bbe07b311efd59c04c78c1e296ac6ecf20cb91a8d0861c8d5fab96d4fb0" name="a1ba050bbe07b311efd59c04c78c1e296ac6ecf20cb91a8d0861c8d5fab96d4fb0"></a>EditNodeEvent&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1ba050bbe07b311efd59c04c78c1e296ac167098db232298f03d0ec8fb9ee2c4f" name="a1ba050bbe07b311efd59c04c78c1e296ac167098db232298f03d0ec8fb9ee2c4f"></a>ShowViewContextMenuEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1ba050bbe07b311efd59c04c78c1e296a81ca869bf3031071d7e97aae3dd1c365" name="a1ba050bbe07b311efd59c04c78c1e296a81ca869bf3031071d7e97aae3dd1c365"></a>ResetThreeDViewsRequestEvent&#160;</td><td class="fielddoc"><p>Request resetting the field of view of all 3D views (for example, after the first model is loaded). The event is handled by the application (it resets the camera of all 3D views). </p>
+</td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00201">201</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00211">211</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +531,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="ac3fa67b7e5aebf5c267056495cff8a24a0b444d55231fb1686c59e0ce727715e9" name="ac3fa67b7e5aebf5c267056495cff8a24a0b444d55231fb1686c59e0ce727715e9"></a>IntersectingSlicesThickSlabInteractive&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00265">265</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00281">281</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
 
 </div>
 </div>
@@ -546,7 +553,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a6acb9b231811c17bc7b1f68c99dae05da75d92691a7deeab374a84d77f86388db" name="a6acb9b231811c17bc7b1f68c99dae05da75d92691a7deeab374a84d77f86388db"></a>AllLayers&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00115">115</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLApplicationLogic_8h_source.html#l00121">121</a> of file <a class="el" href="vtkMRMLApplicationLogic_8h_source.html">vtkMRMLApplicationLogic.h</a>.</p>
 
 </div>
 </div>
@@ -806,6 +813,24 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e8a3ba25e54a0b226aae4b3ac7ec2f" name="a96e8a3ba25e54a0b226aae4b3ac7ec2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e8a3ba25e54a0b226aae4b3ac7ec2f">&#9670;&#160;</a></span>GetFileIOManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> * vtkMRMLApplicationLogic::GetFileIOManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Manager of file readers and writers of the application. Readers and writers created by module logics are registered in it (see <a class="el" href="classvtkMRMLModuleLogic.html#a8ab6ed4b2a78241fb7a74cec8fc71429">vtkMRMLModuleLogic::CreateFileIOHandlers()</a>) and it is used for loading and saving data. </p>
 
 </div>
 </div>
@@ -1811,6 +1836,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9cdd88762cdca59c4fddf9ff054b3939" name="a9cdd88762cdca59c4fddf9ff054b3939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cdd88762cdca59c4fddf9ff054b3939">&#9670;&#160;</a></span>RequestResetThreeDViews()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLApplicationLogic::RequestResetThreeDViews </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Request resetting the field of view (focal point and camera) of all 3D views. Invokes ResetThreeDViewsRequestEvent, which is handled by the application. </p>
+
+</div>
+</div>
 <a id="a545841671f4544db3a89535540994383" name="a545841671f4544db3a89535540994383"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a545841671f4544db3a89535540994383">&#9670;&#160;</a></span>ResumeRender()</h2>
 
@@ -1905,7 +1948,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Save the scene into a self contained directory, sdbDir Called by the <a class="el" href="classqSlicerSceneWriter.html">qSlicerSceneWriter</a>, which can be accessed via </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerCoreIOManager.html#ab47f6aac4f72dfc48b1a7ada8a20f07d">qSlicerCoreIOManager::saveScene</a> If screenShot is not null, use it as the screen shot for a scene view Returns false if the save failed </dd></dl>
+<p>Save the scene into a self contained directory, sdbDir Called by the <a class="el" href="classvtkSlicerSceneWriter.html">vtkSlicerSceneWriter</a>, which can be accessed via </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerCoreIOManager.html#ab47f6aac4f72dfc48b1a7ada8a20f07d">qSlicerCoreIOManager::saveScene</a> If screenShot is not null, use it as the screen shot for a scene view Returns false if the save failed </dd></dl>
 
 </div>
 </div>
@@ -2068,7 +2111,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Sets a module with its corresponding logic to the application logic. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">moduleName</td><td>name of the module. </td></tr>
-    <tr><td class="paramname">moduleLogic</td><td>pointer to logic to be associated to the module. If this parameter is nullptr, then the module logic will be removed from the application logic. </td></tr>
+    <tr><td class="paramname">moduleLogic</td><td>pointer to logic to be associated to the module. If this parameter is nullptr, then the module logic will be removed from the application logic. If the module logic is a <a class="el" href="classvtkMRMLModuleLogic.html" title="Superclass for logic classes of modules.">vtkMRMLModuleLogic</a> then the file readers and writers that it creates are registered in the file IO manager (see <a class="el" href="classvtkMRMLModuleLogic.html#a8ab6ed4b2a78241fb7a74cec8fc71429">vtkMRMLModuleLogic::CreateFileIOHandlers()</a>) and they are unregistered when the module logic is removed, replaced, or deleted. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2295,7 +2338,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:21 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:36 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

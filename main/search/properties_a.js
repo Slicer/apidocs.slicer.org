@@ -12,7 +12,7 @@ var searchData=
   ['level_9',['level',['../classqMRMLWindowLevelWidget.html#afe6b28d6f2b013af080c0647b6e6eeaa',1,'qMRMLWindowLevelWidget']]],
   ['levelfilter_10',['levelFilter',['../classqMRMLSortFilterSubjectHierarchyProxyModel.html#a8380cea52ab8d9a96ad09e47ed1f1a1e',1,'qMRMLSortFilterSubjectHierarchyProxyModel::levelFilter'],['../classqMRMLSubjectHierarchyTreeView.html#a7574866b15f726c23a0ff4235e8078bc',1,'qMRMLSubjectHierarchyTreeView::levelFilter']]],
   ['listennodemodifiedevent_11',['listenNodeModifiedEvent',['../classqMRMLSceneModel.html#ac8ffa298ad6e83901139ca8075d688a6',1,'qMRMLSceneModel::listenNodeModifiedEvent'],['../classqMRMLTreeView.html#aa7de270fc202e0a0b1541a1d60c1b115',1,'qMRMLTreeView::listenNodeModifiedEvent']]],
-  ['loadednodes_12',['loadedNodes',['../classqSlicerScriptedFileReader.html#a1951553a2747305454510957b904fd33',1,'qSlicerScriptedFileReader::loadedNodes'],['../classqSlicerFileDialog.html#a460ed2fbaebd2da58009f1f98a9b17bf',1,'qSlicerFileDialog::loadedNodes']]],
+  ['loadednodes_12',['loadedNodes',['../classqSlicerFileDialog.html#a460ed2fbaebd2da58009f1f98a9b17bf',1,'qSlicerFileDialog']]],
   ['locked_13',['locked',['../classqMRMLSegmentationShow3DButton.html#a5e0efca7513d93b0ed235fffa2e3a2ac',1,'qMRMLSegmentationShow3DButton']]],
   ['logo_14',['logo',['../classqSlicerAbstractModule.html#a31f4fe2b0197dd6e51e6bc745b7d2bc9',1,'qSlicerAbstractModule']]],
   ['lowerthreshold_15',['lowerThreshold',['../classqMRMLVolumeThresholdWidget.html#a46aeed6b2620e7c6da091ad472aa0dc9',1,'qMRMLVolumeThresholdWidget']]],

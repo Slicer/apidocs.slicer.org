@@ -163,6 +163,8 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a0fa92f9c6838716e11edb95bc4f2e3cb" id="r_a0fa92f9c6838716e11edb95bc4f2e3cb"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fa92f9c6838716e11edb95bc4f2e3cb">recentLogFiles</a> ()</td></tr>
 <tr class="memdesc:a0fa92f9c6838716e11edb95bc4f2e3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paths of recent log files.  <br /></td></tr>
 <tr class="separator:a0fa92f9c6838716e11edb95bc4f2e3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9945af0df047b77915bf6e227eddbfef" id="r_a9945af0df047b77915bf6e227eddbfef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9945af0df047b77915bf6e227eddbfef">resetThreeDViews</a> () override</td></tr>
+<tr class="separator:a9945af0df047b77915bf6e227eddbfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0515f3faa27d9b3d0b757805295a182" id="r_aa0515f3faa27d9b3d0b757805295a182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0515f3faa27d9b3d0b757805295a182">resumeRender</a> () override</td></tr>
 <tr class="separator:aa0515f3faa27d9b3d0b757805295a182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01b4ffd5b69a00aaeb2dc9930e2eb26c" id="r_a01b4ffd5b69a00aaeb2dc9930e2eb26c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b4ffd5b69a00aaeb2dc9930e2eb26c">setHasBorderInFullScreen</a> (bool)</td></tr>
@@ -443,6 +445,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec5e5e1511497d63e5c35551c6628287 inherit pub_methods_classqSlicerCoreApplication"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93a8015635a49ee2c26fee15195c4993 inherit pub_methods_classqSlicerCoreApplication" id="r_a93a8015635a49ee2c26fee15195c4993"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a93a8015635a49ee2c26fee15195c4993">resumeRender</a> ()</td></tr>
 <tr class="separator:a93a8015635a49ee2c26fee15195c4993 inherit pub_methods_classqSlicerCoreApplication"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae12108df388ec73b57c637d37e575d9 inherit pub_methods_classqSlicerCoreApplication" id="r_aae12108df388ec73b57c637d37e575d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#aae12108df388ec73b57c637d37e575d9">resetThreeDViews</a> ()</td></tr>
+<tr class="separator:aae12108df388ec73b57c637d37e575d9 inherit pub_methods_classqSlicerCoreApplication"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57298219f968cb51258037af046e1e00 inherit pub_methods_classqSlicerCoreApplication" id="r_a57298219f968cb51258037af046e1e00"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a57298219f968cb51258037af046e1e00">loadFiles</a> (const QStringList &amp;filePaths, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
 <tr class="separator:a57298219f968cb51258037af046e1e00 inherit pub_methods_classqSlicerCoreApplication"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19676aeb8ec5bb912963b784b6473dcf inherit pub_methods_classqSlicerCoreApplication" id="r_a19676aeb8ec5bb912963b784b6473dcf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerCoreApplication.html#a19676aeb8ec5bb912963b784b6473dcf">openUrl</a> (const QString &amp;url)</td></tr>
@@ -1292,6 +1296,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9945af0df047b77915bf6e227eddbfef" name="a9945af0df047b77915bf6e227eddbfef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9945af0df047b77915bf6e227eddbfef">&#9670;&#160;</a></span>resetThreeDViews</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerApplication::resetThreeDViews </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset the field of view (focal point and camera) of all 3D views of the current layout manager. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqMRMLLayoutManager.html#ad4de6e18ed414264438916b5e1a54983">qSlicerLayoutManager::resetThreeDViews()</a> </dd></dl>
+
+</div>
+</div>
 <a id="aa0515f3faa27d9b3d0b757805295a182" name="aa0515f3faa27d9b3d0b757805295a182"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0515f3faa27d9b3d0b757805295a182">&#9670;&#160;</a></span>resumeRender</h2>
 
@@ -1485,7 +1515,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

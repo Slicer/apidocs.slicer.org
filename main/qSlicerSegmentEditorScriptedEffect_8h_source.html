@@ -126,7 +126,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// Forward Declare PyObject*</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#ifndef PyObject_HEAD</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">struct </span>_object;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">typedef</span> _object <a class="code hl_typedef" href="qSlicerScriptedFileReader_8h.html#ae19630c1f4ca6d5236b30719d9140013">PyObject</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">typedef</span> _object <a class="code hl_typedef" href="qSlicerScriptedFileDialog_8h.html#ae19630c1f4ca6d5236b30719d9140013">PyObject</a>;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">class </span>qSlicerSegmentEditorScriptedEffectPrivate;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
@@ -144,7 +144,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classqSlicerSegmentEditorScriptedEffect.html#a1f58cdffcd72cbd436262f600e10e6b5">   58</a></span>  Q_INVOKABLE <span class="keywordtype">bool</span> <a class="code hl_function" href="classqSlicerSegmentEditorScriptedEffect.html#a1f58cdffcd72cbd436262f600e10e6b5">setPythonSource</a>(<span class="keyword">const</span> QString newPythonSource);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classqSlicerSegmentEditorScriptedEffect.html#ad0f41776ee2b8a9374229497258861c1">   61</a></span>  Q_INVOKABLE <a class="code hl_typedef" href="qSlicerScriptedFileReader_8h.html#ae19630c1f4ca6d5236b30719d9140013">PyObject</a>* <a class="code hl_function" href="classqSlicerSegmentEditorScriptedEffect.html#ad0f41776ee2b8a9374229497258861c1">self</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classqSlicerSegmentEditorScriptedEffect.html#ad0f41776ee2b8a9374229497258861c1">   61</a></span>  Q_INVOKABLE <a class="code hl_typedef" href="qSlicerScriptedFileDialog_8h.html#ae19630c1f4ca6d5236b30719d9140013">PyObject</a>* <a class="code hl_function" href="classqSlicerSegmentEditorScriptedEffect.html#ad0f41776ee2b8a9374229497258861c1">self</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classqSlicerSegmentEditorScriptedEffect.html#a49d5cc7f4f2f92d7ff12f0f76e77a4e0">   65</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classqSlicerSegmentEditorScriptedEffect.html#a49d5cc7f4f2f92d7ff12f0f76e77a4e0">setName</a>(QString <a class="code hl_property" href="classqSlicerSegmentEditorAbstractEffect.html#a040e5c04c8850472130e2480a5e3c99a">name</a>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
@@ -232,12 +232,12 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassqSlicerSegmentEditorScriptedEffect_html_afb14a7953df1df71458072fb0dba06c6"><div class="ttname"><a href="classqSlicerSegmentEditorScriptedEffect.html#afb14a7953df1df71458072fb0dba06c6">qSlicerSegmentEditorScriptedEffect::processInteractionEvents</a></div><div class="ttdeci">bool processInteractionEvents(vtkRenderWindowInteractor *callerInteractor, unsigned long eid, qMRMLWidget *viewWidget) override</div></div>
 <div class="ttc" id="aclassvtkMRMLAbstractViewNode_html"><div class="ttname"><a href="classvtkMRMLAbstractViewNode.html">vtkMRMLAbstractViewNode</a></div><div class="ttdoc">Abstract MRML node to represent a view. The class holds the properties common to any view type (3D,...</div><div class="ttdef"><b>Definition</b> <a href="vtkMRMLAbstractViewNode_8h_source.html#l00038">vtkMRMLAbstractViewNode.h:39</a></div></div>
 <div class="ttc" id="aclassvtkMRMLInteractionNode_html"><div class="ttname"><a href="classvtkMRMLInteractionNode.html">vtkMRMLInteractionNode</a></div><div class="ttdef"><b>Definition</b> <a href="vtkMRMLInteractionNode_8h_source.html#l00008">vtkMRMLInteractionNode.h:9</a></div></div>
-<div class="ttc" id="aqSlicerScriptedFileReader_8h_html_ae19630c1f4ca6d5236b30719d9140013"><div class="ttname"><a href="qSlicerScriptedFileReader_8h.html#ae19630c1f4ca6d5236b30719d9140013">PyObject</a></div><div class="ttdeci">_object PyObject</div><div class="ttdef"><b>Definition</b> <a href="qSlicerScriptedFileReader_8h_source.html#l00031">qSlicerScriptedFileReader.h:31</a></div></div>
+<div class="ttc" id="aqSlicerScriptedFileDialog_8h_html_ae19630c1f4ca6d5236b30719d9140013"><div class="ttname"><a href="qSlicerScriptedFileDialog_8h.html#ae19630c1f4ca6d5236b30719d9140013">PyObject</a></div><div class="ttdeci">_object PyObject</div><div class="ttdef"><b>Definition</b> <a href="qSlicerScriptedFileDialog_8h_source.html#l00031">qSlicerScriptedFileDialog.h:31</a></div></div>
 <div class="ttc" id="aqSlicerSegmentEditorAbstractEffect_8h_html"><div class="ttname"><a href="qSlicerSegmentEditorAbstractEffect_8h.html">qSlicerSegmentEditorAbstractEffect.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:19 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:34 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

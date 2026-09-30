@@ -260,6 +260,8 @@ Public Member Functions</h2></td></tr>
 Protected Slots</h2></td></tr>
 <tr class="memitem:a82d125139098b1093c2be3042a75c665" id="r_a82d125139098b1093c2be3042a75c665"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d125139098b1093c2be3042a75c665">onNodeAdded</a> (vtkObject *scene, vtkObject *nodeObject)</td></tr>
 <tr class="separator:a82d125139098b1093c2be3042a75c665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0191e32f50c507bf1fe49c8930a82202" id="r_a0191e32f50c507bf1fe49c8930a82202"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0191e32f50c507bf1fe49c8930a82202">onSettingChanged</a> (const QString &amp;key, const QVariant &amp;value)</td></tr>
+<tr class="separator:a0191e32f50c507bf1fe49c8930a82202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -697,6 +699,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a0191e32f50c507bf1fe49c8930a82202" name="a0191e32f50c507bf1fe49c8930a82202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0191e32f50c507bf1fe49c8930a82202">&#9670;&#160;</a></span>onSettingChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerSegmentationsModule::onSettingChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when an application setting is changed in the settings dialog. Updates the default value of the reader option that is specified in the settings. </p>
+
+</div>
+</div>
 <a id="a401a4487d3c7401df1f6a49a7a953736" name="a401a4487d3c7401df1f6a49a7a953736"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a401a4487d3c7401df1f6a49a7a953736">&#9670;&#160;</a></span>qSlicerGetTitleMacro()</h2>
 
@@ -791,7 +823,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerSegmentationsModule_8h_source.html#l00089">89</a> of file <a class="el" href="qSlicerSegmentationsModule_8h_source.html">qSlicerSegmentationsModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerSegmentationsModule_8h_source.html#l00093">93</a> of file <a class="el" href="qSlicerSegmentationsModule_8h_source.html">qSlicerSegmentationsModule.h</a>.</p>
 
 </div>
 </div>
@@ -801,7 +833,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

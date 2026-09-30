@@ -146,6 +146,7 @@ Public Types</h2></td></tr>
 , <a class="el" href="classvtkMRMLApplicationLogic.html#a1ba050bbe07b311efd59c04c78c1e296ac6ecf20cb91a8d0861c8d5fab96d4fb0">EditNodeEvent</a>
 , <br />
 &#160;&#160;<a class="el" href="classvtkMRMLApplicationLogic.html#a1ba050bbe07b311efd59c04c78c1e296ac167098db232298f03d0ec8fb9ee2c4f">ShowViewContextMenuEvent</a>
+, <a class="el" href="classvtkMRMLApplicationLogic.html#a1ba050bbe07b311efd59c04c78c1e296a81ca869bf3031071d7e97aae3dd1c365">ResetThreeDViewsRequestEvent</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a1ba050bbe07b311efd59c04c78c1e296"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of custom events fired by the class.  <a href="classvtkMRMLApplicationLogic.html#a1ba050bbe07b311efd59c04c78c1e296">More...</a><br /></td></tr>
@@ -233,6 +234,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab63e846ba9f84e635fabde745a03b517 inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3047d29bcefb4a5b6456ab61b4fcf0ed inherit pub_methods_classvtkMRMLApplicationLogic" id="r_a3047d29bcefb4a5b6456ab61b4fcf0ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLColorLogic.html">vtkMRMLColorLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a3047d29bcefb4a5b6456ab61b4fcf0ed">GetColorLogic</a> () const</td></tr>
 <tr class="separator:a3047d29bcefb4a5b6456ab61b4fcf0ed inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e8a3ba25e54a0b226aae4b3ac7ec2f inherit pub_methods_classvtkMRMLApplicationLogic" id="r_a96e8a3ba25e54a0b226aae4b3ac7ec2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a96e8a3ba25e54a0b226aae4b3ac7ec2f">GetFileIOManager</a> () const</td></tr>
+<tr class="separator:a96e8a3ba25e54a0b226aae4b3ac7ec2f inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8327a7cad217a18c45779df2c23c399 inherit pub_methods_classvtkMRMLApplicationLogic" id="r_aa8327a7cad217a18c45779df2c23c399"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#aa8327a7cad217a18c45779df2c23c399">GetFontFilePath</a> (const std::string &amp;fontFileName)</td></tr>
 <tr class="memdesc:aa8327a7cad217a18c45779df2c23c399 inherit pub_methods_classvtkMRMLApplicationLogic"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get full path to custom font file for rendering views from font file name.  <br /></td></tr>
 <tr class="separator:aa8327a7cad217a18c45779df2c23c399 inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,6 +299,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8fca9261ce303530a3b9bcd70850297b inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85a822842c2b731a66ef3fade955800c inherit pub_methods_classvtkMRMLApplicationLogic" id="r_a85a822842c2b731a66ef3fade955800c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a85a822842c2b731a66ef3fade955800c">PropagateVolumeSelection</a> (int layer, int fit)</td></tr>
 <tr class="separator:a85a822842c2b731a66ef3fade955800c inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cdd88762cdca59c4fddf9ff054b3939 inherit pub_methods_classvtkMRMLApplicationLogic" id="r_a9cdd88762cdca59c4fddf9ff054b3939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a9cdd88762cdca59c4fddf9ff054b3939">RequestResetThreeDViews</a> ()</td></tr>
+<tr class="separator:a9cdd88762cdca59c4fddf9ff054b3939 inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a545841671f4544db3a89535540994383 inherit pub_methods_classvtkMRMLApplicationLogic" id="r_a545841671f4544db3a89535540994383"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a545841671f4544db3a89535540994383">ResumeRender</a> ()</td></tr>
 <tr class="separator:a545841671f4544db3a89535540994383 inherit pub_methods_classvtkMRMLApplicationLogic"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a636412fee22b1592216da5be9445ead6 inherit pub_methods_classvtkMRMLApplicationLogic" id="r_a636412fee22b1592216da5be9445ead6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLApplicationLogic.html#a636412fee22b1592216da5be9445ead6">SaveSceneScreenshot</a> (vtkImageData *screenshot)</td></tr>
@@ -1702,7 +1707,7 @@ If <em class="arg">organizationDomain</em> or <em class="arg">organizationName</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:23 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:38 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

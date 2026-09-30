@@ -47,7 +47,7 @@ var searchData=
   ['expanded_44',['Expanded',['../classvtkMRMLDisplayableHierarchyNode.html#afa1cf23add44eb8181e881ee0001477a',1,'vtkMRMLDisplayableHierarchyNode']]],
   ['expectedfps_45',['ExpectedFPS',['../classvtkMRMLViewNode.html#abadfd370b773006d32790cf4538a52d5',1,'vtkMRMLViewNode']]],
   ['extension_46',['Extension',['../structITKImageFileFormatStruct.html#a461329204dc2d2b64b732c138137b719',1,'ITKImageFileFormatStruct']]],
-  ['extensions_47',['Extensions',['../classvtkMRMLScene.html#a7e287c287e042ace1ecc02ef47a4ec99',1,'vtkMRMLScene']]],
+  ['extensions_47',['Extensions',['../classvtkMRMLScene.html#a7e287c287e042ace1ecc02ef47a4ec99',1,'vtkMRMLScene::Extensions'],['../classvtkMRMLFileIOHandler.html#a431858952f04ef9c7e90de4b8d7cbbaa',1,'vtkMRMLFileIOHandler::Extensions']]],
   ['extensions_48',['extensions',['../namespaceconf.html#ae475e080536acb271a0a0efe56c3ba42',1,'conf']]],
   ['extentgrowthratio_49',['extentGrowthRatio',['../classSegmentEditorEffects_1_1AbstractScriptedSegmentEditorAutoCompleteEffect_1_1AbstractScriptedSegmentEditorAutoCompleteEffect.html#a43f85c2f69cdbe2c72d53fe2d75bdcc1',1,'SegmentEditorEffects.AbstractScriptedSegmentEditorAutoCompleteEffect.AbstractScriptedSegmentEditorAutoCompleteEffect.extentGrowthRatio'],['../classSegmentEditorEffects_1_1SegmentEditorGrowFromSeedsEffect_1_1SegmentEditorGrowFromSeedsEffect.html',1,'SegmentEditorEffects.SegmentEditorGrowFromSeedsEffect.SegmentEditorGrowFromSeedsEffect.extentGrowthRatio']]],
   ['extractalpha_50',['ExtractAlpha',['../classvtkMRMLScalarVolumeDisplayNode.html#ac494990c9fd462583f6043e781237231',1,'vtkMRMLScalarVolumeDisplayNode']]],

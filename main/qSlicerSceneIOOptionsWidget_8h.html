@@ -95,55 +95,108 @@ $(function(){ initResizable(false); });
   <div class="headertitle"><div class="title">qSlicerSceneIOOptionsWidget.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="qSlicerIOOptionsWidget_8h_source.html">qSlicerIOOptionsWidget.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="qSlicerGenericIOOptionsWidget_8h_source.html">qSlicerGenericIOOptionsWidget.h</a>&quot;</code><br />
 <code>#include &quot;qSlicerDataModuleExport.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="vtkSlicerSceneReader_8h_source.html">vtkSlicerSceneReader.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for qSlicerSceneIOOptionsWidget.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="qSlicerSceneIOOptionsWidget_8h__incl.png" border="0" usemap="#aModules_2Loadable_2Data_2qSlicerSceneIOOptionsWidget_8h" alt=""/></div>
 <map name="aModules_2Loadable_2Data_2qSlicerSceneIOOptionsWidget_8h" id="aModules_2Loadable_2Data_2qSlicerSceneIOOptionsWidget_8h">
-<area shape="rect" title=" " alt="" coords="1047,5,1277,45"/>
-<area shape="rect" href="qSlicerIOOptionsWidget_8h.html" title=" " alt="" coords="960,93,1148,119"/>
-<area shape="poly" title=" " alt="" coords="1137,48,1083,87,1080,83,1134,43"/>
-<area shape="rect" title=" " alt="" coords="1172,93,1371,119"/>
-<area shape="poly" title=" " alt="" coords="1190,43,1246,83,1243,87,1187,48"/>
-<area shape="rect" title=" " alt="" coords="957,240,1151,265"/>
-<area shape="poly" title=" " alt="" coords="1057,119,1057,226,1051,226,1051,119"/>
-<area shape="rect" href="qSlicerIOOptions_8h.html" title=" " alt="" coords="640,167,783,192"/>
-<area shape="poly" title=" " alt="" coords="999,121,781,166,780,161,998,116"/>
-<area shape="rect" href="qSlicerWidget_8h.html" title=" " alt="" coords="1165,167,1289,192"/>
-<area shape="poly" title=" " alt="" coords="1083,116,1187,159,1185,164,1081,121"/>
-<area shape="rect" title=" " alt="" coords="807,387,933,412"/>
-<area shape="poly" title=" " alt="" coords="742,190,780,207,823,234,865,268,882,289,896,312,901,329,900,346,888,376,883,374,894,344,896,329,892,314,878,292,861,272,820,238,777,212,740,194"/>
-<area shape="rect" href="qSlicerIO_8h.html" title=" " alt="" coords="457,240,549,265"/>
-<area shape="poly" title=" " alt="" coords="679,195,551,238,549,233,677,189"/>
-<area shape="rect" title=" " alt="" coords="5,387,204,412"/>
-<area shape="poly" title=" " alt="" coords="640,188,506,202,346,227,269,243,201,264,146,288,126,301,111,315,103,328,100,343,101,373,96,373,95,342,98,326,107,312,123,297,144,283,199,259,268,238,345,221,505,197,640,183"/>
-<area shape="rect" title=" " alt="" coords="677,313,737,339"/>
-<area shape="poly" title=" " alt="" coords="537,263,665,307,664,312,535,268"/>
-<area shape="rect" title=" " alt="" coords="143,313,237,339"/>
-<area shape="poly" title=" " alt="" coords="458,267,251,314,250,308,457,262"/>
-<area shape="rect" title=" " alt="" coords="262,313,337,339"/>
-<area shape="poly" title=" " alt="" coords="471,268,346,311,344,306,470,263"/>
-<area shape="rect" title=" " alt="" coords="361,313,432,339"/>
-<area shape="poly" title=" " alt="" coords="488,268,427,308,424,303,485,263"/>
-<area shape="rect" title=" " alt="" coords="457,313,550,339"/>
-<area shape="poly" title=" " alt="" coords="506,266,506,300,501,300,501,266"/>
-<area shape="rect" title=" " alt="" coords="575,313,653,339"/>
-<area shape="poly" title=" " alt="" coords="523,263,586,303,583,308,520,268"/>
-<area shape="poly" title=" " alt="" coords="457,258,375,263,279,273,190,290,155,301,132,315,122,328,115,342,108,373,103,372,110,340,117,325,128,311,153,297,188,284,278,267,375,257,457,253"/>
-<area shape="rect" href="qSlicerObject_8h.html" title=" " alt="" coords="762,313,882,339"/>
-<area shape="poly" title=" " alt="" coords="550,262,758,308,757,313,549,267"/>
-<area shape="poly" title=" " alt="" coords="832,338,857,374,852,377,828,341"/>
-<area shape="poly" title=" " alt="" coords="762,340,750,341,463,372,218,392,218,387,462,367,750,336,762,334"/>
-<area shape="poly" title=" " alt="" coords="1200,194,1096,237,1094,232,1198,190"/>
-<area shape="poly" title=" " alt="" coords="1224,194,1203,231,1185,251,1165,268,1116,286,1046,301,896,321,895,316,1045,296,1114,281,1162,263,1182,247,1198,228,1220,191"/>
-<area shape="rect" title=" " alt="" coords="1227,240,1305,265"/>
-<area shape="poly" title=" " alt="" coords="1236,191,1256,227,1251,229,1231,194"/>
-<area shape="rect" title=" " alt="" coords="1330,240,1421,265"/>
-<area shape="poly" title=" " alt="" coords="1252,190,1340,232,1338,236,1250,194"/>
-<area shape="rect" title=" " alt="" coords="1445,240,1567,265"/>
-<area shape="poly" title=" " alt="" coords="1273,189,1448,234,1447,239,1271,195"/>
+<area shape="rect" title=" " alt="" coords="1819,5,2049,45"/>
+<area shape="rect" href="qSlicerGenericIOOptionsWidget_8h.html" title=" " alt="" coords="1536,93,1775,119"/>
+<area shape="poly" title=" " alt="" coords="1868,48,1710,92,1709,87,1867,43"/>
+<area shape="rect" title=" " alt="" coords="1835,93,2033,119"/>
+<area shape="poly" title=" " alt="" coords="1937,46,1937,79,1931,79,1931,46"/>
+<area shape="rect" href="vtkSlicerSceneReader_8h.html" title=" " alt="" coords="2076,93,2251,119"/>
+<area shape="poly" title=" " alt="" coords="1990,43,2118,86,2116,91,1988,48"/>
+<area shape="rect" title=" " alt="" coords="1470,401,1665,427"/>
+<area shape="poly" title=" " alt="" coords="1655,120,1577,389,1572,387,1649,118"/>
+<area shape="rect" href="qSlicerFileWriterOptionsWidget_8h.html" title=" " alt="" coords="1377,167,1555,207"/>
+<area shape="poly" title=" " alt="" coords="1629,121,1525,164,1523,159,1627,116"/>
+<area shape="rect" href="vtkMRMLFileIOHandler_8h.html" title=" " alt="" coords="2075,255,2257,280"/>
+<area shape="poly" title=" " alt="" coords="1657,119,1660,162,1668,185,1682,205,1709,221,1746,234,1845,252,1957,261,2061,264,2061,269,1956,266,1844,257,1745,239,1706,225,1679,209,1663,188,1655,163,1652,119"/>
+<area shape="rect" title=" " alt="" coords="1693,174,1831,199"/>
+<area shape="poly" title=" " alt="" coords="1673,117,1737,164,1734,168,1669,121"/>
+<area shape="rect" href="qSlicerIOOptionsWidget_8h.html" title=" " alt="" coords="1317,255,1505,280"/>
+<area shape="poly" title=" " alt="" coords="1455,208,1429,245,1425,242,1451,205"/>
+<area shape="poly" title=" " alt="" coords="1426,278,1547,390,1543,394,1422,282"/>
+<area shape="rect" href="qSlicerIOOptions_8h.html" title=" " alt="" coords="704,328,847,353"/>
+<area shape="poly" title=" " alt="" coords="1317,282,860,333,860,327,1317,276"/>
+<area shape="rect" href="qSlicerWidget_8h.html" title=" " alt="" coords="1257,328,1381,353"/>
+<area shape="poly" title=" " alt="" coords="1398,282,1347,322,1343,317,1395,278"/>
+<area shape="rect" title=" " alt="" coords="905,548,1030,573"/>
+<area shape="poly" title=" " alt="" coords="817,351,861,368,910,393,957,428,977,449,994,474,999,490,998,507,986,537,981,535,992,505,993,490,989,476,973,453,954,432,907,398,858,373,815,356"/>
+<area shape="rect" href="qSlicerIO_8h.html" title=" " alt="" coords="488,401,580,427"/>
+<area shape="poly" title=" " alt="" coords="737,356,587,400,586,395,736,351"/>
+<area shape="rect" title=" " alt="" coords="5,548,204,573"/>
+<area shape="poly" title=" " alt="" coords="704,348,556,360,377,383,290,400,213,421,151,446,128,461,111,476,103,489,100,504,101,534,96,535,95,503,98,487,107,473,125,456,149,441,211,416,289,394,376,377,555,354,703,343"/>
+<area shape="rect" title=" " alt="" coords="245,475,305,500"/>
+<area shape="poly" title=" " alt="" coords="493,429,319,477,318,472,492,424"/>
+<area shape="rect" title=" " alt="" coords="329,475,424,500"/>
+<area shape="poly" title=" " alt="" coords="510,429,416,471,414,467,508,424"/>
+<area shape="rect" title=" " alt="" coords="449,475,523,500"/>
+<area shape="poly" title=" " alt="" coords="528,429,504,465,499,462,524,426"/>
+<area shape="rect" title=" " alt="" coords="548,475,619,500"/>
+<area shape="poly" title=" " alt="" coords="544,425,570,462,565,465,540,429"/>
+<area shape="rect" title=" " alt="" coords="643,475,737,500"/>
+<area shape="poly" title=" " alt="" coords="560,424,653,466,651,471,558,429"/>
+<area shape="rect" title=" " alt="" coords="761,475,835,500"/>
+<area shape="poly" title=" " alt="" coords="577,424,749,470,747,475,576,429"/>
+<area shape="rect" title=" " alt="" coords="143,475,221,500"/>
+<area shape="poly" title=" " alt="" coords="488,427,235,477,234,472,487,421"/>
+<area shape="poly" title=" " alt="" coords="488,419,400,422,294,432,196,449,158,462,132,477,121,489,114,504,108,535,103,534,109,502,117,486,128,473,156,457,194,444,293,426,399,417,488,413"/>
+<area shape="rect" href="qSlicerObject_8h.html" title=" " alt="" coords="859,475,979,500"/>
+<area shape="poly" title=" " alt="" coords="581,421,847,470,846,475,580,426"/>
+<area shape="poly" title=" " alt="" coords="929,499,954,535,950,538,925,502"/>
+<area shape="poly" title=" " alt="" coords="859,501,846,503,504,535,218,556,218,550,503,530,846,497,859,496"/>
+<area shape="poly" title=" " alt="" coords="1360,351,1515,395,1513,400,1358,356"/>
+<area shape="poly" title=" " alt="" coords="1264,356,1183,376,1094,404,1017,437,953,470,950,465,1015,432,1092,399,1181,371,1263,351"/>
+<area shape="rect" title=" " alt="" coords="1105,401,1184,427"/>
+<area shape="poly" title=" " alt="" coords="1292,356,1187,398,1185,394,1290,351"/>
+<area shape="rect" title=" " alt="" coords="1209,401,1299,427"/>
+<area shape="poly" title=" " alt="" coords="1311,355,1276,393,1272,389,1307,352"/>
+<area shape="rect" title=" " alt="" coords="1324,401,1445,427"/>
+<area shape="poly" title=" " alt="" coords="1332,352,1367,389,1363,393,1328,355"/>
+<area shape="rect" href="vtkMRMLIOProperties_8h.html" title=" " alt="" coords="2444,328,2619,353"/>
+<area shape="poly" title=" " alt="" coords="2225,277,2459,323,2458,328,2224,283"/>
+<area shape="rect" title=" " alt="" coords="2670,401,2841,427"/>
+<area shape="poly" title=" " alt="" coords="2257,265,2339,269,2434,278,2535,296,2632,326,2662,339,2689,356,2734,390,2731,395,2686,360,2659,344,2630,330,2534,302,2434,284,2339,274,2257,270"/>
+<area shape="rect" title=" " alt="" coords="2348,401,2445,427"/>
+<area shape="poly" title=" " alt="" coords="2258,270,2292,276,2325,287,2356,304,2383,326,2392,340,2398,356,2401,387,2396,388,2393,357,2387,343,2379,330,2353,308,2323,292,2290,282,2257,275"/>
+<area shape="rect" title=" " alt="" coords="2254,401,2313,427"/>
+<area shape="poly" title=" " alt="" coords="2175,279,2195,313,2223,352,2261,390,2257,394,2219,355,2190,315,2170,282"/>
+<area shape="rect" title=" " alt="" coords="2167,401,2229,427"/>
+<area shape="poly" title=" " alt="" coords="2132,282,2103,295,2077,312,2062,331,2061,341,2066,352,2079,363,2100,375,2155,397,2153,401,2098,380,2075,368,2061,355,2056,342,2057,329,2073,308,2100,291,2130,278"/>
+<area shape="rect" href="vtkMRMLMessageCollection_8h.html" title=" " alt="" coords="1782,328,2001,353"/>
+<area shape="poly" title=" " alt="" coords="2123,283,1950,327,1948,322,2121,277"/>
+<area shape="rect" title=" " alt="" coords="2075,328,2158,353"/>
+<area shape="poly" title=" " alt="" coords="2160,282,2135,318,2130,315,2156,279"/>
+<area shape="rect" title=" " alt="" coords="2233,328,2369,353"/>
+<area shape="poly" title=" " alt="" coords="2189,278,2268,319,2265,324,2186,282"/>
+<area shape="poly" title=" " alt="" coords="2568,351,2707,395,2705,400,2567,356"/>
+<area shape="poly" title=" " alt="" coords="2511,356,2432,397,2430,392,2508,351"/>
+<area shape="rect" title=" " alt="" coords="2470,401,2571,427"/>
+<area shape="poly" title=" " alt="" coords="2532,354,2527,388,2522,387,2527,353"/>
+<area shape="rect" title=" " alt="" coords="2595,401,2646,427"/>
+<area shape="poly" title=" " alt="" coords="2547,351,2597,390,2594,395,2544,355"/>
+<area shape="poly" title=" " alt="" coords="2492,356,2327,403,2325,398,2491,351"/>
+<area shape="poly" title=" " alt="" coords="2472,356,2244,404,2242,399,2471,351"/>
+<area shape="poly" title=" " alt="" coords="1973,351,2095,370,2241,399,2240,404,2094,376,1972,356"/>
+<area shape="poly" title=" " alt="" coords="1944,351,2153,399,2152,404,1943,356"/>
+<area shape="rect" href="vtkMRML_8h.html" title=" " alt="" coords="1844,401,1939,427"/>
+<area shape="poly" title=" " alt="" coords="1894,354,1894,388,1889,388,1889,354"/>
+<area shape="rect" title=" " alt="" coords="1963,401,2142,427"/>
+<area shape="poly" title=" " alt="" coords="1918,351,2015,393,2013,398,1916,356"/>
+<area shape="rect" title=" " alt="" coords="1689,401,1819,427"/>
+<area shape="poly" title=" " alt="" coords="1870,356,1790,397,1787,393,1868,351"/>
+<area shape="rect" title=" " alt="" coords="1823,475,1960,500"/>
+<area shape="poly" title=" " alt="" coords="1894,427,1894,461,1889,461,1889,427"/>
+<area shape="rect" href="vtkMRMLFileReader_8h.html" title=" " alt="" coords="2082,174,2245,199"/>
+<area shape="poly" title=" " alt="" coords="2166,119,2166,160,2161,160,2161,119"/>
+<area shape="rect" title=" " alt="" coords="2269,167,2461,207"/>
+<area shape="poly" title=" " alt="" coords="2194,116,2305,159,2303,164,2192,121"/>
+<area shape="poly" title=" " alt="" coords="2166,199,2168,241,2162,241,2161,200"/>
 </map>
 </div>
 </div>
@@ -157,7 +210,7 @@ Classes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:19 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:34 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

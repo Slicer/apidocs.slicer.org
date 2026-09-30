@@ -90,6 +90,7 @@ $(function(){ initResizable(false); });
 <a href="classqSlicerTablesModule-members.html">List of all members</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-slots">Protected Slots</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle"><div class="title">qSlicerTablesModule Class Reference</div></div>
@@ -242,6 +243,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac39cc96eb7804e02fcdf710def9c5512" id="r_ac39cc96eb7804e02fcdf710def9c5512"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerAbstractCoreModule.html#ac39cc96eb7804e02fcdf710def9c5512">setBuiltIn</a> (bool value)</td></tr>
 <tr class="separator:ac39cc96eb7804e02fcdf710def9c5512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-slots" name="pro-slots"></a>
+Protected Slots</h2></td></tr>
+<tr class="memitem:a03026633e9af35fbe2a6c32896af1cba" id="r_a03026633e9af35fbe2a6c32896af1cba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03026633e9af35fbe2a6c32896af1cba">onPasswordRequested</a> (vtkObject *caller, void *callData)</td></tr>
+<tr class="separator:a03026633e9af35fbe2a6c32896af1cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa2de30e89c06a41c52d7c4fec81dc3a7" id="r_aa2de30e89c06a41c52d7c4fec81dc3a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLAbstractLogic.html">vtkMRMLAbstractLogic</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2de30e89c06a41c52d7c4fec81dc3a7">createLogic</a> () override</td></tr>
@@ -319,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="qSlicerTablesModule_8h_source.html#l00033">33</a> of file <a class="el" href="qSlicerTablesModule_8h_source.html">qSlicerTablesModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerTablesModule_8h_source.html#l00036">36</a> of file <a class="el" href="qSlicerTablesModule_8h_source.html">qSlicerTablesModule.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aa90920aa867559a8b0c6774d4b6219c5" name="aa90920aa867559a8b0c6774d4b6219c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa90920aa867559a8b0c6774d4b6219c5">&#9670;&#160;</a></span>Superclass</h2>
@@ -333,7 +339,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerTablesModule_8h_source.html#l00040">40</a> of file <a class="el" href="qSlicerTablesModule_8h_source.html">qSlicerTablesModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerTablesModule_8h_source.html#l00044">44</a> of file <a class="el" href="qSlicerTablesModule_8h_source.html">qSlicerTablesModule.h</a>.</p>
 
 </div>
 </div>
@@ -645,6 +651,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a03026633e9af35fbe2a6c32896af1cba" name="a03026633e9af35fbe2a6c32896af1cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03026633e9af35fbe2a6c32896af1cba">&#9670;&#160;</a></span>onPasswordRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerTablesModule::onPasswordRequested </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *</td>          <td class="paramname"><span class="paramname"><em>caller</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>callData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ask the user for the password of a database that cannot be opened without a password. callData is a pointer to the std::string where the password is returned. </p>
+
+</div>
+</div>
 <a id="a4557924e75414e697eaaf2dc4248c016" name="a4557924e75414e697eaaf2dc4248c016"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4557924e75414e697eaaf2dc4248c016">&#9670;&#160;</a></span>qSlicerGetTitleMacro()</h2>
 
@@ -712,7 +748,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerTablesModule_8h_source.html#l00067">67</a> of file <a class="el" href="qSlicerTablesModule_8h_source.html">qSlicerTablesModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerTablesModule_8h_source.html#l00076">76</a> of file <a class="el" href="qSlicerTablesModule_8h_source.html">qSlicerTablesModule.h</a>.</p>
 
 </div>
 </div>
@@ -722,7 +758,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

@@ -464,6 +464,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aec5e5e1511497d63e5c35551c6628287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93a8015635a49ee2c26fee15195c4993" id="r_a93a8015635a49ee2c26fee15195c4993"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a8015635a49ee2c26fee15195c4993">resumeRender</a> ()</td></tr>
 <tr class="separator:a93a8015635a49ee2c26fee15195c4993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae12108df388ec73b57c637d37e575d9" id="r_aae12108df388ec73b57c637d37e575d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae12108df388ec73b57c637d37e575d9">resetThreeDViews</a> ()</td></tr>
+<tr class="separator:aae12108df388ec73b57c637d37e575d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57298219f968cb51258037af046e1e00" id="r_a57298219f968cb51258037af046e1e00"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57298219f968cb51258037af046e1e00">loadFiles</a> (const QStringList &amp;filePaths, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
 <tr class="separator:a57298219f968cb51258037af046e1e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19676aeb8ec5bb912963b784b6473dcf" id="r_a19676aeb8ec5bb912963b784b6473dcf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19676aeb8ec5bb912963b784b6473dcf">openUrl</a> (const QString &amp;url)</td></tr>
@@ -2157,7 +2159,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Editing of a MRML node has been requested. Implemented in <a class="el" href="classqSlicerApplication.html">qSlicerApplication</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00743">743</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00750">750</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -3538,6 +3540,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aae12108df388ec73b57c637d37e575d9" name="aae12108df388ec73b57c637d37e575d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae12108df388ec73b57c637d37e575d9">&#9670;&#160;</a></span>resetThreeDViews()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void qSlicerCoreApplication::resetThreeDViews </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset the field of view (focal point and camera) of all 3D views. Called when <a class="el" href="classvtkMRMLApplicationLogic.html#a1ba050bbe07b311efd59c04c78c1e296a81ca869bf3031071d7e97aae3dd1c365">vtkMRMLApplicationLogic::ResetThreeDViewsRequestEvent</a> is invoked (for example, after the first model is loaded). Implemented in <a class="el" href="classqSlicerApplication.html">qSlicerApplication</a> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerApplication.html#a9945af0df047b77915bf6e227eddbfef">qSlicerApplication::resetThreeDViews()</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00712">712</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+
+</div>
+</div>
 <a id="a505a822eb6d9637549f155ad5528750a" name="a505a822eb6d9637549f155ad5528750a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a505a822eb6d9637549f155ad5528750a">&#9670;&#160;</a></span>restart</h2>
 
@@ -4442,7 +4472,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00784">784</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreApplication_8h_source.html#l00791">791</a> of file <a class="el" href="qSlicerCoreApplication_8h_source.html">qSlicerCoreApplication.h</a>.</p>
 
 </div>
 </div>
@@ -4452,7 +4482,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

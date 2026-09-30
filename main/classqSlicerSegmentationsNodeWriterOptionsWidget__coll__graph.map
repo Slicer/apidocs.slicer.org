@@ -1,7 +1,7 @@
 <map id="qSlicerSegmentationsNodeWriterOptionsWidget" name="qSlicerSegmentationsNodeWriterOptionsWidget">
-<area shape="rect" id="Node000001" title=" " alt="" coords="76,401,275,441"/>
-<area shape="rect" id="Node000002" href="$classqSlicerNodeWriterOptionsWidget.html" title=" " alt="" coords="80,313,271,353"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,367,178,401,173,401,173,367"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,387,275,427"/>
+<area shape="rect" id="Node000002" href="$classqSlicerGenericIOOptionsWidget.html" title=" " alt="" coords="62,313,289,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,352,178,387,173,387,173,352"/>
 <area shape="rect" id="Node000003" href="$classqSlicerFileWriterOptionsWidget.html" title="Base class for all the Writer Options widget." alt="" coords="86,225,265,265"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,279,178,313,173,313,173,279"/>
 <area shape="rect" id="Node000004" href="$classqSlicerIOOptionsWidget.html" title=" " alt="" coords="87,152,263,177"/>

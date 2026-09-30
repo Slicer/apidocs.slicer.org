@@ -146,10 +146,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a20c632061adc207089768cb32781f315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63862f40366e2efc2d7257d40eeac5e4" id="r_a63862f40366e2efc2d7257d40eeac5e4"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63862f40366e2efc2d7257d40eeac5e4">fileDescriptions</a> (const QString &amp;file) const</td></tr>
 <tr class="separator:a63862f40366e2efc2d7257d40eeac5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da6f35794c627f716b128cd5f53a59b" id="r_a9da6f35794c627f716b128cd5f53a59b"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9da6f35794c627f716b128cd5f53a59b">fileDescriptionsByType</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>) const</td></tr>
-<tr class="separator:a9da6f35794c627f716b128cd5f53a59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543baa13e662126b22e13a5e86c72012" id="r_a543baa13e662126b22e13a5e86c72012"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a543baa13e662126b22e13a5e86c72012">fileDescriptionsByType</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>) const</td></tr>
+<tr class="separator:a543baa13e662126b22e13a5e86c72012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7122546a5ce70163f81d5b579a7957" id="r_a4a7122546a5ce70163f81d5b579a7957"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a7122546a5ce70163f81d5b579a7957">fileIOManager</a> () const</td></tr>
+<tr class="separator:a4a7122546a5ce70163f81d5b579a7957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2b06d14e70f7056889119073110fce" id="r_a8e2b06d14e70f7056889119073110fce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e2b06d14e70f7056889119073110fce">fileOptions</a> (const QString &amp;fileDescription) const</td></tr>
-<tr class="memdesc:a8e2b06d14e70f7056889119073110fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the file read options for the best reader associated with a <em class="arg">file</em> type.  <br /></td></tr>
 <tr class="separator:a8e2b06d14e70f7056889119073110fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db0b50a1e825d6b21ef1726329c94d3" id="r_a8db0b50a1e825d6b21ef1726329c94d3"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a> (const QString &amp;file) const</td></tr>
 <tr class="memdesc:a8db0b50a1e825d6b21ef1726329c94d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the most likely file type (SegmentationFile, TextFile, ...) for reading a <em class="arg">file</em>.  <br /></td></tr>
@@ -168,33 +169,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a37e1ade79d6c2406b64d626bb2bd350f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the file type of the best file writer for the input VTK <em class="arg">object</em>.  <br /></td></tr>
 <tr class="separator:a37e1ade79d6c2406b64d626bb2bd350f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a8292df477566b6ef0b2a2706efca5a" id="r_a8a8292df477566b6ef0b2a2706efca5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a8292df477566b6ef0b2a2706efca5a">fileWriterOptions</a> (vtkObject *object, const QString &amp;extension) const</td></tr>
-<tr class="memdesc:a8a8292df477566b6ef0b2a2706efca5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the file write options of the best file writer for the input VTK <em class="arg">object</em>.  <br /></td></tr>
 <tr class="separator:a8a8292df477566b6ef0b2a2706efca5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac95b19e2d2a763b57218280a1f711901" id="r_ac95b19e2d2a763b57218280a1f711901"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95b19e2d2a763b57218280a1f711901">forceFileNameMaxLength</a> (const QString &amp;filename, int extensionLength, int maxLength=-1)</td></tr>
 <tr class="separator:ac95b19e2d2a763b57218280a1f711901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1210c76f3f83bf3d2b3ea5df5a16b6f5" id="r_a1210c76f3f83bf3d2b3ea5df5a16b6f5"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1210c76f3f83bf3d2b3ea5df5a16b6f5">loadFile</a> (const QString &amp;fileName, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
 <tr class="separator:a1210c76f3f83bf3d2b3ea5df5a16b6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac2e518410735291c8dfbcc3811d3fb" id="r_a3ac2e518410735291c8dfbcc3811d3fb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ac2e518410735291c8dfbcc3811d3fb">loadNodes</a> (const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &gt; &amp;files, vtkCollection *loadedNodes=nullptr, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
-<tr class="separator:a3ac2e518410735291c8dfbcc3811d3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122eee002f2ae890d1da5e3c541a5715" id="r_a122eee002f2ae890d1da5e3c541a5715"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122eee002f2ae890d1da5e3c541a5715">loadNodes</a> (const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &gt; &amp;files, vtkCollection *loadedNodes=nullptr, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:a122eee002f2ae890d1da5e3c541a5715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a068dc9928564f2f0ad9a73da1018d4bf" id="r_a068dc9928564f2f0ad9a73da1018d4bf"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068dc9928564f2f0ad9a73da1018d4bf">loadNodes</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, vtkCollection *loadedNodes=nullptr, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
 <tr class="separator:a068dc9928564f2f0ad9a73da1018d4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c43c8802e8f493256e27bcd315925a4" id="r_a7c43c8802e8f493256e27bcd315925a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c43c8802e8f493256e27bcd315925a4">loadNodesAndGetFirst</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
-<tr class="separator:a7c43c8802e8f493256e27bcd315925a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5f1f9b5e962bfe576ab6774947258f" id="r_a5d5f1f9b5e962bfe576ab6774947258f"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d5f1f9b5e962bfe576ab6774947258f">loadNodesAndGetFirst</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
+<tr class="separator:a5d5f1f9b5e962bfe576ab6774947258f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36bf83f56e45c548cb9a600b5ae5ab7d" id="r_a36bf83f56e45c548cb9a600b5ae5ab7d"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36bf83f56e45c548cb9a600b5ae5ab7d">loadScene</a> (const QString &amp;fileName, bool clear=true, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
 <tr class="separator:a36bf83f56e45c548cb9a600b5ae5ab7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81389988cec2c05940661996e1812f1" id="r_ac81389988cec2c05940661996e1812f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac81389988cec2c05940661996e1812f1">qSlicerCoreIOManager</a> (QObject *parent=nullptr)</td></tr>
 <tr class="separator:ac81389988cec2c05940661996e1812f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41c71061a48a9e81944a49024fbaba64" id="r_a41c71061a48a9e81944a49024fbaba64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41c71061a48a9e81944a49024fbaba64">registerIO</a> (<a class="el" href="classqSlicerIO.html">qSlicerIO</a> *io)</td></tr>
-<tr class="separator:a41c71061a48a9e81944a49024fbaba64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b54c00bda371b1e2f7d7b15debf72b" id="r_a24b54c00bda371b1e2f7d7b15debf72b"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24b54c00bda371b1e2f7d7b15debf72b">registerIO</a> (<a class="el" href="classqSlicerIO.html">qSlicerIO</a> *io)</td></tr>
+<tr class="separator:a24b54c00bda371b1e2f7d7b15debf72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af004688c285918a9a47b0e0ca445fa06" id="r_af004688c285918a9a47b0e0ca445fa06"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af004688c285918a9a47b0e0ca445fa06">saveNodes</a> (<a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> <a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>, const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;parameters, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr, <a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene=nullptr)</td></tr>
 <tr class="separator:af004688c285918a9a47b0e0ca445fa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab47f6aac4f72dfc48b1a7ada8a20f07d" id="r_ab47f6aac4f72dfc48b1a7ada8a20f07d"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab47f6aac4f72dfc48b1a7ada8a20f07d">saveScene</a> (const QString &amp;fileName, QImage screenShot, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages=nullptr)</td></tr>
 <tr class="separator:ab47f6aac4f72dfc48b1a7ada8a20f07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e550ab54c035002242c57c34694bd9a" id="r_a3e550ab54c035002242c57c34694bd9a"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e550ab54c035002242c57c34694bd9a">stripKnownExtension</a> (const QString &amp;fileName, vtkObject *object)</td></tr>
 <tr class="separator:a3e550ab54c035002242c57c34694bd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5278a25c957c31fad2de8412b74fb202" id="r_a5278a25c957c31fad2de8412b74fb202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5278a25c957c31fad2de8412b74fb202">writer</a> (vtkObject *object, const QString &amp;extension=QString()) const</td></tr>
-<tr class="memdesc:a5278a25c957c31fad2de8412b74fb202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return best file writer for this object.  <br /></td></tr>
-<tr class="separator:a5278a25c957c31fad2de8412b74fb202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308803b8fdff6462ff50742cb292598b" id="r_a308803b8fdff6462ff50742cb292598b"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a308803b8fdff6462ff50742cb292598b">writer</a> (vtkObject *object, const QString &amp;extension=QString()) const</td></tr>
+<tr class="memdesc:a308803b8fdff6462ff50742cb292598b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return best file writer for this object.  <br /></td></tr>
+<tr class="separator:a308803b8fdff6462ff50742cb292598b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50ff553c63c2b70fa425f825e4cee0f3" id="r_a50ff553c63c2b70fa425f825e4cee0f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ff553c63c2b70fa425f825e4cee0f3">~qSlicerCoreIOManager</a> () override</td></tr>
 <tr class="separator:a50ff553c63c2b70fa425f825e4cee0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -220,6 +220,21 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae50a2eb8fdda58869e96c8f30da4e7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f65d841f2c733a0ff98b0296c870c9b" id="r_a8f65d841f2c733a0ff98b0296c870c9b"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f65d841f2c733a0ff98b0296c870c9b">examineFileInfoList</a> (QFileInfoList &amp;fileInfoList, QFileInfo &amp;archetypeEntry, QString &amp;readerDescription, <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;ioProperties) const</td></tr>
 <tr class="separator:a8f65d841f2c733a0ff98b0296c870c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797b8ad82046f18f8a74072d47ba4f44" id="r_a797b8ad82046f18f8a74072d47ba4f44"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a797b8ad82046f18f8a74072d47ba4f44">readers</a> () const</td></tr>
+<tr class="memdesc:a797b8ad82046f18f8a74072d47ba4f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered readers.  <br /></td></tr>
+<tr class="separator:a797b8ad82046f18f8a74072d47ba4f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e191f6c9c36e17cb5f7aecc3b113a0" id="r_a46e191f6c9c36e17cb5f7aecc3b113a0"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e191f6c9c36e17cb5f7aecc3b113a0">writers</a> () const</td></tr>
+<tr class="memdesc:a46e191f6c9c36e17cb5f7aecc3b113a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered writers.  <br /></td></tr>
+<tr class="separator:a46e191f6c9c36e17cb5f7aecc3b113a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fff98bdb43796e8dab23b7f6acfa2c" id="r_a50fff98bdb43796e8dab23b7f6acfa2c"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50fff98bdb43796e8dab23b7f6acfa2c">writers</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>) const</td></tr>
+<tr class="memdesc:a50fff98bdb43796e8dab23b7f6acfa2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered writers for a given fileType.  <br /></td></tr>
+<tr class="separator:a50fff98bdb43796e8dab23b7f6acfa2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d5d55b845db0f3a2d859b69ccf82c0" id="r_a59d5d55b845db0f3a2d859b69ccf82c0"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59d5d55b845db0f3a2d859b69ccf82c0">readers</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>) const</td></tr>
+<tr class="memdesc:a59d5d55b845db0f3a2d859b69ccf82c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered readers or writers associated with <em class="arg">fileType</em>.  <br /></td></tr>
+<tr class="separator:a59d5d55b845db0f3a2d859b69ccf82c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022b912f151c30e1817f283e8685a7f2" id="r_a022b912f151c30e1817f283e8685a7f2"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a022b912f151c30e1817f283e8685a7f2">reader</a> (const QString &amp;ioDescription) const</td></tr>
+<tr class="memdesc:a022b912f151c30e1817f283e8685a7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the reader that has the specified description (such as "Volume")  <br /></td></tr>
+<tr class="separator:a022b912f151c30e1817f283e8685a7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d1f2c3f70ccfc0a3863357b8a47762" id="r_a72d1f2c3f70ccfc0a3863357b8a47762"><td class="memItemLeft" align="right" valign="top">static Q_INVOKABLE <a class="el" href="classvtkMRMLStorageNode.html">vtkMRMLStorageNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d1f2c3f70ccfc0a3863357b8a47762">createAndAddDefaultStorageNode</a> (<a class="el" href="classvtkMRMLStorableNode.html">vtkMRMLStorableNode</a> *node)</td></tr>
 <tr class="memdesc:a72d1f2c3f70ccfc0a3863357b8a47762"><td class="mdescLeft">&#160;</td><td class="mdescRight">}@  <br /></td></tr>
 <tr class="separator:a72d1f2c3f70ccfc0a3863357b8a47762"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,24 +246,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a275be464ca74a1957a6b58989380a2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d0a0d7335f06c5e39d5fac2f207175a" id="r_a7d0a0d7335f06c5e39d5fac2f207175a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d0a0d7335f06c5e39d5fac2f207175a">fileSaved</a> (const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;savedFileParameters)</td></tr>
 <tr class="separator:a7d0a0d7335f06c5e39d5fac2f207175a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a884650f69edfbeeac927beeb24778e" id="r_a3a884650f69edfbeeac927beeb24778e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a884650f69edfbeeac927beeb24778e">readers</a> () const</td></tr>
-<tr class="memdesc:a3a884650f69edfbeeac927beeb24778e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered readers.  <br /></td></tr>
-<tr class="separator:a3a884650f69edfbeeac927beeb24778e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b9d437f2a8b667c758b5aff487a57a8" id="r_a3b9d437f2a8b667c758b5aff487a57a8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9d437f2a8b667c758b5aff487a57a8">writers</a> () const</td></tr>
-<tr class="memdesc:a3b9d437f2a8b667c758b5aff487a57a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered writers.  <br /></td></tr>
-<tr class="separator:a3b9d437f2a8b667c758b5aff487a57a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e416c17eb14149032326b068472e9f" id="r_ae7e416c17eb14149032326b068472e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7e416c17eb14149032326b068472e9f">writers</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>) const</td></tr>
-<tr class="memdesc:ae7e416c17eb14149032326b068472e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered writers for a given fileType.  <br /></td></tr>
-<tr class="separator:ae7e416c17eb14149032326b068472e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e1a96078f152d63f11ff4d240b01774" id="r_a9e1a96078f152d63f11ff4d240b01774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e1a96078f152d63f11ff4d240b01774">readers</a> (const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;<a class="el" href="#a8db0b50a1e825d6b21ef1726329c94d3">fileType</a>) const</td></tr>
-<tr class="memdesc:a9e1a96078f152d63f11ff4d240b01774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of registered readers or writers associated with <em class="arg">fileType</em>.  <br /></td></tr>
-<tr class="separator:a9e1a96078f152d63f11ff4d240b01774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52b8d0c20b9af2b792c12256aa0b938a" id="r_a52b8d0c20b9af2b792c12256aa0b938a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52b8d0c20b9af2b792c12256aa0b938a">reader</a> (const QString &amp;ioDescription) const</td></tr>
-<tr class="separator:a52b8d0c20b9af2b792c12256aa0b938a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e42b71faa6f9b04368c965a73d1e2f5" id="r_a8e42b71faa6f9b04368c965a73d1e2f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e42b71faa6f9b04368c965a73d1e2f5">createGenericOptions</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *ioHandler) const</td></tr>
+<tr class="separator:a8e42b71faa6f9b04368c965a73d1e2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00050">50</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<div class="textblock"><p>Qt interface of the file IO manager.</p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>All calls are forwarded to <a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> (<a class="el" href="classvtkMRMLApplicationLogic.html#a96e8a3ba25e54a0b226aae4b3ac7ec2f">vtkMRMLApplicationLogic::GetFileIOManager()</a>). This class is kept for backward compatibility. See <a href="https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#qt-interface">https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#qt-interface</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00058">58</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 </div><h2 class="groupheader">Property Documentation</h2>
 <a id="a5fd47df5d618bcf16ad51736c839c000" name="a5fd47df5d618bcf16ad51736c839c000"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fd47df5d618bcf16ad51736c839c000">&#9670;&#160;</a></span>defaultMaximumFileNameLength</h2>
@@ -270,7 +275,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00054">54</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00062">62</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +299,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00053">53</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00061">61</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -442,6 +447,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8e42b71faa6f9b04368c965a73d1e2f5" name="a8e42b71faa6f9b04368c965a73d1e2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e42b71faa6f9b04368c965a73d1e2f5">&#9670;&#160;</a></span>createGenericOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> * qSlicerCoreIOManager::createGenericOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *</td>          <td class="paramname"><span class="paramname"><em>ioHandler</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create an options widget for a reader or writer that describes its options (see <a class="el" href="classvtkMRMLFileIOHandler.html#a095e7114f1a277a34f9ec87ca9b5d3d9">vtkMRMLFileIOHandler::GetOptionsDescription</a>). Used when the Qt-based reader or writer does not provide an options widget. Returns nullptr in the core IO manager, as widgets are only available in the GUI application. </p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a75ba4256efe9632f7858a3d85a6269ba">qSlicerIOManager</a>.</p>
+
+</div>
+</div>
 <a id="aada2a58be42626dafd4d3e7e6f8860bc" name="aada2a58be42626dafd4d3e7e6f8860bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aada2a58be42626dafd4d3e7e6f8860bc">&#9670;&#160;</a></span>defaultMaximumFileNameLength()</h2>
 
@@ -580,7 +613,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerNodeWriter.html" title="Utility class that is ready to use for most of the nodes.">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>, <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>, <a class="el" href="classvtkMRMLStorageNode.html" title="A superclass for other storage nodes.">vtkMRMLStorageNode</a>, <a class="el" href="#af004688c285918a9a47b0e0ca445fa06">saveNodes()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerNodeWriter.html">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>, <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>, <a class="el" href="classvtkMRMLStorageNode.html" title="A superclass for other storage nodes.">vtkMRMLStorageNode</a>, <a class="el" href="#af004688c285918a9a47b0e0ca445fa06">saveNodes()</a>. </dd></dl>
 
 </div>
 </div>
@@ -661,14 +694,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9da6f35794c627f716b128cd5f53a59b" name="a9da6f35794c627f716b128cd5f53a59b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9da6f35794c627f716b128cd5f53a59b">&#9670;&#160;</a></span>fileDescriptionsByType()</h2>
+<a id="a543baa13e662126b22e13a5e86c72012" name="a543baa13e662126b22e13a5e86c72012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a543baa13e662126b22e13a5e86c72012">&#9670;&#160;</a></span>fileDescriptionsByType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QStringList qSlicerCoreIOManager::fileDescriptionsByType </td>
+          <td class="memname">Q_INVOKABLE QStringList qSlicerCoreIOManager::fileDescriptionsByType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a></td>          <td class="paramname"><span class="paramname"><em>fileType</em></span></td><td>)</td>
           <td> const</td>
@@ -676,6 +709,24 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns descriptions for a file type available across all readers. Usually there is only one reader for a file type. </p>
+
+</div>
+</div>
+<a id="a4a7122546a5ce70163f81d5b579a7957" name="a4a7122546a5ce70163f81d5b579a7957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a7122546a5ce70163f81d5b579a7957">&#9670;&#160;</a></span>fileIOManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> * qSlicerCoreIOManager::fileIOManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>VTK-based file IO manager that performs all the tasks. It is the file IO manager of the application logic (if the application logic is available). </p>
 
 </div>
 </div>
@@ -719,8 +770,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Return the file read options for the best reader associated with a <em class="arg">file</em> type. </p>
+<p>Return the file read options for the best reader associated with a <em class="arg">file</em> type The caller takes ownership of the returned object. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerIOManager.html#a21346107f7cf838b5d158246d9aa3de6">qSlicerIOManager::fileOptionsWidget()</a> for accessing the options from Python </dd></dl>
 
 </div>
 </div>
@@ -882,8 +932,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Return the file write options of the best file writer for the input VTK <em class="arg">object</em>. </p>
+<p>Return the file write options of the best file writer for the input VTK <em class="arg">object</em>. The caller takes ownership of the returned object. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerIOManager.html#a0939e607566cbdbf1cc25e0a9450ed4f">qSlicerIOManager::fileWriterOptionsWidget()</a> for accessing the options from Python </dd></dl>
 
 </div>
 </div>
@@ -963,8 +1012,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ac2e518410735291c8dfbcc3811d3fb" name="a3ac2e518410735291c8dfbcc3811d3fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac2e518410735291c8dfbcc3811d3fb">&#9670;&#160;</a></span>loadNodes() <span class="overload">[1/2]</span></h2>
+<a id="a122eee002f2ae890d1da5e3c541a5715" name="a122eee002f2ae890d1da5e3c541a5715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122eee002f2ae890d1da5e3c541a5715">&#9670;&#160;</a></span>loadNodes() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -973,7 +1022,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool qSlicerCoreIOManager::loadNodes </td>
+          <td class="memname">virtual Q_INVOKABLE bool qSlicerCoreIOManager::loadNodes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>files</em></span>, </td>
         </tr>
@@ -996,7 +1045,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Utility function that loads a bunch of files. The "fileType" attribute should in the parameter map for each node to load. If a valid pointer is passed to userMessages additional error or warning information may be returned in it. </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a63066333828bddc3895e0bdadd7f4219">qSlicerIOManager</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a03141f000e0a6643e0020d5c730e3476">qSlicerIOManager</a>.</p>
 
 </div>
 </div>
@@ -1036,21 +1085,21 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Load a list of nodes corresponding to <em class="arg">fileType</em>. A given <em class="arg">fileType</em> corresponds to a specific reader <a class="el" href="classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter.">qSlicerIO</a>. A map of QVariant allows to specify which <em class="arg">parameters</em> should be passed to the reader. The function return 0 if it fails. The map associated with most of the <em class="arg">fileType</em> should contains either fileName (QString or QStringList) or fileNames (QStringList). More specific parameters could also be set. For example, the volume reader qSlicerVolumesIO could also be called with the following parameters: LabelMap (bool), Center (bool) If a valid pointer is passed to userMessages additional error or warning information may be returned in it. </p><dl class="section note"><dt>Note</dt><dd>Make also sure the case of parameter name is respected </dd></dl>
+<p>Load a list of nodes corresponding to <em class="arg">fileType</em>. A given <em class="arg">fileType</em> corresponds to a specific reader <a class="el" href="classqSlicerIO.html">qSlicerIO</a>. A map of QVariant allows to specify which <em class="arg">parameters</em> should be passed to the reader. The function return 0 if it fails. The map associated with most of the <em class="arg">fileType</em> should contains either fileName (QString or QStringList) or fileNames (QStringList). More specific parameters could also be set. For example, the volume reader qSlicerVolumesIO could also be called with the following parameters: LabelMap (bool), Center (bool) If a valid pointer is passed to userMessages additional error or warning information may be returned in it. </p><dl class="section note"><dt>Note</dt><dd>Make also sure the case of parameter name is respected </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>, <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>, <a class="el" href="#af004688c285918a9a47b0e0ca445fa06">saveNodes()</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a0ddbbe6249526ab5ad6cfc34c62effb5">qSlicerIOManager</a>.</p>
 
 </div>
 </div>
-<a id="a7c43c8802e8f493256e27bcd315925a4" name="a7c43c8802e8f493256e27bcd315925a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c43c8802e8f493256e27bcd315925a4">&#9670;&#160;</a></span>loadNodesAndGetFirst()</h2>
+<a id="a5d5f1f9b5e962bfe576ab6774947258f" name="a5d5f1f9b5e962bfe576ab6774947258f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5f1f9b5e962bfe576ab6774947258f">&#9670;&#160;</a></span>loadNodesAndGetFirst()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> * qSlicerCoreIOManager::loadNodesAndGetFirst </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> * qSlicerCoreIOManager::loadNodesAndGetFirst </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a></td>          <td class="paramname"><span class="paramname"><em>fileType</em></span>, </td>
         </tr>
@@ -1123,79 +1172,57 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a52b8d0c20b9af2b792c12256aa0b938a" name="a52b8d0c20b9af2b792c12256aa0b938a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52b8d0c20b9af2b792c12256aa0b938a">&#9670;&#160;</a></span>reader()</h2>
+<a id="a022b912f151c30e1817f283e8685a7f2" name="a022b912f151c30e1817f283e8685a7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022b912f151c30e1817f283e8685a7f2">&#9670;&#160;</a></span>reader()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * qSlicerCoreIOManager::reader </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * qSlicerCoreIOManager::reader </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ioDescription</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Returns the reader that has the specified description (such as "Volume") </p>
 
 </div>
 </div>
-<a id="a3a884650f69edfbeeac927beeb24778e" name="a3a884650f69edfbeeac927beeb24778e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a884650f69edfbeeac927beeb24778e">&#9670;&#160;</a></span>readers() <span class="overload">[1/2]</span></h2>
+<a id="a797b8ad82046f18f8a74072d47ba4f44" name="a797b8ad82046f18f8a74072d47ba4f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797b8ad82046f18f8a74072d47ba4f44">&#9670;&#160;</a></span>readers() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt; &amp; qSlicerCoreIOManager::readers </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt; qSlicerCoreIOManager::readers </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Returns the list of registered readers. </p>
 
 </div>
 </div>
-<a id="a9e1a96078f152d63f11ff4d240b01774" name="a9e1a96078f152d63f11ff4d240b01774"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e1a96078f152d63f11ff4d240b01774">&#9670;&#160;</a></span>readers() <span class="overload">[2/2]</span></h2>
+<a id="a59d5d55b845db0f3a2d859b69ccf82c0" name="a59d5d55b845db0f3a2d859b69ccf82c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d5d55b845db0f3a2d859b69ccf82c0">&#9670;&#160;</a></span>readers() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt; qSlicerCoreIOManager::readers </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> * &gt; qSlicerCoreIOManager::readers </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fileType</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Returns the list of registered readers or writers associated with <em class="arg">fileType</em>. </p>
@@ -1216,8 +1243,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the number of registered <em class="arg"><a class="el" href="classqSlicerIO.html" title="Base class for qSlicerFileReader and qSlicerFileWriter.">qSlicerIO</a></em> associated with <em class="arg">fileType</em>.</p>
-<p><em class="arg"><a class="el" href="#a41c71061a48a9e81944a49024fbaba64">registerIO()</a></em> <em class="arg"><a class="el" href="classqSlicerScriptedLoadableModule.html#ae4e38b0bb2741e826619fe9d41eea6c7">qSlicerScriptedLoadableModule::registerIO()</a></em> <em class="arg">qSlicerScriptedLoadableModule::readers()</em> <em class="arg">qSlicerScriptedLoadableModule::writers()</em> </p>
+<p>Return the number of registered <em class="arg"><a class="el" href="classqSlicerIO.html">qSlicerIO</a></em> associated with <em class="arg">fileType</em>.</p>
+<p><em class="arg"><a class="el" href="#a24b54c00bda371b1e2f7d7b15debf72b">registerIO()</a></em> <em class="arg"><a class="el" href="classqSlicerScriptedLoadableModule.html#ae4e38b0bb2741e826619fe9d41eea6c7">qSlicerScriptedLoadableModule::registerIO()</a></em> <em class="arg">qSlicerScriptedLoadableModule::readers()</em> <em class="arg">qSlicerScriptedLoadableModule::writers()</em> </p>
 
 </div>
 </div>
@@ -1238,14 +1265,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a41c71061a48a9e81944a49024fbaba64" name="a41c71061a48a9e81944a49024fbaba64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41c71061a48a9e81944a49024fbaba64">&#9670;&#160;</a></span>registerIO()</h2>
+<a id="a24b54c00bda371b1e2f7d7b15debf72b" name="a24b54c00bda371b1e2f7d7b15debf72b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b54c00bda371b1e2f7d7b15debf72b">&#9670;&#160;</a></span>registerIO()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void qSlicerCoreIOManager::registerIO </td>
+          <td class="memname">Q_INVOKABLE void qSlicerCoreIOManager::registerIO </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classqSlicerIO.html">qSlicerIO</a> *</td>          <td class="paramname"><span class="paramname"><em>io</em></span></td><td>)</td>
           <td></td>
@@ -1284,7 +1311,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Save nodes (or scene) using the registered writers. Return true on success, false otherwise. Attributes are typically: For all: QString fileName (or QStringList fileNames) For nodes: QString nodeID, bool useCompression If a valid pointer is passed to <em class="arg">userMessages</em> additional error or warning information may be returned in it. If a valid pointer is passed to <em class="arg">scene</em>, writers will be told to use that scene instead of the current scene. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerNodeWriter.html" title="Utility class that is ready to use for most of the nodes.">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>, <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>, <a class="el" href="#a068dc9928564f2f0ad9a73da1018d4bf">loadNodes()</a>, <a class="el" href="#a823a89656da5987a76c1dc04a04a21d5">exportNodes()</a> </dd></dl>
+<p>Save nodes (or scene) using the registered writers. Return true on success, false otherwise. Attributes are typically: For all: QString fileName (or QStringList fileNames) For nodes: QString nodeID, bool useCompression If a valid pointer is passed to <em class="arg">userMessages</em> additional error or warning information may be returned in it. If a valid pointer is passed to <em class="arg">scene</em>, writers will be told to use that scene instead of the current scene. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerNodeWriter.html">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>, <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>, <a class="el" href="#a068dc9928564f2f0ad9a73da1018d4bf">loadNodes()</a>, <a class="el" href="#a823a89656da5987a76c1dc04a04a21d5">exportNodes()</a> </dd></dl>
 
 </div>
 </div>
@@ -1363,7 +1390,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Defines the file format that should be offered by default when the scene is saved. Valid options are defined in <a class="el" href="classqSlicerSceneWriter.html">qSlicerSceneWriter</a> (for example, "MRML Scene (.mrml)" or "Medical Reality Bundle (.mrb)"). </p>
+<p>Defines the file format that should be offered by default when the scene is saved. Valid options are defined in <a class="el" href="classvtkSlicerSceneWriter.html">vtkSlicerSceneWriter</a> (for example, "MRML Scene (.mrml)" or "Medical Reality Bundle (.mrb)"). </p>
 
 </div>
 </div>
@@ -1389,14 +1416,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5278a25c957c31fad2de8412b74fb202" name="a5278a25c957c31fad2de8412b74fb202"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5278a25c957c31fad2de8412b74fb202">&#9670;&#160;</a></span>writer()</h2>
+<a id="a308803b8fdff6462ff50742cb292598b" name="a308803b8fdff6462ff50742cb292598b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308803b8fdff6462ff50742cb292598b">&#9670;&#160;</a></span>writer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * qSlicerCoreIOManager::writer </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * qSlicerCoreIOManager::writer </td>
           <td>(</td>
           <td class="paramtype">vtkObject *</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
         </tr>
@@ -1412,54 +1439,38 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b9d437f2a8b667c758b5aff487a57a8" name="a3b9d437f2a8b667c758b5aff487a57a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b9d437f2a8b667c758b5aff487a57a8">&#9670;&#160;</a></span>writers() <span class="overload">[1/2]</span></h2>
+<a id="a46e191f6c9c36e17cb5f7aecc3b113a0" name="a46e191f6c9c36e17cb5f7aecc3b113a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e191f6c9c36e17cb5f7aecc3b113a0">&#9670;&#160;</a></span>writers() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt; &amp; qSlicerCoreIOManager::writers </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt; qSlicerCoreIOManager::writers </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Returns the list of registered writers. </p>
 
 </div>
 </div>
-<a id="ae7e416c17eb14149032326b068472e9f" name="ae7e416c17eb14149032326b068472e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e416c17eb14149032326b068472e9f">&#9670;&#160;</a></span>writers() <span class="overload">[2/2]</span></h2>
+<a id="a50fff98bdb43796e8dab23b7f6acfa2c" name="a50fff98bdb43796e8dab23b7f6acfa2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fff98bdb43796e8dab23b7f6acfa2c">&#9670;&#160;</a></span>writers() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt; qSlicerCoreIOManager::writers </td>
+          <td class="memname">Q_INVOKABLE <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a> * &gt; qSlicerCoreIOManager::writers </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fileType</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Returns the list of registered writers for a given fileType. </p>
@@ -1487,7 +1498,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00311">311</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00335">335</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1497,7 +1508,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

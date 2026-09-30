@@ -90,13 +90,11 @@ $(function(){ initResizable(false); });
 <a href="classqSlicerIO-members.html">List of all members</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle"><div class="title">qSlicerIO Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>Base class for <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> and <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a>.  
- <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="qSlicerIO_8h_source.html">Base/QTCore/qSlicerIO.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -104,57 +102,21 @@ Inheritance diagram for qSlicerIO:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqSlicerIO__inherit__graph.png" border="0" usemap="#aqSlicerIO_inherit__map" alt="Inheritance graph"/></div>
 <map name="aqSlicerIO_inherit__map" id="aqSlicerIO_inherit__map">
-<area shape="rect" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="161,621,241,647"/>
-<area shape="rect" href="classqSlicerFileReader.html" title=" " alt="" coords="289,400,424,425"/>
-<area shape="poly" title=" " alt="" coords="217,608,344,424,349,427,222,611"/>
-<area shape="rect" href="classqSlicerFileWriter.html" title=" " alt="" coords="292,819,421,844"/>
-<area shape="poly" title=" " alt="" coords="223,656,348,817,343,820,219,659"/>
-<area shape="rect" title=" " alt="" coords="22,596,97,621"/>
-<area shape="poly" title=" " alt="" coords="111,615,161,624,161,630,110,620"/>
-<area shape="rect" href="classqSlicerObject.html" title=" " alt="" coords="5,645,113,671"/>
-<area shape="poly" title=" " alt="" coords="126,644,161,638,162,643,127,649"/>
-<area shape="rect" href="classqSlicerAnnotationsReader.html" title=" " alt="" coords="490,5,681,31"/>
-<area shape="poly" title=" " alt="" coords="355,386,359,317,374,223,389,173,409,125,436,79,470,40,488,28,491,32,474,44,440,82,413,127,394,175,379,224,364,317,360,387"/>
-<area shape="rect" href="classqSlicerColorsReader.html" title=" " alt="" coords="509,55,662,80"/>
-<area shape="poly" title=" " alt="" coords="356,386,363,325,381,244,395,202,415,161,439,122,470,89,488,78,508,70,509,75,490,82,474,93,444,126,419,163,400,204,386,246,368,326,362,387"/>
-<area shape="rect" href="classqSlicerMarkupsReader.html" title=" " alt="" coords="502,104,669,129"/>
-<area shape="poly" title=" " alt="" coords="358,386,368,334,388,266,402,231,421,197,443,166,470,139,501,122,503,127,474,143,447,169,425,200,407,234,393,268,373,335,364,387"/>
-<area shape="rect" href="classqSlicerModelsReader.html" title=" " alt="" coords="506,153,665,179"/>
-<area shape="poly" title=" " alt="" coords="361,385,374,342,395,288,427,234,447,209,471,188,505,171,507,176,473,192,451,213,431,237,400,290,379,344,366,387"/>
-<area shape="rect" href="classqSlicerSceneBundleReader.html" title=" " alt="" coords="487,203,683,228"/>
-<area shape="poly" title=" " alt="" coords="365,386,380,352,403,311,433,271,470,237,492,226,495,231,474,242,437,274,407,314,385,354,370,388"/>
-<area shape="rect" href="classqSlicerSceneReader.html" title=" " alt="" coords="510,252,661,277"/>
-<area shape="poly" title=" " alt="" coords="371,387,412,335,439,309,471,286,509,271,511,276,473,291,443,313,416,339,375,390"/>
-<area shape="rect" href="classqSlicerScriptedFileReader.html" title=" " alt="" coords="491,301,679,327"/>
-<area shape="poly" title=" " alt="" coords="383,389,423,361,471,336,506,324,507,329,473,340,426,366,386,393"/>
-<area shape="rect" href="classqSlicerSegmentationsReader.html" title=" " alt="" coords="480,351,691,376"/>
-<area shape="poly" title=" " alt="" coords="427,394,471,385,524,373,525,379,473,390,429,400"/>
-<area shape="rect" href="classqSlicerSequencesReader.html" title=" " alt="" coords="494,400,677,425"/>
-<area shape="poly" title=" " alt="" coords="438,410,494,410,494,415,438,415"/>
-<area shape="rect" href="classqSlicerShaderPropertyReader.html" title=" " alt="" coords="479,449,691,475"/>
-<area shape="poly" title=" " alt="" coords="430,426,526,447,525,452,429,431"/>
-<area shape="rect" href="classqSlicerTablesReader.html" title=" " alt="" coords="509,499,662,524"/>
-<area shape="poly" title=" " alt="" coords="387,432,426,459,473,484,511,496,510,501,471,488,424,463,384,436"/>
-<area shape="rect" href="classqSlicerTerminologiesReader.html" title=" " alt="" coords="484,548,687,573"/>
-<area shape="poly" title=" " alt="" coords="376,435,416,485,443,511,473,533,502,545,500,550,471,538,440,516,412,489,371,438"/>
-<area shape="rect" href="classqSlicerTextsReader.html" title=" " alt="" coords="512,597,659,623"/>
-<area shape="poly" title=" " alt="" coords="370,437,385,471,408,510,437,550,474,582,492,593,513,600,511,605,490,598,470,587,433,553,403,513,381,473,365,439"/>
-<area shape="rect" href="classqSlicerTransformsReader.html" title=" " alt="" coords="493,647,677,672"/>
-<area shape="poly" title=" " alt="" coords="366,438,379,482,400,535,431,589,451,613,474,633,494,645,492,650,470,637,447,616,427,592,395,537,374,484,361,440"/>
-<area shape="rect" href="classqSlicerVolumeRenderingReader.html" title=" " alt="" coords="472,696,699,721"/>
-<area shape="poly" title=" " alt="" coords="364,438,373,491,393,557,407,592,425,625,447,656,474,683,491,694,488,698,470,687,443,660,421,628,402,594,388,559,368,492,358,439"/>
-<area shape="rect" href="classqSlicerVolumesReader.html" title=" " alt="" coords="501,745,669,771"/>
-<area shape="poly" title=" " alt="" coords="362,439,368,500,386,579,400,621,419,662,444,700,474,732,502,748,500,753,470,736,439,703,415,665,395,623,381,581,363,501,356,439"/>
-<area shape="rect" href="classqSlicerNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="515,795,655,820"/>
-<area shape="poly" title=" " alt="" coords="435,821,515,812,515,817,435,826"/>
-<area shape="rect" href="classqSlicerSceneWriter.html" title=" " alt="" coords="513,844,658,869"/>
-<area shape="poly" title=" " alt="" coords="435,837,513,846,512,851,435,843"/>
-<area shape="rect" href="classqSlicerScriptedFileWriter.html" title=" " alt="" coords="494,893,677,919"/>
-<area shape="poly" title=" " alt="" coords="396,848,473,879,514,891,513,896,471,885,394,853"/>
-<area shape="rect" href="classqSlicerMarkupsWriter.html" title="Utility class that offers writing of markups in both json format, regardless of the current storage n..." alt="" coords="765,767,927,792"/>
-<area shape="poly" title=" " alt="" coords="669,796,765,785,765,791,669,801"/>
-<area shape="rect" href="classqSlicerSegmentationsNodeWriter.html" title="Utility class that is ready to use for most of the nodes." alt="" coords="747,817,945,857"/>
-<area shape="poly" title=" " alt="" coords="669,814,747,823,746,828,669,819"/>
+<area shape="rect" title=" " alt="" coords="137,79,217,104"/>
+<area shape="rect" href="classqSlicerFileReader.html" title=" " alt="" coords="32,152,167,177"/>
+<area shape="poly" title=" " alt="" coords="156,115,114,154,110,150,152,111"/>
+<area shape="rect" href="classqSlicerFileWriter.html" title=" " alt="" coords="197,152,327,177"/>
+<area shape="poly" title=" " alt="" coords="202,110,250,150,246,154,199,115"/>
+<area shape="rect" title=" " alt="" coords="82,5,157,31"/>
+<area shape="poly" title=" " alt="" coords="139,40,169,77,165,80,135,43"/>
+<area shape="rect" href="classqSlicerObject.html" title=" " alt="" coords="181,5,289,31"/>
+<area shape="poly" title=" " alt="" coords="219,43,188,80,184,77,215,40"/>
+<area shape="rect" href="classqSlicerVTKFileReader.html" title=" " alt="" coords="5,225,167,251"/>
+<area shape="poly" title=" " alt="" coords="97,192,91,226,86,225,92,191"/>
+<area shape="rect" href="classqSlicerVTKFileWriter.html" title=" " alt="" coords="191,225,346,251"/>
+<area shape="poly" title=" " alt="" coords="267,191,270,225,265,225,262,191"/>
+<area shape="rect" href="classqSlicerNodeWriter.html" title=" " alt="" coords="199,299,339,324"/>
+<area shape="poly" title=" " alt="" coords="271,264,271,299,266,299,266,264"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -162,7 +124,7 @@ Collaboration diagram for qSlicerIO:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqSlicerIO__coll__graph.png" border="0" usemap="#aqSlicerIO_coll__map" alt="Collaboration graph"/></div>
 <map name="aqSlicerIO_coll__map" id="aqSlicerIO_coll__map">
-<area shape="rect" title="Base class for qSlicerFileReader and qSlicerFileWriter." alt="" coords="60,79,140,104"/>
+<area shape="rect" title=" " alt="" coords="60,79,140,104"/>
 <area shape="rect" title=" " alt="" coords="5,5,80,31"/>
 <area shape="poly" title=" " alt="" coords="63,40,93,77,89,80,58,43"/>
 <area shape="rect" href="classqSlicerObject.html" title=" " alt="" coords="105,5,213,31"/>
@@ -187,13 +149,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a742f27a98b2f29b86cf19e9faaf25e96" id="r_a742f27a98b2f29b86cf19e9faaf25e96"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE <a class="el" href="#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a742f27a98b2f29b86cf19e9faaf25e96">fileType</a> () const =0</td></tr>
 <tr class="memdesc:a742f27a98b2f29b86cf19e9faaf25e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiple readers can share the same file type.  <br /></td></tr>
 <tr class="separator:a742f27a98b2f29b86cf19e9faaf25e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebb33d910b4ca00c83bda25d83d5254" id="r_aaebb33d910b4ca00c83bda25d83d5254"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE <a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaebb33d910b4ca00c83bda25d83d5254">ioHandler</a> () const</td></tr>
+<tr class="separator:aaebb33d910b4ca00c83bda25d83d5254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1bcf5fb1dec66da49bff1c5cbdbea53" id="r_ab1bcf5fb1dec66da49bff1c5cbdbea53"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE <a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1bcf5fb1dec66da49bff1c5cbdbea53">options</a> () const</td></tr>
 <tr class="separator:ab1bcf5fb1dec66da49bff1c5cbdbea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5926f2bdd0c938320c12186c942f617" id="r_ac5926f2bdd0c938320c12186c942f617"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5926f2bdd0c938320c12186c942f617">qSlicerIO</a> (QObject *parent=nullptr)</td></tr>
 <tr class="separator:ac5926f2bdd0c938320c12186c942f617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaf8cf3633f910bf9910303ce4f54c3a" id="r_afaf8cf3633f910bf9910303ce4f54c3a"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf8cf3633f910bf9910303ce4f54c3a">userMessages</a> () const</td></tr>
-<tr class="memdesc:afaf8cf3633f910bf9910303ce4f54c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional warning or error messages occurred during IO operation.  <br /></td></tr>
-<tr class="separator:afaf8cf3633f910bf9910303ce4f54c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a615cb9cd174d8f79fe28093574a1d" id="r_a14a615cb9cd174d8f79fe28093574a1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14a615cb9cd174d8f79fe28093574a1d">setMRMLScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene) override</td></tr>
+<tr class="memdesc:a14a615cb9cd174d8f79fe28093574a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the scene of this object.  <br /></td></tr>
+<tr class="separator:a14a615cb9cd174d8f79fe28093574a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288b960a467cd80cd1264ab31e0a34b4" id="r_a288b960a467cd80cd1264ab31e0a34b4"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a288b960a467cd80cd1264ab31e0a34b4">userMessages</a> () const</td></tr>
+<tr class="memdesc:a288b960a467cd80cd1264ab31e0a34b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional warning or error messages occurred during IO operation.  <br /></td></tr>
+<tr class="separator:a288b960a467cd80cd1264ab31e0a34b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3a1cb61d87f4b85246fac765a62b33c" id="r_ab3a1cb61d87f4b85246fac765a62b33c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a1cb61d87f4b85246fac765a62b33c">~qSlicerIO</a> () override</td></tr>
 <tr class="separator:ab3a1cb61d87f4b85246fac765a62b33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classqSlicerObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classqSlicerObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classqSlicerObject.html">qSlicerObject</a></td></tr>
@@ -202,11 +169,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99bf27c9fa2b9e47a3724b13b267ea1b inherit pub_methods_classqSlicerObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a9261fdcc2b473d79b821cfb28ea52b inherit pub_methods_classqSlicerObject" id="r_a8a9261fdcc2b473d79b821cfb28ea52b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerObject.html#a8a9261fdcc2b473d79b821cfb28ea52b">qSlicerObject</a> ()</td></tr>
 <tr class="separator:a8a9261fdcc2b473d79b821cfb28ea52b inherit pub_methods_classqSlicerObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9387e3e4b28ba608b2a5a0312a7973 inherit pub_methods_classqSlicerObject" id="r_a9c9387e3e4b28ba608b2a5a0312a7973"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerObject.html#a9c9387e3e4b28ba608b2a5a0312a7973">setMRMLScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *)</td></tr>
-<tr class="memdesc:a9c9387e3e4b28ba608b2a5a0312a7973 inherit pub_methods_classqSlicerObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current MRML scene to the widget.  <br /></td></tr>
-<tr class="separator:a9c9387e3e4b28ba608b2a5a0312a7973 inherit pub_methods_classqSlicerObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafb216fc27ddd1a7d22b4ade86d63984 inherit pub_methods_classqSlicerObject" id="r_aafb216fc27ddd1a7d22b4ade86d63984"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqSlicerObject.html#aafb216fc27ddd1a7d22b4ade86d63984">~qSlicerObject</a> ()</td></tr>
 <tr class="separator:aafb216fc27ddd1a7d22b4ade86d63984 inherit pub_methods_classqSlicerObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a72686ab3d481dc924a618442612c0701" id="r_a72686ab3d481dc924a618442612c0701"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#abcfc12baff6003c8fbc5de7144a5578d">IOProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72686ab3d481dc924a618442612c0701">fromVTKProperties</a> (<a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *vtkProperties)</td></tr>
+<tr class="separator:a72686ab3d481dc924a618442612c0701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7dd31d346766220de1500bcd9a93bc" id="r_adc7dd31d346766220de1500bcd9a93bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc7dd31d346766220de1500bcd9a93bc">qImageToVTKImageData</a> (const QImage &amp;image, vtkImageData *imageData)</td></tr>
+<tr class="memdesc:adc7dd31d346766220de1500bcd9a93bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Qt image to VTK image (RGBA, unsigned char).  <br /></td></tr>
+<tr class="separator:adc7dd31d346766220de1500bcd9a93bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac656134eebab9804a9df16ee8bc3bb72" id="r_ac656134eebab9804a9df16ee8bc3bb72"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac656134eebab9804a9df16ee8bc3bb72">toVTKProperties</a> (const <a class="el" href="#abcfc12baff6003c8fbc5de7144a5578d">IOProperties</a> &amp;properties, <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *vtkProperties)</td></tr>
+<tr class="separator:ac656134eebab9804a9df16ee8bc3bb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3eb642e64fa6068484caf476152511d" id="r_af3eb642e64fa6068484caf476152511d"><td class="memItemLeft" align="right" valign="top">static QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3eb642e64fa6068484caf476152511d">vtkImageDataToQImage</a> (vtkImageData *imageData)</td></tr>
+<tr class="memdesc:af3eb642e64fa6068484caf476152511d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert VTK image (unsigned char, 1, 3, or 4 components) to Qt image.  <br /></td></tr>
+<tr class="separator:af3eb642e64fa6068484caf476152511d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -217,9 +194,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5e8402acac2e390c0c50e5afebc368cf inherit pro_attribs_classqSlicerObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base class for <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> and <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a>. </p>
+<div class="textblock"><p>Base class for <a class="el" href="classqSlicerFileReader.html">qSlicerFileReader</a> and <a class="el" href="classqSlicerFileWriter.html">qSlicerFileWriter</a></p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated</a></b></dt><dd>Reading and writing is implemented in VTK-based classes (<a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a>, <a class="el" href="classvtkMRMLFileWriter.html">vtkMRMLFileWriter</a>) and managed by <a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a>. This class is kept for backward compatibility and to provide Qt options widgets. See <a href="https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#qt-interface">https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#qt-interface</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00041">41</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00049">49</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a50c44b634b96811a34bb57692e04a2e1" name="a50c44b634b96811a34bb57692e04a2e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50c44b634b96811a34bb57692e04a2e1">&#9670;&#160;</a></span>IOFileType</h2>
@@ -233,7 +211,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00052">52</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00060">60</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +227,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00053">53</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00061">61</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +243,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00048">48</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00056">56</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
 
 </div>
 </div>
@@ -346,7 +324,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Unique name of the reader/writer. </p>
 
-<p>Implemented in <a class="el" href="classqSlicerAnnotationsReader.html#a0cb92a5c232edaa55cdfed362459d627">qSlicerAnnotationsReader</a>, <a class="el" href="classqSlicerColorsReader.html#aba2cb88646ef46e6074c8bcd531eead5">qSlicerColorsReader</a>, <a class="el" href="classqSlicerMarkupsReader.html#ab234a6f74013ca3e50f5681882a4ba32">qSlicerMarkupsReader</a>, <a class="el" href="classqSlicerModelsReader.html#af056befd229dae36c9badc814c496971">qSlicerModelsReader</a>, <a class="el" href="classqSlicerNodeWriter.html#a35b0bc4afa453ab8de6782e60a12870f">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerSceneBundleReader.html#a684c8e46f37af569cedf20d48be8c030">qSlicerSceneBundleReader</a>, <a class="el" href="classqSlicerSceneReader.html#a7f02cdb396aa818a9f58388d135a0383">qSlicerSceneReader</a>, <a class="el" href="classqSlicerSceneWriter.html#a5a4f00c0c5baca6172264bcefdf02c90">qSlicerSceneWriter</a>, <a class="el" href="classqSlicerScriptedFileReader.html#ab9ad3491f7e33a2f8fde8e33132b9883">qSlicerScriptedFileReader</a>, <a class="el" href="classqSlicerScriptedFileWriter.html#a62857b44a6aa1900663858b570d41ff8">qSlicerScriptedFileWriter</a>, <a class="el" href="classqSlicerSegmentationsReader.html#a4a0ddb85ebd78506d345ad432bad9466">qSlicerSegmentationsReader</a>, <a class="el" href="classqSlicerSequencesReader.html#a04519464fc4f9edd2e016193dcb30b6e">qSlicerSequencesReader</a>, <a class="el" href="classqSlicerShaderPropertyReader.html#a53cf2f0c1c9069e3824f5c4291259631">qSlicerShaderPropertyReader</a>, <a class="el" href="classqSlicerTablesReader.html#a7c03bd02d540042fd94be8126a02bbc4">qSlicerTablesReader</a>, <a class="el" href="classqSlicerTerminologiesReader.html#a9184181c8a404ad0400b3e53a2f4a97f">qSlicerTerminologiesReader</a>, <a class="el" href="classqSlicerTextsReader.html#a84a43feb9d472d5c76fb9a3a33959509">qSlicerTextsReader</a>, <a class="el" href="classqSlicerTransformsReader.html#a9748cc586ed86358ee7084414a3a4753">qSlicerTransformsReader</a>, <a class="el" href="classqSlicerVolumeRenderingReader.html#a90c871cdd6399ada4f05c9c9188bddc2">qSlicerVolumeRenderingReader</a>, and <a class="el" href="classqSlicerVolumesReader.html#a4470bc6b3a960cffba8d393abf5f5126">qSlicerVolumesReader</a>.</p>
+<p>Implemented in <a class="el" href="classqSlicerVTKFileReader.html#a12d6c0e3cb695d931b5ede3ee80e408d">qSlicerVTKFileReader</a>, and <a class="el" href="classqSlicerVTKFileWriter.html#a654f395a3082e4c11f774a5a079eefdc">qSlicerVTKFileWriter</a>.</p>
 
 </div>
 </div>
@@ -375,7 +353,61 @@ Protected Attributes</h2></td></tr>
 
 <p>Multiple readers can share the same file type. </p>
 
-<p>Implemented in <a class="el" href="classqSlicerAnnotationsReader.html#a944d7a6ff300172470e840a7216622c6">qSlicerAnnotationsReader</a>, <a class="el" href="classqSlicerColorsReader.html#a56f4adf92b2a30054b885d836bcd71b9">qSlicerColorsReader</a>, <a class="el" href="classqSlicerMarkupsReader.html#ae6b6f6a3d3f0d27f067528acf0b5afaf">qSlicerMarkupsReader</a>, <a class="el" href="classqSlicerModelsReader.html#adc457d2c0f83d784668d8e284b8c3717">qSlicerModelsReader</a>, <a class="el" href="classqSlicerNodeWriter.html#a7262bf7f14fad77487efb9e2d17d7351">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerSceneBundleReader.html#aef7e532f53917bb6afd641ccbaa97922">qSlicerSceneBundleReader</a>, <a class="el" href="classqSlicerSceneReader.html#a5785e5cb63b07ad9ece13ca819d4844f">qSlicerSceneReader</a>, <a class="el" href="classqSlicerSceneWriter.html#a2570b1dff499c9917841c5576b12d5b5">qSlicerSceneWriter</a>, <a class="el" href="classqSlicerScriptedFileReader.html#a81bb713790238a6e191c55adcf1953ee">qSlicerScriptedFileReader</a>, <a class="el" href="classqSlicerScriptedFileWriter.html#a8e1ef5abc988d21350c568931f42e097">qSlicerScriptedFileWriter</a>, <a class="el" href="classqSlicerSegmentationsReader.html#a255182cef058ae16b7ff3f275f4cda77">qSlicerSegmentationsReader</a>, <a class="el" href="classqSlicerSequencesReader.html#a36a4d631a08d4faa712c97a2ede56585">qSlicerSequencesReader</a>, <a class="el" href="classqSlicerShaderPropertyReader.html#a147cf28d44c8ad308ffeda24ca5bc531">qSlicerShaderPropertyReader</a>, <a class="el" href="classqSlicerTablesReader.html#a7a5f48e0d0c9378dea9abca5783de4fa">qSlicerTablesReader</a>, <a class="el" href="classqSlicerTerminologiesReader.html#adc7190d513c34dc440d30701f2dccb52">qSlicerTerminologiesReader</a>, <a class="el" href="classqSlicerTextsReader.html#ae9a2bb6bd02c0ddae431fe878eaa7df4">qSlicerTextsReader</a>, <a class="el" href="classqSlicerTransformsReader.html#a03781e22749c3912f58f34d29323950f">qSlicerTransformsReader</a>, <a class="el" href="classqSlicerVolumeRenderingReader.html#a308c03f41f981da9dc98e7f07bcba41b">qSlicerVolumeRenderingReader</a>, and <a class="el" href="classqSlicerVolumesReader.html#a68052a9615389568f7d4ac07ec60f850">qSlicerVolumesReader</a>.</p>
+<p>Implemented in <a class="el" href="classqSlicerVTKFileReader.html#a457863df79791e2b4bc9473d4175f303">qSlicerVTKFileReader</a>, and <a class="el" href="classqSlicerVTKFileWriter.html#ad65ff9d59130b80203c7aa196f3cd49d">qSlicerVTKFileWriter</a>.</p>
+
+</div>
+</div>
+<a id="a72686ab3d481dc924a618442612c0701" name="a72686ab3d481dc924a618442612c0701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72686ab3d481dc924a618442612c0701">&#9670;&#160;</a></span>fromVTKProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="#abcfc12baff6003c8fbc5de7144a5578d">IOProperties</a> qSlicerIO::fromVTKProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>vtkProperties</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Convert VTK properties to Qt properties. Lists are converted to QVariantList, nested properties to <a class="el" href="qSlicerQListQVariantMapMetaType_8h.html#aa90e6cbf54a8e79153d35230f332a7aa">QVariantMap</a>, vtkImageData values to QImage. Objects that cannot be converted to Qt types are ignored and an error is logged. </p>
+
+</div>
+</div>
+<a id="aaebb33d910b4ca00c83bda25d83d5254" name="aaebb33d910b4ca00c83bda25d83d5254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaebb33d910b4ca00c83bda25d83d5254">&#9670;&#160;</a></span>ioHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Q_INVOKABLE <a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> * qSlicerIO::ioHandler </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>VTK-based reader or writer that performs all the tasks of this class. Returns nullptr (legacy Qt-based readers and writers implement reading and writing themselves). It is overridden in <a class="el" href="classqSlicerVTKFileReader.html">qSlicerVTKFileReader</a> and <a class="el" href="classqSlicerVTKFileWriter.html">qSlicerVTKFileWriter</a>. </p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerVTKFileReader.html#aff2668ada9916f7ebf0200970b2871df">qSlicerVTKFileReader</a>, and <a class="el" href="classqSlicerVTKFileWriter.html#a2794df7d993ec94cfe6d0103a63b2a18">qSlicerVTKFileWriter</a>.</p>
 
 </div>
 </div>
@@ -403,26 +435,155 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns a list of options for the reader. <a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> can be derived and have a UI associated to it (i.e. <a class="el" href="classqSlicerIOOptionsWidget.html">qSlicerIOOptionsWidget</a>). Warning: you are responsible for freeing the memory of the returned options </p>
 
-<p>Reimplemented in <a class="el" href="classqSlicerAnnotationsReader.html#aff3b188691579dc8f7ec57239d1e4e52">qSlicerAnnotationsReader</a>, <a class="el" href="classqSlicerModelsReader.html#aaf79ff9a187b5dfac795d6c8020badc5">qSlicerModelsReader</a>, <a class="el" href="classqSlicerNodeWriter.html#aec5d5d0fb7f5386c0c78455bdad7f689">qSlicerNodeWriter</a>, <a class="el" href="classqSlicerSceneReader.html#a438a74ff85da967681b0311c1e555c8e">qSlicerSceneReader</a>, <a class="el" href="classqSlicerSegmentationsNodeWriter.html#aad7c6f74ef750aeeac1f0f23a93ed62d">qSlicerSegmentationsNodeWriter</a>, <a class="el" href="classqSlicerSegmentationsReader.html#a22e407e6ed5bfa9d0e52189bd247f71c">qSlicerSegmentationsReader</a>, and <a class="el" href="classqSlicerVolumesReader.html#a546ab0a368395e1497745b36cf8d4005">qSlicerVolumesReader</a>.</p>
+<p>Reimplemented in <a class="el" href="classqSlicerNodeWriter.html#aec5d5d0fb7f5386c0c78455bdad7f689">qSlicerNodeWriter</a>.</p>
 
 </div>
 </div>
-<a id="afaf8cf3633f910bf9910303ce4f54c3a" name="afaf8cf3633f910bf9910303ce4f54c3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaf8cf3633f910bf9910303ce4f54c3a">&#9670;&#160;</a></span>userMessages()</h2>
+<a id="adc7dd31d346766220de1500bcd9a93bc" name="adc7dd31d346766220de1500bcd9a93bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7dd31d346766220de1500bcd9a93bc">&#9670;&#160;</a></span>qImageToVTKImageData()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Q_INVOKABLE <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> * qSlicerIO::userMessages </td>
+          <td class="memname">static bool qSlicerIO::qImageToVTKImageData </td>
+          <td>(</td>
+          <td class="paramtype">const QImage &amp;</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkImageData *</td>          <td class="paramname"><span class="paramname"><em>imageData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert Qt image to VTK image (RGBA, unsigned char). </p>
+
+</div>
+</div>
+<a id="a14a615cb9cd174d8f79fe28093574a1d" name="a14a615cb9cd174d8f79fe28093574a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14a615cb9cd174d8f79fe28093574a1d">&#9670;&#160;</a></span>setMRMLScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerIO::setMRMLScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *</td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the scene of this object. </p>
+
+<p>Reimplemented from <a class="el" href="classqSlicerObject.html#a9c9387e3e4b28ba608b2a5a0312a7973">qSlicerObject</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerVTKFileReader.html#a5f456569f09e4887b7b9794d83f78579">qSlicerVTKFileReader</a>, and <a class="el" href="classqSlicerVTKFileWriter.html#a43571563d9a5837d26ef742a3eaa7b59">qSlicerVTKFileWriter</a>.</p>
+
+</div>
+</div>
+<a id="ac656134eebab9804a9df16ee8bc3bb72" name="ac656134eebab9804a9df16ee8bc3bb72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac656134eebab9804a9df16ee8bc3bb72">&#9670;&#160;</a></span>toVTKProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void qSlicerIO::toVTKProperties </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abcfc12baff6003c8fbc5de7144a5578d">IOProperties</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>properties</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>vtkProperties</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Convert Qt properties to VTK properties. Supported value types: bool, integer (including 64-bit), floating-point, QString, QStringList, QVariantList (of bool, integer, floating-point, and QString values), <a class="el" href="qSlicerQListQVariantMapMetaType_8h.html#aa90e6cbf54a8e79153d35230f332a7aa">QVariantMap</a> and QVariantHash (converted to nested properties), QImage and QPixmap (converted to vtkImageData). Properties of other types are ignored and an error is logged. </p>
+
+</div>
+</div>
+<a id="a288b960a467cd80cd1264ab31e0a34b4" name="a288b960a467cd80cd1264ab31e0a34b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a288b960a467cd80cd1264ab31e0a34b4">&#9670;&#160;</a></span>userMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Q_INVOKABLE <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> * qSlicerIO::userMessages </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Additional warning or error messages occurred during IO operation. </p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerVTKFileReader.html#a6dbcfbb84b67db735fe5cf0a3494ab8d">qSlicerVTKFileReader</a>, and <a class="el" href="classqSlicerVTKFileWriter.html#aa52b9e48c830f587ae13d78f63699435">qSlicerVTKFileWriter</a>.</p>
+
+</div>
+</div>
+<a id="af3eb642e64fa6068484caf476152511d" name="af3eb642e64fa6068484caf476152511d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3eb642e64fa6068484caf476152511d">&#9670;&#160;</a></span>vtkImageDataToQImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QImage qSlicerIO::vtkImageDataToQImage </td>
+          <td>(</td>
+          <td class="paramtype">vtkImageData *</td>          <td class="paramname"><span class="paramname"><em>imageData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert VTK image (unsigned char, 1, 3, or 4 components) to Qt image. </p>
 
 </div>
 </div>
@@ -447,7 +608,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00071">71</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIO_8h_source.html#l00103">103</a> of file <a class="el" href="qSlicerIO_8h_source.html">qSlicerIO.h</a>.</p>
 
 </div>
 </div>
@@ -457,7 +618,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 27 2026 23:46:20 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 01:59:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
