@@ -144,7 +144,6 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e94bea3230f037cd3053758e6f03336" id="r_a7e94bea3230f037cd3053758e6f03336"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e94bea3230f037cd3053758e6f03336">CanLoadFileConfidence</a> (const std::string &amp;filePath) override</td></tr>
-<tr class="memdesc:a7e94bea3230f037cd3053758e6f03336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher confidence for NIFTI or NRRD files containing displacement field.  <br /></td></tr>
 <tr class="separator:a7e94bea3230f037cd3053758e6f03336"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0912a267ccf9aabb67bd69a4b650dc3c" id="r_a0912a267ccf9aabb67bd69a4b650dc3c"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0912a267ccf9aabb67bd69a4b650dc3c">GetClassName</a> ()</td></tr>
 <tr class="separator:a0912a267ccf9aabb67bd69a4b650dc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,6 +232,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9f43e753a3c0553ee6e19d02ce9f1386" id="r_a9f43e753a3c0553ee6e19d02ce9f1386"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f43e753a3c0553ee6e19d02ce9f1386">IsITKTextTransformFile</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:a9f43e753a3c0553ee6e19d02ce9f1386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the file looks like an ITK text transform file (it only inspects the beginning of the file).  <br /></td></tr>
+<tr class="separator:a9f43e753a3c0553ee6e19d02ce9f1386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd509b4b28e0477f552eeaa9c743abf" id="r_a0fd509b4b28e0477f552eeaa9c743abf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd509b4b28e0477f552eeaa9c743abf">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:a0fd509b4b28e0477f552eeaa9c743abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c1baf550c2f49b02ae3ed53a4333d50" id="r_a0c1baf550c2f49b02ae3ed53a4333d50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkSlicerTransformsReader.html">vtkSlicerTransformsReader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c1baf550c2f49b02ae3ed53a4333d50">New</a> ()</td></tr>
@@ -414,8 +416,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Higher confidence for NIFTI or NRRD files containing displacement field. </p>
+<p>Returns higher confidence than the default for NIFTI and NRRD files that contain a displacement field, and for .txt files that look like ITK transform files. Returns lower than default confidence for NIFTI and NRRD files that do not contain a displacement field and for other .txt files. </p>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLFileReader.html#a8730d59d4ea8ac3f9e21de6fcee66476">vtkMRMLFileReader</a>.</p>
 
@@ -489,6 +490,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLFileReader.html#ad01a22b981fd72f4c8c16b872cbd02db">vtkMRMLFileReader</a>.</p>
+
+</div>
+</div>
+<a id="a9f43e753a3c0553ee6e19d02ce9f1386" name="a9f43e753a3c0553ee6e19d02ce9f1386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f43e753a3c0553ee6e19d02ce9f1386">&#9670;&#160;</a></span>IsITKTextTransformFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool vtkSlicerTransformsReader::IsITKTextTransformFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the file looks like an ITK text transform file (it only inspects the beginning of the file). </p>
 
 </div>
 </div>
@@ -633,7 +661,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSlicerTransformsReader_8h_source.html#l00050">50</a> of file <a class="el" href="vtkSlicerTransformsReader_8h_source.html">vtkSlicerTransformsReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSlicerTransformsReader_8h_source.html#l00055">55</a> of file <a class="el" href="vtkSlicerTransformsReader_8h_source.html">vtkSlicerTransformsReader.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +671,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 30 2026 01:59:39 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 14:21:33 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

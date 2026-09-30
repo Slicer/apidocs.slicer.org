@@ -263,9 +263,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6390d8af78fdaeb60ef3a23af33c9cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a6e202881886727d7912e96280c15f3" id="r_a0a6e202881886727d7912e96280c15f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a6e202881886727d7912e96280c15f3">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:a0a6e202881886727d7912e96280c15f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804769e33ed2297a769f20b0b79ea387" id="r_a804769e33ed2297a769f20b0b79ea387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a804769e33ed2297a769f20b0b79ea387">Register</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *handler)</td></tr>
-<tr class="memdesc:a804769e33ed2297a769f20b0b79ea387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a reader or a writer (calls <a class="el" href="#a442462f3c2c5df5a3355f6071b428fb4">RegisterReader()</a> or <a class="el" href="#a84bd8bcd25c1974db41f9b1a0d11e767">RegisterWriter()</a>, depending on the type of the handler).  <br /></td></tr>
-<tr class="separator:a804769e33ed2297a769f20b0b79ea387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6ea74eea40cd75e69fcfff901e32eac" id="r_ae6ea74eea40cd75e69fcfff901e32eac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ea74eea40cd75e69fcfff901e32eac">RegisterHandler</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *handler)</td></tr>
+<tr class="separator:ae6ea74eea40cd75e69fcfff901e32eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4908b9cd5df9ff769bcdc18a22e1f4fd" id="r_a4908b9cd5df9ff769bcdc18a22e1f4fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNodeWriter.html">vtkMRMLNodeWriter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4908b9cd5df9ff769bcdc18a22e1f4fd">RegisterNodeWriter</a> (const std::string &amp;description, const std::string &amp;fileType, const std::vector&lt; std::string &gt; &amp;nodeClassNames, bool supportUseCompression=true)</td></tr>
 <tr class="separator:a4908b9cd5df9ff769bcdc18a22e1f4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a442462f3c2c5df5a3355f6071b428fb4" id="r_a442462f3c2c5df5a3355f6071b428fb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442462f3c2c5df5a3355f6071b428fb4">RegisterReader</a> (<a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a> *reader)</td></tr>
@@ -288,9 +287,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a640825b002cc6243656ca5b2662a5c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53082ed67586eac6044beb24918bac61" id="r_a53082ed67586eac6044beb24918bac61"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53082ed67586eac6044beb24918bac61">StripKnownExtension</a> (const std::string &amp;fileName, vtkObject *object)</td></tr>
 <tr class="separator:a53082ed67586eac6044beb24918bac61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0885e58295b7932c48cf26f02cadaf9" id="r_ac0885e58295b7932c48cf26f02cadaf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0885e58295b7932c48cf26f02cadaf9">Unregister</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *handler)</td></tr>
-<tr class="memdesc:ac0885e58295b7932c48cf26f02cadaf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a reader or a writer. Whoever registered a handler is responsible for unregistering it.  <br /></td></tr>
-<tr class="separator:ac0885e58295b7932c48cf26f02cadaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f11682b80358ead723a8db2fdadf5b5" id="r_a5f11682b80358ead723a8db2fdadf5b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f11682b80358ead723a8db2fdadf5b5">UnregisterHandler</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *handler)</td></tr>
+<tr class="memdesc:a5f11682b80358ead723a8db2fdadf5b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a reader or a writer. Whoever registered a handler is responsible for unregistering it.  <br /></td></tr>
+<tr class="separator:a5f11682b80358ead723a8db2fdadf5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1688,22 +1687,21 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a804769e33ed2297a769f20b0b79ea387" name="a804769e33ed2297a769f20b0b79ea387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804769e33ed2297a769f20b0b79ea387">&#9670;&#160;</a></span>Register()</h2>
+<a id="ae6ea74eea40cd75e69fcfff901e32eac" name="ae6ea74eea40cd75e69fcfff901e32eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6ea74eea40cd75e69fcfff901e32eac">&#9670;&#160;</a></span>RegisterHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void vtkMRMLFileIOManager::Register </td>
+          <td class="memname">void vtkMRMLFileIOManager::RegisterHandler </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *</td>          <td class="paramname"><span class="paramname"><em>handler</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Add a reader or a writer (calls <a class="el" href="#a442462f3c2c5df5a3355f6071b428fb4">RegisterReader()</a> or <a class="el" href="#a84bd8bcd25c1974db41f9b1a0d11e767">RegisterWriter()</a>, depending on the type of the handler). </p>
+<p>Add a reader or a writer (calls <a class="el" href="#a442462f3c2c5df5a3355f6071b428fb4">RegisterReader()</a> or <a class="el" href="#a84bd8bcd25c1974db41f9b1a0d11e767">RegisterWriter()</a>, depending on the type of the handler). It is not named Register(), because that would hide vtkObjectBase::Register() in C++ and it would be called instead of this method in Python (which would increment the reference count of the manager). </p>
 
 </div>
 </div>
@@ -2001,14 +1999,14 @@ template&lt;typename HandlerType&gt; </div>
 
 </div>
 </div>
-<a id="ac0885e58295b7932c48cf26f02cadaf9" name="ac0885e58295b7932c48cf26f02cadaf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0885e58295b7932c48cf26f02cadaf9">&#9670;&#160;</a></span>Unregister()</h2>
+<a id="a5f11682b80358ead723a8db2fdadf5b5" name="a5f11682b80358ead723a8db2fdadf5b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f11682b80358ead723a8db2fdadf5b5">&#9670;&#160;</a></span>UnregisterHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void vtkMRMLFileIOManager::Unregister </td>
+          <td class="memname">void vtkMRMLFileIOManager::UnregisterHandler </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *</td>          <td class="paramname"><span class="paramname"><em>handler</em></span></td><td>)</td>
           <td></td>
@@ -2041,7 +2039,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00315">315</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00317">317</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2065,7 +2063,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00320">320</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00322">322</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2089,7 +2087,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00319">319</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00321">321</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2113,7 +2111,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00316">316</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00318">318</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2137,7 +2135,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00314">314</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00316">316</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2161,7 +2159,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00317">317</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00319">319</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2171,7 +2169,7 @@ template&lt;typename HandlerType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 30 2026 01:59:36 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Sep 30 2026 14:21:31 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
