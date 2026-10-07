@@ -500,7 +500,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Iterates through readers looking at the file list to see if there is an entry that can serve as an archetype for loading multiple files. If so, the reader removes the recognized files from the list and sets the ioProperties so that the corresponding loader will read these files. The "fileName" property is set to the archetype file. Returns the reader that recognized the files or nullptr if no pattern is recognized. If multiple readers recognize a group of files then the one with the highest confidence (see <a class="el" href="classvtkMRMLFileReader.html#a4df5b72f0abfa59fdf2bee2e8f795294">vtkMRMLFileReader::ExamineFileListConfidence</a>) is used. The specific motivating use case is when the file list contains a set of related files, such as a list of image files that are recognized as a volume. In Python, fileList must be a list (it is modified in place). </p>
+<p>Iterates through readers looking at the file list to see if there is an entry that can serve as an archetype for loading multiple files. If so, the reader removes the recognized files from the list and sets the ioProperties so that the corresponding loader will read these files. The "fileName" property is set to the archetype file. Returns the reader that recognized the files or nullptr if no pattern is recognized. If multiple readers recognize a group of files then the one with the highest confidence (see <a class="el" href="classvtkMRMLFileReader.html#a4df5b72f0abfa59fdf2bee2e8f795294">vtkMRMLFileReader::ExamineFileListConfidence</a>) is used. The specific motivating use case is when the file list contains a set of related files, such as a list of image files that are recognized as a volume. In <a class="el" href="namespacePython.html">Python</a>, fileList must be a list (it is modified in place). </p>
 
 </div>
 </div>
@@ -2171,7 +2171,7 @@ template&lt;typename HandlerType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 6 2026 00:26:55 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Oct 7 2026 17:09:16 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

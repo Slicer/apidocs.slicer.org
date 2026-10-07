@@ -96,7 +96,7 @@ $(function(){ initResizable(false); });
 </div><!--header-->
 <div class="contents">
 
-<p>Python bridge for <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a>.  
+<p><a class="el" href="namespacePython.html">Python</a> bridge for <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a>.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="vtkSlicerScriptedFileReaderBridge_8h_source.html">Base/Logic/vtkSlicerScriptedFileReaderBridge.h</a>&gt;</code></p>
@@ -147,10 +147,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6761a8bc086d4fa4fb01cabdaafb1da1" id="r_a6761a8bc086d4fa4fb01cabdaafb1da1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6761a8bc086d4fa4fb01cabdaafb1da1">CanLoadFileConfidence</a> (const std::string &amp;filePath) override</td></tr>
 <tr class="separator:a6761a8bc086d4fa4fb01cabdaafb1da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98335dc43ea99541ba70e439525fbea8" id="r_a98335dc43ea99541ba70e439525fbea8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98335dc43ea99541ba70e439525fbea8">ExamineFileList</a> (std::vector&lt; std::string &gt; &amp;fileList, <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *ioProperties) override</td></tr>
-<tr class="memdesc:a98335dc43ea99541ba70e439525fbea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file list is passed to the Python method as a list, which the method must modify in place.  <br /></td></tr>
+<tr class="memdesc:a98335dc43ea99541ba70e439525fbea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file list is passed to the <a class="el" href="namespacePython.html">Python</a> method as a list, which the method must modify in place.  <br /></td></tr>
 <tr class="separator:a98335dc43ea99541ba70e439525fbea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20cc51b9b6a9a14df39248b01bd18e61" id="r_a20cc51b9b6a9a14df39248b01bd18e61"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20cc51b9b6a9a14df39248b01bd18e61">ExamineFileListConfidence</a> (std::vector&lt; std::string &gt; &amp;fileList, <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *ioProperties) override</td></tr>
-<tr class="memdesc:a20cc51b9b6a9a14df39248b01bd18e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file list is passed to the Python method as a list, which the method must modify in place.  <br /></td></tr>
+<tr class="memdesc:a20cc51b9b6a9a14df39248b01bd18e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file list is passed to the <a class="el" href="namespacePython.html">Python</a> method as a list, which the method must modify in place.  <br /></td></tr>
 <tr class="separator:a20cc51b9b6a9a14df39248b01bd18e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4af25232f4c6a69262f49dc0e51a89db" id="r_a4af25232f4c6a69262f49dc0e51a89db"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4af25232f4c6a69262f49dc0e51a89db">GetClassName</a> ()</td></tr>
 <tr class="separator:a4af25232f4c6a69262f49dc0e51a89db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -322,8 +322,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a497d8d359c91b289700e13bf95dd2c2a inherit pro_attribs_classvtkMRMLFileIOHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Python bridge for <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a>. </p>
-<p>File readers are implemented in Python by subclassing slicer.vtkSlicerScriptedFileReader (defined in slicer.ScriptedFileIO), which is a Python subclass of this class. This class calls the methods that are overridden in Python and uses the <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a> implementation of the other methods.</p>
+<div class="textblock"><p><a class="el" href="namespacePython.html">Python</a> bridge for <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a>. </p>
+<p>File readers are implemented in <a class="el" href="namespacePython.html">Python</a> by subclassing slicer.vtkSlicerScriptedFileReader (defined in slicer.ScriptedFileIO), which is a <a class="el" href="namespacePython.html">Python</a> subclass of this class. This class calls the methods that are overridden in <a class="el" href="namespacePython.html">Python</a> and uses the <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a> implementation of the other methods.</p>
 <p>See <a href="https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#readers-and-writers-implemented-in-python">https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#readers-and-writers-implemented-in-python</a></p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkSlicerScriptedFileWriterBridge.html" title="Python bridge for vtkMRMLFileWriter.">vtkSlicerScriptedFileWriterBridge</a> </dd></dl>
 
@@ -482,7 +482,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The file list is passed to the Python method as a list, which the method must modify in place. </p>
+<p>The file list is passed to the <a class="el" href="namespacePython.html">Python</a> method as a list, which the method must modify in place. </p>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLFileReader.html#a4e977044c335988b73178f5ae035320d">vtkMRMLFileReader</a>.</p>
 
@@ -515,7 +515,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The file list is passed to the Python method as a list, which the method must modify in place. </p>
+<p>The file list is passed to the <a class="el" href="namespacePython.html">Python</a> method as a list, which the method must modify in place. </p>
 
 <p>Reimplemented from <a class="el" href="classvtkMRMLFileReader.html#a4df5b72f0abfa59fdf2bee2e8f795294">vtkMRMLFileReader</a>.</p>
 
@@ -590,7 +590,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Weak reference to this object. It is cleared when the object starts to be deleted (before DeleteEvent observers are called), therefore it can be used for referring to this object from Python without preventing the deletion of the object, even in DeleteEvent observers. </p>
+<p>Weak reference to this object. It is cleared when the object starts to be deleted (before DeleteEvent observers are called), therefore it can be used for referring to this object from <a class="el" href="namespacePython.html">Python</a> without preventing the deletion of the object, even in DeleteEvent observers. </p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Convert IO properties to a Python dictionary and update IO properties from a Python dictionary. Used by readers and writers that use dictionaries for properties (legacy scripted readers and writers). </p>
+<p>Convert IO properties to a <a class="el" href="namespacePython.html">Python</a> dictionary and update IO properties from a <a class="el" href="namespacePython.html">Python</a> dictionary. Used by readers and writers that use dictionaries for properties (legacy scripted readers and writers). </p>
 
 </div>
 </div>
@@ -805,7 +805,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Clear the weak reference (see GetWeakReference) when the last reference is released, before DeleteEvent observers are invoked. If the weak reference was used in a DeleteEvent observer then a new Python wrapper would be created for the object that is being deleted, which would lead to infinite recursion. </p>
+<p>Clear the weak reference (see GetWeakReference) when the last reference is released, before DeleteEvent observers are invoked. If the weak reference was used in a DeleteEvent observer then a new <a class="el" href="namespacePython.html">Python</a> wrapper would be created for the object that is being deleted, which would lead to infinite recursion. </p>
 
 </div>
 </div>
@@ -844,7 +844,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 6 2026 00:26:57 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Oct 7 2026 17:09:18 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

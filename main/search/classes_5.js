@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['githubalertstoadmonitions_0',['GithubAlertsToAdmonitions',['../classgithub__alerts_1_1GithubAlertsToAdmonitions.html',1,'github_alerts']]]
+  ['fibheap_0',['FibHeap',['../classFibHeap.html',1,'']]],
+  ['fibheapnode_1',['FibHeapNode',['../classFibHeapNode.html',1,'']]]
 ];

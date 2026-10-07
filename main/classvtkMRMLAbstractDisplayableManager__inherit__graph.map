@@ -1,25 +1,27 @@
 <map id="vtkMRMLAbstractDisplayableManager" name="vtkMRMLAbstractDisplayableManager">
-<area shape="rect" id="Node000001" title="Superclass for displayable manager classes." alt="" coords="359,760,573,800"/>
+<area shape="rect" id="Node000001" title="Superclass for displayable manager classes." alt="" coords="359,779,573,819"/>
 <area shape="rect" id="Node000004" href="$classvtkMRMLAbstractSliceViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="657,197,858,237"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,747,743,236,748,239,486,749"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,765,743,237,748,239,486,768"/>
 <area shape="rect" id="Node000011" href="$classvtkMRMLAbstractThreeDViewDisplayableManager.html" title="Superclass for displayable manager classes." alt="" coords="649,600,866,640"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="493,748,549,697,583,671,620,650,650,638,652,642,623,654,586,676,552,701,497,752"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="489,766,544,706,580,676,620,650,647,638,650,642,623,654,584,680,548,710,493,770"/>
 <area shape="rect" id="Node000021" href="$classvtkMRMLColorLegendDisplayableManager.html" title="Displayable manager for color legends." alt="" coords="637,664,878,704"/>
-<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="522,752,620,713,662,701,664,707,622,719,524,757"/>
-<area shape="rect" id="Node000022" href="$classvtkMRMLLinearTransformsDisplayableManager.html" title="Displayable manager for showing transforms in slice (2D) views." alt="" coords="621,728,893,768"/>
-<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="587,764,621,760,621,766,587,769"/>
-<area shape="rect" id="Node000023" href="$classvtkMRMLMarkupsDisplayableManager.html" title=" " alt="" coords="650,792,865,832"/>
-<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="587,791,650,798,650,803,587,796"/>
-<area shape="rect" id="Node000024" href="$classvtkMRMLOrientationMarkerDisplayableManager.html" title="Displayable manager that displays orientation marker in a slice or 3D view." alt="" coords="657,856,858,896"/>
-<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="524,803,622,841,664,853,662,859,620,847,522,808"/>
-<area shape="rect" id="Node000025" href="$classvtkMRMLRulerDisplayableManager.html" title="Displayable manager that displays orientation marker in a slice or 3D view." alt="" coords="632,921,883,946"/>
-<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="496,808,551,859,586,885,622,906,658,918,656,923,620,910,583,889,548,863,492,812"/>
-<area shape="rect" id="Node000026" href="$classvtkMRMLScriptedDisplayableManager.html" title=" " alt="" coords="651,971,864,1011"/>
-<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="488,810,511,845,542,885,580,924,623,956,652,970,649,975,620,961,576,928,538,888,507,848,484,813"/>
-<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="139,767,311,793"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,777,358,777,358,783,324,783"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,767,91,793"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,777,139,777,139,783,104,783"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="510,769,562,740,620,714,658,701,659,707,622,718,564,745,512,774"/>
+<area shape="rect" id="Node000022" href="$classvtkMRMLLayerDisplayableManager.html" title="Displayable manager responsible for handling multiple displayable pipelines in sub&#45;layers." alt="" coords="631,729,884,754"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="575,773,621,764,687,751,688,757,622,769,576,778"/>
+<area shape="rect" id="Node000023" href="$classvtkMRMLLinearTransformsDisplayableManager.html" title="Displayable manager for showing transforms in slice (2D) views." alt="" coords="621,779,893,819"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="587,796,621,796,621,801,587,801"/>
+<area shape="rect" id="Node000024" href="$classvtkMRMLMarkupsDisplayableManager.html" title=" " alt="" coords="650,843,865,883"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="572,819,666,840,665,845,570,824"/>
+<area shape="rect" id="Node000025" href="$classvtkMRMLOrientationMarkerDisplayableManager.html" title="Displayable manager that displays orientation marker in a slice or 3D view." alt="" coords="657,907,858,947"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="506,824,560,860,622,892,658,904,656,909,620,897,557,864,503,829"/>
+<area shape="rect" id="Node000026" href="$classvtkMRMLRulerDisplayableManager.html" title="Displayable manager that displays orientation marker in a slice or 3D view." alt="" coords="632,971,883,997"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="490,828,545,895,581,928,623,956,653,969,651,974,620,961,578,933,541,898,486,832"/>
+<area shape="rect" id="Node000027" href="$classvtkMRMLScriptedDisplayableManager.html" title=" " alt="" coords="651,1021,864,1061"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="484,830,506,871,537,919,576,967,623,1007,652,1022,649,1026,620,1012,572,971,533,923,502,874,480,833"/>
+<area shape="rect" id="Node000002" href="$classvtkMRMLAbstractLogic.html" title="Superclass for MRML logic classes." alt="" coords="139,786,311,811"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,796,358,796,358,801,324,801"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,786,91,811"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,796,139,796,139,801,104,801"/>
 <area shape="rect" id="Node000005" href="$classvtkMRMLCrosshairDisplayableManager.html" title="Displayable manager for the crosshair on slice (2D) views." alt="" coords="969,5,1191,45"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="783,185,849,119,893,84,940,55,969,43,971,48,943,60,896,89,853,123,786,189"/>
 <area shape="rect" id="Node000006" href="$classvtkMRMLModelSliceDisplayableManager.html" title="Displayable manager for slice (2D) views." alt="" coords="965,69,1195,109"/>

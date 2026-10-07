@@ -1,37 +1,39 @@
 <map id="Libs/MRML/Core/vtkMRMLScene.h" name="Libs/MRML/Core/vtkMRMLScene.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1279,5,1521,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1383,5,1625,31"/>
 <area shape="rect" id="Node000002" href="$vtkSlicerCLIModuleLogic_8h.html" title=" " alt="" coords="5,86,227,126"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1265,22,1065,25,809,34,525,52,239,81,196,89,195,83,238,76,524,47,809,29,1065,20,1265,17"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1369,21,1152,23,870,32,556,50,395,64,239,81,195,89,194,83,238,76,395,58,555,44,870,26,1152,18,1369,16"/>
 <area shape="rect" id="Node000003" href="$vtkCacheManager_8h.html" title=" " alt="" coords="251,93,509,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1265,26,927,44,724,60,522,81,434,96,433,91,521,76,723,54,926,39,1265,21"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1369,25,987,41,755,58,522,81,434,96,433,91,521,76,754,52,987,36,1369,20"/>
 <area shape="rect" id="Node000004" href="$qMRMLRangeWidget_8h.html" title=" " alt="" coords="533,86,776,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1265,31,1041,51,788,81,745,89,744,83,788,76,1041,46,1265,26"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1369,29,1100,48,944,62,788,81,744,89,743,83,788,76,943,57,1100,42,1369,23"/>
 <area shape="rect" id="Node000005" href="$vtkMRMLCropVolumeParametersNode_8h.html" title=" " alt="" coords="801,79,1085,133"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1326,36,1083,81,1082,76,1325,31"/>
-<area shape="rect" id="Node000006" href="$qMRMLMarkupsAbstractOptionsWidget_8h.html" title=" " alt="" coords="1109,79,1400,133"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1370,40,1300,81,1298,76,1367,35"/>
-<area shape="rect" id="Node000013" href="$qMRMLMarkupsToolBar_8h.html" title=" " alt="" coords="1424,86,1669,126"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1433,35,1516,84,1513,88,1430,40"/>
-<area shape="rect" id="Node000014" href="$vtkMRMLMultiVolumeNode_8h.html" title=" " alt="" coords="1693,79,1960,133"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1471,31,1697,76,1696,81,1470,36"/>
-<area shape="rect" id="Node000015" href="$qSlicerSubjectHierarchyPluginHandler_8h.html" title=" " alt="" coords="1985,79,2223,133"/>
-<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1535,27,1742,47,1972,76,1985,78,1984,83,1972,81,1741,52,1535,32"/>
-<area shape="rect" id="Node000017" href="$qSlicerSubjectHierarchyPluginLogic_8h.html" title=" " alt="" coords="2247,79,2486,133"/>
-<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="1535,21,1856,39,2046,54,2236,76,2248,78,2247,83,2236,81,2046,60,1855,44,1535,26"/>
-<area shape="rect" id="Node000018" href="$vtkSlicerVolumesLogic_8h.html" title=" " alt="" coords="2510,86,2733,126"/>
-<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="1535,17,1725,21,1966,30,2232,48,2499,76,2542,83,2541,89,2498,81,2232,53,1965,36,1725,26,1535,23"/>
-<area shape="rect" id="Node000007" href="$qMRMLMarkupsAngleMeasurementsWidget_8h.html" title=" " alt="" coords="424,181,744,236"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1096,136,756,184,745,186,744,180,756,179,1095,131"/>
-<area shape="rect" id="Node000008" href="$qMRMLMarkupsCurveSettingsWidget_8h.html" title=" " alt="" coords="768,181,1045,236"/>
-<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1152,140,998,184,997,179,1151,134"/>
-<area shape="rect" id="Node000009" href="$qMRMLMarkupsOptionsWidgetsFactory_8h.html" title=" " alt="" coords="1070,181,1359,236"/>
-<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="1242,147,1228,182,1223,180,1237,145"/>
-<area shape="rect" id="Node000011" href="$qMRMLMarkupsPlaneWidget_8h.html" title=" " alt="" coords="1384,189,1664,229"/>
-<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="1339,136,1474,186,1472,191,1337,141"/>
-<area shape="rect" id="Node000012" href="$qMRMLMarkupsROIWidget_8h.html" title=" " alt="" coords="1688,189,1955,229"/>
-<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="1414,133,1676,179,1717,186,1716,191,1676,184,1413,138"/>
-<area shape="rect" id="Node000010" href="$qSlicerMarkupsModuleWidgetsPythonQtDecorators_8h.html" title=" " alt="" coords="1073,284,1356,339"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1217,250,1217,284,1212,284,1212,250"/>
-<area shape="rect" id="Node000016" href="$qSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators_8h.html" title=" " alt="" coords="1979,181,2309,236"/>
-<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="2122,145,2136,180,2131,182,2117,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1409,35,1096,81,1085,83,1085,78,1096,76,1408,30"/>
+<area shape="rect" id="Node000006" href="$vtkSlicerLayerDMLogic_8h.html" title=" " alt="" coords="1109,86,1334,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1453,37,1284,88,1283,83,1452,32"/>
+<area shape="rect" id="Node000007" href="$qMRMLMarkupsAbstractOptionsWidget_8h.html" title=" " alt="" coords="1359,79,1649,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1507,44,1507,79,1501,79,1501,44"/>
+<area shape="rect" id="Node000014" href="$qMRMLMarkupsToolBar_8h.html" title=" " alt="" coords="1673,86,1919,126"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1557,32,1732,83,1731,88,1556,37"/>
+<area shape="rect" id="Node000015" href="$vtkMRMLMultiVolumeNode_8h.html" title=" " alt="" coords="1943,79,2209,133"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1607,30,1931,76,1943,78,1942,83,1930,81,1606,35"/>
+<area shape="rect" id="Node000016" href="$qSlicerSubjectHierarchyPluginHandler_8h.html" title=" " alt="" coords="2234,79,2473,133"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1640,23,1909,42,2066,57,2222,76,2234,78,2234,83,2221,81,2065,62,1909,48,1639,29"/>
+<area shape="rect" id="Node000018" href="$qSlicerSubjectHierarchyPluginLogic_8h.html" title=" " alt="" coords="2497,79,2735,133"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="1639,19,2020,35,2253,51,2486,76,2497,78,2496,83,2485,81,2253,57,2020,40,1639,24"/>
+<area shape="rect" id="Node000019" href="$vtkSlicerVolumesLogic_8h.html" title=" " alt="" coords="2759,86,2982,126"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="1639,16,1852,18,2129,27,2438,45,2595,59,2748,76,2792,83,2791,89,2748,81,2594,64,2438,50,2129,32,1852,24,1639,21"/>
+<area shape="rect" id="Node000008" href="$qMRMLMarkupsAngleMeasurementsWidget_8h.html" title=" " alt="" coords="673,181,993,236"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1345,136,1006,184,994,186,993,180,1005,179,1344,131"/>
+<area shape="rect" id="Node000009" href="$qMRMLMarkupsCurveSettingsWidget_8h.html" title=" " alt="" coords="1017,181,1295,236"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="1401,140,1247,184,1246,179,1400,134"/>
+<area shape="rect" id="Node000010" href="$qMRMLMarkupsOptionsWidgetsFactory_8h.html" title=" " alt="" coords="1319,181,1609,236"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="1491,147,1477,182,1472,180,1486,145"/>
+<area shape="rect" id="Node000012" href="$qMRMLMarkupsPlaneWidget_8h.html" title=" " alt="" coords="1633,189,1913,229"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="1588,136,1724,186,1722,191,1586,141"/>
+<area shape="rect" id="Node000013" href="$qMRMLMarkupsROIWidget_8h.html" title=" " alt="" coords="1937,189,2204,229"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="1664,133,1926,179,1967,186,1966,191,1925,184,1663,138"/>
+<area shape="rect" id="Node000011" href="$qSlicerMarkupsModuleWidgetsPythonQtDecorators_8h.html" title=" " alt="" coords="1323,284,1605,339"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1467,250,1467,284,1461,284,1461,250"/>
+<area shape="rect" id="Node000017" href="$qSlicerSubjectHierarchyModuleWidgetsPythonQtDecorators_8h.html" title=" " alt="" coords="2229,181,2558,236"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="2371,145,2385,180,2380,182,2366,147"/>
 </map>

@@ -1,67 +1,69 @@
 <map id="Base/QTGUI/qSlicerAbstractModule.h" name="Base/QTGUI/qSlicerAbstractModule.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="2814,5,3017,45"/>
-<area shape="rect" id="Node000002" href="$qSlicerCLILoadableModuleFactory_8h.html" title=" " alt="" coords="2157,93,2380,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2801,43,2392,96,2381,98,2380,92,2391,91,2800,38"/>
-<area shape="rect" id="Node000003" href="$qSlicerCLIModule_8h.html" title=" " alt="" coords="2404,101,2627,126"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2815,51,2569,103,2568,98,2814,46"/>
-<area shape="rect" id="Node000004" href="$qSlicerBaseQTGUIPythonQtDecorators_8h.html" title=" " alt="" coords="2651,93,2918,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2877,55,2815,95,2812,91,2874,51"/>
-<area shape="rect" id="Node000005" href="$qSlicerLoadableModule_8h.html" title=" " alt="" coords="2943,93,3149,133"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2957,51,3019,91,3016,95,2954,55"/>
-<area shape="rect" id="Node000031" href="$qSlicerCoreModule_8h.html" title=" " alt="" coords="3174,93,3363,133"/>
-<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="3007,46,3192,91,3191,96,3005,51"/>
-<area shape="rect" id="Node000033" href="$qSlicerCoreModuleFactory_8h.html" title=" " alt="" coords="3387,93,3577,133"/>
-<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="3031,40,3376,91,3388,93,3387,98,3375,96,3030,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="2914,5,3117,45"/>
+<area shape="rect" id="Node000002" href="$qSlicerCLILoadableModuleFactory_8h.html" title=" " alt="" coords="2257,93,2480,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2901,43,2492,96,2481,98,2480,92,2491,91,2900,38"/>
+<area shape="rect" id="Node000003" href="$qSlicerCLIModule_8h.html" title=" " alt="" coords="2504,101,2727,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2915,51,2669,103,2668,98,2914,46"/>
+<area shape="rect" id="Node000004" href="$qSlicerBaseQTGUIPythonQtDecorators_8h.html" title=" " alt="" coords="2751,93,3018,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2977,55,2915,95,2912,91,2974,51"/>
+<area shape="rect" id="Node000005" href="$qSlicerLoadableModule_8h.html" title=" " alt="" coords="3043,93,3249,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="3057,51,3119,91,3116,95,3054,55"/>
+<area shape="rect" id="Node000032" href="$qSlicerCoreModule_8h.html" title=" " alt="" coords="3274,93,3463,133"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="3107,46,3292,91,3291,96,3105,51"/>
+<area shape="rect" id="Node000034" href="$qSlicerCoreModuleFactory_8h.html" title=" " alt="" coords="3487,93,3677,133"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="3131,40,3476,91,3488,93,3487,98,3475,96,3130,45"/>
 <area shape="rect" id="Node000006" href="$qSlicerScriptedLoadableModule_8h.html" title=" " alt="" coords="5,189,207,229"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="2929,136,2658,150,2327,155,1563,152,1173,150,805,153,480,163,340,172,218,184,177,191,176,186,218,179,339,167,479,158,805,148,1173,145,1563,147,2327,150,2658,145,2929,131"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="3029,136,2749,150,2405,156,1613,152,1208,150,827,152,489,162,344,172,218,184,177,191,176,186,218,179,344,166,489,157,826,147,1208,144,1613,146,2405,150,2748,145,3029,131"/>
 <area shape="rect" id="Node000007" href="$qSlicerAnnotationsModule_8h.html" title=" " alt="" coords="231,189,453,229"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="2929,136,2733,151,2554,161,2236,167,1955,161,1694,150,1434,140,1155,138,1002,142,838,151,661,164,466,184,421,191,420,186,466,179,660,159,838,145,1002,137,1155,133,1434,135,1695,145,1956,156,2236,162,2554,155,2733,146,2929,131"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="3029,136,2825,152,2639,162,2467,167,2308,168,2016,161,1744,150,1473,139,1183,137,1024,141,854,149,668,164,466,184,421,191,420,186,466,179,668,158,853,144,1024,135,1183,131,1473,134,1744,144,2016,156,2308,162,2467,161,2639,156,2825,146,3029,131"/>
 <area shape="rect" id="Node000008" href="$qSlicerCamerasModule_8h.html" title=" " alt="" coords="478,189,681,229"/>
-<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="2929,136,2751,150,2588,158,2299,164,2044,158,1807,147,1570,139,1317,137,1179,142,1030,151,869,164,693,184,651,191,650,186,692,179,869,159,1030,145,1179,137,1317,132,1571,133,1807,142,2045,153,2299,158,2588,153,2751,144,2929,131"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="3029,136,2795,149,2509,154,1851,153,1515,153,1198,156,918,166,797,174,693,184,651,191,650,186,692,179,797,168,918,160,1198,151,1515,148,1851,148,2509,149,2795,143,3029,131"/>
 <area shape="rect" id="Node000009" href="$qSlicerColorsModule_8h.html" title=" " alt="" coords="705,189,891,229"/>
-<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="2929,136,2725,147,2477,152,1905,153,1614,153,1339,157,1097,166,902,184,864,191,863,186,902,179,1097,161,1339,152,1614,148,1905,147,2476,147,2725,142,2929,131"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="3029,136,2815,147,2554,152,1955,152,1649,152,1361,156,1107,166,902,184,864,191,863,186,902,179,1106,160,1361,151,1649,147,1955,147,2554,147,2815,142,3029,131"/>
 <area shape="rect" id="Node000010" href="$qSlicerCropVolumeModule_8h.html" title=" " alt="" coords="915,189,1137,229"/>
-<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="2929,136,2658,155,2428,161,2225,159,2036,152,1847,147,1646,148,1417,158,1149,184,1105,191,1104,186,1148,179,1417,153,1646,142,1847,142,2036,147,2225,153,2428,156,2658,150,2929,131"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="3029,136,2743,156,2499,162,2285,159,2086,152,1887,146,1674,146,1433,157,1149,184,1104,191,1103,186,1148,179,1432,152,1674,141,1887,141,2086,147,2285,154,2499,157,2742,151,3029,131"/>
 <area shape="rect" id="Node000011" href="$qSlicerDataModule_8h.html" title=" " alt="" coords="1161,189,1336,229"/>
-<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="2929,136,2688,153,2483,157,2302,153,2134,147,1967,142,1788,143,1585,156,1348,184,1311,191,1310,186,1347,179,1585,150,1788,138,1967,137,2135,141,2303,148,2483,152,2688,147,2929,131"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="3029,136,2772,153,2555,158,2363,153,2184,146,2006,140,1816,141,1601,154,1348,184,1311,191,1310,186,1347,179,1600,149,1816,136,2006,135,2184,141,2363,148,2555,152,2772,148,3028,131"/>
 <area shape="rect" id="Node000012" href="$qSlicerGeneralizedReformatModule_8h.html" title=" " alt="" coords="1360,181,1631,236"/>
-<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="2929,136,2733,151,2566,158,2283,158,2147,157,2001,159,1836,167,1642,184,1631,185,1630,180,1642,179,1836,162,2001,153,2147,152,2283,153,2566,153,2733,146,2929,131"/>
-<area shape="rect" id="Node000013" href="$qSlicerMarkupsModule_8h.html" title=" " alt="" coords="1655,189,1853,229"/>
-<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="2929,136,2767,149,2629,154,2394,153,2281,153,2161,156,2025,165,1865,184,1826,191,1825,186,1864,179,2024,160,2161,151,2281,148,2394,148,2629,149,2766,144,2929,131"/>
-<area shape="rect" id="Node000014" href="$qSlicerModelsModule_8h.html" title=" " alt="" coords="1877,189,2068,229"/>
-<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="2929,136,2799,147,2689,152,2501,154,2315,159,2207,168,2080,184,2042,191,2041,186,2079,179,2206,162,2315,154,2501,149,2689,147,2799,142,2929,131"/>
-<area shape="rect" id="Node000015" href="$qSlicerMultiVolumeExplorerModule_8h.html" title=" " alt="" coords="2092,181,2352,236"/>
-<area shape="poly" id="edge14_Node000005_Node000015" title=" " alt="" coords="2929,136,2769,152,2645,159,2521,167,2365,184,2353,186,2352,180,2364,179,2521,162,2644,154,2769,146,2929,131"/>
-<area shape="rect" id="Node000016" href="$qSlicerPlotsModule_8h.html" title=" " alt="" coords="2377,189,2553,229"/>
-<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="2929,136,2745,157,2665,167,2565,184,2533,191,2532,186,2564,179,2664,162,2744,152,2928,131"/>
-<area shape="rect" id="Node000017" href="$qSlicerReformatModule_8h.html" title=" " alt="" coords="2577,189,2782,229"/>
-<area shape="poly" id="edge16_Node000005_Node000017" title=" " alt="" coords="2959,139,2754,191,2753,186,2958,134"/>
-<area shape="rect" id="Node000018" href="$qSlicerSceneViewsModule_8h.html" title=" " alt="" coords="2807,189,3029,229"/>
-<area shape="poly" id="edge17_Node000005_Node000018" title=" " alt="" coords="3011,144,2945,191,2942,186,3007,139"/>
-<area shape="rect" id="Node000019" href="$qSlicerSegmentationsModule_8h.html" title=" " alt="" coords="3054,189,3297,229"/>
-<area shape="poly" id="edge18_Node000005_Node000019" title=" " alt="" coords="3085,139,3151,186,3148,191,3082,144"/>
-<area shape="rect" id="Node000020" href="$qSlicerSequencesModule_8h.html" title=" " alt="" coords="3321,189,3536,229"/>
-<area shape="poly" id="edge19_Node000005_Node000020" title=" " alt="" coords="3137,134,3352,186,3351,191,3136,139"/>
-<area shape="rect" id="Node000021" href="$qSlicerWelcomeModule_8h.html" title=" " alt="" coords="3561,189,3801,229"/>
-<area shape="poly" id="edge20_Node000005_Node000021" title=" " alt="" coords="3163,131,3358,154,3549,179,3591,186,3590,191,3548,184,3358,159,3163,136"/>
-<area shape="rect" id="Node000022" href="$qSlicerSubjectHierarchyModule_8h.html" title=" " alt="" coords="3825,181,4069,236"/>
-<area shape="poly" id="edge21_Node000005_Node000022" title=" " alt="" coords="3163,131,3347,147,3490,153,3633,160,3813,179,3826,180,3825,186,3812,184,3632,165,3490,158,3347,152,3163,136"/>
-<area shape="rect" id="Node000023" href="$qSlicerTablesModule_8h.html" title=" " alt="" coords="4093,189,4279,229"/>
-<area shape="poly" id="edge22_Node000005_Node000023" title=" " alt="" coords="3163,131,3304,142,3423,147,3626,148,3827,152,3945,161,4082,179,4120,186,4119,191,4082,184,3944,166,3827,157,3625,153,3423,153,3303,148,3163,136"/>
-<area shape="rect" id="Node000024" href="$qSlicerTerminologiesModule_8h.html" title=" " alt="" coords="4303,189,4538,229"/>
-<area shape="poly" id="edge23_Node000005_Node000024" title=" " alt="" coords="3163,131,3335,144,3481,151,3730,151,3849,150,3977,153,4122,161,4292,179,4338,186,4337,191,4291,184,4121,167,3977,158,3849,156,3730,156,3481,156,3335,150,3163,136"/>
-<area shape="rect" id="Node000025" href="$qSlicerTextsModule_8h.html" title=" " alt="" coords="4562,189,4741,229"/>
-<area shape="poly" id="edge24_Node000005_Node000025" title=" " alt="" coords="3164,131,3375,146,3554,151,3713,148,3860,144,4007,141,4164,143,4342,154,4550,179,4587,186,4586,191,4550,184,4341,159,4164,148,4007,146,3860,149,3713,154,3554,156,3375,151,3163,136"/>
-<area shape="rect" id="Node000026" href="$qSlicerTransformsModule_8h.html" title=" " alt="" coords="4765,189,4981,229"/>
-<area shape="poly" id="edge25_Node000005_Node000026" title=" " alt="" coords="3163,131,3406,148,3611,154,3792,152,3961,147,4129,143,4309,144,4513,155,4753,179,4797,186,4796,191,4752,184,4513,160,4309,150,4129,149,3961,153,3792,158,3611,159,3405,153,3163,136"/>
-<area shape="rect" id="Node000027" href="$qSlicerUnitsModule_8h.html" title=" " alt="" coords="5005,189,5183,229"/>
-<area shape="poly" id="edge26_Node000005_Node000027" title=" " alt="" coords="3164,131,3442,149,3679,154,3887,149,4082,140,4276,134,4483,134,4717,148,4993,179,5031,186,5030,191,4992,184,4717,153,4483,140,4276,139,4082,146,3888,154,3679,159,3442,155,3163,136"/>
-<area shape="rect" id="Node000028" href="$qSlicerViewControllersModule_8h.html" title=" " alt="" coords="5208,189,5455,229"/>
-<area shape="poly" id="edge27_Node000005_Node000028" title=" " alt="" coords="3163,131,3473,152,3735,159,3966,156,4182,149,4397,143,4627,142,4888,153,5196,179,5245,186,5245,191,5195,184,4888,158,4627,148,4397,148,4182,155,3966,162,3735,164,3472,157,3163,136"/>
-<area shape="rect" id="Node000029" href="$qSlicerVolumeRenderingModule_8h.html" title=" " alt="" coords="5478,189,5737,229"/>
-<area shape="poly" id="edge28_Node000005_Node000029" title=" " alt="" coords="3163,131,3514,155,3812,162,4074,158,4318,150,4562,142,4823,140,5119,150,5286,162,5468,179,5519,186,5518,191,5467,184,5285,167,5119,156,4823,145,4562,147,4318,155,4074,164,3812,167,3514,160,3163,136"/>
-<area shape="rect" id="Node000030" href="$qSlicerVolumesModule_8h.html" title=" " alt="" coords="5761,189,5961,229"/>
-<area shape="poly" id="edge29_Node000005_Node000030" title=" " alt="" coords="3163,131,3421,144,3738,149,4466,147,4838,146,5189,149,5499,159,5633,167,5749,179,5790,186,5790,191,5748,184,5633,172,5499,164,5189,154,4838,151,4466,152,3738,155,3421,149,3163,136"/>
-<area shape="rect" id="Node000032" href="$qSlicerEventBrokerModule_8h.html" title=" " alt="" coords="5985,189,6195,229"/>
-<area shape="poly" id="edge31_Node000031_Node000032" title=" " alt="" coords="3377,131,3636,145,3953,151,4685,150,5058,148,5411,150,5722,159,5857,168,5973,179,6016,186,6015,191,5972,184,5856,173,5722,165,5411,156,5058,153,4685,155,3953,157,3636,151,3377,136"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="3029,136,2818,152,2639,159,2481,160,2334,158,2187,156,2030,158,1853,166,1644,184,1631,185,1630,180,1643,179,1852,161,2030,153,2187,151,2334,153,2481,155,2638,154,2817,147,3028,131"/>
+<area shape="rect" id="Node000013" href="$qSlicerLayerDMModule_8h.html" title=" " alt="" coords="1655,189,1858,229"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="3029,136,2852,150,2702,155,2447,153,2324,152,2193,155,2044,164,1870,184,1830,191,1829,186,1870,179,2044,159,2193,150,2324,147,2447,148,2702,150,2852,144,3029,131"/>
+<area shape="rect" id="Node000014" href="$qSlicerMarkupsModule_8h.html" title=" " alt="" coords="1883,189,2081,229"/>
+<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="3029,136,2886,148,2765,153,2558,154,2353,158,2233,167,2093,184,2054,191,2053,186,2092,179,2233,162,2353,153,2558,149,2764,148,2886,143,3028,131"/>
+<area shape="rect" id="Node000015" href="$qSlicerModelsModule_8h.html" title=" " alt="" coords="2105,189,2296,229"/>
+<area shape="poly" id="edge14_Node000005_Node000015" title=" " alt="" coords="3029,136,2919,146,2825,152,2665,155,2507,161,2416,170,2308,184,2270,191,2269,186,2307,179,2415,164,2507,156,2665,150,2825,146,2918,141,3029,131"/>
+<area shape="rect" id="Node000016" href="$qSlicerMultiVolumeExplorerModule_8h.html" title=" " alt="" coords="2320,181,2580,236"/>
+<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="3029,136,2809,159,2713,168,2593,184,2581,186,2580,181,2592,179,2713,163,2808,154,3028,131"/>
+<area shape="rect" id="Node000017" href="$qSlicerPlotsModule_8h.html" title=" " alt="" coords="2605,189,2781,229"/>
+<area shape="poly" id="edge16_Node000005_Node000017" title=" " alt="" coords="3029,137,2793,184,2763,191,2762,186,2792,179,3028,132"/>
+<area shape="rect" id="Node000018" href="$qSlicerReformatModule_8h.html" title=" " alt="" coords="2805,189,3010,229"/>
+<area shape="poly" id="edge17_Node000005_Node000018" title=" " alt="" coords="3086,141,2957,191,2955,186,3084,136"/>
+<area shape="rect" id="Node000019" href="$qSlicerSceneViewsModule_8h.html" title=" " alt="" coords="3035,189,3257,229"/>
+<area shape="poly" id="edge18_Node000005_Node000019" title=" " alt="" coords="3149,147,3149,189,3143,189,3143,147"/>
+<area shape="rect" id="Node000020" href="$qSlicerSegmentationsModule_8h.html" title=" " alt="" coords="3282,189,3525,229"/>
+<area shape="poly" id="edge19_Node000005_Node000020" title=" " alt="" coords="3212,136,3352,186,3350,191,3210,141"/>
+<area shape="rect" id="Node000021" href="$qSlicerSequencesModule_8h.html" title=" " alt="" coords="3549,189,3764,229"/>
+<area shape="poly" id="edge20_Node000005_Node000021" title=" " alt="" coords="3263,131,3537,179,3573,186,3572,191,3536,184,3262,137"/>
+<area shape="rect" id="Node000022" href="$qSlicerWelcomeModule_8h.html" title=" " alt="" coords="3789,189,4029,229"/>
+<area shape="poly" id="edge21_Node000005_Node000022" title=" " alt="" coords="3263,131,3409,146,3522,153,3635,162,3777,179,3821,186,3820,191,3776,184,3634,167,3522,159,3408,151,3263,136"/>
+<area shape="rect" id="Node000023" href="$qSlicerSubjectHierarchyModule_8h.html" title=" " alt="" coords="4053,181,4297,236"/>
+<area shape="poly" id="edge22_Node000005_Node000023" title=" " alt="" coords="3263,131,3483,148,3654,153,3825,158,3924,166,4041,179,4054,180,4053,186,4040,184,3924,171,3824,164,3654,158,3483,153,3263,136"/>
+<area shape="rect" id="Node000024" href="$qSlicerTablesModule_8h.html" title=" " alt="" coords="4321,189,4507,229"/>
+<area shape="poly" id="edge23_Node000005_Node000024" title=" " alt="" coords="3263,131,3423,143,3559,148,3790,147,3901,146,4019,149,4153,159,4310,179,4348,186,4347,191,4310,184,4153,165,4019,155,3901,152,3790,152,3559,154,3423,149,3263,136"/>
+<area shape="rect" id="Node000025" href="$qSlicerTerminologiesModule_8h.html" title=" " alt="" coords="4531,189,4766,229"/>
+<area shape="poly" id="edge24_Node000005_Node000025" title=" " alt="" coords="3264,131,3455,146,3617,152,3894,150,4027,149,4169,151,4330,160,4520,179,4566,186,4565,191,4519,184,4330,165,4169,156,4027,154,3894,156,3617,157,3455,151,3263,136"/>
+<area shape="rect" id="Node000026" href="$qSlicerTextsModule_8h.html" title=" " alt="" coords="4790,189,4969,229"/>
+<area shape="poly" id="edge25_Node000005_Node000026" title=" " alt="" coords="3263,131,3494,147,3690,151,3863,149,4024,143,4185,139,4356,140,4550,152,4778,179,4815,186,4814,191,4778,184,4550,157,4356,146,4185,144,4024,148,3863,154,3690,157,3494,152,3263,136"/>
+<area shape="rect" id="Node000027" href="$qSlicerTransformsModule_8h.html" title=" " alt="" coords="4993,189,5209,229"/>
+<area shape="poly" id="edge26_Node000005_Node000027" title=" " alt="" coords="3263,131,3525,149,3747,155,3943,153,4125,147,4307,142,4501,142,4722,153,4981,179,5025,186,5024,191,4980,184,4721,159,4501,148,4307,147,4125,152,3943,158,3747,160,3525,154,3263,136"/>
+<area shape="rect" id="Node000028" href="$qSlicerUnitsModule_8h.html" title=" " alt="" coords="5233,189,5411,229"/>
+<area shape="poly" id="edge27_Node000005_Node000028" title=" " alt="" coords="3263,131,3460,141,3701,146,4252,147,4533,148,4799,152,5033,161,5221,179,5259,186,5258,191,5220,184,5032,167,4798,157,4533,153,4252,152,3701,152,3460,147,3263,136"/>
+<area shape="rect" id="Node000029" href="$qSlicerViewControllersModule_8h.html" title=" " alt="" coords="5436,189,5683,229"/>
+<area shape="poly" id="edge28_Node000005_Node000029" title=" " alt="" coords="3263,131,3592,153,3871,160,4117,157,4346,149,4574,142,4819,141,5097,151,5424,179,5474,186,5473,191,5423,184,5097,157,4819,146,4575,147,4346,154,4117,162,3871,166,3592,159,3263,136"/>
+<area shape="rect" id="Node000030" href="$qSlicerVolumeRenderingModule_8h.html" title=" " alt="" coords="5706,189,5965,229"/>
+<area shape="poly" id="edge29_Node000005_Node000030" title=" " alt="" coords="3263,131,3457,146,3633,156,3948,163,4224,159,4482,149,4739,141,5015,138,5328,149,5503,161,5696,179,5747,186,5746,191,5695,184,5503,166,5327,154,5015,144,4739,146,4482,155,4224,164,3947,168,3633,161,3456,151,3263,136"/>
+<area shape="rect" id="Node000031" href="$qSlicerVolumesModule_8h.html" title=" " alt="" coords="5989,189,6189,229"/>
+<area shape="poly" id="edge30_Node000005_Node000031" title=" " alt="" coords="3263,131,3534,145,3866,150,4630,147,5021,145,5389,148,5715,158,5855,167,5977,179,6018,186,6018,191,5976,184,5855,172,5715,163,5389,153,5021,150,4630,152,3866,155,3534,150,3263,136"/>
+<area shape="rect" id="Node000033" href="$qSlicerEventBrokerModule_8h.html" title=" " alt="" coords="6213,189,6423,229"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="3477,131,3749,146,4082,152,4849,149,5241,147,5611,149,5938,159,6079,167,6201,179,6244,186,6243,191,6200,184,6078,172,5938,164,5611,155,5241,153,4849,155,4082,157,3748,151,3477,136"/>
 </map>
