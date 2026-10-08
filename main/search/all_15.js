@@ -294,7 +294,7 @@ var searchData=
   ['updatepreviewpointindex_291',['UpdatePreviewPointIndex',['../classvtkSlicerMarkupsWidget.html#a67e94d874fac5ab405f1824921de6c90',1,'vtkSlicerMarkupsWidget']]],
   ['updateprogressdialog_292',['updateProgressDialog',['../classqSlicerIOManager.html#a05ba617e27a39487eccff7a4eda49da9',1,'qSlicerIOManager']]],
   ['updatepropertiesfromdict_293',['UpdatePropertiesFromDict',['../classvtkSlicerScriptedFileReaderBridge.html#a907697cf9a95e95b7c14e35e5cc5e87f',1,'vtkSlicerScriptedFileReaderBridge']]],
-  ['updateproxynodesfromsequences_294',['UpdateProxyNodesFromSequences',['../classvtkSlicerSequencesLogic.html#a257467f6a0176ba76bd240149764fecd',1,'vtkSlicerSequencesLogic']]],
+  ['updateproxynodesfromsequences_294',['UpdateProxyNodesFromSequences',['../classvtkSlicerSequencesLogic.html#a3ace82a8570d30070bbb48d9a829306f',1,'vtkSlicerSequencesLogic']]],
   ['updaterange_295',['updateRange',['../classqMRMLRangeWidget.html#a344d2ec51cfdf7023d695c847fafc98d',1,'qMRMLRangeWidget']]],
   ['updaterangefromtransform_296',['updateRangeFromTransform',['../classqMRMLTransformSliders.html#a6eb8cc9eb8b7c993ab5fea6d2904efd8',1,'qMRMLTransformSliders']]],
   ['updatereconstructionslab_297',['UpdateReconstructionSlab',['../classvtkMRMLSliceLogic.html#aa7d7b5930831584e1766dd90aa77bef9',1,'vtkMRMLSliceLogic']]],

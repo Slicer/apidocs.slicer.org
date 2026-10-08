@@ -97,7 +97,7 @@ $(function(){ initResizable(false); });
 </div><!--header-->
 <div class="contents">
 
-<p>Button that shows/hide segmentation in 3D It creates or removes closed surface representation.  
+<p>Button that shows/hide segmentation in 3D It creates or removes the representation that is shown in 3D views (closed surface or binary labelmap, chosen in the Representation submenu,.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">Modules/Loadable/Segmentations/Widgets/qMRMLSegmentationShow3DButton.h</a>&gt;</code></p>
@@ -106,7 +106,7 @@ Inheritance diagram for qMRMLSegmentationShow3DButton:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqMRMLSegmentationShow3DButton__inherit__graph.png" border="0" usemap="#aqMRMLSegmentationShow3DButton_inherit__map" alt="Inheritance graph"/></div>
 <map name="aqMRMLSegmentationShow3DButton_inherit__map" id="aqMRMLSegmentationShow3DButton_inherit__map">
-<area shape="rect" title="Button that shows/hide segmentation in 3D It creates or removes closed surface representation." alt="" coords="5,79,263,104"/>
+<area shape="rect" title="Button that shows/hide segmentation in 3D It creates or removes the representation that is shown in 3..." alt="" coords="5,79,263,104"/>
 <area shape="rect" title=" " alt="" coords="73,5,195,31"/>
 <area shape="poly" title=" " alt="" coords="137,44,137,79,131,79,131,44"/>
 </map>
@@ -116,7 +116,7 @@ Collaboration diagram for qMRMLSegmentationShow3DButton:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqMRMLSegmentationShow3DButton__coll__graph.png" border="0" usemap="#aqMRMLSegmentationShow3DButton_coll__map" alt="Collaboration graph"/></div>
 <map name="aqMRMLSegmentationShow3DButton_coll__map" id="aqMRMLSegmentationShow3DButton_coll__map">
-<area shape="rect" title="Button that shows/hide segmentation in 3D It creates or removes closed surface representation." alt="" coords="5,79,263,104"/>
+<area shape="rect" title="Button that shows/hide segmentation in 3D It creates or removes the representation that is shown in 3..." alt="" coords="5,79,263,104"/>
 <area shape="rect" title=" " alt="" coords="73,5,195,31"/>
 <area shape="poly" title=" " alt="" coords="137,44,137,79,131,79,131,44"/>
 </map>
@@ -155,6 +155,8 @@ Protected Slots</h2></td></tr>
 <tr class="separator:ad80b156e0790495581f1e7918293b396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac94c8e485ba8a908a8335a1130859ad4" id="r_ac94c8e485ba8a908a8335a1130859ad4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac94c8e485ba8a908a8335a1130859ad4">onEnableSurfaceSmoothingToggled</a> (bool smoothingEnabled)</td></tr>
 <tr class="separator:ac94c8e485ba8a908a8335a1130859ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a27048ccc6e977e12e3ef0cb51e787" id="r_a50a27048ccc6e977e12e3ef0cb51e787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50a27048ccc6e977e12e3ef0cb51e787">onRepresentationActionTriggered</a> (QAction *action)</td></tr>
+<tr class="separator:a50a27048ccc6e977e12e3ef0cb51e787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e701ece2165d3d6e1c60e26a1b41611" id="r_a8e701ece2165d3d6e1c60e26a1b41611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e701ece2165d3d6e1c60e26a1b41611">onSurfaceSmoothingFactorChanged</a> (double newSmoothingFactor)</td></tr>
 <tr class="separator:a8e701ece2165d3d6e1c60e26a1b41611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a281b66461a8c3372bd29b11ab8ab8f97" id="r_a281b66461a8c3372bd29b11ab8ab8f97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a281b66461a8c3372bd29b11ab8ab8f97">onToggled</a> (bool toggled=true)</td></tr>
@@ -168,9 +170,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:acb8cc49d29fc44fc8330ce00cdc30ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Button that shows/hide segmentation in 3D It creates or removes closed surface representation. </p>
+<div class="textblock"><p>Button that shows/hide segmentation in 3D It creates or removes the representation that is shown in 3D views (closed surface or binary labelmap, chosen in the Representation submenu,. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLSegmentationDisplayNode.html#addbb8f7728de259db12cdcbf3a6ac7c3" title="Set name of representation that is displayed in the 3D view if exists.">vtkMRMLSegmentationDisplayNode::SetPreferredDisplayRepresentationName3D</a>). When the representation is switched, the other one is removed (unless it is the source representation), so that it is not kept up to date for nothing. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html#l00029">29</a> of file <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">qMRMLSegmentationShow3DButton.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html#l00032">32</a> of file <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">qMRMLSegmentationShow3DButton.h</a>.</p>
 </div><h2 class="groupheader">Property Documentation</h2>
 <a id="a5e0efca7513d93b0ed235fffa2e3a2ac" name="a5e0efca7513d93b0ed235fffa2e3a2ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e0efca7513d93b0ed235fffa2e3a2ac">&#9670;&#160;</a></span>locked</h2>
@@ -193,7 +196,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Disables the button. It is useful for preventing segmentation from editing. Using QWidget::setEnabled would only temporarily disable the button. </p>
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html#l00036">36</a> of file <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">qMRMLSegmentationShow3DButton.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html#l00039">39</a> of file <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">qMRMLSegmentationShow3DButton.h</a>.</p>
 
 </div>
 </div>
@@ -329,6 +332,31 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void qMRMLSegmentationShow3DButton::onEnableSurfaceSmoothingToggled </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>smoothingEnabled</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50a27048ccc6e977e12e3ef0cb51e787" name="a50a27048ccc6e977e12e3ef0cb51e787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a27048ccc6e977e12e3ef0cb51e787">&#9670;&#160;</a></span>onRepresentationActionTriggered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qMRMLSegmentationShow3DButton::onRepresentationActionTriggered </td>
+          <td>(</td>
+          <td class="paramtype">QAction *</td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -508,7 +536,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html#l00062">62</a> of file <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">qMRMLSegmentationShow3DButton.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html#l00066">66</a> of file <a class="el" href="qMRMLSegmentationShow3DButton_8h_source.html">qMRMLSegmentationShow3DButton.h</a>.</p>
 
 </div>
 </div>
@@ -518,7 +546,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2026 17:09:14 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Oct 8 2026 16:32:32 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

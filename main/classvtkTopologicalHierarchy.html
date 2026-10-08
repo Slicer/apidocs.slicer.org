@@ -97,7 +97,7 @@ $(function(){ initResizable(false); });
 </div><!--header-->
 <div class="contents">
 
-<p>Algorithm class for computing topological hierarchy of multiple poly data models. The levels of the models are determined according to the models they contain, an outer model always having larger level value than the inner ones. To determine whether a model contains another, their bounding boxes are considered. It is possible to constrain a gap or allow the inner model to protrude the surface of the outer one. The size of this gap or allowance is defined as a factor /sa ContainConstraintFactor of the outer model size. This algorithm can be used to automatically determine optimal opacities in complex scenes.  
+<p>Algorithm class for computing topological hierarchy of multiple poly data models or bounding boxes. The levels of the models are determined according to the models they contain, an outer model always having larger level value than the inner ones. To determine whether a model contains another, their bounding boxes are considered. It is possible to constrain a gap or allow the inner model to protrude the surface of the outer one. The size of this gap or allowance is defined as a factor /sa ContainConstraintFactor of the outer model size. Only the bounding boxes are used, so the input can be given either as poly data models (.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="vtkTopologicalHierarchy_8h_source.html">Libs/vtkSegmentationCore/vtkTopologicalHierarchy.h</a>&gt;</code></p>
@@ -106,7 +106,7 @@ Inheritance diagram for vtkTopologicalHierarchy:</div>
 <div class="dyncontent">
 <div class="center"><img src="classvtkTopologicalHierarchy__inherit__graph.png" border="0" usemap="#avtkTopologicalHierarchy_inherit__map" alt="Inheritance graph"/></div>
 <map name="avtkTopologicalHierarchy_inherit__map" id="avtkTopologicalHierarchy_inherit__map">
-<area shape="rect" title="Algorithm class for computing topological hierarchy of multiple poly data models. The levels of the m..." alt="" coords="5,79,184,104"/>
+<area shape="rect" title="Algorithm class for computing topological hierarchy of multiple poly data models or bounding boxes...." alt="" coords="5,79,184,104"/>
 <area shape="rect" title=" " alt="" coords="52,5,137,31"/>
 <area shape="poly" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
 </map>
@@ -116,7 +116,7 @@ Collaboration diagram for vtkTopologicalHierarchy:</div>
 <div class="dyncontent">
 <div class="center"><img src="classvtkTopologicalHierarchy__coll__graph.png" border="0" usemap="#avtkTopologicalHierarchy_coll__map" alt="Collaboration graph"/></div>
 <map name="avtkTopologicalHierarchy_coll__map" id="avtkTopologicalHierarchy_coll__map">
-<area shape="rect" title="Algorithm class for computing topological hierarchy of multiple poly data models. The levels of the m..." alt="" coords="5,79,184,104"/>
+<area shape="rect" title="Algorithm class for computing topological hierarchy of multiple poly data models or bounding boxes...." alt="" coords="5,79,184,104"/>
 <area shape="rect" title=" " alt="" coords="52,5,137,31"/>
 <area shape="poly" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
 </map>
@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf9cc30988cd5aea8c61eaf12bc062cc" id="r_aaf9cc30988cd5aea8c61eaf12bc062cc"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf9cc30988cd5aea8c61eaf12bc062cc">GetContainConstraintFactor</a> ()</td></tr>
 <tr class="memdesc:aaf9cc30988cd5aea8c61eaf12bc062cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get constraint factor (used when determining if a poly data contains another)  <br /></td></tr>
 <tr class="separator:aaf9cc30988cd5aea8c61eaf12bc062cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05497c48e39ece4046b622c2cb5eea2a" id="r_a05497c48e39ece4046b622c2cb5eea2a"><td class="memItemLeft" align="right" valign="top">virtual vtkDoubleArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05497c48e39ece4046b622c2cb5eea2a">GetInputBounds</a> ()</td></tr>
+<tr class="separator:a05497c48e39ece4046b622c2cb5eea2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e921594b31f82b87f55a01a71088cfb" id="r_a1e921594b31f82b87f55a01a71088cfb"><td class="memItemLeft" align="right" valign="top">virtual vtkIntArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e921594b31f82b87f55a01a71088cfb">GetOutputLevels</a> ()</td></tr>
 <tr class="memdesc:a1e921594b31f82b87f55a01a71088cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get output topological hierarchy levels.  <br /></td></tr>
 <tr class="separator:a1e921594b31f82b87f55a01a71088cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,8 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e8343be31a76726e024bcf359bec0fe" id="r_a8e8343be31a76726e024bcf359bec0fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e8343be31a76726e024bcf359bec0fe">SetContainConstraintFactor</a> (double)</td></tr>
 <tr class="memdesc:a8e8343be31a76726e024bcf359bec0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set constraint factor (used when determining if a poly data contains another)  <br /></td></tr>
 <tr class="separator:a8e8343be31a76726e024bcf359bec0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d9d819567eccf0c4a6bfca183e02a3" id="r_a81d9d819567eccf0c4a6bfca183e02a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d9d819567eccf0c4a6bfca183e02a3">SetInputBounds</a> (vtkDoubleArray *)</td></tr>
+<tr class="separator:a81d9d819567eccf0c4a6bfca183e02a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad026f6a398fc92f36fc5cc66b3b941a5" id="r_ad026f6a398fc92f36fc5cc66b3b941a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad026f6a398fc92f36fc5cc66b3b941a5">SetInputPolyDataCollection</a> (vtkPolyDataCollection *)</td></tr>
-<tr class="memdesc:ad026f6a398fc92f36fc5cc66b3b941a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set input poly data collection.  <br /></td></tr>
+<tr class="memdesc:ad026f6a398fc92f36fc5cc66b3b941a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set input poly data collection. Ignored if input bounds are set.  <br /></td></tr>
 <tr class="separator:ad026f6a398fc92f36fc5cc66b3b941a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd79651f286d05263c1727a5d15e8ed7" id="r_abd79651f286d05263c1727a5d15e8ed7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd79651f286d05263c1727a5d15e8ed7">Update</a> ()</td></tr>
 <tr class="separator:abd79651f286d05263c1727a5d15e8ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +165,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a116a01bb30711e9ecab457f9464259a1" id="r_a116a01bb30711e9ecab457f9464259a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a116a01bb30711e9ecab457f9464259a1">Contains</a> (const double boundsOut[6], const double boundsIn[6])</td></tr>
+<tr class="separator:a116a01bb30711e9ecab457f9464259a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eb3d7920e83a23e857a191ed280d009" id="r_a6eb3d7920e83a23e857a191ed280d009"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eb3d7920e83a23e857a191ed280d009">Contains</a> (vtkPolyData *polyOut, vtkPolyData *polyIn)</td></tr>
 <tr class="separator:a6eb3d7920e83a23e857a191ed280d009"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1450ee63ad670a7714fa8815fa617fbe" id="r_a1450ee63ad670a7714fa8815fa617fbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1450ee63ad670a7714fa8815fa617fbe">OutputContainsEmptyLevels</a> ()</td></tr>
@@ -178,6 +184,9 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:afba3b44065e933e93aded5d181e90a31" id="r_afba3b44065e933e93aded5d181e90a31"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba3b44065e933e93aded5d181e90a31">ContainConstraintFactor</a></td></tr>
 <tr class="separator:afba3b44065e933e93aded5d181e90a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7761cb2097f9dd77780c23cf5e2fc34f" id="r_a7761cb2097f9dd77780c23cf5e2fc34f"><td class="memItemLeft" align="right" valign="top">vtkDoubleArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7761cb2097f9dd77780c23cf5e2fc34f">InputBounds</a></td></tr>
+<tr class="memdesc:a7761cb2097f9dd77780c23cf5e2fc34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounding boxes to determine the hierarchy for (used instead of the poly data collection if set)  <br /></td></tr>
+<tr class="separator:a7761cb2097f9dd77780c23cf5e2fc34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d08748b872365ec884c67bcf5661787" id="r_a1d08748b872365ec884c67bcf5661787"><td class="memItemLeft" align="right" valign="top">vtkPolyDataCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d08748b872365ec884c67bcf5661787">InputPolyDataCollection</a></td></tr>
 <tr class="memdesc:a1d08748b872365ec884c67bcf5661787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of poly data to determine the hierarchy for.  <br /></td></tr>
 <tr class="separator:a1d08748b872365ec884c67bcf5661787"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,9 +197,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:acd066bcf6dec63afbde3b18c82c8332b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Algorithm class for computing topological hierarchy of multiple poly data models. The levels of the models are determined according to the models they contain, an outer model always having larger level value than the inner ones. To determine whether a model contains another, their bounding boxes are considered. It is possible to constrain a gap or allow the inner model to protrude the surface of the outer one. The size of this gap or allowance is defined as a factor /sa ContainConstraintFactor of the outer model size. This algorithm can be used to automatically determine optimal opacities in complex scenes. </p>
+<div class="textblock"><p>Algorithm class for computing topological hierarchy of multiple poly data models or bounding boxes. The levels of the models are determined according to the models they contain, an outer model always having larger level value than the inner ones. To determine whether a model contains another, their bounding boxes are considered. It is possible to constrain a gap or allow the inner model to protrude the surface of the outer one. The size of this gap or allowance is defined as a factor /sa ContainConstraintFactor of the outer model size. Only the bounding boxes are used, so the input can be given either as poly data models (. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#ad026f6a398fc92f36fc5cc66b3b941a5" title="Set input poly data collection. Ignored if input bounds are set.">SetInputPolyDataCollection</a>) or directly as bounding boxes (</dd>
+<dd>
+<a class="el" href="#a81d9d819567eccf0c4a6bfca183e02a3">SetInputBounds</a>), for example computed from the voxels of each segment of a binary labelmap. This algorithm can be used to automatically determine optimal opacities in complex scenes. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00041">41</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00046">46</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a4ceaec0caef40968b81d6b1c6cde3629" name="a4ceaec0caef40968b81d6b1c6cde3629"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ceaec0caef40968b81d6b1c6cde3629">&#9670;&#160;</a></span>Superclass</h2>
@@ -204,7 +216,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00045">45</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00050">50</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
 
 </div>
 </div>
@@ -260,8 +272,38 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a116a01bb30711e9ecab457f9464259a1" name="a116a01bb30711e9ecab457f9464259a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116a01bb30711e9ecab457f9464259a1">&#9670;&#160;</a></span>Contains() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkTopologicalHierarchy::Contains </td>
+          <td>(</td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>boundsOut</em></span>[6], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>boundsIn</em></span>[6]&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if the bounding box boundsOut contains boundsIn considering the constraint factor /sa ContainConstraintFactor </p>
+
+</div>
+</div>
 <a id="a6eb3d7920e83a23e857a191ed280d009" name="a6eb3d7920e83a23e857a191ed280d009"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eb3d7920e83a23e857a191ed280d009">&#9670;&#160;</a></span>Contains()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb3d7920e83a23e857a191ed280d009">&#9670;&#160;</a></span>Contains() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,6 +381,31 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get constraint factor (used when determining if a poly data contains another) </p>
+
+</div>
+</div>
+<a id="a05497c48e39ece4046b622c2cb5eea2a" name="a05497c48e39ece4046b622c2cb5eea2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05497c48e39ece4046b622c2cb5eea2a">&#9670;&#160;</a></span>GetInputBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual vtkDoubleArray * vtkTopologicalHierarchy::GetInputBounds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -552,6 +619,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a81d9d819567eccf0c4a6bfca183e02a3" name="a81d9d819567eccf0c4a6bfca183e02a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d9d819567eccf0c4a6bfca183e02a3">&#9670;&#160;</a></span>SetInputBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkTopologicalHierarchy::SetInputBounds </td>
+          <td>(</td>
+          <td class="paramtype">vtkDoubleArray *</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set input bounding boxes: an array of 6 components (xmin, xmax, ymin, ymax, zmin, zmax), one tuple per item. If set, it is used instead of the input poly data collection. An item with empty bounds (min &gt; max) neither contains nor is contained by any other item, so it gets level 0. </p>
+
+</div>
+</div>
 <a id="ad026f6a398fc92f36fc5cc66b3b941a5" name="ad026f6a398fc92f36fc5cc66b3b941a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad026f6a398fc92f36fc5cc66b3b941a5">&#9670;&#160;</a></span>SetInputPolyDataCollection()</h2>
 
@@ -575,7 +668,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set input poly data collection. </p>
+<p>Set input poly data collection. Ignored if input bounds are set. </p>
 
 </div>
 </div>
@@ -628,7 +721,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Compute topological hierarchy levels for input poly data models using their bounding boxes. This function has to be explicitly called! Output can be get using <a class="el" href="#a1e921594b31f82b87f55a01a71088cfb" title="Get output topological hierarchy levels.">GetOutputLevels()</a> </p>
+<p>Compute topological hierarchy levels for the input bounding boxes (if set) or for the input poly data models using their bounding boxes. This function has to be explicitly called! Output can be get using <a class="el" href="#a1e921594b31f82b87f55a01a71088cfb" title="Get output topological hierarchy levels.">GetOutputLevels()</a> </p>
 
 </div>
 </div>
@@ -654,7 +747,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constraint factor used when determining if a poly data contains another It defines a 'gap' that is needed between the outer and inner poly data. The gap is computed as this factor multiplied by the bounding box edge length at each dimension. In case of positive value, the inner poly data has to be that much smaller than the outer one In case of negative value, it is rather an allowance by which the inner polydata can reach outside the other </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00092">92</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00110">110</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+
+</div>
+</div>
+<a id="a7761cb2097f9dd77780c23cf5e2fc34f" name="a7761cb2097f9dd77780c23cf5e2fc34f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7761cb2097f9dd77780c23cf5e2fc34f">&#9670;&#160;</a></span>InputBounds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkDoubleArray* vtkTopologicalHierarchy::InputBounds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bounding boxes to determine the hierarchy for (used instead of the poly data collection if set) </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00097">97</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
 
 </div>
 </div>
@@ -680,7 +799,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Collection of poly data to determine the hierarchy for. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00079">79</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00094">94</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
 
 </div>
 </div>
@@ -706,7 +825,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Maximum level that can be assigned to a poly data. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00095">95</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00113">113</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
 
 </div>
 </div>
@@ -729,9 +848,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Array containing the topological hierarchy levels for the input poly data Update function needs to be called to compute the array The level values correspond to the poly data with the same index in the input collection </p>
+<p>Array containing the topological hierarchy levels for the input items Update function needs to be called to compute the array The level values correspond to the item with the same index in the input bounds or poly data collection </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00084">84</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkTopologicalHierarchy_8h_source.html#l00102">102</a> of file <a class="el" href="vtkTopologicalHierarchy_8h_source.html">vtkTopologicalHierarchy.h</a>.</p>
 
 </div>
 </div>
@@ -741,7 +860,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2026 17:09:18 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Oct 8 2026 16:32:36 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

@@ -159,6 +159,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a71fb543b12abe4785e3260d60a5e230f" id="r_a71fb543b12abe4785e3260d60a5e230f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71fb543b12abe4785e3260d60a5e230f">IntersectActorWithLine</a> (const double p1[3], const double p2[3], double t1, double t2, double tol, vtkProp3D *prop, vtkMapper *mapper) override</td></tr>
+<tr class="separator:a71fb543b12abe4785e3260d60a5e230f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e12d9f665fdc5c943e98957ecbae8a" id="r_a60e12d9f665fdc5c943e98957ecbae8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60e12d9f665fdc5c943e98957ecbae8a">IntersectDataSetWithLine</a> (vtkDataSet *dataSet, const double p1[3], const double p2[3], double t1, double t2, double tol, vtkAbstractCellLocator *&amp;locator, vtkIdType &amp;cellId, int &amp;subId, double &amp;tMin, double &amp;pDistMin, double xyz[3], double minPCoords[3]) override</td></tr>
 <tr class="separator:a60e12d9f665fdc5c943e98957ecbae8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db4d05fb956f925dfb86f613acd86dd" id="r_a5db4d05fb956f925dfb86f613acd86dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db4d05fb956f925dfb86f613acd86dd">UpdateLocators</a> (vtkRenderer *renderer)</td></tr>
@@ -298,6 +300,61 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71fb543b12abe4785e3260d60a5e230f" name="a71fb543b12abe4785e3260d60a5e230f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fb543b12abe4785e3260d60a5e230f">&#9670;&#160;</a></span>IntersectActorWithLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double vtkMRMLAccuratePicker::IntersectActorWithLine </td>
+          <td>(</td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>p1</em></span>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>p2</em></span>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tol</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkProp3D *</td>          <td class="paramname"><span class="paramname"><em>prop</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkMapper *</td>          <td class="paramname"><span class="paramname"><em>mapper</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Intersect the pick ray with an actor. If the mapper is a <a class="el" href="classvtkMRMLRayCastMapper.html" title="Base class of mappers that render surfaces without geometry that a cell picker could intersect.">vtkMRMLRayCastMapper</a> (it renders a surface without geometry that could be intersected) then the mapper computes the intersection, otherwise the cells of the mapper are intersected as in vtkCellPicker. </p>
 
 </div>
 </div>
@@ -631,7 +688,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Locator of each indexed surface. Not named Locators, which would hide vtkCellPicker::Locators (the locators that the picker uses). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00125">125</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00130">130</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
 
 </div>
 </div>
@@ -655,7 +712,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00127">127</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00132">132</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
 
 </div>
 </div>
@@ -665,7 +722,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2026 17:09:15 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Oct 8 2026 16:32:33 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

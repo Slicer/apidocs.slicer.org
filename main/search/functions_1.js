@@ -318,7 +318,7 @@ var searchData=
   ['applyproperties_315',['ApplyProperties',['../classvtkMRMLLayoutLogic.html#a8b8d9e8e5ff6bf8f771e6c2be7cd0d4d',1,'vtkMRMLLayoutLogic']]],
   ['applyproperty_316',['ApplyProperty',['../classvtkMRMLLayoutLogic.html#a56d3ae983b257bfb1e0f2ef8b2bb9cfe',1,'vtkMRMLLayoutLogic']]],
   ['applyreferencehighlightforitems_317',['applyReferenceHighlightForItems',['../classqMRMLSubjectHierarchyTreeView.html#a49c389791e57560441ff8c9bec3a0cfd',1,'qMRMLSubjectHierarchyTreeView']]],
-  ['applysettings_318',['applySettings',['../classqSlicerSettingsPythonPanel.html#aa7d696bed635fb71474b0d63d7299e7c',1,'qSlicerSettingsPythonPanel::applySettings()'],['../classqSlicerSettingsUserInformationPanel.html#a00185f9e9c990669dac66657d376a19c',1,'qSlicerSettingsUserInformationPanel::applySettings()']]],
+  ['applysettings_318',['applySettings',['../classqSlicerSettingsPythonPanel.html#aa7d696bed635fb71474b0d63d7299e7c',1,'qSlicerSettingsPythonPanel::applySettings()'],['../classqSlicerSettingsUserInformationPanel.html#a00185f9e9c990669dac66657d376a19c',1,'qSlicerSettingsUserInformationPanel::applySettings()'],['../classqMRMLTestingSetup.html#a303ab9001250a29057ff82fd7e19edc3',1,'qMRMLTestingSetup::applySettings()']]],
   ['applytask_319',['ApplyTask',['../classvtkSlicerCLIModuleLogic.html#a07b9ce96ca5df5c8ae94040ee83b3062',1,'vtkSlicerCLIModuleLogic']]],
   ['applythresholdoff_320',['ApplyThresholdOff',['../classvtkMRMLScalarVolumeDisplayNode.html#a0a1bf1a43edbc4aea788b44f414b43e8',1,'vtkMRMLScalarVolumeDisplayNode']]],
   ['applythresholdon_321',['ApplyThresholdOn',['../classvtkMRMLScalarVolumeDisplayNode.html#a902f9be9f2684cf2875a810df938f63e',1,'vtkMRMLScalarVolumeDisplayNode']]],

@@ -1,7 +1,9 @@
 <map id="Libs/vtkSegmentationCore/vtkTopologicalHierarchy.h" name="Libs/vtkSegmentationCore/vtkTopologicalHierarchy.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="108,5,303,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,184,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,48,124,87,121,83,177,43"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="208,93,427,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,43,291,83,288,87,231,48"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,5,351,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,140,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,48,113,90,111,85,210,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="165,93,343,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,46,257,79,251,79,251,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="367,93,586,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="308,43,432,86,430,91,306,48"/>
 </map>

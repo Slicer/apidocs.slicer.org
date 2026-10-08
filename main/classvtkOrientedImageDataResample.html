@@ -158,6 +158,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afc8fd7bfe115d96bfde97aa67e2c3955" id="r_afc8fd7bfe115d96bfde97aa67e2c3955"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8fd7bfe115d96bfde97aa67e2c3955">CalculateEffectiveExtent</a> (<a class="el" href="classvtkOrientedImageData.html">vtkOrientedImageData</a> *image, int effectiveExtent[6], double threshold=0.0)</td></tr>
 <tr class="memdesc:afc8fd7bfe115d96bfde97aa67e2c3955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate effective extent of an image: the IJK extent where non-zero voxels are located.  <br /></td></tr>
 <tr class="separator:afc8fd7bfe115d96bfde97aa67e2c3955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbdbe14b9bd2d0b99a01943c016fc657" id="r_abbdbe14b9bd2d0b99a01943c016fc657"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbdbe14b9bd2d0b99a01943c016fc657">CalculateEffectiveExtentPerLabel</a> (vtkImageData *image, vtkIntArray *labelValues, vtkIntArray *labelExtents)</td></tr>
+<tr class="separator:abbdbe14b9bd2d0b99a01943c016fc657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa42043b41eff474c94f5ded9ff1344" id="r_a0aa42043b41eff474c94f5ded9ff1344"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aa42043b41eff474c94f5ded9ff1344">CastImageForValue</a> (vtkImageData *image, double value)</td></tr>
 <tr class="separator:a0aa42043b41eff474c94f5ded9ff1344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a240cc9e1762e40707ca2d529a87c738a" id="r_a240cc9e1762e40707ca2d529a87c738a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a240cc9e1762e40707ca2d529a87c738a">CastSegmentationToSmallestIntegerType</a> (vtkImageData *image)</td></tr>
@@ -240,7 +242,7 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility functions for resampling oriented image data. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00041">41</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00042">42</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ae0c5ea9d931841f38c394a489bae0916" name="ae0c5ea9d931841f38c394a489bae0916"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0c5ea9d931841f38c394a489bae0916">&#9670;&#160;</a></span>Superclass</h2>
@@ -254,7 +256,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00045">45</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00046">46</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
 
 </div>
 </div>
@@ -276,7 +278,7 @@ Protected Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a8c1fe732cde981046d44dd701069611faf83408c0c3dd96a5ec3224508d2e19f9" name="a8c1fe732cde981046d44dd701069611faf83408c0c3dd96a5ec3224508d2e19f9"></a>OPERATION_MASKING&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00047">47</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00048">48</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
 
 </div>
 </div>
@@ -299,7 +301,7 @@ Protected Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a4f25b174cb154d6595ee4f91617a6416a0e46299a6306951c27a6bac5e690dc03" name="a4f25b174cb154d6595ee4f91617a6416a0e46299a6306951c27a6bac5e690dc03"></a>TYPE_ERROR&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00215">215</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00227">227</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
 
 </div>
 </div>
@@ -431,7 +433,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Compare two floating point numbers within tolerance. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00166">166</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkOrientedImageDataResample_8h_source.html#l00178">178</a> of file <a class="el" href="vtkOrientedImageDataResample_8h_source.html">vtkOrientedImageDataResample.h</a>.</p>
 
 </div>
 </div>
@@ -468,6 +470,50 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculate effective extent of an image: the IJK extent where non-zero voxels are located. </p>
+
+</div>
+</div>
+<a id="abbdbe14b9bd2d0b99a01943c016fc657" name="abbdbe14b9bd2d0b99a01943c016fc657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbdbe14b9bd2d0b99a01943c016fc657">&#9670;&#160;</a></span>CalculateEffectiveExtentPerLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool vtkOrientedImageDataResample::CalculateEffectiveExtentPerLabel </td>
+          <td>(</td>
+          <td class="paramtype">vtkImageData *</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIntArray *</td>          <td class="paramname"><span class="paramname"><em>labelValues</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkIntArray *</td>          <td class="paramname"><span class="paramname"><em>labelExtents</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculate the effective extent of each label in a labelmap: the IJK extent where voxels with that label value are located, for each positive label value found in the image, in a single pass over the voxels. Use it instead of </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#afc8fd7bfe115d96bfde97aa67e2c3955" title="Calculate effective extent of an image: the IJK extent where non-zero voxels are located.">CalculateEffectiveExtent</a> for shared labelmaps, where each segment is one label value. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>Single-component labelmap, with any integer or floating-point scalar type (values are truncated to int) </td></tr>
+    <tr><td class="paramname">labelValues</td><td>Output: the label values found in the image (one component, in increasing order); labels that have no voxel are not included. Use vtkIntArray::LookupValue to find the index of a label. </td></tr>
+    <tr><td class="paramname">labelExtents</td><td>Output: extent of each label (six components: imin, imax, jmin, jmax, kmin, kmax), the tuple at each index belongs to the label value at the same index in labelValues </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>False if the image is invalid or its scalar type is not supported (the outputs are then empty) </dd></dl>
 
 </div>
 </div>
@@ -1706,7 +1752,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 7 2026 17:09:18 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Thu Oct 8 2026 16:32:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
