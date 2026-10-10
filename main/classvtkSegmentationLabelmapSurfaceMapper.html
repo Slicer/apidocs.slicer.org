@@ -174,8 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a045ed01b6abab3d8906db30a1ed4cdf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44112b25a1e2528c8fd18dc9a0e47512" id="r_a44112b25a1e2528c8fd18dc9a0e47512"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44112b25a1e2528c8fd18dc9a0e47512">GetSmoothingFactor</a> ()</td></tr>
 <tr class="separator:a44112b25a1e2528c8fd18dc9a0e47512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e825471722654dfb20fa0af05a4e35f" id="r_a3e825471722654dfb20fa0af05a4e35f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e825471722654dfb20fa0af05a4e35f">IntersectWithRay</a> (const double p1[3], const double p2[3], double t1, double t2, double &amp;t, double position[3], double normal[3]) override</td></tr>
-<tr class="separator:a3e825471722654dfb20fa0af05a4e35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ab6ac683255ce4639bcc0f601968d7" id="r_ae0ab6ac683255ce4639bcc0f601968d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0ab6ac683255ce4639bcc0f601968d7">IntersectWithRay</a> (const double p1[3], const double p2[3], double t1, double t2, vtkMatrix4x4 *toWorld, double &amp;t, double xyz[3], double n[3]) override</td></tr>
+<tr class="separator:ae0ab6ac683255ce4639bcc0f601968d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e0965fafa4a16be39d04d2a649f3c63" id="r_a6e0965fafa4a16be39d04d2a649f3c63"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e0965fafa4a16be39d04d2a649f3c63">IsA</a> (const char *type)</td></tr>
 <tr class="separator:a6e0965fafa4a16be39d04d2a649f3c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbd4612e0e49c4405c0a7a559b53865" id="r_a3fbd4612e0e49c4405c0a7a559b53865"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fbd4612e0e49c4405c0a7a559b53865">KeepWhereAnyClippingPlaneKeepsOff</a> ()</td></tr>
@@ -877,8 +877,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e825471722654dfb20fa0af05a4e35f" name="a3e825471722654dfb20fa0af05a4e35f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e825471722654dfb20fa0af05a4e35f">&#9670;&#160;</a></span>IntersectWithRay()</h2>
+<a id="ae0ab6ac683255ce4639bcc0f601968d7" name="ae0ab6ac683255ce4639bcc0f601968d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ab6ac683255ce4639bcc0f601968d7">&#9670;&#160;</a></span>IntersectWithRay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -909,17 +909,22 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">vtkMatrix4x4 *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">double &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>position</em></span>[3], </td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>xyz</em></span>[3], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>[3]&#160;)</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>n</em></span>[3]&#160;)</td>
         </tr>
       </table>
   </td>
@@ -928,9 +933,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Intersect a ray (in IJK coordinates of the labelmap, between P1 + T1 * (P2 - P1) and P1 + T2 * (P2 - P1)) with the surface of the shown segments (computed from the labelmap on the CPU, the surface follows the boundary of voxels, not smoothed). Returns true if there is an intersection, and its parametric coordinate, position and normal. <a class="el" href="classvtkMRMLAccuratePicker.html" title="A cell picker that stays fast when large surfaces are shown.">vtkMRMLAccuratePicker</a> picks the surface with this. </p>
+<p>Intersect a ray (in IJK coordinates of the labelmap, between P1 + T1 * (P2 - P1) and P1 + T2 * (P2 - P1)) with the surface of the shown segments (computed from the labelmap on the CPU, the surface follows the boundary of voxels, not smoothed). Returns true if there is an intersection, and its parametric coordinate, position and normal. The ray is clipped as the mapper clips what it renders, in all of its clipping modes (KeepWhereAnyClippingPlaneKeeps): what the clipping planes clip away is not hit, and where they cut a segment the cap is hit if it is shown (CapClippedSurface, with a CapOpacity above 0). toWorld is the matrix of the actor (IJK to world), which the clipping planes are transformed with; if it is nullptr then the clipping planes are ignored. <a class="el" href="classvtkMRMLAccuratePicker.html" title="A cell picker that stays fast when large surfaces are shown.">vtkMRMLAccuratePicker</a> picks the surface with this. </p>
 
-<p>Implements <a class="el" href="classvtkMRMLRayCastMapper.html#a2030a2873f643d399632d150f4bd8cb7">vtkMRMLRayCastMapper</a>.</p>
+<p>Implements <a class="el" href="classvtkMRMLRayCastMapper.html#af0fa122ab9e8b534ab24992cd8df81ed">vtkMRMLRayCastMapper</a>.</p>
 
 </div>
 </div>
@@ -1535,7 +1540,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00143">143</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00147">147</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1559,7 +1564,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00144">144</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00148">148</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1583,7 +1588,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00146">146</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00150">150</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1607,7 +1612,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00142">142</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00146">146</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1631,7 +1636,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00145">145</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00149">149</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1655,7 +1660,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00149">149</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00153">153</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1679,7 +1684,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00150">150</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00154">154</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1703,7 +1708,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00147">147</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00151">151</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1732,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00148">148</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00152">152</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1751,7 +1756,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00141">141</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html#l00145">145</a> of file <a class="el" href="vtkSegmentationLabelmapSurfaceMapper_8h_source.html">vtkSegmentationLabelmapSurfaceMapper.h</a>.</p>
 
 </div>
 </div>
@@ -1761,7 +1766,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 8 2026 16:32:35 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Sat Oct 10 2026 16:35:29 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

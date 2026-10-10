@@ -123,8 +123,8 @@ Collaboration diagram for vtkMRMLRayCastMapper:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2030a2873f643d399632d150f4bd8cb7" id="r_a2030a2873f643d399632d150f4bd8cb7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2030a2873f643d399632d150f4bd8cb7">IntersectWithRay</a> (const double p1[3], const double p2[3], double t1, double t2, double &amp;t, double position[3], double normal[3])=0</td></tr>
-<tr class="separator:a2030a2873f643d399632d150f4bd8cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fa122ab9e8b534ab24992cd8df81ed" id="r_af0fa122ab9e8b534ab24992cd8df81ed"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0fa122ab9e8b534ab24992cd8df81ed">IntersectWithRay</a> (const double p1[3], const double p2[3], double t1, double t2, vtkMatrix4x4 *toWorld, double &amp;t, double xyz[3], double n[3])=0</td></tr>
+<tr class="separator:af0fa122ab9e8b534ab24992cd8df81ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5076cc26fd72b6c4574ea6ec2c6c7d" id="r_aee5076cc26fd72b6c4574ea6ec2c6c7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee5076cc26fd72b6c4574ea6ec2c6c7d">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:aee5076cc26fd72b6c4574ea6ec2c6c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4fb543a97f15f635d0a9dbac7a2f825" id="r_aa4fb543a97f15f635d0a9dbac7a2f825"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4fb543a97f15f635d0a9dbac7a2f825">vtkAbstractTypeMacro</a> (<a class="el" href="classvtkMRMLRayCastMapper.html">vtkMRMLRayCastMapper</a>, vtkMapper)</td></tr>
@@ -141,7 +141,7 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>Base class of mappers that render surfaces without geometry that a cell picker could intersect. </p>
 <p>Such mappers (for example surfaces that are ray cast on the GPU) implement IntersectWithRay, so that <a class="el" href="classvtkMRMLAccuratePicker.html" title="A cell picker that stays fast when large surfaces are shown.">vtkMRMLAccuratePicker</a> can pick them: the picker asks the mapper where the pick ray hits the surface instead of intersecting the cells of the input data set. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLRayCastMapper_8h_source.html#l00032">32</a> of file <a class="el" href="vtkMRMLRayCastMapper_8h_source.html">vtkMRMLRayCastMapper.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLRayCastMapper_8h_source.html#l00034">34</a> of file <a class="el" href="vtkMRMLRayCastMapper_8h_source.html">vtkMRMLRayCastMapper.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaf7319c9b242a63e245e02190cf7c744" name="aaf7319c9b242a63e245e02190cf7c744"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf7319c9b242a63e245e02190cf7c744">&#9670;&#160;</a></span>vtkMRMLRayCastMapper()</h2>
@@ -194,8 +194,8 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2030a2873f643d399632d150f4bd8cb7" name="a2030a2873f643d399632d150f4bd8cb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2030a2873f643d399632d150f4bd8cb7">&#9670;&#160;</a></span>IntersectWithRay()</h2>
+<a id="af0fa122ab9e8b534ab24992cd8df81ed" name="af0fa122ab9e8b534ab24992cd8df81ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0fa122ab9e8b534ab24992cd8df81ed">&#9670;&#160;</a></span>IntersectWithRay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,17 +226,22 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">vtkMatrix4x4 *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">double &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>position</em></span>[3], </td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>xyz</em></span>[3], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>[3]&#160;)</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>n</em></span>[3]&#160;)</td>
         </tr>
       </table>
   </td>
@@ -245,17 +250,19 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Intersect a ray with the rendered surface. The ray is given in the model coordinates of the prop (the coordinate system of the input of the mapper), from p1 to p2; intersections are accepted between parametric coordinates t1 and t2 (0 at p1, 1 at p2). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Intersect a ray with the rendered surface. The ray is given in the model coordinates of the prop (the coordinate system of the input of the mapper), from p1 to p2; intersections are accepted between parametric coordinates t1 and t2 (0 at p1, 1 at p2).</p>
+<p>The ray is intersected with what the mapper renders: the mapper applies its own clipping planes as it does when rendering, so that what they clip away is not hit, and surfaces that it draws where the planes cut (caps) are. <a class="el" href="classvtkMRMLAccuratePicker.html" title="A cell picker that stays fast when large surfaces are shown.">vtkMRMLAccuratePicker</a> therefore passes the whole pick ray, not clipped by the planes as vtkCellPicker would clip it (which assumes that the region kept is where all plane functions are positive). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">toWorld</td><td>Transform from model to world coordinates (the matrix of the prop), to transform the clipping planes with, which are in world coordinates. If it is nullptr then clipping planes are ignored. </td></tr>
     <tr><td class="paramname">t</td><td>Parametric coordinate of the first intersection along the ray </td></tr>
-    <tr><td class="paramname">position</td><td>Position of the first intersection, in model coordinates </td></tr>
-    <tr><td class="paramname">normal</td><td>Surface normal at the intersection, in model coordinates </td></tr>
+    <tr><td class="paramname">xyz</td><td>Position of the first intersection, in model coordinates </td></tr>
+    <tr><td class="paramname">n</td><td>Surface normal at the intersection, in model coordinates </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the ray hits the surface between t1 and t2 </dd></dl>
 
-<p>Implemented in <a class="el" href="classvtkSegmentationLabelmapSurfaceMapper.html#a3e825471722654dfb20fa0af05a4e35f">vtkSegmentationLabelmapSurfaceMapper</a>.</p>
+<p>Implemented in <a class="el" href="classvtkSegmentationLabelmapSurfaceMapper.html#ae0ab6ac683255ce4639bcc0f601968d7">vtkSegmentationLabelmapSurfaceMapper</a>.</p>
 
 </div>
 </div>
@@ -315,7 +322,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 8 2026 16:32:34 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Sat Oct 10 2026 16:35:28 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

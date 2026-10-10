@@ -163,6 +163,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a71fb543b12abe4785e3260d60a5e230f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e12d9f665fdc5c943e98957ecbae8a" id="r_a60e12d9f665fdc5c943e98957ecbae8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60e12d9f665fdc5c943e98957ecbae8a">IntersectDataSetWithLine</a> (vtkDataSet *dataSet, const double p1[3], const double p2[3], double t1, double t2, double tol, vtkAbstractCellLocator *&amp;locator, vtkIdType &amp;cellId, int &amp;subId, double &amp;tMin, double &amp;pDistMin, double xyz[3], double minPCoords[3]) override</td></tr>
 <tr class="separator:a60e12d9f665fdc5c943e98957ecbae8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0170db8351e34d4437ee14756e12a5" id="r_abb0170db8351e34d4437ee14756e12a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb0170db8351e34d4437ee14756e12a5">IntersectWithLine</a> (const double p1[3], const double p2[3], double tol, vtkAssemblyPath *path, vtkProp3D *p, vtkAbstractMapper3D *m) override</td></tr>
+<tr class="separator:abb0170db8351e34d4437ee14756e12a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db4d05fb956f925dfb86f613acd86dd" id="r_a5db4d05fb956f925dfb86f613acd86dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db4d05fb956f925dfb86f613acd86dd">UpdateLocators</a> (vtkRenderer *renderer)</td></tr>
 <tr class="separator:a5db4d05fb956f925dfb86f613acd86dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab078da45647de1080c16bc05f28bda49" id="r_ab078da45647de1080c16bc05f28bda49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab078da45647de1080c16bc05f28bda49">vtkMRMLAccuratePicker</a> ()</td></tr>
@@ -445,6 +447,56 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abb0170db8351e34d4437ee14756e12a5" name="abb0170db8351e34d4437ee14756e12a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0170db8351e34d4437ee14756e12a5">&#9670;&#160;</a></span>IntersectWithLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double vtkMRMLAccuratePicker::IntersectWithLine </td>
+          <td>(</td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>p1</em></span>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>p2</em></span>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tol</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkAssemblyPath *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkProp3D *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vtkAbstractMapper3D *</td>          <td class="paramname"><span class="paramname"><em>m</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Intersect the pick ray with a prop. The ray of a <a class="el" href="classvtkMRMLRayCastMapper.html" title="Base class of mappers that render surfaces without geometry that a cell picker could intersect.">vtkMRMLRayCastMapper</a> is not clipped with the clipping planes of the mapper first, as vtkCellPicker does, because the mapper applies them itself (see <a class="el" href="classvtkMRMLRayCastMapper.html#af0fa122ab9e8b534ab24992cd8df81ed">vtkMRMLRayCastMapper::IntersectWithRay</a>): vtkCellPicker would limit the pick to where all plane functions are positive, which is not what the mapper keeps in all of its clipping modes. Other props are intersected as in vtkCellPicker. </p>
+
+</div>
+</div>
 <a id="a02a4fda5711c585c64b525be15d9f7d4" name="a02a4fda5711c585c64b525be15d9f7d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02a4fda5711c585c64b525be15d9f7d4">&#9670;&#160;</a></span>IsA()</h2>
 
@@ -688,7 +740,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Locator of each indexed surface. Not named Locators, which would hide vtkCellPicker::Locators (the locators that the picker uses). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00130">130</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00137">137</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
 
 </div>
 </div>
@@ -712,7 +764,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00132">132</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLAccuratePicker_8h_source.html#l00139">139</a> of file <a class="el" href="vtkMRMLAccuratePicker_8h_source.html">vtkMRMLAccuratePicker.h</a>.</p>
 
 </div>
 </div>
@@ -722,7 +774,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 8 2026 16:32:33 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Sat Oct 10 2026 16:35:27 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
