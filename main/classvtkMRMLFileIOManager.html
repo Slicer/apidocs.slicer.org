@@ -88,6 +88,7 @@ $(function(){ initResizable(false); });
 <div class="header">
   <div class="summary">
 <a href="classvtkMRMLFileIOManager-members.html">List of all members</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -120,12 +121,24 @@ Collaboration diagram for vtkMRMLFileIOManager:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State of processing (loading or saving) a list of files.  <a href="structvtkMRMLFileIOManager_1_1ListProgress.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0e004f2ce1e4539f9b0d58969cf6b530" id="r_a0e004f2ce1e4539f9b0d58969cf6b530"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530a8fc1b1967192dacb0416c9c83eec2215">HandlerRegisteredEvent</a> = 24100
+<tr class="memitem:a0e004f2ce1e4539f9b0d58969cf6b530" id="r_a0e004f2ce1e4539f9b0d58969cf6b530"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530a8fc1b1967192dacb0416c9c83eec2215">HandlerRegisteredEvent</a> = 24100
 , <a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530aed69c037a4316526f35232f89cd590a3">HandlerUnregisteredEvent</a>
 , <a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530ac60f887d4e1887f97ab0eea36f19f219">NewFileLoadedEvent</a>
 , <a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530afa9e57d5bd72bbb3da9f612ec38781b6">FileSavedEvent</a>
+, <br />
+&#160;&#160;<a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530ad7d30b77a995008ccee249465e187f39">OperationStartEvent</a>
+, <a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530a2f7ed2d34324a05f51cd83767cad6103">OperationProgressEvent</a>
+, <a class="el" href="#a0e004f2ce1e4539f9b0d58969cf6b530a3b80625e82d384ad7279ff647b908c19">OperationEndEvent</a>
+<br />
  }</td></tr>
 <tr class="separator:a0e004f2ce1e4539f9b0d58969cf6b530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0604950ed85444f0cd27de75e499d79e" id="r_a0604950ed85444f0cd27de75e499d79e"><td class="memItemLeft" align="right" valign="top">typedef vtkObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0604950ed85444f0cd27de75e499d79e">Superclass</a></td></tr>
@@ -195,6 +208,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a14c7a8fb068ebb2bbf0ab1a9b32aa617" id="r_a14c7a8fb068ebb2bbf0ab1a9b32aa617"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14c7a8fb068ebb2bbf0ab1a9b32aa617">GetFileWriterFileType</a> (vtkObject *object, const std::string &amp;format=std::string())</td></tr>
 <tr class="memdesc:a14c7a8fb068ebb2bbf0ab1a9b32aa617"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file type of the best file writer for this object, or an empty string.  <br /></td></tr>
 <tr class="separator:a14c7a8fb068ebb2bbf0ab1a9b32aa617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6abacb543f046715cdb60b02ffcb69" id="r_a4a6abacb543f046715cdb60b02ffcb69"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a6abacb543f046715cdb60b02ffcb69">GetMaximumProgressUpdatesPerSecond</a> ()</td></tr>
+<tr class="separator:a4a6abacb543f046715cdb60b02ffcb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11e53ddd6af4c10571583d866938314f" id="r_a11e53ddd6af4c10571583d866938314f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e53ddd6af4c10571583d866938314f">GetNameFiltersForFileType</a> (const std::string &amp;fileType, bool writers)</td></tr>
 <tr class="memdesc:a11e53ddd6af4c10571583d866938314f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name filters of every reader (or writer) of a file type: "Mimics project (*.mcs)".  <br /></td></tr>
 <tr class="separator:a11e53ddd6af4c10571583d866938314f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,6 +298,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c9fcebc21e664ca6b7d6391789b94ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d83da504c5aa24b447d2b8df767c46" id="r_a64d83da504c5aa24b447d2b8df767c46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d83da504c5aa24b447d2b8df767c46">SetDefaultSceneFileType</a> (const std::string &amp;fileType)</td></tr>
 <tr class="separator:a64d83da504c5aa24b447d2b8df767c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538a59b5e79511b30777f489f3627c10" id="r_a538a59b5e79511b30777f489f3627c10"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a538a59b5e79511b30777f489f3627c10">SetMaximumProgressUpdatesPerSecond</a> (double)</td></tr>
+<tr class="separator:a538a59b5e79511b30777f489f3627c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a640825b002cc6243656ca5b2662a5c0b" id="r_a640825b002cc6243656ca5b2662a5c0b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a640825b002cc6243656ca5b2662a5c0b">SetScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
 <tr class="memdesc:a640825b002cc6243656ca5b2662a5c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scene the handlers read into and write from.  <br /></td></tr>
 <tr class="separator:a640825b002cc6243656ca5b2662a5c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,8 +328,27 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae7298871e145ffc3a3230940dd4a7187" id="r_ae7298871e145ffc3a3230940dd4a7187"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7298871e145ffc3a3230940dd4a7187">EndListItemProgress</a> (<a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> &amp;listProgress, int fileIndex)</td></tr>
+<tr class="separator:ae7298871e145ffc3a3230940dd4a7187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffba11e95e23a75d7d53c9e61069bcf" id="r_aaffba11e95e23a75d7d53c9e61069bcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaffba11e95e23a75d7d53c9e61069bcf">EndListProgress</a> (<a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> &amp;listProgress, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages, const std::string &amp;abortedMessageFormat)</td></tr>
+<tr class="separator:aaffba11e95e23a75d7d53c9e61069bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6192464e825683e9ade81dee36d45f06" id="r_a6192464e825683e9ade81dee36d45f06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6192464e825683e9ade81dee36d45f06">EndOperationProgress</a> (bool operationStarted, bool aborted=false)</td></tr>
+<tr class="separator:a6192464e825683e9ade81dee36d45f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83db7c12927964f04afc062c65f3501c" id="r_a83db7c12927964f04afc062c65f3501c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83db7c12927964f04afc062c65f3501c">ExportNode</a> (<a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *properties, <a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *temporaryScene, bool hardenTransforms, <a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *userMessages)</td></tr>
+<tr class="separator:a83db7c12927964f04afc062c65f3501c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a934a4ca4091bd958687ca39aeb9a79a5" id="r_a934a4ca4091bd958687ca39aeb9a79a5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; <a class="el" href="classvtkMRMLFileWriter.html">vtkMRMLFileWriter</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934a4ca4091bd958687ca39aeb9a79a5">GetWritersForFile</a> (const std::string &amp;fileType, <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *properties, <a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
 <tr class="separator:a934a4ca4091bd958687ca39aeb9a79a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3cb7f2e8e4ec7f84bd442bb0f460fdc" id="r_af3cb7f2e8e4ec7f84bd442bb0f460fdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3cb7f2e8e4ec7f84bd442bb0f460fdc">InvokeProgressEvent</a> (bool force=false)</td></tr>
+<tr class="separator:af3cb7f2e8e4ec7f84bd442bb0f460fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765893569a488e64d427fdc64706a105" id="r_a765893569a488e64d427fdc64706a105"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765893569a488e64d427fdc64706a105">ReportFileProgress</a> (double fileProgress, const std::string &amp;text=std::string())</td></tr>
+<tr class="separator:a765893569a488e64d427fdc64706a105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be779fdf86dae18846710e87c24e182" id="r_a6be779fdf86dae18846710e87c24e182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6be779fdf86dae18846710e87c24e182">StartListItemProgress</a> (<a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> &amp;listProgress, int fileIndex)</td></tr>
+<tr class="memdesc:a6be779fdf86dae18846710e87c24e182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report that processing of the file at fileIndex starts.  <br /></td></tr>
+<tr class="separator:a6be779fdf86dae18846710e87c24e182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e31a42c32b8262207cdd57b150f8233" id="r_a0e31a42c32b8262207cdd57b150f8233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e31a42c32b8262207cdd57b150f8233">StartListProgress</a> (const std::string &amp;title, int numberOfFiles)</td></tr>
+<tr class="separator:a0e31a42c32b8262207cdd57b150f8233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b0d3880cdd8639fb73b010ff7021bb" id="r_ac9b0d3880cdd8639fb73b010ff7021bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9b0d3880cdd8639fb73b010ff7021bb">StartOperationProgress</a> (const std::string &amp;title, int numberOfFiles)</td></tr>
+<tr class="separator:ac9b0d3880cdd8639fb73b010ff7021bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d7ac24b21e90db73ca1a24cd3490e65" id="r_a1d7ac24b21e90db73ca1a24cd3490e65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d7ac24b21e90db73ca1a24cd3490e65">vtkMRMLFileIOManager</a> ()</td></tr>
 <tr class="separator:a1d7ac24b21e90db73ca1a24cd3490e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e00d38e8a23a7a4ba1cf3db4aa0fe81" id="r_a4e00d38e8a23a7a4ba1cf3db4aa0fe81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e00d38e8a23a7a4ba1cf3db4aa0fe81">~vtkMRMLFileIOManager</a> () override</td></tr>
@@ -320,6 +356,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a38dbfe02b9698305bc0be5095556a0e1" id="r_a38dbfe02b9698305bc0be5095556a0e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38dbfe02b9698305bc0be5095556a0e1">OnSceneProgress</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
+<tr class="memdesc:a38dbfe02b9698305bc0be5095556a0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forwards scene import or save progress (percent) as file progress.  <br /></td></tr>
+<tr class="separator:a38dbfe02b9698305bc0be5095556a0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aee150282ad6662b1a1502028ea02c4" id="r_a7aee150282ad6662b1a1502028ea02c4"><td class="memTemplParams" colspan="2">template&lt;typename HandlerType&gt; </td></tr>
 <tr class="memitem:a7aee150282ad6662b1a1502028ea02c4"><td class="memTemplItemLeft" align="right" valign="top">static std::vector&lt; vtkSmartPointer&lt; HandlerType &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7aee150282ad6662b1a1502028ea02c4">SortedByConfidence</a> (const std::vector&lt; vtkSmartPointer&lt; HandlerType &gt; &gt; &amp;handlers, const std::vector&lt; double &gt; &amp;confidences)</td></tr>
 <tr class="separator:a7aee150282ad6662b1a1502028ea02c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -332,10 +371,24 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aee523ef7c1c37bfdbc963b40cbe1c1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab110df8b11495460a736a3cdf1db81bc" id="r_ab110df8b11495460a736a3cdf1db81bc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab110df8b11495460a736a3cdf1db81bc">DefaultSceneFileType</a></td></tr>
 <tr class="separator:ab110df8b11495460a736a3cdf1db81bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52241a267e51fd605b8def9047b573c6" id="r_a52241a267e51fd605b8def9047b573c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52241a267e51fd605b8def9047b573c6">LastProgressEventTime</a> { 0.0 }</td></tr>
+<tr class="memdesc:a52241a267e51fd605b8def9047b573c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time of the last invoked progress event (universal time in seconds)  <br /></td></tr>
+<tr class="separator:a52241a267e51fd605b8def9047b573c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c13fac095c710e97c2f0c67a63562e" id="r_a39c13fac095c710e97c2f0c67a63562e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c13fac095c710e97c2f0c67a63562e">MaximumProgressUpdatesPerSecond</a> { 3.0 }</td></tr>
+<tr class="separator:a39c13fac095c710e97c2f0c67a63562e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae85ba8fb3ff4ef02cf91eac8b5adcf3" id="r_aae85ba8fb3ff4ef02cf91eac8b5adcf3"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; <a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae85ba8fb3ff4ef02cf91eac8b5adcf3">OperationProgress</a></td></tr>
+<tr class="memdesc:aae85ba8fb3ff4ef02cf91eac8b5adcf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress of the loading or saving operation that is in progress (nullptr if no operation is in progress)  <br /></td></tr>
+<tr class="separator:aae85ba8fb3ff4ef02cf91eac8b5adcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad26817eb5d883df70ad52e3609903c91" id="r_ad26817eb5d883df70ad52e3609903c91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad26817eb5d883df70ad52e3609903c91">ProgressEventPending</a> { false }</td></tr>
+<tr class="memdesc:ad26817eb5d883df70ad52e3609903c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if progress changed since the last progress event.  <br /></td></tr>
+<tr class="separator:ad26817eb5d883df70ad52e3609903c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18caf89eb39e50f5e2e752b56e3263ea" id="r_a18caf89eb39e50f5e2e752b56e3263ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; <a class="el" href="classvtkMRMLFileReader.html">vtkMRMLFileReader</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18caf89eb39e50f5e2e752b56e3263ea">Readers</a></td></tr>
 <tr class="separator:a18caf89eb39e50f5e2e752b56e3263ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17bf5364f0686d2943dd7db2698ef605" id="r_a17bf5364f0686d2943dd7db2698ef605"><td class="memItemLeft" align="right" valign="top">vtkWeakPointer&lt; <a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17bf5364f0686d2943dd7db2698ef605">Scene</a></td></tr>
 <tr class="separator:a17bf5364f0686d2943dd7db2698ef605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb6e770d8935773540bda0951aac88b" id="r_aebb6e770d8935773540bda0951aac88b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebb6e770d8935773540bda0951aac88b">SceneProgressObserved</a> { false }</td></tr>
+<tr class="memdesc:aebb6e770d8935773540bda0951aac88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">True while the scene is observed for reporting its import progress.  <br /></td></tr>
+<tr class="separator:aebb6e770d8935773540bda0951aac88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11363785626b0330c6442ea94f4d139a" id="r_a11363785626b0330c6442ea94f4d139a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; <a class="el" href="classvtkMRMLFileWriter.html">vtkMRMLFileWriter</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11363785626b0330c6442ea94f4d139a">Writers</a></td></tr>
 <tr class="separator:a11363785626b0330c6442ea94f4d139a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -343,7 +396,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Manages reading and writing of files: keeps the list of registered readers and writers, chooses the reader or writer to use for a file or a node, and loads and saves nodes using them. The application logic owns the file IO manager of the application (<a class="el" href="classvtkMRMLApplicationLogic.html#a96e8a3ba25e54a0b226aae4b3ac7ec2f">vtkMRMLApplicationLogic::GetFileIOManager()</a>).</p>
 <p>See <a href="https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#file-reading-and-writing">https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#file-reading-and-writing</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00049">49</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00050">50</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a0604950ed85444f0cd27de75e499d79e" name="a0604950ed85444f0cd27de75e499d79e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0604950ed85444f0cd27de75e499d79e">&#9670;&#160;</a></span>Superclass</h2>
@@ -357,7 +410,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00053">53</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00054">54</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -373,15 +426,24 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Events. Call data: the reader or writer (HandlerRegisteredEvent, HandlerUnregisteredEvent), the <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> of the loaded or saved file (NewFileLoadedEvent, FileSavedEvent; for loaded files it contains "fileType" and the IDs of the loaded nodes in "nodeIDs"). </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530a8fc1b1967192dacb0416c9c83eec2215" name="a0e004f2ce1e4539f9b0d58969cf6b530a8fc1b1967192dacb0416c9c83eec2215"></a>HandlerRegisteredEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530aed69c037a4316526f35232f89cd590a3" name="a0e004f2ce1e4539f9b0d58969cf6b530aed69c037a4316526f35232f89cd590a3"></a>HandlerUnregisteredEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530ac60f887d4e1887f97ab0eea36f19f219" name="a0e004f2ce1e4539f9b0d58969cf6b530ac60f887d4e1887f97ab0eea36f19f219"></a>NewFileLoadedEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530afa9e57d5bd72bbb3da9f612ec38781b6" name="a0e004f2ce1e4539f9b0d58969cf6b530afa9e57d5bd72bbb3da9f612ec38781b6"></a>FileSavedEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530a8fc1b1967192dacb0416c9c83eec2215" name="a0e004f2ce1e4539f9b0d58969cf6b530a8fc1b1967192dacb0416c9c83eec2215"></a>HandlerRegisteredEvent&#160;</td><td class="fielddoc"><p>A reader or writer is registered. Call data: the reader or writer (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a>). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530aed69c037a4316526f35232f89cd590a3" name="a0e004f2ce1e4539f9b0d58969cf6b530aed69c037a4316526f35232f89cd590a3"></a>HandlerUnregisteredEvent&#160;</td><td class="fielddoc"><p>A reader or writer is unregistered. Call data: the reader or writer (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a>). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530ac60f887d4e1887f97ab0eea36f19f219" name="a0e004f2ce1e4539f9b0d58969cf6b530ac60f887d4e1887f97ab0eea36f19f219"></a>NewFileLoadedEvent&#160;</td><td class="fielddoc"><p>A file is loaded. Call data: <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> of the loaded file, which contains "fileType" and the IDs of the loaded nodes in "nodeIDs". </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530afa9e57d5bd72bbb3da9f612ec38781b6" name="a0e004f2ce1e4539f9b0d58969cf6b530afa9e57d5bd72bbb3da9f612ec38781b6"></a>FileSavedEvent&#160;</td><td class="fielddoc"><p>A file is saved. Call data: <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> of the saved file. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530ad7d30b77a995008ccee249465e187f39" name="a0e004f2ce1e4539f9b0d58969cf6b530ad7d30b77a995008ccee249465e187f39"></a>OperationStartEvent&#160;</td><td class="fielddoc"><p>Loading or saving of files is started. Call data: <a class="el" href="classvtkMRMLOperationProgress.html" title="Progress of a long operation, such as loading files.">vtkMRMLOperationProgress</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530a2f7ed2d34324a05f51cd83767cad6103" name="a0e004f2ce1e4539f9b0d58969cf6b530a2f7ed2d34324a05f51cd83767cad6103"></a>OperationProgressEvent&#160;</td><td class="fielddoc"><p>Progress of loading or saving files changed. Call data: <a class="el" href="classvtkMRMLOperationProgress.html" title="Progress of a long operation, such as loading files.">vtkMRMLOperationProgress</a>. The number of these events per second is limited by MaximumProgressUpdatesPerSecond (except when processing of a new file starts). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0e004f2ce1e4539f9b0d58969cf6b530a3b80625e82d384ad7279ff647b908c19" name="a0e004f2ce1e4539f9b0d58969cf6b530a3b80625e82d384ad7279ff647b908c19"></a>OperationEndEvent&#160;</td><td class="fielddoc"><p>Loading or saving of files is completed. Call data: <a class="el" href="classvtkMRMLOperationProgress.html" title="Progress of a long operation, such as loading files.">vtkMRMLOperationProgress</a>. </p>
+</td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00059">59</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00057">57</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -482,6 +544,101 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae7298871e145ffc3a3230940dd4a7187" name="ae7298871e145ffc3a3230940dd4a7187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7298871e145ffc3a3230940dd4a7187">&#9670;&#160;</a></span>EndListItemProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLFileIOManager::EndListItemProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>listProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fileIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Report that processing of the file at fileIndex is completed. Returns true if processing of the list must be stopped, because the operation is aborted. </p>
+
+</div>
+</div>
+<a id="aaffba11e95e23a75d7d53c9e61069bcf" name="aaffba11e95e23a75d7d53c9e61069bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffba11e95e23a75d7d53c9e61069bcf">&#9670;&#160;</a></span>EndListProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLFileIOManager::EndListProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>listProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *</td>          <td class="paramname"><span class="paramname"><em>userMessages</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>abortedMessageFormat</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>End processing of the list. If processing was aborted then a warning is added to userMessages (abortedMessageFormat contains %1 for the number of processed files and %2 for the number of files). </p>
+
+</div>
+</div>
+<a id="a6192464e825683e9ade81dee36d45f06" name="a6192464e825683e9ade81dee36d45f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6192464e825683e9ade81dee36d45f06">&#9670;&#160;</a></span>EndOperationProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLFileIOManager::EndOperationProgress </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>operationStarted</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>aborted</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>End the operation (invokes OperationEndEvent), if it was started by <a class="el" href="#ac9b0d3880cdd8639fb73b010ff7021bb">StartOperationProgress()</a>. If the operation is not aborted then completion of the operation is reported. </p>
+
+</div>
+</div>
 <a id="aea06a0f8f9f2a8ad62eb2ae84afa3477" name="aea06a0f8f9f2a8ad62eb2ae84afa3477"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea06a0f8f9f2a8ad62eb2ae84afa3477">&#9670;&#160;</a></span>ExamineFileList()</h2>
 
@@ -501,6 +658,57 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Iterates through readers looking at the file list to see if there is an entry that can serve as an archetype for loading multiple files. If so, the reader removes the recognized files from the list and sets the ioProperties so that the corresponding loader will read these files. The "fileName" property is set to the archetype file. Returns the reader that recognized the files or nullptr if no pattern is recognized. If multiple readers recognize a group of files then the one with the highest confidence (see <a class="el" href="classvtkMRMLFileReader.html#a4df5b72f0abfa59fdf2bee2e8f795294">vtkMRMLFileReader::ExamineFileListConfidence</a>) is used. The specific motivating use case is when the file list contains a set of related files, such as a list of image files that are recognized as a volume. In <a class="el" href="namespacePython.html">Python</a>, fileList must be a list (it is modified in place). </p>
+
+</div>
+</div>
+<a id="a83db7c12927964f04afc062c65f3501c" name="a83db7c12927964f04afc062c65f3501c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83db7c12927964f04afc062c65f3501c">&#9670;&#160;</a></span>ExportNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLFileIOManager::ExportNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>properties</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *</td>          <td class="paramname"><span class="paramname"><em>temporaryScene</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>hardenTransforms</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLMessageCollection.html">vtkMRMLMessageCollection</a> *</td>          <td class="paramname"><span class="paramname"><em>userMessages</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Export a single node to a file. Used by <a class="el" href="#ad8511c0497ec1b21db0d3abebe455f9b">ExportNodes()</a> to export each node of the list.</p>
+<p>The node is copied into temporaryScene (with its display node and, if requested, with its parent transforms hardened) and saved from there, so that the storage nodes of the main scene are not modified.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">properties</td><td>Export options: "nodeID" (ID of the node in the main scene), "fileName", "fileFormat", and any other options that the writer uses. </td></tr>
+    <tr><td class="paramname">temporaryScene</td><td>Scene that <a class="el" href="#ad8511c0497ec1b21db0d3abebe455f9b">ExportNodes()</a> created for exporting. It is shared by all nodes of the list. </td></tr>
+    <tr><td class="paramname">hardenTransforms</td><td>If true, parent transforms of the node are applied to the exported data. </td></tr>
+    <tr><td class="paramname">userMessages</td><td>Errors and warnings to display to the user are added to this collection (may be nullptr). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the node was exported successfully. False if any error occurred, for example: the "nodeID", "fileName", or "fileFormat" property is missing, no storable node exists with the specified "nodeID", the node cannot be copied into the temporary scene, or the writer fails to write the file. </dd></dl>
 
 </div>
 </div>
@@ -565,7 +773,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Export nodes using the registered writers. Unlike <a class="el" href="#ab91a5810ac202675bd445f208692a752" title="Saving.">SaveNodes()</a>, this function creates a temporary scene while saving, in order to avoid modifying storage nodes in the current scene. Each item in propertiesList is a <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> object that specifies a "nodeID" (ID of a node in the main scene), a "fileName" (an absolute file path), a "fileFormat" (e.g. "NRRD (.nrrd)"), and any other options that the associated writer may use. If hardenTransforms is true then transforms are temporarily hardened before export. </p>
+<p>Export nodes using the registered writers. Unlike <a class="el" href="#ab91a5810ac202675bd445f208692a752" title="Saving.">SaveNodes()</a>, this function creates a temporary scene while saving, in order to avoid modifying storage nodes in the current scene. Saving progress is reported (see <a class="el" href="#ab91a5810ac202675bd445f208692a752" title="Saving.">SaveNodes()</a>), each exported node counts as one file. Exporting of multiple nodes is abortable. Each item in propertiesList is a <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> object that specifies a "nodeID" (ID of a node in the main scene), a "fileName" (an absolute file path), a "fileFormat" (e.g. "NRRD (.nrrd)"), and any other options that the associated writer may use. If hardenTransforms is true then transforms are temporarily hardened before export. If a node cannot be exported then the remaining nodes are still exported. Returns true if all nodes were exported successfully. </p>
 
 </div>
 </div>
@@ -1035,6 +1243,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4a6abacb543f046715cdb60b02ffcb69" name="a4a6abacb543f046715cdb60b02ffcb69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6abacb543f046715cdb60b02ffcb69">&#9670;&#160;</a></span>GetMaximumProgressUpdatesPerSecond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double vtkMRMLFileIOManager::GetMaximumProgressUpdatesPerSecond </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum number of progress events (OperationProgressEvent) per second while loading or saving files. Progress changes that would exceed this rate are reported in the next progress event. 0 means that every progress change is reported. Default: 3. </p>
+
+</div>
+</div>
 <a id="a11e53ddd6af4c10571583d866938314f" name="a11e53ddd6af4c10571583d866938314f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11e53ddd6af4c10571583d866938314f">&#9670;&#160;</a></span>GetNameFiltersForFileType()</h2>
 
@@ -1428,6 +1662,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af3cb7f2e8e4ec7f84bd442bb0f460fdc" name="af3cb7f2e8e4ec7f84bd442bb0f460fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3cb7f2e8e4ec7f84bd442bb0f460fdc">&#9670;&#160;</a></span>InvokeProgressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLFileIOManager::InvokeProgressEvent </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Invoke OperationProgressEvent with the current progress, unless the maximum update rate would be exceeded (then the event is invoked later). If force is true then the event is invoked regardless of the update rate. </p>
+
+</div>
+</div>
 <a id="ac29e9d3f8c4198c797b9c10db12d40a2" name="ac29e9d3f8c4198c797b9c10db12d40a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac29e9d3f8c4198c797b9c10db12d40a2">&#9670;&#160;</a></span>IsA()</h2>
 
@@ -1539,7 +1799,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loading. </p>
-<p>Load nodes using the readers of the file type. The properties must contain "fileName" (a string or a list of strings) and may contain more specific properties. For example, the volume reader can be called with the following parameters: "labelmap" (bool), "center" (bool). Nodes that are loaded are added to loadedNodes (if not nullptr). If a valid userMessages is passed then additional error or warning information is added to it. Returns false if loading fails. </p>
+<p>Load nodes using the readers of the file type. The properties must contain "fileName" (a string or a list of strings) and may contain more specific properties. For example, the volume reader can be called with the following parameters: "labelmap" (bool), "center" (bool). Nodes that are loaded are added to loadedNodes (if not nullptr). If a valid userMessages is passed then additional error or warning information is added to it. Returns false if loading fails.</p>
+<p>Progress is reported by OperationStartEvent, OperationProgressEvent, and OperationEndEvent. A list of files is loaded as one operation, which can be aborted between files. </p>
 
 </div>
 </div>
@@ -1602,7 +1863,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Load a list of files. Each item in propertiesList is a <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> object that specifies the "fileType" property in addition to the properties needed by the reader. </p>
+<p>Load a list of files. Each item in propertiesList is a <a class="el" href="classvtkMRMLIOProperties.html">vtkMRMLIOProperties</a> object that specifies the "fileType" property in addition to the properties needed by the reader. Loading progress is reported (see <a class="el" href="#a13bc5028bd2ee84da64cd8853e668837" title="Loading.">LoadNodes()</a>). </p>
 
 </div>
 </div>
@@ -1656,6 +1917,47 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38dbfe02b9698305bc0be5095556a0e1" name="a38dbfe02b9698305bc0be5095556a0e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38dbfe02b9698305bc0be5095556a0e1">&#9670;&#160;</a></span>OnSceneProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void vtkMRMLFileIOManager::OnSceneProgress </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *</td>          <td class="paramname"><span class="paramname"><em>caller</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em>eid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>clientData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>callData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Forwards scene import or save progress (percent) as file progress. </p>
 
 </div>
 </div>
@@ -1774,6 +2076,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a765893569a488e64d427fdc64706a105" name="a765893569a488e64d427fdc64706a105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a765893569a488e64d427fdc64706a105">&#9670;&#160;</a></span>ReportFileProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLFileIOManager::ReportFileProgress </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>fileProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::string()</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Report progress of processing (loading or saving) the current file (0.0-1.0; negative value if only the text changes) and optionally update the progress text. </p>
+
+</div>
+</div>
 <a id="ae2098c10efafd4076df470cf5b3c1542" name="ae2098c10efafd4076df470cf5b3c1542"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2098c10efafd4076df470cf5b3c1542">&#9670;&#160;</a></span>SafeDownCast()</h2>
 
@@ -1829,7 +2161,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Saving. </p>
-<p>Save nodes (or scene) using the registered writers. Properties are typically: "fileName"; for nodes: "nodeID", "useCompression", "fileFormat". If a valid scene is passed then the writers use that scene instead of the scene of the manager. Returns true on success. </p>
+<p>Save nodes (or scene) using the registered writers. Progress is reported the same way as for loading (see <a class="el" href="#a13bc5028bd2ee84da64cd8853e668837" title="Loading.">LoadNodes()</a>). Properties are typically: "fileName"; for nodes: "nodeID", "useCompression", "fileFormat". If a valid scene is passed then the writers use that scene instead of the scene of the manager. Returns true on success. </p>
 
 </div>
 </div>
@@ -1920,6 +2252,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a538a59b5e79511b30777f489f3627c10" name="a538a59b5e79511b30777f489f3627c10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a538a59b5e79511b30777f489f3627c10">&#9670;&#160;</a></span>SetMaximumProgressUpdatesPerSecond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLFileIOManager::SetMaximumProgressUpdatesPerSecond </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a640825b002cc6243656ca5b2662a5c0b" name="a640825b002cc6243656ca5b2662a5c0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a640825b002cc6243656ca5b2662a5c0b">&#9670;&#160;</a></span>SetScene()</h2>
 
@@ -1976,6 +2333,97 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Handlers with their confidence, highest first; ties keep the order of registration. Handlers with zero confidence are not included. </p>
+
+</div>
+</div>
+<a id="a6be779fdf86dae18846710e87c24e182" name="a6be779fdf86dae18846710e87c24e182"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be779fdf86dae18846710e87c24e182">&#9670;&#160;</a></span>StartListItemProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLFileIOManager::StartListItemProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>listProgress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fileIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Report that processing of the file at fileIndex starts. </p>
+
+</div>
+</div>
+<a id="a0e31a42c32b8262207cdd57b150f8233" name="a0e31a42c32b8262207cdd57b150f8233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e31a42c32b8262207cdd57b150f8233">&#9670;&#160;</a></span>StartListProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structvtkMRMLFileIOManager_1_1ListProgress.html">ListProgress</a> vtkMRMLFileIOManager::StartListProgress </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numberOfFiles</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start processing a list of files (starts an operation if no operation is in progress). Each file covers an equal part of the progress range of the list. If the operation is started by the list then the files of the list are the files of the operation (see <a class="el" href="classvtkMRMLOperationProgress.html#aa19d44952c8bf7eb743c4bb29a48bb93">vtkMRMLOperationProgress::GetNumberOfFiles()</a>). </p>
+
+</div>
+</div>
+<a id="ac9b0d3880cdd8639fb73b010ff7021bb" name="ac9b0d3880cdd8639fb73b010ff7021bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b0d3880cdd8639fb73b010ff7021bb">&#9670;&#160;</a></span>StartOperationProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLFileIOManager::StartOperationProgress </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numberOfFiles</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start a loading or saving operation, if no operation is in progress (invokes OperationStartEvent). numberOfFiles is 0 if a single file is processed (progress of processing a file is only known if it is reported). Returns true if a new operation is started. </p>
 
 </div>
 </div>
@@ -2041,7 +2489,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00315">315</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00339">339</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2065,7 +2513,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00320">320</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00344">344</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2089,7 +2537,109 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00319">319</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00343">343</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+
+</div>
+</div>
+<a id="a52241a267e51fd605b8def9047b573c6" name="a52241a267e51fd605b8def9047b573c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52241a267e51fd605b8def9047b573c6">&#9670;&#160;</a></span>LastProgressEventTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double vtkMRMLFileIOManager::LastProgressEventTime { 0.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time of the last invoked progress event (universal time in seconds) </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00406">406</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+
+</div>
+</div>
+<a id="a39c13fac095c710e97c2f0c67a63562e" name="a39c13fac095c710e97c2f0c67a63562e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c13fac095c710e97c2f0c67a63562e">&#9670;&#160;</a></span>MaximumProgressUpdatesPerSecond</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double vtkMRMLFileIOManager::MaximumProgressUpdatesPerSecond { 3.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00404">404</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+
+</div>
+</div>
+<a id="aae85ba8fb3ff4ef02cf91eac8b5adcf3" name="aae85ba8fb3ff4ef02cf91eac8b5adcf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae85ba8fb3ff4ef02cf91eac8b5adcf3">&#9670;&#160;</a></span>OperationProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a>&gt; vtkMRMLFileIOManager::OperationProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Progress of the loading or saving operation that is in progress (nullptr if no operation is in progress) </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00411">411</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+
+</div>
+</div>
+<a id="ad26817eb5d883df70ad52e3609903c91" name="ad26817eb5d883df70ad52e3609903c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad26817eb5d883df70ad52e3609903c91">&#9670;&#160;</a></span>ProgressEventPending</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLFileIOManager::ProgressEventPending { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if progress changed since the last progress event. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00408">408</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2113,7 +2663,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00316">316</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00340">340</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2137,7 +2687,33 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00314">314</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00338">338</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+
+</div>
+</div>
+<a id="aebb6e770d8935773540bda0951aac88b" name="aebb6e770d8935773540bda0951aac88b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebb6e770d8935773540bda0951aac88b">&#9670;&#160;</a></span>SceneProgressObserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLFileIOManager::SceneProgressObserved { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True while the scene is observed for reporting its import progress. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00413">413</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2161,7 +2737,7 @@ template&lt;typename HandlerType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00317">317</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLFileIOManager_8h_source.html#l00341">341</a> of file <a class="el" href="vtkMRMLFileIOManager_8h_source.html">vtkMRMLFileIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -2171,7 +2747,7 @@ template&lt;typename HandlerType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2026 15:19:28 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Tue Oct 13 2026 23:57:25 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

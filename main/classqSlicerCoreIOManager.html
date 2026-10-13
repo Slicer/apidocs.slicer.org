@@ -246,6 +246,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a275be464ca74a1957a6b58989380a2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d0a0d7335f06c5e39d5fac2f207175a" id="r_a7d0a0d7335f06c5e39d5fac2f207175a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d0a0d7335f06c5e39d5fac2f207175a">fileSaved</a> (const <a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a> &amp;savedFileParameters)</td></tr>
 <tr class="separator:a7d0a0d7335f06c5e39d5fac2f207175a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5417f1c9dac565d979bb4c4642fd557f" id="r_a5417f1c9dac565d979bb4c4642fd557f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5417f1c9dac565d979bb4c4642fd557f">startProgress</a> (<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *progress)</td></tr>
+<tr class="separator:a5417f1c9dac565d979bb4c4642fd557f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5903565722a3fa981d364fcf2b82e342" id="r_a5903565722a3fa981d364fcf2b82e342"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5903565722a3fa981d364fcf2b82e342">updateProgress</a> (<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *progress)</td></tr>
+<tr class="separator:a5903565722a3fa981d364fcf2b82e342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf410d0e7e1e56d6ac5e4b73e12be81" id="r_a0cf410d0e7e1e56d6ac5e4b73e12be81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cf410d0e7e1e56d6ac5e4b73e12be81">endProgress</a> (<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *progress)</td></tr>
+<tr class="separator:a0cf410d0e7e1e56d6ac5e4b73e12be81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e42b71faa6f9b04368c965a73d1e2f5" id="r_a8e42b71faa6f9b04368c965a73d1e2f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e42b71faa6f9b04368c965a73d1e2f5">createGenericOptions</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *ioHandler) const</td></tr>
 <tr class="separator:a8e42b71faa6f9b04368c965a73d1e2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -253,7 +259,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Qt interface of the file IO manager.</p>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>All calls are forwarded to <a class="el" href="classvtkMRMLFileIOManager.html">vtkMRMLFileIOManager</a> (<a class="el" href="classvtkMRMLApplicationLogic.html#a96e8a3ba25e54a0b226aae4b3ac7ec2f">vtkMRMLApplicationLogic::GetFileIOManager()</a>). This class is kept for backward compatibility. See <a href="https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#qt-interface">https://slicer.readthedocs.io/en/latest/developer_guide/mrml_overview.html#qt-interface</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00058">58</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00059">59</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 </div><h2 class="groupheader">Property Documentation</h2>
 <a id="a5fd47df5d618bcf16ad51736c839c000" name="a5fd47df5d618bcf16ad51736c839c000"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fd47df5d618bcf16ad51736c839c000">&#9670;&#160;</a></span>defaultMaximumFileNameLength</h2>
@@ -275,7 +281,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00062">62</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00063">63</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -299,7 +305,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00061">61</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00062">62</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -545,6 +551,33 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>This function should be used from python scripted module willing to interface with the <a class="el" href="classqSlicerCoreIOManager.html">qSlicerCoreIOManager</a>. It will emit the signal <a class="el" href="#a275be464ca74a1957a6b58989380a2c9">newFileLoaded()</a>. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a275be464ca74a1957a6b58989380a2c9">newFileLoaded()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0cf410d0e7e1e56d6ac5e4b73e12be81" name="a0cf410d0e7e1e56d6ac5e4b73e12be81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cf410d0e7e1e56d6ac5e4b73e12be81">&#9670;&#160;</a></span>endProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void qSlicerCoreIOManager::endProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#aa5fce5c017266c4ecdc406b407abcda9">qSlicerIOManager</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1076,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Utility function that loads a bunch of files. The "fileType" attribute should in the parameter map for each node to load. If a valid pointer is passed to userMessages additional error or warning information may be returned in it. </p>
+<p>Utility function that loads a bunch of files. The "fileType" attribute should be in the parameter map for each node to load. If a valid pointer is passed to userMessages additional error or warning information may be returned in it. The method uses the file IO manager to load all the files as a single operation (it does not use loadFile). </p>
 
 <p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a03141f000e0a6643e0020d5c730e3476">qSlicerIOManager</a>.</p>
 
@@ -1085,7 +1118,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Load a list of nodes corresponding to <em class="arg">fileType</em>. A given <em class="arg">fileType</em> corresponds to a specific reader <a class="el" href="classqSlicerIO.html">qSlicerIO</a>. A map of QVariant allows to specify which <em class="arg">parameters</em> should be passed to the reader. The function return 0 if it fails. The map associated with most of the <em class="arg">fileType</em> should contains either fileName (QString or QStringList) or fileNames (QStringList). More specific parameters could also be set. For example, the volume reader qSlicerVolumesIO could also be called with the following parameters: LabelMap (bool), Center (bool) If a valid pointer is passed to userMessages additional error or warning information may be returned in it. </p><dl class="section note"><dt>Note</dt><dd>Make also sure the case of parameter name is respected </dd></dl>
+<p>Load a list of nodes corresponding to <em class="arg">fileType</em>. A given <em class="arg">fileType</em> corresponds to a specific reader <a class="el" href="classqSlicerIO.html">qSlicerIO</a>. A map of QVariant allows to specify which <em class="arg">parameters</em> should be passed to the reader. The function return 0 if it fails. The map associated with most of the <em class="arg">fileType</em> should contains either fileName (QString or QStringList) or fileNames (QStringList). More specific parameters could also be set. For example, the volume reader qSlicerVolumesIO could also be called with the following parameters: LabelMap (bool), Center (bool) If a valid pointer is passed to userMessages additional error or warning information may be returned in it. The method uses the file IO manager to load all the files as a single operation (it does not use loadFile). </p><dl class="section note"><dt>Note</dt><dd>Make also sure the case of parameter name is respected </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classqSlicerIO.html#abcfc12baff6003c8fbc5de7144a5578d">qSlicerIO::IOProperties</a>, <a class="el" href="classqSlicerIO.html#a50c44b634b96811a34bb57692e04a2e1">qSlicerIO::IOFileType</a>, <a class="el" href="#af004688c285918a9a47b0e0ca445fa06">saveNodes()</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a0ddbbe6249526ab5ad6cfc34c62effb5">qSlicerIOManager</a>.</p>
@@ -1394,6 +1427,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5417f1c9dac565d979bb4c4642fd557f" name="a5417f1c9dac565d979bb4c4642fd557f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5417f1c9dac565d979bb4c4642fd557f">&#9670;&#160;</a></span>startProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void qSlicerCoreIOManager::startProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The methods are called when the file IO manager reports progress. First <a class="el" href="#a5417f1c9dac565d979bb4c4642fd557f">startProgress()</a> is called then <a class="el" href="#a5903565722a3fa981d364fcf2b82e342">updateProgress()</a> may be called multiple times, and <a class="el" href="#a0cf410d0e7e1e56d6ac5e4b73e12be81">endProgress()</a> is called when the requested operation is completed. The default implementation does nothing, derived classes that want to report progress should override these methods. </p>
+
+<p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#a0e1de54188f364206f479fb460049ffb">qSlicerIOManager</a>.</p>
+
+</div>
+</div>
 <a id="a3e550ab54c035002242c57c34694bd9a" name="a3e550ab54c035002242c57c34694bd9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e550ab54c035002242c57c34694bd9a">&#9670;&#160;</a></span>stripKnownExtension()</h2>
 
@@ -1413,6 +1474,33 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>If <em class="arg">fileName</em> ends with an extension that is associated with <em class="arg">object</em>, then return a stripped version of <em class="arg">fileName</em>, where that extension has been chopped off. If the extension is duplicated in the tail of <em class="arg">fileName</em>, then all duplicates are stripped away. </p>
+
+</div>
+</div>
+<a id="a5903565722a3fa981d364fcf2b82e342" name="a5903565722a3fa981d364fcf2b82e342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5903565722a3fa981d364fcf2b82e342">&#9670;&#160;</a></span>updateProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void qSlicerCoreIOManager::updateProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classqSlicerIOManager.html#ae73cfdb02dc118c15645f7ebd725a985">qSlicerIOManager</a>.</p>
 
 </div>
 </div>
@@ -1498,7 +1586,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00335">335</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerCoreIOManager_8h_source.html#l00347">347</a> of file <a class="el" href="qSlicerCoreIOManager_8h_source.html">qSlicerCoreIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1508,7 +1596,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2026 15:19:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Tue Oct 13 2026 23:57:23 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

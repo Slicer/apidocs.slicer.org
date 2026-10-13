@@ -315,14 +315,19 @@ Static Public Member Functions</h2></td></tr>
 Protected Slots</h2></td></tr>
 <tr class="memitem:a1059c6df1318a2a5883829cdd39e283c" id="r_a1059c6df1318a2a5883829cdd39e283c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1059c6df1318a2a5883829cdd39e283c">execDelayedFileDialog</a> ()</td></tr>
 <tr class="separator:a1059c6df1318a2a5883829cdd39e283c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ba617e27a39487eccff7a4eda49da9" id="r_a05ba617e27a39487eccff7a4eda49da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ba617e27a39487eccff7a4eda49da9">updateProgressDialog</a> ()</td></tr>
-<tr class="separator:a05ba617e27a39487eccff7a4eda49da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a75ba4256efe9632f7858a3d85a6269ba" id="r_a75ba4256efe9632f7858a3d85a6269ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqSlicerIOOptions.html">qSlicerIOOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75ba4256efe9632f7858a3d85a6269ba">createGenericOptions</a> (<a class="el" href="classvtkMRMLFileIOHandler.html">vtkMRMLFileIOHandler</a> *ioHandler) const override</td></tr>
 <tr class="memdesc:a75ba4256efe9632f7858a3d85a6269ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classqSlicerGenericIOOptionsWidget.html">qSlicerGenericIOOptionsWidget</a> if the reader or writer describes its options.  <br /></td></tr>
 <tr class="separator:a75ba4256efe9632f7858a3d85a6269ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5fce5c017266c4ecdc406b407abcda9" id="r_aa5fce5c017266c4ecdc406b407abcda9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5fce5c017266c4ecdc406b407abcda9">endProgress</a> (<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *progress) override</td></tr>
+<tr class="separator:aa5fce5c017266c4ecdc406b407abcda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1de54188f364206f479fb460049ffb" id="r_a0e1de54188f364206f479fb460049ffb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e1de54188f364206f479fb460049ffb">startProgress</a> (<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *progress) override</td></tr>
+<tr class="memdesc:a0e1de54188f364206f479fb460049ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show, update, and hide the progress dialog.  <br /></td></tr>
+<tr class="separator:a0e1de54188f364206f479fb460049ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73cfdb02dc118c15645f7ebd725a985" id="r_ae73cfdb02dc118c15645f7ebd725a985"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae73cfdb02dc118c15645f7ebd725a985">updateProgress</a> (<a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *progress) override</td></tr>
+<tr class="separator:ae73cfdb02dc118c15645f7ebd725a985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -494,6 +499,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa5fce5c017266c4ecdc406b407abcda9" name="aa5fce5c017266c4ecdc406b407abcda9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5fce5c017266c4ecdc406b407abcda9">&#9670;&#160;</a></span>endProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerIOManager::endProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a0cf410d0e7e1e56d6ac5e4b73e12be81">qSlicerCoreIOManager</a>.</p>
+
+</div>
+</div>
 <a id="a1059c6df1318a2a5883829cdd39e283c" name="a1059c6df1318a2a5883829cdd39e283c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1059c6df1318a2a5883829cdd39e283c">&#9670;&#160;</a></span>execDelayedFileDialog</h2>
 
@@ -660,7 +692,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>If you have a list of nodes to load, it's best to use this function in order to have a unique progress dialog instead of multiple ones. It internally calls <a class="el" href="#a0ddbbe6249526ab5ad6cfc34c62effb5">loadNodes()</a> for each file. </p>
+<p>Load a list of files. Rendering is paused while loading. The files are loaded as a single operation, so a single progress dialog is displayed for the whole list. </p>
 
 <p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a122eee002f2ae890d1da5e3c541a5715">qSlicerCoreIOManager</a>.</p>
 
@@ -702,7 +734,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Displays a progress dialog if it takes too long to load There is no way to know in advance how long the loading will take, so the progress dialog listens to the scene and increment the progress anytime a node is added. </p>
+<p>Load a file. Rendering is paused while loading. A progress dialog is displayed if loading takes long (see <a class="el" href="#a0e1de54188f364206f479fb460049ffb" title="Show, update, and hide the progress dialog.">startProgress()</a>). </p>
 
 <p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a068dc9928564f2f0ad9a73da1018d4bf">qSlicerCoreIOManager</a>.</p>
 
@@ -731,7 +763,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00202">202</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00203">203</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -758,7 +790,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00164">164</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00165">165</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -785,7 +817,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00156">156</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00157">157</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -812,7 +844,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00220">220</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00221">221</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -839,7 +871,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00208">208</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00209">209</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -866,7 +898,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00214">214</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00215">215</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -893,7 +925,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00184">184</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00185">185</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -920,7 +952,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00190">190</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00191">191</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -972,7 +1004,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00196">196</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00197">197</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -999,7 +1031,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00170">170</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00171">171</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1026,7 +1058,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00176">176</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00177">177</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1142,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00226">226</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00227">227</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1229,8 +1261,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a05ba617e27a39487eccff7a4eda49da9" name="a05ba617e27a39487eccff7a4eda49da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ba617e27a39487eccff7a4eda49da9">&#9670;&#160;</a></span>updateProgressDialog</h2>
+<a id="a0e1de54188f364206f479fb460049ffb" name="a0e1de54188f364206f479fb460049ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1de54188f364206f479fb460049ffb">&#9670;&#160;</a></span>startProgress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1239,18 +1271,49 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void qSlicerIOManager::updateProgressDialog </td>
+          <td class="memname">void qSlicerIOManager::startProgress </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Show, update, and hide the progress dialog. </p>
+
+<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a5417f1c9dac565d979bb4c4642fd557f">qSlicerCoreIOManager</a>.</p>
+
+</div>
+</div>
+<a id="ae73cfdb02dc118c15645f7ebd725a985" name="ae73cfdb02dc118c15645f7ebd725a985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae73cfdb02dc118c15645f7ebd725a985">&#9670;&#160;</a></span>updateProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qSlicerIOManager::updateProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLOperationProgress.html">vtkMRMLOperationProgress</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classqSlicerCoreIOManager.html#a5903565722a3fa981d364fcf2b82e342">qSlicerCoreIOManager</a>.</p>
 
 </div>
 </div>
@@ -1275,7 +1338,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00145">145</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00146">146</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1363,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00148">148</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qSlicerIOManager_8h_source.html#l00149">149</a> of file <a class="el" href="qSlicerIOManager_8h_source.html">qSlicerIOManager.h</a>.</p>
 
 </div>
 </div>
@@ -1310,7 +1373,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2026 15:19:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Tue Oct 13 2026 23:57:23 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
