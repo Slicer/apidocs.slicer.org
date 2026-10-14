@@ -154,6 +154,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a9734aae5000e64a4bd6894db657ae95e" id="r_a9734aae5000e64a4bd6894db657ae95e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a9734aae5000e64a4bd6894db657ae95ea6f06c4afbb6fbe90679f9305279001b4">SequenceContentModifiedEvent</a> = 21100
+ }</td></tr>
+<tr class="separator:a9734aae5000e64a4bd6894db657ae95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b4b42839ec2aa446fd2238d9c44d9f" id="r_a72b4b42839ec2aa446fd2238d9c44d9f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72b4b42839ec2aa446fd2238d9c44d9f">IndexTypes</a> { <a class="el" href="#a72b4b42839ec2aa446fd2238d9c44d9fa78d395943d6f47b5fdfe613f196307e0">NumericIndex</a> = 0
 , <a class="el" href="#a72b4b42839ec2aa446fd2238d9c44d9fa2e0938b2bd2f12536beaf0fd727b7675">TextIndex</a>
 , <a class="el" href="#a72b4b42839ec2aa446fd2238d9c44d9fa33c02975ac1f38a4ff2564e986441bed">NumberOfIndexTypes</a>
@@ -665,6 +668,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a3dfbda10af39b218a85e7707ee7aacea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d66e503ea0d0ee11834db6aef8a1fc8" id="r_a0d66e503ea0d0ee11834db6aef8a1fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d66e503ea0d0ee11834db6aef8a1fc8">ReadIndexValues</a> (const std::string &amp;indexText)</td></tr>
 <tr class="separator:a0d66e503ea0d0ee11834db6aef8a1fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3027941e9ebe6321b3e875b90a0382ca" id="r_a3027941e9ebe6321b3e875b90a0382ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3027941e9ebe6321b3e875b90a0382ca">SequenceContentModified</a> ()</td></tr>
+<tr class="separator:a3027941e9ebe6321b3e875b90a0382ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af597947d22dc9a73cc966c52e770b823" id="r_af597947d22dc9a73cc966c52e770b823"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af597947d22dc9a73cc966c52e770b823">vtkMRMLSequenceNode</a> ()</td></tr>
 <tr class="separator:af597947d22dc9a73cc966c52e770b823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76d923547dcdc82630ccd83c07722a0d" id="r_a76d923547dcdc82630ccd83c07722a0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76d923547dcdc82630ccd83c07722a0d">vtkMRMLSequenceNode</a> (const <a class="el" href="classvtkMRMLSequenceNode.html">vtkMRMLSequenceNode</a> &amp;)</td></tr>
@@ -854,6 +859,26 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a9734aae5000e64a4bd6894db657ae95e" name="a9734aae5000e64a4bd6894db657ae95e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9734aae5000e64a4bd6894db657ae95e">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9734aae5000e64a4bd6894db657ae95ea6f06c4afbb6fbe90679f9305279001b4" name="a9734aae5000e64a4bd6894db657ae95ea6f06c4afbb6fbe90679f9305279001b4"></a>SequenceContentModifiedEvent&#160;</td><td class="fielddoc"><p>Invoked when the content of the sequence is modified: data node is added, replaced, or removed, an index value is changed, or the index name, unit, type, or tolerance is changed. It is not invoked for changes that do not affect the sequence content (node name, attributes, storage node, etc.). </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00165">165</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+
+</div>
+</div>
 <a id="a72b4b42839ec2aa446fd2238d9c44d9f" name="a72b4b42839ec2aa446fd2238d9c44d9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72b4b42839ec2aa446fd2238d9c44d9f">&#9670;&#160;</a></span>IndexTypes</h2>
 
@@ -872,7 +897,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a72b4b42839ec2aa446fd2238d9c44d9fa33c02975ac1f38a4ff2564e986441bed" name="a72b4b42839ec2aa446fd2238d9c44d9fa33c02975ac1f38a4ff2564e986441bed"></a>NumberOfIndexTypes&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00167">167</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00175">175</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -1795,6 +1820,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3027941e9ebe6321b3e875b90a0382ca" name="a3027941e9ebe6321b3e875b90a0382ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3027941e9ebe6321b3e875b90a0382ca">&#9670;&#160;</a></span>SequenceContentModified()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLSequenceNode::SequenceContentModified </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Marks the content modified (the node has to be written to file again) and invokes SequenceContentModifiedEvent. Must be called whenever the content of the sequence is changed. </p>
+
+</div>
+</div>
 <a id="a6ac76f8bfbb006d0bff1db39539817bd" name="a6ac76f8bfbb006d0bff1db39539817bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ac76f8bfbb006d0bff1db39539817bd">&#9670;&#160;</a></span>SetDataNodeAtValue()</h2>
 
@@ -2093,7 +2144,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>List of data items (the scene may contain some more nodes, such as storage nodes) </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00207">207</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00219">219</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2119,7 +2170,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Describes index of the sequence node. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00209">209</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2143,7 +2194,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00199">199</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00211">211</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2167,7 +2218,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00198">198</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00210">210</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2191,7 +2242,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00212">212</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2216,7 +2267,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Need to store the nodes in the scene, because for reading/writing nodes we need MRML storage nodes, which only work if they refer to a data node in the same scene </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00216">216</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2226,7 +2277,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 14 2026 04:09:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Oct 14 2026 04:49:34 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
