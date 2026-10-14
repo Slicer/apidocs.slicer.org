@@ -269,6 +269,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa57077b567b07c25d8d7c41a20803ed6" id="r_aa57077b567b07c25d8d7c41a20803ed6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa57077b567b07c25d8d7c41a20803ed6">SetNumericIndexValueTolerance</a> (double tolerance)</td></tr>
 <tr class="memdesc:aa57077b567b07c25d8d7c41a20803ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set tolerance value for comparing numeric index values.  <br /></td></tr>
 <tr class="separator:aa57077b567b07c25d8d7c41a20803ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63cbab08f4549b04362edde69812c5f1" id="r_a63cbab08f4549b04362edde69812c5f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63cbab08f4549b04362edde69812c5f1">SetScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene) override</td></tr>
+<tr class="memdesc:a63cbab08f4549b04362edde69812c5f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the scene and share its node factory with the internal sequence scene.  <br /></td></tr>
+<tr class="separator:a63cbab08f4549b04362edde69812c5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90ebe2c06a112a52292cf7161572afec" id="r_a90ebe2c06a112a52292cf7161572afec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90ebe2c06a112a52292cf7161572afec">UpdateDataNodeAtValue</a> (<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> *node, const std::string &amp;indexValue, bool shallowCopy=false)</td></tr>
 <tr class="separator:a90ebe2c06a112a52292cf7161572afec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a024d5b6fa1ae8412783832cd1d44276c" id="r_a024d5b6fa1ae8412783832cd1d44276c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a024d5b6fa1ae8412783832cd1d44276c">UpdateIndexValue</a> (const std::string &amp;oldIndexValue, const std::string &amp;newIndexValue)</td></tr>
@@ -581,9 +584,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad2a55ffafde17c41d1cdd22c38f56a43 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bb8b864dcf5f4aa782135a5d7ce3ab1 inherit pub_methods_classvtkMRMLNode" id="r_a5bb8b864dcf5f4aa782135a5d7ce3ab1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a5bb8b864dcf5f4aa782135a5d7ce3ab1">SetSaveWithScene</a> (int)</td></tr>
 <tr class="separator:a5bb8b864dcf5f4aa782135a5d7ce3ab1 inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06e909158c1aa2d2c70d733324ea46ec inherit pub_methods_classvtkMRMLNode" id="r_a06e909158c1aa2d2c70d733324ea46ec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a06e909158c1aa2d2c70d733324ea46ec">SetScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
-<tr class="memdesc:a06e909158c1aa2d2c70d733324ea46ec inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is for internal use only. Use AddNode method of <a class="el" href="classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo.">vtkMRMLScene</a> to add a node to the scene.  <br /></td></tr>
-<tr class="separator:a06e909158c1aa2d2c70d733324ea46ec inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8016800312db3877c6c1598b402ce79c inherit pub_methods_classvtkMRMLNode" id="r_a8016800312db3877c6c1598b402ce79c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLNode.html#a8016800312db3877c6c1598b402ce79c">SetSceneReferences</a> ()</td></tr>
 <tr class="memdesc:a8016800312db3877c6c1598b402ce79c inherit pub_methods_classvtkMRMLNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the references of the node to the scene.  <br /></td></tr>
 <tr class="separator:a8016800312db3877c6c1598b402ce79c inherit pub_methods_classvtkMRMLNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -872,7 +872,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a72b4b42839ec2aa446fd2238d9c44d9fa33c02975ac1f38a4ff2564e986441bed" name="a72b4b42839ec2aa446fd2238d9c44d9fa33c02975ac1f38a4ff2564e986441bed"></a>NumberOfIndexTypes&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00164">164</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00167">167</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -1442,7 +1442,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classvtkMRMLStorableNode.html#a09db61b0ef60ef2779bfeea4ed6e2a1b">vtkMRMLStorableNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00074">74</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00077">77</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -1910,6 +1910,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a63cbab08f4549b04362edde69812c5f1" name="a63cbab08f4549b04362edde69812c5f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63cbab08f4549b04362edde69812c5f1">&#9670;&#160;</a></span>SetScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLSequenceNode::SetScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *</td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the scene and share its node factory with the internal sequence scene. </p>
+
+<p>Reimplemented from <a class="el" href="classvtkMRMLNode.html#a06e909158c1aa2d2c70d733324ea46ec">vtkMRMLNode</a>.</p>
+
+</div>
+</div>
 <a id="a90ebe2c06a112a52292cf7161572afec" name="a90ebe2c06a112a52292cf7161572afec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90ebe2c06a112a52292cf7161572afec">&#9670;&#160;</a></span>UpdateDataNodeAtValue()</h2>
 
@@ -2064,7 +2093,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>List of data items (the scene may contain some more nodes, such as storage nodes) </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00207">207</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2090,7 +2119,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Describes index of the sequence node. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00194">194</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2114,7 +2143,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00196">196</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00199">199</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2138,7 +2167,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00195">195</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00198">198</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2162,7 +2191,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00197">197</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00200">200</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2187,7 +2216,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Need to store the nodes in the scene, because for reading/writing nodes we need MRML storage nodes, which only work if they refer to a data node in the same scene </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00201">201</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLSequenceNode_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLSequenceNode_8h_source.html">vtkMRMLSequenceNode.h</a>.</p>
 
 </div>
 </div>
@@ -2197,7 +2226,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2026 23:57:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Oct 14 2026 04:09:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

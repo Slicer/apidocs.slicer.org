@@ -241,7 +241,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa04921f270f0fd1b9e595760a024881" id="r_aaa04921f270f0fd1b9e595760a024881"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa04921f270f0fd1b9e595760a024881">CopyNodeReferences</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
 <tr class="separator:aaa04921f270f0fd1b9e595760a024881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bbb0f38d8e37cc320630038a987d96d" id="r_a0bbb0f38d8e37cc320630038a987d96d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bbb0f38d8e37cc320630038a987d96d">CopyRegisteredNodesToScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
-<tr class="memdesc:a0bbb0f38d8e37cc320630038a987d96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies all registered nodes into the parameter scene.  <br /></td></tr>
 <tr class="separator:a0bbb0f38d8e37cc320630038a987d96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf53272586932bc4653222f2f9500dfa" id="r_aaf53272586932bc4653222f2f9500dfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf53272586932bc4653222f2f9500dfa">CopySingletonNodesToScene</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
 <tr class="memdesc:aaf53272586932bc4653222f2f9500dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies all singleton nodes into the parameter scene.  <br /></td></tr>
@@ -308,6 +307,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35fe36dcc7820448d533ef014fe17d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef0cbe5fd361c6215f84c6dcadd160c8" id="r_aef0cbe5fd361c6215f84c6dcadd160c8"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef0cbe5fd361c6215f84c6dcadd160c8">GetNodeClassesList</a> ()</td></tr>
 <tr class="separator:aef0cbe5fd361c6215f84c6dcadd160c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2ede9e54e60076b33f0300e5a2407c" id="r_a5b2ede9e54e60076b33f0300e5a2407c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvtkMRMLNodeFactory.html">vtkMRMLNodeFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b2ede9e54e60076b33f0300e5a2407c">GetNodeFactory</a> ()</td></tr>
+<tr class="separator:a5b2ede9e54e60076b33f0300e5a2407c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf3176138d7d3b7d37d309ed085739bb" id="r_aaf3176138d7d3b7d37d309ed085739bb"><td class="memItemLeft" align="right" valign="top">vtkCollection *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf3176138d7d3b7d37d309ed085739bb">GetNodes</a> ()</td></tr>
 <tr class="memdesc:aaf3176138d7d3b7d37d309ed085739bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return collection of nodes.  <br /></td></tr>
 <tr class="separator:aaf3176138d7d3b7d37d309ed085739bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -542,6 +543,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba902bf6abc8cf3182f8f0f727cf8bb0" id="r_aba902bf6abc8cf3182f8f0f727cf8bb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba902bf6abc8cf3182f8f0f727cf8bb0">SetMaximumNumberOfSavedUndoStates</a> (int stackSize)</td></tr>
 <tr class="memdesc:aba902bf6abc8cf3182f8f0f727cf8bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximum number of saved undo states and removes the oldest saved states so that the number of saved states is less than the new maximum.  <br /></td></tr>
 <tr class="separator:aba902bf6abc8cf3182f8f0f727cf8bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597db02f79791007d4680ffe7f77e047" id="r_a597db02f79791007d4680ffe7f77e047"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597db02f79791007d4680ffe7f77e047">SetNodeFactory</a> (<a class="el" href="classvtkMRMLNodeFactory.html">vtkMRMLNodeFactory</a> *factory)</td></tr>
+<tr class="separator:a597db02f79791007d4680ffe7f77e047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56241a360849d785105015ac9afa08e9" id="r_a56241a360849d785105015ac9afa08e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56241a360849d785105015ac9afa08e9">SetReadDataOnLoad</a> (int)</td></tr>
 <tr class="separator:a56241a360849d785105015ac9afa08e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf6593cf662b3cc3784bd2e8800ce91e" id="r_acf6593cf662b3cc3784bd2e8800ce91e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6593cf662b3cc3784bd2e8800ce91e">SetRootDirectory</a> (const char *dir)</td></tr>
@@ -701,6 +704,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a0b2d853f9a89831e52ef12754979856f" id="r_a0b2d853f9a89831e52ef12754979856f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b2d853f9a89831e52ef12754979856f">NodeFactoryEventCallback</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
+<tr class="separator:a0b2d853f9a89831e52ef12754979856f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a668dce962cc3211a3093233d18eebe0f" id="r_a668dce962cc3211a3093233d18eebe0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668dce962cc3211a3093233d18eebe0f">SceneCallback</a> (vtkObject *caller, unsigned long eid, void *clientData, void *callData)</td></tr>
 <tr class="memdesc:a668dce962cc3211a3093233d18eebe0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle vtkMRMLScene::DeleteEvent: clear the scene.  <br /></td></tr>
 <tr class="separator:a668dce962cc3211a3093233d18eebe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -726,6 +731,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ac5ac559db3f0506be0690e9a41aa5ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1426118d7e0cdce8502fc7236661d377" id="r_a1426118d7e0cdce8502fc7236661d377"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1426118d7e0cdce8502fc7236661d377">MaximumNumberOfSavedUndoStates</a></td></tr>
 <tr class="separator:a1426118d7e0cdce8502fc7236661d377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d074e66804ddb90294bb57888addcd" id="r_a95d074e66804ddb90294bb57888addcd"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; <a class="el" href="classvtkMRMLNodeFactory.html">vtkMRMLNodeFactory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95d074e66804ddb90294bb57888addcd">NodeFactory</a></td></tr>
+<tr class="memdesc:a95d074e66804ddb90294bb57888addcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registry of node classes (created on first use if not set explicitly)  <br /></td></tr>
+<tr class="separator:a95d074e66804ddb90294bb57888addcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439bbb5e7d41f79a4c18dcb04ff7ea6e" id="r_a439bbb5e7d41f79a4c18dcb04ff7ea6e"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkCallbackCommand &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439bbb5e7d41f79a4c18dcb04ff7ea6e">NodeFactoryCallback</a></td></tr>
+<tr class="memdesc:a439bbb5e7d41f79a4c18dcb04ff7ea6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forwards NodeClassRegisteredEvent of the node factory to the scene observers.  <br /></td></tr>
+<tr class="separator:a439bbb5e7d41f79a4c18dcb04ff7ea6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a112d4db12ed260f6b84d5ccdfdd2c407" id="r_a112d4db12ed260f6b84d5ccdfdd2c407"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, vtkSmartPointer&lt; <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112d4db12ed260f6b84d5ccdfdd2c407">NodeIDs</a></td></tr>
 <tr class="separator:a112d4db12ed260f6b84d5ccdfdd2c407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2f60f79343185f9cbfa7d2971743fd9" id="r_ad2f60f79343185f9cbfa7d2971743fd9"><td class="memItemLeft" align="right" valign="top">vtkMTimeType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2f60f79343185f9cbfa7d2971743fd9">NodeIDsMTime</a></td></tr>
@@ -742,12 +753,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:abed1edb9cc5913c04547e1e04ee8c163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b4edb8ec95367cdc2b3262c170a0104" id="r_a0b4edb8ec95367cdc2b3262c170a0104"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b4edb8ec95367cdc2b3262c170a0104">ReferencedIDChanges</a></td></tr>
 <tr class="separator:a0b4edb8ec95367cdc2b3262c170a0104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8633ad105e968870ed819f1465956a45" id="r_a8633ad105e968870ed819f1465956a45"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8633ad105e968870ed819f1465956a45">RegisteredAbstractNodeClassTypeDisplayNames</a></td></tr>
-<tr class="separator:a8633ad105e968870ed819f1465956a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41eed4867861c920d80af5ba6a8dba2" id="r_ad41eed4867861c920d80af5ba6a8dba2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad41eed4867861c920d80af5ba6a8dba2">RegisteredNodeClasses</a></td></tr>
-<tr class="separator:ad41eed4867861c920d80af5ba6a8dba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5fc37e6296dcbd6b1e3e5e009f779c1" id="r_ac5fc37e6296dcbd6b1e3e5e009f779c1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5fc37e6296dcbd6b1e3e5e009f779c1">RegisteredNodeTags</a></td></tr>
-<tr class="separator:ac5fc37e6296dcbd6b1e3e5e009f779c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b296d9c5e31b916fbf48f11c19d1b6b" id="r_a4b296d9c5e31b916fbf48f11c19d1b6b"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b296d9c5e31b916fbf48f11c19d1b6b">ReservedIDs</a></td></tr>
 <tr class="separator:a4b296d9c5e31b916fbf48f11c19d1b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47fe57793628df971eb012d75df45f77" id="r_a47fe57793628df971eb012d75df45f77"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47fe57793628df971eb012d75df45f77">RootDirectory</a></td></tr>
@@ -789,7 +794,7 @@ Friends</h2></td></tr>
 <dd>
 vtkCollection </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00055">55</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00056">56</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a36cea6209d89abde6e1f4286e663ea4e" name="a36cea6209d89abde6e1f4286e663ea4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36cea6209d89abde6e1f4286e663ea4e">&#9670;&#160;</a></span>NodeReferencesType</h2>
@@ -811,7 +816,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00876">876</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00886">886</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -827,7 +832,7 @@ vtkCollection </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00065">65</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00066">66</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -883,7 +888,7 @@ vtkCollection </dd></dl>
 <tr><td class="fieldname"><a id="a8ccb4e378bdb987a4e95ac6cc1067c94ae416a8c120ca8ce5d6efd3abc72eb9aa" name="a8ccb4e378bdb987a4e95ac6cc1067c94ae416a8c120ca8ce5d6efd3abc72eb9aa"></a>ProgressRedoEvent&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00698">698</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00707">707</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -928,7 +933,7 @@ vtkCollection </dd></dl>
 <tr><td class="fieldname"><a id="a72f8846a9216214430e05638bcead65fa7c22d2b176cb80ab4127ad1c72e78fe2" name="a72f8846a9216214430e05638bcead65fa7c22d2b176cb80ab4127ad1c72e78fe2"></a>RedoState&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00610">610</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00619">619</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -1560,8 +1565,7 @@ vtkCollection </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Copies all registered nodes into the parameter scene. </p>
+<p>Register node classes of this scene in the parameter scene (tags already registered there are skipped). Node classes registered later are not copied. Use <a class="el" href="#a597db02f79791007d4680ffe7f77e047">SetNodeFactory()</a> to share them instead. </p>
 
 </div>
 </div>
@@ -2261,6 +2265,24 @@ vtkCollection </dd></dl>
 
 </div>
 </div>
+<a id="a5b2ede9e54e60076b33f0300e5a2407c" name="a5b2ede9e54e60076b33f0300e5a2407c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2ede9e54e60076b33f0300e5a2407c">&#9670;&#160;</a></span>GetNodeFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classvtkMRMLNodeFactory.html">vtkMRMLNodeFactory</a> * vtkMRMLScene::GetNodeFactory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the node factory, which stores the registered node classes. A factory with the MRML core node classes is created on first use. </p>
+
+</div>
+</div>
 <a id="a04095e8f01afdc850098528d497d82f4" name="a04095e8f01afdc850098528d497d82f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04095e8f01afdc850098528d497d82f4">&#9670;&#160;</a></span>GetNodeReferenceIDsFromUndoStack()</h2>
 
@@ -2604,7 +2626,7 @@ vtkCollection </dd></dl>
 
 <p>returns number of redo steps in the history buffer </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00398">398</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00407">407</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -2670,7 +2692,7 @@ vtkCollection </dd></dl>
 
 <p>returns number of undo steps in the history buffer </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00395">395</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00404">404</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3107,7 +3129,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00379">379</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00388">388</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3415,7 +3437,7 @@ vtkCollection </dd></dl>
 
 <p>Return true if the scene is in BatchProcess state, false otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01072">1072</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01084">1084</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3444,7 +3466,7 @@ vtkCollection </dd></dl>
 
 <p>Return true if the scene is in Close state, false otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01078">1078</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01090">1090</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3490,7 +3512,7 @@ vtkCollection </dd></dl>
 
 <p>Return true if the scene is in Import state, false otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01084">1084</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01096">1096</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3607,7 +3629,7 @@ vtkCollection </dd></dl>
 
 <p>Return true if the scene is in Redo state (in the process of redoing node changes), false otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01102">1102</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01114">1114</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3653,7 +3675,7 @@ vtkCollection </dd></dl>
 
 <p>Return true if the scene is in Restore state, false otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01090">1090</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01102">1102</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3707,7 +3729,7 @@ vtkCollection </dd></dl>
 
 <p>Return true if the scene is in Undo state (in the process of undoing node changes), false otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01096">1096</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01108">1108</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3759,7 +3781,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00239">239</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00248">248</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -3780,6 +3802,45 @@ vtkCollection </dd></dl>
 
 <p>Invoke a <a class="el" href="#a8ccb4e378bdb987a4e95ac6cc1067c94a883501afca47bd5809645023742ddcd3">vtkMRMLScene::NodeAddedEvent</a>. </p>
 <p>This function is used after adding a bunch of nodes with <a class="el" href="#af4115f7e6283ca1f449ea862ed8c6064">AddNodeNoNotify()</a> </p>
+
+</div>
+</div>
+<a id="a0b2d853f9a89831e52ef12754979856f" name="a0b2d853f9a89831e52ef12754979856f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2d853f9a89831e52ef12754979856f">&#9670;&#160;</a></span>NodeFactoryEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void vtkMRMLScene::NodeFactoryEventCallback </td>
+          <td>(</td>
+          <td class="paramtype">vtkObject *</td>          <td class="paramname"><span class="paramname"><em>caller</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em>eid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>clientData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>callData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -4847,6 +4908,24 @@ vtkCollection </dd></dl>
 
 </div>
 </div>
+<a id="a597db02f79791007d4680ffe7f77e047" name="a597db02f79791007d4680ffe7f77e047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597db02f79791007d4680ffe7f77e047">&#9670;&#160;</a></span>SetNodeFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLScene::SetNodeFactory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkMRMLNodeFactory.html">vtkMRMLNodeFactory</a> *</td>          <td class="paramname"><span class="paramname"><em>factory</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the node factory. Scenes that share a factory share all registered node classes. Sharing is much faster than <a class="el" href="#a0bbb0f38d8e37cc320630038a987d96d">CopyRegisteredNodesToScene()</a> (e.g., for internal scenes in sequence nodes). </p>
+
+</div>
+</div>
 <a id="a56241a360849d785105015ac9afa08e9" name="a56241a360849d785105015ac9afa08e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56241a360849d785105015ac9afa08e9">&#9670;&#160;</a></span>SetReadDataOnLoad()</h2>
 
@@ -5034,7 +5113,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00380">380</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00389">389</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5061,7 +5140,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00378">378</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00387">387</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5090,7 +5169,7 @@ vtkCollection </dd></dl>
 
 <p>Set undo on/off. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00377">377</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00386">386</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5161,7 +5240,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00070">70</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00071">71</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5248,8 +5327,8 @@ vtkCollection </dd></dl>
 <div class="line"><span class="comment">// doesn&#39;t fire anything</span></div>
 <div class="line">scene-&gt;EndState(<a class="code hl_enumvalue" href="#a72f8846a9216214430e05638bcead65fa31b9348237944fc556efd4be3ed1d57e">vtkMRMLScene::ImportState</a>);</div>
 <div class="line"><span class="comment">// fires: EndImportEvent, StartBatchProcessEvent</span></div>
-<div class="ttc" id="aclassvtkMRMLScene_html_a72f8846a9216214430e05638bcead65fa306aba6622a46f02ac12a8b66da9cd3a"><div class="ttname"><a href="#a72f8846a9216214430e05638bcead65fa306aba6622a46f02ac12a8b66da9cd3a">vtkMRMLScene::RestoreState</a></div><div class="ttdeci">@ RestoreState</div><div class="ttdef"><b>Definition</b> <a href="vtkMRMLScene_8h_source.html#l00615">vtkMRMLScene.h:615</a></div></div>
-<div class="ttc" id="aclassvtkMRMLScene_html_a72f8846a9216214430e05638bcead65fa31b9348237944fc556efd4be3ed1d57e"><div class="ttname"><a href="#a72f8846a9216214430e05638bcead65fa31b9348237944fc556efd4be3ed1d57e">vtkMRMLScene::ImportState</a></div><div class="ttdeci">@ ImportState</div><div class="ttdef"><b>Definition</b> <a href="vtkMRMLScene_8h_source.html#l00614">vtkMRMLScene.h:614</a></div></div>
+<div class="ttc" id="aclassvtkMRMLScene_html_a72f8846a9216214430e05638bcead65fa306aba6622a46f02ac12a8b66da9cd3a"><div class="ttname"><a href="#a72f8846a9216214430e05638bcead65fa306aba6622a46f02ac12a8b66da9cd3a">vtkMRMLScene::RestoreState</a></div><div class="ttdeci">@ RestoreState</div><div class="ttdef"><b>Definition</b> <a href="vtkMRMLScene_8h_source.html#l00624">vtkMRMLScene.h:624</a></div></div>
+<div class="ttc" id="aclassvtkMRMLScene_html_a72f8846a9216214430e05638bcead65fa31b9348237944fc556efd4be3ed1d57e"><div class="ttname"><a href="#a72f8846a9216214430e05638bcead65fa31b9348237944fc556efd4be3ed1d57e">vtkMRMLScene::ImportState</a></div><div class="ttdeci">@ ImportState</div><div class="ttdef"><b>Definition</b> <a href="vtkMRMLScene_8h_source.html#l00623">vtkMRMLScene.h:623</a></div></div>
 </div><!-- fragment --><p><a class="el" href="#a137ce789a7c79550d4e2b648cf1632a8" title="Flag the scene as being in a state mode.">StartState()</a> internally pushes the state into a stack.</p>
 <p>Following VTK conventions, the state start event is invoked without call data. The anticipatedMaxProgress parameter is not used, it is only kept for backward compatibility.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#a1fded3ce9fc4b198a1be43166cfa4b5e" title="Unflag the scene as being in a state mode.">EndState</a>, <a class="el" href="#a00c9a1c5d41616bb4917a0a4d614e0ef" title="Returns the current state of the scene.">GetStates</a> </dd></dl>
@@ -5530,7 +5609,7 @@ vtkCollection </dd></dl>
 </div><div class="memdoc">
 <p>make the <a class="el" href="classvtkMRMLSceneViewNode.html">vtkMRMLSceneViewNode</a> a friend since it has internal <a class="el" href="classvtkMRMLScene.html" title="A set of MRML Nodes that supports serialization and undo/redo.">vtkMRMLScene</a> so that it can call protected methods, for example <a class="el" href="#a6fcbfcd5b458db25f798d76a1ff61792" title="Synchronize NodeIDs map used to speedup GetByID() method with the Nodes collection.">UpdateNodeIDs()</a> but that's the only class that is allowed to do so </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00061">61</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00062">62</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5557,7 +5636,7 @@ vtkCollection </dd></dl>
 
 <p>data i/o handling members </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01003">1003</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01014">1014</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5581,7 +5660,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01004">1004</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01015">1015</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5605,7 +5684,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01034">1034</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01046">1046</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5629,7 +5708,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01054">1054</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01066">1066</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5653,7 +5732,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01049">1049</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01061">1061</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5677,7 +5756,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01052">1052</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01064">1064</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5701,7 +5780,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01051">1051</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01063">1063</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5725,7 +5804,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01038">1038</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01050">1050</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5749,7 +5828,59 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01010">1010</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01021">1021</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+
+</div>
+</div>
+<a id="a95d074e66804ddb90294bb57888addcd" name="a95d074e66804ddb90294bb57888addcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d074e66804ddb90294bb57888addcd">&#9670;&#160;</a></span>NodeFactory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;<a class="el" href="classvtkMRMLNodeFactory.html">vtkMRMLNodeFactory</a>&gt; vtkMRMLScene::NodeFactory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Registry of node classes (created on first use if not set explicitly) </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01035">1035</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+
+</div>
+</div>
+<a id="a439bbb5e7d41f79a4c18dcb04ff7ea6e" name="a439bbb5e7d41f79a4c18dcb04ff7ea6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a439bbb5e7d41f79a4c18dcb04ff7ea6e">&#9670;&#160;</a></span>NodeFactoryCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;vtkCallbackCommand&gt; vtkMRMLScene::NodeFactoryCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Forwards NodeClassRegisteredEvent of the node factory to the scene observers. </p>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01037">1037</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5773,7 +5904,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01029">1029</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01041">1041</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5797,7 +5928,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01044">1044</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01056">1056</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5821,7 +5952,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01027">1027</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01039">1039</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5845,7 +5976,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l00997">997</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01008">1008</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5869,7 +6000,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01056">1056</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01068">1068</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5893,7 +6024,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01042">1042</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01054">1054</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5917,7 +6048,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01014">1014</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01025">1025</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -5941,79 +6072,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01028">1028</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
-
-</div>
-</div>
-<a id="a8633ad105e968870ed819f1465956a45" name="a8633ad105e968870ed819f1465956a45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8633ad105e968870ed819f1465956a45">&#9670;&#160;</a></span>RegisteredAbstractNodeClassTypeDisplayNames</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, std::string&gt; vtkMRMLScene::RegisteredAbstractNodeClassTypeDisplayNames</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01025">1025</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
-
-</div>
-</div>
-<a id="ad41eed4867861c920d80af5ba6a8dba2" name="ad41eed4867861c920d80af5ba6a8dba2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad41eed4867861c920d80af5ba6a8dba2">&#9670;&#160;</a></span>RegisteredNodeClasses</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classvtkMRMLNode.html">vtkMRMLNode</a>*&gt; vtkMRMLScene::RegisteredNodeClasses</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01023">1023</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
-
-</div>
-</div>
-<a id="ac5fc37e6296dcbd6b1e3e5e009f779c1" name="ac5fc37e6296dcbd6b1e3e5e009f779c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5fc37e6296dcbd6b1e3e5e009f779c1">&#9670;&#160;</a></span>RegisteredNodeTags</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; vtkMRMLScene::RegisteredNodeTags</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01024">1024</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01040">1040</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6037,7 +6096,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01021">1021</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01032">1032</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6061,7 +6120,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01017">1017</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01028">1028</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6085,7 +6144,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01040">1040</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01052">1052</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6109,7 +6168,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01036">1036</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01048">1048</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6133,7 +6192,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01008">1008</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01019">1019</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6159,7 +6218,7 @@ vtkCollection </dd></dl>
 
 <p>subject hierarchy node </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01000">1000</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01011">1011</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6183,7 +6242,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01011">1011</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01022">1022</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6207,7 +6266,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01013">1013</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01024">1024</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6231,7 +6290,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01019">1019</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01030">1030</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6255,7 +6314,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01020">1020</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01031">1031</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6279,7 +6338,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01005">1005</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01016">1016</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6303,7 +6362,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01016">1016</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01027">1027</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6327,7 +6386,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01006">1006</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01017">1017</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6351,7 +6410,7 @@ vtkCollection </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01048">1048</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScene_8h_source.html#l01060">1060</a> of file <a class="el" href="vtkMRMLScene_8h_source.html">vtkMRMLScene.h</a>.</p>
 
 </div>
 </div>
@@ -6361,7 +6420,7 @@ vtkCollection </dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2026 23:57:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Oct 14 2026 04:09:26 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
