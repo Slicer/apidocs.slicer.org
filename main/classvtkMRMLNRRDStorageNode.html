@@ -225,6 +225,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ce06ba0f598bfaf3ee59dd64d0a5171" id="r_a1ce06ba0f598bfaf3ee59dd64d0a5171"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ce06ba0f598bfaf3ee59dd64d0a5171">GetNodeTagName</a> () override</td></tr>
 <tr class="memdesc:a1ce06ba0f598bfaf3ee59dd64d0a5171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get node XML tag name (like Storage, Model)  <br /></td></tr>
 <tr class="separator:a1ce06ba0f598bfaf3ee59dd64d0a5171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd125976e989ca2ca6b38ff4e5cd839a" id="r_abd125976e989ca2ca6b38ff4e5cd839a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd125976e989ca2ca6b38ff4e5cd839a">GetReadOnlyDiffusionWeightedVolumes</a> ()</td></tr>
+<tr class="separator:abd125976e989ca2ca6b38ff4e5cd839a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af45b23a7752b3b9f3a5aec6675066eb1" id="r_af45b23a7752b3b9f3a5aec6675066eb1"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af45b23a7752b3b9f3a5aec6675066eb1">IsA</a> (const char *type)</td></tr>
 <tr class="separator:af45b23a7752b3b9f3a5aec6675066eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01dba78aba1826f2fd1038d78baca6d4" id="r_a01dba78aba1826f2fd1038d78baca6d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01dba78aba1826f2fd1038d78baca6d4">ParseDiffusionInformation</a> (<a class="el" href="classvtkTeemNRRDReader.html">vtkTeemNRRDReader</a> *reader, vtkDoubleArray *grad, vtkDoubleArray *bvalues)</td></tr>
@@ -232,11 +234,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a01dba78aba1826f2fd1038d78baca6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8b7ce21553ad234a0b95086c7461104" id="r_aa8b7ce21553ad234a0b95086c7461104"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8b7ce21553ad234a0b95086c7461104">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:aa8b7ce21553ad234a0b95086c7461104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc45451831995d5c837c1101760dfe1" id="r_a4fc45451831995d5c837c1101760dfe1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc45451831995d5c837c1101760dfe1">ReadOnlyDiffusionWeightedVolumesOff</a> ()</td></tr>
+<tr class="separator:a4fc45451831995d5c837c1101760dfe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7801840143b9ba4062a47760ad0084d3" id="r_a7801840143b9ba4062a47760ad0084d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7801840143b9ba4062a47760ad0084d3">ReadOnlyDiffusionWeightedVolumesOn</a> ()</td></tr>
+<tr class="separator:a7801840143b9ba4062a47760ad0084d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a989483b0b76279afcf4ffa627ab55569" id="r_a989483b0b76279afcf4ffa627ab55569"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a989483b0b76279afcf4ffa627ab55569">ReadXMLAttributes</a> (const char **atts) override</td></tr>
 <tr class="memdesc:a989483b0b76279afcf4ffa627ab55569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read node attributes from XML file.  <br /></td></tr>
 <tr class="separator:a989483b0b76279afcf4ffa627ab55569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47aa71a1233b8b05119a03f0100f5030" id="r_a47aa71a1233b8b05119a03f0100f5030"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47aa71a1233b8b05119a03f0100f5030">SetCenterImage</a> (int)</td></tr>
 <tr class="separator:a47aa71a1233b8b05119a03f0100f5030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add52e9b23470505a72a023c3684a0212" id="r_add52e9b23470505a72a023c3684a0212"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add52e9b23470505a72a023c3684a0212">SetReadOnlyDiffusionWeightedVolumes</a> (bool)</td></tr>
+<tr class="separator:add52e9b23470505a72a023c3684a0212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a048d481279ced01a2a21aa6317338502" id="r_a048d481279ced01a2a21aa6317338502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a048d481279ced01a2a21aa6317338502">WriteXML</a> (ostream &amp;of, int indent) override</td></tr>
 <tr class="memdesc:a048d481279ced01a2a21aa6317338502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write this node's information to a MRML file in XML format.  <br /></td></tr>
 <tr class="separator:a048d481279ced01a2a21aa6317338502"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -729,6 +737,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a940bcfca30f7374683f007eb6421b75e" id="r_a940bcfca30f7374683f007eb6421b75e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a940bcfca30f7374683f007eb6421b75e">HasDiffusionWeightedMetadata</a> (<a class="el" href="classvtkTeemNRRDReader.html">vtkTeemNRRDReader</a> *reader)</td></tr>
+<tr class="memdesc:a940bcfca30f7374683f007eb6421b75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the NRRD file header (read by the reader) contains diffusion weighted MRI metadata.  <br /></td></tr>
+<tr class="separator:a940bcfca30f7374683f007eb6421b75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5044c43c3255f40e32f622bfa2972127" id="r_a5044c43c3255f40e32f622bfa2972127"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5044c43c3255f40e32f622bfa2972127">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:a5044c43c3255f40e32f622bfa2972127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2eb5339c913d42e4bbd48f886cbb12a" id="r_ae2eb5339c913d42e4bbd48f886cbb12a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkMRMLNRRDStorageNode.html">vtkMRMLNRRDStorageNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2eb5339c913d42e4bbd48f886cbb12a">New</a> ()</td></tr>
@@ -852,6 +863,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:acd12f52b9200baa3bc791f09dafd1c01" id="r_acd12f52b9200baa3bc791f09dafd1c01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd12f52b9200baa3bc791f09dafd1c01">CenterImage</a></td></tr>
 <tr class="separator:acd12f52b9200baa3bc791f09dafd1c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0501ed2c469c1689f0b8b78d6b557ea6" id="r_a0501ed2c469c1689f0b8b78d6b557ea6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0501ed2c469c1689f0b8b78d6b557ea6">ReadOnlyDiffusionWeightedVolumes</a> { false }</td></tr>
+<tr class="separator:a0501ed2c469c1689f0b8b78d6b557ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classvtkMRMLStorageNode"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classvtkMRMLStorageNode')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classvtkMRMLStorageNode.html">vtkMRMLStorageNode</a></td></tr>
 <tr class="memitem:a618bf9e72ac36ec75cc54ea9519a7b07 inherit pro_attribs_classvtkMRMLStorageNode" id="r_a618bf9e72ac36ec75cc54ea9519a7b07"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvtkMRMLStorageNode.html#a618bf9e72ac36ec75cc54ea9519a7b07">CompressionParameter</a></td></tr>
 <tr class="separator:a618bf9e72ac36ec75cc54ea9519a7b07 inherit pro_attribs_classvtkMRMLStorageNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1248,7 +1261,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Compression parameter corresponding to minimum compression (fast) </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00070">70</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00084">84</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1290,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Compression parameter corresponding to maximum compression (slow) </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00075">75</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00089">89</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1306,7 +1319,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Compression parameter corresponding to normal compression. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00073">73</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00087">87</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1365,6 +1378,59 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="classvtkMRMLStorageNode.html#a0a480c89d4af77d2ada0b69a0fdeb49e">vtkMRMLStorageNode</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00049">49</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
+
+</div>
+</div>
+<a id="abd125976e989ca2ca6b38ff4e5cd839a" name="abd125976e989ca2ca6b38ff4e5cd839a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd125976e989ca2ca6b38ff4e5cd839a">&#9670;&#160;</a></span>GetReadOnlyDiffusionWeightedVolumes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool vtkMRMLNRRDStorageNode::GetReadOnlyDiffusionWeightedVolumes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Only read files that contain diffusion weighted MRI (DWI) metadata (modality: DWMRI or DWMRI_... fields). Disabled by default. It is enabled when the application looks for a reader for a new file and attempts to read it as a vector volume, because <a class="el" href="classvtkMRMLVolumeArchetypeStorageNode.html" title="MRML node for representing a volume storage.">vtkMRMLVolumeArchetypeStorageNode</a> reads other vector volumes correctly (including spatial vector, color, and list voxel types). It must remain disabled for reading scenes that store vector volumes using this storage node. </p>
+
+</div>
+</div>
+<a id="a940bcfca30f7374683f007eb6421b75e" name="a940bcfca30f7374683f007eb6421b75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a940bcfca30f7374683f007eb6421b75e">&#9670;&#160;</a></span>HasDiffusionWeightedMetadata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool vtkMRMLNRRDStorageNode::HasDiffusionWeightedMetadata </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkTeemNRRDReader.html">vtkTeemNRRDReader</a> *</td>          <td class="paramname"><span class="paramname"><em>reader</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the NRRD file header (read by the reader) contains diffusion weighted MRI metadata. </p>
 
 </div>
 </div>
@@ -1616,6 +1682,56 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a4fc45451831995d5c837c1101760dfe1" name="a4fc45451831995d5c837c1101760dfe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc45451831995d5c837c1101760dfe1">&#9670;&#160;</a></span>ReadOnlyDiffusionWeightedVolumesOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLNRRDStorageNode::ReadOnlyDiffusionWeightedVolumesOff </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7801840143b9ba4062a47760ad0084d3" name="a7801840143b9ba4062a47760ad0084d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7801840143b9ba4062a47760ad0084d3">&#9670;&#160;</a></span>ReadOnlyDiffusionWeightedVolumesOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLNRRDStorageNode::ReadOnlyDiffusionWeightedVolumesOn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a989483b0b76279afcf4ffa627ab55569" name="a989483b0b76279afcf4ffa627ab55569"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a989483b0b76279afcf4ffa627ab55569">&#9670;&#160;</a></span>ReadXMLAttributes()</h2>
 
@@ -1683,6 +1799,31 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">virtual void vtkMRMLNRRDStorageNode::SetCenterImage </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add52e9b23470505a72a023c3684a0212" name="add52e9b23470505a72a023c3684a0212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add52e9b23470505a72a023c3684a0212">&#9670;&#160;</a></span>SetReadOnlyDiffusionWeightedVolumes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLNRRDStorageNode::SetReadOnlyDiffusionWeightedVolumes </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1778,7 +1919,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00098">98</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00112">112</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a0501ed2c469c1689f0b8b78d6b557ea6" name="a0501ed2c469c1689f0b8b78d6b557ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0501ed2c469c1689f0b8b78d6b557ea6">&#9670;&#160;</a></span>ReadOnlyDiffusionWeightedVolumes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLNRRDStorageNode::ReadOnlyDiffusionWeightedVolumes { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html#l00113">113</a> of file <a class="el" href="vtkMRMLNRRDStorageNode_8h_source.html">vtkMRMLNRRDStorageNode.h</a>.</p>
 
 </div>
 </div>
@@ -1788,7 +1953,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 23 2026 13:31:29 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Fri Oct 23 2026 15:48:42 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
