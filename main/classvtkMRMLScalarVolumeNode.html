@@ -260,10 +260,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf3e028a6cbc06345a21459f25b6d9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9b923653e58884a4ec718db77224cb" id="r_a5d9b923653e58884a4ec718db77224cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9b923653e58884a4ec718db77224cb">SetVoxelValueQuantity</a> (<a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *)</td></tr>
 <tr class="separator:a5d9b923653e58884a4ec718db77224cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9c262b57f43c17e01182a300ffd87c0" id="r_af9c262b57f43c17e01182a300ffd87c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9c262b57f43c17e01182a300ffd87c0">SetVoxelValueQuantityFromLabel</a> (const std::string &amp;label)</td></tr>
+<tr class="separator:af9c262b57f43c17e01182a300ffd87c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a729db11b40d1e4202b29ae69d643b075" id="r_a729db11b40d1e4202b29ae69d643b075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a729db11b40d1e4202b29ae69d643b075">SetVoxelValueUnits</a> (<a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *)</td></tr>
 <tr class="separator:a729db11b40d1e4202b29ae69d643b075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba51a80a6e59cca005e2c1dcfbbbedc5" id="r_aba51a80a6e59cca005e2c1dcfbbbedc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba51a80a6e59cca005e2c1dcfbbbedc5">vtkMRMLCopyContentDefaultMacro</a> (<a class="el" href="classvtkMRMLScalarVolumeNode.html">vtkMRMLScalarVolumeNode</a>)</td></tr>
-<tr class="separator:aba51a80a6e59cca005e2c1dcfbbbedc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e9a60d39e3e36743ee52ba33c96e790" id="r_a5e9a60d39e3e36743ee52ba33c96e790"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9a60d39e3e36743ee52ba33c96e790">vtkMRMLCopyContentMacro</a> (<a class="el" href="classvtkMRMLScalarVolumeNode.html">vtkMRMLScalarVolumeNode</a>)</td></tr>
+<tr class="separator:a5e9a60d39e3e36743ee52ba33c96e790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038c3430890fcf37cbccbb05dc673b5d" id="r_a038c3430890fcf37cbccbb05dc673b5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a038c3430890fcf37cbccbb05dc673b5d">WriteXML</a> (ostream &amp;of, int indent) override</td></tr>
 <tr class="memdesc:a038c3430890fcf37cbccbb05dc673b5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write this node's information to a MRML file in XML format.  <br /></td></tr>
 <tr class="separator:a038c3430890fcf37cbccbb05dc673b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -800,6 +802,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aecacc858c39553b54b0e66d13bc83607" id="r_aecacc858c39553b54b0e66d13bc83607"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecacc858c39553b54b0e66d13bc83607">CreateNoneNode</a> (<a class="el" href="classvtkMRMLScene.html">vtkMRMLScene</a> *scene)</td></tr>
 <tr class="memdesc:aecacc858c39553b54b0e66d13bc83607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a 'None' volume node with blank image data.  <br /></td></tr>
 <tr class="separator:aecacc858c39553b54b0e66d13bc83607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70120886e0917949e4e7f7f59744c4d" id="r_ab70120886e0917949e4e7f7f59744c4d"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab70120886e0917949e4e7f7f59744c4d">GetVoxelValueQuantityLabel</a> (<a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *quantity)</td></tr>
+<tr class="separator:ab70120886e0917949e4e7f7f59744c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2298c16ddfc57763e61169b406b0cc24" id="r_a2298c16ddfc57763e61169b406b0cc24"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2298c16ddfc57763e61169b406b0cc24">IsTypeOf</a> (const char *type)</td></tr>
 <tr class="separator:a2298c16ddfc57763e61169b406b0cc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a6638f49a66882de58682145fc83943" id="r_a3a6638f49a66882de58682145fc83943"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvtkMRMLScalarVolumeNode.html">vtkMRMLScalarVolumeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6638f49a66882de58682145fc83943">New</a> ()</td></tr>
@@ -1362,7 +1366,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classvtkMRMLStreamingVolumeNode.html#a761f7346d55e19a3fdaf20cbf91cd57a">vtkMRMLStreamingVolumeNode</a>, <a class="el" href="classvtkMRMLTensorVolumeNode.html#a430bb00e8857a75b37ff6d7712456b8e">vtkMRMLTensorVolumeNode</a>, and <a class="el" href="classvtkMRMLVectorVolumeNode.html#a5cf5b8acee55235425d210fbeb76d534">vtkMRMLVectorVolumeNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html#l00057">57</a> of file <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html">vtkMRMLScalarVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html#l00058">58</a> of file <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html">vtkMRMLScalarVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -1415,6 +1419,32 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab70120886e0917949e4e7f7f59744c4d" name="ab70120886e0917949e4e7f7f59744c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70120886e0917949e4e7f7f59744c4d">&#9670;&#160;</a></span>GetVoxelValueQuantityLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string vtkMRMLScalarVolumeNode::GetVoxelValueQuantityLabel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classvtkCodedEntry.html">vtkCodedEntry</a> *</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Short text that describes the voxel value quantity in files (for example "velocity"). It is the code meaning of the quantity (or the code value if the meaning is not specified), empty if quantity is not specified. It is stored in the "labels" field of the pixel axis in NRRD files. </p>
 
 </div>
 </div>
@@ -1650,6 +1680,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af9c262b57f43c17e01182a300ffd87c0" name="af9c262b57f43c17e01182a300ffd87c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9c262b57f43c17e01182a300ffd87c0">&#9670;&#160;</a></span>SetVoxelValueQuantityFromLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLScalarVolumeNode::SetVoxelValueQuantityFromLabel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>label</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set voxel value quantity from a text label that was read from a file (for example "velocity"). The label is used as both code value and code meaning, without a coding scheme designator. </p>
+
+</div>
+</div>
 <a id="a729db11b40d1e4202b29ae69d643b075" name="a729db11b40d1e4202b29ae69d643b075"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a729db11b40d1e4202b29ae69d643b075">&#9670;&#160;</a></span>SetVoxelValueUnits()</h2>
 
@@ -1668,21 +1716,21 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aba51a80a6e59cca005e2c1dcfbbbedc5" name="aba51a80a6e59cca005e2c1dcfbbbedc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba51a80a6e59cca005e2c1dcfbbbedc5">&#9670;&#160;</a></span>vtkMRMLCopyContentDefaultMacro()</h2>
+<a id="a5e9a60d39e3e36743ee52ba33c96e790" name="a5e9a60d39e3e36743ee52ba33c96e790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e9a60d39e3e36743ee52ba33c96e790">&#9670;&#160;</a></span>vtkMRMLCopyContentMacro()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vtkMRMLScalarVolumeNode::vtkMRMLCopyContentDefaultMacro </td>
+          <td class="memname">vtkMRMLScalarVolumeNode::vtkMRMLCopyContentMacro </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classvtkMRMLScalarVolumeNode.html">vtkMRMLScalarVolumeNode</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Copy node content (excludes basic data, such as name and node references). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLNode.html#a94940453f557fbc3a59f65bd37311cef" title="Copy node contents from another node of the same type. Does not copy node ID, Scene,...">vtkMRMLNode::CopyContent</a> </dd></dl>
+<p>Copy node content (excludes basic data, such as name and node references). Voxel value quantity and units are copied, too. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classvtkMRMLNode.html#a94940453f557fbc3a59f65bd37311cef" title="Copy node contents from another node of the same type. Does not copy node ID, Scene,...">vtkMRMLNode::CopyContent</a> </dd></dl>
 
 </div>
 </div>
@@ -1742,7 +1790,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html#l00093">93</a> of file <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html">vtkMRMLScalarVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html#l00103">103</a> of file <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html">vtkMRMLScalarVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -1766,7 +1814,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html#l00095">95</a> of file <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html">vtkMRMLScalarVolumeNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html#l00105">105</a> of file <a class="el" href="vtkMRMLScalarVolumeNode_8h_source.html">vtkMRMLScalarVolumeNode.h</a>.</p>
 
 </div>
 </div>
@@ -1776,7 +1824,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 23 2026 19:04:01 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Fri Oct 23 2026 19:37:02 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>

@@ -161,6 +161,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acaa9059923ec65bb4c92e194d61d3c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfc730e652bc2f61bc62ff10a38d828b" id="r_acfc730e652bc2f61bc62ff10a38d828b"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc730e652bc2f61bc62ff10a38d828b">GetSequenceAxisUnit</a> ()</td></tr>
 <tr class="separator:acfc730e652bc2f61bc62ff10a38d828b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d8a61c6ac7ca5ef2d19ff7f1983f7b" id="r_a26d8a61c6ac7ca5ef2d19ff7f1983f7b"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26d8a61c6ac7ca5ef2d19ff7f1983f7b">GetVoxelValueLabel</a> ()</td></tr>
+<tr class="separator:a26d8a61c6ac7ca5ef2d19ff7f1983f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cb930c3f9bb1515e48100b3cf1d019" id="r_ab1cb930c3f9bb1515e48100b3cf1d019"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1cb930c3f9bb1515e48100b3cf1d019">GetVoxelValueUnit</a> ()</td></tr>
+<tr class="separator:ab1cb930c3f9bb1515e48100b3cf1d019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a729f34d3f2bcb4b7fbdd78a1dd544b03" id="r_a729f34d3f2bcb4b7fbdd78a1dd544b03"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a729f34d3f2bcb4b7fbdd78a1dd544b03">GetVoxelVectorType</a> ()</td></tr>
 <tr class="separator:a729f34d3f2bcb4b7fbdd78a1dd544b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9448513cb3c284b3cf228713499369f" id="r_aa9448513cb3c284b3cf228713499369f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9448513cb3c284b3cf228713499369f">IsA</a> (const char *type)</td></tr>
@@ -230,6 +234,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a581d551adb8162984a49c4d0fc7ed9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a993600b96c0d9c6d80bdd05aaa94a673" id="r_a993600b96c0d9c6d80bdd05aaa94a673"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993600b96c0d9c6d80bdd05aaa94a673">SequenceAxisUnit</a></td></tr>
 <tr class="separator:a993600b96c0d9c6d80bdd05aaa94a673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180e03f321ba4028fe7fe66365d79133" id="r_a180e03f321ba4028fe7fe66365d79133"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180e03f321ba4028fe7fe66365d79133">VoxelValueLabel</a></td></tr>
+<tr class="separator:a180e03f321ba4028fe7fe66365d79133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42213f7da6599faa0d4656038e467e48" id="r_a42213f7da6599faa0d4656038e467e48"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42213f7da6599faa0d4656038e467e48">VoxelValueUnit</a></td></tr>
+<tr class="separator:a42213f7da6599faa0d4656038e467e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b0fa1860cfba0fafe5598151651b840" id="r_a1b0fa1860cfba0fafe5598151651b840"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b0fa1860cfba0fafe5598151651b840">VoxelVectorType</a> { <a class="el" href="classvtkITKImageWriter.html#a9af93486aafc39d03bf4d908b1339ef6a95dc0a1de08dc5d0580e7758bbf4413e">vtkITKImageWriter::VoxelVectorTypeUndefined</a> }</td></tr>
 <tr class="separator:a1b0fa1860cfba0fafe5598151651b840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -668,6 +676,58 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a26d8a61c6ac7ca5ef2d19ff7f1983f7b" name="a26d8a61c6ac7ca5ef2d19ff7f1983f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d8a61c6ac7ca5ef2d19ff7f1983f7b">&#9670;&#160;</a></span>GetVoxelValueLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string vtkITKImageSequenceReader::GetVoxelValueLabel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Quantity of the voxel values (for example "velocity"), read from the "labels" field of the pixel (component) axis of NRRD files. Empty if the file does not specify it (scalar images have no pixel axis, so they cannot store it). </p>
+
+</div>
+</div>
+<a id="ab1cb930c3f9bb1515e48100b3cf1d019" name="ab1cb930c3f9bb1515e48100b3cf1d019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1cb930c3f9bb1515e48100b3cf1d019">&#9670;&#160;</a></span>GetVoxelValueUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string vtkITKImageSequenceReader::GetVoxelValueUnit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unit of the voxel values, read from the "units" field of the pixel (component) axis of NRRD files. Empty if the file does not specify it (scalar images have no pixel axis, so they cannot store it). </p>
+
+</div>
+</div>
 <a id="a729f34d3f2bcb4b7fbdd78a1dd544b03" name="a729f34d3f2bcb4b7fbdd78a1dd544b03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a729f34d3f2bcb4b7fbdd78a1dd544b03">&#9670;&#160;</a></span>GetVoxelVectorType()</h2>
 
@@ -1057,7 +1117,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00120">120</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00128">128</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1141,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00122">122</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00130">130</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1105,7 +1165,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00128">128</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00140">140</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1131,7 +1191,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Current frame index that is extracted from the sequence image to the output port. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00106">106</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00114">114</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1157,7 +1217,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Key/value pairs read from the header. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00117">117</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00125">125</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +1243,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Number of frames in recently read image. Set in first Update. Read only. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00109">109</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00117">117</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1209,7 +1269,7 @@ Protected Attributes</h2></td></tr>
 
 <p>RAS to IJK matrix. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00112">112</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00120">120</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1233,7 +1293,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00124">124</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00132">132</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1317,55 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00126">126</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00134">134</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+
+</div>
+</div>
+<a id="a180e03f321ba4028fe7fe66365d79133" name="a180e03f321ba4028fe7fe66365d79133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180e03f321ba4028fe7fe66365d79133">&#9670;&#160;</a></span>VoxelValueLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string vtkITKImageSequenceReader::VoxelValueLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00138">138</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+
+</div>
+</div>
+<a id="a42213f7da6599faa0d4656038e467e48" name="a42213f7da6599faa0d4656038e467e48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42213f7da6599faa0d4656038e467e48">&#9670;&#160;</a></span>VoxelValueUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string vtkITKImageSequenceReader::VoxelValueUnit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00136">136</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1281,7 +1389,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00114">114</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkITKImageSequenceReader_8h_source.html#l00122">122</a> of file <a class="el" href="vtkITKImageSequenceReader_8h_source.html">vtkITKImageSequenceReader.h</a>.</p>
 
 </div>
 </div>
@@ -1291,7 +1399,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 23 2026 19:03:59 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Fri Oct 23 2026 19:37:01 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
