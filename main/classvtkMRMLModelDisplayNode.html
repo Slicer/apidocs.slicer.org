@@ -272,6 +272,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4d84fa9c06ca0f3e8dbec3b45d99b917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd3b730916021cdc1a293d5193e7e1f" id="r_adfd3b730916021cdc1a293d5193e7e1f"><td class="memItemLeft" align="right" valign="top">virtual vtkUnstructuredGrid *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfd3b730916021cdc1a293d5193e7e1f">GetInputUnstructuredGrid</a> ()</td></tr>
 <tr class="separator:adfd3b730916021cdc1a293d5193e7e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceacad28891044fc3598bba2e01d4ba7" id="r_aceacad28891044fc3598bba2e01d4ba7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceacad28891044fc3598bba2e01d4ba7">GetMergeCoincidentPoints</a> ()</td></tr>
+<tr class="separator:aceacad28891044fc3598bba2e01d4ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab955432280bf0a86704a8265789c9b44" id="r_ab955432280bf0a86704a8265789c9b44"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab955432280bf0a86704a8265789c9b44">GetNodeTagName</a> () override</td></tr>
 <tr class="memdesc:ab955432280bf0a86704a8265789c9b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get node XML tag name (like Volume, Model)  <br /></td></tr>
 <tr class="separator:ab955432280bf0a86704a8265789c9b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,6 +303,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaeff65fca2cc09092f82376cb911c019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9288e717e5c182db3a45d7687b604250" id="r_a9288e717e5c182db3a45d7687b604250"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9288e717e5c182db3a45d7687b604250">IsA</a> (const char *type)</td></tr>
 <tr class="separator:a9288e717e5c182db3a45d7687b604250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac064bcc3c0aab4b275719f3ae904a791" id="r_ac064bcc3c0aab4b275719f3ae904a791"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac064bcc3c0aab4b275719f3ae904a791">MergeCoincidentPointsOff</a> ()</td></tr>
+<tr class="separator:ac064bcc3c0aab4b275719f3ae904a791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be96d44cd35ce7e70795ccb300dfe77" id="r_a4be96d44cd35ce7e70795ccb300dfe77"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be96d44cd35ce7e70795ccb300dfe77">MergeCoincidentPointsOn</a> ()</td></tr>
+<tr class="separator:a4be96d44cd35ce7e70795ccb300dfe77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a747e14ee719478ff97e628269d3f954d" id="r_a747e14ee719478ff97e628269d3f954d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747e14ee719478ff97e628269d3f954d">PrintSelf</a> (ostream &amp;os, vtkIndent indent) override</td></tr>
 <tr class="separator:a747e14ee719478ff97e628269d3f954d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58ad8ed6d82bf617d978386c7ef6205c" id="r_a58ad8ed6d82bf617d978386c7ef6205c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ad8ed6d82bf617d978386c7ef6205c">ReadXMLAttributes</a> (const char **atts) override</td></tr>
@@ -330,6 +336,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a04025b556f1267602f3f2bbcac7a6e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ac2f5a6b4b0d41609d97bf4d41e941c" id="r_a5ac2f5a6b4b0d41609d97bf4d41e941c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ac2f5a6b4b0d41609d97bf4d41e941c">SetInputPolyDataConnection</a> (vtkAlgorithmOutput *polyDataConnection)</td></tr>
 <tr class="separator:a5ac2f5a6b4b0d41609d97bf4d41e941c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2170254dea7add077443ad4e4c01ef0" id="r_ad2170254dea7add077443ad4e4c01ef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2170254dea7add077443ad4e4c01ef0">SetMergeCoincidentPoints</a> (bool merge)</td></tr>
+<tr class="separator:ad2170254dea7add077443ad4e4c01ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf7b91a4a4db25759bed9965d8c40e8" id="r_a7bf7b91a4a4db25759bed9965d8c40e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bf7b91a4a4db25759bed9965d8c40e8">SetSliceDisplayMode</a> (int)</td></tr>
 <tr class="separator:a7bf7b91a4a4db25759bed9965d8c40e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af62e2b5a03e4d8f9c7675850eb95cb" id="r_a1af62e2b5a03e4d8f9c7675850eb95cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1af62e2b5a03e4d8f9c7675850eb95cb">SetSliceDisplayModeToDistanceEncodedProjection</a> ()</td></tr>
@@ -1094,6 +1102,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ac8bdde27bd1716ea511f90a8eeb10602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90573e0f7d536b2e3d6476d513f5ed8f" id="r_a90573e0f7d536b2e3d6476d513f5ed8f"><td class="memItemLeft" align="right" valign="top">vtkGeometryFilter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90573e0f7d536b2e3d6476d513f5ed8f">ConvertToPolyDataFilter</a></td></tr>
 <tr class="separator:a90573e0f7d536b2e3d6476d513f5ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1c1dd809969678f07576f60ca72bb6" id="r_ace1c1dd809969678f07576f60ca72bb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace1c1dd809969678f07576f60ca72bb6">MergeCoincidentPoints</a> { true }</td></tr>
+<tr class="separator:ace1c1dd809969678f07576f60ca72bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a81f573e360e5311de04d94fe21cbfe" id="r_a3a81f573e360e5311de04d94fe21cbfe"><td class="memItemLeft" align="right" valign="top">vtkStaticCleanUnstructuredGrid *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a81f573e360e5311de04d94fe21cbfe">MergeCoincidentPointsFilter</a></td></tr>
+<tr class="separator:a3a81f573e360e5311de04d94fe21cbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69f496ee28aa72e3cf1eea64af75ddb0" id="r_a69f496ee28aa72e3cf1eea64af75ddb0"><td class="memItemLeft" align="right" valign="top">vtkPassThrough *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f496ee28aa72e3cf1eea64af75ddb0">PassThrough</a></td></tr>
 <tr class="separator:a69f496ee28aa72e3cf1eea64af75ddb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88dbd509c8077a5559eb42ea6a8c2957" id="r_a88dbd509c8077a5559eb42ea6a8c2957"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88dbd509c8077a5559eb42ea6a8c2957">SliceDisplayMode</a></td></tr>
@@ -1260,7 +1272,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>MRML node to represent a display property of 3D surface model. </p>
 <p><a class="el" href="classvtkMRMLModelDisplayNode.html" title="MRML node to represent a display property of 3D surface model.">vtkMRMLModelDisplayNode</a> nodes stores display property of a 3D surface model including reference to ColorNode, texture, opacity, etc. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00036">36</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00037">37</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad664e596c041e0b42ba9ac72857155ab" name="ad664e596c041e0b42ba9ac72857155ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad664e596c041e0b42ba9ac72857155ab">&#9670;&#160;</a></span>Superclass</h2>
@@ -1274,7 +1286,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00040">40</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00041">41</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1312,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a36cda8b6d2d5e71298e6b3833f98aaf4aa7d3e001459ab8e59496fd5202fd132e" name="a36cda8b6d2d5e71298e6b3833f98aaf4aa7d3e001459ab8e59496fd5202fd132e"></a>SliceDisplayMode_Last&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00043">43</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00044">44</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -1992,6 +2004,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aceacad28891044fc3598bba2e01d4ba7" name="aceacad28891044fc3598bba2e01d4ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceacad28891044fc3598bba2e01d4ba7">&#9670;&#160;</a></span>GetMergeCoincidentPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool vtkMRMLModelDisplayNode::GetMergeCoincidentPoints </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab955432280bf0a86704a8265789c9b44" name="ab955432280bf0a86704a8265789c9b44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab955432280bf0a86704a8265789c9b44">&#9670;&#160;</a></span>GetNodeTagName()</h2>
 
@@ -2021,7 +2058,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classvtkMRMLSliceDisplayNode.html#a15dd9fbf033fad67a1ca80c71348fad4">vtkMRMLSliceDisplayNode</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00066">66</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00067">67</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -2405,6 +2442,56 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac064bcc3c0aab4b275719f3ae904a791" name="ac064bcc3c0aab4b275719f3ae904a791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac064bcc3c0aab4b275719f3ae904a791">&#9670;&#160;</a></span>MergeCoincidentPointsOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLModelDisplayNode::MergeCoincidentPointsOff </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4be96d44cd35ce7e70795ccb300dfe77" name="a4be96d44cd35ce7e70795ccb300dfe77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be96d44cd35ce7e70795ccb300dfe77">&#9670;&#160;</a></span>MergeCoincidentPointsOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void vtkMRMLModelDisplayNode::MergeCoincidentPointsOn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2938,6 +3025,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad2170254dea7add077443ad4e4c01ef0" name="ad2170254dea7add077443ad4e4c01ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2170254dea7add077443ad4e4c01ef0">&#9670;&#160;</a></span>SetMergeCoincidentPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vtkMRMLModelDisplayNode::SetMergeCoincidentPoints </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>merge</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Merge points that have the same position in a volumetric (unstructured grid) mesh. The surface of a volumetric mesh is made of cell faces that are not shared with other cells. If adjacent cells do not share points (for example, along boundaries between mesh partitions exported by a simulation software) then their common faces appear as internal surfaces, which are visible when the model is semi-transparent. Merging the coincident points connects the cells, which removes these internal surfaces. Point data of the merged points is taken from one of them. It has no effect on surface (polydata) meshes. Enabled by default. </p>
+
+</div>
+</div>
 <a id="a7bf7b91a4a4db25759bed9965d8c40e8" name="a7bf7b91a4a4db25759bed9965d8c40e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7bf7b91a4a4db25759bed9965d8c40e8">&#9670;&#160;</a></span>SetSliceDisplayMode()</h2>
 
@@ -3226,7 +3331,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Filter that changes the active scalar of the input mesh using the ActiveScalarName and ActiveAttributeLocation properties. This can be useful to specify what field array is the color array that needs to be used by the VTK mappers. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00204">204</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00217">217</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3250,7 +3355,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00233">233</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00252">252</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3274,7 +3379,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00238">238</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00257">257</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3298,7 +3403,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00236">236</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00255">255</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3322,7 +3427,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00235">235</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00254">254</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3346,7 +3451,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00237">237</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00256">256</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3371,7 +3476,56 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>When ThresholdFilter is applied to a surface mesh, the output is an unstructured grid. This filter can convert it back to a surface mesh (vtkPolyData). </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00220">220</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00233">233</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+
+</div>
+</div>
+<a id="ace1c1dd809969678f07576f60ca72bb6" name="ace1c1dd809969678f07576f60ca72bb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1c1dd809969678f07576f60ca72bb6">&#9670;&#160;</a></span>MergeCoincidentPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vtkMRMLModelDisplayNode::MergeCoincidentPoints { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00247">247</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+
+</div>
+</div>
+<a id="a3a81f573e360e5311de04d94fe21cbfe" name="a3a81f573e360e5311de04d94fe21cbfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a81f573e360e5311de04d94fe21cbfe">&#9670;&#160;</a></span>MergeCoincidentPointsFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkStaticCleanUnstructuredGrid* vtkMRMLModelDisplayNode::MergeCoincidentPointsFilter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Merges coincident points of unstructured grid meshes. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#ace1c1dd809969678f07576f60ca72bb6">MergeCoincidentPoints</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00237">237</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3396,7 +3550,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Default filter when assign attribute is not used, e.g ActiveScalarName is null. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a79ada26a431cb0a3a0f283201c73b161">AssignAttribute</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00209">209</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00222">222</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3420,7 +3574,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00228">228</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00245">245</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3445,7 +3599,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Indicated whether to threshold the output mesh of the display model node based on its active scalar values. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a4eaa67ce254b2b0871bde170fd91bdfa">ThresholdFilter</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00226">226</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00243">243</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3470,7 +3624,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Filters that thresholds the output mesh from the AssignAttribute filter when the Threshold option is set to true based on its scalar values. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a79ada26a431cb0a3a0f283201c73b161">AssignAttribute</a>, <a class="el" href="#aaf2054c8443972d52f50d97666619227">ThresholdEnabled</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00215">215</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00228">228</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3496,7 +3650,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Temporary variable to allow <a class="el" href="#abc571913cf4ed42f3e44396d0383bfef">GetThresholdRange()</a> method to return threshold range as a pointer. </p>
 
-<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00231">231</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html#l00250">250</a> of file <a class="el" href="vtkMRMLModelDisplayNode_8h_source.html">vtkMRMLModelDisplayNode.h</a>.</p>
 
 </div>
 </div>
@@ -3506,7 +3660,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 28 2026 03:12:29 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
+Generated on Wed Oct 28 2026 04:45:13 for Slicer by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.0
 </small></address>
 </div><!-- doc-content -->
 </body>
